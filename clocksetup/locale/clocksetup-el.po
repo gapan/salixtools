@@ -1,0 +1,132 @@
+# Greek translations for clocksetup package.
+# Copyright (C) 2009 George Vlahavas
+# This file is distributed under the same license as the clocksetup package.
+#  <vlahavas~at~gmail~dot~com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-04 01:20+0300\n"
+"PO-Revision-Date: 2009-08-04 01:46+0200\n"
+"Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
+"Language-Team: Greek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../clocksetup:56
+#: ../clocksetup:74
+#: ../clocksetup:98
+#: ../clocksetup:127
+#: ../clocksetup:156
+#, sh-format
+msgid "OK"
+msgstr "Εντάξει"
+
+#: ../clocksetup:57
+#: ../clocksetup:75
+#, sh-format
+msgid "Exit"
+msgstr "Έξοδος"
+
+#: ../clocksetup:58
+#: ../clocksetup:76
+#, sh-format
+msgid "System clock configuration"
+msgstr "Ρύθμιση ρολογιού συστήματος"
+
+#: ../clocksetup:63
+#: ../clocksetup:79
+#, sh-format
+msgid "Currently the clock is set to:"
+msgstr "Τρέχουσα ώρα:"
+
+#: ../clocksetup:65
+#: ../clocksetup:81
+#, sh-format
+msgid "Please choose an option:"
+msgstr "Επιλέξτε από τα παρακάτω:"
+
+#: ../clocksetup:67
+#: ../clocksetup:83
+#, sh-format
+msgid "Set the time manually"
+msgstr "Ρύθμιση της ώρας"
+
+#: ../clocksetup:68
+#: ../clocksetup:84
+#, sh-format
+msgid "Set the date manually"
+msgstr "Ρύθμιση της ημερομηνίας"
+
+#: ../clocksetup:69
+#: ../clocksetup:85
+#, sh-format
+msgid "Set the time zone"
+msgstr "Ρύθμιση ζώνης ώρας"
+
+#: ../clocksetup:70
+#: ../clocksetup:86
+#, sh-format
+msgid "Synchronize with Network Time Protocol (NTP)"
+msgstr "Συγχρονισμός ώρας από το διαδίκτυο (NTP)"
+
+#: ../clocksetup:97
+#, sh-format
+msgid "Clock adjustment"
+msgstr "Ρύθμιση της ώρας"
+
+#: ../clocksetup:99
+#: ../clocksetup:128
+#: ../clocksetup:157
+#, sh-format
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: ../clocksetup:102
+#, sh-format
+msgid "Please set the time..."
+msgstr "Ρυθμίστε την ώρα..."
+
+#: ../clocksetup:126
+#, sh-format
+msgid "Date adjustment"
+msgstr "Ρύθμιση της ημερομηνίας"
+
+#: ../clocksetup:131
+#, sh-format
+msgid "Please set the date..."
+msgstr "Ρυθμίστε την ημερομηνία..."
+
+#: ../clocksetup:158
+#, sh-format
+msgid "Time zone configuration"
+msgstr "Ρύθμιση ζώνης ώρας"
+
+#: ../clocksetup:161
+#, sh-format
+msgid "Please select your time zone..."
+msgstr "Επιλέξτε τη ζώνη ώρας"
+
+#: ../clocksetup:1885
+#, sh-format
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: ../clocksetup:1887
+#, sh-format
+msgid "You are already using the ntpd service and clock should be correct."
+msgstr "Χρησιμοποιείται η υπηρεσία ntpd και το ρολόι συστήματος πρέπει να είναι ήδη σωστό."
+
+#: ../clocksetup:1891
+#, sh-format
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: ../clocksetup:1893
+#, sh-format
+msgid "Something went wrong. Time was not adjusted."
+msgstr "Υπήρξε κάποιο σφάλμα. Η ώρα δεν ρυθμίστηκε."
+

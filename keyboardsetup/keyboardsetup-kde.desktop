@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Keyboard layout
+Name[de]=Tastaturlayout
+Name[el]=Διάταξη πληκτρολογίου
+Name[fr]=Configuration du clavier
+Name[fi]=Näppäimistö
+Comment=Keyboard configuration tool
+Comment[de]=Konfiguration des Tastaturlayouts
+Comment[el]=Ρύθμιση της διάταξης του πληκτρολογίου
+Comment[fr]=Utilitaire de configuration du clavier
+Comment[fi]=Näppäimistön asetus työkalu
+Exec=kdesu keyboardsetup
+Icon=keyboardsetup
+Terminal=false
+Type=Application
+Categories=Application;System;
+StartupNotify=true
+Encoding=UTF-8
+NoDisplay=false
+OnlyShowIn=KDE

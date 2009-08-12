@@ -1,0 +1,480 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-04 14:46+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Thorsten Mühlfelder <thenktor@gmx.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+
+#: ../usersetup:70
+#: ../usersetup:89
+#: ../usersetup:380
+#: ../usersetup:397
+#: ../usersetup:421
+#: ../usersetup:442
+#: ../usersetup:468
+#: ../usersetup:568
+#: ../usersetup:583
+#: ../usersetup:598
+#: ../usersetup:613
+#: ../usersetup:630
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: ../usersetup:71
+#: ../usersetup:90
+#: ../usersetup:123
+#: ../usersetup:141
+#: ../usersetup:159
+#: ../usersetup:177
+#: ../usersetup:195
+#: ../usersetup:214
+#: ../usersetup:252
+#: ../usersetup:271
+#: ../usersetup:314
+#, sh-format
+msgid "Exit"
+msgstr "Beenden"
+
+#: ../usersetup:72
+#: ../usersetup:91
+#, sh-format
+msgid "Users accounts management"
+msgstr "Benutzerverwaltung"
+
+#: ../usersetup:76
+#: ../usersetup:93
+#, sh-format
+msgid "Please choose an option..."
+msgstr "Bitte wählen Sie eine Option..."
+
+#: ../usersetup:78
+#: ../usersetup:95
+#, sh-format
+msgid "Create a new account"
+msgstr "Neuen Benutzer erstellen"
+
+#: ../usersetup:79
+#: ../usersetup:96
+#, sh-format
+msgid "Modify account properties"
+msgstr "Benutzereigenschaften verändern"
+
+#: ../usersetup:80
+#: ../usersetup:97
+#, sh-format
+msgid "Change account password"
+msgstr "Passwort ändern"
+
+#: ../usersetup:81
+#: ../usersetup:98
+#, sh-format
+msgid "Delete accounts"
+msgstr "Benutzer löschen"
+
+#: ../usersetup:82
+#: ../usersetup:99
+#, sh-format
+msgid "List groups and memberships"
+msgstr "Gruppen und Mitglieder auflisten"
+
+#: ../usersetup:83
+#: ../usersetup:100
+#, sh-format
+msgid "Create a new group"
+msgstr "Neue Gruppe erstellen"
+
+#: ../usersetup:84
+#: ../usersetup:101
+#, sh-format
+msgid "Change group name"
+msgstr "Gruppennamen ändern"
+
+#: ../usersetup:85
+#: ../usersetup:102
+#, sh-format
+msgid "Delete groups"
+msgstr "Gruppen löschen"
+
+#: ../usersetup:120
+#: ../usersetup:250
+#: ../usersetup:269
+#, sh-format
+msgid "Account properties"
+msgstr "Benutzereigenschaften"
+
+#: ../usersetup:122
+#: ../usersetup:313
+#, sh-format
+msgid "Properties"
+msgstr "Eigenschaften"
+
+#: ../usersetup:125
+#, sh-format
+msgid "Select an account to view its properties..."
+msgstr "Wählen Sie einen Benutzer, um dessen Eigenschaften anzusehen..."
+
+#: ../usersetup:138
+#, sh-format
+msgid "Account deletion"
+msgstr "Benutzer löschen"
+
+#: ../usersetup:140
+#: ../usersetup:213
+#: ../usersetup:750
+#: ../usersetup:814
+#, sh-format
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../usersetup:143
+#, sh-format
+msgid "Select an account to delete..."
+msgstr "Wählen Sie einen Benutzer zum Löschen..."
+
+#: ../usersetup:156
+#, sh-format
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: ../usersetup:158
+#, sh-format
+msgid "Change"
+msgstr "Ändern"
+
+#: ../usersetup:161
+#, sh-format
+msgid "Select an account to change password for..."
+msgstr "Wählen Sie einen Benutzer, um dessen Passwort zu ändern..."
+
+#: ../usersetup:174
+#, sh-format
+msgid "Group memberships"
+msgstr "Gruppenmitglieder"
+
+#: ../usersetup:176
+#, sh-format
+msgid "Memberships"
+msgstr "Mitglieder"
+
+#: ../usersetup:179
+#, sh-format
+msgid "Select a group to view memberships for..."
+msgstr "Wählen Sie eine Gruppe, um ihre Mitglieder anzusehen..."
+
+#: ../usersetup:192
+#: ../usersetup:628
+#, sh-format
+msgid "Group name"
+msgstr "Gruppenname"
+
+#: ../usersetup:194
+#: ../usersetup:251
+#: ../usersetup:270
+#, sh-format
+msgid "Modify"
+msgstr "Verändern"
+
+#: ../usersetup:197
+#, sh-format
+msgid "Select group name to modify..."
+msgstr "Wählen Sie eine Gruppe zum Verändern..."
+
+#: ../usersetup:211
+#, sh-format
+msgid "Group deletion"
+msgstr "Gruppe löschen"
+
+#: ../usersetup:216
+#, sh-format
+msgid "Select a group to delete..."
+msgstr "Wählen Sie eine Gruppe zum Löschen..."
+
+#: ../usersetup:255
+#: ../usersetup:273
+#, sh-format
+msgid "Detailed information for account"
+msgstr "Detailierte Informationen über den Benutzer"
+
+#: ../usersetup:257
+#: ../usersetup:275
+#: ../usersetup:566
+#: ../usersetup:678
+#, sh-format
+msgid "Full name"
+msgstr "Voller Name"
+
+#: ../usersetup:258
+#: ../usersetup:276
+#: ../usersetup:337
+#: ../usersetup:654
+#, sh-format
+msgid "Account name"
+msgstr "Benutzername"
+
+#: ../usersetup:259
+#: ../usersetup:277
+#: ../usersetup:658
+#, sh-format
+msgid "Main Group"
+msgstr "Hauptgruppe"
+
+#: ../usersetup:260
+#: ../usersetup:278
+#: ../usersetup:395
+#: ../usersetup:662
+#, sh-format
+msgid "Home directory"
+msgstr "Home Verzeichnis"
+
+#: ../usersetup:261
+#: ../usersetup:279
+#: ../usersetup:419
+#: ../usersetup:670
+#, sh-format
+msgid "Shell"
+msgstr "Shell"
+
+#: ../usersetup:262
+#: ../usersetup:280
+#: ../usersetup:666
+#, sh-format
+msgid "Other groups"
+msgstr "Andere Gruppen"
+
+#: ../usersetup:263
+#: ../usersetup:281
+#: ../usersetup:674
+#, sh-format
+msgid "Expiry"
+msgstr "Ablaufdatum"
+
+#: ../usersetup:264
+#: ../usersetup:282
+#: ../usersetup:682
+#, sh-format
+msgid "Office"
+msgstr "Büro"
+
+#: ../usersetup:265
+#: ../usersetup:283
+#: ../usersetup:596
+#: ../usersetup:686
+#, sh-format
+msgid "Work phone"
+msgstr "Telefon (Arbeit)"
+
+#: ../usersetup:266
+#: ../usersetup:284
+#: ../usersetup:611
+#: ../usersetup:690
+#, sh-format
+msgid "Home phone"
+msgstr "Telefon (Privat)"
+
+#: ../usersetup:312
+#: ../usersetup:323
+#, sh-format
+msgid "Group members"
+msgstr "Gruppenmitglieder"
+
+#: ../usersetup:317
+#, sh-format
+msgid "Members of group"
+msgstr "Mitglieder der Gruppe"
+
+#: ../usersetup:326
+#, sh-format
+msgid "There are no accounts in group"
+msgstr "Es sind keine Benutzer in der Gruppe"
+
+#: ../usersetup:340
+#, sh-format
+msgid "Enter the new account name..."
+msgstr "Geben Sie den neuen Benutzernamen ein..."
+
+#: ../usersetup:349
+#, sh-format
+msgid "An account name cannot contain a space, please correct it..."
+msgstr "Ein Benutzername darf kein Leerzeichen enthalten, bitte korrigieren Sie ihn..."
+
+#: ../usersetup:351
+#, sh-format
+msgid "The account name $user already exists, please choose another name..."
+msgstr "Der Benutzer $user existiert bereits, bitte wählen Sie einen anderen Namen..."
+
+#: ../usersetup:353
+#, sh-format
+msgid "The account name is empty, please correct it..."
+msgstr "Der Benutzername ist leer, bitte korrigieren Sie ihn..."
+
+#: ../usersetup:355
+#, sh-format
+msgid "An account name cannot begin with a number, please correct it..."
+msgstr "Der Benutzername darf nicht mit einer Zahl beginnen, bitte korrigieren Sie ihn..."
+
+#: ../usersetup:357
+#, sh-format
+msgid "An account name cannot contain uppercase characters, please correct it..."
+msgstr "Ein Benutzername darf keine Großbuchstaben enthalten, bitte korrigieren Sie ihn..."
+
+#: ../usersetup:359
+#, sh-format
+msgid "An account name cannot contain punctuation marks, please correct it..."
+msgstr "Ein Benutzername darf keine Satzzeichen enthalten, bitte korrigieren Sie ihn..."
+
+#: ../usersetup:378
+#, sh-format
+msgid "Group membership"
+msgstr "Gruppenmitglieder"
+
+#: ../usersetup:383
+#, sh-format
+msgid "Enter the main group for account"
+msgstr "Geben Sie die Hauptgruppe an für den Benutzer"
+
+#: ../usersetup:399
+#, sh-format
+msgid "Enter the home directory for account"
+msgstr "Geben Sie das Home-Verzeichnis an für den Benutzer"
+
+#: ../usersetup:424
+#, sh-format
+msgid "Enter the shell interpreter for account"
+msgstr "Geben Sie den Shell Interpreter an für den Benutzer"
+
+#: ../usersetup:440
+#, sh-format
+msgid "Additional group membership"
+msgstr "Zusätzliche Gruppenzugehörigkeit"
+
+#: ../usersetup:444
+#, sh-format
+msgid "Add some additional group to the list..."
+msgstr "Fügen Sie zusätzliche Gruppen zur Liste hinzu..."
+
+#: ../usersetup:466
+#, sh-format
+msgid "Expiry date"
+msgstr "Ablaufdatum"
+
+#: ../usersetup:469
+#, sh-format
+msgid "Never"
+msgstr "Niemals"
+
+#: ../usersetup:472
+#, sh-format
+msgid "Set the account expiry date..."
+msgstr "Setzen Sie das Ablaufdatum des Benutzers..."
+
+#: ../usersetup:490
+#: ../usersetup:543
+#, sh-format
+msgid "Password"
+msgstr "Passwort"
+
+#: ../usersetup:520
+#, sh-format
+msgid "Enter password for account"
+msgstr "Geben Sie das Passwort ein für den Benutzer"
+
+#: ../usersetup:521
+#, sh-format
+msgid "Passwords do not match, please try again..."
+msgstr "Die Passwörter stimmen nicht überein, bitte versuchen Sie es erneut..."
+
+#: ../usersetup:524
+#, sh-format
+msgid "Password is too short (${minlength} chars minimum), please try another one..."
+msgstr "Das Passwort ist zu kurz (mindestens ${minlength} Zeichen), bitte versuchen Sie ein anderes..."
+
+#: ../usersetup:527
+#, sh-format
+msgid "Enter password again for account"
+msgstr "Geben Sie das Passwort erneut ein für den Benutzer"
+
+#: ../usersetup:552
+#, sh-format
+msgid "Failed to set password for account"
+msgstr "Das Setzen des Passworts ist fehlgeschlagen für den Benutzer"
+
+#: ../usersetup:570
+#, sh-format
+msgid "Enter the full name of the user"
+msgstr "Geben Sie den vollen Namen des Benutzers ein"
+
+#: ../usersetup:581
+#, sh-format
+msgid "Office information"
+msgstr "Büroinformationen"
+
+#: ../usersetup:585
+#, sh-format
+msgid "Enter office information for the user"
+msgstr "Geben Sie die Büroinformationen ein für den Benutzer"
+
+#: ../usersetup:600
+#, sh-format
+msgid "Enter the work phone number of the user"
+msgstr "Geben Sie die Arbeitsplatz-Telefonnummer ein für den Benutzer"
+
+#: ../usersetup:615
+#, sh-format
+msgid "Enter the home phone number of the user"
+msgstr "Geben Sie die private Telefonnummer ein für den Benutzer"
+
+#: ../usersetup:632
+#, sh-format
+msgid "Enter the new group name"
+msgstr "Geben Sie den neuen Gruppennamen ein"
+
+#: ../usersetup:738
+#: ../usersetup:747
+#: ../usersetup:811
+#, sh-format
+msgid "Warning"
+msgstr "Warnung"
+
+#: ../usersetup:747
+#, sh-format
+msgid "You cannot delete the account"
+msgstr "Sie können den Benutzer nicht löschen:"
+
+#: ../usersetup:749
+#, sh-format
+msgid "Confirm user deletion"
+msgstr "Bestätigen Sie das Löschen des Benutzers"
+
+#: ../usersetup:751
+#: ../usersetup:815
+#, sh-format
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../usersetup:753
+#, sh-format
+msgid "Are you sure you want to delete user $user?"
+msgstr "Sind Sie sicher, dass Sie den Benutzer $user löschen wollen?"
+
+#: ../usersetup:811
+#, sh-format
+msgid "You cannot delete the group"
+msgstr "Sie können die Gruppe nicht löschen:"
+
+#: ../usersetup:813
+#, sh-format
+msgid "Confirm group deletion"
+msgstr "Bestätigen Sie das Löschen der Gruppe"
+
+#: ../usersetup:817
+#, sh-format
+msgid "Are you sure you want to delete the $group group?"
+msgstr "Sind Sie sicher, dass Sie die Gruppe $group löschen wollen?"
+

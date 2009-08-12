@@ -1,0 +1,132 @@
+# French translations for clocksetup package
+# Traductions françaises du paquet clocksetup.
+# Copyright (C) 2009 Pierrick Le Brun
+# This file is distributed under the same license as the clocksetup package.
+# Pierrick Le Brun <akuna~at~free~dot~fr>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: clocksetup 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-04 01:20+0300\n"
+"PO-Revision-Date: 2009-08-10 12:29+0100\n"
+"Last-Translator: Pierrick Le Brun <akuna~at~free~dot~fr>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../clocksetup:56
+#: ../clocksetup:74
+#: ../clocksetup:98
+#: ../clocksetup:127
+#: ../clocksetup:156
+#, sh-format
+msgid "OK"
+msgstr "Valider"
+
+#: ../clocksetup:57
+#: ../clocksetup:75
+#, sh-format
+msgid "Exit"
+msgstr "Quitter"
+
+#: ../clocksetup:58
+#: ../clocksetup:76
+#, sh-format
+msgid "System clock configuration"
+msgstr "Configuration de l'horloge du système"
+
+#: ../clocksetup:63
+#: ../clocksetup:79
+msgid "Currently the clock is set to:"
+msgstr "Réglage actuel:"
+
+#: ../clocksetup:65
+#: ../clocksetup:81
+#, sh-format
+msgid "Please choose an option:"
+msgstr "Veuillez choisir une option:"
+
+#: ../clocksetup:67
+#: ../clocksetup:83
+#, sh-format
+msgid "Set the time manually"
+msgstr "Configuration manuelle de l'heure"
+
+#: ../clocksetup:68
+#: ../clocksetup:84
+#, sh-format
+msgid "Set the date manually"
+msgstr "Configuration manuelle de la date"
+
+#: ../clocksetup:69
+#: ../clocksetup:85
+#, sh-format
+msgid "Set the time zone"
+msgstr "Configuration du fuseau horaire"
+
+#: ../clocksetup:70
+#: ../clocksetup:86
+#, sh-format
+msgid "Synchronize with Network Time Protocol (NTP)"
+msgstr "Synchonisation Internet au Temps Universel Coordonné (NTP)"
+
+#: ../clocksetup:97
+#, sh-format
+msgid "Clock adjustment"
+msgstr "Réglage de l'heure"
+
+#: ../clocksetup:99
+#: ../clocksetup:128
+#: ../clocksetup:157
+#, sh-format
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../clocksetup:102
+#, sh-format
+msgid "Please set the time..."
+msgstr "Veuillez régler l'heure..."
+
+#: ../clocksetup:126
+#, sh-format
+msgid "Date adjustment"
+msgstr "Définir la date"
+
+#: ../clocksetup:131
+#, sh-format
+msgid "Please set the date..."
+msgstr "Veuillez ajuster la date..."
+
+#: ../clocksetup:158
+#, sh-format
+msgid "Time zone configuration"
+msgstr "Configuration du fuseau horaire"
+
+#: ../clocksetup:161
+#, sh-format
+msgid "Please select your time zone..."
+msgstr "Veuillez choisir votre fuseau horaire..."
+
+#: ../clocksetup:1885
+#, sh-format
+msgid "Warning"
+msgstr "Attention"
+
+#: ../clocksetup:1887
+#, sh-format
+msgid "You are already using the ntpd service and clock should be correct."
+msgstr "Vous utilisez déjà le service NTP et l'horloge devrait être à l'heure"
+
+#: ../clocksetup:1891
+#, sh-format
+msgid "Error"
+msgstr "Erreur"
+
+#: ../clocksetup:1893
+#, sh-format
+msgid "Something went wrong. Time was not adjusted."
+msgstr "Désolé... Impossible de régler l'horloge."
+

@@ -1,0 +1,35 @@
+Version 4.8 - 11/08/2009 - GV
+- "loadkeys -u" is used by default
+
+Version 4.7 - 10/08/2009 - GV
+- fixed utf8 detection
+- updated French translation
+
+Version 4.6 - 09/08/2009 - GV
+- added Finnish translation
+
+Version 4.5 - 04/08/2009 - GV
+- fixed wrong location reference of keymaps file
+
+Version 4.4 - 04/08/2009 - GV
+- utf8 check
+- added keyboardsetup-kde.desktop file
+
+Version 4.3 - 01/08/2009 - GV
+- Added German & Greek translation
+- Improved fdi policy configuration					
+- Added non-interactive command line arguments
+- Removed hard-coded keyboard layout						
+- General code cleanup + improvements					
+
+Version 4.2 - 30/06/2009 - PLB
+- Added localization support 
+- Added French translation							
+- Replaced xorg configuration with fdi policy rule
+
+Version 4.1 - 15/04/2008 - JPG
+- Added Latvian 
+- Improved Russian
+
+Version 0.1 - 17/06/2006 - JPG
+- Original code as keyboardconfig for Zenwalk

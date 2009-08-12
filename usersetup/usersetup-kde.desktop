@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Users Profiles
+Name[de]=Benutzerprofile
+Name[el]=Διαχείριση χρηστών
+Name[fr]=Gestion des utilisateurs
+Name[fi]=Käyttäjien profiilit
+Comment=Users management tool
+Comment[de]=Benutzer verwalten
+Comment[el]=Εργαλέιο για τη διαχείριση των χρηστών του συστήματος
+Comment[fr]=Utilitaire de gestion des utilisateurs
+Comment[fi]=Käyttäjien hallinta työkalu 
+Exec=kdesu usersetup
+Icon=usersetup
+Terminal=false
+Type=Application
+Categories=Application;System;
+StartupNotify=true
+Encoding=UTF-8
+NoDisplay=false
+OnlyShowIn=KDE
