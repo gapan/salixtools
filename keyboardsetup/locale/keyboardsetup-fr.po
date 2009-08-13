@@ -68,6 +68,6 @@ msgstr "Quitter"
 #: ../keyboardsetup:148
 #: ../keyboardsetup:158
 #, sh-format
-msgid "Please select your prefered keyboard map:"
+msgid "Please select your preferred keyboard map:"
 msgstr "Veuillez sélectionner votre disposition de clavier:"
 

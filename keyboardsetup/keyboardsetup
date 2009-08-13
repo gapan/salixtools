@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script configures rc.keymap and hal fdi keyboard policy with prefered keyboard map. 
+# This script configures rc.keymap and hal fdi keyboard policy with preferred keyboard map. 
 
 # This program is free software; you can redistribute it and/or modify it 
 # under the terms of the GNU General Public License as published by the
@@ -144,7 +144,7 @@ EORC
 	--icon \"$iconpath\" \
 	--check \"numlock\" \"$numprecheck\" \
 	--menu \
-	\"\\n`eval_gettext 'Please select your prefered keyboard map:'`\" 0 0 11 "$list" )"
+	\"\\n`eval_gettext 'Please select your preferred keyboard map:'`\" 0 0 11 "$list" )"
 	else
 	answer="$(eval $dialog \
 	--stdout \
@@ -154,7 +154,7 @@ EORC
 	--cancel-label \"`eval_gettext 'Exit'`\" \
 	--icon \"$iconpath\" \
 	--menu \
-	\"\\n        `eval_gettext 'Please select your prefered keyboard map:'`\" 20 80 11 "$list" )"
+	\"\\n        `eval_gettext 'Please select your preferred keyboard map:'`\" 20 80 11 "$list" )"
 	fi
 
 	# Don't do anything if Cancel or the close button was pressed

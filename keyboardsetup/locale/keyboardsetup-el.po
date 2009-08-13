@@ -71,5 +71,5 @@ msgstr "Έξοδος"
 
 #: ../keyboardsetup:148 ../keyboardsetup:158
 #, sh-format
-msgid "Please select your prefered keyboard map:"
+msgid "Please select your preferred keyboard map:"
 msgstr "Παρακαλώ επιλέξτε την επιθυμητή διάταξη πληκτρολογίου:"
