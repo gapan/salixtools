@@ -1,4 +1,5 @@
 #!/bin/sh
+# install script for salixtools
 
 install -d -m 755 $DESTDIR/usr/sbin
 install -d -m 755 $DESTDIR/usr/share/applications
