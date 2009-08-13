@@ -34,6 +34,6 @@ msgstr "Nykyinen kieliasetus on $currentlocale."
 
 #: ../localesetup:63
 #, sh-format
-msgid "Please select your prefered system language:"
+msgid "Please select your preferred system language:"
 msgstr "Ole hyvä ja valitse järjestelmäsi oletuskieli:"
 

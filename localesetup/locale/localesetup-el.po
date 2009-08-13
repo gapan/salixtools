@@ -38,5 +38,5 @@ msgstr "Η τρέχουσα γλώσσα συστήματος είναι $curren
 
 #: ../localesetup:63
 #, sh-format
-msgid "Please select your prefered system language:"
+msgid "Please select your preferred system language:"
 msgstr "Παρακαλώ επιλέξτε τη γλώσσα συστήματος."

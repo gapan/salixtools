@@ -39,6 +39,6 @@ msgstr "La locale actuelle du système est $currentlocale."
 
 #: ../localesetup:63
 #, sh-format
-msgid "Please select your prefered system language:"
+msgid "Please select your preferred system language:"
 msgstr "Veuillez sélectionner votre nouvelle langue:"
 
