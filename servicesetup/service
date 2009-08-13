@@ -1,0 +1,113 @@
+#!/bin/sh
+# service:  start/stop/restart/list/activate/deactivate system services 
+#
+# This program is free software; you can redistribute 
+# it and/or modify it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or (at your option) 
+# any later version. Please take a look at http://www.gnu.org/copyleft/gpl.htm
+
+# Original code from Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
+# Modified by George Vlahavas <vlahavas~at~gmail~dot~com>
+
+# Translations only work with utf8 locales
+if [ ! `echo $LANG | grep -i utf` ]; then
+        LANG=C
+fi
+
+# Gettext internationalization
+export TEXTDOMAIN="usersetup"
+export TEXTDOMAINDIR="/usr/share/locale"
+. gettext.sh
+
+# Some globals
+rcdir='/etc/rc.d'
+descdir='/etc/rc.d/desc.d'
+
+# FIXME
+#. /etc/shell-colors
+
+blacklist(){
+	echo $1 | grep -f /etc/svcblklist
+}
+
+serviceinfo(){
+sed -n "s/^${1}:\(.*\):.*$/\1/p" $descdir/*.txt
+}
+
+getdaemon(){
+  daemon=$(sed -n "s/^${1}:.*:\(.*\)$/\1/p" $descdir/*.txt)
+  pidof -x $daemon
+}
+
+start() {
+  chmod 755 $rcdir/rc.$1 
+  if [ -r $rcdir/rc.$1 ]; then
+    echo -e "`eval_gettext '${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}$1${COLOR_RESET} service'`" 
+    [ ! "$(getdaemon $1)" ] && /bin/sh $rcdir/rc.$1 start 1>&2 2>/dev/null &
+    sleep 1
+  else
+      echo -e "`eval_gettext 'No ${BOLDWHITE}$1${COLOR_RESET} service\`"
+  fi
+}
+
+stop() {
+  if [ -r $rcdir/rc.$1 ]; then
+    echo -e "`eval_gettext '${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}$1${COLOR_RESET} service'`"
+    [ "$(getdaemon $1)" ] && /bin/sh $rcdir/rc.$1 stop 1>&2 2>/dev/null &
+    sleep 1
+    kill -9 $(getdaemon $1) 1>&2 2>/dev/null 
+    chmod 644 $rcdir/rc.$1 
+  else
+      echo -e "No ${BOLDWHITE}$1${COLOR_RESET} service"
+  fi
+}
+
+restart() {
+  chmod 755 $rcdir/rc.$1 
+  if [ -r $rcdir/rc.$1 ]; then
+    echo -e "`eval_gettext '${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}$1${COLOR_RESET} service'`" 
+    if grep -q "^[^#]*['\"]restart[\"'][:space:]*)[:space:]*$" $rcdir/rc.$1 ; then
+    	/bin/sh $rcdir/rc.$1 restart 1>&2 2>/dev/null &
+    	sleep 2
+    else
+		/bin/sh $rcdir/rc.$1 stop 1>&2 2>/dev/null 
+		sleep 2
+		kill -9 $(getdaemon $1) 1>&2 2>/dev/null 
+		/bin/sh $rcdir/rc.$1 start 1>&2 2>/dev/null 
+    fi
+  else
+      echo -e "`eval_gettext 'No ${BOLDWHITE}$1${COLOR_RESET} service'`"
+  fi
+}
+
+list() {
+  for rcscript in $rcdir/rc.* ; do
+    [ "$(blacklist $rcscript)" ] && continue
+    service="$(basename $rcscript | sed -e 's/^rc\.\(.*\)$/\1/')"
+    desc="$(serviceinfo $service)"
+    [ ! "$desc" ] && desc="The $service service"
+    if [ -x $rcscript ]; then
+      echo -e "`eval_gettext '${BOLDWHITE}$service${COLOR_RESET} ($desc) : ${BOLDCYAN}[on]${COLOR_RESET}'`"
+    else
+      echo -e "`eval_gettext '${BOLDWHITE}$service${COLOR_RESET} ($desc) : ${BOLDYELLOW}[off]${COLOR_RESET}'`"
+    fi
+  done
+}
+
+case "$1" in
+'start')
+  start $2
+  ;;
+'stop')
+  stop $2
+  ;;
+'restart')
+  restart $2
+  ;;
+'list')
+  list
+  ;;
+*)
+  echo "`eval_gettext 'usage : $0 start|stop|restart|list [service_name]'`"
+esac
+
