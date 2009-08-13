@@ -28,4 +28,5 @@ uwd:Udev Watchdog Daemon for removable devices:uwd
 qemu:The QEMU Accelerator module:null
 avahidaemon:Avahi mDNS/DNS-SD Daemon:avahi-daemon
 hald:Hardware Abstraction Layer:hald
+vboxdrv:Sun's VirtualBox Linux kernel driver:null
 wicd:A complete network connection manager:/usr/lib/wicd/wicd-daemon.py

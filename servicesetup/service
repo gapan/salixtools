@@ -23,11 +23,13 @@ export TEXTDOMAINDIR="/usr/share/locale"
 rcdir='/etc/rc.d'
 descdir='/etc/rc.d/desc.d'
 
-# FIXME
-#. /etc/shell-colors
+. /usr/share/salixtools/servicesetup/shell-colours
+
+actionname=$1
+servicename=$2
 
 blacklist(){
-	echo $1 | grep -f /etc/svcblklist
+	echo $1 | grep -f /usr/share/salixtools/servicesetup/service-blacklist
 }
 
 serviceinfo(){
@@ -35,48 +37,48 @@ sed -n "s/^${1}:\(.*\):.*$/\1/p" $descdir/*.txt
 }
 
 getdaemon(){
-  daemon=$(sed -n "s/^${1}:.*:\(.*\)$/\1/p" $descdir/*.txt)
+  daemon=$(sed -n "s/^${actionname}:.*:\(.*\)$/\1/p" $descdir/*.txt)
   pidof -x $daemon
 }
 
 start() {
-  chmod 755 $rcdir/rc.$1 
-  if [ -r $rcdir/rc.$1 ]; then
-    echo -e "`eval_gettext '${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}$1${COLOR_RESET} service'`" 
-    [ ! "$(getdaemon $1)" ] && /bin/sh $rcdir/rc.$1 start 1>&2 2>/dev/null &
+  chmod 755 $rcdir/rc.$servicename 
+  if [ -r $rcdir/rc.$servicename ]; then
+    echo -e "`eval_gettext '${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service'`" 
+    [ ! "$(getdaemon ${servicename})" ] && /bin/sh $rcdir/rc.${servicename} start 1>&2 2>/dev/null &
     sleep 1
   else
-      echo -e "`eval_gettext 'No ${BOLDWHITE}$1${COLOR_RESET} service\`"
+      echo -e "`eval_gettext 'No ${BOLDWHITE}${servicename}${COLOR_RESET} service'`"
   fi
 }
 
 stop() {
-  if [ -r $rcdir/rc.$1 ]; then
-    echo -e "`eval_gettext '${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}$1${COLOR_RESET} service'`"
-    [ "$(getdaemon $1)" ] && /bin/sh $rcdir/rc.$1 stop 1>&2 2>/dev/null &
+  if [ -r $rcdir/rc.${servicename} ]; then
+    echo -e "`eval_gettext '${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service'`"
+    [ "$(getdaemon ${servicename})" ] && /bin/sh $rcdir/rc.${servicename} stop 1>&2 2>/dev/null &
     sleep 1
-    kill -9 $(getdaemon $1) 1>&2 2>/dev/null 
-    chmod 644 $rcdir/rc.$1 
+    kill -9 $(getdaemon ${servicename}) 1>&2 2>/dev/null 
+    chmod 644 $rcdir/rc.${servicename} 
   else
-      echo -e "No ${BOLDWHITE}$1${COLOR_RESET} service"
+      echo -e "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
   fi
 }
 
 restart() {
-  chmod 755 $rcdir/rc.$1 
-  if [ -r $rcdir/rc.$1 ]; then
-    echo -e "`eval_gettext '${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}$1${COLOR_RESET} service'`" 
-    if grep -q "^[^#]*['\"]restart[\"'][:space:]*)[:space:]*$" $rcdir/rc.$1 ; then
-    	/bin/sh $rcdir/rc.$1 restart 1>&2 2>/dev/null &
+  chmod 755 $rcdir/rc.${servicename}
+  if [ -r $rcdir/rc.${servicename} ]; then
+    echo -e "`eval_gettext '${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service'`" 
+    if grep -q "^[^#]*['\"]restart[\"'][:space:]*)[:space:]*$" $rcdir/rc.${servicename} ; then
+    	/bin/sh $rcdir/rc.${servicename} restart 1>&2 2>/dev/null &
     	sleep 2
     else
-		/bin/sh $rcdir/rc.$1 stop 1>&2 2>/dev/null 
+		/bin/sh $rcdir/rc.${servicename} stop 1>&2 2>/dev/null 
 		sleep 2
-		kill -9 $(getdaemon $1) 1>&2 2>/dev/null 
-		/bin/sh $rcdir/rc.$1 start 1>&2 2>/dev/null 
+		kill -9 $(getdaemon ${servicename}) 1>&2 2>/dev/null 
+		/bin/sh $rcdir/rc.${servicename} start 1>&2 2>/dev/null 
     fi
   else
-      echo -e "`eval_gettext 'No ${BOLDWHITE}$1${COLOR_RESET} service'`"
+      echo -e "`eval_gettext 'No ${BOLDWHITE}${servicename}${COLOR_RESET} service'`"
   fi
 }
 
@@ -85,7 +87,7 @@ list() {
     [ "$(blacklist $rcscript)" ] && continue
     service="$(basename $rcscript | sed -e 's/^rc\.\(.*\)$/\1/')"
     desc="$(serviceinfo $service)"
-    [ ! "$desc" ] && desc="The $service service"
+    [ ! "$desc" ] && desc="`eval_gettext 'The $service service'`"
     if [ -x $rcscript ]; then
       echo -e "`eval_gettext '${BOLDWHITE}$service${COLOR_RESET} ($desc) : ${BOLDCYAN}[on]${COLOR_RESET}'`"
     else
@@ -94,20 +96,20 @@ list() {
   done
 }
 
-case "$1" in
+case "${actionname}" in
 'start')
-  start $2
+  start ${servicename}
   ;;
 'stop')
-  stop $2
+  stop ${servicename}
   ;;
 'restart')
-  restart $2
+  restart ${servicename}
   ;;
 'list')
   list
   ;;
 *)
-  echo "`eval_gettext 'usage : $0 start|stop|restart|list [service_name]'`"
+  echo "`eval_gettext 'usage : service start|stop|restart|list [service_name]'`"
 esac
 
