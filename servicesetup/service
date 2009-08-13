@@ -89,9 +89,9 @@ list() {
     desc="$(serviceinfo $service)"
     [ ! "$desc" ] && desc="`eval_gettext 'The $service service'`"
     if [ -x $rcscript ]; then
-      echo -e "`eval_gettext '${BOLDWHITE}$service${COLOR_RESET} ($desc) : ${BOLDCYAN}[on]${COLOR_RESET}'`"
+      echo -e "${BOLDWHITE}$service${COLOR_RESET} ($desc) : ${BOLDCYAN}[on]${COLOR_RESET}"
     else
-      echo -e "`eval_gettext '${BOLDWHITE}$service${COLOR_RESET} ($desc) : ${BOLDYELLOW}[off]${COLOR_RESET}'`"
+      echo -e "${BOLDWHITE}$service${COLOR_RESET} ($desc) : ${BOLDYELLOW}[off]${COLOR_RESET}"
     fi
   done
 }
