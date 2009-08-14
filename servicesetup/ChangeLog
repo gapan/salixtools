@@ -1,14 +1,25 @@
- 02/09/2005
-  * Added Xdialog support 
-    for Zenwalk
- 01/11/2005
-  * Code cleaning and icon added 
- 14/04/2006
-  * Full rewriting, added serviceinfo database 
- 22/09/2006
-  * added external/dynamic serviceinfo database 
- 07/06/2007
-  * huge speed improvement, blacklist list is now in /etc/svcblklist.
+Version 0.1 - 2009-08-14
+- Added support for gettext
+
+=======================================
+
+serviceconfig changelog:
+
+02/09/2005
+- Added Xdialog support for Zenwalk
+
+01/11/2005
+- Code cleaning and icon added 
+
+14/04/2006
+- Full rewriting, added serviceinfo database 
+
+22/09/2006
+- added external/dynamic serviceinfo database 
+
+07/06/2007
+- huge speed improvement, blacklist list is now in /etc/svcblklist.
 --Teran McKinney (sega01)
- 10/06/2007
-  * real time daemon status handling -- jp
+
+10/06/2007
+- real time daemon status handling -- jp
