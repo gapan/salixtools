@@ -15,7 +15,7 @@ if [ ! `echo $LANG | grep -i utf` ]; then
 fi
 
 # Gettext internationalization
-export TEXTDOMAIN="usersetup"
+export TEXTDOMAIN="service"
 export TEXTDOMAINDIR="/usr/share/locale"
 . gettext.sh
 
@@ -60,7 +60,7 @@ stop() {
     kill -9 $(getdaemon ${servicename}) 1>&2 2>/dev/null 
     chmod 644 $rcdir/rc.${servicename} 
   else
-      echo -e "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
+      echo -e "`eval_gettext 'No ${BOLDWHITE}${servicename}${COLOR_RESET} service'`"
   fi
 }
 

@@ -17,7 +17,7 @@ if [ ! `echo $LANG | grep -i utf` ]; then
 fi
 
 # Gettext internationalization
-export TEXTDOMAIN="usersetup"
+export TEXTDOMAIN="servicesetup"
 export TEXTDOMAINDIR="/usr/share/locale"
 . gettext.sh
 
