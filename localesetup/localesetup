@@ -60,7 +60,7 @@ locale="$(eval $dialog \
 --icon \"$iconpath\" \
 --menu \
 \"\\n`eval_gettext 'The current locale is $currentlocale.'` \\n\\n\
-`eval_gettext 'Please select your prefered system language:'`\" 0 0 11 \
+`eval_gettext 'Please select your preferred system language:'`\" 0 0 11 \
 "${list}"
 )"
 
