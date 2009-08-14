@@ -16,9 +16,12 @@ rc.keymap
 sample
 font
 serial
+sysvinit
 udev
 acpid
 howl
+rc.alsa
+rc.wicd
 rc.wireless
 rc.uwd
 rc.services

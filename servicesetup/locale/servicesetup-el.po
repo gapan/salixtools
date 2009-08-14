@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: servicesetup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
+"Language-Team:  <vlahavas~at~gmail~dot~com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: 1\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: servicesetup:79
+#, sh-format
+msgid "Startup services"
+msgstr "Υπηρεσίες συστήματος"
+
+#: servicesetup:81
+#, sh-format
+msgid "OK"
+msgstr "Εντάξει"
+
+#: servicesetup:82
+#, sh-format
+msgid "Exit"
+msgstr "Έξοδος"
+
+#: servicesetup:85
+#, sh-format
+msgid "The selected services will be started at boot time:"
+msgstr "Οι επιλεγμένες υπηρεσίες θα ενεργοποιηθούν με την εκκίνηση του υπολογιστή:"
+
+#: servicesetup:94
+#, sh-format
+msgid "The $service service"
+msgstr "Η υπηρεσία $service"
+
