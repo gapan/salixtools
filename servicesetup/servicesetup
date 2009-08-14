@@ -1,0 +1,119 @@
+#!/bin/sh
+
+# This program is free software;
+# you can redistribute it and/or modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2 of the License,
+# or (at your option) any later version. Please take a look at http://www.gnu.org/copyleft/gpl.htm
+#
+# Select/deselect system daemons (services)"
+#
+# Original code from serviceconfig, Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
+# Modified by: Teran McKinney (sega01).
+# Modified by: George Vlahavas <vlahavas~at~gmail~dot~com>
+
+# Translations only work with utf8 locales
+if [ ! `echo $LANG | grep -i utf` ]; then
+        LANG=C
+fi
+
+# Gettext internationalization
+export TEXTDOMAIN="usersetup"
+export TEXTDOMAINDIR="/usr/share/locale"
+. gettext.sh
+
+# Take a look at "Xdialog" and use it instead of "dialog" in case X is running
+if [[ "$DISPLAY" && "$(which Xdialog 2>&1 | grep -v "which: no")" ]]; then
+        dialog="Xdialog --wrap --left"
+        shortttl='3000'
+        longttl='8000'
+        xflag='yes'
+else
+        dialog="dialog"
+        shortttl=''
+        longttl=''
+        xflag='no'
+fi
+
+# Path needs to be extended in case you're only half a root :)
+export PATH="/usr/sbin:/sbin:${PATH}"
+
+# Path to icon
+iconpath="/usr/share/salixtools/pixmaps/"
+
+# Some globals
+rcdir='/etc/rc.d'
+descdir='/etc/rc.d/desc.d'
+
+checkstatus(){
+  if [ -x $rcdir/rc.$1 ]; then
+    echo "on"
+  else
+    echo "off"
+  fi
+}
+
+checkrun(){
+  if [ -x $rcdir/rc.$1 ]; then
+    echo "on"
+  else
+    echo "off"
+  fi
+}
+
+serviceinfo(){
+sed -n "s/^${1}:\(.*\):.*$/\1/p" $descdir/*.txt
+}
+
+
+getdaemon(){
+  daemon=$(sed -n "s/^${1}:.*:\(.*\)$/\1/p" $descdir/*.txt)
+  pidof -x $daemon
+}
+
+blacklist(){
+	echo $1 | grep -f /usr/share/salixtools/servicesetup/service-blacklist
+}
+
+dialogscript="${dialog} \
+--stdout \
+--title \"`eval_gettext 'Startup services'`\" \
+--icon \"$iconpath/servicesetup.png\" \
+--ok-label \"`eval_gettext 'OK'`\" \
+--cancel-label \"`eval_gettext 'Exit'`\" \
+--item-help \
+--checklist \
+\"`eval_gettext 'The selected services will be started at boot time:'`\" \
+25 80 14 "
+
+for rcscript in $rcdir/rc.* ; do
+  [ "$(blacklist $rcscript)" ] && continue
+  service="$(basename $rcscript | sed -e 's/^rc\.\(.*\)$/\1/')"
+  servicelist="${servicelist} $service"
+  rcstatus="$(checkstatus $service)"
+  desc="$(serviceinfo $service)"
+  [ ! "$desc" ] && desc="The $service service"
+  dialogscript="${dialogscript} \"$service\" \"$desc\" $rcstatus \"\""
+done
+
+# Execute the dialog script
+reply=$(eval "$dialogscript")
+
+if [ "$reply" ]; then
+  for service in $servicelist ; do
+    if [ "$(echo $reply | grep -w $service)" ] ; then
+      chmod 755 $rcdir/rc.$service 1>&2 2>/dev/null
+      if [ "$1" != "passive" ]; then
+        [ ! "$(getdaemon $service)" ] && /bin/sh $rcdir/rc.$service start 1>&2 2>/dev/null &
+      fi
+    else
+      chmod 644 $rcdir/rc.$service 1>&2 2>/dev/null
+      if [ "$1" != "passive" ]; then
+        [ "$(getdaemon $service)" ] && /bin/sh $rcdir/rc.$service stop 1>&2 2>/dev/null &
+        kill -9 $(getdaemon $service) 1>&2 2>/dev/null 
+      fi
+    fi
+  done
+fi
+
+# end
+
