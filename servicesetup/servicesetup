@@ -91,7 +91,7 @@ for rcscript in $rcdir/rc.* ; do
   servicelist="${servicelist} $service"
   rcstatus="$(checkstatus $service)"
   desc="$(serviceinfo $service)"
-  [ ! "$desc" ] && desc="The $service service"
+  [ ! "$desc" ] && desc="`eval_gettext 'The $service service'`"
   dialogscript="${dialogscript} \"$service\" \"$desc\" $rcstatus \"\""
 done
 
@@ -103,12 +103,16 @@ if [ "$reply" ]; then
     if [ "$(echo $reply | grep -w $service)" ] ; then
       chmod 755 $rcdir/rc.$service 1>&2 2>/dev/null
       if [ "$1" != "passive" ]; then
-        [ ! "$(getdaemon $service)" ] && /bin/sh $rcdir/rc.$service start 1>&2 2>/dev/null &
+        if [ ! "$(getdaemon $service)" ]; then
+			/bin/sh $rcdir/rc.$service start 1>&2 2>/dev/null &
+		fi
       fi
     else
       chmod 644 $rcdir/rc.$service 1>&2 2>/dev/null
       if [ "$1" != "passive" ]; then
-        [ "$(getdaemon $service)" ] && /bin/sh $rcdir/rc.$service stop 1>&2 2>/dev/null &
+        if [ "$(getdaemon $service)" ]; then 
+			/bin/sh $rcdir/rc.$service stop 1>&2 2>/dev/null &
+		fi
         kill -9 $(getdaemon $service) 1>&2 2>/dev/null 
       fi
     fi
