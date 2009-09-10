@@ -363,7 +363,6 @@ setusername() {
         groupadd $membershipgroup 2>/dev/null
       done
       useradd -s $defaultshell -g $defaultgroup -m -k $skeleton -G $useraddmembership "$user" 2>/dev/null
-      # echo "useradd -s $defaultshell -g $defaultgroup -m -k $skeleton -G $useraddmembership"
     fi
   fi
   current=""
@@ -401,6 +400,9 @@ sethomedir() {
   if [ "$homedir" ]; then
     usermod -d $homedir $user 2>/dev/null
     if [ -e $homedir ]; then
+      chown -R $user:$group $homedir 2>/dev/null
+    elif [ -e $current ]; then
+      mv $current $homedir 2>/dev/null
       chown -R $user:$group $homedir 2>/dev/null
     else
       cp -rf $skeleton $homedir 2>/dev/null
