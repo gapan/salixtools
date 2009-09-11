@@ -1,3 +1,7 @@
+Version 2.7 - 11/09/2009 - GV
+- If home dir has a different name that the user name, two home
+  directories were created.
+
 Version 2.6 - 10/08/2009 - GV
 - Really fixed the chpasswd thing, "-m" is not needed after all.
 
