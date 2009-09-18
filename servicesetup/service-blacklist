@@ -8,7 +8,6 @@ rc.6
 .conf
 inet1
 inet2
-postinstall
 .new
 modules
 rc.local
@@ -21,11 +20,8 @@ udev
 acpid
 howl
 rc.alsa
-rc.wicd
 rc.wireless
-rc.uwd
 rc.services
 rc.hald
 rc.messagebus
-rc.optical
 rc.numlock
