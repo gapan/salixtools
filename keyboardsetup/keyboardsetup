@@ -227,7 +227,7 @@ fi
 if [ -a /etc/hal/fdi/policy/10-keymap.fdi ]; then
 	sed -i "s/\"input.xkb.layout\" type=\"string\">.*</\"input.xkb.layout\" type=\"string\">"$xkblayout"</" \
 	/etc/hal/fdi/policy/10-keymap.fdi
-	sed -i "s/\"input.xkb.variant\" type=\"string\">.*</\"input.xkb.variant\" type=\"string\">"$xkbvariant"</" \
+	sed -i "s/\"input.xkb.variant\" type=\"string\".*\"input.xkb.variant\" type=\"string\">"$xkbvariant"<\/merge>/" \
 	/etc/hal/fdi/policy/10-keymap.fdi
 	sed -i "s/\"input.xkb.options\" type=\"string\">.*</\"input.xkb.options\" type=\"string\">"$xkboptions"</" \
 	/etc/hal/fdi/policy/10-keymap.fdi
