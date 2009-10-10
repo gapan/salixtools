@@ -1,4 +1,4 @@
-#This is a list of keymaps used by keyboardconfig
+#This is a list of keymaps used by keyboardsetup
 #The fields are: keymap|XkbLayout|XkbVariant|XkbOptions
 
 ANSI-dvorak|dvorak||
