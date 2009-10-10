@@ -20,7 +20,7 @@ msgstr ""
 #: ../keyboardsetup:36
 #, sh-format
 msgid "USAGE: keyboardsetup [keymap] [numlock state (on or off)]"
-msgstr "UTILISATION: keyboardsetup [disposition du clavier] [vérouillage du pavé numérique (on ou off)]"
+msgstr "UTILISATION : keyboardsetup [disposition du clavier] [vérouillage du pavé numérique (on ou off)]"
 
 #: ../keyboardsetup:37
 #, sh-format
@@ -30,22 +30,22 @@ msgstr "(Si vous désirez spécifier l'état du pavé numérique, vous devez ég
 #: ../keyboardsetup:38
 #, sh-format
 msgid "EXAMPLE: keyboardsetup uk on"
-msgstr "EXEMPLE: keyboardsetup fr-latin9 off"
+msgstr "EXEMPLE : keyboardsetup fr-latin9 off"
 
 #: ../keyboardsetup:43
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "ERREUR: Trop d'arguments"
+msgstr "ERREUR : Trop d'arguments"
 
 #: ../keyboardsetup:57
 #, sh-format
 msgid "ERROR: $numstate is not a valid option."
-msgstr "ERREUR: $numstate n'est pas une option valide."
+msgstr "ERREUR : $numstate n'est pas une option valide."
 
 #: ../keyboardsetup:68
 #, sh-format
 msgid "ERROR: $key is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
-msgstr "ERROR: $key n'est pas une disposition valide de clavier. Veuillez consulter la liste de claviers reconnus dans $keymapsdir/keymaps "
+msgstr "ERROR : $key n'est pas une disposition valide de clavier. Veuillez consulter la liste de claviers reconnus dans $keymapsdir/keymaps "
 
 #: ../keyboardsetup:141
 #: ../keyboardsetup:152
