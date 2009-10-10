@@ -1,3 +1,7 @@
+Version 1.9 - 10/10/2009 - GV
+- Added support for setting the locale non-interactively from the
+  command line
+
 Version 1.8 - 10/08/2009 - GV
 - Fixed utf8 detection
 - Updated French translation

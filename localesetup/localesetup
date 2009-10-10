@@ -34,13 +34,40 @@ iconpath="/usr/share/salixtools/pixmaps/"
 # Path needs to be extended in case you're only half a root :)
 export PATH="/usr/sbin:/sbin:${PATH}"
 
-# probe for available locales and generate a menu
+# Just to be sure
+unset locale newlocale
 
+# usage screen
+usage(){
+	echo "`eval_gettext 'USAGE: localesetup [locale]'`"
+	echo "`eval_gettext 'EXAMPLE: localesetup en_US'`"
+	exit 1
+}
+
+if [ $# -gt 1 ]; then
+	echo "`eval_gettext 'ERROR: Too many arguments'`"
+	usage
+fi
+
+if [ ! -z $1 ]; then
+	newlocale="`echo $1 | sed 's/UTF-8/utf8/'`"
+	if [[ `locale -cva |grep locale | grep utf8 | sed "s/locale: \(.*\) *directory.*/\1/"| grep "^$newlocale\|$newlocale.utf8"` ]]; then
+		locale="`echo $newlocale | sed "s/.utf8//"`.utf8"
+		echo "`eval_gettext 'Setting locale to $locale'`"
+	else
+		echo "`eval_gettext 'ERROR: $newlocale is not a valid locale'`"
+		usage
+	fi
+else
+
+# start of interactive section
+
+# find current locale
 currentlocale="$(cat /etc/profile.d/lang.sh \
   | grep -E "^[[:space:]]*export LANG=" \
   | sed -e "s/^[ ]*export LANG=\(.*\)$/\1/")"
 
-
+# probe for available locales
 list="$(locale -cva \
 | grep -A 2 utf8 | sed '/^-/d' \
 | sed '
@@ -50,7 +77,7 @@ N
 s/^\(.*\) *\n *title . \(.*\)$/"\1" "\2 " \\/'}
 )"
 
-
+# generate a menu
 locale="$(eval $dialog \
 --stdout \
 --title \"`eval_gettext 'System language configuration'`\" \
@@ -64,10 +91,14 @@ locale="$(eval $dialog \
 "${list}"
 )"
 
+fi
+
+# end of interactive section
+
+# set locale
 if [ "$locale" ]; then
   sed -i "s/^ *\(export LANG=\).*$/\1$locale/" /etc/profile.d/lang.sh
   /bin/bash /etc/profile.d/lang.sh
-
 fi
 
 # end
