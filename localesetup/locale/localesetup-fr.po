@@ -20,17 +20,17 @@ msgstr ""
 #: ../localesetup:42
 #, sh-format
 msgid "USAGE: localesetup [locale]"
-msgstr ""
+msgstr "UTILISATION: localesetup [locale]"
 
 #: ../localesetup:43
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
-msgstr ""
+msgstr "EXEMPLE: localesetup fr_FR"
 
 #: ../localesetup:48
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr ""
+msgstr "ERREUR: Trop d'arguments"
 
 #: ../localesetup:56
 #, sh-format
