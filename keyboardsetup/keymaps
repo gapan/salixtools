@@ -1,5 +1,5 @@
 #This is a list of keymaps used by keyboardconfig
-#The fields are: keymap|XkbLayout|XkbVariant|XkbOptions|
+#The fields are: keymap|XkbLayout|XkbVariant|XkbOptions
 
 ANSI-dvorak|dvorak||
 al|al||
