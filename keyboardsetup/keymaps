@@ -43,7 +43,7 @@ fi-latin1|fi||
 fi-latin9|fi||
 fi|fi||
 fr-latin1|fr||
-fr-latin9|fr||
+fr-latin9|fr|oss|
 fr-pc|fr||
 fr_CH-latin1|ch|fr|
 fr_CH|ch|fr|
