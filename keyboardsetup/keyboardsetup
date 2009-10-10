@@ -28,7 +28,7 @@ iconpath="/usr/share/salixtools/pixmaps"
 keymapsdir="/usr/share/salixtools/"
 
 # Just to be sure
-unset keymap numstate xkblayout xkboptions
+unset keymap numstate xkblayout xkbvariant xkboptions
 
 backtohome=$(pwd)
 
