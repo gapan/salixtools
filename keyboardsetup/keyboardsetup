@@ -216,7 +216,8 @@ if [ ! "$xkblayout" ]; then
 fi
 
 /usr/bin/loadkeys $keymap 1>&2 2>/dev/null
-[ "$xflag" = "yes" ] && /usr/bin/setxkbmap -layout "$xkblayout" -option "$xkboptions" 1>&2 2>/dev/null
+[ "$xflag" = "yes" ] && \
+/usr/bin/setxkbmap -layout "$xkblayout" -variant "$xkbvariant" -option "$xkboptions" 1>&2 2>/dev/null
 sed -i "s/\(^[ \t]*\/usr\/bin\/loadkeys -u\).*$/\1 $keymap/" /etc/rc.d/rc.keymap
 
 if [ ! -a /etc/hal/fdi/policy/10-keymap.fdi ]; then
