@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: localesetup 1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-10 12:36+0300\n"
-"PO-Revision-Date: 2009-08-10 13:36+0100\n"
-"Last-Translator: Pierrick Le Brun <akuna~at~free~dot~fr>\n"
+"PO-Revision-Date: 2009-10-10 12:54+0100\n"
+"Last-Translator: Cyrille Pontvieux (JRD) <jrd@enialis.net>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,27 +20,27 @@ msgstr ""
 #: ../localesetup:42
 #, sh-format
 msgid "USAGE: localesetup [locale]"
-msgstr "UTILISATION: localesetup [locale]"
+msgstr "UTILISATION : localesetup [locale]"
 
 #: ../localesetup:43
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
-msgstr "EXEMPLE: localesetup fr_FR"
+msgstr "EXEMPLE : localesetup fr_FR"
 
 #: ../localesetup:48
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "ERREUR: Trop d'arguments"
+msgstr "ERREUR : Trop d'arguments"
 
 #: ../localesetup:56
 #, sh-format
 msgid "Setting locale to $locale"
-msgstr ""
+msgstr "Affecte la locale à $locale"
 
 #: ../localesetup:58
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
-msgstr ""
+msgstr "ERREUR : $newlocale n'est pas une locale valide"
 
 #: ../localesetup:83
 #, sh-format
@@ -65,4 +65,5 @@ msgstr "La locale actuelle du système est $currentlocale."
 #: ../localesetup:90
 #, sh-format
 msgid "Please select your preferred system language:"
-msgstr "Veuillez sélectionner votre nouvelle langue:"
+msgstr "Veuillez sélectionner votre nouvelle langue :"
+
