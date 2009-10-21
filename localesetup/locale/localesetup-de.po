@@ -29,12 +29,12 @@ msgstr "FEHLER: Zu viele Argumente"
 #: ../localesetup:56
 #, sh-format
 msgid "Setting locale to $locale"
-msgstr ""
+msgstr "Setze die Sprache auf $locale"
 
 #: ../localesetup:58
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
-msgstr ""
+msgstr "FEHLER: $newlocale ist keine gültige Spracheinstellung"
 
 #: ../localesetup:83
 #, sh-format
@@ -60,3 +60,4 @@ msgstr "Momentan ist die Sprache auf $currentlocale gesetzt."
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Bitte wählen Sie ihre bevorzugte Sprache:"
+
