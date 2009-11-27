@@ -74,7 +74,7 @@ if [ $xflag = "yes" ]; then
 	--no-tags \
 	--menu \
 	"\n `eval_gettext 'Please choose an option...'`  \n\n" \
-	22 60 9 \
+	24 60 10 \
 	   "1" "`eval_gettext 'Create a new account'`" \
 	   "2" "`eval_gettext 'Create a new account (advanced mode)'`" \
 	   "3" "`eval_gettext 'Modify account properties'`" \
@@ -92,7 +92,7 @@ else
 	--title "`eval_gettext 'Users accounts management'`" \
 	--menu \
 	"\n `eval_gettext 'Please choose an option...'`  \n\n" \
-	22 60 9 \
+	22 60 10 \
 	   "1" "`eval_gettext 'Create a new account'`" \
 	   "2" "`eval_gettext 'Create a new account (advanced mode)'`" \
 	   "3" "`eval_gettext 'Modify account properties'`" \
