@@ -55,8 +55,8 @@ pwfile='/etc/passwd'
 grpfile='/etc/group'
 shadowfile='/etc/shadow'
 
-for isgroupinzen in audio video cdrom fuse floppy plugdev scanner power netdev ; do
-	grep -q "^${isgroupinzen}:" $grpfile && useraddmembership="${isgroupinzen},${useraddmembership}"
+for isgroupinsalix in audio video cdrom floppy plugdev scanner power netdev ; do
+	grep -q "^${isgroupinsalix}:" $grpfile && useraddmembership="${isgroupinsalix},${useraddmembership}"
 done
 useraddmembership="$( echo ${useraddmembership} | sed -e 's/^\(.*\),$/\1/' )"
 
@@ -67,7 +67,7 @@ promptaction() {
 if [ $xflag = "yes" ]; then
 	mode=$(${dialog} \
 	--stdout \
-	--ok-label "`eval_gettext 'OK'`" \
+	--ok-label "`eval_gettext 'Select'`" \
 	--cancel-label "`eval_gettext 'Exit'`" \
 	--title "`eval_gettext 'Users accounts management'`" \
 	--icon "$iconpath/usersetup.png" \
@@ -76,30 +76,32 @@ if [ $xflag = "yes" ]; then
 	"\n `eval_gettext 'Please choose an option...'`  \n\n" \
 	22 60 9 \
 	   "1" "`eval_gettext 'Create a new account'`" \
-	   "2" "`eval_gettext 'Modify account properties'`" \
-	   "3" "`eval_gettext 'Change account password'`" \
-	   "4" "`eval_gettext 'Delete accounts'`" \
-	   "5" "`eval_gettext 'List groups and memberships'`" \
-	   "6" "`eval_gettext 'Create a new group'`" \
-	   "7" "`eval_gettext 'Change group name'`" \
-	   "8" "`eval_gettext 'Delete groups'`")
+	   "2" "`eval_gettext 'Create a new account (advanced mode)'`" \
+	   "3" "`eval_gettext 'Modify account properties'`" \
+	   "4" "`eval_gettext 'Change account password'`" \
+	   "5" "`eval_gettext 'Delete accounts'`" \
+	   "6" "`eval_gettext 'List groups and memberships'`" \
+	   "7" "`eval_gettext 'Create a new group'`" \
+	   "8" "`eval_gettext 'Change group name'`" \
+	   "9" "`eval_gettext 'Delete groups'`")
 else
 	mode=$(${dialog} \
 	--stdout \
-	--ok-label "`eval_gettext 'OK'`" \
+	--ok-label "`eval_gettext 'Select'`" \
 	--cancel-label "`eval_gettext 'Exit'`" \
 	--title "`eval_gettext 'Users accounts management'`" \
 	--menu \
 	"\n `eval_gettext 'Please choose an option...'`  \n\n" \
 	22 60 9 \
 	   "1" "`eval_gettext 'Create a new account'`" \
-	   "2" "`eval_gettext 'Modify account properties'`" \
-	   "3" "`eval_gettext 'Change account password'`" \
-	   "4" "`eval_gettext 'Delete accounts'`" \
-	   "5" "`eval_gettext 'List groups and memberships'`" \
-	   "6" "`eval_gettext 'Create a new group'`" \
-	   "7" "`eval_gettext 'Change group name'`" \
-	   "8" "`eval_gettext 'Delete groups'`")
+	   "2" "`eval_gettext 'Create a new account (advanced mode)'`" \
+	   "3" "`eval_gettext 'Modify account properties'`" \
+	   "4" "`eval_gettext 'Change account password'`" \
+	   "5" "`eval_gettext 'Delete accounts'`" \
+	   "6" "`eval_gettext 'List groups and memberships'`" \
+	   "7" "`eval_gettext 'Create a new group'`" \
+	   "8" "`eval_gettext 'Change group name'`" \
+	   "9" "`eval_gettext 'Delete groups'`")
 
 fi
 
@@ -708,7 +710,7 @@ modifyuser() {
 while [ "1" = "1" ] ; do
   promptaction
             case $mode in
-            2) # User properties
+            3) # User properties
               while [ "1" = "1" ] ; do
                 user=""
                 showusers
@@ -719,7 +721,17 @@ while [ "1" = "1" ] ; do
                 fi
               done
               ;;
-            1) # Create user
+	    1) # Create user (simple mode)
+	    	user=""
+	    	setusername
+		if [ "$message" = "ok" ]; then
+			getsysteminfo
+			setpw
+		else
+			$dialog --title "`eval_gettext 'Warning'`" --msgbox "\n $message \n" 0 0
+		fi
+            	;;
+            2) # Create user (advanced mode)
             user=""
               setusername
               if [ "$message" = "ok" ]; then
@@ -740,7 +752,7 @@ while [ "1" = "1" ] ; do
                 $dialog --title "`eval_gettext 'Warning'`" --msgbox "\n $message \n" 0 0
               fi
               ;;
-            4) # Delete users
+            5) # Delete users
               while [ "1" = "1" ] ; do
               user=""
                 delusers
@@ -762,14 +774,14 @@ while [ "1" = "1" ] ; do
                 fi
               done
               ;;
-            3) # Change password
+            4) # Change password
               user=""
               chguserpass
               if [ "$user" ]; then
                 setpw
               fi
               ;;
-            5) # List groups
+            6) # List groups
               while [ "1" = "1" ] ; do
               group=""
               showgroups
@@ -789,7 +801,7 @@ while [ "1" = "1" ] ; do
                 fi
                 done
               ;;
-            7) # Modify group
+            8) # Modify group
             while [ "1" = "1" ] ; do
             group=""
               chggroupsname
@@ -800,11 +812,11 @@ while [ "1" = "1" ] ; do
               fi
             done
               ;;
-            6) # Create group
+            7) # Create group
               group=""
               setgroupname
               ;;
-            8)
+            9)
               while [ "1" = "1" ] ; do
               group=""
                 delgroups
