@@ -1,5 +1,6 @@
 #!/bin/sh
 
+cd $(dirname $0)
 for i in clocksetup keyboardsetup localesetup usersetup servicesetup;do
 	for j in `ls $i/locale/$i-*.po`;do
 		echo "Compiling `echo $j|sed "s|/locale||"`"

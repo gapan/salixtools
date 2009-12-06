@@ -1,6 +1,7 @@
 #!/bin/sh
 # install script for salixtools
 
+cd $(dirname $0)
 install -d -m 755 $DESTDIR/usr/sbin
 install -d -m 755 $DESTDIR/usr/share/applications
 install -d -m 755 $DESTDIR/usr/share/salixtools/pixmaps
