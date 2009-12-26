@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-11-27 23:23+0200\n"
+"POT-Creation-Date: 2009-12-26 19:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,9 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: ../usersetup:71 ../usersetup:91 ../usersetup:125 ../usersetup:143
-#: ../usersetup:161 ../usersetup:179 ../usersetup:197 ../usersetup:216
-#: ../usersetup:254 ../usersetup:273 ../usersetup:316
+#: ../usersetup:71 ../usersetup:91
 #, sh-format
-msgid "Exit"
+msgid "Exit user setup"
 msgstr ""
 
 #: ../usersetup:72 ../usersetup:92
@@ -88,9 +86,16 @@ msgstr ""
 msgid "Account properties"
 msgstr ""
 
-#: ../usersetup:124 ../usersetup:315
+#: ../usersetup:124 ../usersetup:316 ../usersetup:327
 #, sh-format
 msgid "Properties"
+msgstr ""
+
+#: ../usersetup:125 ../usersetup:143 ../usersetup:161 ../usersetup:179
+#: ../usersetup:197 ../usersetup:216 ../usersetup:254 ../usersetup:273
+#: ../usersetup:317 ../usersetup:328
+#, sh-format
+msgid "Back"
 msgstr ""
 
 #: ../usersetup:127
@@ -103,7 +108,7 @@ msgstr ""
 msgid "Account deletion"
 msgstr ""
 
-#: ../usersetup:142 ../usersetup:215 ../usersetup:764 ../usersetup:828
+#: ../usersetup:142 ../usersetup:215 ../usersetup:777 ../usersetup:841
 #, sh-format
 msgid "Delete"
 msgstr ""
@@ -143,7 +148,7 @@ msgstr ""
 msgid "Select a group to view memberships for..."
 msgstr ""
 
-#: ../usersetup:194 ../usersetup:632
+#: ../usersetup:194 ../usersetup:645
 #, sh-format
 msgid "Group name"
 msgstr ""
@@ -173,256 +178,256 @@ msgstr ""
 msgid "Detailed information for account"
 msgstr ""
 
-#: ../usersetup:259 ../usersetup:277 ../usersetup:570 ../usersetup:682
+#: ../usersetup:259 ../usersetup:277 ../usersetup:583 ../usersetup:695
 #, sh-format
 msgid "Full name"
 msgstr ""
 
-#: ../usersetup:260 ../usersetup:278 ../usersetup:339 ../usersetup:658
+#: ../usersetup:260 ../usersetup:278 ../usersetup:352 ../usersetup:671
 #, sh-format
 msgid "Account name"
 msgstr ""
 
-#: ../usersetup:261 ../usersetup:279 ../usersetup:662
+#: ../usersetup:261 ../usersetup:279 ../usersetup:675
 #, sh-format
 msgid "Main Group"
 msgstr ""
 
-#: ../usersetup:262 ../usersetup:280 ../usersetup:396 ../usersetup:666
+#: ../usersetup:262 ../usersetup:280 ../usersetup:409 ../usersetup:679
 #, sh-format
 msgid "Home directory"
 msgstr ""
 
-#: ../usersetup:263 ../usersetup:281 ../usersetup:423 ../usersetup:674
+#: ../usersetup:263 ../usersetup:281 ../usersetup:436 ../usersetup:687
 #, sh-format
 msgid "Shell"
 msgstr ""
 
-#: ../usersetup:264 ../usersetup:282 ../usersetup:670
+#: ../usersetup:264 ../usersetup:282 ../usersetup:683
 #, sh-format
 msgid "Other groups"
 msgstr ""
 
-#: ../usersetup:265 ../usersetup:283 ../usersetup:678
+#: ../usersetup:265 ../usersetup:283 ../usersetup:691
 #, sh-format
 msgid "Expiry"
 msgstr ""
 
-#: ../usersetup:266 ../usersetup:284 ../usersetup:686
+#: ../usersetup:266 ../usersetup:284 ../usersetup:699
 #, sh-format
 msgid "Office"
 msgstr ""
 
-#: ../usersetup:267 ../usersetup:285 ../usersetup:600 ../usersetup:690
+#: ../usersetup:267 ../usersetup:285 ../usersetup:613 ../usersetup:703
 #, sh-format
 msgid "Work phone"
 msgstr ""
 
-#: ../usersetup:268 ../usersetup:286 ../usersetup:615 ../usersetup:694
+#: ../usersetup:268 ../usersetup:286 ../usersetup:628 ../usersetup:707
 #, sh-format
 msgid "Home phone"
 msgstr ""
 
-#: ../usersetup:314 ../usersetup:325
+#: ../usersetup:315 ../usersetup:326 ../usersetup:338
 #, sh-format
 msgid "Group members"
 msgstr ""
 
-#: ../usersetup:319
+#: ../usersetup:320 ../usersetup:331
 #, sh-format
 msgid "Members of group"
 msgstr ""
 
-#: ../usersetup:328
+#: ../usersetup:341
 #, sh-format
 msgid "There are no accounts in group"
 msgstr ""
 
-#: ../usersetup:342
+#: ../usersetup:355
 #, sh-format
 msgid "Enter the new account name..."
 msgstr ""
 
-#: ../usersetup:351
+#: ../usersetup:364
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
 msgstr ""
 
-#: ../usersetup:353
+#: ../usersetup:366
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
 msgstr ""
 
-#: ../usersetup:355
+#: ../usersetup:368
 #, sh-format
 msgid "The account name is empty, please correct it..."
 msgstr ""
 
-#: ../usersetup:357
+#: ../usersetup:370
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
 msgstr ""
 
-#: ../usersetup:359
+#: ../usersetup:372
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
 msgstr ""
 
-#: ../usersetup:361
+#: ../usersetup:374
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
 msgstr ""
 
-#: ../usersetup:379
+#: ../usersetup:392
 #, sh-format
 msgid "Group membership"
 msgstr ""
 
-#: ../usersetup:381 ../usersetup:398 ../usersetup:425 ../usersetup:446
-#: ../usersetup:472 ../usersetup:572 ../usersetup:587 ../usersetup:602
-#: ../usersetup:617 ../usersetup:634
+#: ../usersetup:394 ../usersetup:411 ../usersetup:438 ../usersetup:459
+#: ../usersetup:485 ../usersetup:585 ../usersetup:600 ../usersetup:615
+#: ../usersetup:630 ../usersetup:647
 #, sh-format
 msgid "OK"
 msgstr ""
 
-#: ../usersetup:384
+#: ../usersetup:397
 #, sh-format
 msgid "Enter the main group for account"
 msgstr ""
 
-#: ../usersetup:400
+#: ../usersetup:413
 #, sh-format
 msgid "Enter the home directory for account"
 msgstr ""
 
-#: ../usersetup:428
+#: ../usersetup:441
 #, sh-format
 msgid "Enter the shell interpreter for account"
 msgstr ""
 
-#: ../usersetup:444
+#: ../usersetup:457
 #, sh-format
 msgid "Additional group membership"
 msgstr ""
 
-#: ../usersetup:448
+#: ../usersetup:461
 #, sh-format
 msgid "Add some additional group to the list..."
 msgstr ""
 
-#: ../usersetup:470
+#: ../usersetup:483
 #, sh-format
 msgid "Expiry date"
 msgstr ""
 
-#: ../usersetup:473
+#: ../usersetup:486
 #, sh-format
 msgid "Never"
 msgstr ""
 
-#: ../usersetup:476
+#: ../usersetup:489
 #, sh-format
 msgid "Set the account expiry date..."
 msgstr ""
 
-#: ../usersetup:494 ../usersetup:547
+#: ../usersetup:507 ../usersetup:560
 #, sh-format
 msgid "Password"
 msgstr ""
 
-#: ../usersetup:524
+#: ../usersetup:537
 #, sh-format
 msgid "Enter password for account"
 msgstr ""
 
-#: ../usersetup:525
+#: ../usersetup:538
 #, sh-format
 msgid "Passwords do not match, please try again..."
 msgstr ""
 
-#: ../usersetup:528
+#: ../usersetup:541
 #, sh-format
 msgid ""
 "Password is too short (${minlength} chars minimum), please try another one..."
 msgstr ""
 
-#: ../usersetup:531
+#: ../usersetup:544
 #, sh-format
 msgid "Enter password again for account"
 msgstr ""
 
-#: ../usersetup:556
+#: ../usersetup:569
 #, sh-format
 msgid "Failed to set password for account"
 msgstr ""
 
-#: ../usersetup:574
+#: ../usersetup:587
 #, sh-format
 msgid "Enter the full name of the user"
 msgstr ""
 
-#: ../usersetup:585
+#: ../usersetup:598
 #, sh-format
 msgid "Office information"
 msgstr ""
 
-#: ../usersetup:589
+#: ../usersetup:602
 #, sh-format
 msgid "Enter office information for the user"
 msgstr ""
 
-#: ../usersetup:604
+#: ../usersetup:617
 #, sh-format
 msgid "Enter the work phone number of the user"
 msgstr ""
 
-#: ../usersetup:619
+#: ../usersetup:632
 #, sh-format
 msgid "Enter the home phone number of the user"
 msgstr ""
 
-#: ../usersetup:636
+#: ../usersetup:649
 #, sh-format
 msgid "Enter the new group name"
 msgstr ""
 
-#: ../usersetup:731 ../usersetup:752 ../usersetup:761 ../usersetup:825
+#: ../usersetup:744 ../usersetup:765 ../usersetup:774 ../usersetup:838
 #, sh-format
 msgid "Warning"
 msgstr ""
 
-#: ../usersetup:761
+#: ../usersetup:774
 #, sh-format
 msgid "You cannot delete the account"
 msgstr ""
 
-#: ../usersetup:763
+#: ../usersetup:776
 #, sh-format
 msgid "Confirm user deletion"
 msgstr ""
 
-#: ../usersetup:765 ../usersetup:829
+#: ../usersetup:778 ../usersetup:842
 #, sh-format
 msgid "Cancel"
 msgstr ""
 
-#: ../usersetup:767
+#: ../usersetup:780
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
 msgstr ""
 
-#: ../usersetup:825
+#: ../usersetup:838
 #, sh-format
 msgid "You cannot delete the group"
 msgstr ""
 
-#: ../usersetup:827
+#: ../usersetup:840
 #, sh-format
 msgid "Confirm group deletion"
 msgstr ""
 
-#: ../usersetup:831
+#: ../usersetup:844
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr ""
