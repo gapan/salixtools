@@ -68,7 +68,7 @@ if [ $xflag = "yes" ]; then
 	mode=$(${dialog} \
 	--stdout \
 	--ok-label "`eval_gettext 'Select'`" \
-	--cancel-label "`eval_gettext 'Exit'`" \
+	--cancel-label "`eval_gettext 'Exit user setup'`" \
 	--title "`eval_gettext 'Users accounts management'`" \
 	--icon "$iconpath/usersetup.png" \
 	--no-tags \
@@ -88,7 +88,7 @@ else
 	mode=$(${dialog} \
 	--stdout \
 	--ok-label "`eval_gettext 'Select'`" \
-	--cancel-label "`eval_gettext 'Exit'`" \
+	--cancel-label "`eval_gettext 'Exit user setup'`" \
 	--title "`eval_gettext 'Users accounts management'`" \
 	--menu \
 	"\n `eval_gettext 'Please choose an option...'`  \n\n" \
@@ -122,7 +122,7 @@ user=$(${dialog} \
 --title "`eval_gettext 'Account properties'`" \
 --icon "$iconpath/usersetup.png" \
 --ok-label "`eval_gettext 'Properties'`" \
---cancel-label "`eval_gettext 'Exit'`" \
+--cancel-label "`eval_gettext 'Back'`" \
 --menu \
 "\n `eval_gettext 'Select an account to view its properties...'`  " \
 0 0 11 \
@@ -140,7 +140,7 @@ user=$(${dialog} \
 --title "`eval_gettext 'Account deletion'`" \
 --icon "$iconpath/delete.png" \
 --ok-label "`eval_gettext 'Delete'`" \
---cancel-label "`eval_gettext 'Exit'`" \
+--cancel-label "`eval_gettext 'Back'`" \
 --menu \
 "\n `eval_gettext 'Select an account to delete...'`  " \
 0 0 11 \
@@ -158,7 +158,7 @@ user=$(${dialog} \
 --title "`eval_gettext 'Change password'`" \
 --icon "$iconpath/lockscreen.png" \
 --ok-label "`eval_gettext 'Change'`" \
---cancel-label "`eval_gettext 'Exit'`" \
+--cancel-label "`eval_gettext 'Back'`" \
 --menu \
 "\n `eval_gettext 'Select an account to change password for...'`  " \
 0 0 11 \
@@ -176,7 +176,7 @@ group=$($dialog \
 --title "`eval_gettext 'Group memberships'`" \
 --icon "$iconpath/usersetup.png" \
 --ok-label "`eval_gettext 'Memberships'`" \
---cancel-label "`eval_gettext 'Exit'`" \
+--cancel-label "`eval_gettext 'Back'`" \
 --menu \
 "\n `eval_gettext 'Select a group to view memberships for...'`  " \
 0 0 11 \
@@ -194,7 +194,7 @@ group=$($dialog \
 --title "`eval_gettext 'Group name'`" \
 --icon "$iconpath/usersetup.png" \
 --ok-label "`eval_gettext 'Modify'`" \
---cancel-label "`eval_gettext 'Exit'`" \
+--cancel-label "`eval_gettext 'Back'`" \
 --menu \
 "\n `eval_gettext 'Select group name to modify...'`  " \
 0 0 11 \
@@ -213,7 +213,7 @@ group=$($dialog \
 --title "`eval_gettext 'Group deletion'`" \
 --icon "$iconpath/delete.png" \
 --ok-label "`eval_gettext 'Delete'`" \
---cancel-label "`eval_gettext 'Exit'`" \
+--cancel-label "`eval_gettext 'Back'`" \
 --menu \
 "\n `eval_gettext 'Select a group to delete...'`  " \
 0 0 11 \
@@ -251,7 +251,7 @@ if [ $xflag = "yes" ]; then
 	parameter=$($dialog --stdout \
 	--title "`eval_gettext 'Account properties'`" \
 	--ok-label "`eval_gettext 'Modify'`" \
-	--cancel-label "`eval_gettext 'Exit'`" \
+	--cancel-label "`eval_gettext 'Back'`" \
 	--icon "$iconpath/usersetup.png" \
 	--menu \
 	"\n `eval_gettext 'Detailed information for account'` $user:  " \
@@ -270,7 +270,7 @@ else
 	parameter=$($dialog --stdout \
 	--title "`eval_gettext 'Account properties'`" \
 	--ok-label "`eval_gettext 'Modify'`" \
-	--cancel-label "`eval_gettext 'Exit'`" \
+	--cancel-label "`eval_gettext 'Back'`" \
 	--menu \
 	"\n `eval_gettext 'Detailed information for account'` $user:  " \
 	17 80 13 \
@@ -301,31 +301,44 @@ for user in $(grep -e "^.*:x:.*:$gid:.*$" $pwfile \
 done
 
 if [ "$members" ]; then
-list=""
-for user in $members
-do
-   uid="$(grep -e "^$user:.*$" $pwfile | cut -d : -f 3 )"
-   list="$list
-$user $uid"
-done
+	list=""
+	for user in $members
+	do
+		uid="$(grep -e "^$user:.*$" $pwfile | cut -d : -f 3 )"
+		list="$list
+	$user $uid"
+	done
 
-user=$($dialog \
---stdout \
---title "`eval_gettext 'Group members'`" \
---ok-label "`eval_gettext 'Properties'`" \
---cancel-label "`eval_gettext 'Exit'`" \
---icon "$iconpath/usersetup.png" \
---menu \
-"\n `eval_gettext 'Members of group'` $group:  " \
-0 0 11 \
-${list})
+	if [ $xflag = "yes" ]; then
+		user=$($dialog \
+		--stdout \
+		--title "`eval_gettext 'Group members'`" \
+		--ok-label "`eval_gettext 'Properties'`" \
+		--cancel-label "`eval_gettext 'Back'`" \
+		--icon "$iconpath/usersetup.png" \
+		--menu \
+		"\n `eval_gettext 'Members of group'` $group:  " \
+		0 0 11 \
+		${list})
+	else
+		user=$($dialog \
+		--stdout \
+		--title "`eval_gettext 'Group members'`" \
+		--ok-label "`eval_gettext 'Properties'`" \
+		--cancel-label "`eval_gettext 'Back'`" \
+		--icon "$iconpath/usersetup.png" \
+		--menu \
+		"\n `eval_gettext 'Members of group'` $group:  " \
+		0 75 11 \
+		${list})
+	fi
 
 else
-  $dialog \
-  --title "`eval_gettext 'Group members'`" \
-  --icon "userconfig" \
-  --msgbox "\n \
-  `eval_gettext 'There are no accounts in group'` $group" 12 75
+	$dialog \
+	--title "`eval_gettext 'Group members'`" \
+	--icon "userconfig" \
+	--msgbox "\n \
+	`eval_gettext 'There are no accounts in group'` $group" 12 75
 fi
 }
 
