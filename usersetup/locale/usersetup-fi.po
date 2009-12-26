@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-26 19:17+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,87 +12,111 @@ msgstr ""
 "X-Poedit-Language: Finnish\n"
 "X-Poedit-Country: FINLAND\n"
 
-#: ../usersetup:70 ../usersetup:90
+#: ../usersetup:70
+#: ../usersetup:90
 #, sh-format
 msgid "Select"
 msgstr "Valitse"
 
-#: ../usersetup:71 ../usersetup:91
+#: ../usersetup:71
+#: ../usersetup:91
 #, sh-format
 msgid "Exit user setup"
-msgstr ""
+msgstr "Poistu käyttäjienhallinnasta"
 
-#: ../usersetup:72 ../usersetup:92
+#: ../usersetup:72
+#: ../usersetup:92
 #, sh-format
 msgid "Users accounts management"
 msgstr "Käyttäjätilien hallinta"
 
-#: ../usersetup:76 ../usersetup:94
+#: ../usersetup:76
+#: ../usersetup:94
 #, sh-format
 msgid "Please choose an option..."
 msgstr "Ole hyvä ja valitse vaihtoehto..."
 
-#: ../usersetup:78 ../usersetup:96
+#: ../usersetup:78
+#: ../usersetup:96
 #, sh-format
 msgid "Create a new account"
 msgstr "Luo uusi tili"
 
-#: ../usersetup:79 ../usersetup:97
+#: ../usersetup:79
+#: ../usersetup:97
 #, sh-format
 msgid "Create a new account (advanced mode)"
 msgstr "Luo uusi tuli (lisävaihtoehdot)"
 
-#: ../usersetup:80 ../usersetup:98
+#: ../usersetup:80
+#: ../usersetup:98
 #, sh-format
 msgid "Modify account properties"
 msgstr "Muokkaa tilin ominaisuuksia"
 
-#: ../usersetup:81 ../usersetup:99
+#: ../usersetup:81
+#: ../usersetup:99
 #, sh-format
 msgid "Change account password"
 msgstr "Vaihda tilin salasana"
 
-#: ../usersetup:82 ../usersetup:100
+#: ../usersetup:82
+#: ../usersetup:100
 #, sh-format
 msgid "Delete accounts"
 msgstr "Poista tilejä"
 
-#: ../usersetup:83 ../usersetup:101
+#: ../usersetup:83
+#: ../usersetup:101
 #, sh-format
 msgid "List groups and memberships"
 msgstr "Näytä ryhmät ja jäsenyydet"
 
-#: ../usersetup:84 ../usersetup:102
+#: ../usersetup:84
+#: ../usersetup:102
 #, sh-format
 msgid "Create a new group"
 msgstr "Luo uusi ryhmä"
 
-#: ../usersetup:85 ../usersetup:103
+#: ../usersetup:85
+#: ../usersetup:103
 #, sh-format
 msgid "Change group name"
 msgstr "Vaihda ryhmän nimeä"
 
-#: ../usersetup:86 ../usersetup:104
+#: ../usersetup:86
+#: ../usersetup:104
 #, sh-format
 msgid "Delete groups"
 msgstr "Poista ryhmiä"
 
-#: ../usersetup:122 ../usersetup:252 ../usersetup:271
+#: ../usersetup:122
+#: ../usersetup:252
+#: ../usersetup:271
 #, sh-format
 msgid "Account properties"
 msgstr "Tilin ominaisuudet"
 
-#: ../usersetup:124 ../usersetup:316 ../usersetup:327
+#: ../usersetup:124
+#: ../usersetup:316
+#: ../usersetup:327
 #, sh-format
 msgid "Properties"
 msgstr "Ominaisuudet"
 
-#: ../usersetup:125 ../usersetup:143 ../usersetup:161 ../usersetup:179
-#: ../usersetup:197 ../usersetup:216 ../usersetup:254 ../usersetup:273
-#: ../usersetup:317 ../usersetup:328
+#: ../usersetup:125
+#: ../usersetup:143
+#: ../usersetup:161
+#: ../usersetup:179
+#: ../usersetup:197
+#: ../usersetup:216
+#: ../usersetup:254
+#: ../usersetup:273
+#: ../usersetup:317
+#: ../usersetup:328
 #, sh-format
 msgid "Back"
-msgstr ""
+msgstr "Takaisin"
 
 #: ../usersetup:127
 #, sh-format
@@ -104,7 +128,10 @@ msgstr "Valitse tili jonka ominaisuudet näytetään..."
 msgid "Account deletion"
 msgstr "Tilin poisto"
 
-#: ../usersetup:142 ../usersetup:215 ../usersetup:777 ../usersetup:841
+#: ../usersetup:142
+#: ../usersetup:215
+#: ../usersetup:777
+#: ../usersetup:841
 #, sh-format
 msgid "Delete"
 msgstr "Poista"
@@ -144,12 +171,15 @@ msgstr "Jäsenyydet"
 msgid "Select a group to view memberships for..."
 msgstr "Valitse ryhmä jonka jäsenyydet näytetään..."
 
-#: ../usersetup:194 ../usersetup:645
+#: ../usersetup:194
+#: ../usersetup:645
 #, sh-format
 msgid "Group name"
 msgstr "Ryhmän nimi"
 
-#: ../usersetup:196 ../usersetup:253 ../usersetup:272
+#: ../usersetup:196
+#: ../usersetup:253
+#: ../usersetup:272
 #, sh-format
 msgid "Modify"
 msgstr "Muokkaa"
@@ -169,67 +199,97 @@ msgstr "Ryhmän poisto"
 msgid "Select a group to delete..."
 msgstr "Valitse ryhmä joka poistetaan..."
 
-#: ../usersetup:257 ../usersetup:275
+#: ../usersetup:257
+#: ../usersetup:275
 #, sh-format
 msgid "Detailed information for account"
 msgstr "Tilin yksityiskohtaiset tiedot"
 
-#: ../usersetup:259 ../usersetup:277 ../usersetup:583 ../usersetup:695
+#: ../usersetup:259
+#: ../usersetup:277
+#: ../usersetup:583
+#: ../usersetup:695
 #, sh-format
 msgid "Full name"
 msgstr "Koko nimi"
 
-#: ../usersetup:260 ../usersetup:278 ../usersetup:352 ../usersetup:671
+#: ../usersetup:260
+#: ../usersetup:278
+#: ../usersetup:352
+#: ../usersetup:671
 #, sh-format
 msgid "Account name"
 msgstr "Tilin nimi"
 
-#: ../usersetup:261 ../usersetup:279 ../usersetup:675
+#: ../usersetup:261
+#: ../usersetup:279
+#: ../usersetup:675
 #, sh-format
 msgid "Main Group"
 msgstr "Pääryhmä"
 
-#: ../usersetup:262 ../usersetup:280 ../usersetup:409 ../usersetup:679
+#: ../usersetup:262
+#: ../usersetup:280
+#: ../usersetup:409
+#: ../usersetup:679
 #, sh-format
 msgid "Home directory"
 msgstr "Kotihakemisto"
 
-#: ../usersetup:263 ../usersetup:281 ../usersetup:436 ../usersetup:687
+#: ../usersetup:263
+#: ../usersetup:281
+#: ../usersetup:436
+#: ../usersetup:687
 #, sh-format
 msgid "Shell"
 msgstr "Tulkki"
 
-#: ../usersetup:264 ../usersetup:282 ../usersetup:683
+#: ../usersetup:264
+#: ../usersetup:282
+#: ../usersetup:683
 #, sh-format
 msgid "Other groups"
 msgstr "Muut ryhmät"
 
-#: ../usersetup:265 ../usersetup:283 ../usersetup:691
+#: ../usersetup:265
+#: ../usersetup:283
+#: ../usersetup:691
 #, sh-format
 msgid "Expiry"
 msgstr "Päättyminen"
 
-#: ../usersetup:266 ../usersetup:284 ../usersetup:699
+#: ../usersetup:266
+#: ../usersetup:284
+#: ../usersetup:699
 #, sh-format
 msgid "Office"
 msgstr "Toimisto"
 
-#: ../usersetup:267 ../usersetup:285 ../usersetup:613 ../usersetup:703
+#: ../usersetup:267
+#: ../usersetup:285
+#: ../usersetup:613
+#: ../usersetup:703
 #, sh-format
 msgid "Work phone"
 msgstr "Puhelin (työ)"
 
-#: ../usersetup:268 ../usersetup:286 ../usersetup:628 ../usersetup:707
+#: ../usersetup:268
+#: ../usersetup:286
+#: ../usersetup:628
+#: ../usersetup:707
 #, sh-format
 msgid "Home phone"
 msgstr "Puhelin (koti)"
 
-#: ../usersetup:315 ../usersetup:326 ../usersetup:338
+#: ../usersetup:315
+#: ../usersetup:326
+#: ../usersetup:338
 #, sh-format
 msgid "Group members"
 msgstr "Ryhmän jäsenet"
 
-#: ../usersetup:320 ../usersetup:331
+#: ../usersetup:320
+#: ../usersetup:331
 #, sh-format
 msgid "Members of group"
 msgstr "Ryhmän jäsenet"
@@ -266,8 +326,7 @@ msgstr "Tilin nimi ei voi alkaa numerolla, ole hyvä ja korjaa se..."
 
 #: ../usersetup:372
 #, sh-format
-msgid ""
-"An account name cannot contain uppercase characters, please correct it..."
+msgid "An account name cannot contain uppercase characters, please correct it..."
 msgstr "Tilin nimi ei voi sisältää isoja kirjaimia, ole hyvä ja korjaa se..."
 
 #: ../usersetup:374
@@ -280,9 +339,16 @@ msgstr "Tilin nimi ei voi sisältää välimerkkejä, ole hyvä ja korjaa se..."
 msgid "Group membership"
 msgstr "Ryhmän jäsenyys"
 
-#: ../usersetup:394 ../usersetup:411 ../usersetup:438 ../usersetup:459
-#: ../usersetup:485 ../usersetup:585 ../usersetup:600 ../usersetup:615
-#: ../usersetup:630 ../usersetup:647
+#: ../usersetup:394
+#: ../usersetup:411
+#: ../usersetup:438
+#: ../usersetup:459
+#: ../usersetup:485
+#: ../usersetup:585
+#: ../usersetup:600
+#: ../usersetup:615
+#: ../usersetup:630
+#: ../usersetup:647
 #, sh-format
 msgid "OK"
 msgstr "OK"
@@ -327,7 +393,8 @@ msgstr "Ei koskaan"
 msgid "Set the account expiry date..."
 msgstr "Aseta tilin päättymispäivä..."
 
-#: ../usersetup:507 ../usersetup:560
+#: ../usersetup:507
+#: ../usersetup:560
 #, sh-format
 msgid "Password"
 msgstr "Salasana"
@@ -344,11 +411,8 @@ msgstr "Salasanat eivät sovi yhteen, ole hyvä ja yritä uudelleen..."
 
 #: ../usersetup:541
 #, sh-format
-msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
-"Salasana on liian lyhyt (${minlength} chars minimum), ole hyvä ja kokeile "
-"toista..."
+msgid "Password is too short (${minlength} chars minimum), please try another one..."
+msgstr "Salasana on liian lyhyt (${minlength} chars minimum), ole hyvä ja kokeile toista..."
 
 #: ../usersetup:544
 #, sh-format
@@ -390,7 +454,10 @@ msgstr "Syötä käyttäjän puhelinnumero (koti)"
 msgid "Enter the new group name"
 msgstr "Syötä uusi ryhmän nimi"
 
-#: ../usersetup:744 ../usersetup:765 ../usersetup:774 ../usersetup:838
+#: ../usersetup:744
+#: ../usersetup:765
+#: ../usersetup:774
+#: ../usersetup:838
 #, sh-format
 msgid "Warning"
 msgstr "Varoitus"
@@ -405,7 +472,8 @@ msgstr "Et voi poistaa tiliä"
 msgid "Confirm user deletion"
 msgstr "Vahvista käyttäjän poisto"
 
-#: ../usersetup:778 ../usersetup:842
+#: ../usersetup:778
+#: ../usersetup:842
 #, sh-format
 msgid "Cancel"
 msgstr "Peruuta"
@@ -432,3 +500,4 @@ msgstr "Oletko varma että haluat poistaa ryhmän $group?"
 
 #~ msgid "Exit"
 #~ msgstr "Poistu"
+
