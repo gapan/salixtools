@@ -7,7 +7,7 @@ George Vlahavas
 
 = NAME =
 
-clocksetup - a tool that helps to set the system's date and time
+clocksetup - a tool that helps set the system's date and time
 
 = SYNOPSIS =
 
@@ -15,7 +15,7 @@ clocksetup - a tool that helps to set the system's date and time
 
 = DESCRIPTION =
 
-**clocksetup** is a tool that helps to set the system's date and time.
+**clocksetup** is a tool that helps set the system's date and time.
 It uses __Xdialog__ or __dialog__ to present the user with a menu which can be
 used to:
 - Set the system time
@@ -24,7 +24,7 @@ used to:
 - Synchronize system date/time using Network Time Protocol (NTP)
 
 
-**clocksetup** is a part of **salixtools**.
+**clocksetup** is part of the **salixtools** package.
 
 = AUTHORS =
 
