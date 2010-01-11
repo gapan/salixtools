@@ -1,0 +1,36 @@
+clocksetup
+George Vlahavas
+%%mtime(%m/%d/%Y)
+
+%!target: man
+%!encoding: utf-8
+
+= NAME =
+
+clocksetup - a tool that helps to set the system's date and time
+
+= SYNOPSIS =
+
+**clocksetup**
+
+= DESCRIPTION =
+
+**clocksetup** is a tool that helps to set the system's date and time.
+It uses __Xdialog__ or __dialog__ to present the user with a menu which can be
+used to:
+- Set the system time
+- Set the system date
+- Set the timezone
+- Synchronize system date/time using Network Time Protocol (NTP)
+
+**clocksetup** is a part of **salixtools**.
+
+= AUTHORS =
+
+- George Vlahavas <vlahavas~at~gmaill~dot~com>
+- Pierrick Le Brun <akuna~at~free~dot~fr>
+- Thorsten Muehlfelder <thenktor~at~gmx~dot~de>
+
+**clocksetup** is a fork of **clockconfig** by:
+- Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
+
