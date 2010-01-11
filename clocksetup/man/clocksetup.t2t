@@ -23,14 +23,19 @@ used to:
 - Set the timezone
 - Synchronize system date/time using Network Time Protocol (NTP)
 
+
 **clocksetup** is a part of **salixtools**.
 
 = AUTHORS =
 
-- George Vlahavas <vlahavas~at~gmaill~dot~com>
+- George Vlahavas <vlahavas~at~gmail~dot~com>
+
 - Pierrick Le Brun <akuna~at~free~dot~fr>
+
 - Thorsten Muehlfelder <thenktor~at~gmx~dot~de>
 
+
 **clocksetup** is a fork of **clockconfig** by:
+
 - Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
 
