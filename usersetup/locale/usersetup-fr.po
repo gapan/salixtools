@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: usersetup 2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-26 19:17+0200\n"
-"PO-Revision-Date: 2009-12-26 20:05+0200\n"
+"PO-Revision-Date: 2010-01-12 18:02+0200\n"
 "Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Sélectionnez"
 #: ../usersetup:91
 #, sh-format
 msgid "Exit user setup"
-msgstr "Quitter l'environnement de configuration de l'utilisateur"
+msgstr "Sortir de la config"
 
 #: ../usersetup:72
 #: ../usersetup:92
