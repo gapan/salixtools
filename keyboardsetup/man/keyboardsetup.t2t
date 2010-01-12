@@ -50,7 +50,7 @@ numlock state, you must also specify a valid **keymap**.
 - Pierrick Le Brun <akuna~at~free~dot~fr>
 
 
-**keyboardsetup** is a fork of **keyboardconfig**, which was originally
+**keyboardsetup** started as a fork of **keyboardconfig**, which was originally
 written by:
 
 - Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
