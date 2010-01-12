@@ -25,6 +25,8 @@ servicesetup is exited. Services that are not selected, if already
 running, will be stopped when servicesetup is exited and set to not
 autostart at next boot.
 
+**servicesetup** is part of the **salixtools** package.
+
 = AUTHORS =
 
 - George Vlahavas <vlahavas~at~gmail~dot~com>
