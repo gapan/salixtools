@@ -29,6 +29,16 @@ for i in `ls servicesetup/locale/service-*.mo`; do
 	$DESTDIR/usr/share/locale/`basename $i|sed "s/service-\(.*\).mo/\1/"`/LC_MESSAGES/service.mo
 done
 
+install -d -m 755 $DESTDIR/usr/man/man8
+for i in clocksetup keyboardsetup localesetup usersetup servicesetup; do
+	(
+	cd $i/man
+	for j in `ls *.8`; do
+		install -m644 $j $DESTDIR/usr/man/man8/
+	done
+	)
+done
+
 for i in `ls icons/*.svg`; do
 	install -d -m 755 $DESTDIR/usr/share/icons/hicolor/scalable/apps/
 	install -m 644 $i $DESTDIR/usr/share/icons/hicolor/scalable/apps/
