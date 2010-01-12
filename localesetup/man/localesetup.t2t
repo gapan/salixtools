@@ -26,6 +26,8 @@ the system default.
 invoked by providing a locale paremeter from the
 command line.
 
+**localesetup** is part of the **salixtools** package.
+
 = OPTIONS =
 
 **locale**,
