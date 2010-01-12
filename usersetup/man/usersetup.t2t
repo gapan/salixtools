@@ -62,6 +62,7 @@ which allows changing the name of a group already present in the system.
 %comment
 which allows the deletion of a group from the system.
 
+**usersetup** is part of the **salixtools** package.
 
 = AUTHORS =
 
