@@ -28,6 +28,8 @@ default.
 invoked by providing keyboard map and numlock state parameters from the
 command line.
 
+**keyboardsetup** is part of the **salixtools** package.
+
 = OPTIONS =
 
 **keymap**,
