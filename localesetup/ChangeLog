@@ -1,39 +1,39 @@
-Version 2.0 - 12/01/2010 - GV
+12/01/2010 - GV
 - Added manpage
 
-Version 1.9 - 10/10/2009 - GV
+10/10/2009 - GV
 - Added support for setting the locale non-interactively from the
   command line
 
-Version 1.8 - 10/08/2009 - GV
+10/08/2009 - GV
 - Fixed utf8 detection
 - Updated French translation
 
-Version 1.7 - 09/08/2009 - GV
+09/08/2009 - GV
 - Added Finnish translation
 
-Version 1.6 - 04/08/2009 - GV
+04/08/2009 - GV
 - Added German translation
 
-Version 1.5 - 04/08/2009 - GV
+04/08/2009 - GV
 - utf8 check
 - added localesetup-kde.desktop file
 
-Version 1.4 - 02/08/2009 - PLB
+02/08/2009 - PLB
 - Added internationalization support
 - Added French & Greek translation
 - Narrow down to utf8 choice only
 - Minor GUI improvements
 
-Version 1.3 - 06/04/2006 - JPG
+06/04/2006 - JPG
 - Delete temp file
 
-Version 1.2 - 22/10/2005 - JPG
+22/10/2005 - JPG
 - Improved/secured tempdir management
 
-Version 1.1 - 01/09/2005 - JPG
+01/09/2005 - JPG
 - Added Xdialog support
 - Added icon support
 
-Version 0.1 - 01/09/2005 - JPG
+01/09/2005 - JPG
 - Original code as localeconfig for Zenwalk

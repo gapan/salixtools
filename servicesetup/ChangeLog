@@ -1,18 +1,18 @@
-Version 0.5 - 2010-01-22
+2010-01-22
 - Don't check for pid of service before trying to stop it
 
-Version 0.4 - 2010-01-12
+2010-01-12
 - Added manpage
 
-Version 0.3 - 2009-09-19
+2009-09-19
 - Added German translation
 
-Version 0.2 - 2009-08-14
+2009-08-14
 - Blacklisted alsa, wicd and sysvinit services
 - Added Greek translation
 - Fixed a few bugs
 
-Version 0.1 - 2009-08-14
+2009-08-14
 - Added support for gettext
 
 =======================================

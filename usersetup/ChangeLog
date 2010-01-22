@@ -1,45 +1,45 @@
-Version 3.1 - 18/01/2010 - GV
+18/01/2010 - GV
 - Added the lp group to the default groups list
 
-Version 3.0 - 12/01/2010 - GV
+12/01/2010 - GV
 - Added manpage
 
-Version 2.9 - 26/12/2009 - GV
+26/12/2009 - GV
 - Changed "Exit" buttons to more reasonable text
 
-Version 2.8 - 28/11/2009 - GV
+28/11/2009 - GV
 - Added simple user creation mode
 
-Version 2.7 - 11/09/2009 - GV
+11/09/2009 - GV
 - If home dir has a different name that the user name, two home
   directories were created.
 - Added Finnish translation
 
-Version 2.6 - 10/08/2009 - GV
+10/08/2009 - GV
 - Really fixed the chpasswd thing, "-m" is not needed after all.
 
-Version 2.5 - 10/08/2009 - GV
+10/08/2009 - GV
 - Fixed utf8 detection
 - Updated French translation
 
-Version 2.4 - 09/08/2009 - GV
+09/08/2009 - GV
 - Added Finnish translation
 
-Version 2.3 - 06/07/2009 - GV
+06/07/2009 - GV
 - Added "-m" flag (md5) to chpasswd. Without it, users could log in with
   an incomplete password.
 
-Version 2.2 - 04/08/2009 - GV
+04/08/2009 - GV
 - Added German translation
 
-Version 2.1 - 03/08/2009 - GV
+03/08/2009 - GV
 - changed several 'Cancel' buttons to 'Exit'
 - removed 'Cancel' buttons for user details dialogs
 - fixed the user modification menu that I broke :D
 - added confirmation dialogs for user and group deletion
 - removed the group membership dialog from group creation
 
-Version 2.0 - 04/08/2009 - GV
+04/08/2009 - GV
 - utf8 check
 - changed many message strings
 - fixed crashing in console mode due to --no-tags
@@ -47,36 +47,36 @@ Version 2.0 - 04/08/2009 - GV
 - removed count from password prompt
 - added usersetup-kde.desktop file
 
-Version 1.9 - 03/08/2009 - PLB
+03/08/2009 - PLB
 - Internationalization support
 - Added French translation
 - Added power & netdev group
 - Some GUI improvements
 
-Version 1.8 - 15/04/2008 - JPG
+15/04/2008 - JPG
 - Dynamic available user groups detection
 
-Version 1.7 - 07/06/2007 - TMC
+07/06/2007 - TMC
 - Text changes
 - Default to never expire
 
-Version 1.6 - 21/04/2007 - JPG
+21/04/2007 - JPG
 -Password box
 
-Version 1.5 - 31/03/2006 - JPG
+31/03/2006 - JPG
 - Bugfix expiry problem
 
-Version 1.4 - 30/11/2005 - JPG
+30/11/2005 - JPG
 - Improved password dialog window
 
-Version 1.3 - 30/11/2005 - JPG
+30/11/2005 - JPG
 - Bugfix space in realname
 
-Version 1.2 - 04/11/2005 - JPG
+04/11/2005 - JPG
 - Fixed "Never" expiry problem
 
-Version 1.1 - 01/11/2005 - JPG
+01/11/2005 - JPG
 - Change some buttons labels
 
-Version 1.0 - 30/10/2005 - JPG
+30/10/2005 - JPG
 - Original code as userconfig for Zenwalk
