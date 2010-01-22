@@ -110,10 +110,8 @@ if [ "$reply" ]; then
     else
       chmod 644 $rcdir/rc.$service 1>&2 2>/dev/null
       if [ "$1" != "passive" ]; then
-        if [ "$(getdaemon $service)" ]; then 
-			/bin/sh $rcdir/rc.$service stop 1>&2 2>/dev/null &
-		fi
-        kill -9 $(getdaemon $service) 1>&2 2>/dev/null 
+		/bin/sh $rcdir/rc.$service stop 1>&2 2>/dev/null &
+		kill -9 $(getdaemon $service) 1>&2 2>/dev/null 
       fi
     fi
   done

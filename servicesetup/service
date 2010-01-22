@@ -55,7 +55,7 @@ start() {
 stop() {
   if [ -r $rcdir/rc.${servicename} ]; then
     echo -e "`eval_gettext '${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service'`"
-    [ "$(getdaemon ${servicename})" ] && /bin/sh $rcdir/rc.${servicename} stop 1>&2 2>/dev/null &
+    /bin/sh $rcdir/rc.${servicename} stop 1>&2 2>/dev/null
     sleep 1
     kill -9 $(getdaemon ${servicename}) 1>&2 2>/dev/null 
     chmod 644 $rcdir/rc.${servicename} 

@@ -1,3 +1,6 @@
+Version 0.5 - 2010-01-22
+- Don't check for pid of service before trying to stop it
+
 Version 0.4 - 2010-01-12
 - Added manpage
 
