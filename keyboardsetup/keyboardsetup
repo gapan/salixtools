@@ -229,7 +229,6 @@ interactive(){
 			--title "`eval_gettext 'SCIM configuration'`" \
 			--ok-label "`eval_gettext 'Enabled'`" \
 			--cancel-label "`eval_gettext 'Disabled'`" \
-			$scimdefault \
 			--icon "$iconpath" \
 			--yesno \
 			"\\n`eval_gettext 'SCIM is an input platform for Chinese, Japanese,\nKorean and many other languages. Do you want to\nhave it enabled or disabled on boot?\n\nYou will have to restart your system for this to take\neffect.'`" 0 0
