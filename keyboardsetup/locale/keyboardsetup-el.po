@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-04 01:22+0300\n"
-"PO-Revision-Date: 2009-07-31 00:27+0300\n"
+"POT-Creation-Date: 2010-02-03 14:28+0200\n"
+"PO-Revision-Date: 2010-02-03 14:46+0200\n"
 "Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -16,60 +16,135 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../keyboardsetup:36
+#: ../keyboardsetup:58
 #, sh-format
-msgid "USAGE: keyboardsetup [keymap] [numlock state (on or off)]"
-msgstr ""
-"ΧΡΗΣΗ: keyboardsetup [διάταξη πληκτρολογίου] [κατάσταση numlock (on ή off)]"
+msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
+msgstr "ΧΡΗΣΗ: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
-#: ../keyboardsetup:37
+#: ../keyboardsetup:60
 #, sh-format
-msgid ""
-"(If you want to specify a numlock state, you also have to specify a keymap)"
-msgstr ""
-"(Αν επιθυμείτε να δώσετε μια κατάσταση numlock, θα πρέπει να δώσετε και μία "
-"διάταξη πληκτρολογίου)"
+msgid "OPTIONS:"
+msgstr "ΠΑΡΑΜΕΤΡΟΙ:"
 
-#: ../keyboardsetup:38
+#: ../keyboardsetup:62
 #, sh-format
-msgid "EXAMPLE: keyboardsetup uk on"
-msgstr "ΠΑΡΑΔΕΙΓΜΑ: keyboardsetup gr on"
+msgid "   -k keymap,         a valid keyboard map"
+msgstr "   -k keymap,         μια έγκυρη διάταξη πληκτρολογίου"
 
-#: ../keyboardsetup:43
+#: ../keyboardsetup:63
+#, sh-format
+msgid "   -n numlockstate,   the numlock state, on or off"
+msgstr "   -n numlockstate,   η κατάσταση του numlock, on ή off"
+
+#: ../keyboardsetup:64
+#, sh-format
+msgid "   -s scimstate,      the SCIM state, on or off"
+msgstr "   -s scimstate,      η κατάσταση του SCIM, on ή off"
+
+#: ../keyboardsetup:114
+#, sh-format
+msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
+msgstr "ΣΦΑΛΜΑ: Το $OPTARG δεν είναι έγκυρη διάταξη πληκτρολογίου. Μπορείτε να κοιτάξετε στο αρχείο $keymapsdir/keymaps για μια λίστα με έγκυρες διατάξεις"
+
+#: ../keyboardsetup:128
+#: ../keyboardsetup:137
+#, sh-format
+msgid "ERROR: $OPTARG is not a valid option."
+msgstr "ΣΦΑΛΜΑ: Το $OPTARG δεν είναι έγκυρη παράμετρος"
+
+#: ../keyboardsetup:149
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ΣΦΑΛΜΑ: Πολλές παράμετροι"
 
-#: ../keyboardsetup:57
-#, sh-format
-msgid "ERROR: $numstate is not a valid option."
-msgstr "ΣΦΑΛΜΑ: Το $numstate δεν είναι έγκυρη παράμετρος"
-
-#: ../keyboardsetup:68
-#, sh-format
-msgid ""
-"ERROR: $key is not a valid keymap. You can look in $keymapsdir/keymaps for a "
-"list of valid keymaps"
-msgstr ""
-"ΣΦΑΛΜΑ: Το $key δεν είναι έγκυρη διάταξη πληκτρολογίου. Μπορείτε να "
-"κοιτάξετε στο αρχείο $keymapsdir/keymaps για μια λίστα με έγκυρες διατάξεις"
-
-#: ../keyboardsetup:141 ../keyboardsetup:152
+#: ../keyboardsetup:191
+#: ../keyboardsetup:202
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Προτιμήσεις πληκτρολογίου"
 
-#: ../keyboardsetup:143 ../keyboardsetup:154
+#: ../keyboardsetup:193
+#: ../keyboardsetup:204
 #, sh-format
 msgid "OK"
 msgstr "Εντάξει"
 
-#: ../keyboardsetup:144 ../keyboardsetup:155
+#: ../keyboardsetup:194
+#: ../keyboardsetup:205
 #, sh-format
 msgid "Exit"
 msgstr "Έξοδος"
 
-#: ../keyboardsetup:148 ../keyboardsetup:158
+#: ../keyboardsetup:198
+#: ../keyboardsetup:208
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Παρακαλώ επιλέξτε την επιθυμητή διάταξη πληκτρολογίου:"
+
+#: ../keyboardsetup:236
+#, sh-format
+msgid "Numlock configuration"
+msgstr "Προτίμηση numlock"
+
+#: ../keyboardsetup:237
+#: ../keyboardsetup:262
+#: ../keyboardsetup:274
+#, sh-format
+msgid "Enabled"
+msgstr "Ενεργό"
+
+#: ../keyboardsetup:238
+#: ../keyboardsetup:263
+#: ../keyboardsetup:275
+#, sh-format
+msgid "Disabled"
+msgstr "Ανενεργό"
+
+#: ../keyboardsetup:242
+#, sh-format
+msgid "Do you want to have numlock enabled or disabled by default?"
+msgstr "Θέλετε να είναι το numlock ενεργό ή ανενεργό εξ ορισμού;"
+
+#: ../keyboardsetup:261
+#: ../keyboardsetup:273
+#, sh-format
+msgid "SCIM configuration"
+msgstr "Προτίμηση SCIM"
+
+#: ../keyboardsetup:266
+#, sh-format
+msgid ""
+"SCIM is an input platform for Chinese, Japanese,\\n"
+"Korean and many other languages. Do you want to\\n"
+"have it enabled or disabled on boot?\\n"
+"\\n"
+"You will have to restart your system for this to take\\n"
+"effect."
+msgstr ""
+"Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα,\\n"
+"Γιαπωνέζικα, Κορεάτικα και άλλες γλώσσες. Θέλετε\\n"
+"να είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n"
+"\\n"
+"Πρέπει να επανεκκινήσετε το σύστημα σας για να\\n"
+"εφαρμοστούν οι αλλαγές στο SCIM."
+
+#: ../keyboardsetup:279
+#, sh-format
+msgid ""
+"SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n"
+"\\n"
+"You will have to restart your system for this to take effect."
+msgstr ""
+"Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα, Γιαπωνέζικια, Κορεάτικα και άλλες γλώσσες όταν χρησιμοποιείτε κάποιο γραφικό περιβάλλον. Θέλετε να είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n"
+"\\n"
+"Θα πρέπει να επανεκκινήσετε το σύστημά σας για να εφαρμοστούν οι αλλαγές στο SCIM."
+
+#~ msgid ""
+#~ "(If you want to specify a numlock state, you also have to specify a "
+#~ "keymap)"
+#~ msgstr ""
+#~ "(Αν επιθυμείτε να δώσετε μια κατάσταση numlock, θα πρέπει να δώσετε και "
+#~ "μία διάταξη πληκτρολογίου)"
+#~ msgid "EXAMPLE: keyboardsetup uk on"
+#~ msgstr "ΠΑΡΑΔΕΙΓΜΑ: keyboardsetup gr on"
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-04 01:22+0300\n"
+"POT-Creation-Date: 2010-02-03 14:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,55 +16,106 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../keyboardsetup:36
+#: ../keyboardsetup:58
 #, sh-format
-msgid "USAGE: keyboardsetup [keymap] [numlock state (on or off)]"
+msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 msgstr ""
 
-#: ../keyboardsetup:37
+#: ../keyboardsetup:60
+#, sh-format
+msgid "OPTIONS:"
+msgstr ""
+
+#: ../keyboardsetup:62
+#, sh-format
+msgid "   -k keymap,         a valid keyboard map"
+msgstr ""
+
+#: ../keyboardsetup:63
+#, sh-format
+msgid "   -n numlockstate,   the numlock state, on or off"
+msgstr ""
+
+#: ../keyboardsetup:64
+#, sh-format
+msgid "   -s scimstate,      the SCIM state, on or off"
+msgstr ""
+
+#: ../keyboardsetup:114
 #, sh-format
 msgid ""
-"(If you want to specify a numlock state, you also have to specify a keymap)"
+"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
+"for a list of valid keymaps"
 msgstr ""
 
-#: ../keyboardsetup:38
+#: ../keyboardsetup:128 ../keyboardsetup:137
 #, sh-format
-msgid "EXAMPLE: keyboardsetup uk on"
+msgid "ERROR: $OPTARG is not a valid option."
 msgstr ""
 
-#: ../keyboardsetup:43
+#: ../keyboardsetup:149
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr ""
 
-#: ../keyboardsetup:57
-#, sh-format
-msgid "ERROR: $numstate is not a valid option."
-msgstr ""
-
-#: ../keyboardsetup:68
-#, sh-format
-msgid ""
-"ERROR: $key is not a valid keymap. You can look in $keymapsdir/keymaps for a "
-"list of valid keymaps"
-msgstr ""
-
-#: ../keyboardsetup:141 ../keyboardsetup:152
+#: ../keyboardsetup:191 ../keyboardsetup:202
 #, sh-format
 msgid "Keyboard configuration"
 msgstr ""
 
-#: ../keyboardsetup:143 ../keyboardsetup:154
+#: ../keyboardsetup:193 ../keyboardsetup:204
 #, sh-format
 msgid "OK"
 msgstr ""
 
-#: ../keyboardsetup:144 ../keyboardsetup:155
+#: ../keyboardsetup:194 ../keyboardsetup:205
 #, sh-format
 msgid "Exit"
 msgstr ""
 
-#: ../keyboardsetup:148 ../keyboardsetup:158
+#: ../keyboardsetup:198 ../keyboardsetup:208
 #, sh-format
 msgid "Please select your preferred keyboard map:"
+msgstr ""
+
+#: ../keyboardsetup:236
+#, sh-format
+msgid "Numlock configuration"
+msgstr ""
+
+#: ../keyboardsetup:237 ../keyboardsetup:262 ../keyboardsetup:274
+#, sh-format
+msgid "Enabled"
+msgstr ""
+
+#: ../keyboardsetup:238 ../keyboardsetup:263 ../keyboardsetup:275
+#, sh-format
+msgid "Disabled"
+msgstr ""
+
+#: ../keyboardsetup:242
+#, sh-format
+msgid "Do you want to have numlock enabled or disabled by default?"
+msgstr ""
+
+#: ../keyboardsetup:261 ../keyboardsetup:273
+#, sh-format
+msgid "SCIM configuration"
+msgstr ""
+
+#: ../keyboardsetup:266
+#, sh-format
+msgid ""
+"SCIM is an input platform for Chinese, Japanese,\\nKorean and many other "
+"languages. Do you want to\\nhave it enabled or disabled on boot?\\n\\nYou "
+"will have to restart your system for this to take\\neffect."
+msgstr ""
+
+#: ../keyboardsetup:279
+#, sh-format
+msgid ""
+"SCIM is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
 msgstr ""
