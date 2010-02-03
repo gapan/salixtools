@@ -38,7 +38,7 @@ init(){
 	keymapsdir="/usr/share/salixtools/"
 
 	# Just to be sure
-	unset keymap key numstate scimstate xkblayout xkbvariant xkboptions setkeymap setnumlock setscim
+	unset keymap key numstate numdefault scimstate scimdefault xkblayout xkbvariant xkboptions setkeymap setnumlock setscim
 
 	backtohome=$(pwd)
 	
@@ -153,6 +153,12 @@ fi
 
 # The interactive section
 interactive(){
+	# Always going to set keymap and numlock when running interactively
+	# with Xdialog, but this can change further below in the dialog
+	# numlock window
+	setkeymap=1
+	setnumlock=1
+	
 	# Set the current keymap as the keymap that is checked by default
 	if [ "$keymap" ] ; then
 		[ ! "$(echo $keymap | grep 'map')" ] && keymap="${keymap}.map"
@@ -221,6 +227,33 @@ interactive(){
 	  numlock="$(echo "$answer" | tail -n1)"
 	fi
 	
+	# Display a dialog for numlock, only in console mode, it's already
+	# there in the main window when running with Xdialog
+	if [ "$xflag" = "no" ] ; then
+		if [ $numstate = "off" ]; then
+			numdefault="--defaultno"
+		fi
+		$dialog \
+		--stdout \
+		--title "`eval_gettext 'Numlock configuration'`" \
+		--yes-label "`eval_gettext 'Enabled'`" \
+		--no-label "`eval_gettext 'Disabled'`" \
+		$numdefault \
+		--icon "$iconpath" \
+		--yesno \
+		"\\n`eval_gettext 'Do you want to have numlock enabled or disabled by default?'`" 0 0
+	fi
+	retval=$?
+	if [ $retval -eq 255 ]; then
+		setnumlock=0
+	elif [ $retval -eq 0 ]; then
+		numstate="on"
+		numlock="checked"
+	else
+		numstate="off"
+		numlock="unchecked"
+	fi
+	
 	# Display a dialog for scim, if scim is installed
 	if [ -x /usr/bin/scim ]; then
 		setscim=1
@@ -260,10 +293,6 @@ interactive(){
 	else
 		setscim=0
 	fi
-
-	# Always going to set keymap and numlock when running interactively
-	setkeymap=1
-	setnumlock=1
 }
 
 # Apply numlock settings
