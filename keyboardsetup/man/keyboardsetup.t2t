@@ -11,7 +11,7 @@ keyboardsetup - a tool that helps set keyboard options
 
 = SYNOPSIS =
 
-**keyboardsetup** [//keymap// [//numlockstate//]]
+**keyboardsetup** [//OPTIONS//]
 
 = DESCRIPTION =
 
@@ -22,28 +22,41 @@ Xdialog or dialog, with a list of all valid keyboard maps for the user
 to choose. It can also set the default state of the numlock key after
 booting. User preferences are applied on the fly and appropriate changes
 are done to system configuration files so they become the system
-default. 
+default.
+
+**keyboardsetup** can also be used to set SCIM to be enabled or disabled,
+if SCIM is installed, by means of providing a dialog for it.
+SCIM is an input platform for Chinese, Japanese, Korean and many other
+languages when using a graphical environment). SCIM
+settings require the system to be restarted to take effect, or at
+the very least for the user to logout of his X session, log back in
+again and start SCIM manually.
 
 **keyboardsetup** also has a non-interactive mode that can be
-invoked by providing keyboard map and numlock state parameters from the
-command line.
+invoked by providing keyboard map, numlock state and/or SCIM state
+parameters from the command line.
 
 **keyboardsetup** is part of the **salixtools** package.
 
 = OPTIONS =
 
-**keymap**,
+**-k** //keymap//,
 %comment
-The keyboard map to be used. Look in the
-///usr/share/salixtools/keymaps// file to view a list of valid keyboard
-maps and their corresponding Xorg layouts and options.
+use it to set the desired keyboard map. //keymap// specifies the
+keyboard map to be used. Look in the ///usr/share/salixtools/keymaps//
+file to view a list of valid keyboard maps and their corresponding
+Xorg layouts and options.
 
-**numlockstate**,
+**-n** //numlockstate//,
 %comment
-Used to specify the default numlock state for the linux terminal and
-Xorg. Can be set to either **on** or **off**. In order to specify a
-numlock state, you must also specify a valid **keymap**.
+use it to specify the default numlock state for the linux terminal and
+Xorg. //numlockstate// can be set to either **on** or **off**.
 
+**-s** //scimstate//,
+%comment
+use it to specify the default state of SCIM, if SCIM is installed.
+//scimstate// can be set to either **on** or **off**. It will have no
+effect if SCIM is not installed.
 
 = AUTHORS =
 
