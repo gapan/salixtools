@@ -55,9 +55,11 @@ init(){
 }
 
 usage(){
-	echo "`eval_gettext 'USAGE: keyboardsetup [keymap] [numlock state (on or off)]'`"
-	echo "`eval_gettext '(If you want to specify a numlock state, you also have to specify a keymap)'`"
-	echo "`eval_gettext 'EXAMPLE: keyboardsetup uk on'`"
+	echo "`eval_gettext 'USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]'`"
+	echo
+	echo "`eval_gettext '-k keymap,         a valid keyboard map'`"
+	echo "`eval_gettext '-n numlockstate,   the numlock state, on or off'`"
+	echo "`eval_gettext '-s scimstate,      the SCIM state, on or off'`"
 	exit 1
 }
 
