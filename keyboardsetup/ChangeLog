@@ -1,3 +1,9 @@
+03/02/2010 - GV
+- Almost complete rewrite, command line options have been completely
+  altered
+- Added support for SCIM
+- Added numlock dialog when running in console mode
+
 12/01/2010 - GV
 - Added manpage
 
