@@ -225,9 +225,6 @@ interactive(){
 	if [ -x /usr/bin/scim ]; then
 		setscim=1
 		if [ "$xflag" = "yes" ] ; then
-			if [ $scimstate = "off" ]; then
-				scimdefault="--default-no"
-			fi
 			$dialog \
 			--stdout \
 			--title "`eval_gettext 'SCIM configuration'`" \
