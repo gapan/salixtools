@@ -280,16 +280,14 @@ interactive(){
 			--yesno \
 			"\\n`eval_gettext 'SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\n\nYou will have to restart your system for this to take effect.'`" 0 0
 		fi
-		
-			# Don't do anything if Cancel or the close button was pressed
-			retval=$?
-			if [ $retval -eq 255 ]; then
-				setscim=0
-			elif [ $retval -eq 0 ]; then
-				scimstate="on"
-			else
-				scimstate="off"
-			fi
+		retval=$?
+		if [ $retval -eq 255 ]; then
+			setscim=0
+		elif [ $retval -eq 0 ]; then
+			scimstate="on"
+		else
+			scimstate="off"
+		fi
 	else
 		setscim=0
 	fi
