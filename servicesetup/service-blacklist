@@ -17,12 +17,6 @@ sample
 font
 serial
 sysvinit
-udev
-acpid
 howl
-rc.alsa
-rc.wireless
 rc.services
-rc.hald
-rc.messagebus
 rc.numlock
