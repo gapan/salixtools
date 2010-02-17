@@ -165,7 +165,7 @@ interactive(){
 
 		# We get the corresponding current path/key.map
 		currentpathkeymap="$(ls */* \
-		| egrep "azerty|qwerty|dvorak|qwertz" \
+		| egrep "azerty|qwerty|dvorak|qwertz|olpc" \
 		| grep "\/$keymap" \
 		| sed -e 's/^\(.*\).gz$/\1/')"
 
@@ -174,7 +174,7 @@ interactive(){
 	[ ! "$currentpathkeymap" ] && currentpathkeymap="qwerty/us.map"
 
 	list="$(ls */* \
-		| egrep "azerty|qwerty|dvorak|qwertz" \
+		| egrep "azerty|qwerty|dvorak|qwertz|olpc" \
 		| egrep 'map.gz' \
 		| sed -e 's/^\(.*\).gz$/\"\1\" \" \" \\/')"
 

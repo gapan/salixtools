@@ -38,6 +38,7 @@ dvorak-l|dvorak||
 dvorak-r|dvorak||
 dvorak|dvorak||
 es-cp850|es||
+el-olpc|el||
 es|es||
 fi-latin1|fi||
 fi-latin9|fi||
@@ -79,6 +80,7 @@ pl2|pl2||
 pl|pl||
 pt-latin1|pt||
 pt-latin9|pt||
+pt-olpc|pt||
 ro_win|ro_microsoft||
 ru-cp1251|ru||grp:switch,grp:alt_shift_toggle,grp_led:scroll
 ru-ms|us,ru(winkeys)||grp:switch,grp:alt_shift_toggle,grp_led:scroll
