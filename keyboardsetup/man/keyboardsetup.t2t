@@ -16,9 +16,9 @@ keyboardsetup - a tool that helps set keyboard options
 = DESCRIPTION =
 
 **keyboardsetup** is a tool that helps set the keyboard map to be used for
-the linux terminal and Xorg. If it is run with no parameters specified, 
+the linux terminal. If it is run with no parameters specified, 
 it provides an interactive menu, using
-Xdialog or dialog, with a list of all valid keyboard maps for the user
+__dialog__, with a list of all valid keyboard maps for the user
 to choose. It can also set the default state of the numlock key after
 booting. User preferences are applied on the fly and appropriate changes
 are done to system configuration files so they become the system

@@ -31,9 +31,6 @@ init(){
 	# Path needs to be extended in case you're only half a root :)
 	export PATH="/usr/sbin:/sbin:${PATH}"
 
-	# Path to icon
-	iconpath="/usr/share/salixtools/pixmaps"
-
 	# Path to the keymaps list file
 	keymapsdir="/usr/share/salixtools/"
 
@@ -41,16 +38,9 @@ init(){
 	unset keymap key numstate numdefault scimstate scimdefault xkblayout xkbvariant xkboptions setkeymap setnumlock setscim
 
 	backtohome=$(pwd)
-	
-	# Take a look at "Xdialog" and use it instead of "dialog" in case X is running
-	if [[ "$DISPLAY" && "$(which Xdialog 2>&1 | grep -v "which: no")" ]]; then
-		dialog="Xdialog --wrap --left --screen-center"
-		xflag='yes'
-	else
-		dialog="dialog"
-		xflag='no'
-	fi
 
+	dialog="dialog"
+		
 	cd /usr/share/kbd/keymaps/i386
 }
 
@@ -153,9 +143,6 @@ fi
 
 # The interactive section
 interactive(){
-	# Always going to set keymap and numlock when running interactively
-	# with Xdialog, but this can change further below in the dialog
-	# numlock window
 	setkeymap=1
 	setnumlock=1
 	
@@ -185,18 +172,6 @@ interactive(){
 	fi
 
 	# Display keymap selection dialog
-	if [ "$xflag" = "yes" ] ; then
-	answer="$(eval $dialog \
-	--stdout \
-	--title \"`eval_gettext 'Keyboard configuration'`\" \
-	--default-item \"$currentpathkeymap\" \
-	--ok-label \"`eval_gettext 'OK'`\" \
-	--cancel-label \"`eval_gettext 'Exit'`\" \
-	--icon \"$iconpath\" \
-	--check \"numlock\" \"$numprecheck\" \
-	--menu \
-	\"\\n`eval_gettext 'Please select your preferred keyboard map:'`\" 0 0 11 "$list" )"
-	else
 	answer="$(eval $dialog \
 	--stdout \
 	--title \"`eval_gettext 'Keyboard configuration'`\" \
@@ -206,7 +181,6 @@ interactive(){
 	--icon \"$iconpath\" \
 	--menu \
 	\"\\n        `eval_gettext 'Please select your preferred keyboard map:'`\" 20 80 11 "$list" )"
-	fi
 
 	# Don't do anything if Cancel or the close button was pressed
 	retval=$?
@@ -223,61 +197,45 @@ interactive(){
 		key=${keymap%.map}
 	fi
 
-	# Display a dialog for numlock, only in console mode, it's already
-	# there in the main window when running with Xdialog
-	if [ "$xflag" = "yes" ] ; then
-		numlock="$(echo "$answer" | tail -n1)"
+	# Display a dialog for numlock
+	if [ $numstate = "off" ]; then
+		numdefault="--defaultno"
+	fi
+	$dialog \
+	--stdout \
+	--title "`eval_gettext 'Numlock configuration'`" \
+	--yes-label "`eval_gettext 'Enabled'`" \
+	--no-label "`eval_gettext 'Disabled'`" \
+	$numdefault \
+	--icon "$iconpath" \
+	--yesno \
+	"\\n`eval_gettext 'Do you want to have numlock enabled or disabled by default?'`" 0 0
+		retval=$?
+	if [ $retval -eq 255 ]; then
+		setnumlock=0
+	elif [ $retval -eq 0 ]; then
+		numstate="on"
+		numlock="checked"
 	else
-		if [ $numstate = "off" ]; then
-			numdefault="--defaultno"
-		fi
-		$dialog \
-		--stdout \
-		--title "`eval_gettext 'Numlock configuration'`" \
-		--yes-label "`eval_gettext 'Enabled'`" \
-		--no-label "`eval_gettext 'Disabled'`" \
-		$numdefault \
-		--icon "$iconpath" \
-		--yesno \
-		"\\n`eval_gettext 'Do you want to have numlock enabled or disabled by default?'`" 0 0
-			retval=$?
-		if [ $retval -eq 255 ]; then
-			setnumlock=0
-		elif [ $retval -eq 0 ]; then
-			numstate="on"
-			numlock="checked"
-		else
-			numstate="off"
-			numlock="unchecked"
-		fi
+		numstate="off"
+		numlock="unchecked"
 	fi
 	
 	# Display a dialog for scim, if scim is installed
 	if [ -x /usr/bin/scim ]; then
 		setscim=1
-		if [ "$xflag" = "yes" ] ; then
-			$dialog \
-			--stdout \
-			--title "`eval_gettext 'SCIM configuration'`" \
-			--ok-label "`eval_gettext 'Enabled'`" \
-			--cancel-label "`eval_gettext 'Disabled'`" \
-			--icon "$iconpath" \
-			--yesno \
-			"\\n`eval_gettext 'SCIM is an input platform for Chinese, Japanese,\nKorean and many other languages. Do you want to\nhave it enabled or disabled on boot?\n\nYou will have to restart your system for this to take\neffect.'`" 0 0
-		else
-			if [ $scimstate = "off" ]; then
-				scimdefault="--defaultno"
-			fi
-			$dialog \
-			--stdout \
-			--title "`eval_gettext 'SCIM configuration'`" \
-			--yes-label "`eval_gettext 'Enabled'`" \
-			--no-label "`eval_gettext 'Disabled'`" \
-			$scimdefault \
-			--icon "$iconpath" \
-			--yesno \
-			"\\n`eval_gettext 'SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\n\nYou will have to restart your system for this to take effect.'`" 0 0
+		if [ $scimstate = "off" ]; then
+			scimdefault="--defaultno"
 		fi
+		$dialog \
+		--stdout \
+		--title "`eval_gettext 'SCIM configuration'`" \
+		--yes-label "`eval_gettext 'Enabled'`" \
+		--no-label "`eval_gettext 'Disabled'`" \
+		$scimdefault \
+		--icon "$iconpath" \
+		--yesno \
+		"\\n`eval_gettext 'SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\n\nYou will have to restart your system for this to take effect.'`" 0 0
 		retval=$?
 		if [ $retval -eq 255 ]; then
 			setscim=0
@@ -338,7 +296,7 @@ applykeyboard(){
 	fi
 
 	/usr/bin/loadkeys -u $keymap 1>&2 2>/dev/null
-	[ "$xflag" = "yes" ] && \
+	[[ $DISPLAY ]] && [ -x /usr/bin/setxkbmap ] \
 	/usr/bin/setxkbmap -layout "$xkblayout" -variant "$xkbvariant" -option "$xkboptions" 1>&2 2>/dev/null
 	sed -i "s/\(^[ \t]*\/usr\/bin\/loadkeys -u\).*$/\1 $keymap/" /etc/rc.d/rc.keymap
 
