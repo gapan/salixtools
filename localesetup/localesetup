@@ -21,18 +21,10 @@ export TEXTDOMAIN="localesetup"
 export TEXTDOMAINDIR="/usr/share/locale"
 . gettext.sh
 
-# Take a look at "Xdialog" and use it instead of "dialog" in case X is running
-if [[ "$DISPLAY" && "$(which Xdialog 2>&1 | grep -v "which: no")" ]]; then
-	dialog="Xdialog --wrap --left --screen-center"
-else
-	dialog="dialog"
-fi
-
-# Path to icon
-iconpath="/usr/share/salixtools/pixmaps/"
-
 # Path needs to be extended in case you're only half a root :)
 export PATH="/usr/sbin:/sbin:${PATH}"
+
+dialog="dialog"
 
 # Just to be sure
 unset locale newlocale
@@ -84,7 +76,6 @@ locale="$(eval $dialog \
 --default-item \"${currentlocale}\" \
 --ok-label "`eval_gettext 'OK'`" \
 --cancel-label "`eval_gettext 'Exit'`" \
---icon \"$iconpath\" \
 --menu \
 \"\\n`eval_gettext 'The current locale is $currentlocale.'` \\n\\n\
 `eval_gettext 'Please select your preferred system language:'`\" 0 0 11 \
@@ -102,7 +93,4 @@ if [ "$locale" ]; then
 fi
 
 # end
-
-
-
 

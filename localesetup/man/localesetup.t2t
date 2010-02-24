@@ -16,7 +16,7 @@ George Vlahavas
 = DESCRIPTION =
 
 **localesetup** is a tool that can be used to set the system's locale.
-When invoked with no parameters, it starts an Xdialog or dialog interface
+When invoked with no parameters, it starts a __dialog__ interface
 to present the user with a list of available system locales. Only utf8
 locales are supported. The selected locale is applied on the fly and
 appropriate changes are done to system configuration files so it becomes
