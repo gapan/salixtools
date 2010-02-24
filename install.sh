@@ -2,7 +2,7 @@
 # install script for salixtools
 
 cd $(dirname $0)
-install -d -m 750 $DESTDIR/usr/sbin
+install -d -m 755 $DESTDIR/usr/sbin
 install -d -m 755 $DESTDIR/usr/share/salixtools/servicesetup
 install -d -m 755 $DESTDIR/etc/rc.d/desc.d
 
