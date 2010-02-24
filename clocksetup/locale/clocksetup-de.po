@@ -8,13 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-04 01:45+0300\n"
-"PO-Revision-Date: 2009-08-04 16:50+0100\n"
+"PO-Revision-Date: 2010-02-24 17:10+0100\n"
 "Last-Translator: Thorsten Mühlfelder <thenktor@gmx.de>\n"
-"Language-Team: \n"
+"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
 
 #: ../clocksetup:56
 #: ../clocksetup:74
@@ -98,7 +99,7 @@ msgstr "Datum stellen"
 #: ../clocksetup:131
 #, sh-format
 msgid "Please set the date..."
-msgstr "Bitte stellen sie das Datum..."
+msgstr "Bitte stellen Sie das Datum..."
 
 #: ../clocksetup:158
 #, sh-format
@@ -108,7 +109,7 @@ msgstr "Zeitzone einstellen"
 #: ../clocksetup:161
 #, sh-format
 msgid "Please select your time zone..."
-msgstr "Bitte wählen Sie ihre Zeitzone..."
+msgstr "Bitte wählen Sie Ihre Zeitzone..."
 
 #: ../clocksetup:1885
 #, sh-format
