@@ -23,30 +23,10 @@ export TEXTDOMAIN="usersetup"
 export TEXTDOMAINDIR="/usr/share/locale"
 . gettext.sh
 
-# Take a look at "Xdialog" and use it instead of "dialog" in case X is running
-if [[ "$DISPLAY" && "$(which Xdialog 2>&1 | grep -v "which: no")" ]]; then
-	dialog="Xdialog --wrap --left"
-	shortttl='3000'
-	longttl='8000'
-	xflag='yes'
-else
-	dialog="dialog"
-	shortttl=''
-	longttl=''
-	xflag='no'
-fi
+dialog="dialog"
 
 # Path needs to be extended in case you're only half a root :)
 export PATH="/usr/sbin:/sbin:${PATH}"
-
-if [[ "$DISPLAY" && "$(which xterm 2>&1 | grep -v "which: no")" ]]; then
-	terminal="xterm -bg black -fg red -geometry 48x12 -e"
-else
-	terminal=""
-fi
-
-# Path to icon
-iconpath="/usr/share/salixtools/pixmaps/"
 
 skeleton='/etc/skel'
 defaultshell='/bin/bash'
@@ -64,46 +44,23 @@ useraddmembership="$( echo ${useraddmembership} | sed -e 's/^\(.*\),$/\1/' )"
 # What do you want to do ?
 
 promptaction() {
-if [ $xflag = "yes" ]; then
-	mode=$(${dialog} \
-	--stdout \
-	--ok-label "`eval_gettext 'Select'`" \
-	--cancel-label "`eval_gettext 'Exit user setup'`" \
-	--title "`eval_gettext 'Users accounts management'`" \
-	--icon "$iconpath/usersetup.png" \
-	--no-tags \
-	--menu \
-	"\n `eval_gettext 'Please choose an option...'`  \n\n" \
-	24 60 10 \
-	   "1" "`eval_gettext 'Create a new account'`" \
-	   "2" "`eval_gettext 'Create a new account (advanced mode)'`" \
-	   "3" "`eval_gettext 'Modify account properties'`" \
-	   "4" "`eval_gettext 'Change account password'`" \
-	   "5" "`eval_gettext 'Delete accounts'`" \
-	   "6" "`eval_gettext 'List groups and memberships'`" \
-	   "7" "`eval_gettext 'Create a new group'`" \
-	   "8" "`eval_gettext 'Change group name'`" \
-	   "9" "`eval_gettext 'Delete groups'`")
-else
-	mode=$(${dialog} \
-	--stdout \
-	--ok-label "`eval_gettext 'Select'`" \
-	--cancel-label "`eval_gettext 'Exit user setup'`" \
-	--title "`eval_gettext 'Users accounts management'`" \
-	--menu \
-	"\n `eval_gettext 'Please choose an option...'`  \n\n" \
-	22 60 10 \
-	   "1" "`eval_gettext 'Create a new account'`" \
-	   "2" "`eval_gettext 'Create a new account (advanced mode)'`" \
-	   "3" "`eval_gettext 'Modify account properties'`" \
-	   "4" "`eval_gettext 'Change account password'`" \
-	   "5" "`eval_gettext 'Delete accounts'`" \
-	   "6" "`eval_gettext 'List groups and memberships'`" \
-	   "7" "`eval_gettext 'Create a new group'`" \
-	   "8" "`eval_gettext 'Change group name'`" \
-	   "9" "`eval_gettext 'Delete groups'`")
-
-fi
+mode=$(${dialog} \
+--stdout \
+--ok-label "`eval_gettext 'Select'`" \
+--cancel-label "`eval_gettext 'Exit user setup'`" \
+--title "`eval_gettext 'Users accounts management'`" \
+--menu \
+"\n `eval_gettext 'Please choose an option...'`  \n\n" \
+22 60 10 \
+   "1" "`eval_gettext 'Create a new account'`" \
+   "2" "`eval_gettext 'Create a new account (advanced mode)'`" \
+   "3" "`eval_gettext 'Modify account properties'`" \
+   "4" "`eval_gettext 'Change account password'`" \
+   "5" "`eval_gettext 'Delete accounts'`" \
+   "6" "`eval_gettext 'List groups and memberships'`" \
+   "7" "`eval_gettext 'Create a new group'`" \
+   "8" "`eval_gettext 'Change group name'`" \
+   "9" "`eval_gettext 'Delete groups'`")
 
 if [ ! "$mode" ]; then
   mode="none"
@@ -120,7 +77,6 @@ list=$(cat $pwfile \
 user=$(${dialog} \
 --stdout \
 --title "`eval_gettext 'Account properties'`" \
---icon "$iconpath/usersetup.png" \
 --ok-label "`eval_gettext 'Properties'`" \
 --cancel-label "`eval_gettext 'Back'`" \
 --menu \
@@ -138,7 +94,6 @@ list=$(cat $pwfile \
 user=$(${dialog} \
 --stdout \
 --title "`eval_gettext 'Account deletion'`" \
---icon "$iconpath/delete.png" \
 --ok-label "`eval_gettext 'Delete'`" \
 --cancel-label "`eval_gettext 'Back'`" \
 --menu \
@@ -156,7 +111,6 @@ list=$(cat $pwfile \
 user=$(${dialog} \
 --stdout \
 --title "`eval_gettext 'Change password'`" \
---icon "$iconpath/lockscreen.png" \
 --ok-label "`eval_gettext 'Change'`" \
 --cancel-label "`eval_gettext 'Back'`" \
 --menu \
@@ -174,7 +128,6 @@ list=$(cat $grpfile | \
 group=$($dialog \
 --stdout \
 --title "`eval_gettext 'Group memberships'`" \
---icon "$iconpath/usersetup.png" \
 --ok-label "`eval_gettext 'Memberships'`" \
 --cancel-label "`eval_gettext 'Back'`" \
 --menu \
@@ -192,7 +145,6 @@ list=$(cat $grpfile | \
 group=$($dialog \
 --stdout \
 --title "`eval_gettext 'Group name'`" \
---icon "$iconpath/usersetup.png" \
 --ok-label "`eval_gettext 'Modify'`" \
 --cancel-label "`eval_gettext 'Back'`" \
 --menu \
@@ -211,7 +163,6 @@ list=$(cat $grpfile | \
 group=$($dialog \
 --stdout \
 --title "`eval_gettext 'Group deletion'`" \
---icon "$iconpath/delete.png" \
 --ok-label "`eval_gettext 'Delete'`" \
 --cancel-label "`eval_gettext 'Back'`" \
 --menu \
@@ -247,44 +198,23 @@ getsysteminfo() {
 ###############################################
 # Show account info
 showuserinfo() {
-if [ $xflag = "yes" ]; then
-	parameter=$($dialog --stdout \
-	--title "`eval_gettext 'Account properties'`" \
-	--ok-label "`eval_gettext 'Modify'`" \
-	--cancel-label "`eval_gettext 'Back'`" \
-	--icon "$iconpath/usersetup.png" \
-	--menu \
-	"\n `eval_gettext 'Detailed information for account'` $user:  " \
-	0 0 13 \
-	"`eval_gettext 'Full name'`" "$realname" \
-	"`eval_gettext 'Account name'`" "$user ($uid)" \
-	"`eval_gettext 'Main Group'`" "$group ($gid)" \
-	"`eval_gettext 'Home directory'`" "$homedir" \
-	"`eval_gettext 'Shell'`" "$shell" \
-	"`eval_gettext 'Other groups'`" "$membership" \
-	"`eval_gettext 'Expiry'`" "$expiry" \
-	"`eval_gettext 'Office'`" "$office" \
-	"`eval_gettext 'Work phone'`" "$workphone" \
-	"`eval_gettext 'Home phone'`" "$homephone" )
-else
-	parameter=$($dialog --stdout \
-	--title "`eval_gettext 'Account properties'`" \
-	--ok-label "`eval_gettext 'Modify'`" \
-	--cancel-label "`eval_gettext 'Back'`" \
-	--menu \
-	"\n `eval_gettext 'Detailed information for account'` $user:  " \
-	17 80 13 \
-	"`eval_gettext 'Full name'`" "$realname" \
-	"`eval_gettext 'Account name'`" "$user ($uid)" \
-	"`eval_gettext 'Main Group'`" "$group ($gid)" \
-	"`eval_gettext 'Home directory'`" "$homedir" \
-	"`eval_gettext 'Shell'`" "$shell" \
-	"`eval_gettext 'Other groups'`" "$membership" \
-	"`eval_gettext 'Expiry'`" "$expiry" \
-	"`eval_gettext 'Office'`" "$office" \
-	"`eval_gettext 'Work phone'`" "$workphone" \
-	"`eval_gettext 'Home phone'`" "$homephone" )
-fi
+parameter=$($dialog --stdout \
+--title "`eval_gettext 'Account properties'`" \
+--ok-label "`eval_gettext 'Modify'`" \
+--cancel-label "`eval_gettext 'Back'`" \
+--menu \
+"\n `eval_gettext 'Detailed information for account'` $user:  " \
+17 80 13 \
+"`eval_gettext 'Full name'`" "$realname" \
+"`eval_gettext 'Account name'`" "$user ($uid)" \
+"`eval_gettext 'Main Group'`" "$group ($gid)" \
+"`eval_gettext 'Home directory'`" "$homedir" \
+"`eval_gettext 'Shell'`" "$shell" \
+"`eval_gettext 'Other groups'`" "$membership" \
+"`eval_gettext 'Expiry'`" "$expiry" \
+"`eval_gettext 'Office'`" "$office" \
+"`eval_gettext 'Work phone'`" "$workphone" \
+"`eval_gettext 'Home phone'`" "$homephone" )
 }
 
 ###############################################
@@ -309,34 +239,19 @@ if [ "$members" ]; then
 	$user $uid"
 	done
 
-	if [ $xflag = "yes" ]; then
-		user=$($dialog \
-		--stdout \
-		--title "`eval_gettext 'Group members'`" \
-		--ok-label "`eval_gettext 'Properties'`" \
-		--cancel-label "`eval_gettext 'Back'`" \
-		--icon "$iconpath/usersetup.png" \
-		--menu \
-		"\n `eval_gettext 'Members of group'` $group:  " \
-		0 0 11 \
-		${list})
-	else
-		user=$($dialog \
-		--stdout \
-		--title "`eval_gettext 'Group members'`" \
-		--ok-label "`eval_gettext 'Properties'`" \
-		--cancel-label "`eval_gettext 'Back'`" \
-		--icon "$iconpath/usersetup.png" \
-		--menu \
-		"\n `eval_gettext 'Members of group'` $group:  " \
-		0 75 11 \
-		${list})
-	fi
+	user=$($dialog \
+	--stdout \
+	--title "`eval_gettext 'Group members'`" \
+	--ok-label "`eval_gettext 'Properties'`" \
+	--cancel-label "`eval_gettext 'Back'`" \
+	--menu \
+	"\n `eval_gettext 'Members of group'` $group:  " \
+	0 75 11 \
+	${list})
 
 else
 	$dialog \
 	--title "`eval_gettext 'Group members'`" \
-	--icon "userconfig" \
 	--msgbox "\n \
 	`eval_gettext 'There are no accounts in group'` $group" 12 75
 fi
@@ -350,7 +265,6 @@ setusername() {
   user=$($dialog \
   --stdout \
   --title "`eval_gettext 'Account name'`" \
-  --icon "$iconpath/usersetup.png" \
   --no-cancel \
   --inputbox "`eval_gettext 'Enter the new account name...'`  " \
   0 0 \
@@ -390,7 +304,6 @@ setgroup() {
   group=$($dialog \
   --stdout \
   --title "`eval_gettext 'Group membership'`" \
-  --icon "$iconpath/usersetup.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --no-cancel \
   --inputbox \
@@ -407,7 +320,6 @@ sethomedir() {
   homedir=$($dialog \
   --stdout \
   --title "`eval_gettext 'Home directory'`" \
-  --icon "$iconpath/home.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --no-cancel \
   --inputbox "`eval_gettext 'Enter the home directory for account'` $user...  " \
@@ -434,7 +346,6 @@ setshell() {
   shell=$($dialog \
   --stdout \
   --title "`eval_gettext 'Shell'`" \
-  --icon "$iconpath/terminal.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --no-cancel \
   --inputbox \
@@ -455,7 +366,6 @@ setmembership() {
   membership=$($dialog \
   --stdout \
   --title "`eval_gettext 'Additional group membership'`" \
-  --icon "$iconpath/usersetup.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --no-cancel \
   --inputbox "`eval_gettext 'Add some additional group to the list...'`  " \
@@ -481,7 +391,6 @@ setexpiry() {
   dialogdate=$($dialog \
   --stdout \
   --title "`eval_gettext 'Expiry date'`" \
-  --icon "$iconpath/calendar.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --cancel-label "`eval_gettext 'Never'`" \
   --defaultno \
@@ -502,19 +411,7 @@ setexpiry() {
 
 # Password dialog
 passbox(){
-	if [[ "$DISPLAY" && "$(which Xdialog 2>&1 | grep -v "which: no")" ]]; then
-		DIALOG="Xdialog \
-	    --title "`eval_gettext 'Password'`" \ 
-		--stdout \
-		--wrap \
-		--ignore-eof \
-		--no-cancel \
-		--password \
-		--icon $iconpath/lockscreen.png \
-		--inputbox"
-	else
-		DIALOG='dialog --stdout --insecure --fixed-font --no-cancel --smooth --passwordbox'
-	fi
+	DIALOG='dialog --stdout --insecure --fixed-font --no-cancel --smooth --passwordbox'
 	pw="$(${DIALOG} "${1}" 0 0)"
 	echo -n "$pw"
 }
@@ -554,15 +451,7 @@ echo -n $password
 # Change password
 setpw() {
   
-	if [[ "$DISPLAY" && "$(which Xdialog 2>&1 | grep -v "which: no")" ]]; then
-		DIALOG="Xdialog \
-		--wrap \
-		--title "`eval_gettext 'Password'`" \ 
-		--icon $iconpath/lockscreen.png \
-		--center "
-	else
-		DIALOG="dialog"
-	fi
+	DIALOG="dialog"
 	
 	[ "$user" ] && pass="$(changepw ${user})"
 	if [ ! "$pass" ] ; then
@@ -581,7 +470,6 @@ setrealname() {
   realname=$($dialog \
   --stdout \
   --title "`eval_gettext 'Full name'`" \
-  --icon "$iconpath/usersetup.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --no-cancel \
   --inputbox "`eval_gettext 'Enter the full name of the user'` $user...  " 0 0 "$realname")
@@ -596,7 +484,6 @@ setoffice() {
   office=$($dialog \
   --stdout \
   --title "`eval_gettext 'Office information'`" \
-  --icon "$iconpath/office.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --no-cancel \
   --inputbox "`eval_gettext 'Enter office information for the user'` $user...  " 0 0 "$office")
@@ -611,7 +498,6 @@ setworkphone() {
   workphone=$($dialog \
   --stdout \
   --title "`eval_gettext 'Work phone'`" \
-  --icon "$iconpath/cell-phone.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --no-cancel \
   --inputbox "`eval_gettext 'Enter the work phone number of the user'` $user...  " 0 0 "$workphone")
@@ -626,7 +512,6 @@ sethomephone() {
   homephone=$($dialog \
   --stdout \
   --title "`eval_gettext 'Home phone'`" \
-  --icon "$iconpath/landline-phone.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --no-cancel \
   --inputbox "`eval_gettext 'Enter the home phone number of the user'` $user...  " 0 0 "$homephone")
@@ -643,7 +528,6 @@ setgroupname() {
   group=$($dialog \
   --stdout \
   --title "`eval_gettext 'Group name'`" \
-  --icon "$iconpath/usersetup.png" \
   --ok-label "`eval_gettext 'OK'`" \
   --no-cancel \
   --inputbox "`eval_gettext 'Enter the new group name'`   " \

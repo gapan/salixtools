@@ -16,7 +16,7 @@ usersetup - a tool that helps with user and group management
 = DESCRIPTION =
 
 **usersetup** is a tool that helps with the management of user accounts
-and group memberships. It uses an Xdialog or dialog interface to present
+and group memberships. It uses a __dialog__ interface to present
 the user with a menu that includes the following options:
 
 **Create a new account**,
