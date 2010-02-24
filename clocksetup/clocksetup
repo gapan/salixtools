@@ -22,22 +22,9 @@ fi
 	export TEXTDOMAINDIR="/usr/share/locale"
 	. gettext.sh
 	
-# Path to icon
-iconpath="/usr/share/salixtools/pixmaps"
-
-# Take a look at "Xdialog" and use it instead of "dialog" in case X is
-# running
-if [[ "$DISPLAY" && "$(which Xdialog 2>&1 | grep -v "which: no")" ]]; then
-	dialog="Xdialog --wrap --left"
-	shortttl='3000'
-	longttl='8000'
-	xflag='yes'
-else
-	dialog="dialog"
-	shortttl=''
-	longttl=''
-	xflag='no'
-fi
+dialog="dialog"
+shortttl=''
+longttl=''
 
 # Path needs to be extended in case you're only half a root :)
 export PATH="/usr/sbin:/sbin:${PATH}"
@@ -50,42 +37,22 @@ day="$(date +%d)"
 year="$(date +%Y)"
 zone=$(ls -l /etc/localtime-copied-from | sed -n 's/^.*->.*zoneinfo\/\(.*\)$/\1/p')
 
-if [ $xflag = "yes" ]; then
-	mode=$(${dialog} \
-	--stdout \
-	--ok-label "`eval_gettext 'OK'`" \
-	--cancel-label "`eval_gettext 'Exit'`" \
-	--title "`eval_gettext 'System clock configuration'`" \
-	--icon "$iconpath/clocksetup.png" \
-	--no-tags \
-	--menu \
-	"\n \
-	`eval_gettext 'Currently the clock is set to:'` \"$(date) ($zone)\" \
-	\n\n \
-	`eval_gettext 'Please choose an option:'`" \
-	0 0 5 \
-	   "1" "`eval_gettext 'Set the time manually'`" \
-	   "2" "`eval_gettext 'Set the date manually'`" \
-	   "3" "`eval_gettext 'Set the time zone'`" \
-	   "4" "`eval_gettext 'Synchronize with Network Time Protocol (NTP)'`" )
-else
-	mode=$(${dialog} \
-	--stdout \
-	--ok-label "`eval_gettext 'OK'`" \
-	--cancel-label "`eval_gettext 'Exit'`" \
-	--title "`eval_gettext 'System clock configuration'`" \
-	--menu \
-	"\n \
-	`eval_gettext 'Currently the clock is set to:'` \"$(date) ($zone)\" \
-	\n\n \
-	`eval_gettext 'Please choose an option:'`" \
-	16 80 5 \
-	   "1" "`eval_gettext 'Set the time manually'`" \
-	   "2" "`eval_gettext 'Set the date manually'`" \
-	   "3" "`eval_gettext 'Set the time zone'`" \
-	   "4" "`eval_gettext 'Synchronize with Network Time Protocol (NTP)'`" )
+mode=$(${dialog} \
+--stdout \
+--ok-label "`eval_gettext 'OK'`" \
+--cancel-label "`eval_gettext 'Exit'`" \
+--title "`eval_gettext 'System clock configuration'`" \
+--menu \
+"\n \
+`eval_gettext 'Currently the clock is set to:'` \"$(date) ($zone)\" \
+\n\n \
+`eval_gettext 'Please choose an option:'`" \
+16 80 5 \
+   "1" "`eval_gettext 'Set the time manually'`" \
+   "2" "`eval_gettext 'Set the date manually'`" \
+   "3" "`eval_gettext 'Set the time zone'`" \
+   "4" "`eval_gettext 'Synchronize with Network Time Protocol (NTP)'`" )
 
-fi
 if [ ! "$mode" ]; then
   mode="none"
 fi
