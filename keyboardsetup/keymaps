@@ -40,6 +40,8 @@ dvorak|dvorak||
 es-cp850|es||
 el-olpc|el||
 es|es||
+et|et||
+et-nodeadkeys|et||
 fi-latin1|fi||
 fi-latin9|fi||
 fi|fi||
@@ -78,6 +80,7 @@ no-latin1|no||
 no|no||
 pl2|pl2||
 pl|pl||
+pt|pt||
 pt-latin1|pt||
 pt-latin9|pt||
 pt-olpc|pt||
