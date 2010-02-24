@@ -21,24 +21,10 @@ export TEXTDOMAIN="servicesetup"
 export TEXTDOMAINDIR="/usr/share/locale"
 . gettext.sh
 
-# Take a look at "Xdialog" and use it instead of "dialog" in case X is running
-if [[ "$DISPLAY" && "$(which Xdialog 2>&1 | grep -v "which: no")" ]]; then
-        dialog="Xdialog --wrap --left"
-        shortttl='3000'
-        longttl='8000'
-        xflag='yes'
-else
-        dialog="dialog"
-        shortttl=''
-        longttl=''
-        xflag='no'
-fi
+dialog="dialog"
 
 # Path needs to be extended in case you're only half a root :)
 export PATH="/usr/sbin:/sbin:${PATH}"
-
-# Path to icon
-iconpath="/usr/share/salixtools/pixmaps/"
 
 # Some globals
 rcdir='/etc/rc.d'
@@ -77,7 +63,6 @@ blacklist(){
 dialogscript="${dialog} \
 --stdout \
 --title \"`eval_gettext 'Startup services'`\" \
---icon \"$iconpath/servicesetup.png\" \
 --ok-label \"`eval_gettext 'OK'`\" \
 --cancel-label \"`eval_gettext 'Exit'`\" \
 --item-help \

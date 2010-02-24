@@ -16,7 +16,7 @@ George Vlahavas
 = DESCRIPTION =
 
 **servicesetup** is a tool that helps with the management of system
-services. When run, it uses an Xdialog or dialog interface to provide
+services. When run, it uses a __dialog__ interface to provide
 the user with a list of available system services. Selected services are
 active and set to automatically start when the system boots. When
 selecting a service that was previously unselected, it is set to
