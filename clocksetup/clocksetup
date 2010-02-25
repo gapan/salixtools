@@ -64,7 +64,6 @@ answer=$($dialog \
 --title "`eval_gettext 'Clock adjustment'`" \
 --ok-label "`eval_gettext 'OK'`" \
 --cancel-label "`eval_gettext 'Cancel'`" \
---icon "$iconpath/clock.png" \
 --timebox \
 "`eval_gettext 'Please set the time...'`" \
 0 0 \
@@ -93,7 +92,6 @@ answer=$($dialog \
 --title "`eval_gettext 'Date adjustment'`" \
 --ok-label "`eval_gettext 'OK'`" \
 --cancel-label "`eval_gettext 'Cancel'`" \
---icon "$iconpath/calendar.png" \
 --calendar \
 "`eval_gettext 'Please set the date...'`" \
 0 0 \
@@ -123,7 +121,6 @@ answer=$(${dialog} \
 --ok-label "`eval_gettext 'OK'`" \
 --cancel-label "`eval_gettext 'Cancel'`" \
 --title "`eval_gettext 'Time zone configuration'`" \
---icon "$iconpath/timezone.png" \
 --menu \
 "`eval_gettext 'Please select your time zone...'`" \
 0 0 10 \
