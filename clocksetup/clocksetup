@@ -35,6 +35,7 @@ day="$(date +%d)"
 year="$(date +%Y)"
 zone=$(ls -l /etc/localtime-copied-from | sed -n 's/^.*->.*zoneinfo\/\(.*\)$/\1/p')
 
+mainmenu(){
 mode=$(${dialog} \
 --stdout \
 --ok-label "`eval_gettext 'OK'`" \
@@ -54,6 +55,7 @@ mode=$(${dialog} \
 if [ ! "$mode" ]; then
   mode="none"
 fi
+}
 
 gettimezones()
 {
@@ -144,6 +146,12 @@ if [[ "$zone" && -r /usr/share/zoneinfo/$zone ]]; then
 fi
 }
 
+if [[ $1 == "-z" ]]; then
+	setzone
+	exit
+fi
+
+mainmenu
 case $mode in
 	1)
 		settime

@@ -11,7 +11,7 @@ clocksetup - a tool that helps set the system's date and time
 
 = SYNOPSIS =
 
-**clocksetup**
+**clocksetup** [//OPTIONS//]
 
 = DESCRIPTION =
 
@@ -25,6 +25,13 @@ used to:
 
 
 **clocksetup** is part of the **salixtools** package.
+
+= OPTIONS =
+
+**-z**,
+%comment
+if specified, clocksetup will only display a dialog for setting the
+timezone instead of the main menu.
 
 = AUTHORS =
 
