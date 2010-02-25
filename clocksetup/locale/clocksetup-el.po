@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-25 21:11+0200\n"
-"PO-Revision-Date: 2010-02-25 21:12+0200\n"
+"PO-Revision-Date: 2010-02-26 01:12+0200\n"
 "Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -19,42 +19,42 @@ msgstr ""
 #: ../clocksetup:49
 #, sh-format
 msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
-msgstr ""
+msgstr "ΧΡΗΣΗ: clocksetup [[-c ] [-d] [-t] [-z]]"
 
 #: ../clocksetup:51
 #, sh-format
 msgid "OPTIONS:"
-msgstr ""
+msgstr "ΠΑΡΑΜΕΤΡΟΙ"
 
 #: ../clocksetup:53
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
-msgstr ""
+msgstr "   -c,   εμφανίζει μόνο το διάλογο ρύθμισης του ρολογιού συστήματος"
 
 #: ../clocksetup:54
 #, sh-format
 msgid "   -d,   only show the date configuration dialog"
-msgstr ""
+msgstr "   -d,   εμφανίζει μόνο το διάλογο ρύθμισης της ημερομηνίας"
 
 #: ../clocksetup:55
 #, sh-format
 msgid "   -t,   only show the time configuration dialog"
-msgstr ""
+msgstr "   -t,   εμφανίζει μόνο το διάλογο ρύθμισης της ώρας"
 
 #: ../clocksetup:56
 #, sh-format
 msgid "   -z,   only show the timezone configuration dialog"
-msgstr ""
+msgstr "   -z,   εμφανίζει μόνο το διάλογο ρύθμισης της ζώνης ώρας"
 
 #: ../clocksetup:57
 #, sh-format
 msgid "   -h,   this help message"
-msgstr ""
+msgstr "   -h,   το παρόν μύνημα βοήθειας"
 
 #: ../clocksetup:96
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr ""
+msgstr "ΣΦΑΛΜΑ: Πολλές παράμετροι"
 
 #: ../clocksetup:106
 #: ../clocksetup:170
@@ -176,7 +176,7 @@ msgstr "Ρύθμιση ρολογιού συστήματος"
 #: ../clocksetup:266
 #, sh-format
 msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
-msgstr ""
+msgstr "Είναι το ρολόι συστήματος ρυθμισμένο σε Παγκόσμιο Χρόνο (UTC/GMT); Αν είναι, επιλέξτε ΝΑΙ. Αν το ρολόι συστήματος είναι ρυθμισμένο σε τοπική ώρα (όπως στους περισσότερους υπολογιστές), επιλέχτε ΟΧΙ. Αν δεν είστε βέβαιοι, είναι καλύτερα να επιλέξετε ΟΧΙ."
 
 #: ../clocksetup:267
 #, sh-format
