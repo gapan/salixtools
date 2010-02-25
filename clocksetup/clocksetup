@@ -8,182 +8,289 @@
 # any later version. Please take a look at http://www.gnu.org/copyleft/gpl.htm
 
 # Original code from clockconfig, Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
-# Modified by Thorsten Muehlfelder <thenktor~at~gmxdot~de>
+# Modified by: Thorsten Muehlfelder <thenktor~at~gmxdot~de>
 # Modified by: Pierrick Le Brun <akuna~at~free~dot~fr>
 # Modified by: George Vlahavas <vlahavas~at~gmaill~dot~com>
 
-# Translations only work with utf8 locales
-if [ ! `echo $LANG | grep -i utf` ]; then
-	LANG=C
-fi
+init(){
+	# Translations only work with utf8 locales
+	if [ ! `echo $LANG | grep -i utf` ]; then
+		LANG=C
+	fi
 
-# Gettext internationalization
-	export TEXTDOMAIN="clocksetup"
-	export TEXTDOMAINDIR="/usr/share/locale"
-	. gettext.sh
+	# Gettext internationalization
+		export TEXTDOMAIN="clocksetup"
+		export TEXTDOMAINDIR="/usr/share/locale"
+		. gettext.sh
+		
+	dialog="dialog"
+
+	# Path needs to be extended in case you're only half a root :)
+	export PATH="/usr/sbin:/sbin:${PATH}"
 	
-dialog="dialog"
+	HWCLOCK_CONF=/etc/hardwareclock
 
-# Path needs to be extended in case you're only half a root :)
-export PATH="/usr/sbin:/sbin:${PATH}"
+	hour="$(date +%H)"
+	min="$(date +%M)"
+	sec="$(date +%S)"
+	month="$(date +%m)"
+	day="$(date +%d)"
+	year="$(date +%Y)"
+	zone=$(ls -l /etc/localtime-copied-from | sed -n 's/^.*->.*zoneinfo\/\(.*\)$/\1/p')
+	
+	showmenu=1
+	showdate=0
+	showtime=0
+	showhc=0
+	showtz=0
+}
 
-hour="$(date +%H)"
-min="$(date +%M)"
-sec="$(date +%S)"
-month="$(date +%m)"
-day="$(date +%d)"
-year="$(date +%Y)"
-zone=$(ls -l /etc/localtime-copied-from | sed -n 's/^.*->.*zoneinfo\/\(.*\)$/\1/p')
+usage(){
+	echo "`eval_gettext 'USAGE: clocksetup [[-c ] [-d] [-t] [-z]]'`"
+	echo
+	echo "`eval_gettext 'OPTIONS:'`"
+	echo
+	echo "`eval_gettext '   -c,   only show the hardware clock configuration dialog'`"
+	echo "`eval_gettext '   -d,   only show the date configuration dialog'`"
+	echo "`eval_gettext '   -t,   only show the time configuration dialog'`"
+	echo "`eval_gettext '   -z,   only show the timezone configuration dialog'`"
+	echo "`eval_gettext '   -h,   this help message'`"
+}
+
+checkoptions(){
+	while getopts ":hcdtz" flag
+	do
+		# if switch is unknown
+		if [ $flag = "?" ]; then
+			usage
+			exit 1
+		fi
+		if [ $flag = "h" ]; then
+			usage
+			exit 0
+		fi
+		if [ $flag = "c" ]; then
+			showmenu=0
+			showhc=1
+		fi
+		if [ $flag = "d" ]; then
+			showmenu=0
+			showdate=1
+		fi
+		if [ $flag = "t" ]; then
+			showmenu=0
+			showtime=1
+		fi
+		if [ $flag = "z" ]; then
+			showmenu=0
+			showtz=1
+		fi
+	done
+	
+	# we shift positions in $@ so that we discard all previous switches
+	# and leave only files as additional arguments
+	shift $((OPTIND-1))
+
+	# There should be no more arguments
+	if [ $# -gt 0 ]; then
+		echo "`eval_gettext 'ERROR: Too many arguments'`" >&2
+		usage
+		exit 1
+	fi
+}
 
 mainmenu(){
-mode=$(${dialog} \
---stdout \
---ok-label "`eval_gettext 'OK'`" \
---cancel-label "`eval_gettext 'Exit'`" \
---title "`eval_gettext 'System clock configuration'`" \
---menu \
-"\n \
-`eval_gettext 'Currently the clock is set to:'` \"$(date) ($zone)\" \
-\n\n \
-`eval_gettext 'Please choose an option:'`" \
-16 80 5 \
-   "1" "`eval_gettext 'Set the time manually'`" \
-   "2" "`eval_gettext 'Set the date manually'`" \
-   "3" "`eval_gettext 'Set the time zone'`" \
-   "4" "`eval_gettext 'Synchronize with Network Time Protocol (NTP)'`" )
+	while true; do
+		mode=$(${dialog} \
+		--stdout \
+		--ok-label "`eval_gettext 'OK'`" \
+		--cancel-label "`eval_gettext 'Exit'`" \
+		--title "`eval_gettext 'System clock configuration'`" \
+		--menu \
+		"\n `eval_gettext 'Currently the clock is set to:'` \"$(date) ($zone)\" \
+		\n\n `eval_gettext 'Please choose an option:'`" \
+		16 80 5 \
+		   "1" "`eval_gettext 'Set the time manually'`" \
+		   "2" "`eval_gettext 'Set the date manually'`" \
+		   "3" "`eval_gettext 'Set the time zone'`" \
+		   "4" "`eval_gettext 'Configure the hardware clock'`" \
+		   "5" "`eval_gettext 'Synchronize with Network Time Protocol (NTP)'`" )
 
-if [ ! "$mode" ]; then
-  mode="none"
-fi
-}
-
-gettimezones()
-{
-CONTINENTS="Africa America Antarctica Arctic Asia Atlantic Australia Brazil Canada Chile Etc Europe Indian Mexico Mideast Pacific US"
-ZONEINFO="/usr/share/zoneinfo"
-
-AVAILCONT=""
-for i in $CONTINENTS; do
-	if [ -d $ZONEINFO/$i ]; then
-		AVAILCONT="$AVAILCONT $i"
-	fi
-done
-
-TIMEZONES=""
-for i in $AVAILCONT; do
-	for j in `find $ZONEINFO/$i -type f | sed "s|$ZONEINFO/||"`; do
-		TIMEZONES="$TIMEZONES $j o"
-	done
-done
-echo $TIMEZONES
-}
-
-settime(){
-answer=$($dialog \
---stdout \
---title "`eval_gettext 'Clock adjustment'`" \
---ok-label "`eval_gettext 'OK'`" \
---cancel-label "`eval_gettext 'Cancel'`" \
---timebox \
-"`eval_gettext 'Please set the time...'`" \
-0 0 \
-$hour $min $sec
-)
-
-clock="$(echo $answer | cut -d " " -f1)"
-hour="$(echo $clock | cut -d ":" -f1)"
-min="$(echo $clock | cut -d ":" -f2)"
-sec="$(echo $clock | cut -d ":" -f3)"
-
-if [ "${hour}${min}${sec}" ]; then
-	date ${month}${day}${hour}${min}${year}.${sec}
-	hwclock --systoh
-fi
-}
-
-setdate(){
-answer=$($dialog \
---stdout \
---title "`eval_gettext 'Date adjustment'`" \
---ok-label "`eval_gettext 'OK'`" \
---cancel-label "`eval_gettext 'Cancel'`" \
---calendar \
-"`eval_gettext 'Please set the date...'`" \
-0 0 \
-$day $month $year
-)
-
-date="$(echo $answer | cut -d " " -f1)"
-day="$(echo $date | cut -d "/" -f1)"
-month="$(echo $date | cut -d "/" -f2)"
-year="$(echo $date | cut -d "/" -f3)"
-
-if [ "${day}${month}${year}" ]; then
-	date ${month}${day}${hour}${min}${year}.${sec}
-	hwclock --systoh
-fi
-}
-
-setzone(){
-answer=$(${dialog} \
---stdout \
---default-item "$zone" \
---ok-label "`eval_gettext 'OK'`" \
---cancel-label "`eval_gettext 'Cancel'`" \
---title "`eval_gettext 'Time zone configuration'`" \
---menu \
-"`eval_gettext 'Please select your time zone...'`" \
-0 0 20 \
-`gettimezones` )
-
-zone="$(echo $answer | cut -d " " -f1)"
-	
-cd /etc
-if [[ "$zone" && -r /usr/share/zoneinfo/$zone ]]; then
-	ln -sf /usr/share/zoneinfo/$zone localtime-copied-from
-	rm -f localtime
-	cp localtime-copied-from localtime
-fi
-}
-
-if [[ $1 == "-z" ]]; then
-	setzone
-	exit
-fi
-
-mainmenu
-case $mode in
-	1)
-		settime
-		$0
-		;;
-	2)
-		setdate
-		$0
-		;;
-	3)
-		setzone
-		$0
-		;;	
-	4)
-		/bin/bash /etc/rc.d/rc.ntpd sync
-		if [ "$?" = "2" ]; then
-			echo RUNNING
-			$dialog \
-				--title "`eval_gettext 'Warning'`" \
-				--msgbox \
-				"`eval_gettext 'You are already using the ntpd service and clock should be correct.'`" 0 0
-		elif [ "$?" = "1" ]; then
-			echo ERROR
-			$dialog \
-				--title "`eval_gettext 'Error'`" \
-				--msgbox \
-				"`eval_gettext 'Something went wrong. Time was not adjusted.'`" 0 0
-		else
-			hwclock --systoh
+		if [ ! "$mode" ]; then
+		  mode="none"
 		fi
-		$0
-		;;	
-	none)
-		exit
-esac
+
+		case $mode in
+			1)
+				timemenu
+				;;
+			2)
+				datemenu
+				;;
+			3)
+				timezonemenu
+				;;
+			4)
+				hwclockmenu
+				;;
+			5)
+				setntp
+				;;	
+			none)
+				break
+		esac
+	done
+
+}
+
+gettimezones(){
+	CONTINENTS="Africa America Antarctica Arctic Asia Atlantic Australia Brazil Canada Chile Etc Europe Indian Mexico Mideast Pacific US"
+	ZONEINFO="/usr/share/zoneinfo"
+
+	AVAILCONT=""
+	for i in $CONTINENTS; do
+		if [ -d $ZONEINFO/$i ]; then
+			AVAILCONT="$AVAILCONT $i"
+		fi
+	done
+
+	TIMEZONES=""
+	for i in $AVAILCONT; do
+		for j in `find $ZONEINFO/$i -type f | sed "s|$ZONEINFO/||"`; do
+			TIMEZONES="$TIMEZONES $j o"
+		done
+	done
+	echo $TIMEZONES
+}
+
+timemenu(){
+	answer=$($dialog \
+	--stdout \
+	--title "`eval_gettext 'Clock adjustment'`" \
+	--ok-label "`eval_gettext 'OK'`" \
+	--cancel-label "`eval_gettext 'Cancel'`" \
+	--timebox \
+	"`eval_gettext 'Please set the time...'`" \
+	0 0 $hour $min $sec )
+
+	clock="$(echo $answer | cut -d " " -f1)"
+	hour="$(echo $clock | cut -d ":" -f1)"
+	min="$(echo $clock | cut -d ":" -f2)"
+	sec="$(echo $clock | cut -d ":" -f3)"
+
+	if [ "${hour}${min}${sec}" ]; then
+		date ${month}${day}${hour}${min}${year}.${sec}
+		hwclock --systoh
+	fi
+}
+
+datemenu(){
+	answer=$($dialog \
+	--stdout \
+	--title "`eval_gettext 'Date adjustment'`" \
+	--ok-label "`eval_gettext 'OK'`" \
+	--cancel-label "`eval_gettext 'Cancel'`" \
+	--calendar \
+	"`eval_gettext 'Please set the date...'`" \
+	0 0 $day $month $year )
+
+	date="$(echo $answer | cut -d " " -f1)"
+	day="$(echo $date | cut -d "/" -f1)"
+	month="$(echo $date | cut -d "/" -f2)"
+	year="$(echo $date | cut -d "/" -f3)"
+
+	if [ "${day}${month}${year}" ]; then
+		date ${month}${day}${hour}${min}${year}.${sec}
+		hwclock --systoh
+	fi
+}
+
+timezonemenu(){
+	answer=$(${dialog} \
+	--stdout \
+	--default-item "$zone" \
+	--ok-label "`eval_gettext 'OK'`" \
+	--cancel-label "`eval_gettext 'Cancel'`" \
+	--title "`eval_gettext 'Time zone configuration'`" \
+	--menu \
+	"`eval_gettext 'Please select your time zone...'`" \
+	0 0 20 `gettimezones` )
+
+	zone="$(echo $answer | cut -d " " -f1)"
+	
+	(	
+	cd /etc
+	if [[ "$zone" && -r /usr/share/zoneinfo/$zone ]]; then
+		ln -sf /usr/share/zoneinfo/$zone localtime-copied-from
+		rm -f localtime
+		cp localtime-copied-from localtime
+	fi
+	)
+}
+
+setntp(){
+	/bin/bash /etc/rc.d/rc.ntpd sync
+	if [ "$?" = "2" ]; then
+		echo RUNNING
+		$dialog \
+		--title "`eval_gettext 'Warning'`" \
+		--msgbox \
+		"`eval_gettext 'You are already using the ntpd service and clock should be correct.'`" 0 0
+	elif [ "$?" = "1" ]; then
+		echo ERROR
+		$dialog \
+		--title "`eval_gettext 'Error'`" \
+		--msgbox \
+		"`eval_gettext 'Something went wrong. Time was not adjusted.'`" 0 0
+	else
+		hwclock --systoh
+	fi
+}
+
+writeconf(){
+	echo "# /etc/hardwareclock" > $HWCLOCK_CONF
+	echo "#" >> $HWCLOCK_CONF
+	echo "# Tells how the hardware clock time is stored." >> $HWCLOCK_CONF
+	echo "# You should run (gtk)clocksetup or timeconfig to edit this file." >> $HWCLOCK_CONF
+	echo >> $HWCLOCK_CONF
+	echo $1 >> $HWCLOCK_CONF
+}
+
+hwclockmenu(){
+	answer=$(${dialog} \
+	--stdout \
+	--ok-label "`eval_gettext 'OK'`" \
+	--cancel-label "`eval_gettext 'Cancel'`" \
+	--title "`eval_gettext 'Hardware clock set to UTC?'`" \
+	--menu \
+	"`eval_gettext 'Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here.'`" 0 0 2 \
+	"`eval_gettext 'No'`" "`eval_gettext 'Hardware clock is set to local time'`" \
+	"`eval_gettext 'Yes'`" "`eval_gettext 'Hardware clock is set to UTC'`" )
+   
+	if [[ $answer = "Yes" ]]; then
+			writeconf "UTC"
+	elif [[ $answer = "No" ]]; then
+			writeconf "localtime"
+	fi
+}
+
+# This is the main thing!
+init
+checkoptions $@
+
+if [ $showmenu -eq 0 ]; then
+	if [ $showdate -eq 1 ]; then
+		datemenu
+	fi
+	if [ $showtime -eq 1 ]; then
+		timemenu
+	fi
+	if [ $showhc -eq 1 ]; then
+		hwclockmenu
+	fi
+	if [ $showtz -eq 1 ]; then
+		timezonemenu
+	fi
+else
+	mainmenu
+fi

@@ -1,4 +1,8 @@
 25/02/2010 - GV
+- Added command line option to show any configuration window separately
+- Added command line option parsing using getopts
+- Added hardware clock configuration menu
+- Moved everything to using functions
 - Get timezones dynamically from system
 
 24/02/2010 - GV
