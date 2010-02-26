@@ -16,7 +16,7 @@ clocksetup - a tool that helps set the system's date and time
 = DESCRIPTION =
 
 **clocksetup** is a tool that helps set the system's date and time.
-It __dialog__ to present the user with a menu which can be
+It uses __dialog__ to present the user with a menu which can be
 used to:
 - Set the system time
 - Set the system date
