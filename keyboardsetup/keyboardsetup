@@ -136,9 +136,9 @@ checkoptions(){
 
 	# There should be no more arguments
 	if [ $# -gt 0 ]; then
-	echo "`eval_gettext 'ERROR: Too many arguments'`" >&2
-	usage
-fi
+		echo "`eval_gettext 'ERROR: Too many arguments'`" >&2
+		usage
+	fi
 }
 
 # The interactive section
