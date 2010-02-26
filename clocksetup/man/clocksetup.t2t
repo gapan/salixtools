@@ -24,6 +24,7 @@ used to:
 - Select if the hardware clock in your computer is set to local time or UTC
 - Synchronize system date/time using Network Time Protocol (NTP)
 
+
 **clocksetup** is part of the **salixtools** package.
 
 = OPTIONS =
