@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: clocksetup 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-25 21:11+0200\n"
-"PO-Revision-Date: 2009-08-10 12:29+0100\n"
+"PO-Revision-Date: 2010-03-14 22:36+0100\n"
 "Last-Translator: Pierrick Le Brun <akuna~at~free~dot~fr>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -20,44 +20,47 @@ msgstr ""
 #: ../clocksetup:49
 #, sh-format
 msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
-msgstr ""
+msgstr "UTILISATION: clocksetup [[-c ] [-d] [-t] [-z]]"
 
 #: ../clocksetup:51
 #, sh-format
 msgid "OPTIONS:"
-msgstr ""
+msgstr "OPTIONS:"
 
 #: ../clocksetup:53
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
-msgstr ""
+msgstr "   -c,   afficher uniquement la boite de configuration de l'horloge interne"
 
 #: ../clocksetup:54
 #, sh-format
 msgid "   -d,   only show the date configuration dialog"
-msgstr ""
+msgstr "   -d,   afficher uniquement la boite de configuration de la date"
 
 #: ../clocksetup:55
 #, sh-format
 msgid "   -t,   only show the time configuration dialog"
-msgstr ""
+msgstr "   -t,    afficher uniquement la boite de configuration de l'heure"
 
 #: ../clocksetup:56
 #, sh-format
 msgid "   -z,   only show the timezone configuration dialog"
-msgstr ""
+msgstr "   -z,    afficher uniquement la boite de configuration du fuseau horaire"
 
 #: ../clocksetup:57
 #, sh-format
 msgid "   -h,   this help message"
-msgstr ""
+msgstr "   -h,   ce message d'aide"
 
 #: ../clocksetup:96
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr ""
+msgstr "ERREUR: Trop d'arguments"
 
-#: ../clocksetup:106 ../clocksetup:170 ../clocksetup:191 ../clocksetup:212
+#: ../clocksetup:106
+#: ../clocksetup:170
+#: ../clocksetup:191
+#: ../clocksetup:212
 #: ../clocksetup:262
 #, sh-format
 msgid "OK"
@@ -101,7 +104,7 @@ msgstr "Configuration du fuseau horaire"
 #: ../clocksetup:116
 #, sh-format
 msgid "Configure the hardware clock"
-msgstr ""
+msgstr "Configurer l'horloge interne"
 
 #: ../clocksetup:117
 #, sh-format
@@ -113,7 +116,10 @@ msgstr "Synchonisation Internet au Temps Universel Coordonné (NTP)"
 msgid "Clock adjustment"
 msgstr "Réglage de l'heure"
 
-#: ../clocksetup:171 ../clocksetup:192 ../clocksetup:213 ../clocksetup:263
+#: ../clocksetup:171
+#: ../clocksetup:192
+#: ../clocksetup:213
+#: ../clocksetup:263
 #, sh-format
 msgid "Cancel"
 msgstr "Annuler"
@@ -164,35 +170,32 @@ msgid "Something went wrong. Time was not adjusted."
 msgstr "Désolé... Impossible de régler l'horloge."
 
 #: ../clocksetup:264
-#, fuzzy, sh-format
+#, sh-format
 msgid "Hardware clock configuration"
-msgstr "Configuration de l'horloge du système"
+msgstr "Configuration de l'horloge interne"
 
 #: ../clocksetup:266
 #, sh-format
-msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
-"(this is how most PCs are set up), then say NO here.  If you are not sure "
-"what this is, you should answer NO here."
-msgstr ""
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "L'horloge interne est-elle réglée sur le Temps Universel Coordonné (UTC/GMT)? Si c'est le cas, veuillez selectionner OUI. Si l'hologe interne est réglée sur l'heure locale (C'est généralement le cas sur la majorité des ordinateurs), alors veuillez repondre NON. Si vous n'en êtes pas sûr, vous devriez sans doute répondre NON."
 
 #: ../clocksetup:267
 #, sh-format
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: ../clocksetup:267
 #, sh-format
 msgid "Hardware clock is set to local time"
-msgstr ""
+msgstr "L'horloge interne est réglée sur l'heure locale"
 
 #: ../clocksetup:268
 #, sh-format
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: ../clocksetup:268
-#, fuzzy, sh-format
+#, sh-format
 msgid "Hardware clock is set to UTC"
-msgstr "Réglage actuel:"
+msgstr "L'horloge interne est réglée sur UTC"
+
