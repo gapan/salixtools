@@ -1,3 +1,4 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -14,36 +15,30 @@ msgstr ""
 
 #: service:47
 #, sh-format
-msgid ""
-"${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}"
-"${COLOR_RESET} service"
-msgstr ""
+msgid "${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
+msgstr "${BOLDCYAN}Démarrage${COLOR_RESET} du service ${BOLDWHITE}${servicename}${COLOR_RESET}"
 
 #: service:51 service:81
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
+msgstr "Pas de service ${BOLDWHITE}${servicename}${COLOR_RESET}"
 
 #: service:57
 #, sh-format
-msgid ""
-"${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}"
-"${COLOR_RESET} service"
-msgstr ""
+msgid "${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
+msgstr "${BOLDYELLOW}Arrêt${COLOR_RESET} du service ${BOLDWHITE}${servicename}${COLOR_RESET}"
 
 #: service:70
 #, sh-format
-msgid ""
-"${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}"
-"${COLOR_RESET} service"
-msgstr ""
+msgid "${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
+msgstr "${BOLDCYAN}Redémarrage${COLOR_RESET} du service ${BOLDWHITE}${servicename}${COLOR_RESET}"
 
 #: service:90
 #, sh-format
 msgid "The $service service"
-msgstr ""
+msgstr "Le service $service"
 
 #: service:113
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
-msgstr ""
+msgstr "utilisation : service start|stop|restart|list [nom_du_service]"
