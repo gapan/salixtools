@@ -18,9 +18,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../keyboardsetup:48
-#, fuzzy, sh-format
+#, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr "UTILISATION : keyboardsetup [disposition du clavier] [vérouillage du pavé numérique (on ou off)]"
+msgstr "UTLISATION : keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
 #: ../keyboardsetup:50
 #, sh-format
@@ -78,9 +78,9 @@ msgid "Please select your preferred keyboard map:"
 msgstr "Veuillez sélectionner votre disposition de clavier:"
 
 #: ../keyboardsetup:206
-#, fuzzy, sh-format
+#, sh-format
 msgid "Numlock configuration"
-msgstr "Configuration du clavier"
+msgstr "Configuration du verrou numérique"
 
 #: ../keyboardsetup:207 ../keyboardsetup:233
 #, sh-format
@@ -98,9 +98,9 @@ msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Voulez-vous activer par défaut le verrou numérique ?"
 
 #: ../keyboardsetup:232
-#, fuzzy, sh-format
+#, sh-format
 msgid "SCIM configuration"
-msgstr "Configuration du clavier"
+msgstr "Configuration de SCIM"
 
 #: ../keyboardsetup:238
 #, sh-format
