@@ -3,7 +3,7 @@
 # Copyright (C) 2009 Pierrick Le Brun
 # This file is distributed under the same license as the keyboardsetup package.
 # Pierrick Le Brun <akuna~at~free~dot~fr>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: keyboardsetup 4.6\n"
@@ -20,38 +20,32 @@ msgstr ""
 #: ../keyboardsetup:48
 #, fuzzy, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr ""
-"UTILISATION : keyboardsetup [disposition du clavier] [vérouillage du pavé "
-"numérique (on ou off)]"
+msgstr "UTILISATION : keyboardsetup [disposition du clavier] [vérouillage du pavé numérique (on ou off)]"
 
 #: ../keyboardsetup:50
 #, sh-format
 msgid "OPTIONS:"
-msgstr ""
+msgstr "OPTIONS :"
 
 #: ../keyboardsetup:52
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
-msgstr ""
+msgstr "   -k keymap,         une disposition de clavier valide"
 
 #: ../keyboardsetup:53
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
-msgstr ""
+msgstr "   -n numlockstate,   état du verrou numérique, on ou off"
 
 #: ../keyboardsetup:54
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
-msgstr ""
+msgstr "   -s scimstate,      état de SCIM, on ou off"
 
 #: ../keyboardsetup:104
 #, sh-format
-msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"ERROR : $OPTARG n'est pas une disposition valide de clavier. Veuillez "
-"consulter la liste de claviers reconnus dans $keymapsdir/keymaps "
+msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
+msgstr "ERROR : $OPTARG n'est pas une disposition valide de clavier. Veuillez consulter la liste de claviers reconnus dans $keymapsdir/keymaps "
 
 #: ../keyboardsetup:118 ../keyboardsetup:127
 #, sh-format
@@ -91,17 +85,17 @@ msgstr "Configuration du clavier"
 #: ../keyboardsetup:207 ../keyboardsetup:233
 #, sh-format
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: ../keyboardsetup:208 ../keyboardsetup:234
 #, sh-format
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: ../keyboardsetup:212
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
-msgstr ""
+msgstr "Voulez-vous activer par défaut le verrou numérique ?"
 
 #: ../keyboardsetup:232
 #, fuzzy, sh-format
@@ -110,19 +104,11 @@ msgstr "Configuration du clavier"
 
 #: ../keyboardsetup:238
 #, sh-format
-msgid ""
-"SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
-"take effect."
-msgstr ""
+msgid "SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take effect."
+msgstr "SCIM est un système de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\\nVoulez-vous l'activer au démarrager ?\\n\\nVous devrez redémarrer votre système pour que les changements prennent effet."
 
-#~ msgid ""
-#~ "(If you want to specify a numlock state, you also have to specify a "
-#~ "keymap)"
-#~ msgstr ""
-#~ "(Si vous désirez spécifier l'état du pavé numérique, vous devez également "
-#~ "spécifier la disposition de votre clavier)"
+#~ msgid "(If you want to specify a numlock state, you also have to specify a keymap)"
+#~ msgstr "(Si vous désirez spécifier l'état du pavé numérique, vous devez également spécifier la disposition de votre clavier)"
 
 #~ msgid "EXAMPLE: keyboardsetup uk on"
 #~ msgstr "EXEMPLE : keyboardsetup fr-latin9 off"
