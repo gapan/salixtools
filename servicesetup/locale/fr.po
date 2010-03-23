@@ -1,3 +1,4 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -15,24 +16,24 @@ msgstr ""
 #: servicesetup:79
 #, sh-format
 msgid "Startup services"
-msgstr ""
+msgstr "Démarrage des services"
 
 #: servicesetup:81
 #, sh-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: servicesetup:82
 #, sh-format
 msgid "Exit"
-msgstr ""
+msgstr "Quitter"
 
 #: servicesetup:85
 #, sh-format
 msgid "The selected services will be started at boot time:"
-msgstr ""
+msgstr "Les services sélectionnés seront lancés au démarrage :"
 
 #: servicesetup:94
 #, sh-format
 msgid "The $service service"
-msgstr ""
+msgstr "Le service $service"
