@@ -1,3 +1,6 @@
+2010-03-23
+- Split service script from servicesetup
+
 2010-02-24
 - Removed support for xdialog
 - Removed several services from blacklist
