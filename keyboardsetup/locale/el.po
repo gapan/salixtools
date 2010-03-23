@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-03 14:28+0200\n"
+"POT-Creation-Date: 2010-03-23 11:48+0200\n"
 "PO-Revision-Date: 2010-02-03 14:46+0200\n"
 "Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: Greek\n"
@@ -16,128 +16,117 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../keyboardsetup:58
+#: ../keyboardsetup:48
 #, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 msgstr "ΧΡΗΣΗ: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
-#: ../keyboardsetup:60
+#: ../keyboardsetup:50
 #, sh-format
 msgid "OPTIONS:"
 msgstr "ΠΑΡΑΜΕΤΡΟΙ:"
 
-#: ../keyboardsetup:62
+#: ../keyboardsetup:52
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr "   -k keymap,         μια έγκυρη διάταξη πληκτρολογίου"
 
-#: ../keyboardsetup:63
+#: ../keyboardsetup:53
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlockstate,   η κατάσταση του numlock, on ή off"
 
-#: ../keyboardsetup:64
+#: ../keyboardsetup:54
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr "   -s scimstate,      η κατάσταση του SCIM, on ή off"
 
-#: ../keyboardsetup:114
+#: ../keyboardsetup:104
 #, sh-format
-msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
-msgstr "ΣΦΑΛΜΑ: Το $OPTARG δεν είναι έγκυρη διάταξη πληκτρολογίου. Μπορείτε να κοιτάξετε στο αρχείο $keymapsdir/keymaps για μια λίστα με έγκυρες διατάξεις"
+msgid ""
+"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"ΣΦΑΛΜΑ: Το $OPTARG δεν είναι έγκυρη διάταξη πληκτρολογίου. Μπορείτε να "
+"κοιτάξετε στο αρχείο $keymapsdir/keymaps για μια λίστα με έγκυρες διατάξεις"
 
-#: ../keyboardsetup:128
-#: ../keyboardsetup:137
+#: ../keyboardsetup:118 ../keyboardsetup:127
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "ΣΦΑΛΜΑ: Το $OPTARG δεν είναι έγκυρη παράμετρος"
 
-#: ../keyboardsetup:149
+#: ../keyboardsetup:139
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ΣΦΑΛΜΑ: Πολλές παράμετροι"
 
-#: ../keyboardsetup:191
-#: ../keyboardsetup:202
+#: ../keyboardsetup:177
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Προτιμήσεις πληκτρολογίου"
 
-#: ../keyboardsetup:193
-#: ../keyboardsetup:204
+#: ../keyboardsetup:179
 #, sh-format
 msgid "OK"
 msgstr "Εντάξει"
 
-#: ../keyboardsetup:194
-#: ../keyboardsetup:205
+#: ../keyboardsetup:180
 #, sh-format
 msgid "Exit"
 msgstr "Έξοδος"
 
-#: ../keyboardsetup:198
-#: ../keyboardsetup:208
+#: ../keyboardsetup:183
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Παρακαλώ επιλέξτε την επιθυμητή διάταξη πληκτρολογίου:"
 
-#: ../keyboardsetup:236
+#: ../keyboardsetup:206
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Προτίμηση numlock"
 
-#: ../keyboardsetup:237
-#: ../keyboardsetup:262
-#: ../keyboardsetup:274
+#: ../keyboardsetup:207 ../keyboardsetup:233
 #, sh-format
 msgid "Enabled"
 msgstr "Ενεργό"
 
-#: ../keyboardsetup:238
-#: ../keyboardsetup:263
-#: ../keyboardsetup:275
+#: ../keyboardsetup:208 ../keyboardsetup:234
 #, sh-format
 msgid "Disabled"
 msgstr "Ανενεργό"
 
-#: ../keyboardsetup:242
+#: ../keyboardsetup:212
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Θέλετε να είναι το numlock ενεργό ή ανενεργό εξ ορισμού;"
 
-#: ../keyboardsetup:261
-#: ../keyboardsetup:273
+#: ../keyboardsetup:232
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Προτίμηση SCIM"
 
-#: ../keyboardsetup:266
+#: ../keyboardsetup:238
 #, sh-format
 msgid ""
-"SCIM is an input platform for Chinese, Japanese,\\n"
-"Korean and many other languages. Do you want to\\n"
-"have it enabled or disabled on boot?\\n"
-"\\n"
-"You will have to restart your system for this to take\\n"
-"effect."
+"SCIM is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
 msgstr ""
-"Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα,\\n"
-"Γιαπωνέζικα, Κορεάτικα και άλλες γλώσσες. Θέλετε\\n"
-"να είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n"
-"\\n"
-"Πρέπει να επανεκκινήσετε το σύστημα σας για να\\n"
-"εφαρμοστούν οι αλλαγές στο SCIM."
+"Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα, Γιαπωνέζικια, Κορεάτικα "
+"και άλλες γλώσσες όταν χρησιμοποιείτε κάποιο γραφικό περιβάλλον. Θέλετε να "
+"είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n\\nΘα πρέπει να επανεκκινήσετε "
+"το σύστημά σας για να εφαρμοστούν οι αλλαγές στο SCIM."
 
-#: ../keyboardsetup:279
-#, sh-format
-msgid ""
-"SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n"
-"\\n"
-"You will have to restart your system for this to take effect."
-msgstr ""
-"Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα, Γιαπωνέζικια, Κορεάτικα και άλλες γλώσσες όταν χρησιμοποιείτε κάποιο γραφικό περιβάλλον. Θέλετε να είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n"
-"\\n"
-"Θα πρέπει να επανεκκινήσετε το σύστημά σας για να εφαρμοστούν οι αλλαγές στο SCIM."
+#~ msgid ""
+#~ "SCIM is an input platform for Chinese, Japanese,\\nKorean and many other "
+#~ "languages. Do you want to\\nhave it enabled or disabled on boot?\\n\\nYou "
+#~ "will have to restart your system for this to take\\neffect."
+#~ msgstr ""
+#~ "Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα,\\nΓιαπωνέζικα, "
+#~ "Κορεάτικα και άλλες γλώσσες. Θέλετε\\nνα είναι ενεργό ή ανενεργό κατά την "
+#~ "εκκίνηση;\\n\\nΠρέπει να επανεκκινήσετε το σύστημα σας για να"
+#~ "\\nεφαρμοστούν οι αλλαγές στο SCIM."
 
 #~ msgid ""
 #~ "(If you want to specify a numlock state, you also have to specify a "
@@ -145,6 +134,6 @@ msgstr ""
 #~ msgstr ""
 #~ "(Αν επιθυμείτε να δώσετε μια κατάσταση numlock, θα πρέπει να δώσετε και "
 #~ "μία διάταξη πληκτρολογίου)"
+
 #~ msgid "EXAMPLE: keyboardsetup uk on"
 #~ msgstr "ΠΑΡΑΔΕΙΓΜΑ: keyboardsetup gr on"
-

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keyboardsetup 4.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-03 14:28+0200\n"
+"POT-Creation-Date: 2010-03-23 11:48+0200\n"
 "PO-Revision-Date: 2010-02-03 14:47+0200\n"
 "Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: French\n"
@@ -17,118 +17,104 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../keyboardsetup:58
+#: ../keyboardsetup:48
 #, fuzzy, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr "UTILISATION : keyboardsetup [disposition du clavier] [vérouillage du pavé numérique (on ou off)]"
+msgstr ""
+"UTILISATION : keyboardsetup [disposition du clavier] [vérouillage du pavé "
+"numérique (on ou off)]"
 
-#: ../keyboardsetup:60
+#: ../keyboardsetup:50
 #, sh-format
 msgid "OPTIONS:"
 msgstr ""
 
-#: ../keyboardsetup:62
+#: ../keyboardsetup:52
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr ""
 
-#: ../keyboardsetup:63
+#: ../keyboardsetup:53
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr ""
 
-#: ../keyboardsetup:64
+#: ../keyboardsetup:54
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr ""
 
-#: ../keyboardsetup:114
+#: ../keyboardsetup:104
 #, sh-format
-msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
-msgstr "ERROR : $OPTARG n'est pas une disposition valide de clavier. Veuillez consulter la liste de claviers reconnus dans $keymapsdir/keymaps "
+msgid ""
+"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"ERROR : $OPTARG n'est pas une disposition valide de clavier. Veuillez "
+"consulter la liste de claviers reconnus dans $keymapsdir/keymaps "
 
-#: ../keyboardsetup:128
-#: ../keyboardsetup:137
+#: ../keyboardsetup:118 ../keyboardsetup:127
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "ERREUR : $OPTARG n'est pas une option valide."
 
-#: ../keyboardsetup:149
+#: ../keyboardsetup:139
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ERREUR : Trop d'arguments"
 
-#: ../keyboardsetup:191
-#: ../keyboardsetup:202
+#: ../keyboardsetup:177
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Configuration du clavier"
 
-#: ../keyboardsetup:193
-#: ../keyboardsetup:204
+#: ../keyboardsetup:179
 #, sh-format
 msgid "OK"
 msgstr "Valider"
 
-#: ../keyboardsetup:194
-#: ../keyboardsetup:205
+#: ../keyboardsetup:180
 #, sh-format
 msgid "Exit"
 msgstr "Quitter"
 
-#: ../keyboardsetup:198
-#: ../keyboardsetup:208
+#: ../keyboardsetup:183
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Veuillez sélectionner votre disposition de clavier:"
 
-#: ../keyboardsetup:236
+#: ../keyboardsetup:206
 #, fuzzy, sh-format
 msgid "Numlock configuration"
 msgstr "Configuration du clavier"
 
-#: ../keyboardsetup:237
-#: ../keyboardsetup:262
-#: ../keyboardsetup:274
+#: ../keyboardsetup:207 ../keyboardsetup:233
 #, sh-format
 msgid "Enabled"
 msgstr ""
 
-#: ../keyboardsetup:238
-#: ../keyboardsetup:263
-#: ../keyboardsetup:275
+#: ../keyboardsetup:208 ../keyboardsetup:234
 #, sh-format
 msgid "Disabled"
 msgstr ""
 
-#: ../keyboardsetup:242
+#: ../keyboardsetup:212
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr ""
 
-#: ../keyboardsetup:261
-#: ../keyboardsetup:273
+#: ../keyboardsetup:232
 #, fuzzy, sh-format
 msgid "SCIM configuration"
 msgstr "Configuration du clavier"
 
-#: ../keyboardsetup:266
+#: ../keyboardsetup:238
 #, sh-format
 msgid ""
-"SCIM is an input platform for Chinese, Japanese,\\n"
-"Korean and many other languages. Do you want to\\n"
-"have it enabled or disabled on boot?\\n"
-"\\n"
-"You will have to restart your system for this to take\\n"
-"effect."
-msgstr ""
-
-#: ../keyboardsetup:279
-#, sh-format
-msgid ""
-"SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n"
-"\\n"
-"You will have to restart your system for this to take effect."
+"SCIM is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
 msgstr ""
 
 #~ msgid ""
@@ -137,6 +123,6 @@ msgstr ""
 #~ msgstr ""
 #~ "(Si vous désirez spécifier l'état du pavé numérique, vous devez également "
 #~ "spécifier la disposition de votre clavier)"
+
 #~ msgid "EXAMPLE: keyboardsetup uk on"
 #~ msgstr "EXEMPLE : keyboardsetup fr-latin9 off"
-
