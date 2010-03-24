@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools.clocksetup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-25 21:11+0200\n"
+"PO-Revision-Date: 2010-03-24 00:24-0300\n"
+"Last-Translator: seacat <seacat.lang@gmail.com>\n"
+"Language-Team:  <seacat.lang@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: ARGENTINA\n"
+
+#: ../clocksetup:49
+#, sh-format
+msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
+msgstr "USO: clocksetup [[-c ] [-d] [-t] [-z]]"
+
+#: ../clocksetup:51
+#, sh-format
+msgid "OPTIONS:"
+msgstr ""
+
+#: ../clocksetup:53
+#, sh-format
+msgid "   -c,   only show the hardware clock configuration dialog"
+msgstr ""
+
+#: ../clocksetup:54
+#, sh-format
+msgid "   -d,   only show the date configuration dialog"
+msgstr ""
+
+#: ../clocksetup:55
+#, sh-format
+msgid "   -t,   only show the time configuration dialog"
+msgstr ""
+
+#: ../clocksetup:56
+#, sh-format
+msgid "   -z,   only show the timezone configuration dialog"
+msgstr ""
+
+#: ../clocksetup:57
+#, sh-format
+msgid "   -h,   this help message"
+msgstr ""
+
+#: ../clocksetup:96
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr ""
+
+#: ../clocksetup:106
+#: ../clocksetup:170
+#: ../clocksetup:191
+#: ../clocksetup:212
+#: ../clocksetup:262
+#, sh-format
+msgid "OK"
+msgstr "Aceptar"
+
+#: ../clocksetup:107
+#, sh-format
+msgid "Exit"
+msgstr "Salir"
+
+#: ../clocksetup:108
+#, sh-format
+msgid "System clock configuration"
+msgstr ""
+
+#: ../clocksetup:110
+#, sh-format
+msgid "Currently the clock is set to:"
+msgstr ""
+
+#: ../clocksetup:111
+#, sh-format
+msgid "Please choose an option:"
+msgstr ""
+
+#: ../clocksetup:113
+#, sh-format
+msgid "Set the time manually"
+msgstr ""
+
+#: ../clocksetup:114
+#, sh-format
+msgid "Set the date manually"
+msgstr "Configurar la fecha manualmente"
+
+#: ../clocksetup:115
+#, sh-format
+msgid "Set the time zone"
+msgstr "Establecer la zona horaria"
+
+#: ../clocksetup:116
+#, sh-format
+msgid "Configure the hardware clock"
+msgstr "Configurar el reloj del hardware"
+
+#: ../clocksetup:117
+#, sh-format
+msgid "Synchronize with Network Time Protocol (NTP)"
+msgstr "Sincronizar con Network Time Protocol (NTP)"
+
+#: ../clocksetup:169
+#, sh-format
+msgid "Clock adjustment"
+msgstr "Ajuste del reloj"
+
+#: ../clocksetup:171
+#: ../clocksetup:192
+#: ../clocksetup:213
+#: ../clocksetup:263
+#, sh-format
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../clocksetup:173
+#, sh-format
+msgid "Please set the time..."
+msgstr "Por favor, configurar la hora..."
+
+#: ../clocksetup:190
+#, sh-format
+msgid "Date adjustment"
+msgstr "Ajuste de la fecha"
+
+#: ../clocksetup:194
+#, sh-format
+msgid "Please set the date..."
+msgstr "Por favor, configurar la fecha..."
+
+#: ../clocksetup:214
+#, sh-format
+msgid "Time zone configuration"
+msgstr "Configuración de la zona horaria"
+
+#: ../clocksetup:216
+#, sh-format
+msgid "Please select your time zone..."
+msgstr "Por favor, seleccione su zona horaria..."
+
+#: ../clocksetup:236
+#, sh-format
+msgid "Warning"
+msgstr "Advertencia"
+
+#: ../clocksetup:238
+#, sh-format
+msgid "You are already using the ntpd service and clock should be correct."
+msgstr "Ya está usando el servicio ntpd y el reloj debería estar correcto."
+
+#: ../clocksetup:242
+#, sh-format
+msgid "Error"
+msgstr "Error"
+
+#: ../clocksetup:244
+#, sh-format
+msgid "Something went wrong. Time was not adjusted."
+msgstr "Algo anda mal. No se ajustó la hora."
+
+#: ../clocksetup:264
+#, sh-format
+msgid "Hardware clock configuration"
+msgstr "Configuración del reloj del hardware"
+
+#: ../clocksetup:266
+#, sh-format
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "¿Está configurado el reloj del hardware a la Hora Universal Coordinada (UTC/GMT)? Si lo está, seleccione SI. Si el reloj del hardware está configurado a la hora local actual (que es como están la mayoría de las PCs), entonces seleccione NO. Si no está seguro de lo que es esto, debería responder NO."
+
+#: ../clocksetup:267
+#, sh-format
+msgid "No"
+msgstr "No"
+
+#: ../clocksetup:267
+#, sh-format
+msgid "Hardware clock is set to local time"
+msgstr "El reloj del hardware está configurado a la hora local actual"
+
+#: ../clocksetup:268
+#, sh-format
+msgid "Yes"
+msgstr "Sí"
+
+#: ../clocksetup:268
+#, sh-format
+msgid "Hardware clock is set to UTC"
+msgstr "El reloj del hardware está configurado a UTC"
+
