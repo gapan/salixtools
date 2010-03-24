@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools.servicesetup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"PO-Revision-Date: 2010-03-24 00:40-0300\n"
+"Last-Translator: seacat <seacat.lang@gmail.com>\n"
+"Language-Team:  <seacat.lang@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: ARGENTINA\n"
+
+#: servicesetup:79
+#, sh-format
+msgid "Startup services"
+msgstr "Iniciar servicios"
+
+#: servicesetup:81
+#, sh-format
+msgid "OK"
+msgstr "Aceptar"
+
+#: servicesetup:82
+#, sh-format
+msgid "Exit"
+msgstr "Salir"
+
+#: servicesetup:85
+#, sh-format
+msgid "The selected services will be started at boot time:"
+msgstr "Los servicios seleccionados se iniciarán en el arranque del sistema:"
+
+#: servicesetup:94
+#, sh-format
+msgid "The $service service"
+msgstr "El servicio $service"
+
