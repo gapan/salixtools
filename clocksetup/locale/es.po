@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: salixtools.clocksetup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-25 21:11+0200\n"
-"PO-Revision-Date: 2010-03-24 00:24-0300\n"
+"PO-Revision-Date: 2010-03-24 00:29-0300\n"
 "Last-Translator: seacat <seacat.lang@gmail.com>\n"
 "Language-Team:  <seacat.lang@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -25,37 +25,37 @@ msgstr "USO: clocksetup [[-c ] [-d] [-t] [-z]]"
 #: ../clocksetup:51
 #, sh-format
 msgid "OPTIONS:"
-msgstr ""
+msgstr "OPCIONES:"
 
 #: ../clocksetup:53
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
-msgstr ""
+msgstr "   -c,   muestra solamente la caja de diálogo de configuración del reloj del hardware"
 
 #: ../clocksetup:54
 #, sh-format
 msgid "   -d,   only show the date configuration dialog"
-msgstr ""
+msgstr "   -d,   muestra solamente la caja de diálogo de configuración de la fecha"
 
 #: ../clocksetup:55
 #, sh-format
 msgid "   -t,   only show the time configuration dialog"
-msgstr ""
+msgstr "   -t,   muestra solamente la caja de diálogo de configuración de la hora"
 
 #: ../clocksetup:56
 #, sh-format
 msgid "   -z,   only show the timezone configuration dialog"
-msgstr ""
+msgstr "   -z,   muestra solamente la caja de diálogo de configuración de la zona horaria"
 
 #: ../clocksetup:57
 #, sh-format
 msgid "   -h,   this help message"
-msgstr ""
+msgstr "   -h,   muestra este mensaje de ayuda"
 
 #: ../clocksetup:96
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr ""
+msgstr "ERROR: Demasiados argumentos"
 
 #: ../clocksetup:106
 #: ../clocksetup:170
@@ -74,22 +74,22 @@ msgstr "Salir"
 #: ../clocksetup:108
 #, sh-format
 msgid "System clock configuration"
-msgstr ""
+msgstr "Configuración del reloj del sistema"
 
 #: ../clocksetup:110
 #, sh-format
 msgid "Currently the clock is set to:"
-msgstr ""
+msgstr "Actualmente el reloj está configurado a:"
 
 #: ../clocksetup:111
 #, sh-format
 msgid "Please choose an option:"
-msgstr ""
+msgstr "Por favor, elija una opción:"
 
 #: ../clocksetup:113
 #, sh-format
 msgid "Set the time manually"
-msgstr ""
+msgstr "Configurar la hora manualmente"
 
 #: ../clocksetup:114
 #, sh-format
