@@ -1,0 +1,200 @@
+# Greek translations for clocksetup package.
+# Copyright (C) 2009 George Vlahavas
+# This file is distributed under the same license as the clocksetup package.
+#  <vlahavas~at~gmail~dot~com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-25 21:11+0200\n"
+"PO-Revision-Date: 2010-02-26 01:12+0200\n"
+"Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
+"Language-Team: Greek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../clocksetup:49
+#, sh-format
+msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
+msgstr "ΧΡΗΣΗ: clocksetup [[-c ] [-d] [-t] [-z]]"
+
+#: ../clocksetup:51
+#, sh-format
+msgid "OPTIONS:"
+msgstr "ΠΑΡΑΜΕΤΡΟΙ"
+
+#: ../clocksetup:53
+#, sh-format
+msgid "   -c,   only show the hardware clock configuration dialog"
+msgstr "   -c,   εμφανίζει μόνο το διάλογο ρύθμισης του ρολογιού συστήματος"
+
+#: ../clocksetup:54
+#, sh-format
+msgid "   -d,   only show the date configuration dialog"
+msgstr "   -d,   εμφανίζει μόνο το διάλογο ρύθμισης της ημερομηνίας"
+
+#: ../clocksetup:55
+#, sh-format
+msgid "   -t,   only show the time configuration dialog"
+msgstr "   -t,   εμφανίζει μόνο το διάλογο ρύθμισης της ώρας"
+
+#: ../clocksetup:56
+#, sh-format
+msgid "   -z,   only show the timezone configuration dialog"
+msgstr "   -z,   εμφανίζει μόνο το διάλογο ρύθμισης της ζώνης ώρας"
+
+#: ../clocksetup:57
+#, sh-format
+msgid "   -h,   this help message"
+msgstr "   -h,   το παρόν μύνημα βοήθειας"
+
+#: ../clocksetup:96
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "ΣΦΑΛΜΑ: Πολλές παράμετροι"
+
+#: ../clocksetup:106
+#: ../clocksetup:170
+#: ../clocksetup:191
+#: ../clocksetup:212
+#: ../clocksetup:262
+#, sh-format
+msgid "OK"
+msgstr "Εντάξει"
+
+#: ../clocksetup:107
+#, sh-format
+msgid "Exit"
+msgstr "Έξοδος"
+
+#: ../clocksetup:108
+#, sh-format
+msgid "System clock configuration"
+msgstr "Ρύθμιση ρολογιού συστήματος"
+
+#: ../clocksetup:110
+#, sh-format
+msgid "Currently the clock is set to:"
+msgstr "Τρέχουσα ώρα:"
+
+#: ../clocksetup:111
+#, sh-format
+msgid "Please choose an option:"
+msgstr "Επιλέξτε από τα παρακάτω:"
+
+#: ../clocksetup:113
+#, sh-format
+msgid "Set the time manually"
+msgstr "Ρύθμιση της ώρας"
+
+#: ../clocksetup:114
+#, sh-format
+msgid "Set the date manually"
+msgstr "Ρύθμιση της ημερομηνίας"
+
+#: ../clocksetup:115
+#, sh-format
+msgid "Set the time zone"
+msgstr "Ρύθμιση ζώνης ώρας"
+
+#: ../clocksetup:116
+#, sh-format
+msgid "Configure the hardware clock"
+msgstr "Ρύθμιση ρολογιού συστήματος"
+
+#: ../clocksetup:117
+#, sh-format
+msgid "Synchronize with Network Time Protocol (NTP)"
+msgstr "Συγχρονισμός ώρας από το διαδίκτυο (NTP)"
+
+#: ../clocksetup:169
+#, sh-format
+msgid "Clock adjustment"
+msgstr "Ρύθμιση της ώρας"
+
+#: ../clocksetup:171
+#: ../clocksetup:192
+#: ../clocksetup:213
+#: ../clocksetup:263
+#, sh-format
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: ../clocksetup:173
+#, sh-format
+msgid "Please set the time..."
+msgstr "Ρυθμίστε την ώρα..."
+
+#: ../clocksetup:190
+#, sh-format
+msgid "Date adjustment"
+msgstr "Ρύθμιση της ημερομηνίας"
+
+#: ../clocksetup:194
+#, sh-format
+msgid "Please set the date..."
+msgstr "Ρυθμίστε την ημερομηνία..."
+
+#: ../clocksetup:214
+#, sh-format
+msgid "Time zone configuration"
+msgstr "Ρύθμιση ζώνης ώρας"
+
+#: ../clocksetup:216
+#, sh-format
+msgid "Please select your time zone..."
+msgstr "Επιλέξτε τη ζώνη ώρας"
+
+#: ../clocksetup:236
+#, sh-format
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: ../clocksetup:238
+#, sh-format
+msgid "You are already using the ntpd service and clock should be correct."
+msgstr "Χρησιμοποιείται η υπηρεσία ntpd και το ρολόι συστήματος πρέπει να είναι ήδη σωστό."
+
+#: ../clocksetup:242
+#, sh-format
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: ../clocksetup:244
+#, sh-format
+msgid "Something went wrong. Time was not adjusted."
+msgstr "Υπήρξε κάποιο σφάλμα. Η ώρα δεν ρυθμίστηκε."
+
+#: ../clocksetup:264
+#, sh-format
+msgid "Hardware clock configuration"
+msgstr "Ρύθμιση ρολογιού συστήματος"
+
+#: ../clocksetup:266
+#, sh-format
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "Είναι το ρολόι συστήματος ρυθμισμένο σε Παγκόσμιο Χρόνο (UTC/GMT); Αν είναι, επιλέξτε ΝΑΙ. Αν το ρολόι συστήματος είναι ρυθμισμένο σε τοπική ώρα (όπως στους περισσότερους υπολογιστές), επιλέχτε ΟΧΙ. Αν δεν είστε βέβαιοι, είναι καλύτερα να επιλέξετε ΟΧΙ."
+
+#: ../clocksetup:267
+#, sh-format
+msgid "No"
+msgstr "Όχι"
+
+#: ../clocksetup:267
+#, sh-format
+msgid "Hardware clock is set to local time"
+msgstr "Το ρολόι του υπολογιστή είναι ρυθμισμένο σε τοπική ώρα"
+
+#: ../clocksetup:268
+#, sh-format
+msgid "Yes"
+msgstr "Ναι"
+
+#: ../clocksetup:268
+#, sh-format
+msgid "Hardware clock is set to UTC"
+msgstr "Το ρολόι του υπολογιστή είναι ρυθμισμένο σε ώρα UTC"
+

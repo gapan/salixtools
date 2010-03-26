@@ -1,0 +1,744 @@
+#!/bin/bash
+
+# This script manages the creation, deletion and modification of users accounts  
+# and groups as well as their respective properties.
+
+# This program is free software; you can redistribute it and/or modify it 
+# under the terms of the GNU General Public License as published by the
+# Free Software Foundation; either version 2 of the License, or (at your option)
+# any later version. Please take a look at http://www.gnu.org/copyleft/gpl.htm
+
+# Original code from userconfig, Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
+# Modified by: Teran McKinney (sega01).
+# Modified by: Pierrick Le Brun <akuna~at~free~dot~fr>
+# Modified by: George Vlahavas <vlahavas~at~gmail~dot~com>
+
+# Translations only work with utf8 locales
+if [ ! `echo $LANG | grep -i utf` ]; then
+	LANG=C
+fi
+
+# Gettext internationalization
+export TEXTDOMAIN="usersetup"
+export TEXTDOMAINDIR="/usr/share/locale"
+. gettext.sh
+
+dialog="dialog"
+
+# Path needs to be extended in case you're only half a root :)
+export PATH="/usr/sbin:/sbin:${PATH}"
+
+skeleton='/etc/skel'
+defaultshell='/bin/bash'
+defaultgroup='users'
+pwfile='/etc/passwd'
+grpfile='/etc/group'
+shadowfile='/etc/shadow'
+
+for isgroupinsalix in audio video cdrom floppy lp plugdev scanner power netdev ; do
+	grep -q "^${isgroupinsalix}:" $grpfile && useraddmembership="${isgroupinsalix},${useraddmembership}"
+done
+useraddmembership="$( echo ${useraddmembership} | sed -e 's/^\(.*\),$/\1/' )"
+
+###############################################
+# What do you want to do ?
+
+promptaction() {
+mode=$(${dialog} \
+--stdout \
+--ok-label "`eval_gettext 'Select'`" \
+--cancel-label "`eval_gettext 'Exit user setup'`" \
+--title "`eval_gettext 'Users accounts management'`" \
+--menu \
+"\n `eval_gettext 'Please choose an option...'`  \n\n" \
+22 60 10 \
+   "1" "`eval_gettext 'Create a new account'`" \
+   "2" "`eval_gettext 'Create a new account (advanced mode)'`" \
+   "3" "`eval_gettext 'Modify account properties'`" \
+   "4" "`eval_gettext 'Change account password'`" \
+   "5" "`eval_gettext 'Delete accounts'`" \
+   "6" "`eval_gettext 'List groups and memberships'`" \
+   "7" "`eval_gettext 'Create a new group'`" \
+   "8" "`eval_gettext 'Change group name'`" \
+   "9" "`eval_gettext 'Delete groups'`")
+
+if [ ! "$mode" ]; then
+  mode="none"
+fi
+
+}
+
+###############################################
+# list existing accounts
+
+showusers() {
+list=$(cat $pwfile \
+| sed -e 's/^\(.*\):x:\(.*\):.*:.*:.*:.*$/\1\ \2\ /')
+user=$(${dialog} \
+--stdout \
+--title "`eval_gettext 'Account properties'`" \
+--ok-label "`eval_gettext 'Properties'`" \
+--cancel-label "`eval_gettext 'Back'`" \
+--menu \
+"\n `eval_gettext 'Select an account to view its properties...'`  " \
+0 0 11 \
+${list})
+}
+
+###############################################
+# delete existing accounts
+
+delusers() {
+list=$(cat $pwfile \
+| sed -e 's/^\(.*\):x:\(.*\):.*:.*:.*:.*$/\1\ \2\ /')
+user=$(${dialog} \
+--stdout \
+--title "`eval_gettext 'Account deletion'`" \
+--ok-label "`eval_gettext 'Delete'`" \
+--cancel-label "`eval_gettext 'Back'`" \
+--menu \
+"\n `eval_gettext 'Select an account to delete...'`  " \
+0 0 11 \
+${list})
+}
+
+###############################################
+# Change accounts passwords
+
+chguserpass() {
+list=$(cat $pwfile \
+| sed -e 's/^\(.*\):x:\(.*\):.*:.*:.*:.*$/\1\ \2\ /')
+user=$(${dialog} \
+--stdout \
+--title "`eval_gettext 'Change password'`" \
+--ok-label "`eval_gettext 'Change'`" \
+--cancel-label "`eval_gettext 'Back'`" \
+--menu \
+"\n `eval_gettext 'Select an account to change password for...'`  " \
+0 0 11 \
+${list})
+}
+
+###############################################
+# list existing groups
+
+showgroups() {
+list=$(cat $grpfile | \
+	sed -e 's/^\(.*\):.*:\(.*\):.*$/\1 \2 /')
+group=$($dialog \
+--stdout \
+--title "`eval_gettext 'Group memberships'`" \
+--ok-label "`eval_gettext 'Memberships'`" \
+--cancel-label "`eval_gettext 'Back'`" \
+--menu \
+"\n `eval_gettext 'Select a group to view memberships for...'`  " \
+0 0 11 \
+${list})
+}
+
+###############################################
+# Change groups names
+
+chggroupsname() {
+list=$(cat $grpfile | \
+	sed -e 's/^\(.*\):.*:\(.*\):.*$/\1 \2 /')
+group=$($dialog \
+--stdout \
+--title "`eval_gettext 'Group name'`" \
+--ok-label "`eval_gettext 'Modify'`" \
+--cancel-label "`eval_gettext 'Back'`" \
+--menu \
+"\n `eval_gettext 'Select group name to modify...'`  " \
+0 0 11 \
+${list})
+}
+
+
+###############################################
+# delete existing groups
+
+delgroups() {
+list=$(cat $grpfile | \
+	sed -e 's/^\(.*\):.*:\(.*\):.*$/\1 \2 /')
+group=$($dialog \
+--stdout \
+--title "`eval_gettext 'Group deletion'`" \
+--ok-label "`eval_gettext 'Delete'`" \
+--cancel-label "`eval_gettext 'Back'`" \
+--menu \
+"\n `eval_gettext 'Select a group to delete...'`  " \
+0 0 11 \
+${list})
+}
+
+###############################################
+# Get account parameters from system
+
+getsysteminfo() {
+  uid="$(grep -e "^$user:.*$" $pwfile | cut -d : -f 3 )"
+  gid="$(grep -e "^$user:.*$" $pwfile | cut -d : -f 4 )"
+  homedir="$(grep -e "^$user:.*$" $pwfile | cut -d : -f 6 )"
+  shell="$(grep -e "^$user:.*$" $pwfile | cut -d : -f 7 )"
+  group="$(groups "$user" | sed -e 's/^.* : \(.*\)$/\1/' | cut -d \  -f 1 )"
+  membership="$(groups "$user" | sed -e 's/^.* : \(.*\)$/\1/' | cut -d \  -f 2- )"
+  expirydays="$(grep -e "^$user:.*$" $shadowfile | cut -d : -f 8 )"
+  if [ "$expirydays" ]; then
+    expiry="$(date -u --date "Jan 1, 1970 + $expirydays days" +%Y-%m-%d)" # usermod date format
+  else
+    expiry="never"
+  fi
+  fingerinfo="$(grep -e "^$user:.*$" $pwfile | cut -d : -f 5 )"
+  realname="$(echo $fingerinfo | cut -d , -f 1 )"
+  office="$(echo $fingerinfo | cut -d , -f 2 )"
+  workphone="$(echo $fingerinfo | cut -d , -f 3 )"
+  homephone="$(echo $fingerinfo | cut -d , -f 4 )"
+
+}
+
+###############################################
+# Show account info
+showuserinfo() {
+parameter=$($dialog --stdout \
+--title "`eval_gettext 'Account properties'`" \
+--ok-label "`eval_gettext 'Modify'`" \
+--cancel-label "`eval_gettext 'Back'`" \
+--menu \
+"\n `eval_gettext 'Detailed information for account'` $user:  " \
+17 80 13 \
+"`eval_gettext 'Full name'`" "$realname" \
+"`eval_gettext 'Account name'`" "$user ($uid)" \
+"`eval_gettext 'Main Group'`" "$group ($gid)" \
+"`eval_gettext 'Home directory'`" "$homedir" \
+"`eval_gettext 'Shell'`" "$shell" \
+"`eval_gettext 'Other groups'`" "$membership" \
+"`eval_gettext 'Expiry'`" "$expiry" \
+"`eval_gettext 'Office'`" "$office" \
+"`eval_gettext 'Work phone'`" "$workphone" \
+"`eval_gettext 'Home phone'`" "$homephone" )
+}
+
+###############################################
+# Show group membership
+showgroupmembers() {
+
+gid="$(grep -e "^$group:.*$" $grpfile | cut -d : -f 3)"
+members="$(grep -e "^$group:.*$" $grpfile | cut -d : -f 4 | tr "," " ")"
+for user in $(grep -e "^.*:x:.*:$gid:.*$" $pwfile \
+  | sed -e 's/^\(.*\):x:.*:.*:.*:.*:.*$/\1/' \
+  | tr "\n" " ") ; do
+  members="$(echo $members | sed -e "s/^\(.*\)$user\(.*\)$/\1\2/")"
+  members="$members $user"
+done
+
+if [ "$members" ]; then
+	list=""
+	for user in $members
+	do
+		uid="$(grep -e "^$user:.*$" $pwfile | cut -d : -f 3 )"
+		list="$list
+	$user $uid"
+	done
+
+	user=$($dialog \
+	--stdout \
+	--title "`eval_gettext 'Group members'`" \
+	--ok-label "`eval_gettext 'Properties'`" \
+	--cancel-label "`eval_gettext 'Back'`" \
+	--menu \
+	"\n `eval_gettext 'Members of group'` $group:  " \
+	0 75 11 \
+	${list})
+
+else
+	$dialog \
+	--title "`eval_gettext 'Group members'`" \
+	--msgbox "\n \
+	`eval_gettext 'There are no accounts in group'` $group" 12 75
+fi
+}
+
+
+###############################################
+# Set the account name or create the account if new name
+setusername() {
+  current="$user"
+  user=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Account name'`" \
+  --no-cancel \
+  --inputbox "`eval_gettext 'Enter the new account name...'`  " \
+  0 0 \
+  $user)
+  [ ! "$user" ] && user="$current"
+  if [ "$current" ]; then
+    usermod -l $user $current 2>/dev/null
+  else
+    message="ok"
+    if [ "$( echo "$user" | grep " " )" ]; then
+      message="`eval_gettext 'An account name cannot contain a space, please correct it...'`  "                 
+    elif [ "$(grep -e "^$user:.*$" $pwfile )" ]; then
+      message="`eval_gettext 'The account name $user already exists, please choose another name...'`  "              
+    elif [ ! "$user" ]; then
+      message="`eval_gettext 'The account name is empty, please correct it...'`  "
+    elif [ "$( echo $user | grep "^[0-9]" )" ]; then
+      message="`eval_gettext 'An account name cannot begin with a number, please correct it...'`  "
+    elif [ ! "$user" = "$(echo $user | tr A-Z a-z)" ]; then
+      message="`eval_gettext 'An account name cannot contain uppercase characters, please correct it...'`"                
+	  elif [ ! -z "$( echo $user | grep '\.' )" ]; then
+      message="`eval_gettext 'An account name cannot contain punctuation marks, please correct it...'`"
+    fi
+    if [ "$message" = "ok" ]; then
+      for membershipgroup in $(echo $useraddmembership | tr "," " ") ; do
+        groupadd $membershipgroup 2>/dev/null
+      done
+      useradd -s $defaultshell -g $defaultgroup -m -k $skeleton -G $useraddmembership "$user" 2>/dev/null
+    fi
+  fi
+  current=""
+}
+
+###############################################
+# Set the main group name
+setgroup() {
+  current="$group"
+  group=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Group membership'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --no-cancel \
+  --inputbox \
+  "`eval_gettext 'Enter the main group for account'` $user...  " \
+  0 0 $group)
+  [ "$group" ] && usermod -g $group $user 2>/dev/null
+  current=""
+}
+
+###############################################
+# Set the home dir
+sethomedir() {
+  current="$homedir"
+  homedir=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Home directory'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --no-cancel \
+  --inputbox "`eval_gettext 'Enter the home directory for account'` $user...  " \
+  0 0 $homedir)
+  if [ "$homedir" ]; then
+    usermod -d $homedir $user 2>/dev/null
+    if [ -e $homedir ]; then
+      chown -R $user:$group $homedir 2>/dev/null
+    elif [ -e $current ]; then
+      mv $current $homedir 2>/dev/null
+      chown -R $user:$group $homedir 2>/dev/null
+    else
+      cp -rf $skeleton $homedir 2>/dev/null
+      chown -R $user:$group $homedir 2>/dev/null
+    fi
+  fi
+  current=""
+}
+
+###############################################
+# Set the shell
+setshell() {
+  current="$shell"
+  shell=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Shell'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --no-cancel \
+  --inputbox \
+  "`eval_gettext 'Enter the shell interpreter for account'` $user...  " \
+  0 0 \
+  $shell)
+  if [ "$shell" != "$current" ]; then
+    usermod -s $shell $user 2>/dev/null
+  fi
+  current=""
+}
+
+###############################################
+# Set additional group membership
+setmembership() {
+  current="$membership"
+  usermodmembership="$(echo $membership | tr " " "," )"
+  membership=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Additional group membership'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --no-cancel \
+  --inputbox "`eval_gettext 'Add some additional group to the list...'`  " \
+  0 0 \
+  $usermodmembership)
+  if [ "$membership" != "$current"  ]; then
+    usermodmembership="$(echo $membership | tr " " "," )"
+    usermod -G $usermodmembership $user 2>/dev/null
+  fi
+  current=""
+}
+
+###############################################
+# Set expiry date
+setexpiry() {
+  # date must be in format DD MM YYYY for dialog
+  if [ "$expirydays" ]; then
+    dialogdate="$(date -u --date "Jan 1, 1970 00:00:00 + $expirydays days" +%d\ %m\ %Y 2>/dev/null)"
+  else
+    dialogdate="$(date -u +%d\ %m\ %Y 2>/dev/null)"
+  fi
+
+  dialogdate=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Expiry date'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --cancel-label "`eval_gettext 'Never'`" \
+  --defaultno \
+  --calendar \
+  "`eval_gettext 'Set the account expiry date...'`  " \
+  0 0 $dialogdate)
+
+  # converting dialog outputs DD/MM/YYYY into YYYY-MM-DD for usermod
+  expiry="$(echo "$dialogdate" | sed -e "s/^\([0-9]*\)\/\([0-9]*\)\/\([0-9]*\)/\3-\2-\1/")" # usermod date format
+  usermod -e "" $user 2>/dev/null
+  if [ "$expiry" ]; then
+    usermod -e "$expiry" $user 2>/dev/null
+  fi
+
+}
+
+###############################################
+
+# Password dialog
+passbox(){
+	DIALOG='dialog --stdout --insecure --fixed-font --no-cancel --smooth --passwordbox'
+	pw="$(${DIALOG} "${1}" 0 0)"
+	echo -n "$pw"
+}
+
+
+# Password checking
+changepw(){
+
+maxcount=3
+minlength=5
+
+count=1 ; pw='_'
+while [ "${pw}" != "${password}" ]; do
+	password="" ; pw='_'
+	if [ $count -gt $maxcount ]; then
+		echo -n ""
+		break
+	fi
+
+	message="`eval_gettext 'Enter password for account'` ${1}...  "
+	[ $count -ge 2 ] && message="`eval_gettext 'Passwords do not match, please try again...'`"
+	while [ "$(echo -n "${pw}" | wc --chars)" -lt ${minlength} ]; do
+		pw="$(passbox "${message}")"
+		message="`eval_gettext 'Password is too short (${minlength} chars minimum), please try another one...'`  "		
+	done
+	password="$pw" ; pw='_'
+	message="`eval_gettext 'Enter password again for account'` ${1}...  "
+	pw="$(passbox "${message}")"
+	
+	count=$((count+1))
+
+done
+
+echo -n $password
+}
+
+# Change password
+setpw() {
+  
+	DIALOG="dialog"
+	
+	[ "$user" ] && pass="$(changepw ${user})"
+	if [ ! "$pass" ] ; then
+		${dialog} --msgbox "`eval_gettext 'Failed to set password for account'` \"${user}\"  " 0 0
+	else
+		# echo "${user}:${pass}"
+		[ "$user" ] && echo "${user}:${pass}" | chpasswd
+	fi
+}
+
+###############################################
+# Set finger info
+
+setrealname() {
+  current="$realname"
+  realname=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Full name'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --no-cancel \
+  --inputbox "`eval_gettext 'Enter the full name of the user'` $user...  " 0 0 "$realname")
+  if [ "$realname" != "$current" ]; then
+    chfn -f "$realname" $user 2>/dev/null
+  fi
+  current=""
+}
+
+setoffice() {
+  current="$office"
+  office=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Office information'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --no-cancel \
+  --inputbox "`eval_gettext 'Enter office information for the user'` $user...  " 0 0 "$office")
+  if [ "$office" != "$current" ]; then
+    chfn -r "$office" $user 2>/dev/null
+  fi
+  current=""
+}
+
+setworkphone() {
+  current="$workphone"
+  workphone=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Work phone'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --no-cancel \
+  --inputbox "`eval_gettext 'Enter the work phone number of the user'` $user...  " 0 0 "$workphone")
+  if [ "$workphone" != "$current" ]; then
+    chfn -w "$workphone" $user 2>/dev/null
+  fi
+  current=""
+}
+
+sethomephone() {
+  current="$homephone"
+  homephone=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Home phone'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --no-cancel \
+  --inputbox "`eval_gettext 'Enter the home phone number of the user'` $user...  " 0 0 "$homephone")
+  if [ "$homephone" != "$current" ]; then
+    chfn -h "$homephone" $user 2>/dev/null
+  fi
+  current=""
+}
+
+###############################################
+# Set the group name or create the group if new name
+setgroupname() {
+  current="$group"
+  group=$($dialog \
+  --stdout \
+  --title "`eval_gettext 'Group name'`" \
+  --ok-label "`eval_gettext 'OK'`" \
+  --no-cancel \
+  --inputbox "`eval_gettext 'Enter the new group name'`   " \
+  0 0 $group)
+  if [ "$current" ]; then
+    [ "$group" ] && groupmod -n $group $current 2>/dev/null
+  else
+    [ "$group" ] && groupadd $group 2>/dev/null
+  fi
+  current=""
+}
+
+
+###############################################
+# Modify an account
+
+modifyuser() {
+	if [ "$user" ]; then
+	  while [ "1" = "1" ] ; do
+	  parameter=""
+	  getsysteminfo
+	  showuserinfo
+	  if [ "$parameter" ]; then
+		case "$parameter" in
+		"`eval_gettext 'Account name'`")
+		  setusername
+		  getsysteminfo
+		  ;;
+		"`eval_gettext 'Main Group'`")
+		  setgroup
+		  getsysteminfo
+		  ;;
+		"`eval_gettext 'Home directory'`")
+		  sethomedir
+		  getsysteminfo
+		  ;;
+		"`eval_gettext 'Other groups'`")
+		  setmembership
+		  getsysteminfo
+		  ;;
+		"`eval_gettext 'Shell'`")
+		  setshell
+		  getsysteminfo
+		  ;;
+		"`eval_gettext 'Expiry'`")
+		  setexpiry
+		  getsysteminfo
+		  ;;
+		"`eval_gettext 'Full name'`")
+		  setrealname
+		  getsysteminfo
+		  ;;
+		"`eval_gettext 'Office'`")
+		  setoffice
+		  getsysteminfo
+		  ;;
+		"`eval_gettext 'Work phone'`")
+		  setworkphone
+		  getsysteminfo
+		  ;;
+		"`eval_gettext 'Home phone'`")
+		  sethomephone
+		  getsysteminfo
+		  ;;
+		esac
+	  else
+		break
+	  fi
+	done
+	fi
+}
+
+
+
+###############################################
+# main()
+while [ "1" = "1" ] ; do
+  promptaction
+            case $mode in
+            3) # User properties
+              while [ "1" = "1" ] ; do
+                user=""
+                showusers
+                if [ "$user" ]; then
+                  modifyuser
+                else
+                  break
+                fi
+              done
+              ;;
+	    1) # Create user (simple mode)
+	    	user=""
+	    	setusername
+		if [ "$message" = "ok" ]; then
+			getsysteminfo
+			setpw
+		else
+			$dialog --title "`eval_gettext 'Warning'`" --msgbox "\n $message \n" 0 0
+		fi
+            	;;
+            2) # Create user (advanced mode)
+            user=""
+              setusername
+              if [ "$message" = "ok" ]; then
+                getsysteminfo
+                setgroup
+                sethomedir
+                setmembership
+                setshell
+                setexpiry
+                setrealname
+                setoffice
+                setworkphone
+                sethomephone
+                setpw
+                getsysteminfo
+                modifyuser
+              else
+                $dialog --title "`eval_gettext 'Warning'`" --msgbox "\n $message \n" 0 0
+              fi
+              ;;
+            5) # Delete users
+              while [ "1" = "1" ] ; do
+              user=""
+                delusers
+                if [ "$user" ]; then
+                  if [ "$user" == "root" ]; then
+                    $dialog --title "`eval_gettext 'Warning'`" --msgbox "\n `eval_gettext 'You cannot delete the account'` $user...  \n" 0 0
+                  else
+		    $dialog --title "`eval_gettext 'Confirm user deletion'`" \
+		    --yes-label "`eval_gettext 'Delete'`" \
+		    --no-label "`eval_gettext 'Cancel'`" \
+		    --yesno \
+		    "`eval_gettext 'Are you sure you want to delete user $user?'`" 0 0
+		    if [ $? -eq 0 ]; then
+                	    userdel $user 2>/dev/null
+		    fi
+	    	fi
+                else
+                  break
+                fi
+              done
+              ;;
+            4) # Change password
+              user=""
+              chguserpass
+              if [ "$user" ]; then
+                setpw
+              fi
+              ;;
+            6) # List groups
+              while [ "1" = "1" ] ; do
+              group=""
+              showgroups
+                if [ "$group" ]; then
+                  while [ "1" = "1" ] ; do
+                    user=""
+                    showgroupmembers
+                    if [ "$user" ]; then
+                      getsysteminfo
+                      showuserinfo
+                    else
+                      break
+                    fi
+                  done
+                else
+                  break
+                fi
+                done
+              ;;
+            8) # Modify group
+            while [ "1" = "1" ] ; do
+            group=""
+              chggroupsname
+              if [ "$group" ]; then
+                setgroupname
+              else
+                break
+              fi
+            done
+              ;;
+            7) # Create group
+              group=""
+              setgroupname
+              ;;
+            9)
+              while [ "1" = "1" ] ; do
+              group=""
+                delgroups
+                if [ "$group" ]; then
+                  if [ "$group" == "root" ]; then
+                    $dialog --title "`eval_gettext 'Warning'`" --msgbox --auto-placement "\n `eval_gettext 'You cannot delete the group'`\ $group...  \n" 0 0 &
+                  else
+		    $dialog --title "`eval_gettext 'Confirm group deletion'`" \
+		    --yes-label "`eval_gettext 'Delete'`" \
+		    --no-label "`eval_gettext 'Cancel'`" \
+		    --yesno \
+		    "`eval_gettext 'Are you sure you want to delete the $group group?'`" 0 0
+		    if [ $? -eq 0 ]; then
+	                    groupdel $group 2>/dev/null
+		    fi
+                  fi
+                else
+                  break
+                fi
+               done
+              ;;
+            none)
+              exit
+          esac
+
+done
+
+# end

@@ -1,0 +1,46 @@
+2010-03-23
+- Split service script from servicesetup
+
+2010-02-24
+- Removed support for xdialog
+- Removed several services from blacklist
+
+2010-01-22
+- Don't check for pid of service before trying to stop it
+
+2010-01-12
+- Added manpage
+
+2009-09-19
+- Added German translation
+
+2009-08-14
+- Blacklisted alsa, wicd and sysvinit services
+- Added Greek translation
+- Fixed a few bugs
+
+2009-08-14
+- Added support for gettext
+
+=======================================
+
+serviceconfig changelog:
+
+02/09/2005
+- Added Xdialog support for Zenwalk
+
+01/11/2005
+- Code cleaning and icon added 
+
+14/04/2006
+- Full rewriting, added serviceinfo database 
+
+22/09/2006
+- added external/dynamic serviceinfo database 
+
+07/06/2007
+- huge speed improvement, blacklist list is now in /etc/svcblklist.
+--Teran McKinney (sega01)
+
+10/06/2007
+- real time daemon status handling -- jp

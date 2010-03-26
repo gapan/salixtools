@@ -1,0 +1,53 @@
+24/02/2010 - GV
+- Removed support for xdialog
+
+17/02/2010 - GV
+- Added support for olpc keymaps
+
+03/02/2010 - GV
+- Almost complete rewrite, command line options have been completely
+  altered
+- Added support for SCIM
+- Added numlock dialog when running in console mode
+
+12/01/2010 - GV
+- Added manpage
+
+10/10/2009 - GV
+- Added support for xkb variant
+
+11/08/2009 - GV
+- "loadkeys -u" is used by default
+
+10/08/2009 - GV
+- fixed utf8 detection
+- updated French translation
+
+09/08/2009 - GV
+- added Finnish translation
+
+04/08/2009 - GV
+- fixed wrong location reference of keymaps file
+
+04/08/2009 - GV
+- utf8 check
+- added keyboardsetup-kde.desktop file
+
+01/08/2009 - GV
+- Added German & Greek translation
+- Improved fdi policy configuration					
+- Added non-interactive command line arguments
+- Removed hard-coded keyboard layout						
+- General code cleanup + improvements					
+
+30/06/2009 - PLB
+- Added localization support 
+- Added French translation							
+- Replaced xorg configuration with fdi policy rule
+
+15/04/2008 - JPG
+- Added Latvian 
+- Improved Russian
+
+17/06/2006 - JPG
+- Original code as keyboardconfig for Zenwalk

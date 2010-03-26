@@ -1,0 +1,49 @@
+localesetup
+George Vlahavas
+%%mtime(%m/%d/%Y)
+
+%!target: man
+%!encoding: utf-8
+
+= NAME =
+
+**localesetup** - a tool that sets the system's locale
+
+= SYNOPSIS =
+
+**localesetup** [//locale//]
+
+= DESCRIPTION =
+
+**localesetup** is a tool that can be used to set the system's locale.
+When invoked with no parameters, it starts a __dialog__ interface
+to present the user with a list of available system locales. Only utf8
+locales are supported. The selected locale is applied on the fly and
+appropriate changes are done to system configuration files so it becomes
+the system default.
+
+**localesetup** also has a non-interactive mode that can be
+invoked by providing a locale paremeter from the
+command line.
+
+**localesetup** is part of the **salixtools** package.
+
+= OPTIONS =
+
+**locale**,
+%comment
+The locale to be used. All locales that are specified from the command
+line are converted to their utf8 equivalents before being applied. You
+can get a list of available locales using the command **locale -cva**.
+
+
+= AUTHORS =
+
+- George Vlahavas <vlahavas~at~gmail~dot~com>
+- Pierrick Le Brun <akuna~at~free~dot~fr>
+
+
+**localesetup** started as a fork of **localeconfig**, which was originally
+written by:
+
+- Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>

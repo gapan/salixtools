@@ -1,0 +1,39 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Cyrille Pontvieux <jrd@enialis.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRENCH\n"
+
+#: servicesetup:79
+#, sh-format
+msgid "Startup services"
+msgstr "Démarrage des services"
+
+#: servicesetup:81
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: servicesetup:82
+#, sh-format
+msgid "Exit"
+msgstr "Quitter"
+
+#: servicesetup:85
+#, sh-format
+msgid "The selected services will be started at boot time:"
+msgstr "Les services sélectionnés seront lancés au démarrage :"
+
+#: servicesetup:94
+#, sh-format
+msgid "The $service service"
+msgstr "Le service $service"

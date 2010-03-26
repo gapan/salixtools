@@ -1,0 +1,57 @@
+service
+George Vlahavas
+%%mtime(%m/%d/%Y)
+
+%!target: man
+%!encoding: utf-8
+
+= NAME =
+
+service - a command line tool that helps with management of system
+services
+
+= SYNOPSIS =
+
+**service** //action// [//servicename//]
+
+= DESCRIPTION =
+
+**service** is a command line tool that helps with the management of
+system services. It can be used to enable and start system services or
+to disable and stop them. It can also be used to restart system services
+and can addtionally provide a list of all available services with their
+status.
+
+**service** is part of the **salixtools** package.
+
+= OPTIONS =
+
+**action**,
+%comment
+Can be either one of //start//, //stop//, //restart// or //list//.
+//start//, //stop// and //restart// require //servicename// to be
+provided as an additional argument. //start// starts a stopped
+service on the fly and makes it autostart at boot. //stop// stops
+a currently running service and makes it not autostart at boot.
+//restart// stops a running service and starts it again. //list//
+provides a list of all available services, a short description for each
+one and their status (on or off).
+
+**servicename**,
+%comment
+The name of the service to //start//, //stop// or //restart//. You can
+get a list of available service names by running **service list**.
+
+= AUTHORS =
+
+- George Vlahavas <vlahavas~at~gmail~dot~com>
+
+
+**service** started as a fork of the **service** script originally written by:
+
+- Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
+
+
+= SEE ALSO =
+
+**servicesetup**(8)

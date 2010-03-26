@@ -1,0 +1,114 @@
+# French translations for keyboardsetup package
+# Traductions françaises du paquet keyboardsetup.
+# Copyright (C) 2009 Pierrick Le Brun
+# This file is distributed under the same license as the keyboardsetup package.
+# Pierrick Le Brun <akuna~at~free~dot~fr>, 2009.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: keyboardsetup 4.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-23 11:48+0200\n"
+"PO-Revision-Date: 2010-02-03 14:47+0200\n"
+"Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../keyboardsetup:48
+#, sh-format
+msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
+msgstr "UTLISATION : keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
+
+#: ../keyboardsetup:50
+#, sh-format
+msgid "OPTIONS:"
+msgstr "OPTIONS :"
+
+#: ../keyboardsetup:52
+#, sh-format
+msgid "   -k keymap,         a valid keyboard map"
+msgstr "   -k keymap,         une disposition de clavier valide"
+
+#: ../keyboardsetup:53
+#, sh-format
+msgid "   -n numlockstate,   the numlock state, on or off"
+msgstr "   -n numlockstate,   état du verrou numérique, on ou off"
+
+#: ../keyboardsetup:54
+#, sh-format
+msgid "   -s scimstate,      the SCIM state, on or off"
+msgstr "   -s scimstate,      état de SCIM, on ou off"
+
+#: ../keyboardsetup:104
+#, sh-format
+msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
+msgstr "ERROR : $OPTARG n'est pas une disposition valide de clavier. Veuillez consulter la liste de claviers reconnus dans $keymapsdir/keymaps "
+
+#: ../keyboardsetup:118 ../keyboardsetup:127
+#, sh-format
+msgid "ERROR: $OPTARG is not a valid option."
+msgstr "ERREUR : $OPTARG n'est pas une option valide."
+
+#: ../keyboardsetup:139
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "ERREUR : Trop d'arguments"
+
+#: ../keyboardsetup:177
+#, sh-format
+msgid "Keyboard configuration"
+msgstr "Configuration du clavier"
+
+#: ../keyboardsetup:179
+#, sh-format
+msgid "OK"
+msgstr "Valider"
+
+#: ../keyboardsetup:180
+#, sh-format
+msgid "Exit"
+msgstr "Quitter"
+
+#: ../keyboardsetup:183
+#, sh-format
+msgid "Please select your preferred keyboard map:"
+msgstr "Veuillez sélectionner votre disposition de clavier:"
+
+#: ../keyboardsetup:206
+#, sh-format
+msgid "Numlock configuration"
+msgstr "Configuration du verrou numérique"
+
+#: ../keyboardsetup:207 ../keyboardsetup:233
+#, sh-format
+msgid "Enabled"
+msgstr "Activé"
+
+#: ../keyboardsetup:208 ../keyboardsetup:234
+#, sh-format
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: ../keyboardsetup:212
+#, sh-format
+msgid "Do you want to have numlock enabled or disabled by default?"
+msgstr "Voulez-vous activer par défaut le verrou numérique ?"
+
+#: ../keyboardsetup:232
+#, sh-format
+msgid "SCIM configuration"
+msgstr "Configuration de SCIM"
+
+#: ../keyboardsetup:238
+#, sh-format
+msgid "SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take effect."
+msgstr "SCIM est un système de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\\nVoulez-vous l'activer au démarrager ?\\n\\nVous devrez redémarrer votre système pour que les changements prennent effet."
+
+#~ msgid "(If you want to specify a numlock state, you also have to specify a keymap)"
+#~ msgstr "(Si vous désirez spécifier l'état du pavé numérique, vous devez également spécifier la disposition de votre clavier)"
+
+#~ msgid "EXAMPLE: keyboardsetup uk on"
+#~ msgstr "EXEMPLE : keyboardsetup fr-latin9 off"

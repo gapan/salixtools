@@ -1,0 +1,75 @@
+keyboardsetup
+George Vlahavas
+%%mtime(%m/%d/%Y)
+
+%!target: man
+%!encoding: utf-8
+
+= NAME =
+
+keyboardsetup - a tool that helps set keyboard options
+
+= SYNOPSIS =
+
+**keyboardsetup** [//OPTIONS//]
+
+= DESCRIPTION =
+
+**keyboardsetup** is a tool that helps set the keyboard map to be used for
+the linux terminal. If it is run with no parameters specified, 
+it provides an interactive menu, using
+__dialog__, with a list of all valid keyboard maps for the user
+to choose. It can also set the default state of the numlock key after
+booting. User preferences are applied on the fly and appropriate changes
+are done to system configuration files so they become the system
+default.
+
+**keyboardsetup** can also be used to set SCIM to be enabled or disabled,
+if SCIM is installed, by means of providing a dialog for it.
+SCIM is an input platform for Chinese, Japanese, Korean and many other
+languages when using a graphical environment). SCIM
+settings require the system to be restarted to take effect, or at
+the very least for the user to logout of his X session, log back in
+again and start SCIM manually.
+
+**keyboardsetup** also has a non-interactive mode that can be
+invoked by providing keyboard map, numlock state and/or SCIM state
+parameters from the command line.
+
+**keyboardsetup** is part of the **salixtools** package.
+
+= OPTIONS =
+
+**-k** //keymap//,
+%comment
+use it to set the desired keyboard map. //keymap// specifies the
+keyboard map to be used. Look in the ///usr/share/salixtools/keymaps//
+file to view a list of valid keyboard maps and their corresponding
+Xorg layouts and options.
+
+**-n** //numlockstate//,
+%comment
+use it to specify the default numlock state for the linux terminal and
+Xorg. //numlockstate// can be set to either **on** or **off**.
+
+**-s** //scimstate//,
+%comment
+use it to specify the default state of SCIM, if SCIM is installed.
+//scimstate// can be set to either **on** or **off**. It will have no
+effect if SCIM is not installed.
+
+= AUTHORS =
+
+- George Vlahavas <vlahavas~at~gmail~dot~com>
+- Pierrick Le Brun <akuna~at~free~dot~fr>
+
+
+**keyboardsetup** started as a fork of **keyboardconfig**, which was originally
+written by:
+
+- Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
+
+
+= SEE ALSO =
+
+**loadkeys**(1), **setxkbmap**(1)

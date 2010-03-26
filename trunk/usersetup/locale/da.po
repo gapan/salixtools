@@ -1,0 +1,434 @@
+# Danish translation of usersetup.
+# Copyright (C) 2010
+# This file is distributed under the same license as the usersetup package.
+# Kris Thomsen <lakristho@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: usersetup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-26 19:17+0200\n"
+"PO-Revision-Date: 2010-03-24 12:41+0100\n"
+"Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../usersetup:70 ../usersetup:90
+#, sh-format
+msgid "Select"
+msgstr "Vælg"
+
+#: ../usersetup:71 ../usersetup:91
+#, sh-format
+msgid "Exit user setup"
+msgstr "Afslut brugeropsætning"
+
+#: ../usersetup:72 ../usersetup:92
+#, sh-format
+msgid "Users accounts management"
+msgstr "Håndtering af brugerkonti"
+
+#: ../usersetup:76 ../usersetup:94
+#, sh-format
+msgid "Please choose an option..."
+msgstr "Vælg venligst et tilvalg..."
+
+#: ../usersetup:78 ../usersetup:96
+#, sh-format
+msgid "Create a new account"
+msgstr "Opret en ny konto"
+
+#: ../usersetup:79 ../usersetup:97
+#, sh-format
+msgid "Create a new account (advanced mode)"
+msgstr "Opret en ny konto (avanceret tilstand)"
+
+#: ../usersetup:80 ../usersetup:98
+#, sh-format
+msgid "Modify account properties"
+msgstr "Redigér kontoegenskaber"
+
+#: ../usersetup:81 ../usersetup:99
+#, sh-format
+msgid "Change account password"
+msgstr "Ændr adgangskode for konto"
+
+#: ../usersetup:82 ../usersetup:100
+#, sh-format
+msgid "Delete accounts"
+msgstr "Slet konti"
+
+#: ../usersetup:83 ../usersetup:101
+#, sh-format
+msgid "List groups and memberships"
+msgstr "List grupper og medlemsskaber"
+
+#: ../usersetup:84 ../usersetup:102
+#, sh-format
+msgid "Create a new group"
+msgstr "Opret en ny gruppe"
+
+#: ../usersetup:85 ../usersetup:103
+#, sh-format
+msgid "Change group name"
+msgstr "Ændr gruppenavn"
+
+#: ../usersetup:86 ../usersetup:104
+#, sh-format
+msgid "Delete groups"
+msgstr "Slet grupper"
+
+#: ../usersetup:122 ../usersetup:252 ../usersetup:271
+#, sh-format
+msgid "Account properties"
+msgstr "Kontoegenskaber"
+
+#: ../usersetup:124 ../usersetup:316 ../usersetup:327
+#, sh-format
+msgid "Properties"
+msgstr "Egenskaber"
+
+#: ../usersetup:125 ../usersetup:143 ../usersetup:161 ../usersetup:179
+#: ../usersetup:197 ../usersetup:216 ../usersetup:254 ../usersetup:273
+#: ../usersetup:317 ../usersetup:328
+#, sh-format
+msgid "Back"
+msgstr "Tilbage"
+
+#: ../usersetup:127
+#, sh-format
+msgid "Select an account to view its properties..."
+msgstr "Vælg en konto for at se dens egenskaber..."
+
+#: ../usersetup:140
+#, sh-format
+msgid "Account deletion"
+msgstr "Sletning af konto"
+
+#: ../usersetup:142 ../usersetup:215 ../usersetup:777 ../usersetup:841
+#, sh-format
+msgid "Delete"
+msgstr "Slet"
+
+#: ../usersetup:145
+#, sh-format
+msgid "Select an account to delete..."
+msgstr "Vælg en konto at slette..."
+
+#: ../usersetup:158
+#, sh-format
+msgid "Change password"
+msgstr "Ændr adgangskode"
+
+#: ../usersetup:160
+#, sh-format
+msgid "Change"
+msgstr "Ændr"
+
+#: ../usersetup:163
+#, sh-format
+msgid "Select an account to change password for..."
+msgstr "Vælg en konto at ændre adgangskode for..."
+
+#: ../usersetup:176
+#, sh-format
+msgid "Group memberships"
+msgstr "Gruppemedlemsskaber"
+
+#: ../usersetup:178
+#, sh-format
+msgid "Memberships"
+msgstr "Medlemsskaber"
+
+#: ../usersetup:181
+#, sh-format
+msgid "Select a group to view memberships for..."
+msgstr "Vælg en gruppe at se medlemsskaber for..."
+
+#: ../usersetup:194 ../usersetup:645
+#, sh-format
+msgid "Group name"
+msgstr "Gruppenavn"
+
+#: ../usersetup:196 ../usersetup:253 ../usersetup:272
+#, sh-format
+msgid "Modify"
+msgstr "Ændr"
+
+#: ../usersetup:199
+#, sh-format
+msgid "Select group name to modify..."
+msgstr "Vælg gruppenavnet at ændre..."
+
+#: ../usersetup:213
+#, sh-format
+msgid "Group deletion"
+msgstr "Sletning af gruppe"
+
+#: ../usersetup:218
+#, sh-format
+msgid "Select a group to delete..."
+msgstr "Vælg en gruppe at slette..."
+
+#: ../usersetup:257 ../usersetup:275
+#, sh-format
+msgid "Detailed information for account"
+msgstr "Detaljeret information om konto"
+
+#: ../usersetup:259 ../usersetup:277 ../usersetup:583 ../usersetup:695
+#, sh-format
+msgid "Full name"
+msgstr "Fuldt navn"
+
+#: ../usersetup:260 ../usersetup:278 ../usersetup:352 ../usersetup:671
+#, sh-format
+msgid "Account name"
+msgstr "Kontonavn"
+
+#: ../usersetup:261 ../usersetup:279 ../usersetup:675
+#, sh-format
+msgid "Main Group"
+msgstr "Hovedgruppe"
+
+#: ../usersetup:262 ../usersetup:280 ../usersetup:409 ../usersetup:679
+#, sh-format
+msgid "Home directory"
+msgstr "Hjemmemappe"
+
+#: ../usersetup:263 ../usersetup:281 ../usersetup:436 ../usersetup:687
+#, sh-format
+msgid "Shell"
+msgstr "Skal"
+
+#: ../usersetup:264 ../usersetup:282 ../usersetup:683
+#, sh-format
+msgid "Other groups"
+msgstr "Andre grupper"
+
+#: ../usersetup:265 ../usersetup:283 ../usersetup:691
+#, sh-format
+msgid "Expiry"
+msgstr "Udløb"
+
+#: ../usersetup:266 ../usersetup:284 ../usersetup:699
+#, sh-format
+msgid "Office"
+msgstr "Kontor"
+
+#: ../usersetup:267 ../usersetup:285 ../usersetup:613 ../usersetup:703
+#, sh-format
+msgid "Work phone"
+msgstr "Arbejdstelefon"
+
+#: ../usersetup:268 ../usersetup:286 ../usersetup:628 ../usersetup:707
+#, sh-format
+msgid "Home phone"
+msgstr "Hjemmetelefon"
+
+#: ../usersetup:315 ../usersetup:326 ../usersetup:338
+#, sh-format
+msgid "Group members"
+msgstr "Gruppemedlemmer"
+
+#: ../usersetup:320 ../usersetup:331
+#, sh-format
+msgid "Members of group"
+msgstr "Medlemmer af gruppe"
+
+#: ../usersetup:341
+#, sh-format
+msgid "There are no accounts in group"
+msgstr "Der er ingen konti i gruppe"
+
+#: ../usersetup:355
+#, sh-format
+msgid "Enter the new account name..."
+msgstr "Indtast det nye konto navn..."
+
+#: ../usersetup:364
+#, sh-format
+msgid "An account name cannot contain a space, please correct it..."
+msgstr "Et kontonavn kan ikke indeholde et mellemrum, ret det venligst..."
+
+#: ../usersetup:366
+#, sh-format
+msgid "The account name $user already exists, please choose another name..."
+msgstr "Kontonavnet $user findes allerede, vælg venligst et andet navn..."
+
+#: ../usersetup:368
+#, sh-format
+msgid "The account name is empty, please correct it..."
+msgstr "Kontonavnet er tomt, ret det venligst..."
+
+#: ../usersetup:370
+#, sh-format
+msgid "An account name cannot begin with a number, please correct it..."
+msgstr "Et kontonavn kan ikke begynde med et tal, ret det venligst..."
+
+#: ../usersetup:372
+#, sh-format
+msgid ""
+"An account name cannot contain uppercase characters, please correct it..."
+msgstr ""
+"Et kontonavn kan ikke indeholde store bogstaver, ret det venligst..."
+
+#: ../usersetup:374
+#, sh-format
+msgid "An account name cannot contain punctuation marks, please correct it..."
+msgstr "Et kontonavn kan ikke indeholde grammatiske tegn, ret det venligst..."
+
+#: ../usersetup:392
+#, sh-format
+msgid "Group membership"
+msgstr "Gruppemedlemsskab"
+
+#: ../usersetup:394 ../usersetup:411 ../usersetup:438 ../usersetup:459
+#: ../usersetup:485 ../usersetup:585 ../usersetup:600 ../usersetup:615
+#: ../usersetup:630 ../usersetup:647
+#, sh-format
+msgid "OK"
+msgstr "O.k."
+
+#: ../usersetup:397
+#, sh-format
+msgid "Enter the main group for account"
+msgstr "Indtast hovedgruppen for konto"
+
+#: ../usersetup:413
+#, sh-format
+msgid "Enter the home directory for account"
+msgstr "Indtast hjemmemappe for konto"
+
+#: ../usersetup:441
+#, sh-format
+msgid "Enter the shell interpreter for account"
+msgstr "Indtast skalfortolkeren for konto"
+
+#: ../usersetup:457
+#, sh-format
+msgid "Additional group membership"
+msgstr "Ekstra gruppemedlemsskab"
+
+#: ../usersetup:461
+#, sh-format
+msgid "Add some additional group to the list..."
+msgstr "Tilføj nogle ekstra grupper til listen..."
+
+#: ../usersetup:483
+#, sh-format
+msgid "Expiry date"
+msgstr "Udløbsdato"
+
+#: ../usersetup:486
+#, sh-format
+msgid "Never"
+msgstr "Aldrig"
+
+#: ../usersetup:489
+#, sh-format
+msgid "Set the account expiry date..."
+msgstr "Angiv kontoens udløbsdato..."
+
+#: ../usersetup:507 ../usersetup:560
+#, sh-format
+msgid "Password"
+msgstr "Adgangskode"
+
+#: ../usersetup:537
+#, sh-format
+msgid "Enter password for account"
+msgstr "Indtast adgangskode for konto"
+
+#: ../usersetup:538
+#, sh-format
+msgid "Passwords do not match, please try again..."
+msgstr "Adgangskoderne matcher ikke, prøv venligst igen..."
+
+#: ../usersetup:541
+#, sh-format
+msgid ""
+"Password is too short (${minlength} chars minimum), please try another one..."
+msgstr ""
+"Adgangskoden er for kort (minimum ${minlength} tegn), prøv venligst et andet..."
+
+#: ../usersetup:544
+#, sh-format
+msgid "Enter password again for account"
+msgstr "Indtast adgangskoden igen for konto"
+
+#: ../usersetup:569
+#, sh-format
+msgid "Failed to set password for account"
+msgstr "Kunne ikke sætte adgangskode for konto"
+
+#: ../usersetup:587
+#, sh-format
+msgid "Enter the full name of the user"
+msgstr "Indtast det fulde navn for brugeren"
+
+#: ../usersetup:598
+#, sh-format
+msgid "Office information"
+msgstr "Kontorinformation"
+
+#: ../usersetup:602
+#, sh-format
+msgid "Enter office information for the user"
+msgstr "Indtast kontorinformation for brugeren"
+
+#: ../usersetup:617
+#, sh-format
+msgid "Enter the work phone number of the user"
+msgstr "Indtast arbejdstelefonnummeret for brugeren"
+
+#: ../usersetup:632
+#, sh-format
+msgid "Enter the home phone number of the user"
+msgstr "Indtast hjemmetelefonnummeret for brugeren"
+
+#: ../usersetup:649
+#, sh-format
+msgid "Enter the new group name"
+msgstr "Indtast det nye gruppe navn"
+
+#: ../usersetup:744 ../usersetup:765 ../usersetup:774 ../usersetup:838
+#, sh-format
+msgid "Warning"
+msgstr "Advarsel"
+
+#: ../usersetup:774
+#, sh-format
+msgid "You cannot delete the account"
+msgstr "Du kan ikke slette kontoen"
+
+#: ../usersetup:776
+#, sh-format
+msgid "Confirm user deletion"
+msgstr "Bekræft sletning af bruger"
+
+#: ../usersetup:778 ../usersetup:842
+#, sh-format
+msgid "Cancel"
+msgstr "Annullér"
+
+#: ../usersetup:780
+#, sh-format
+msgid "Are you sure you want to delete user $user?"
+msgstr "Er du sikker på at du vil slette brugeren $user?"
+
+#: ../usersetup:838
+#, sh-format
+msgid "You cannot delete the group"
+msgstr "Du kan ikke slette gruppen"
+
+#: ../usersetup:840
+#, sh-format
+msgid "Confirm group deletion"
+msgstr "Bekræft sletning af gruppe"
+
+#: ../usersetup:844
+#, sh-format
+msgid "Are you sure you want to delete the $group group?"
+msgstr "Er du sikker på at du vil slette gruppen $group?"

@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"PO-Revision-Date: 2010-03-13 08:52-0300\n"
+"Last-Translator: Willian Gustavo Veiga <wiltave@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: servicesetup:79
+#, sh-format
+msgid "Startup services"
+msgstr "Serviços de Inicialização"
+
+#: servicesetup:81
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: servicesetup:82
+#, sh-format
+msgid "Exit"
+msgstr "Sair"
+
+#: servicesetup:85
+#, sh-format
+msgid "The selected services will be started at boot time:"
+msgstr "Os serviços selecionados serão iniciados na hora do boot:"
+
+#: servicesetup:94
+#, sh-format
+msgid "The $service service"
+msgstr "O serviço do $service"
+

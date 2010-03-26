@@ -1,0 +1,69 @@
+# French translations for localesetup package
+# Traductions françaises du paquet localesetup.
+# Copyright (C) 2009 Pierrick Le Brun
+# This file is distributed under the same license as the clocksetup package.
+# Pierrick Le Brun <akuna~at~free~dot~fr>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: localesetup 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-10 12:36+0300\n"
+"PO-Revision-Date: 2009-10-10 12:54+0100\n"
+"Last-Translator: Cyrille Pontvieux (JRD) <jrd@enialis.net>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../localesetup:42
+#, sh-format
+msgid "USAGE: localesetup [locale]"
+msgstr "UTILISATION : localesetup [locale]"
+
+#: ../localesetup:43
+#, sh-format
+msgid "EXAMPLE: localesetup en_US"
+msgstr "EXEMPLE : localesetup fr_FR"
+
+#: ../localesetup:48
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "ERREUR : Trop d'arguments"
+
+#: ../localesetup:56
+#, sh-format
+msgid "Setting locale to $locale"
+msgstr "Affecte la locale à $locale"
+
+#: ../localesetup:58
+#, sh-format
+msgid "ERROR: $newlocale is not a valid locale"
+msgstr "ERREUR : $newlocale n'est pas une locale valide"
+
+#: ../localesetup:83
+#, sh-format
+msgid "System language configuration"
+msgstr "Configuration de la langue du système"
+
+#: ../localesetup:85
+#, sh-format
+msgid "OK"
+msgstr "Valider"
+
+#: ../localesetup:86
+#, sh-format
+msgid "Exit"
+msgstr "Quitter"
+
+#: ../localesetup:89
+#, sh-format
+msgid "The current locale is $currentlocale."
+msgstr "La locale actuelle du système est $currentlocale."
+
+#: ../localesetup:90
+#, sh-format
+msgid "Please select your preferred system language:"
+msgstr "Veuillez sélectionner votre nouvelle langue :"
+

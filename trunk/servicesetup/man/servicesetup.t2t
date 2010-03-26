@@ -1,0 +1,45 @@
+servicesetup
+George Vlahavas
+%%mtime(%m/%d/%Y)
+
+%!target: man
+%!encoding: utf-8
+
+= NAME =
+
+**servicesetup** - a tool that helps with management of system services
+
+= SYNOPSIS =
+
+**servicesetup**
+
+= DESCRIPTION =
+
+**servicesetup** is a tool that helps with the management of system
+services. When run, it uses a __dialog__ interface to provide
+the user with a list of available system services. Selected services are
+active and set to automatically start when the system boots. When
+selecting a service that was previously unselected, it is set to
+automatically start at next boot and will also be started when
+servicesetup is exited. Services that are not selected, if already
+running, will be stopped when servicesetup is exited and set to not
+autostart at next boot.
+
+**servicesetup** is part of the **salixtools** package.
+
+= AUTHORS =
+
+- George Vlahavas <vlahavas~at~gmail~dot~com>
+
+
+**servicesetup** started as a fork of **serviceconfig**, which was
+originitally written by:
+
+- Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
+- Teran McKinney <sega01~at~go-beyond~dot~org>
+
+
+= SEE ALSO =
+
+**service**(8)
+
