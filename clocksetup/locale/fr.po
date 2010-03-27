@@ -3,7 +3,7 @@
 # Copyright (C) 2009 Pierrick Le Brun
 # This file is distributed under the same license as the clocksetup package.
 # Pierrick Le Brun <akuna~at~free~dot~fr>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: clocksetup 2.6\n"
@@ -20,12 +20,12 @@ msgstr ""
 #: ../clocksetup:49
 #, sh-format
 msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
-msgstr "UTILISATION: clocksetup [[-c ] [-d] [-t] [-z]]"
+msgstr "UTILISATION : clocksetup [[-c ] [-d] [-t] [-z]]"
 
 #: ../clocksetup:51
 #, sh-format
 msgid "OPTIONS:"
-msgstr "OPTIONS:"
+msgstr "OPTIONS :"
 
 #: ../clocksetup:53
 #, sh-format
@@ -55,12 +55,9 @@ msgstr "   -h,   ce message d'aide"
 #: ../clocksetup:96
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "ERREUR: Trop d'arguments"
+msgstr "ERREUR : Trop d'arguments"
 
-#: ../clocksetup:106
-#: ../clocksetup:170
-#: ../clocksetup:191
-#: ../clocksetup:212
+#: ../clocksetup:106 ../clocksetup:170 ../clocksetup:191 ../clocksetup:212
 #: ../clocksetup:262
 #, sh-format
 msgid "OK"
@@ -79,12 +76,12 @@ msgstr "Configuration de l'horloge du système"
 #: ../clocksetup:110
 #, sh-format
 msgid "Currently the clock is set to:"
-msgstr "Réglage actuel:"
+msgstr "Réglage actuel :"
 
 #: ../clocksetup:111
 #, sh-format
 msgid "Please choose an option:"
-msgstr "Veuillez choisir une option:"
+msgstr "Veuillez choisir une option :"
 
 #: ../clocksetup:113
 #, sh-format
@@ -109,17 +106,14 @@ msgstr "Configurer l'horloge interne"
 #: ../clocksetup:117
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
-msgstr "Synchonisation Internet au Temps Universel Coordonné (NTP)"
+msgstr "Synchronisation Internet au Temps Universel Coordonné (NTP)"
 
 #: ../clocksetup:169
 #, sh-format
 msgid "Clock adjustment"
 msgstr "Réglage de l'heure"
 
-#: ../clocksetup:171
-#: ../clocksetup:192
-#: ../clocksetup:213
-#: ../clocksetup:263
+#: ../clocksetup:171 ../clocksetup:192 ../clocksetup:213 ../clocksetup:263
 #, sh-format
 msgid "Cancel"
 msgstr "Annuler"
@@ -127,7 +121,7 @@ msgstr "Annuler"
 #: ../clocksetup:173
 #, sh-format
 msgid "Please set the time..."
-msgstr "Veuillez régler l'heure..."
+msgstr "Veuillez régler l'heure…"
 
 #: ../clocksetup:190
 #, sh-format
@@ -137,7 +131,7 @@ msgstr "Définir la date"
 #: ../clocksetup:194
 #, sh-format
 msgid "Please set the date..."
-msgstr "Veuillez ajuster la date..."
+msgstr "Veuillez ajuster la date…"
 
 #: ../clocksetup:214
 #, sh-format
@@ -147,12 +141,12 @@ msgstr "Configuration du fuseau horaire"
 #: ../clocksetup:216
 #, sh-format
 msgid "Please select your time zone..."
-msgstr "Veuillez choisir votre fuseau horaire..."
+msgstr "Veuillez choisir votre fuseau horaire…"
 
 #: ../clocksetup:236
 #, sh-format
 msgid "Warning"
-msgstr "Attention"
+msgstr "Avertissement"
 
 #: ../clocksetup:238
 #, sh-format
@@ -167,7 +161,7 @@ msgstr "Erreur"
 #: ../clocksetup:244
 #, sh-format
 msgid "Something went wrong. Time was not adjusted."
-msgstr "Désolé... Impossible de régler l'horloge."
+msgstr "Désolé… Impossible de régler l'horloge."
 
 #: ../clocksetup:264
 #, sh-format
@@ -177,7 +171,7 @@ msgstr "Configuration de l'horloge interne"
 #: ../clocksetup:266
 #, sh-format
 msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
-msgstr "L'horloge interne est-elle réglée sur le Temps Universel Coordonné (UTC/GMT)? Si c'est le cas, veuillez selectionner OUI. Si l'hologe interne est réglée sur l'heure locale (C'est généralement le cas sur la majorité des ordinateurs), alors veuillez repondre NON. Si vous n'en êtes pas sûr, vous devriez sans doute répondre NON."
+msgstr "L'horloge interne est-elle réglée sur le Temps Universel Coordonné (UTC/GMT) ? Si c'est le cas, veuillez sélectionner OUI. Si l'horloge interne est réglée sur l'heure locale (c'est généralement le cas sur la majorité des ordinateurs), alors veuillez répondre NON. Si vous n'en êtes pas sûr, vous devriez sans doute répondre NON."
 
 #: ../clocksetup:267
 #, sh-format
@@ -198,4 +192,3 @@ msgstr "Oui"
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr "L'horloge interne est réglée sur UTC"
-
