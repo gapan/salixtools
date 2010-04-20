@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: clocksetup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-25 21:11+0200\n"
-"PO-Revision-Date: 2010-03-24 09:47+0100\n"
+"PO-Revision-Date: 2010-04-20 13:33+0200\n"
 "Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "   -d,   vis kun konfigurationsdialogen for datoen"
 #: ../clocksetup:55
 #, sh-format
 msgid "   -t,   only show the time configuration dialog"
-msgstr "   -t,   vis kun konfigurationsdialogen for tiden"
+msgstr "   -t,   vis kun konfigurationsdialogen for tid"
 
 #: ../clocksetup:56
 #, sh-format
@@ -109,7 +109,7 @@ msgstr "Synkronisér med Network Time Protocol (NTP)"
 #: ../clocksetup:169
 #, sh-format
 msgid "Clock adjustment"
-msgstr "Justeringer af ur"
+msgstr "Justering af ur"
 
 #: ../clocksetup:171 ../clocksetup:192 ../clocksetup:213 ../clocksetup:263
 #, sh-format
@@ -149,7 +149,7 @@ msgstr "Advarsel"
 #: ../clocksetup:238
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr "Du bruger allerede ntpd-tjenesten og uret burde gå rigtigt."
+msgstr "Du bruger allerede ntpd-tjenesten, og uret burde gå rigtigt."
 
 #: ../clocksetup:242
 #, sh-format
@@ -174,7 +174,7 @@ msgid ""
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
 msgstr ""
-"Er hardwareuret sat til koordineret universal tid (UTC/GMT)? Hvis ja, "
+"Er hardwareuret sat til koordineret universaltid (UTC/GMT)? Hvis ja, "
 "så vælg JA her. Hvis hardwareuret er sat til nuværende lokal tid "
 "(dette er sådan som de fleste computere er sat op), så sig NEJ her. Hvis "
 "du ikke er sikker på hvad dette er, bør du svare NEJ her."
