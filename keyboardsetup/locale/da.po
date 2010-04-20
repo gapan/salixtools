@@ -1,118 +1,52 @@
-# Danish translation of keyboardsetup.
+# Danish translation of gtkkeyboardsetup.
 # Copyright (C) 2010
-# This file is distributed under the same license as the keyboardsetup package.
+# This file is distributed under the same license as the gtkkeyboardsetup package.
 # Kris Thomsen <lakristho@gmail.com>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: keyboardsetup\n"
+"Project-Id-Version: gtkkeyboardsetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-23 11:48+0200\n"
-"PO-Revision-Date: 2010-03-24 10:28+0100\n"
+"POT-Creation-Date: 2010-02-26 12:31+0200\n"
+"PO-Revision-Date: 2010-04-20 13:12+0200\n"
 "Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../keyboardsetup:48
-#, sh-format
-msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr "BRUG: keyboardsetup [[-k tasteudlægning] [-n numlockstatus] [-s scimstatus]]"
+#: ../gtkkeyboardsetup.glade:21
+msgid "Keyboard settings"
+msgstr "Indstillinger for tastatur"
 
-#: ../keyboardsetup:50
-#, sh-format
-msgid "OPTIONS:"
-msgstr "TILVALG:"
-
-#: ../keyboardsetup:52
-#, sh-format
-msgid "   -k keymap,         a valid keyboard map"
-msgstr "   -k tasteudlægning,         en gyldig tastaturudlægning"
-
-#: ../keyboardsetup:53
-#, sh-format
-msgid "   -n numlockstate,   the numlock state, on or off"
-msgstr "   -n numlockstatus,   status for numlock, on eller off"
-
-#: ../keyboardsetup:54
-#, sh-format
-msgid "   -s scimstate,      the SCIM state, on or off"
-msgstr "   -s scimstatus,      status for SCIM, on eller off"
-
-#: ../keyboardsetup:104
-#, sh-format
+#: ../gtkkeyboardsetup.glade:53
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
-"for a list of valid keymaps"
+"Please select you preferred keyboard type and map and set numlock and SCIM "
+"preferences."
 msgstr ""
-"FEJL: $OPTARG er ikke en gyldig tasteudlægning. Du kan kigge i $keymapsdir/keymaps "
-"for en liste over gyldige tasteudlægninger"
+"Vælg venligst din foretrukne tastaturtype og -udlægning og angiv numlock- og "
+"SCIM-egenskaberne."
 
-#: ../keyboardsetup:118 ../keyboardsetup:127
-#, sh-format
-msgid "ERROR: $OPTARG is not a valid option."
-msgstr "FEJL: $OPTARG er ikke et gyldigt tilvalg."
+#: ../gtkkeyboardsetup.glade:147
+msgid "Enable numlock when the system is started"
+msgstr "Aktivér numlock når systemet starter"
 
-#: ../keyboardsetup:139
-#, sh-format
-msgid "ERROR: Too many arguments"
-msgstr "FEJL: For mange argumenter"
+#: ../gtkkeyboardsetup.glade:162
+msgid "Enable SCIM when the system is started"
+msgstr "Aktivér SCIM når systemet starter"
 
-#: ../keyboardsetup:177
-#, sh-format
-msgid "Keyboard configuration"
-msgstr "Konfiguration af tastatur"
-
-#: ../keyboardsetup:179
-#, sh-format
-msgid "OK"
-msgstr "O.k."
-
-#: ../keyboardsetup:180
-#, sh-format
-msgid "Exit"
-msgstr "Afslut"
-
-#: ../keyboardsetup:183
-#, sh-format
-msgid "Please select your preferred keyboard map:"
-msgstr "Vælg venligst din foretrukne tastaturudlægning:"
-
-#: ../keyboardsetup:206
-#, sh-format
-msgid "Numlock configuration"
-msgstr "Konfiguration af numlock"
-
-#: ../keyboardsetup:207 ../keyboardsetup:233
-#, sh-format
-msgid "Enabled"
-msgstr "Aktiveret"
-
-#: ../keyboardsetup:208 ../keyboardsetup:234
-#, sh-format
-msgid "Disabled"
-msgstr "Deaktiveret"
-
-#: ../keyboardsetup:212
-#, sh-format
-msgid "Do you want to have numlock enabled or disabled by default?"
-msgstr "Vil du have numlock aktiveret eller deaktiveret som standard?"
-
-#: ../keyboardsetup:232
-#, sh-format
-msgid "SCIM configuration"
-msgstr "Konfiguration af SCIM"
-
-#: ../keyboardsetup:238
-#, sh-format
+#: ../gtkkeyboardsetup.glade:166
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
-"take effect."
+"languages."
 msgstr ""
 "SCIM er en inputplatform for kinesisk, japansk, koreansk og mange andre "
-"sprog når det bliver brugt i et grafisk miljø. Vil du have det aktiveret "
-"eller deaktiveret ved opstart?\\n\\nDu skal genstarte dit system for dette "
-"træder i kraft."
+"sprog."
+
+#: ../gtkkeyboardsetup:161
+msgid "Keyboard type"
+msgstr "Tastaturtype"
+
+#: ../gtkkeyboardsetup:165
+msgid "Keyboard map"
+msgstr "Tastaturudlægning"
