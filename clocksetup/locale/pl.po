@@ -2,7 +2,7 @@
 # Copyright (C) 2010, SalixOS.org
 # This file is distributed under the same license as the SalixOS package.
 # Adrian Marcinkowski <amfidiusz@gmail.com>, 2010.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
@@ -14,159 +14,166 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: pl\n"
 "X-Poedit-Country: POLAND\n"
-"X-Poedit-Language: Polish\n"
+
 
 #: ../clocksetup:49
 #, sh-format
 msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
-msgstr "UŻYCIE: clocksetup [[-c] [-d] [-t] [-z]]"
+msgstr ""
 
 #: ../clocksetup:51
 #, sh-format
 msgid "OPTIONS:"
-msgstr "OPCJE:"
+msgstr ""
 
 #: ../clocksetup:53
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
-msgstr "-c, wyświetla jedynie okno z ustawieniami zegara sprzętowego"
+msgstr ""
 
 #: ../clocksetup:54
 #, sh-format
 msgid "   -d,   only show the date configuration dialog"
-msgstr "-d, wyświetla jedynie okno z ustawieniami daty"
+msgstr ""
 
 #: ../clocksetup:55
 #, sh-format
 msgid "   -t,   only show the time configuration dialog"
-msgstr "-t, wyświetla jedynie okno z ustawieniami czasu"
+msgstr ""
 
 #: ../clocksetup:56
 #, sh-format
 msgid "   -z,   only show the timezone configuration dialog"
-msgstr "-z, wyświetla jedynie okno z ustawieniami strefy czasowej"
+msgstr ""
 
 #: ../clocksetup:57
 #, sh-format
 msgid "   -h,   this help message"
-msgstr "-h, obecna wiadomość pomocy"
+msgstr ""
 
 #: ../clocksetup:96
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "BŁĄD: Zbyt wiele argumentów"
+msgstr ""
 
-#: ../clocksetup:106 ../clocksetup:170 ../clocksetup:191 ../clocksetup:212
+#: ../clocksetup:106
+#: ../clocksetup:170
+#: ../clocksetup:191
+#: ../clocksetup:212
 #: ../clocksetup:262
 #, sh-format
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: ../clocksetup:107
 #, sh-format
 msgid "Exit"
-msgstr "Wyjdź"
+msgstr ""
 
 #: ../clocksetup:108
 #, sh-format
 msgid "System clock configuration"
-msgstr "Ustawienia zegara systemowego"
+msgstr ""
 
 #: ../clocksetup:110
 #, sh-format
 msgid "Currently the clock is set to:"
-msgstr "Obecnie zegar ustawiony jest na:"
+msgstr ""
 
 #: ../clocksetup:111
 #, sh-format
 msgid "Please choose an option:"
-msgstr "Wybierz opcję:"
+msgstr ""
 
 #: ../clocksetup:113
 #, sh-format
 msgid "Set the time manually"
-msgstr "Ustaw czas ręcznie"
+msgstr ""
 
 #: ../clocksetup:114
 #, sh-format
 msgid "Set the date manually"
-msgstr "Ustaw datę ręcznie"
+msgstr ""
 
 #: ../clocksetup:115
 #, sh-format
 msgid "Set the time zone"
-msgstr "Ustaw strefę czasową"
+msgstr ""
 
 #: ../clocksetup:116
 #, sh-format
 msgid "Configure the hardware clock"
-msgstr "Skonfiguruj zegar sprzętowy"
+msgstr ""
 
 #: ../clocksetup:117
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
-msgstr "Zsynchronizuj z Network Time Protocol (NTP)"
+msgstr ""
 
 #: ../clocksetup:169
 #, sh-format
 msgid "Clock adjustment"
-msgstr "Ustawienia czasu"
+msgstr ""
 
-#: ../clocksetup:171 ../clocksetup:192 ../clocksetup:213 ../clocksetup:263
+#: ../clocksetup:171
+#: ../clocksetup:192
+#: ../clocksetup:213
+#: ../clocksetup:263
 #, sh-format
 msgid "Cancel"
-msgstr "Anuluj"
+msgstr ""
 
 #: ../clocksetup:173
 #, sh-format
 msgid "Please set the time..."
-msgstr "Ustaw czas..."
+msgstr ""
 
 #: ../clocksetup:190
 #, sh-format
 msgid "Date adjustment"
-msgstr "Ustawienia daty"
+msgstr ""
 
 #: ../clocksetup:194
 #, sh-format
 msgid "Please set the date..."
-msgstr "Ustaw datę..."
+msgstr ""
 
 #: ../clocksetup:214
 #, sh-format
 msgid "Time zone configuration"
-msgstr "Ustawienia strefy czasowej"
+msgstr ""
 
 #: ../clocksetup:216
 #, sh-format
 msgid "Please select your time zone..."
-msgstr "Wybierz swoją strefę czasową..."
+msgstr ""
 
 #: ../clocksetup:236
 #, sh-format
 msgid "Warning"
-msgstr "Ostrzeżenie"
+msgstr ""
 
 #: ../clocksetup:238
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr "Obecnie korzystasz już z usługi ntpd i zegar powinien być ustawiony poprawnie."
+msgstr ""
 
 #: ../clocksetup:242
 #, sh-format
 msgid "Error"
-msgstr "Błąd"
+msgstr ""
 
 #: ../clocksetup:244
 #, sh-format
 msgid "Something went wrong. Time was not adjusted."
-msgstr "Coś poszło nie tak. Czas nie został ustawiony."
+msgstr ""
 
 #: ../clocksetup:264
 #, sh-format
 msgid "Hardware clock configuration"
-msgstr "Ustawienia zegara systemowego"
+msgstr ""
 
 #: ../clocksetup:266
 #, sh-format
@@ -192,3 +199,4 @@ msgstr "Tak"
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr ""
+
