@@ -8,7 +8,7 @@ install -d -m 755 $DESTDIR/etc/rc.d/desc.d
 
 for i in clocksetup keyboardsetup localesetup usersetup servicesetup service; do
 	install -m 755 $i/$i $DESTDIR/usr/sbin/
-	for j in `ls $i/locale/*.mo`; do
+	for j in `ls $i/po/*.mo`; do
 		install -d -m 755 \
 		$DESTDIR/usr/share/locale/`basename $j|sed "s/.mo//"`/LC_MESSAGES \
 		2> /dev/null
