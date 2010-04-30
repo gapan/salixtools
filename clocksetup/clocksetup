@@ -214,7 +214,7 @@ timezonemenu(){
 	--title "`eval_gettext 'Time zone configuration'`" \
 	--menu \
 	"`eval_gettext 'Please select your time zone...'`" \
-	0 0 20 `gettimezones` )
+	0 50 20 `gettimezones` )
 
 	zone="$(echo $answer | cut -d " " -f1)"
 	
