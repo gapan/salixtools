@@ -156,7 +156,7 @@ gettimezones(){
 
 	TIMEZONES=""
 	for i in $AVAILCONT; do
-		for j in `find $ZONEINFO/$i -type f | sed "s|$ZONEINFO/||"`; do
+		for j in `find $ZONEINFO/$i -type f | sed "s|$ZONEINFO/||" | sort`; do
 			TIMEZONES="$TIMEZONES $j o"
 		done
 	done
