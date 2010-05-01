@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Activate numlock on the console
 
 case $1 in
