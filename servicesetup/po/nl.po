@@ -1,0 +1,42 @@
+# Dutch .po file for servicesetup.
+# Copyright (C) 2010
+# This file is distributed under the same license as the servicesetup package.
+# Imar van Erven Dorens <gambit73@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"PO-Revision-Date: 2010-05-05 21:11+0100\n"
+"Last-Translator: Imar van Erven Dorens <gambit73@gmail.com>\n"
+"Language-Team: Dutch <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: servicesetup:79
+#, fuzzy, sh-format
+msgid "Startup services"
+msgstr "&Dienstontdekking"
+
+#: servicesetup:81
+#, fuzzy, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: servicesetup:82
+#, fuzzy, sh-format
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: servicesetup:85
+#, sh-format
+msgid "The selected services will be started at boot time:"
+msgstr ""
+
+#: servicesetup:94
+#, fuzzy, sh-format
+msgid "The $service service"
+msgstr "Dienst  gestart"
+
