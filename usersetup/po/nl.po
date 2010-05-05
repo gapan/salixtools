@@ -2,7 +2,7 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the usersetup package.
 # Imar van Erven Dorens <gambit73@gmail.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
@@ -15,134 +15,107 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../usersetup:70
-#: ../usersetup:90
-#, fuzzy, sh-format
+#: ../usersetup:70 ../usersetup:90
+#, sh-format
 msgid "Select"
 msgstr "Selecteer"
 
-#: ../usersetup:71
-#: ../usersetup:91
-#, fuzzy, sh-format
+#: ../usersetup:71 ../usersetup:91
+#, sh-format
 msgid "Exit user setup"
-msgstr "LILO Setup programma afsluiten."
+msgstr "Sluit de gebruikersopzet af"
 
-#: ../usersetup:72
-#: ../usersetup:92
-#, fuzzy, sh-format
+#: ../usersetup:72 ../usersetup:92
+#, sh-format
 msgid "Users accounts management"
-msgstr "SmartLink modem beheer"
+msgstr "Gebruikersaccount beheer"
 
-#: ../usersetup:76
-#: ../usersetup:94
-#, fuzzy, sh-format
+#: ../usersetup:76 ../usersetup:94
+#, sh-format
 msgid "Please choose an option..."
-msgstr "Optie %s vereist een argument."
+msgstr "Kies een optie alstublieft ..."
 
-#: ../usersetup:78
-#: ../usersetup:96
-#, fuzzy, sh-format
+#: ../usersetup:78 ../usersetup:96
+#, sh-format
 msgid "Create a new account"
-msgstr "diversions-new aanmaken: %s"
+msgstr "Maak een nieuw account"
 
-#: ../usersetup:79
-#: ../usersetup:97
+#: ../usersetup:79 ../usersetup:97
 #, sh-format
 msgid "Create a new account (advanced mode)"
-msgstr ""
+msgstr "Maak een nieuw account (geavanceerde modus)"
 
-#: ../usersetup:80
-#: ../usersetup:98
-#, fuzzy, sh-format
+#: ../usersetup:80 ../usersetup:98
+#, sh-format
 msgid "Modify account properties"
-msgstr "Beeldeigenschappen-filter"
+msgstr "Wijzig de account instellingen"
 
-#: ../usersetup:81
-#: ../usersetup:99
-#, fuzzy, sh-format
+#: ../usersetup:81 ../usersetup:99
+#, sh-format
 msgid "Change account password"
-msgstr "Het wachtwoord van uw last.fm account"
+msgstr "Wijzig het wachtwoord van het account"
 
-#: ../usersetup:82
-#: ../usersetup:100
-#, fuzzy, sh-format
+#: ../usersetup:82 ../usersetup:100
+#, sh-format
 msgid "Delete accounts"
-msgstr "Symbolische link verwijderen"
+msgstr "Verwijderde accounts"
 
-#: ../usersetup:83
-#: ../usersetup:101
+#: ../usersetup:83 ../usersetup:101
 #, sh-format
 msgid "List groups and memberships"
-msgstr ""
+msgstr "Lijst van groepen en groepsleden"
 
-#: ../usersetup:84
-#: ../usersetup:102
-#, fuzzy, sh-format
+#: ../usersetup:84 ../usersetup:102
+#, sh-format
 msgid "Create a new group"
-msgstr "diversions-new aanmaken: %s"
+msgstr "Maak een nieuwe groep aan"
 
-#: ../usersetup:85
-#: ../usersetup:103
-#, fuzzy, sh-format
+#: ../usersetup:85 ../usersetup:103
+#, sh-format
 msgid "Change group name"
-msgstr "onjuiste GID of groepsnaam: %s"
+msgstr "Verander de groepsnaam"
 
-#: ../usersetup:86
-#: ../usersetup:104
-#, fuzzy, sh-format
+#: ../usersetup:86 ../usersetup:104
+#, sh-format
 msgid "Delete groups"
-msgstr "%u blokgroepen\n"
+msgstr "Verwijder groepen"
 
-#: ../usersetup:122
-#: ../usersetup:252
-#: ../usersetup:271
-#, fuzzy, sh-format
+#: ../usersetup:122 ../usersetup:252 ../usersetup:271
+#, sh-format
 msgid "Account properties"
-msgstr "Kolomeigenschappen"
+msgstr "Accountinstellingen"
 
-#: ../usersetup:124
-#: ../usersetup:316
-#: ../usersetup:327
-#, fuzzy, sh-format
+#: ../usersetup:124 ../usersetup:316 ../usersetup:327
+#, sh-format
 msgid "Properties"
-msgstr "Kolomeigenschappen"
+msgstr "Eigenschappen"
 
-#: ../usersetup:125
-#: ../usersetup:143
-#: ../usersetup:161
-#: ../usersetup:179
-#: ../usersetup:197
-#: ../usersetup:216
-#: ../usersetup:254
-#: ../usersetup:273
-#: ../usersetup:317
-#: ../usersetup:328
-#, fuzzy, sh-format
+#: ../usersetup:125 ../usersetup:143 ../usersetup:161 ../usersetup:179
+#: ../usersetup:197 ../usersetup:216 ../usersetup:254 ../usersetup:273
+#: ../usersetup:317 ../usersetup:328
+#, sh-format
 msgid "Back"
 msgstr "Terug"
 
 #: ../usersetup:127
 #, sh-format
 msgid "Select an account to view its properties..."
-msgstr ""
+msgstr "Selecteer een account om de instellingen ervan te bekijken..."
 
 #: ../usersetup:140
-#, fuzzy, sh-format
+#, sh-format
 msgid "Account deletion"
-msgstr "Verwijdering bevestigen"
+msgstr "Account verwijdering"
 
-#: ../usersetup:142
-#: ../usersetup:215
-#: ../usersetup:777
-#: ../usersetup:841
-#, fuzzy, sh-format
+#: ../usersetup:142 ../usersetup:215 ../usersetup:777 ../usersetup:841
+#, sh-format
 msgid "Delete"
 msgstr "Verwijderen"
 
 #: ../usersetup:145
-#, fuzzy, sh-format
+#, sh-format
 msgid "Select an account to delete..."
-msgstr "tijdens verwijderen van %s"
+msgstr "Selecteer een account om te verwijderen..."
 
 #: ../usersetup:158
 #, fuzzy, sh-format
@@ -174,15 +147,12 @@ msgstr ""
 msgid "Select a group to view memberships for..."
 msgstr ""
 
-#: ../usersetup:194
-#: ../usersetup:645
+#: ../usersetup:194 ../usersetup:645
 #, fuzzy, sh-format
 msgid "Group name"
 msgstr "Groepsnaam"
 
-#: ../usersetup:196
-#: ../usersetup:253
-#: ../usersetup:272
+#: ../usersetup:196 ../usersetup:253 ../usersetup:272
 #, sh-format
 msgid "Modify"
 msgstr ""
@@ -202,97 +172,67 @@ msgstr "Verwijdering bevestigen"
 msgid "Select a group to delete..."
 msgstr "tijdens verwijderen van %s"
 
-#: ../usersetup:257
-#: ../usersetup:275
+#: ../usersetup:257 ../usersetup:275
 #, fuzzy, sh-format
 msgid "Detailed information for account"
 msgstr "tijdens opvragen van status van %s"
 
-#: ../usersetup:259
-#: ../usersetup:277
-#: ../usersetup:583
-#: ../usersetup:695
+#: ../usersetup:259 ../usersetup:277 ../usersetup:583 ../usersetup:695
 #, fuzzy, sh-format
 msgid "Full name"
 msgstr "--%s heeft <naam> nodig"
 
-#: ../usersetup:260
-#: ../usersetup:278
-#: ../usersetup:352
-#: ../usersetup:671
+#: ../usersetup:260 ../usersetup:278 ../usersetup:352 ../usersetup:671
 #, fuzzy, sh-format
 msgid "Account name"
 msgstr "--%s heeft <naam> nodig"
 
-#: ../usersetup:261
-#: ../usersetup:279
-#: ../usersetup:675
+#: ../usersetup:261 ../usersetup:279 ../usersetup:675
 #, fuzzy, sh-format
 msgid "Main Group"
 msgstr "Inktgroep:"
 
-#: ../usersetup:262
-#: ../usersetup:280
-#: ../usersetup:409
-#: ../usersetup:679
+#: ../usersetup:262 ../usersetup:280 ../usersetup:409 ../usersetup:679
 #, fuzzy, sh-format
 msgid "Home directory"
 msgstr "Map '%s' is afwezig."
 
-#: ../usersetup:263
-#: ../usersetup:281
-#: ../usersetup:436
-#: ../usersetup:687
+#: ../usersetup:263 ../usersetup:281 ../usersetup:436 ../usersetup:687
 #, sh-format
 msgid "Shell"
 msgstr ""
 
-#: ../usersetup:264
-#: ../usersetup:282
-#: ../usersetup:683
+#: ../usersetup:264 ../usersetup:282 ../usersetup:683
 #, fuzzy, sh-format
 msgid "Other groups"
 msgstr "%u blokgroepen\n"
 
-#: ../usersetup:265
-#: ../usersetup:283
-#: ../usersetup:691
+#: ../usersetup:265 ../usersetup:283 ../usersetup:691
 #, sh-format
 msgid "Expiry"
 msgstr ""
 
-#: ../usersetup:266
-#: ../usersetup:284
-#: ../usersetup:699
+#: ../usersetup:266 ../usersetup:284 ../usersetup:699
 #, fuzzy, sh-format
 msgid "Office"
 msgstr "Kantoor"
 
-#: ../usersetup:267
-#: ../usersetup:285
-#: ../usersetup:613
-#: ../usersetup:703
+#: ../usersetup:267 ../usersetup:285 ../usersetup:613 ../usersetup:703
 #, fuzzy, sh-format
 msgid "Work phone"
 msgstr "Sessie telefoonnummer"
 
-#: ../usersetup:268
-#: ../usersetup:286
-#: ../usersetup:628
-#: ../usersetup:707
+#: ../usersetup:268 ../usersetup:286 ../usersetup:628 ../usersetup:707
 #, fuzzy, sh-format
 msgid "Home phone"
 msgstr "Sessie telefoonnummer"
 
-#: ../usersetup:315
-#: ../usersetup:326
-#: ../usersetup:338
+#: ../usersetup:315 ../usersetup:326 ../usersetup:338
 #, fuzzy, sh-format
 msgid "Group members"
 msgstr "tussen leden"
 
-#: ../usersetup:320
-#: ../usersetup:331
+#: ../usersetup:320 ../usersetup:331
 #, fuzzy, sh-format
 msgid "Members of group"
 msgstr "Inktgroep:"
@@ -342,16 +282,9 @@ msgstr ""
 msgid "Group membership"
 msgstr "Inktgroep:"
 
-#: ../usersetup:394
-#: ../usersetup:411
-#: ../usersetup:438
-#: ../usersetup:459
-#: ../usersetup:485
-#: ../usersetup:585
-#: ../usersetup:600
-#: ../usersetup:615
-#: ../usersetup:630
-#: ../usersetup:647
+#: ../usersetup:394 ../usersetup:411 ../usersetup:438 ../usersetup:459
+#: ../usersetup:485 ../usersetup:585 ../usersetup:600 ../usersetup:615
+#: ../usersetup:630 ../usersetup:647
 #, fuzzy, sh-format
 msgid "OK"
 msgstr "OK"
@@ -396,8 +329,7 @@ msgstr "Nooit repareren"
 msgid "Set the account expiry date..."
 msgstr ""
 
-#: ../usersetup:507
-#: ../usersetup:560
+#: ../usersetup:507 ../usersetup:560
 #, fuzzy, sh-format
 msgid "Password"
 msgstr "Wachtwoord"
@@ -457,10 +389,7 @@ msgstr "Geef telefoonnummer of adres van de ontvanger"
 msgid "Enter the new group name"
 msgstr "Voer een nieuwe naam in voor de filterset"
 
-#: ../usersetup:744
-#: ../usersetup:765
-#: ../usersetup:774
-#: ../usersetup:838
+#: ../usersetup:744 ../usersetup:765 ../usersetup:774 ../usersetup:838
 #, fuzzy, sh-format
 msgid "Warning"
 msgstr "Waarschuwing"
@@ -475,8 +404,7 @@ msgstr "U moet een accountnaam opgeven"
 msgid "Confirm user deletion"
 msgstr "Onderbroken door gebruiker"
 
-#: ../usersetup:778
-#: ../usersetup:842
+#: ../usersetup:778 ../usersetup:842
 #, fuzzy, sh-format
 msgid "Cancel"
 msgstr "Annuleren"
@@ -500,4 +428,3 @@ msgstr " Groepsbeschrijver op "
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr ""
-
