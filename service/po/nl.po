@@ -28,19 +28,19 @@ msgstr "Geen ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 #: service:57
 #, sh-format
 msgid "${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
+msgstr "De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDYELLOW}gestopt${COLOR_RESET}"
 
 #: service:70
 #, sh-format
 msgid "${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
+msgstr "De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}herstart${COLOR_RESET}"
 
 #: service:90
-#, fuzzy, sh-format
+#, sh-format
 msgid "The $service service"
-msgstr "Dienst  gestart"
+msgstr "De $service service"
 
 #: service:113
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
-msgstr ""
+msgstr "gebruik: service start|stop|restart|list [service_name]"
