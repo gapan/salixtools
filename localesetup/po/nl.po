@@ -1,0 +1,69 @@
+# Dutch .po file for localesetup.
+# Copyright (C) 2010
+# This file is distributed under the same license as the localesetup package.
+# Imar van Erven Dorens <gambit73@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-10 12:36+0300\n"
+"PO-Revision-Date: 2010-05-05 20:52+0100\n"
+"Last-Translator: Imar van Erven Dorens <gambit73@gmail.com>\n"
+"Language-Team: Dutch <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../localesetup:42
+#, fuzzy, sh-format
+msgid "USAGE: localesetup [locale]"
+msgstr ""
+"Gebruik: %s [<optie> ...] <commando>\n"
+"\n"
+
+#: ../localesetup:43
+#, sh-format
+msgid "EXAMPLE: localesetup en_US"
+msgstr ""
+
+#: ../localesetup:48
+#, fuzzy, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "FOUT: Teveel argumenten"
+
+#: ../localesetup:56
+#, fuzzy, sh-format
+msgid "Setting locale to $locale"
+msgstr "Gedrag bij fouten is op %d gezet\n"
+
+#: ../localesetup:58
+#, sh-format
+msgid "ERROR: $newlocale is not a valid locale"
+msgstr ""
+
+#: ../localesetup:83
+#, fuzzy, sh-format
+msgid "System language configuration"
+msgstr "Standaard systeemtaal"
+
+#: ../localesetup:85
+#, fuzzy, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: ../localesetup:86
+#, fuzzy, sh-format
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: ../localesetup:89
+#, fuzzy, sh-format
+msgid "The current locale is $currentlocale."
+msgstr "Huidge 'beste' versie is %s."
+
+#: ../localesetup:90
+#, sh-format
+msgid "Please select your preferred system language:"
+msgstr ""
+
