@@ -2,7 +2,7 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the service package.
 # Imar van Erven Dorens <gambit73@gmail.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
@@ -18,13 +18,12 @@ msgstr ""
 #: service:47
 #, sh-format
 msgid "${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
+msgstr "${BOLDWHITE}${servicename}${COLOR_RESET} wordt ${BOLDCYAN}opgestart ${COLOR_RESET}"
 
-#: service:51
-#: service:81
+#: service:51 service:81
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
+msgstr "Geen ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 
 #: service:57
 #, sh-format
@@ -45,4 +44,3 @@ msgstr "Dienst  gestart"
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
 msgstr ""
-
