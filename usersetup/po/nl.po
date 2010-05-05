@@ -320,104 +320,104 @@ msgid "Expiry date"
 msgstr "Vervaldatum"
 
 #: ../usersetup:486
-#, fuzzy, sh-format
+#, sh-format
 msgid "Never"
-msgstr "Nooit repareren"
+msgstr "Nooit"
 
 #: ../usersetup:489
 #, sh-format
 msgid "Set the account expiry date..."
-msgstr ""
+msgstr "Stel de account vervaldatum in..."
 
 #: ../usersetup:507 ../usersetup:560
-#, fuzzy, sh-format
+#, sh-format
 msgid "Password"
 msgstr "Wachtwoord"
 
 #: ../usersetup:537
-#, fuzzy, sh-format
+#, sh-format
 msgid "Enter password for account"
-msgstr "Voer een wachtwoord in voor deze server:"
+msgstr "Voer het wachtwoord voor de account in"
 
 #: ../usersetup:538
 #, sh-format
 msgid "Passwords do not match, please try again..."
-msgstr ""
+msgstr "Wachtwoorden komen niet overeen, probeer het opnieuw alstublieft..."
 
 #: ../usersetup:541
 #, sh-format
 msgid "Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
+msgstr "Het wachtwoord is te kort (${minlength} chars minimum), probeert u een ander wachtwoord alstublieft..."
 
 #: ../usersetup:544
-#, fuzzy, sh-format
+#, sh-format
 msgid "Enter password again for account"
-msgstr "Voer een wachtwoord in voor deze server:"
+msgstr "Voer opnieuw het wachtwoord in voor het account"
 
 #: ../usersetup:569
 #, sh-format
 msgid "Failed to set password for account"
-msgstr ""
+msgstr "Het is mislukt om het wachtwoord in te stellen voor de account"
 
 #: ../usersetup:587
-#, fuzzy, sh-format
+#, sh-format
 msgid "Enter the full name of the user"
-msgstr "onjuiste UID of gebruikersnaam: %s"
+msgstr "Geef de volledige naam van de gebruiker"
 
 #: ../usersetup:598
-#, fuzzy, sh-format
+#, sh-format
 msgid "Office information"
-msgstr "Bouwinformatie"
+msgstr "Kantoor informatie"
 
 #: ../usersetup:602
 #, sh-format
 msgid "Enter office information for the user"
-msgstr ""
+msgstr "Voer de kantoor informatie in voor de gebruiker"
 
 #: ../usersetup:617
-#, fuzzy, sh-format
+#, sh-format
 msgid "Enter the work phone number of the user"
-msgstr "Geef telefoonnummer of adres van de ontvanger"
+msgstr "Voer het werktelefoonnummer van de gebruiker in"
 
 #: ../usersetup:632
-#, fuzzy, sh-format
+#, sh-format
 msgid "Enter the home phone number of the user"
-msgstr "Geef telefoonnummer of adres van de ontvanger"
+msgstr "Voer het telefoonnummer thuis van de gebruiker in"
 
 #: ../usersetup:649
-#, fuzzy, sh-format
+#, sh-format
 msgid "Enter the new group name"
-msgstr "Voer een nieuwe naam in voor de filterset"
+msgstr "Voer de nieuwe groepsnaam in"
 
 #: ../usersetup:744 ../usersetup:765 ../usersetup:774 ../usersetup:838
-#, fuzzy, sh-format
+#, sh-format
 msgid "Warning"
 msgstr "Waarschuwing"
 
 #: ../usersetup:774
-#, fuzzy, sh-format
+#, sh-format
 msgid "You cannot delete the account"
-msgstr "U moet een accountnaam opgeven"
+msgstr "U kunt de account niet verwijderen"
 
 #: ../usersetup:776
-#, fuzzy, sh-format
+#, sh-format
 msgid "Confirm user deletion"
-msgstr "Onderbroken door gebruiker"
+msgstr "Bevestig de verwijdering van de gebruiker"
 
 #: ../usersetup:778 ../usersetup:842
-#, fuzzy, sh-format
+#, sh-format
 msgid "Cancel"
 msgstr "Annuleren"
 
 #: ../usersetup:780
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
-msgstr ""
+msgstr "Weet u zeker dat u de gebruiker $user wilt verwijderen?"
 
 #: ../usersetup:838
-#, fuzzy, sh-format
+#, sh-format
 msgid "You cannot delete the group"
-msgstr "Wilt u het project verwijderen?"
+msgstr "U kunt de groep niet verwijderen"
 
 #: ../usersetup:840
 #, fuzzy, sh-format
