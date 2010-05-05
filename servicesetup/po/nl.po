@@ -18,7 +18,7 @@ msgstr ""
 #: servicesetup:79
 #, sh-format
 msgid "Startup services"
-msgstr "Opstartservices"
+msgstr "Services opstarten"
 
 #: servicesetup:81
 #, sh-format
