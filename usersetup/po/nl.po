@@ -118,102 +118,102 @@ msgid "Select an account to delete..."
 msgstr "Selecteer een account om te verwijderen..."
 
 #: ../usersetup:158
-#, fuzzy, sh-format
+#, sh-format
 msgid "Change password"
-msgstr "%w - Proxywachtwoord"
+msgstr "Wijzig wachtwoord"
 
 #: ../usersetup:160
-#, fuzzy, sh-format
+#, sh-format
 msgid "Change"
 msgstr "Wijzigen"
 
 #: ../usersetup:163
 #, sh-format
 msgid "Select an account to change password for..."
-msgstr ""
+msgstr "Selecteer een account om het wachtwoord te wijzigen..."
 
 #: ../usersetup:176
-#, fuzzy, sh-format
+#, sh-format
 msgid "Group memberships"
-msgstr "Inktgroep:"
+msgstr "Groepsleden"
 
 #: ../usersetup:178
 #, sh-format
 msgid "Memberships"
-msgstr ""
+msgstr "Leden"
 
 #: ../usersetup:181
 #, sh-format
 msgid "Select a group to view memberships for..."
-msgstr ""
+msgstr "Selecteer een groep om de leden te bekijken voor..."
 
 #: ../usersetup:194 ../usersetup:645
-#, fuzzy, sh-format
+#, sh-format
 msgid "Group name"
 msgstr "Groepsnaam"
 
 #: ../usersetup:196 ../usersetup:253 ../usersetup:272
 #, sh-format
 msgid "Modify"
-msgstr ""
+msgstr "Wijzigen"
 
 #: ../usersetup:199
 #, sh-format
 msgid "Select group name to modify..."
-msgstr ""
+msgstr "Selecteer groepsnaam om te wijzigen..."
 
 #: ../usersetup:213
-#, fuzzy, sh-format
+#, sh-format
 msgid "Group deletion"
-msgstr "Verwijdering bevestigen"
+msgstr "Verwijderen van een groep"
 
 #: ../usersetup:218
-#, fuzzy, sh-format
+#, sh-format
 msgid "Select a group to delete..."
-msgstr "tijdens verwijderen van %s"
+msgstr "Selecteer een groep om te verwijderen..."
 
 #: ../usersetup:257 ../usersetup:275
-#, fuzzy, sh-format
+#, sh-format
 msgid "Detailed information for account"
-msgstr "tijdens opvragen van status van %s"
+msgstr "Gedetailleerde accountinformatie"
 
 #: ../usersetup:259 ../usersetup:277 ../usersetup:583 ../usersetup:695
-#, fuzzy, sh-format
+#, sh-format
 msgid "Full name"
-msgstr "--%s heeft <naam> nodig"
+msgstr "Volledige naam"
 
 #: ../usersetup:260 ../usersetup:278 ../usersetup:352 ../usersetup:671
-#, fuzzy, sh-format
+#, sh-format
 msgid "Account name"
-msgstr "--%s heeft <naam> nodig"
+msgstr "Accountnaam"
 
 #: ../usersetup:261 ../usersetup:279 ../usersetup:675
-#, fuzzy, sh-format
+#, sh-format
 msgid "Main Group"
-msgstr "Inktgroep:"
+msgstr "Hoofdgroep"
 
 #: ../usersetup:262 ../usersetup:280 ../usersetup:409 ../usersetup:679
-#, fuzzy, sh-format
+#, sh-format
 msgid "Home directory"
-msgstr "Map '%s' is afwezig."
+msgstr "Home folder"
 
 #: ../usersetup:263 ../usersetup:281 ../usersetup:436 ../usersetup:687
 #, sh-format
 msgid "Shell"
-msgstr ""
+msgstr "Shell"
 
 #: ../usersetup:264 ../usersetup:282 ../usersetup:683
-#, fuzzy, sh-format
+#, sh-format
 msgid "Other groups"
-msgstr "%u blokgroepen\n"
+msgstr "Andere groepen"
 
 #: ../usersetup:265 ../usersetup:283 ../usersetup:691
 #, sh-format
 msgid "Expiry"
-msgstr ""
+msgstr "Verstrijk"
 
 #: ../usersetup:266 ../usersetup:284 ../usersetup:699
-#, fuzzy, sh-format
+#, sh-format
 msgid "Office"
 msgstr "Kantoor"
 
