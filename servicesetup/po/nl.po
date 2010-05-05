@@ -2,7 +2,7 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the servicesetup package.
 # Imar van Erven Dorens <gambit73@gmail.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
@@ -16,27 +16,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: servicesetup:79
-#, fuzzy, sh-format
+#, sh-format
 msgid "Startup services"
-msgstr "&Dienstontdekking"
+msgstr "Opstarten services"
 
 #: servicesetup:81
-#, fuzzy, sh-format
+#, sh-format
 msgid "OK"
 msgstr "OK"
 
 #: servicesetup:82
-#, fuzzy, sh-format
+#, sh-format
 msgid "Exit"
 msgstr "Afsluiten"
 
 #: servicesetup:85
 #, sh-format
 msgid "The selected services will be started at boot time:"
-msgstr ""
+msgstr "De geselecteerde services zullen worden gestart tijdens het opstarten van het besturingssysteem:"
 
 #: servicesetup:94
-#, fuzzy, sh-format
+#, sh-format
 msgid "The $service service"
-msgstr "Dienst  gestart"
-
+msgstr "De $service service"
