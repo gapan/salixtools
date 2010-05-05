@@ -2,7 +2,7 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the clocksetup package.
 # Imar van Erven Dorens <gambit73@gmail.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
@@ -16,109 +16,103 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../clocksetup:49
-#, fuzzy, sh-format
+#, sh-format
 msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
-msgstr "Gebruik:  %s schijfnaam\n"
+msgstr "GEBRUIK: clocksetup [[-c] [-d] [-t] [-z]]"
 
 #: ../clocksetup:51
-#, fuzzy, sh-format
+#, sh-format
 msgid "OPTIONS:"
-msgstr "Opties"
+msgstr "OPTIES:"
 
 #: ../clocksetup:53
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
-msgstr ""
+msgstr "-c, alleen de hardwareklok configuratiedialoog tonen"
 
 #: ../clocksetup:54
 #, sh-format
 msgid "   -d,   only show the date configuration dialog"
-msgstr ""
+msgstr "-d, alleen de datum configuratiedialoog tonen"
 
 #: ../clocksetup:55
 #, sh-format
 msgid "   -t,   only show the time configuration dialog"
-msgstr ""
+msgstr "-t, alleen de tijd configuratiedialoog tonen"
 
 #: ../clocksetup:56
 #, sh-format
 msgid "   -z,   only show the timezone configuration dialog"
-msgstr ""
+msgstr "-z, alleen de tijdzone configuratie dialoogvenster tonen"
 
 #: ../clocksetup:57
-#, fuzzy, sh-format
+#, sh-format
 msgid "   -h,   this help message"
-msgstr "| help . . . . . . . . . . . . . . . . dit helpbericht"
+msgstr "-h, dit helpbericht"
 
 #: ../clocksetup:96
-#, fuzzy, sh-format
+#, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "FOUT: Teveel argumenten"
+msgstr "FOUT: Te veel argumenten"
 
-#: ../clocksetup:106
-#: ../clocksetup:170
-#: ../clocksetup:191
-#: ../clocksetup:212
+#: ../clocksetup:106 ../clocksetup:170 ../clocksetup:191 ../clocksetup:212
 #: ../clocksetup:262
-#, fuzzy, sh-format
+#, sh-format
 msgid "OK"
 msgstr "OK"
 
 #: ../clocksetup:107
-#, fuzzy, sh-format
+#, sh-format
 msgid "Exit"
 msgstr "Afsluiten"
 
 #: ../clocksetup:108
-#, fuzzy, sh-format
+#, sh-format
 msgid "System clock configuration"
-msgstr "Configuratiebestand %s wordt geopend"
+msgstr "Systeemklok configuratie"
 
 #: ../clocksetup:110
-#, fuzzy, sh-format
+#, sh-format
 msgid "Currently the clock is set to:"
-msgstr "Huidige overdrachtstype is ingesteld op ASCII."
+msgstr "Momenteel is de klok is ingesteld op:"
 
 #: ../clocksetup:111
-#, fuzzy, sh-format
+#, sh-format
 msgid "Please choose an option:"
-msgstr "Optie %s vereist een argument."
+msgstr "Kies een optie:"
 
 #: ../clocksetup:113
-#, fuzzy, sh-format
+#, sh-format
 msgid "Set the time manually"
-msgstr "%s is ingesteld voor handmatige installatie.\n"
+msgstr "Stel de tijd handmatig in"
 
 #: ../clocksetup:114
-#, fuzzy, sh-format
+#, sh-format
 msgid "Set the date manually"
-msgstr "%s is ingesteld voor handmatige installatie.\n"
+msgstr "Stel de datum handmatig in"
 
 #: ../clocksetup:115
-#, fuzzy, sh-format
+#, sh-format
 msgid "Set the time zone"
-msgstr "Instellen van de aanpassingstijd is mislukt"
+msgstr "Stel de tijdzone in"
 
 #: ../clocksetup:116
-#, fuzzy, sh-format
+#, sh-format
 msgid "Configure the hardware clock"
-msgstr "Configuratie van %s wordt voorbereid"
+msgstr "Configureer de hardwareklok"
 
 #: ../clocksetup:117
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
-msgstr ""
+msgstr "Synchroniseren met Network Time Protocol (NTP)"
 
 #: ../clocksetup:169
-#, fuzzy, sh-format
+#, sh-format
 msgid "Clock adjustment"
-msgstr "Kloksynchronisatie"
+msgstr "Aanpassen van de klok"
 
-#: ../clocksetup:171
-#: ../clocksetup:192
-#: ../clocksetup:213
-#: ../clocksetup:263
-#, fuzzy, sh-format
+#: ../clocksetup:171 ../clocksetup:192 ../clocksetup:213 ../clocksetup:263
+#, sh-format
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -196,4 +190,3 @@ msgstr "Ja"
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr ""
-
