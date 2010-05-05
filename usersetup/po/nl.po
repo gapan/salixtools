@@ -420,11 +420,11 @@ msgid "You cannot delete the group"
 msgstr "U kunt de groep niet verwijderen"
 
 #: ../usersetup:840
-#, fuzzy, sh-format
+#, sh-format
 msgid "Confirm group deletion"
-msgstr " Groepsbeschrijver op "
+msgstr "Bevestig het verwijderen van de groep"
 
 #: ../usersetup:844
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
-msgstr ""
+msgstr "Weet u zeker dat u de groep $group wilt verwijderen?"
