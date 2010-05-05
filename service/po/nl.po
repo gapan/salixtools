@@ -18,7 +18,7 @@ msgstr ""
 #: service:47
 #, sh-format
 msgid "${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDWHITE}${servicename}${COLOR_RESET} wordt ${BOLDCYAN}opgestart ${COLOR_RESET}"
+msgstr "De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}opgestart{COLOR_RESET}"
 
 #: service:51 service:81
 #, sh-format
