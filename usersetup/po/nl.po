@@ -1,0 +1,503 @@
+# Dutch .po file for usersetup.
+# Copyright (C) 2010
+# This file is distributed under the same license as the usersetup package.
+# Imar van Erven Dorens <gambit73@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-26 19:17+0200\n"
+"PO-Revision-Date: 2010-05-05 21:20+0100\n"
+"Last-Translator: Imar van Erven Dorens <gambit73@gmail.com>\n"
+"Language-Team: Dutch <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../usersetup:70
+#: ../usersetup:90
+#, fuzzy, sh-format
+msgid "Select"
+msgstr "Selecteer"
+
+#: ../usersetup:71
+#: ../usersetup:91
+#, fuzzy, sh-format
+msgid "Exit user setup"
+msgstr "LILO Setup programma afsluiten."
+
+#: ../usersetup:72
+#: ../usersetup:92
+#, fuzzy, sh-format
+msgid "Users accounts management"
+msgstr "SmartLink modem beheer"
+
+#: ../usersetup:76
+#: ../usersetup:94
+#, fuzzy, sh-format
+msgid "Please choose an option..."
+msgstr "Optie %s vereist een argument."
+
+#: ../usersetup:78
+#: ../usersetup:96
+#, fuzzy, sh-format
+msgid "Create a new account"
+msgstr "diversions-new aanmaken: %s"
+
+#: ../usersetup:79
+#: ../usersetup:97
+#, sh-format
+msgid "Create a new account (advanced mode)"
+msgstr ""
+
+#: ../usersetup:80
+#: ../usersetup:98
+#, fuzzy, sh-format
+msgid "Modify account properties"
+msgstr "Beeldeigenschappen-filter"
+
+#: ../usersetup:81
+#: ../usersetup:99
+#, fuzzy, sh-format
+msgid "Change account password"
+msgstr "Het wachtwoord van uw last.fm account"
+
+#: ../usersetup:82
+#: ../usersetup:100
+#, fuzzy, sh-format
+msgid "Delete accounts"
+msgstr "Symbolische link verwijderen"
+
+#: ../usersetup:83
+#: ../usersetup:101
+#, sh-format
+msgid "List groups and memberships"
+msgstr ""
+
+#: ../usersetup:84
+#: ../usersetup:102
+#, fuzzy, sh-format
+msgid "Create a new group"
+msgstr "diversions-new aanmaken: %s"
+
+#: ../usersetup:85
+#: ../usersetup:103
+#, fuzzy, sh-format
+msgid "Change group name"
+msgstr "onjuiste GID of groepsnaam: %s"
+
+#: ../usersetup:86
+#: ../usersetup:104
+#, fuzzy, sh-format
+msgid "Delete groups"
+msgstr "%u blokgroepen\n"
+
+#: ../usersetup:122
+#: ../usersetup:252
+#: ../usersetup:271
+#, fuzzy, sh-format
+msgid "Account properties"
+msgstr "Kolomeigenschappen"
+
+#: ../usersetup:124
+#: ../usersetup:316
+#: ../usersetup:327
+#, fuzzy, sh-format
+msgid "Properties"
+msgstr "Kolomeigenschappen"
+
+#: ../usersetup:125
+#: ../usersetup:143
+#: ../usersetup:161
+#: ../usersetup:179
+#: ../usersetup:197
+#: ../usersetup:216
+#: ../usersetup:254
+#: ../usersetup:273
+#: ../usersetup:317
+#: ../usersetup:328
+#, fuzzy, sh-format
+msgid "Back"
+msgstr "Terug"
+
+#: ../usersetup:127
+#, sh-format
+msgid "Select an account to view its properties..."
+msgstr ""
+
+#: ../usersetup:140
+#, fuzzy, sh-format
+msgid "Account deletion"
+msgstr "Verwijdering bevestigen"
+
+#: ../usersetup:142
+#: ../usersetup:215
+#: ../usersetup:777
+#: ../usersetup:841
+#, fuzzy, sh-format
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../usersetup:145
+#, fuzzy, sh-format
+msgid "Select an account to delete..."
+msgstr "tijdens verwijderen van %s"
+
+#: ../usersetup:158
+#, fuzzy, sh-format
+msgid "Change password"
+msgstr "%w - Proxywachtwoord"
+
+#: ../usersetup:160
+#, fuzzy, sh-format
+msgid "Change"
+msgstr "Wijzigen"
+
+#: ../usersetup:163
+#, sh-format
+msgid "Select an account to change password for..."
+msgstr ""
+
+#: ../usersetup:176
+#, fuzzy, sh-format
+msgid "Group memberships"
+msgstr "Inktgroep:"
+
+#: ../usersetup:178
+#, sh-format
+msgid "Memberships"
+msgstr ""
+
+#: ../usersetup:181
+#, sh-format
+msgid "Select a group to view memberships for..."
+msgstr ""
+
+#: ../usersetup:194
+#: ../usersetup:645
+#, fuzzy, sh-format
+msgid "Group name"
+msgstr "Groepsnaam"
+
+#: ../usersetup:196
+#: ../usersetup:253
+#: ../usersetup:272
+#, sh-format
+msgid "Modify"
+msgstr ""
+
+#: ../usersetup:199
+#, sh-format
+msgid "Select group name to modify..."
+msgstr ""
+
+#: ../usersetup:213
+#, fuzzy, sh-format
+msgid "Group deletion"
+msgstr "Verwijdering bevestigen"
+
+#: ../usersetup:218
+#, fuzzy, sh-format
+msgid "Select a group to delete..."
+msgstr "tijdens verwijderen van %s"
+
+#: ../usersetup:257
+#: ../usersetup:275
+#, fuzzy, sh-format
+msgid "Detailed information for account"
+msgstr "tijdens opvragen van status van %s"
+
+#: ../usersetup:259
+#: ../usersetup:277
+#: ../usersetup:583
+#: ../usersetup:695
+#, fuzzy, sh-format
+msgid "Full name"
+msgstr "--%s heeft <naam> nodig"
+
+#: ../usersetup:260
+#: ../usersetup:278
+#: ../usersetup:352
+#: ../usersetup:671
+#, fuzzy, sh-format
+msgid "Account name"
+msgstr "--%s heeft <naam> nodig"
+
+#: ../usersetup:261
+#: ../usersetup:279
+#: ../usersetup:675
+#, fuzzy, sh-format
+msgid "Main Group"
+msgstr "Inktgroep:"
+
+#: ../usersetup:262
+#: ../usersetup:280
+#: ../usersetup:409
+#: ../usersetup:679
+#, fuzzy, sh-format
+msgid "Home directory"
+msgstr "Map '%s' is afwezig."
+
+#: ../usersetup:263
+#: ../usersetup:281
+#: ../usersetup:436
+#: ../usersetup:687
+#, sh-format
+msgid "Shell"
+msgstr ""
+
+#: ../usersetup:264
+#: ../usersetup:282
+#: ../usersetup:683
+#, fuzzy, sh-format
+msgid "Other groups"
+msgstr "%u blokgroepen\n"
+
+#: ../usersetup:265
+#: ../usersetup:283
+#: ../usersetup:691
+#, sh-format
+msgid "Expiry"
+msgstr ""
+
+#: ../usersetup:266
+#: ../usersetup:284
+#: ../usersetup:699
+#, fuzzy, sh-format
+msgid "Office"
+msgstr "Kantoor"
+
+#: ../usersetup:267
+#: ../usersetup:285
+#: ../usersetup:613
+#: ../usersetup:703
+#, fuzzy, sh-format
+msgid "Work phone"
+msgstr "Sessie telefoonnummer"
+
+#: ../usersetup:268
+#: ../usersetup:286
+#: ../usersetup:628
+#: ../usersetup:707
+#, fuzzy, sh-format
+msgid "Home phone"
+msgstr "Sessie telefoonnummer"
+
+#: ../usersetup:315
+#: ../usersetup:326
+#: ../usersetup:338
+#, fuzzy, sh-format
+msgid "Group members"
+msgstr "tussen leden"
+
+#: ../usersetup:320
+#: ../usersetup:331
+#, fuzzy, sh-format
+msgid "Members of group"
+msgstr "Inktgroep:"
+
+#: ../usersetup:341
+#, sh-format
+msgid "There are no accounts in group"
+msgstr ""
+
+#: ../usersetup:355
+#, fuzzy, sh-format
+msgid "Enter the new account name..."
+msgstr "U moet een accountnaam opgeven"
+
+#: ../usersetup:364
+#, sh-format
+msgid "An account name cannot contain a space, please correct it..."
+msgstr ""
+
+#: ../usersetup:366
+#, sh-format
+msgid "The account name $user already exists, please choose another name..."
+msgstr ""
+
+#: ../usersetup:368
+#, sh-format
+msgid "The account name is empty, please correct it..."
+msgstr ""
+
+#: ../usersetup:370
+#, sh-format
+msgid "An account name cannot begin with a number, please correct it..."
+msgstr ""
+
+#: ../usersetup:372
+#, sh-format
+msgid "An account name cannot contain uppercase characters, please correct it..."
+msgstr ""
+
+#: ../usersetup:374
+#, sh-format
+msgid "An account name cannot contain punctuation marks, please correct it..."
+msgstr ""
+
+#: ../usersetup:392
+#, fuzzy, sh-format
+msgid "Group membership"
+msgstr "Inktgroep:"
+
+#: ../usersetup:394
+#: ../usersetup:411
+#: ../usersetup:438
+#: ../usersetup:459
+#: ../usersetup:485
+#: ../usersetup:585
+#: ../usersetup:600
+#: ../usersetup:615
+#: ../usersetup:630
+#: ../usersetup:647
+#, fuzzy, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: ../usersetup:397
+#, sh-format
+msgid "Enter the main group for account"
+msgstr ""
+
+#: ../usersetup:413
+#, sh-format
+msgid "Enter the home directory for account"
+msgstr ""
+
+#: ../usersetup:441
+#, sh-format
+msgid "Enter the shell interpreter for account"
+msgstr ""
+
+#: ../usersetup:457
+#, fuzzy, sh-format
+msgid "Additional group membership"
+msgstr " Groepsbeschrijver op "
+
+#: ../usersetup:461
+#, sh-format
+msgid "Add some additional group to the list..."
+msgstr ""
+
+#: ../usersetup:483
+#, fuzzy, sh-format
+msgid "Expiry date"
+msgstr "Bouwdatum:"
+
+#: ../usersetup:486
+#, fuzzy, sh-format
+msgid "Never"
+msgstr "Nooit repareren"
+
+#: ../usersetup:489
+#, sh-format
+msgid "Set the account expiry date..."
+msgstr ""
+
+#: ../usersetup:507
+#: ../usersetup:560
+#, fuzzy, sh-format
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: ../usersetup:537
+#, fuzzy, sh-format
+msgid "Enter password for account"
+msgstr "Voer een wachtwoord in voor deze server:"
+
+#: ../usersetup:538
+#, sh-format
+msgid "Passwords do not match, please try again..."
+msgstr ""
+
+#: ../usersetup:541
+#, sh-format
+msgid "Password is too short (${minlength} chars minimum), please try another one..."
+msgstr ""
+
+#: ../usersetup:544
+#, fuzzy, sh-format
+msgid "Enter password again for account"
+msgstr "Voer een wachtwoord in voor deze server:"
+
+#: ../usersetup:569
+#, sh-format
+msgid "Failed to set password for account"
+msgstr ""
+
+#: ../usersetup:587
+#, fuzzy, sh-format
+msgid "Enter the full name of the user"
+msgstr "onjuiste UID of gebruikersnaam: %s"
+
+#: ../usersetup:598
+#, fuzzy, sh-format
+msgid "Office information"
+msgstr "Bouwinformatie"
+
+#: ../usersetup:602
+#, sh-format
+msgid "Enter office information for the user"
+msgstr ""
+
+#: ../usersetup:617
+#, fuzzy, sh-format
+msgid "Enter the work phone number of the user"
+msgstr "Geef telefoonnummer of adres van de ontvanger"
+
+#: ../usersetup:632
+#, fuzzy, sh-format
+msgid "Enter the home phone number of the user"
+msgstr "Geef telefoonnummer of adres van de ontvanger"
+
+#: ../usersetup:649
+#, fuzzy, sh-format
+msgid "Enter the new group name"
+msgstr "Voer een nieuwe naam in voor de filterset"
+
+#: ../usersetup:744
+#: ../usersetup:765
+#: ../usersetup:774
+#: ../usersetup:838
+#, fuzzy, sh-format
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: ../usersetup:774
+#, fuzzy, sh-format
+msgid "You cannot delete the account"
+msgstr "U moet een accountnaam opgeven"
+
+#: ../usersetup:776
+#, fuzzy, sh-format
+msgid "Confirm user deletion"
+msgstr "Onderbroken door gebruiker"
+
+#: ../usersetup:778
+#: ../usersetup:842
+#, fuzzy, sh-format
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: ../usersetup:780
+#, sh-format
+msgid "Are you sure you want to delete user $user?"
+msgstr ""
+
+#: ../usersetup:838
+#, fuzzy, sh-format
+msgid "You cannot delete the group"
+msgstr "Wilt u het project verwijderen?"
+
+#: ../usersetup:840
+#, fuzzy, sh-format
+msgid "Confirm group deletion"
+msgstr " Groepsbeschrijver op "
+
+#: ../usersetup:844
+#, sh-format
+msgid "Are you sure you want to delete the $group group?"
+msgstr ""
+
