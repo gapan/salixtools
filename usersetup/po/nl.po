@@ -218,106 +218,106 @@ msgid "Office"
 msgstr "Kantoor"
 
 #: ../usersetup:267 ../usersetup:285 ../usersetup:613 ../usersetup:703
-#, fuzzy, sh-format
+#, sh-format
 msgid "Work phone"
-msgstr "Sessie telefoonnummer"
+msgstr "Telefoon werk"
 
 #: ../usersetup:268 ../usersetup:286 ../usersetup:628 ../usersetup:707
-#, fuzzy, sh-format
+#, sh-format
 msgid "Home phone"
-msgstr "Sessie telefoonnummer"
+msgstr "Telefoon thuis"
 
 #: ../usersetup:315 ../usersetup:326 ../usersetup:338
-#, fuzzy, sh-format
+#, sh-format
 msgid "Group members"
-msgstr "tussen leden"
+msgstr "Groepsleden"
 
 #: ../usersetup:320 ../usersetup:331
-#, fuzzy, sh-format
+#, sh-format
 msgid "Members of group"
-msgstr "Inktgroep:"
+msgstr "Groepsleden"
 
 #: ../usersetup:341
 #, sh-format
 msgid "There are no accounts in group"
-msgstr ""
+msgstr "Er zijn geen accounts in de groep aanwezig"
 
 #: ../usersetup:355
-#, fuzzy, sh-format
+#, sh-format
 msgid "Enter the new account name..."
-msgstr "U moet een accountnaam opgeven"
+msgstr "Voer de nieuwe account naam in..."
 
 #: ../usersetup:364
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
-msgstr ""
+msgstr "Een accountnaam kan geen spatie bevatten, corrigeer dit alstublieft..."
 
 #: ../usersetup:366
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
-msgstr ""
+msgstr "De accountnaam $user bestaat reeds, kies een andere naam..."
 
 #: ../usersetup:368
 #, sh-format
 msgid "The account name is empty, please correct it..."
-msgstr ""
+msgstr "De accountnaam is leeg, corrigeer dit alsublieft..."
 
 #: ../usersetup:370
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr ""
+msgstr "Een accountnaam mag niet beginnen met een nummer, corrigeer dit alsublieft..."
 
 #: ../usersetup:372
 #, sh-format
 msgid "An account name cannot contain uppercase characters, please correct it..."
-msgstr ""
+msgstr "Een accountnaam mag geen hoofdletters bevatten, corrigeer dit alsublieft..."
 
 #: ../usersetup:374
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr ""
+msgstr "Een accountnaam mag geen leestekens, corrigeer dit alsublieft..."
 
 #: ../usersetup:392
-#, fuzzy, sh-format
+#, sh-format
 msgid "Group membership"
-msgstr "Inktgroep:"
+msgstr "Groepslidmaatschap"
 
 #: ../usersetup:394 ../usersetup:411 ../usersetup:438 ../usersetup:459
 #: ../usersetup:485 ../usersetup:585 ../usersetup:600 ../usersetup:615
 #: ../usersetup:630 ../usersetup:647
-#, fuzzy, sh-format
+#, sh-format
 msgid "OK"
 msgstr "OK"
 
 #: ../usersetup:397
 #, sh-format
 msgid "Enter the main group for account"
-msgstr ""
+msgstr "Voer de hoofdgroep voor de account in"
 
 #: ../usersetup:413
 #, sh-format
 msgid "Enter the home directory for account"
-msgstr ""
+msgstr "Voer de home folder voor de account in"
 
 #: ../usersetup:441
 #, sh-format
 msgid "Enter the shell interpreter for account"
-msgstr ""
+msgstr "Betreedt de shell interpreter voor het account"
 
 #: ../usersetup:457
-#, fuzzy, sh-format
+#, sh-format
 msgid "Additional group membership"
-msgstr " Groepsbeschrijver op "
+msgstr "Aanvullende groepslidmaatschappen"
 
 #: ../usersetup:461
 #, sh-format
 msgid "Add some additional group to the list..."
-msgstr ""
+msgstr "Voeg een extra groep tot de lijst toe..."
 
 #: ../usersetup:483
-#, fuzzy, sh-format
+#, sh-format
 msgid "Expiry date"
-msgstr "Bouwdatum:"
+msgstr "Vervaldatum"
 
 #: ../usersetup:486
 #, fuzzy, sh-format
