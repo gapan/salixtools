@@ -275,7 +275,7 @@ msgstr "Een accountnaam mag geen hoofdletters bevatten, corrigeer dit alsublieft
 #: ../usersetup:374
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr "Een accountnaam mag geen leestekens, corrigeer dit alsublieft..."
+msgstr "Een accountnaam mag geen leestekens bevatten, corrigeer dit alsublieft..."
 
 #: ../usersetup:392
 #, sh-format
