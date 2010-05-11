@@ -1,2 +1,5 @@
+2010-05-11
+- Add services whose name includes .orig in the blacklist
+
 2010-03-23
 - Split service script from servicesetup
