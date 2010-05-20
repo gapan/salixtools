@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\n\\n\\n\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\n\\n\\n\\n\n"
 
 #: ../usersetup:70 ../usersetup:90
 #, sh-format
@@ -256,27 +256,27 @@ msgstr "Назва рахунку не повинна містити пропу�
 #: ../usersetup:366
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
-msgstr ""
+msgstr "Назва рахунку $user вже існує, виберіть іншу назву..."
 
 #: ../usersetup:368
 #, sh-format
 msgid "The account name is empty, please correct it..."
-msgstr ""
+msgstr "Назва рахунку пуста, виправте це..."
 
 #: ../usersetup:370
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr ""
+msgstr "Назва рахунку починається з цифри, виправте це..."
 
 #: ../usersetup:372
 #, sh-format
 msgid "An account name cannot contain uppercase characters, please correct it..."
-msgstr ""
+msgstr "Назва рахунку не може містити букви верхнього регістру, виправте це..."
 
 #: ../usersetup:374
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr ""
+msgstr "Назва рахунку не може містити знаки пунктуації, виправте це..."
 
 #: ../usersetup:392
 #, sh-format
@@ -293,27 +293,27 @@ msgstr "ОК"
 #: ../usersetup:397
 #, sh-format
 msgid "Enter the main group for account"
-msgstr ""
+msgstr "Введіть основну групу для рахунку"
 
 #: ../usersetup:413
 #, sh-format
 msgid "Enter the home directory for account"
-msgstr ""
+msgstr "Введіть домашню теку для рахунку"
 
 #: ../usersetup:441
 #, sh-format
 msgid "Enter the shell interpreter for account"
-msgstr ""
+msgstr "Введіть інтерпретатор шелу для рахунку"
 
 #: ../usersetup:457
 #, sh-format
 msgid "Additional group membership"
-msgstr ""
+msgstr "Додаткове членство в групах"
 
 #: ../usersetup:461
 #, sh-format
 msgid "Add some additional group to the list..."
-msgstr ""
+msgstr "Додати деякі додаткові групи до списку"
 
 #: ../usersetup:483
 #, sh-format
@@ -338,12 +338,12 @@ msgstr "Пароль"
 #: ../usersetup:537
 #, sh-format
 msgid "Enter password for account"
-msgstr ""
+msgstr "Введіть пароль для рахунку"
 
 #: ../usersetup:538
 #, sh-format
 msgid "Passwords do not match, please try again..."
-msgstr ""
+msgstr "Паролі не збігаються, спробуйте знову..."
 
 #: ../usersetup:541
 #, sh-format
@@ -373,17 +373,17 @@ msgstr "Інформація про роботу"
 #: ../usersetup:602
 #, sh-format
 msgid "Enter office information for the user"
-msgstr ""
+msgstr "Введіть інформацію про роботу для користувача"
 
 #: ../usersetup:617
 #, sh-format
 msgid "Enter the work phone number of the user"
-msgstr ""
+msgstr "Введіть номер робочого телефону для користувача"
 
 #: ../usersetup:632
 #, sh-format
 msgid "Enter the home phone number of the user"
-msgstr ""
+msgstr "Введіть номер домашнього телефону для користувача"
 
 #: ../usersetup:649
 #, sh-format
@@ -418,7 +418,7 @@ msgstr "Ви впевнені, що Ви бажаєте вилучити кор�
 #: ../usersetup:838
 #, sh-format
 msgid "You cannot delete the group"
-msgstr ""
+msgstr "Ви не можете вилучити групу"
 
 #: ../usersetup:840
 #, sh-format
