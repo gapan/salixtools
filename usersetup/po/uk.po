@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\n\\n\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\n\\n\\n\n"
 
 #: ../usersetup:70 ../usersetup:90
 #, sh-format
@@ -29,12 +29,12 @@ msgstr "Вийти з налаштування користувачів"
 #: ../usersetup:72 ../usersetup:92
 #, sh-format
 msgid "Users accounts management"
-msgstr ""
+msgstr "Керування рахунками користувачів"
 
 #: ../usersetup:76 ../usersetup:94
 #, sh-format
 msgid "Please choose an option..."
-msgstr ""
+msgstr "Будь ласка, виберіть опцію"
 
 #: ../usersetup:78 ../usersetup:96
 #, sh-format
@@ -44,52 +44,52 @@ msgstr "Створити новий рахунок"
 #: ../usersetup:79 ../usersetup:97
 #, sh-format
 msgid "Create a new account (advanced mode)"
-msgstr ""
+msgstr "Створити новий рахунок (розширений режим)"
 
 #: ../usersetup:80 ../usersetup:98
 #, sh-format
 msgid "Modify account properties"
-msgstr ""
+msgstr "Змінити властивості рахунку"
 
 #: ../usersetup:81 ../usersetup:99
 #, sh-format
 msgid "Change account password"
-msgstr ""
+msgstr "Змінити пароль рахунку"
 
 #: ../usersetup:82 ../usersetup:100
 #, sh-format
 msgid "Delete accounts"
-msgstr ""
+msgstr "Видалити рахунки"
 
 #: ../usersetup:83 ../usersetup:101
 #, sh-format
 msgid "List groups and memberships"
-msgstr ""
+msgstr "Список груп і учасників груп"
 
 #: ../usersetup:84 ../usersetup:102
 #, sh-format
 msgid "Create a new group"
-msgstr ""
+msgstr "Створити нову групу"
 
 #: ../usersetup:85 ../usersetup:103
 #, sh-format
 msgid "Change group name"
-msgstr ""
+msgstr "Змінити назву групи"
 
 #: ../usersetup:86 ../usersetup:104
 #, sh-format
 msgid "Delete groups"
-msgstr ""
+msgstr "Видалити групи"
 
 #: ../usersetup:122 ../usersetup:252 ../usersetup:271
 #, sh-format
 msgid "Account properties"
-msgstr ""
+msgstr "Властивості рахунку"
 
 #: ../usersetup:124 ../usersetup:316 ../usersetup:327
 #, sh-format
 msgid "Properties"
-msgstr ""
+msgstr "Властивості"
 
 #: ../usersetup:125 ../usersetup:143 ../usersetup:161 ../usersetup:179
 #: ../usersetup:197 ../usersetup:216 ../usersetup:254 ../usersetup:273
@@ -101,12 +101,12 @@ msgstr "Назад"
 #: ../usersetup:127
 #, sh-format
 msgid "Select an account to view its properties..."
-msgstr ""
+msgstr "Виберіть рахунок для перегляду його властивостей..."
 
 #: ../usersetup:140
 #, sh-format
 msgid "Account deletion"
-msgstr ""
+msgstr "Видалення рахунку"
 
 #: ../usersetup:142 ../usersetup:215 ../usersetup:777 ../usersetup:841
 #, sh-format
@@ -116,142 +116,142 @@ msgstr "Видалити"
 #: ../usersetup:145
 #, sh-format
 msgid "Select an account to delete..."
-msgstr ""
+msgstr "Вибрати рахунок для видалення"
 
 #: ../usersetup:158
 #, sh-format
 msgid "Change password"
-msgstr ""
+msgstr "Змінити пароль"
 
 #: ../usersetup:160
 #, sh-format
 msgid "Change"
-msgstr ""
+msgstr "Змінити"
 
 #: ../usersetup:163
 #, sh-format
 msgid "Select an account to change password for..."
-msgstr ""
+msgstr "Виберіть рахунок для зміни його паролю"
 
 #: ../usersetup:176
 #, sh-format
 msgid "Group memberships"
-msgstr ""
+msgstr "Членство в групах"
 
 #: ../usersetup:178
 #, sh-format
 msgid "Memberships"
-msgstr ""
+msgstr "Членство"
 
 #: ../usersetup:181
 #, sh-format
 msgid "Select a group to view memberships for..."
-msgstr ""
+msgstr "Вибрати групу для перегляду її учасників..."
 
 #: ../usersetup:194 ../usersetup:645
 #, sh-format
 msgid "Group name"
-msgstr ""
+msgstr "Назва групи"
 
 #: ../usersetup:196 ../usersetup:253 ../usersetup:272
 #, sh-format
 msgid "Modify"
-msgstr ""
+msgstr "Змінити"
 
 #: ../usersetup:199
 #, sh-format
 msgid "Select group name to modify..."
-msgstr ""
+msgstr "Вибрати назву групи для зміни..."
 
 #: ../usersetup:213
 #, sh-format
 msgid "Group deletion"
-msgstr ""
+msgstr "Видалення групи"
 
 #: ../usersetup:218
 #, sh-format
 msgid "Select a group to delete..."
-msgstr ""
+msgstr "Вибрати групу для вилучення..."
 
 #: ../usersetup:257 ../usersetup:275
 #, sh-format
 msgid "Detailed information for account"
-msgstr ""
+msgstr "Детальна інформація про рахунок"
 
 #: ../usersetup:259 ../usersetup:277 ../usersetup:583 ../usersetup:695
 #, sh-format
 msgid "Full name"
-msgstr ""
+msgstr "Повне ім’я"
 
 #: ../usersetup:260 ../usersetup:278 ../usersetup:352 ../usersetup:671
 #, sh-format
 msgid "Account name"
-msgstr ""
+msgstr "Назва рахунку"
 
 #: ../usersetup:261 ../usersetup:279 ../usersetup:675
 #, sh-format
 msgid "Main Group"
-msgstr ""
+msgstr "Основна групу"
 
 #: ../usersetup:262 ../usersetup:280 ../usersetup:409 ../usersetup:679
 #, sh-format
 msgid "Home directory"
-msgstr ""
+msgstr "Домашня тека"
 
 #: ../usersetup:263 ../usersetup:281 ../usersetup:436 ../usersetup:687
 #, sh-format
 msgid "Shell"
-msgstr ""
+msgstr "Шел"
 
 #: ../usersetup:264 ../usersetup:282 ../usersetup:683
 #, sh-format
 msgid "Other groups"
-msgstr ""
+msgstr "Інші групи"
 
 #: ../usersetup:265 ../usersetup:283 ../usersetup:691
 #, sh-format
 msgid "Expiry"
-msgstr ""
+msgstr "Закінчення дії"
 
 #: ../usersetup:266 ../usersetup:284 ../usersetup:699
 #, sh-format
 msgid "Office"
-msgstr ""
+msgstr "Робота"
 
 #: ../usersetup:267 ../usersetup:285 ../usersetup:613 ../usersetup:703
 #, sh-format
 msgid "Work phone"
-msgstr ""
+msgstr "Робочий телефон"
 
 #: ../usersetup:268 ../usersetup:286 ../usersetup:628 ../usersetup:707
 #, sh-format
 msgid "Home phone"
-msgstr ""
+msgstr "Домашній телефон"
 
 #: ../usersetup:315 ../usersetup:326 ../usersetup:338
 #, sh-format
 msgid "Group members"
-msgstr ""
+msgstr "Члени групи"
 
 #: ../usersetup:320 ../usersetup:331
 #, sh-format
 msgid "Members of group"
-msgstr ""
+msgstr "Члени групи"
 
 #: ../usersetup:341
 #, sh-format
 msgid "There are no accounts in group"
-msgstr ""
+msgstr "Немає рахунків в групі"
 
 #: ../usersetup:355
 #, sh-format
 msgid "Enter the new account name..."
-msgstr ""
+msgstr "Введіть нову назву рахунку..."
 
 #: ../usersetup:364
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
-msgstr ""
+msgstr "Назва рахунку не повинна містити пропусків, виправте це..."
 
 #: ../usersetup:366
 #, sh-format
@@ -281,14 +281,14 @@ msgstr ""
 #: ../usersetup:392
 #, sh-format
 msgid "Group membership"
-msgstr ""
+msgstr "Членство в групах"
 
 #: ../usersetup:394 ../usersetup:411 ../usersetup:438 ../usersetup:459
 #: ../usersetup:485 ../usersetup:585 ../usersetup:600 ../usersetup:615
 #: ../usersetup:630 ../usersetup:647
 #, sh-format
 msgid "OK"
-msgstr ""
+msgstr "ОК"
 
 #: ../usersetup:397
 #, sh-format
@@ -318,22 +318,22 @@ msgstr ""
 #: ../usersetup:483
 #, sh-format
 msgid "Expiry date"
-msgstr ""
+msgstr "Дата закінчення дії"
 
 #: ../usersetup:486
 #, sh-format
 msgid "Never"
-msgstr ""
+msgstr "Ніколи"
 
 #: ../usersetup:489
 #, sh-format
 msgid "Set the account expiry date..."
-msgstr ""
+msgstr "Встановити дату закінчення дії рахунку"
 
 #: ../usersetup:507 ../usersetup:560
 #, sh-format
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: ../usersetup:537
 #, sh-format
@@ -348,27 +348,27 @@ msgstr ""
 #: ../usersetup:541
 #, sh-format
 msgid "Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
+msgstr "Пароль закороткий (${minlength} символів мінімум), спробуйте інший..."
 
 #: ../usersetup:544
 #, sh-format
 msgid "Enter password again for account"
-msgstr ""
+msgstr "Введіть знову пароль для рахунку"
 
 #: ../usersetup:569
 #, sh-format
 msgid "Failed to set password for account"
-msgstr ""
+msgstr "Встановлення паролю для рахунку не вдалося"
 
 #: ../usersetup:587
 #, sh-format
 msgid "Enter the full name of the user"
-msgstr ""
+msgstr "Введіть повне ім’я для користувача"
 
 #: ../usersetup:598
 #, sh-format
 msgid "Office information"
-msgstr ""
+msgstr "Інформація про роботу"
 
 #: ../usersetup:602
 #, sh-format
@@ -388,32 +388,32 @@ msgstr ""
 #: ../usersetup:649
 #, sh-format
 msgid "Enter the new group name"
-msgstr ""
+msgstr "Введіть нову назву групи"
 
 #: ../usersetup:744 ../usersetup:765 ../usersetup:774 ../usersetup:838
 #, sh-format
 msgid "Warning"
-msgstr ""
+msgstr "Попередження"
 
 #: ../usersetup:774
 #, sh-format
 msgid "You cannot delete the account"
-msgstr ""
+msgstr "Ви не можете вилучити рахунок"
 
 #: ../usersetup:776
 #, sh-format
 msgid "Confirm user deletion"
-msgstr ""
+msgstr "Підтвердження вилучення користувача"
 
 #: ../usersetup:778 ../usersetup:842
 #, sh-format
 msgid "Cancel"
-msgstr ""
+msgstr "Відмінити"
 
 #: ../usersetup:780
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
-msgstr ""
+msgstr "Ви впевнені, що Ви бажаєте вилучити користувача $user?"
 
 #: ../usersetup:838
 #, sh-format
@@ -423,9 +423,9 @@ msgstr ""
 #: ../usersetup:840
 #, sh-format
 msgid "Confirm group deletion"
-msgstr ""
+msgstr "Підтвердити вилучення групи"
 
 #: ../usersetup:844
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
-msgstr ""
+msgstr "Ви впевнені, що Ви бажаєте вилучити групу $group?"
