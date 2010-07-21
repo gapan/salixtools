@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: servicesetup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"PO-Revision-Date: 2010-07-21 21:14+0100\n"
+"Last-Translator: Peter Polonkai <polesz@nedudu.hu>\n"
+"Language-Team: Nedudu Team <nedudu@nedudu.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+
+#: servicesetup:79
+#, sh-format
+msgid "Startup services"
+msgstr "Szolgáltatások indítása"
+
+#: servicesetup:81
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: servicesetup:82
+#, sh-format
+msgid "Exit"
+msgstr "Kilépés"
+
+#: servicesetup:85
+#, sh-format
+msgid "The selected services will be started at boot time:"
+msgstr "A kiválasztott szolgáltatások indulnak a rendszer indításakor:"
+
+#: servicesetup:94
+#, sh-format
+msgid "The $service service"
+msgstr "A(z) $service szolgáltatás"
+
