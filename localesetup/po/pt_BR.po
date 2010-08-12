@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -61,7 +61,6 @@ msgid "The current locale is $currentlocale."
 msgstr "A localidade atual é $currentlocale."
 
 #: ../localesetup:90
-#, fuzzy, sh-format
+#, sh-format
 msgid "Please select your preferred system language:"
-msgstr "Por favor selecione o seu idioma preferido para o sistema:"
-
+msgstr "Por favor, selecione seu idioma preferido para o sistema:"
