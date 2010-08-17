@@ -55,8 +55,6 @@ gr-pc|us,el||grp:alt_shift_toggle,grp_led:scroll
 gr|us,el||grp:alt_shift_toggle,grp_led:scroll
 hu|hu||
 il|us,il||grp:alt_shift_toggle
-il-heb|us,il-heb||grp:alt_shift_toggle
-il-phonetic|us,il-phonetic||grp:alt_shift_toggle
 is-latin1-us|us,is||grp:alt_shift_toggle
 is-latin1|is||
 it-ibm|it||
