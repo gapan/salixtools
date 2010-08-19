@@ -159,12 +159,24 @@ interactive(){
 	fi
 
 	[ ! "$currentpathkeymap" ] && currentpathkeymap="qwerty/us.map"
-
-	list="$(ls */* \
+	
+	avail="$( grep -v "^#" $keymapsdir/keymaps | \
+			grep -v "^ " | \
+			sed "s/\(.*\)|.*|.*|.*/\1/")"
+	all="$(ls */* \
 		| egrep "azerty|qwerty|dvorak|qwertz|olpc" \
-		| egrep 'map.gz' \
-		| sed -e 's/^\(.*\).gz$/\"\1\" \" \" \\/')"
+		| egrep 'map.gz' )"
+	
+	for k in $all; do
+		code=$( echo $k | sed "s|\(.*\)/\(.*\)\.map\.gz|\2|" )
+		if [[ $avail == *$code* ]];then
+			templist="$templist$k
+"
+		fi
+	done
 
+	list="$( echo "$templist" | sed -e 's/^\(.*\).gz$/\"\1\" \" \" \\/' )"
+	
 	if [ -x /etc/rc.d/rc.numlock ]; then
 		numprecheck="on"
 	else
@@ -189,7 +201,7 @@ interactive(){
 	fi
 
 	pathkeymap="$(echo "$answer" | head -n1)"
-
+	
 	if [ "$pathkeymap" ] ; then
 		keymap="$(basename $pathkeymap)"
 
