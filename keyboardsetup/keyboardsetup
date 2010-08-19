@@ -257,12 +257,20 @@ applynumlock(){
 		for t in 1 2 3 4 5 6 7 8 ; do
 			setleds +num < /dev/tty$t > /dev/null
 		done
+		if [ -f /etc/lxdm/lxdm.conf ]; then
+			sed -i "/numlock/d" /etc/lxdm/lxdm.conf
+			sed -i "s/\[base\]/\[base\]\nnumlock=1/" /etc/lxdm/lxdm.conf
+		fi
 	elif [ "$numlock" = "unchecked" ]; then
 		[ -e /etc/rc.d/rc.numlock ] && chmod 644 /etc/rc.d/rc.numlock
 		[[ $DISPLAY ]] && [ -x /usr/bin/numlockx ] && /usr/bin/numlockx off
 		for t in 1 2 3 4 5 6 7 8 ; do
 			setleds -num < /dev/tty$t > /dev/null
 		done
+		if [ -f /etc/lxdm/lxdm.conf ]; then
+			sed -i "/numlock/d" /etc/lxdm/lxdm.conf
+			sed -i "s/\[base\]/\[base\]\nnumlock=0/" /etc/lxdm/lxdm.conf
+		fi
 	fi
 }
 
