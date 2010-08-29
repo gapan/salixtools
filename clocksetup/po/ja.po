@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-25 21:11+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: tsuren <hydrangea_and_snail@hotmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+
+#: ../clocksetup:49
+#, sh-format
+msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
+msgstr "使用法: clocksetup [[-c ] [-d] [-t] [-z]]"
+
+#: ../clocksetup:51
+#, sh-format
+msgid "OPTIONS:"
+msgstr "オプション："
+
+#: ../clocksetup:53
+#, sh-format
+msgid "   -c,   only show the hardware clock configuration dialog"
+msgstr "   -c,   ハードウェアの時計設定のダイアログだけ表示"
+
+#: ../clocksetup:54
+#, sh-format
+msgid "   -d,   only show the date configuration dialog"
+msgstr "   -d,   日付設定のダイアログだけ表示"
+
+#: ../clocksetup:55
+#, sh-format
+msgid "   -t,   only show the time configuration dialog"
+msgstr "   -t,   時間設定のダイアログのみ表示"
+
+#: ../clocksetup:56
+#, sh-format
+msgid "   -z,   only show the timezone configuration dialog"
+msgstr "   -z,  タイムゾーンの設定ダイアログだけを表示"
+
+#: ../clocksetup:57
+#, sh-format
+msgid "   -h,   this help message"
+msgstr "   -h,   このヘルプ・メッセージ"
+
+#: ../clocksetup:96
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "エラー: アーギュメントが多すぎます"
+
+#: ../clocksetup:106
+#: ../clocksetup:170
+#: ../clocksetup:191
+#: ../clocksetup:212
+#: ../clocksetup:262
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: ../clocksetup:107
+#, sh-format
+msgid "Exit"
+msgstr "閉じる"
+
+#: ../clocksetup:108
+#, sh-format
+msgid "System clock configuration"
+msgstr "システム時計設定"
+
+#: ../clocksetup:110
+#, sh-format
+msgid "Currently the clock is set to:"
+msgstr "現在時計は、次のように設定されています："
+
+#: ../clocksetup:111
+#, sh-format
+msgid "Please choose an option:"
+msgstr "オプションを選んでください。"
+
+#: ../clocksetup:113
+#, sh-format
+msgid "Set the time manually"
+msgstr "時間をマニュアルで設定"
+
+#: ../clocksetup:114
+#, sh-format
+msgid "Set the date manually"
+msgstr "日付をマニュアルで設定"
+
+#: ../clocksetup:115
+#, sh-format
+msgid "Set the time zone"
+msgstr "時間帯を設定"
+
+#: ../clocksetup:116
+#, sh-format
+msgid "Configure the hardware clock"
+msgstr "ハードウェアの時計を設定"
+
+#: ../clocksetup:117
+#, sh-format
+msgid "Synchronize with Network Time Protocol (NTP)"
+msgstr "Network Time Protocol (NTP)でシンクロナイズする。"
+
+#: ../clocksetup:169
+#, sh-format
+msgid "Clock adjustment"
+msgstr "時計を直す"
+
+#: ../clocksetup:171
+#: ../clocksetup:192
+#: ../clocksetup:213
+#: ../clocksetup:263
+#, sh-format
+msgid "Cancel"
+msgstr "取り消し"
+
+#: ../clocksetup:173
+#, sh-format
+msgid "Please set the time..."
+msgstr "時間をセットしてください。"
+
+#: ../clocksetup:190
+#, sh-format
+msgid "Date adjustment"
+msgstr "日付を調整する"
+
+#: ../clocksetup:194
+#, sh-format
+msgid "Please set the date..."
+msgstr "日付をセットしてください。"
+
+#: ../clocksetup:214
+#, sh-format
+msgid "Time zone configuration"
+msgstr "時間帯設定"
+
+#: ../clocksetup:216
+#, sh-format
+msgid "Please select your time zone..."
+msgstr "時間帯をセットしてください。"
+
+#: ../clocksetup:236
+#, sh-format
+msgid "Warning"
+msgstr "注意"
+
+#: ../clocksetup:238
+#, sh-format
+msgid "You are already using the ntpd service and clock should be correct."
+msgstr "既にntpdサービスが使用されています。時計は、正しく動いているはずです。"
+
+#: ../clocksetup:242
+#, sh-format
+msgid "Error"
+msgstr "エラー"
+
+#: ../clocksetup:244
+#, sh-format
+msgid "Something went wrong. Time was not adjusted."
+msgstr "問題があり、時間の設定ができませんでした。"
+
+#: ../clocksetup:264
+#, sh-format
+msgid "Hardware clock configuration"
+msgstr "ハードウェアの時計設定"
+
+#: ../clocksetup:266
+#, sh-format
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "ハードウェアの時計は、Coordinated Universal Time (UTC/GMT)にセットされていますか？そうである場合は、はいを選択してください。もしも時計が、ローカルタイムにセットされている場合はいいえを選択してください。ほとんどのコンピュータは、ローカルタイムにセットされています。よくわからない場合は、いいえを選択してください。"
+
+#: ../clocksetup:267
+#, sh-format
+msgid "No"
+msgstr "いいえ"
+
+#: ../clocksetup:267
+#, sh-format
+msgid "Hardware clock is set to local time"
+msgstr "ハードウェアの時計は、ローカルタイムにセットせれています。"
+
+#: ../clocksetup:268
+#, sh-format
+msgid "Yes"
+msgstr "はい"
+
+#: ../clocksetup:268
+#, sh-format
+msgid "Hardware clock is set to UTC"
+msgstr "ハードウェアの時計は、UTCにセットせれています。"
+
