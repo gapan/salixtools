@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: usersetup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-26 19:17+0200\n"
-"PO-Revision-Date: 2010-08-29 16:51+0100\n"
+"PO-Revision-Date: 2010-08-29 17:00+0100\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -247,7 +247,7 @@ msgstr "Hemkatalog"
 #: ../usersetup:687
 #, sh-format
 msgid "Shell"
-msgstr "Logginskal"
+msgstr "Skal"
 
 #: ../usersetup:264
 #: ../usersetup:282
@@ -312,12 +312,12 @@ msgstr "Skriv in nytt konto namn..."
 #: ../usersetup:364
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
-msgstr ""
+msgstr "Ett kontonamn kan inte innehålla ett mellanslag, så rätta till det..."
 
 #: ../usersetup:366
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
-msgstr ""
+msgstr "Kontonamnet $user finns redan, välj ett annat namn..."
 
 #: ../usersetup:368
 #, sh-format
@@ -327,17 +327,17 @@ msgstr "Konto namn är tomt, var vänlig att fixa det..."
 #: ../usersetup:370
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr ""
+msgstr "Ett kontonamn kan inte börja med ett nummer, så rätta till det..."
 
 #: ../usersetup:372
 #, sh-format
 msgid "An account name cannot contain uppercase characters, please correct it..."
-msgstr ""
+msgstr "Ett kontonamn kan inte innehålla versaler, så rätta till det..."
 
 #: ../usersetup:374
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr ""
+msgstr "Ett kontonamn kan inte innehålla skiljetecken, så rätta till det..."
 
 #: ../usersetup:392
 #, sh-format
@@ -371,7 +371,7 @@ msgstr "Skriv in hemkatalog för konto"
 #: ../usersetup:441
 #, sh-format
 msgid "Enter the shell interpreter for account"
-msgstr ""
+msgstr "Ange skal tolk för kontot"
 
 #: ../usersetup:457
 #, sh-format
@@ -381,7 +381,7 @@ msgstr "Ytterligare grupp medlemskap"
 #: ../usersetup:461
 #, sh-format
 msgid "Add some additional group to the list..."
-msgstr ""
+msgstr "Lägg till lite extra grupp till listan..."
 
 #: ../usersetup:483
 #, sh-format
