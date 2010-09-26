@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ingemar Karlsson <po@ingk.se>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: keyboardsetup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-03-23 11:48+0200\n"
-"PO-Revision-Date: 2010-08-29 16:20+0100\n"
+"PO-Revision-Date: 2010-09-26 11:45+0100\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgid ""
 "\\n"
 "You will have to restart your system for this to take effect."
 msgstr ""
-"SCIM är en inmatnings plattform för Kinesiska, Japanska, Koreanska och många fler språk vid användning av grafisk miljö. Vill du ha den aktiverad vid uppstart?\\n"
-"\\n"
+"SCIM är en inmatnings plattform för Kinesiska, Japanska, Koreanska och många fler språk vid användning av grafisk miljö. Vill du ha den aktiverad vid uppstart?\n"
+"\n"
 "Du måste starta om ditt system för att detta skall aktiveras."
 
