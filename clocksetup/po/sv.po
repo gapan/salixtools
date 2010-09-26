@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ingemar Karlsson <po@ingk.se>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: salix clocksetup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-25 21:11+0200\n"
-"PO-Revision-Date: 2010-08-29 16:09+0100\n"
+"PO-Revision-Date: 2010-09-26 11:44+0100\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -89,17 +89,17 @@ msgstr "Välj ett alternativ:"
 #: ../clocksetup:113
 #, sh-format
 msgid "Set the time manually"
-msgstr "Sätt tiden manuelt"
+msgstr "Sätt tiden manuellt"
 
 #: ../clocksetup:114
 #, sh-format
 msgid "Set the date manually"
-msgstr "Sätt datum manuelt"
+msgstr "Sätt datum manuellt"
 
 #: ../clocksetup:115
 #, sh-format
 msgid "Set the time zone"
-msgstr "Sätt tids zon"
+msgstr "Sätt tidszon"
 
 #: ../clocksetup:116
 #, sh-format
@@ -109,7 +109,7 @@ msgstr "Konfigurera hårdvaruklockan"
 #: ../clocksetup:117
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
-msgstr "Sunkronisera med Network Time Protocol (NTP)"
+msgstr "Synkronisera med Network Time Protocol (NTP)"
 
 #: ../clocksetup:169
 #, sh-format
@@ -142,12 +142,12 @@ msgstr "Ställ in datum..."
 #: ../clocksetup:214
 #, sh-format
 msgid "Time zone configuration"
-msgstr "Tids zon konfiguration"
+msgstr "Tidszon konfiguration"
 
 #: ../clocksetup:216
 #, sh-format
 msgid "Please select your time zone..."
-msgstr "Välj din tids zon..."
+msgstr "Välj din tidszon..."
 
 #: ../clocksetup:236
 #, sh-format
@@ -167,7 +167,7 @@ msgstr "Fel"
 #: ../clocksetup:244
 #, sh-format
 msgid "Something went wrong. Time was not adjusted."
-msgstr "Något gick fel. Tid ändrades inte."
+msgstr "Något gick fel. Tideb ändrades inte."
 
 #: ../clocksetup:264
 #, sh-format
