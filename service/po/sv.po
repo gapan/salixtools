@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ingemar Karlsson <po@ingk.se>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: service\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-13 19:13+0300\n"
-"PO-Revision-Date: 2010-08-29 16:30+0100\n"
+"PO-Revision-Date: 2010-09-26 11:47+0100\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -31,12 +31,12 @@ msgstr "Tjänsten ${BOLDWHITE}${servicename}${COLOR_RESET} finns inte"
 #: service:57
 #, sh-format
 msgid "${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDYELLOW}Stopping${COLOR_RESET} tjänsten ${BOLDWHITE}${servicename}${COLOR_RESET} "
+msgstr "${BOLDYELLOW}Stoppar${COLOR_RESET} tjänsten ${BOLDWHITE}${servicename}${COLOR_RESET} "
 
 #: service:70
 #, sh-format
 msgid "${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDCYAN}Restarting${COLOR_RESET} tjänsten ${BOLDWHITE}${servicename}${COLOR_RESET} "
+msgstr "${BOLDCYAN}Startar om${COLOR_RESET} tjänsten ${BOLDWHITE}${servicename}${COLOR_RESET} "
 
 #: service:90
 #, sh-format
