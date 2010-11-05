@@ -43,4 +43,4 @@ msgstr "סוג שירות: $service"
 #: service:113
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
-msgstr "שימוש : שירות start|stop|restart|list [שם השירות]"
+msgstr "שימוש : service start|stop|restart|list [שם_שירות]"
