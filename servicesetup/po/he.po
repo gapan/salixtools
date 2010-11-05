@@ -38,4 +38,4 @@ msgstr "השירותים הנבחרים יופעלו בזמן הפעלת המע�
 #: servicesetup:94
 #, sh-format
 msgid "The $service service"
-msgstr "סוג שירות: $service"
+msgstr "סוג השירות: $service"
