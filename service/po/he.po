@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -20,8 +20,7 @@ msgstr ""
 msgid "${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "${BOLDCYAN}התחלת${COLOR_RESET} השירות ${BOLDWHITE}${servicename}${COLOR_RESET}"
 
-#: service:51
-#: service:81
+#: service:51 service:81
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
@@ -44,5 +43,4 @@ msgstr "סוג שירות: $service"
 #: service:113
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
-msgstr "שימוש : שירות start|stop|restart|list [service_name]"
-
+msgstr "שימוש : שירות start|stop|restart|list [שם השירות]"
