@@ -1,4 +1,316 @@
 ------------------------------------------------------------------------
+r2120 | gapan | 2010-11-18 22:30:33 +0200 (Πεμ, 18 Νοέ 2010) | 1 line
+
+Fix running setxkbmap
+------------------------------------------------------------------------
+r2095 | sharemore | 2010-11-05 14:36:56 +0200 (Παρ, 05 Νοέ 2010) | 5 lines
+
+l10n: Updated Hebrew (he) translation to 100%
+
+New status: 6 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r2094 | sharemore | 2010-11-05 14:29:55 +0200 (Παρ, 05 Νοέ 2010) | 5 lines
+
+l10n: Updated Hebrew (he) translation to 100%
+
+New status: 6 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r2093 | sharemore | 2010-11-05 14:26:04 +0200 (Παρ, 05 Νοέ 2010) | 5 lines
+
+l10n: Hebrew
+
+New status: 6 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r2092 | sharemore | 2010-11-05 14:19:31 +0200 (Παρ, 05 Νοέ 2010) | 5 lines
+
+l10n: Updated Hebrew (he) translation to 100%
+
+New status: 5 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r2090 | sharemore | 2010-11-05 14:09:47 +0200 (Παρ, 05 Νοέ 2010) | 5 lines
+
+l10n: Updated Hebrew (he) translation to 100%
+
+New status: 5 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r2089 | sharemore | 2010-11-05 14:09:21 +0200 (Παρ, 05 Νοέ 2010) | 5 lines
+
+l10n: Updated Hebrew (he) translation to 100%
+
+New status: 5 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r2088 | sharemore | 2010-11-05 14:02:37 +0200 (Παρ, 05 Νοέ 2010) | 5 lines
+
+l10n: Hebrew
+
+New status: 4 messages complete with 0 fuzzies and 1 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r2087 | sharemore | 2010-11-05 13:45:55 +0200 (Παρ, 05 Νοέ 2010) | 5 lines
+
+l10n: Hebrew
+
+New status: 81 messages complete with 1 fuzzy and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1967 | gapan | 2010-10-21 21:44:53 +0300 (Πεμ, 21 Οκτ 2010) | 1 line
+
+Added support for setting numlock in KDM
+------------------------------------------------------------------------
+r1951 | gapan | 2010-10-19 21:06:25 +0300 (Τρι, 19 Οκτ 2010) | 1 line
+
+Support setting language in kdm if present
+------------------------------------------------------------------------
+r1899 | ingemar | 2010-09-26 13:33:31 +0300 (Κυρ, 26 Σεπ 2010) | 5 lines
+
+l10n: Updated Swedish (sv) translation to 100%
+
+New status: 82 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1898 | ingemar | 2010-09-26 13:32:36 +0300 (Κυρ, 26 Σεπ 2010) | 5 lines
+
+l10n: Updated Swedish (sv) translation to 100%
+
+New status: 5 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1897 | ingemar | 2010-09-26 13:31:44 +0300 (Κυρ, 26 Σεπ 2010) | 5 lines
+
+l10n: Updated Swedish (sv) translation to 100%
+
+New status: 6 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1896 | ingemar | 2010-09-26 13:30:50 +0300 (Κυρ, 26 Σεπ 2010) | 5 lines
+
+l10n: Updated Swedish (sv) translation to 100%
+
+New status: 10 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1895 | ingemar | 2010-09-26 13:29:50 +0300 (Κυρ, 26 Σεπ 2010) | 5 lines
+
+l10n: Updated Swedish (sv) translation to 100%
+
+New status: 18 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1894 | ingemar | 2010-09-26 13:29:00 +0300 (Κυρ, 26 Σεπ 2010) | 5 lines
+
+l10n: Updated Swedish (sv) translation to 100%
+
+New status: 35 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1566 | tsuren | 2010-08-30 02:37:24 +0300 (Δευ, 30 Αύγ 2010) | 5 lines
+
+l10n: Japanese translation
+
+New status: 10 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1556 | tsuren | 2010-08-30 01:28:31 +0300 (Δευ, 30 Αύγ 2010) | 5 lines
+
+l10n: Japanese translation
+
+New status: 82 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1555 | tsuren | 2010-08-30 01:27:34 +0300 (Δευ, 30 Αύγ 2010) | 5 lines
+
+l10n: Japanese translation
+
+New status: 5 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1554 | tsuren | 2010-08-30 01:26:52 +0300 (Δευ, 30 Αύγ 2010) | 5 lines
+
+l10n: Japanese translation
+
+New status: 6 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1553 | tsuren | 2010-08-30 01:24:29 +0300 (Δευ, 30 Αύγ 2010) | 5 lines
+
+l10n: Japanese translation
+
+New status: 18 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1552 | tsuren | 2010-08-30 01:23:40 +0300 (Δευ, 30 Αύγ 2010) | 5 lines
+
+l10n: Japanese translation
+
+New status: 35 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1534 | ingemar | 2010-08-29 18:01:37 +0300 (Κυρ, 29 Αύγ 2010) | 5 lines
+
+l10n: Updated Swedish (sv) translation to 100%
+
+New status: 82 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1533 | ingemar | 2010-08-29 17:54:18 +0300 (Κυρ, 29 Αύγ 2010) | 5 lines
+
+l10n: Swedish translation
+
+New status: 75 messages complete with 0 fuzzies and 7 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1532 | ingemar | 2010-08-29 17:34:05 +0300 (Κυρ, 29 Αύγ 2010) | 5 lines
+
+l10n: Swedish translation
+
+New status: 5 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1531 | ingemar | 2010-08-29 17:30:39 +0300 (Κυρ, 29 Αύγ 2010) | 5 lines
+
+l10n: Swedish translation
+
+New status: 6 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1530 | ingemar | 2010-08-29 17:25:22 +0300 (Κυρ, 29 Αύγ 2010) | 5 lines
+
+l10n: Swedish translation
+
+New status: 10 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1529 | ingemar | 2010-08-29 17:20:36 +0300 (Κυρ, 29 Αύγ 2010) | 5 lines
+
+l10n: Swedish translation
+
+New status: 18 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1528 | ingemar | 2010-08-29 17:10:11 +0300 (Κυρ, 29 Αύγ 2010) | 5 lines
+
+l10n: Swedish translation
+
+New status: 35 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1446 | gapan | 2010-08-19 21:29:19 +0300 (Πεμ, 19 Αύγ 2010) | 1 line
+
+Use only supported keymaps
+------------------------------------------------------------------------
+r1445 | gapan | 2010-08-19 16:10:11 +0300 (Πεμ, 19 Αύγ 2010) | 1 line
+
+Added support for setting the numlock state in lxdm
+------------------------------------------------------------------------
+r1444 | gapan | 2010-08-17 22:41:16 +0300 (Τρι, 17 Αύγ 2010) | 1 line
+
+Removed il-heb and il-phonetic keymaps. They were not working under X anyway and nobody know what they are for. The il keymap seems to work fine in any case.
+------------------------------------------------------------------------
+r1426 | Gawges | 2010-08-12 22:38:58 +0300 (Πεμ, 12 Αύγ 2010) | 5 lines
+
+l10n: Updated Portuguese (Brazilian) (pt_BR) translation to 100%
+
+New status: 10 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1423 | Gawges | 2010-08-12 22:13:45 +0300 (Πεμ, 12 Αύγ 2010) | 5 lines
+
+l10n: Updated Portuguese (Brazilian) (pt_BR) translation to 100%
+
+New status: 10 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1413 | gapan | 2010-08-08 21:29:17 +0300 (Κυρ, 08 Αύγ 2010) | 1 line
+
+Check for :0.0 variable to remove display error message
+------------------------------------------------------------------------
+r1358 | Polesz | 2010-07-21 22:41:11 +0300 (Τετ, 21 Ιούλ 2010) | 5 lines
+
+l10n: Initial translation
+
+New status: 82 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1357 | Polesz | 2010-07-21 22:40:26 +0300 (Τετ, 21 Ιούλ 2010) | 5 lines
+
+l10n: Initial translation
+
+New status: 5 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1356 | Polesz | 2010-07-21 22:39:41 +0300 (Τετ, 21 Ιούλ 2010) | 5 lines
+
+l10n: Initial translation
+
+New status: 6 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1355 | Polesz | 2010-07-21 22:39:00 +0300 (Τετ, 21 Ιούλ 2010) | 5 lines
+
+l10n: Initial translation
+
+New status: 10 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1354 | Polesz | 2010-07-21 22:38:12 +0300 (Τετ, 21 Ιούλ 2010) | 5 lines
+
+l10n: Initial translation
+
+New status: 18 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1353 | Polesz | 2010-07-21 22:37:30 +0300 (Τετ, 21 Ιούλ 2010) | 5 lines
+
+l10n: Initial translation
+
+New status: 35 messages complete with 0 fuzzies and 0 untranslated.
+
+Transmitted-via: Transifex (www.transifex.net).
+------------------------------------------------------------------------
+r1347 | gapan | 2010-07-21 12:53:20 +0300 (Τετ, 21 Ιούλ 2010) | 1 line
+
+Added ChangeLog from svn
+------------------------------------------------------------------------
 r1346 | gapan | 2010-07-21 12:45:19 +0300 (Τετ, 21 Ιούλ 2010) | 1 line
 
 Moved old changelogs to doc dir
