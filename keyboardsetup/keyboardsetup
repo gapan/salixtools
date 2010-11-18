@@ -330,7 +330,7 @@ applykeyboard(){
 	fi
 
 	/usr/bin/loadkeys -u $keymap 1>&2 2>/dev/null
-	[[ $DISPLAY ]] && [ -x /usr/bin/setxkbmap ] \
+	[[ $DISPLAY ]] && [ -x /usr/bin/setxkbmap ] && \
 	/usr/bin/setxkbmap -layout "$xkblayout" -variant "$xkbvariant" -option "$xkboptions" 1>&2 2>/dev/null
 	sed -i "s/\(^[ \t]*\/usr\/bin\/loadkeys -u\).*$/\1 $keymap/" /etc/rc.d/rc.keymap
 
