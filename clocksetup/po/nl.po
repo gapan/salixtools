@@ -2,12 +2,12 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the clocksetup package.
 # Imar van Erven Dorens <gambit73@gmail.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
 "PO-Revision-Date: 2010-05-05 17:20+0100\n"
 "Last-Translator: Imar van Erven Dorens <gambit73@gmail.com>\n"
 "Language-Team: Dutch <LL@li.org>\n"
@@ -161,22 +161,14 @@ msgid "Something went wrong. Time was not adjusted."
 msgstr "Er is iets misgegaan. De tijd was niet aangepast."
 
 #: clocksetup:264
-#, fuzzy, sh-format
+#, sh-format
 msgid "Hardware clock set to UTC?"
-msgstr "De hardwareklok is ingesteld op UTC"
+msgstr "Is de hardwareklok is ingesteld op UTC?"
 
 #: clocksetup:266
 #, sh-format
-msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
-"(this is how most PCs are set up), then say NO here.  If you are not sure "
-"what this is, you should answer NO here."
-msgstr ""
-"Is de hardwareklok ingesteld op Coordinated Universal Time (UTC/GMT)? Als "
-"dat zo is, selecteer hier JA. Als de hardwareklok is ingesteld op de lokale "
-"tijd (dit is hoe de meeste PCs ingesteld zijn ingesteld), selecteer dan NEE "
-"hier. Als u niet zeker weet wat dit inhoudt, zet dan NEE hier."
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "Is de hardwareklok ingesteld op Coordinated Universal Time (UTC/GMT)? Als dat zo is, selecteer hier JA. Als de hardwareklok is ingesteld op de lokale tijd (dit is hoe de meeste PCs ingesteld zijn ingesteld), selecteer dan NEE hier. Als u niet zeker weet wat dit inhoudt, zet dan NEE hier."
 
 #: clocksetup:267
 #, sh-format
