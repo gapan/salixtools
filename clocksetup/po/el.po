@@ -2,12 +2,12 @@
 # Copyright (C) 2009 George Vlahavas
 # This file is distributed under the same license as the clocksetup package.
 #  <vlahavas~at~gmail~dot~com>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
 "PO-Revision-Date: 2010-02-26 01:12+0200\n"
 "Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: Greek\n"
@@ -149,9 +149,7 @@ msgstr "Προειδοποίηση"
 #: clocksetup:238
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr ""
-"Χρησιμοποιείται η υπηρεσία ntpd και το ρολόι συστήματος πρέπει να είναι ήδη "
-"σωστό."
+msgstr "Χρησιμοποιείται η υπηρεσία ntpd και το ρολόι συστήματος πρέπει να είναι ήδη σωστό."
 
 #: clocksetup:242
 #, sh-format
@@ -164,22 +162,14 @@ msgid "Something went wrong. Time was not adjusted."
 msgstr "Υπήρξε κάποιο σφάλμα. Η ώρα δεν ρυθμίστηκε."
 
 #: clocksetup:264
-#, fuzzy, sh-format
+#, sh-format
 msgid "Hardware clock set to UTC?"
-msgstr "Το ρολόι του υπολογιστή είναι ρυθμισμένο σε ώρα UTC"
+msgstr "Είναι το ρολόι του υπολογιστή ρυθμισμένο σε ώρα UTC;"
 
 #: clocksetup:266
 #, sh-format
-msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
-"(this is how most PCs are set up), then say NO here.  If you are not sure "
-"what this is, you should answer NO here."
-msgstr ""
-"Είναι το ρολόι συστήματος ρυθμισμένο σε Παγκόσμιο Χρόνο (UTC/GMT); Αν είναι, "
-"επιλέξτε ΝΑΙ. Αν το ρολόι συστήματος είναι ρυθμισμένο σε τοπική ώρα (όπως "
-"στους περισσότερους υπολογιστές), επιλέχτε ΟΧΙ. Αν δεν είστε βέβαιοι, είναι "
-"καλύτερα να επιλέξετε ΟΧΙ."
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "Είναι το ρολόι συστήματος ρυθμισμένο σε Παγκόσμιο Χρόνο (UTC/GMT); Αν είναι, επιλέξτε ΝΑΙ. Αν το ρολόι συστήματος είναι ρυθμισμένο σε τοπική ώρα (όπως στους περισσότερους υπολογιστές), επιλέχτε ΟΧΙ. Αν δεν είστε βέβαιοι, είναι καλύτερα να επιλέξετε ΟΧΙ."
 
 #: clocksetup:267
 #, sh-format
