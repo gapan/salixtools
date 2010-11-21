@@ -58,6 +58,12 @@ use it to specify the default state of SCIM, if SCIM is installed.
 //scimstate// can be set to either **on** or **off**. It will have no
 effect if SCIM is not installed.
 
+**-z**,
+%comment
+use this to not apply settings on the fly. Changes will still be made in
+all relevant settings files, so they will be applied next time the
+system is started.
+
 = AUTHORS =
 
 - George Vlahavas <vlahavas~at~gmail~dot~com>
