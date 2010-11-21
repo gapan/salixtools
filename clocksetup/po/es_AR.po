@@ -2,15 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools.clocksetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
 "PO-Revision-Date: 2010-03-24 00:29-0300\n"
 "Last-Translator: seacat <seacat.lang@gmail.com>\n"
-"Language-Team:  <seacat.lang@gmail.com>\n"
+"Language-Team: <seacat.lang@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,28 +30,22 @@ msgstr "OPCIONES:"
 #: clocksetup:53
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
-msgstr ""
-"   -c,   muestra solamente la caja de diálogo de configuración del reloj del "
-"hardware"
+msgstr "   -c,   muestra solamente la caja de diálogo de configuración del reloj del hardware"
 
 #: clocksetup:54
 #, sh-format
 msgid "   -d,   only show the date configuration dialog"
-msgstr ""
-"   -d,   muestra solamente la caja de diálogo de configuración de la fecha"
+msgstr "   -d,   muestra solamente la caja de diálogo de configuración de la fecha"
 
 #: clocksetup:55
 #, sh-format
 msgid "   -t,   only show the time configuration dialog"
-msgstr ""
-"   -t,   muestra solamente la caja de diálogo de configuración de la hora"
+msgstr "   -t,   muestra solamente la caja de diálogo de configuración de la hora"
 
 #: clocksetup:56
 #, sh-format
 msgid "   -z,   only show the timezone configuration dialog"
-msgstr ""
-"   -z,   muestra solamente la caja de diálogo de configuración de la zona "
-"horaria"
+msgstr "   -z,   muestra solamente la caja de diálogo de configuración de la zona horaria"
 
 #: clocksetup:57
 #, sh-format
@@ -169,22 +163,14 @@ msgid "Something went wrong. Time was not adjusted."
 msgstr "Algo anda mal. No se ajustó la hora."
 
 #: clocksetup:264
-#, fuzzy, sh-format
+#, sh-format
 msgid "Hardware clock set to UTC?"
-msgstr "El reloj del hardware está configurado a UTC"
+msgstr "¿El reloj del hardware está configurado a UTC?"
 
 #: clocksetup:266
 #, sh-format
-msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
-"(this is how most PCs are set up), then say NO here.  If you are not sure "
-"what this is, you should answer NO here."
-msgstr ""
-"¿Está configurado el reloj del hardware a la Hora Universal Coordinada (UTC/"
-"GMT)? Si lo está, seleccione SI. Si el reloj del hardware está configurado a "
-"la hora local actual (que es como están la mayoría de las PCs), entonces "
-"seleccione NO. Si no está seguro de lo que es esto, debería responder NO."
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "¿Está configurado el reloj del hardware a la Hora Universal Coordinada (UTC/GMT)? Si lo está, seleccione SI. Si el reloj del hardware está configurado a la hora local actual (que es como están la mayoría de las PCs), entonces seleccione NO. Si no está seguro de lo que es esto, debería responder NO."
 
 #: clocksetup:267
 #, sh-format
