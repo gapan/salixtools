@@ -2,12 +2,12 @@
 # Copyright (C) 2009 George Vlahavas
 # This file is distributed under the same license as the keyboardsetup package.
 # George Vlahavas <vlahavas~at~gmail~dot~com>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
 "PO-Revision-Date: 2010-02-03 14:46+0200\n"
 "Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: Greek\n"
@@ -43,19 +43,13 @@ msgstr "   -s scimstate,      η κατάσταση του SCIM, on ή off"
 
 #: keyboardsetup:67
 #, sh-format
-msgid ""
-"   -z,                do not apply changes on the fly, only edit settings "
-"files"
-msgstr ""
+msgid "   -z,                do not apply changes on the fly, only edit settings files"
+msgstr "   -z,                χωρίς άμεση εφαρμογή των αλλαγών, οι αλλαγές θα γίνουν μόνο στα αρχεία ρυθμίσεων"
 
 #: keyboardsetup:117
 #, sh-format
-msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"ΣΦΑΛΜΑ: Το $OPTARG δεν είναι έγκυρη διάταξη πληκτρολογίου. Μπορείτε να "
-"κοιτάξετε στο αρχείο $keymapsdir/keymaps για μια λίστα με έγκυρες διατάξεις"
+msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
+msgstr "ΣΦΑΛΜΑ: Το $OPTARG δεν είναι έγκυρη διάταξη πληκτρολογίου. Μπορείτε να κοιτάξετε στο αρχείο $keymapsdir/keymaps για μια λίστα με έγκυρες διατάξεις"
 
 #: keyboardsetup:131 keyboardsetup:140
 #, sh-format
@@ -114,33 +108,14 @@ msgstr "Προτίμηση SCIM"
 
 #: keyboardsetup:268
 #, sh-format
-msgid ""
-"SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
-"take effect."
-msgstr ""
-"Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα, Γιαπωνέζικια, Κορεάτικα "
-"και άλλες γλώσσες όταν χρησιμοποιείτε κάποιο γραφικό περιβάλλον. Θέλετε να "
-"είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n\\nΘα πρέπει να επανεκκινήσετε "
-"το σύστημά σας για να εφαρμοστούν οι αλλαγές στο SCIM."
+msgid "SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take effect."
+msgstr "Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα, Γιαπωνέζικια, Κορεάτικα και άλλες γλώσσες όταν χρησιμοποιείτε κάποιο γραφικό περιβάλλον. Θέλετε να είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n\\nΘα πρέπει να επανεκκινήσετε το σύστημά σας για να εφαρμοστούν οι αλλαγές στο SCIM."
 
-#~ msgid ""
-#~ "SCIM is an input platform for Chinese, Japanese,\\nKorean and many other "
-#~ "languages. Do you want to\\nhave it enabled or disabled on boot?\\n\\nYou "
-#~ "will have to restart your system for this to take\\neffect."
-#~ msgstr ""
-#~ "Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα,\\nΓιαπωνέζικα, "
-#~ "Κορεάτικα και άλλες γλώσσες. Θέλετε\\nνα είναι ενεργό ή ανενεργό κατά την "
-#~ "εκκίνηση;\\n\\nΠρέπει να επανεκκινήσετε το σύστημα σας για να"
-#~ "\\nεφαρμοστούν οι αλλαγές στο SCIM."
+#~ msgid "SCIM is an input platform for Chinese, Japanese,\\nKorean and many other languages. Do you want to\\nhave it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take\\neffect."
+#~ msgstr "Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα,\\nΓιαπωνέζικα, Κορεάτικα και άλλες γλώσσες. Θέλετε\\nνα είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n\\nΠρέπει να επανεκκινήσετε το σύστημα σας για να\\nεφαρμοστούν οι αλλαγές στο SCIM."
 
-#~ msgid ""
-#~ "(If you want to specify a numlock state, you also have to specify a "
-#~ "keymap)"
-#~ msgstr ""
-#~ "(Αν επιθυμείτε να δώσετε μια κατάσταση numlock, θα πρέπει να δώσετε και "
-#~ "μία διάταξη πληκτρολογίου)"
+#~ msgid "(If you want to specify a numlock state, you also have to specify a keymap)"
+#~ msgstr "(Αν επιθυμείτε να δώσετε μια κατάσταση numlock, θα πρέπει να δώσετε και μία διάταξη πληκτρολογίου)"
 
 #~ msgid "EXAMPLE: keyboardsetup uk on"
 #~ msgstr "ΠΑΡΑΔΕΙΓΜΑ: keyboardsetup gr on"
