@@ -35,7 +35,19 @@ init(){
 	keymapsdir="/usr/share/salixtools/"
 
 	# Just to be sure
-	unset keymap key numstate numdefault scimstate scimdefault xkblayout xkbvariant xkboptions setkeymap setnumlock setscim
+	unset keymap \
+		key \
+		numstate \
+		numdefault \
+		scimstate \
+		scimdefault \
+		xkblayout \
+		xkbvariant \
+		xkboptions \
+		setkeymap \
+		setnumlock \
+		setscim \
+		applynow
 
 	backtohome=$(pwd)
 
@@ -52,6 +64,7 @@ usage(){
 	echo "`eval_gettext '   -k keymap,         a valid keyboard map'`"
 	echo "`eval_gettext '   -n numlockstate,   the numlock state, on or off'`"
 	echo "`eval_gettext '   -s scimstate,      the SCIM state, on or off'`"
+	echo "`eval_gettext '   -z,                do not apply changes on the fly, only edit settings files'`"
 	exit 1
 }
 
@@ -89,7 +102,7 @@ EORC
 
 # Check which options are used from the command line
 checkoptions(){
-	while getopts ":hk:n:s:" flag
+	while getopts ":hk:n:s:z" flag
 	do
 		# if switch is unknown or if asking for help
 		if [ $flag = "?" ] || [ $flag = "h" ]; then
@@ -127,6 +140,11 @@ checkoptions(){
 				echo "`eval_gettext 'ERROR: $OPTARG is not a valid option.'`"
 				usage
 			fi
+		fi
+		if [ $flag = "z" ]; then
+			applynow=0
+		else
+			applynow=1
 		fi
 	done
 	
@@ -265,10 +283,12 @@ interactive(){
 applynumlock(){
 	if [ "$numlock" = "checked" ]; then
 		[ -e /etc/rc.d/rc.numlock ] && chmod 755 /etc/rc.d/rc.numlock
-		[[ $DISPLAY ]] && [ -x /usr/bin/numlockx ] && /usr/bin/numlockx on
-		for t in 1 2 3 4 5 6 7 8 ; do
-			setleds +num < /dev/tty$t > /dev/null
-		done
+		if [ $applynow -eq 1 ]; then
+			[[ $DISPLAY ]] && [ -x /usr/bin/numlockx ] && /usr/bin/numlockx on
+			for t in 1 2 3 4 5 6 7 8 ; do
+				setleds +num < /dev/tty$t > /dev/null
+			done
+		fi
 		if [ -f /etc/lxdm/lxdm.conf ]; then
 			sed -i "/numlock/d" /etc/lxdm/lxdm.conf
 			sed -i "s/\[base\]/\[base\]\nnumlock=1/" /etc/lxdm/lxdm.conf
@@ -282,10 +302,12 @@ applynumlock(){
 		fi
 	elif [ "$numlock" = "unchecked" ]; then
 		[ -e /etc/rc.d/rc.numlock ] && chmod 644 /etc/rc.d/rc.numlock
-		[[ $DISPLAY ]] && [ -x /usr/bin/numlockx ] && /usr/bin/numlockx off
-		for t in 1 2 3 4 5 6 7 8 ; do
-			setleds -num < /dev/tty$t > /dev/null
-		done
+		if [ $applynow -eq 1 ]; then
+			[[ $DISPLAY ]] && [ -x /usr/bin/numlockx ] && /usr/bin/numlockx off
+			for t in 1 2 3 4 5 6 7 8 ; do
+				setleds -num < /dev/tty$t > /dev/null
+			done
+		fi
 		if [ -f /etc/lxdm/lxdm.conf ]; then
 			sed -i "/numlock/d" /etc/lxdm/lxdm.conf
 			sed -i "s/\[base\]/\[base\]\nnumlock=0/" /etc/lxdm/lxdm.conf
@@ -329,9 +351,11 @@ applykeyboard(){
 		xkboptions=""
 	fi
 
-	/usr/bin/loadkeys -u $keymap 1>&2 2>/dev/null
-	[[ $DISPLAY ]] && [ -x /usr/bin/setxkbmap ] && \
-	/usr/bin/setxkbmap -layout "$xkblayout" -variant "$xkbvariant" -option "$xkboptions" 1>&2 2>/dev/null
+	if [ $applynow -eq 1 ]; then
+		/usr/bin/loadkeys -u $keymap 1>&2 2>/dev/null
+		[[ $DISPLAY ]] && [ -x /usr/bin/setxkbmap ] && \
+		/usr/bin/setxkbmap -layout "$xkblayout" -variant "$xkbvariant" -option "$xkboptions" 1>&2 2>/dev/null
+	fi
 	sed -i "s/\(^[ \t]*\/usr\/bin\/loadkeys -u\).*$/\1 $keymap/" /etc/rc.d/rc.keymap
 
 	if [ ! -a /etc/hal/fdi/policy/10-keymap.fdi ]; then
@@ -346,8 +370,10 @@ applykeyboard(){
 		/etc/hal/fdi/policy/10-keymap.fdi
 		sed -i "s/\"input.xkb.options\" type=\"string\">.*</\"input.xkb.options\" type=\"string\">"$xkboptions"</" \
 		/etc/hal/fdi/policy/10-keymap.fdi
-		# Re-starting hal daemon
-		/etc/rc.d/rc.hald restart
+		if [ $applynow -eq 1 ]; then
+			# Re-starting hal daemon
+			/etc/rc.d/rc.hald restart
+		fi
 	fi
 }
 
