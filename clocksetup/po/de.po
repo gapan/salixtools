@@ -2,12 +2,12 @@
 # Copyright (C) 2009 Thorsten Mühlfelder
 # This file is distributed under the same license as the clocksetup package.
 # Thorsten Mühlfelder <thenktor~at~gmx~dot~de>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: clocksetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
 "PO-Revision-Date: 2010-02-26 00:16+0100\n"
 "Last-Translator: Thorsten Mühlfelder <thenktor@gmx.de>\n"
 "Language-Team: German\n"
@@ -150,8 +150,7 @@ msgstr "Warnung"
 #: clocksetup:238
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr ""
-"Sie benutzen bereits den ntpd Service und die Uhrzeit sollte korrekt sein."
+msgstr "Sie benutzen bereits den ntpd Service und die Uhrzeit sollte korrekt sein."
 
 #: clocksetup:242
 #, sh-format
@@ -164,22 +163,14 @@ msgid "Something went wrong. Time was not adjusted."
 msgstr "Etwas lief schief. Die Uhrzeit wurde nicht gestellt."
 
 #: clocksetup:264
-#, fuzzy, sh-format
+#, sh-format
 msgid "Hardware clock set to UTC?"
-msgstr "Die Hardware-Uhr läuft auf UTC"
+msgstr "Läuft die Hardware-Uhr auf koordinierter Weltzeit (UTC)?"
 
 #: clocksetup:266
 #, sh-format
-msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
-"(this is how most PCs are set up), then say NO here.  If you are not sure "
-"what this is, you should answer NO here."
-msgstr ""
-"Läuft die Hardware-Uhr koordinierter Weltzeit (UTC/GMT)? Falls dem so ist, "
-"wählen Sie hier bitte JA. Wenn die Hardware-Uhr auf aktueller lokaler Zeit "
-"läuft (bei den meisten PCs der Fall), wählen Sie hier bitte NEIN. Falls Sie "
-"sich nicht sicher sind, was Sie auswählen sollen, wählen Sie bitte NEIN aus."
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "Läuft die Hardware-Uhr koordinierter Weltzeit (UTC/GMT)? Falls dem so ist, wählen Sie hier bitte JA. Wenn die Hardware-Uhr auf aktueller lokaler Zeit läuft (bei den meisten PCs der Fall), wählen Sie hier bitte NEIN. Falls Sie sich nicht sicher sind, was Sie auswählen sollen, wählen Sie bitte NEIN aus."
 
 #: clocksetup:267
 #, sh-format
