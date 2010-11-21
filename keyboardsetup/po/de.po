@@ -1,8 +1,9 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
 "PO-Revision-Date: 2010-03-23 02:06+0100\n"
 "Last-Translator: Thorsten Mühlfelder <thenktor@gmx.de>\n"
 "Language-Team: \n"
@@ -14,9 +15,7 @@ msgstr ""
 #: keyboardsetup:60
 #, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr ""
-"ANWENDUNG: keyboardsetup [[-k Tastaturlayout] [-n Numlockstatus] [-s SCIM-"
-"Status]]"
+msgstr "ANWENDUNG: keyboardsetup [[-k Tastaturlayout] [-n Numlockstatus] [-s SCIM-Status]]"
 
 #: keyboardsetup:62
 #, sh-format
@@ -40,19 +39,13 @@ msgstr "   -s scimstate,      der SCIM-Status, on (an) oder off (aus)"
 
 #: keyboardsetup:67
 #, sh-format
-msgid ""
-"   -z,                do not apply changes on the fly, only edit settings "
-"files"
-msgstr ""
+msgid "   -z,                do not apply changes on the fly, only edit settings files"
+msgstr "-z, Veränderungen nicht sofort anwenden, sondern nur die Konfigurationsdateien ändern"
 
 #: keyboardsetup:117
 #, sh-format
-msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"FEHLER: $OPTARG ist kein gültiges Tastaturlayout. Sie können gültige Layouts "
-"in $keymapsdir/keymaps nachschlagen"
+msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
+msgstr "FEHLER: $OPTARG ist kein gültiges Tastaturlayout. Sie können gültige Layouts in $keymapsdir/keymaps nachschlagen"
 
 #: keyboardsetup:131 keyboardsetup:140
 #, sh-format
@@ -111,32 +104,14 @@ msgstr "SCIM-Konfiguration"
 
 #: keyboardsetup:268
 #, sh-format
-msgid ""
-"SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
-"take effect."
-msgstr ""
-"SCIM is eine Eingabemethode für Chinesisch, Japanisch, Koreanisch und viele "
-"andere Sprachen. Wollen Sie SCIM beim Booten aktivieren oder deaktivieren?\\n"
-"\\nSie müssen ihr System neustarten, um diese Einstellung anzuwenden."
+msgid "SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take effect."
+msgstr "SCIM is eine Eingabemethode für Chinesisch, Japanisch, Koreanisch und viele andere Sprachen. Wollen Sie SCIM beim Booten aktivieren oder deaktivieren?\\n\\nSie müssen ihr System neustarten, um diese Einstellung anzuwenden."
 
-#~ msgid ""
-#~ "SCIM is an input platform for Chinese, Japanese,\\nKorean and many other "
-#~ "languages. Do you want to\\nhave it enabled or disabled on boot?\\n\\nYou "
-#~ "will have to restart your system for this to take\\neffect."
-#~ msgstr ""
-#~ "SCIM is eine Eingabemethode für Chinesisch, Japanisch,\\nKoreanisch und "
-#~ "viele andere Sprachen. Wollen Sie SCIM\\nbeim Booten aktivieren oder "
-#~ "deaktivieren?\\n\\nSie müssen ihr System neustarten, um diese Einstellung"
-#~ "\\nanzuwenden."
+#~ msgid "SCIM is an input platform for Chinese, Japanese,\\nKorean and many other languages. Do you want to\\nhave it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take\\neffect."
+#~ msgstr "SCIM is eine Eingabemethode für Chinesisch, Japanisch,\\nKoreanisch und viele andere Sprachen. Wollen Sie SCIM\\nbeim Booten aktivieren oder deaktivieren?\\n\\nSie müssen ihr System neustarten, um diese Einstellung\\nanzuwenden."
 
-#~ msgid ""
-#~ "(If you want to specify a numlock state, you also have to specify a "
-#~ "keymap)"
-#~ msgstr ""
-#~ "(Wenn Sie einen Numlockstatus definieren wollen, müssen sie auch ein "
-#~ "Tastaturlayout angeben)"
+#~ msgid "(If you want to specify a numlock state, you also have to specify a keymap)"
+#~ msgstr "(Wenn Sie einen Numlockstatus definieren wollen, müssen sie auch ein Tastaturlayout angeben)"
 
 #~ msgid "EXAMPLE: keyboardsetup uk on"
 #~ msgstr "BEISPIEL: keyboardsetup de on"
