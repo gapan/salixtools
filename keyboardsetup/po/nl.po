@@ -2,12 +2,12 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the skeyboardsetup package.
 # Imar van Erven Dorens <gambit73@gmail.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
 "PO-Revision-Date: 2010-05-05 20:25+0100\n"
 "Last-Translator: Imar van Erven Dorens <gambit73@gmail.com>\n"
 "Language-Team: Dutch <LL@li.org>\n"
@@ -42,19 +42,13 @@ msgstr "-S scimstate, de SCIM status aan/uit"
 
 #: keyboardsetup:67
 #, sh-format
-msgid ""
-"   -z,                do not apply changes on the fly, only edit settings "
-"files"
-msgstr ""
+msgid "   -z,                do not apply changes on the fly, only edit settings files"
+msgstr "-z, zal niet direct van toepassing zijn op veranderingen, alleen instellingen in bestanden wijzigen."
 
 #: keyboardsetup:117
 #, sh-format
-msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"FOUT: $OPTARG is geen geldige toetsindeling. U kunt kijken in $keymapsdir/"
-"keymaps voor een lijst van geldige toetsindeling"
+msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
+msgstr "FOUT: $OPTARG is geen geldige toetsindeling. U kunt kijken in $keymapsdir/keymaps voor een lijst van geldige toetsindeling"
 
 #: keyboardsetup:131 keyboardsetup:140
 #, sh-format
@@ -113,13 +107,5 @@ msgstr "SCIM configuratie"
 
 #: keyboardsetup:268
 #, sh-format
-msgid ""
-"SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
-"take effect."
-msgstr ""
-"SCIM is een platform voor invoer van Chinees, Japans, Koreaans en vele "
-"andere talen bij gebruik van een grafische omgeving. Wilt u deze in- of "
-"uitgeschakeld hebben bij het opstarten?\\n\\nU moet uw systeem opnieuw "
-"starten om de aanpassing te ervaren."
+msgid "SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take effect."
+msgstr "SCIM is een platform voor invoer van Chinees, Japans, Koreaans en vele andere talen bij gebruik van een grafische omgeving. Wilt u deze in- of uitgeschakeld hebben bij het opstarten?\\n\\nU moet uw systeem opnieuw starten om de aanpassing te ervaren."
