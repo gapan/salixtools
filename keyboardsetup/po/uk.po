@@ -2,106 +2,127 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: ttt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-11 18:37+0200\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-05-11 18:39+0100\n"
 "Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\n\\n\\n\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\n\\n\\n\n"
 
-#: ../keyboardsetup:48
+#: keyboardsetup:60
 #, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr "ВИКОРИСТАННЯ: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
+msgstr ""
+"ВИКОРИСТАННЯ: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
-#: ../keyboardsetup:50
+#: keyboardsetup:62
 #, sh-format
 msgid "OPTIONS:"
 msgstr "ОПЦІЇ:"
 
-#: ../keyboardsetup:52
+#: keyboardsetup:64
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr "   -k keymap,         існуюча розкладка клавіатури"
 
-#: ../keyboardsetup:53
+#: keyboardsetup:65
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlockstate,   стан numlock, on або off"
 
-#: ../keyboardsetup:54
+#: keyboardsetup:66
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr "   -s scimstate,      стан SCIM, on або off"
 
-#: ../keyboardsetup:104
+#: keyboardsetup:67
 #, sh-format
-msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
-msgstr "ПОМИЛКА: $OPTARG не є правильною розкладкою. Ви можете подивитися в $keymapsdir/keymaps для списку правильних розкладок"
+msgid ""
+"   -z,                do not apply changes on the fly, only edit settings "
+"files"
+msgstr ""
 
-#: ../keyboardsetup:118 ../keyboardsetup:127
+#: keyboardsetup:117
+#, sh-format
+msgid ""
+"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"ПОМИЛКА: $OPTARG не є правильною розкладкою. Ви можете подивитися в "
+"$keymapsdir/keymaps для списку правильних розкладок"
+
+#: keyboardsetup:131 keyboardsetup:140
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "ПОМИЛКА: $OPTARG не є правильною опцією."
 
-#: ../keyboardsetup:139
+#: keyboardsetup:157
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ПОМИЛКА: Забагато аргументів"
 
-#: ../keyboardsetup:177
+#: keyboardsetup:207
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Налаштування клавіатури"
 
-#: ../keyboardsetup:179
+#: keyboardsetup:209
 #, sh-format
 msgid "OK"
 msgstr "ОК"
 
-#: ../keyboardsetup:180
+#: keyboardsetup:210
 #, sh-format
 msgid "Exit"
 msgstr "Вийти"
 
-#: ../keyboardsetup:183
+#: keyboardsetup:213
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Виберіть Вашу улюблену розкладку клавіатури:"
 
-#: ../keyboardsetup:206
+#: keyboardsetup:236
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Налаштування numlock"
 
-#: ../keyboardsetup:207 ../keyboardsetup:233
+#: keyboardsetup:237 keyboardsetup:263
 #, sh-format
 msgid "Enabled"
 msgstr "Включено"
 
-#: ../keyboardsetup:208 ../keyboardsetup:234
+#: keyboardsetup:238 keyboardsetup:264
 #, sh-format
 msgid "Disabled"
 msgstr "Виключено"
 
-#: ../keyboardsetup:212
+#: keyboardsetup:242
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Ви бажаєте мати numlock включеним чи виключеним по завчуванню?"
 
-#: ../keyboardsetup:232
+#: keyboardsetup:262
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Налаштування SCIM"
 
-#: ../keyboardsetup:238
+#: keyboardsetup:268
 #, sh-format
-msgid "SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take effect."
-msgstr "SCIM є метод вводу для китайської, японської, корейської і багато інших мов, що використовують графічну оболонку. Ви бажаєте мати його включеним чи виключеним при завантаженні?\\n\\nВи повинні перезавантажити Вашу систему для впровадження змін."
+msgid ""
+"SCIM is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
+msgstr ""
+"SCIM є метод вводу для китайської, японської, корейської і багато інших мов, "
+"що використовують графічну оболонку. Ви бажаєте мати його включеним чи "
+"виключеним при завантаженні?\\n\\nВи повинні перезавантажити Вашу систему "
+"для впровадження змін."

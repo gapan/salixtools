@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-13 19:13+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: tsuren <hydrangea_and_snail@hotmail.com>\n"
 "Language-Team: \n"
@@ -14,24 +14,32 @@ msgstr ""
 
 #: service:47
 #, sh-format
-msgid "${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
+msgid ""
+"${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}"
+"${COLOR_RESET} service"
 msgstr "${BOLDWHITE}${servicename}${COLOR_RESET} サービスを ${BOLDCYAN}始動"
 
-#: service:51
-#: service:81
+#: service:51 service:63 service:81
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "${BOLDWHITE}${servicename}${COLOR_RESET} サービス無し"
 
 #: service:57
 #, sh-format
-msgid "${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDWHITE}${servicename}${COLOR_RESET} サービス ${BOLDYELLOW}ストップします。"
+msgid ""
+"${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}"
+"${COLOR_RESET} service"
+msgstr ""
+"${BOLDWHITE}${servicename}${COLOR_RESET} サービス ${BOLDYELLOW}ストップしま"
+"す。"
 
 #: service:70
 #, sh-format
-msgid "${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDWHITE}${servicename}${COLOR_RESET} サービス${BOLDCYAN}再起動します"
+msgid ""
+"${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}"
+"${COLOR_RESET} service"
+msgstr ""
+"${BOLDWHITE}${servicename}${COLOR_RESET} サービス${BOLDCYAN}再起動します"
 
 #: service:90
 #, sh-format
@@ -42,4 +50,3 @@ msgstr "$service さーびす"
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
 msgstr "使用法 : service start|stop|restart|list [サービスの名前]"
-

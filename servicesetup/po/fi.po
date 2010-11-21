@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: markus muttilainen <stillborn.zenwalk@gmail.com>\n"
 "Language-Team: \n"
@@ -12,28 +12,27 @@ msgstr ""
 "X-Poedit-Language: Finnish\n"
 "X-Poedit-Country: FINLAND\n"
 
-#: servicesetup:79
+#: servicesetup:65
 #, sh-format
 msgid "Startup services"
 msgstr "Käynnistyt palvelut"
 
-#: servicesetup:81
+#: servicesetup:66
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: servicesetup:82
+#: servicesetup:67
 #, sh-format
 msgid "Exit"
 msgstr "Poistu"
 
-#: servicesetup:85
+#: servicesetup:70
 #, sh-format
 msgid "The selected services will be started at boot time:"
 msgstr "Valitut palvelut käynnistetään järjestelmän käynnistyessä:"
 
-#: servicesetup:94
+#: servicesetup:79
 #, sh-format
 msgid "The $service service"
 msgstr "$service palvelu"
-

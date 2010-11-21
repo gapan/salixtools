@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-13 19:13+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: markus muttilainen <stillborn.zenwalk@gmail.com>\n"
 "Language-Team: \n"
@@ -14,24 +14,35 @@ msgstr ""
 
 #: service:47
 #, sh-format
-msgid "${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDCYAN}Käynnistetään${COLOR_RESET}${BOLDWHITE}${servicename}${COLOR_RESET} palvelu"
+msgid ""
+"${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}"
+"${COLOR_RESET} service"
+msgstr ""
+"${BOLDCYAN}Käynnistetään${COLOR_RESET}${BOLDWHITE}${servicename}"
+"${COLOR_RESET} palvelu"
 
-#: service:51
-#: service:81
+#: service:51 service:63 service:81
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "Ei ${BOLDWHITE}${servicename}${COLOR_RESET} palvelua"
 
 #: service:57
 #, sh-format
-msgid "${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDYELLOW}Pysäytetään${COLOR_RESET}${BOLDWHITE}${servicename}${COLOR_RESET} palvelu"
+msgid ""
+"${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}"
+"${COLOR_RESET} service"
+msgstr ""
+"${BOLDYELLOW}Pysäytetään${COLOR_RESET}${BOLDWHITE}${servicename}"
+"${COLOR_RESET} palvelu"
 
 #: service:70
 #, sh-format
-msgid "${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDCYAN}Uudelleenkäynnistetään${COLOR_RESET}${BOLDWHITE}${servicename}${COLOR_RESET} palvelu"
+msgid ""
+"${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}"
+"${COLOR_RESET} service"
+msgstr ""
+"${BOLDCYAN}Uudelleenkäynnistetään${COLOR_RESET}${BOLDWHITE}${servicename}"
+"${COLOR_RESET} palvelu"
 
 #: service:90
 #, sh-format
@@ -42,4 +53,3 @@ msgstr "$service palvelu"
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
 msgstr "käyttö : service start|stop|restart|list [palvelun nimi]"
-

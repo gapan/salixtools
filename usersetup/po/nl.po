@@ -2,12 +2,12 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the usersetup package.
 # Imar van Erven Dorens <gambit73@gmail.com>, 2010.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-26 19:17+0200\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-05-05 21:20+0100\n"
 "Last-Translator: Imar van Erven Dorens <gambit73@gmail.com>\n"
 "Language-Team: Dutch <LL@li.org>\n"
@@ -15,416 +15,419 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../usersetup:70 ../usersetup:90
+#: usersetup:49
 #, sh-format
 msgid "Select"
 msgstr "Selecteer"
 
-#: ../usersetup:71 ../usersetup:91
+#: usersetup:50
 #, sh-format
 msgid "Exit user setup"
 msgstr "Sluit de gebruikersopzet af"
 
-#: ../usersetup:72 ../usersetup:92
+#: usersetup:51
 #, sh-format
 msgid "Users accounts management"
 msgstr "Gebruikersaccount beheer"
 
-#: ../usersetup:76 ../usersetup:94
+#: usersetup:53
 #, sh-format
 msgid "Please choose an option..."
 msgstr "Kies een optie alstublieft ..."
 
-#: ../usersetup:78 ../usersetup:96
+#: usersetup:55
 #, sh-format
 msgid "Create a new account"
 msgstr "Maak een nieuw account"
 
-#: ../usersetup:79 ../usersetup:97
+#: usersetup:56
 #, sh-format
 msgid "Create a new account (advanced mode)"
 msgstr "Maak een nieuw account (geavanceerde modus)"
 
-#: ../usersetup:80 ../usersetup:98
+#: usersetup:57
 #, sh-format
 msgid "Modify account properties"
 msgstr "Wijzig de account instellingen"
 
-#: ../usersetup:81 ../usersetup:99
+#: usersetup:58
 #, sh-format
 msgid "Change account password"
 msgstr "Wijzig het wachtwoord van het account"
 
-#: ../usersetup:82 ../usersetup:100
+#: usersetup:59
 #, sh-format
 msgid "Delete accounts"
 msgstr "Verwijderde accounts"
 
-#: ../usersetup:83 ../usersetup:101
+#: usersetup:60
 #, sh-format
 msgid "List groups and memberships"
 msgstr "Lijst van groepen en groepsleden"
 
-#: ../usersetup:84 ../usersetup:102
+#: usersetup:61
 #, sh-format
 msgid "Create a new group"
 msgstr "Maak een nieuwe groep aan"
 
-#: ../usersetup:85 ../usersetup:103
+#: usersetup:62
 #, sh-format
 msgid "Change group name"
 msgstr "Verander de groepsnaam"
 
-#: ../usersetup:86 ../usersetup:104
+#: usersetup:63
 #, sh-format
 msgid "Delete groups"
 msgstr "Verwijder groepen"
 
-#: ../usersetup:122 ../usersetup:252 ../usersetup:271
+#: usersetup:79 usersetup:202
 #, sh-format
 msgid "Account properties"
 msgstr "Accountinstellingen"
 
-#: ../usersetup:124 ../usersetup:316 ../usersetup:327
+#: usersetup:80 usersetup:245
 #, sh-format
 msgid "Properties"
 msgstr "Eigenschappen"
 
-#: ../usersetup:125 ../usersetup:143 ../usersetup:161 ../usersetup:179
-#: ../usersetup:197 ../usersetup:216 ../usersetup:254 ../usersetup:273
-#: ../usersetup:317 ../usersetup:328
+#: usersetup:81 usersetup:98 usersetup:115 usersetup:132 usersetup:149
+#: usersetup:167 usersetup:204 usersetup:246
 #, sh-format
 msgid "Back"
 msgstr "Terug"
 
-#: ../usersetup:127
+#: usersetup:83
 #, sh-format
 msgid "Select an account to view its properties..."
 msgstr "Selecteer een account om de instellingen ervan te bekijken..."
 
-#: ../usersetup:140
+#: usersetup:96
 #, sh-format
 msgid "Account deletion"
 msgstr "Account verwijdering"
 
-#: ../usersetup:142 ../usersetup:215 ../usersetup:777 ../usersetup:841
+#: usersetup:97 usersetup:166 usersetup:661 usersetup:725
 #, sh-format
 msgid "Delete"
 msgstr "Verwijderen"
 
-#: ../usersetup:145
+#: usersetup:100
 #, sh-format
 msgid "Select an account to delete..."
 msgstr "Selecteer een account om te verwijderen..."
 
-#: ../usersetup:158
+#: usersetup:113
 #, sh-format
 msgid "Change password"
 msgstr "Wijzig wachtwoord"
 
-#: ../usersetup:160
+#: usersetup:114
 #, sh-format
 msgid "Change"
 msgstr "Wijzigen"
 
-#: ../usersetup:163
+#: usersetup:117
 #, sh-format
 msgid "Select an account to change password for..."
 msgstr "Selecteer een account om het wachtwoord te wijzigen..."
 
-#: ../usersetup:176
+#: usersetup:130
 #, sh-format
 msgid "Group memberships"
 msgstr "Groepsleden"
 
-#: ../usersetup:178
+#: usersetup:131
 #, sh-format
 msgid "Memberships"
 msgstr "Leden"
 
-#: ../usersetup:181
+#: usersetup:134
 #, sh-format
 msgid "Select a group to view memberships for..."
 msgstr "Selecteer een groep om de leden te bekijken voor..."
 
-#: ../usersetup:194 ../usersetup:645
+#: usersetup:147 usersetup:530
 #, sh-format
 msgid "Group name"
 msgstr "Groepsnaam"
 
-#: ../usersetup:196 ../usersetup:253 ../usersetup:272
+#: usersetup:148 usersetup:203
 #, sh-format
 msgid "Modify"
 msgstr "Wijzigen"
 
-#: ../usersetup:199
+#: usersetup:151
 #, sh-format
 msgid "Select group name to modify..."
 msgstr "Selecteer groepsnaam om te wijzigen..."
 
-#: ../usersetup:213
+#: usersetup:165
 #, sh-format
 msgid "Group deletion"
 msgstr "Verwijderen van een groep"
 
-#: ../usersetup:218
+#: usersetup:169
 #, sh-format
 msgid "Select a group to delete..."
 msgstr "Selecteer een groep om te verwijderen..."
 
-#: ../usersetup:257 ../usersetup:275
+#: usersetup:206
 #, sh-format
 msgid "Detailed information for account"
 msgstr "Gedetailleerde accountinformatie"
 
-#: ../usersetup:259 ../usersetup:277 ../usersetup:583 ../usersetup:695
+#: usersetup:208 usersetup:472 usersetup:579
 #, sh-format
 msgid "Full name"
 msgstr "Volledige naam"
 
-#: ../usersetup:260 ../usersetup:278 ../usersetup:352 ../usersetup:671
+#: usersetup:209 usersetup:267 usersetup:555
 #, sh-format
 msgid "Account name"
 msgstr "Accountnaam"
 
-#: ../usersetup:261 ../usersetup:279 ../usersetup:675
+#: usersetup:210 usersetup:559
 #, sh-format
 msgid "Main Group"
 msgstr "Hoofdgroep"
 
-#: ../usersetup:262 ../usersetup:280 ../usersetup:409 ../usersetup:679
+#: usersetup:211 usersetup:322 usersetup:563
 #, sh-format
 msgid "Home directory"
 msgstr "Home folder"
 
-#: ../usersetup:263 ../usersetup:281 ../usersetup:436 ../usersetup:687
+#: usersetup:212 usersetup:348 usersetup:571
 #, sh-format
 msgid "Shell"
 msgstr "Shell"
 
-#: ../usersetup:264 ../usersetup:282 ../usersetup:683
+#: usersetup:213 usersetup:567
 #, sh-format
 msgid "Other groups"
 msgstr "Andere groepen"
 
-#: ../usersetup:265 ../usersetup:283 ../usersetup:691
+#: usersetup:214 usersetup:575
 #, sh-format
 msgid "Expiry"
 msgstr "Verstrijk"
 
-#: ../usersetup:266 ../usersetup:284 ../usersetup:699
+#: usersetup:215 usersetup:583
 #, sh-format
 msgid "Office"
 msgstr "Kantoor"
 
-#: ../usersetup:267 ../usersetup:285 ../usersetup:613 ../usersetup:703
+#: usersetup:216 usersetup:500 usersetup:587
 #, sh-format
 msgid "Work phone"
 msgstr "Telefoon werk"
 
-#: ../usersetup:268 ../usersetup:286 ../usersetup:628 ../usersetup:707
+#: usersetup:217 usersetup:514 usersetup:591
 #, sh-format
 msgid "Home phone"
 msgstr "Telefoon thuis"
 
-#: ../usersetup:315 ../usersetup:326 ../usersetup:338
+#: usersetup:244 usersetup:254
 #, sh-format
 msgid "Group members"
 msgstr "Groepsleden"
 
-#: ../usersetup:320 ../usersetup:331
+#: usersetup:248
 #, sh-format
 msgid "Members of group"
 msgstr "Groepsleden"
 
-#: ../usersetup:341
+#: usersetup:256
 #, sh-format
 msgid "There are no accounts in group"
 msgstr "Er zijn geen accounts in de groep aanwezig"
 
-#: ../usersetup:355
+#: usersetup:269
 #, sh-format
 msgid "Enter the new account name..."
 msgstr "Voer de nieuwe account naam in..."
 
-#: ../usersetup:364
+#: usersetup:278
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
 msgstr "Een accountnaam kan geen spatie bevatten, corrigeer dit alstublieft..."
 
-#: ../usersetup:366
+#: usersetup:280
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
 msgstr "De accountnaam $user bestaat reeds, kies een andere naam..."
 
-#: ../usersetup:368
+#: usersetup:282
 #, sh-format
 msgid "The account name is empty, please correct it..."
 msgstr "De accountnaam is leeg, corrigeer dit alsublieft..."
 
-#: ../usersetup:370
+#: usersetup:284
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr "Een accountnaam mag niet beginnen met een nummer, corrigeer dit alsublieft..."
+msgstr ""
+"Een accountnaam mag niet beginnen met een nummer, corrigeer dit alsublieft..."
 
-#: ../usersetup:372
+#: usersetup:286
 #, sh-format
-msgid "An account name cannot contain uppercase characters, please correct it..."
-msgstr "Een accountnaam mag geen hoofdletters bevatten, corrigeer dit alsublieft..."
+msgid ""
+"An account name cannot contain uppercase characters, please correct it..."
+msgstr ""
+"Een accountnaam mag geen hoofdletters bevatten, corrigeer dit alsublieft..."
 
-#: ../usersetup:374
+#: usersetup:288
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr "Een accountnaam mag geen leestekens bevatten, corrigeer dit alsublieft..."
+msgstr ""
+"Een accountnaam mag geen leestekens bevatten, corrigeer dit alsublieft..."
 
-#: ../usersetup:392
+#: usersetup:306
 #, sh-format
 msgid "Group membership"
 msgstr "Groepslidmaatschap"
 
-#: ../usersetup:394 ../usersetup:411 ../usersetup:438 ../usersetup:459
-#: ../usersetup:485 ../usersetup:585 ../usersetup:600 ../usersetup:615
-#: ../usersetup:630 ../usersetup:647
+#: usersetup:307 usersetup:323 usersetup:349 usersetup:369 usersetup:394
+#: usersetup:473 usersetup:487 usersetup:501 usersetup:515 usersetup:531
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: ../usersetup:397
+#: usersetup:310
 #, sh-format
 msgid "Enter the main group for account"
 msgstr "Voer de hoofdgroep voor de account in"
 
-#: ../usersetup:413
+#: usersetup:325
 #, sh-format
 msgid "Enter the home directory for account"
 msgstr "Voer de home folder voor de account in"
 
-#: ../usersetup:441
+#: usersetup:352
 #, sh-format
 msgid "Enter the shell interpreter for account"
 msgstr "Betreedt de shell interpreter voor het account"
 
-#: ../usersetup:457
+#: usersetup:368
 #, sh-format
 msgid "Additional group membership"
 msgstr "Aanvullende groepslidmaatschappen"
 
-#: ../usersetup:461
+#: usersetup:371
 #, sh-format
 msgid "Add some additional group to the list..."
 msgstr "Voeg een extra groep tot de lijst toe..."
 
-#: ../usersetup:483
+#: usersetup:393
 #, sh-format
 msgid "Expiry date"
 msgstr "Vervaldatum"
 
-#: ../usersetup:486
+#: usersetup:395
 #, sh-format
 msgid "Never"
 msgstr "Nooit"
 
-#: ../usersetup:489
+#: usersetup:398
 #, sh-format
 msgid "Set the account expiry date..."
 msgstr "Stel de account vervaldatum in..."
 
-#: ../usersetup:507 ../usersetup:560
-#, sh-format
-msgid "Password"
-msgstr "Wachtwoord"
-
-#: ../usersetup:537
+#: usersetup:434
 #, sh-format
 msgid "Enter password for account"
 msgstr "Voer het wachtwoord voor de account in"
 
-#: ../usersetup:538
+#: usersetup:435
 #, sh-format
 msgid "Passwords do not match, please try again..."
 msgstr "Wachtwoorden komen niet overeen, probeer het opnieuw alstublieft..."
 
-#: ../usersetup:541
+#: usersetup:438
 #, sh-format
-msgid "Password is too short (${minlength} chars minimum), please try another one..."
-msgstr "Het wachtwoord is te kort (${minlength} chars minimum), probeert u een ander wachtwoord alstublieft..."
+msgid ""
+"Password is too short (${minlength} chars minimum), please try another one..."
+msgstr ""
+"Het wachtwoord is te kort (${minlength} chars minimum), probeert u een ander "
+"wachtwoord alstublieft..."
 
-#: ../usersetup:544
+#: usersetup:441
 #, sh-format
 msgid "Enter password again for account"
 msgstr "Voer opnieuw het wachtwoord in voor het account"
 
-#: ../usersetup:569
+#: usersetup:458
 #, sh-format
 msgid "Failed to set password for account"
 msgstr "Het is mislukt om het wachtwoord in te stellen voor de account"
 
-#: ../usersetup:587
+#: usersetup:475
 #, sh-format
 msgid "Enter the full name of the user"
 msgstr "Geef de volledige naam van de gebruiker"
 
-#: ../usersetup:598
+#: usersetup:486
 #, sh-format
 msgid "Office information"
 msgstr "Kantoor informatie"
 
-#: ../usersetup:602
+#: usersetup:489
 #, sh-format
 msgid "Enter office information for the user"
 msgstr "Voer de kantoor informatie in voor de gebruiker"
 
-#: ../usersetup:617
+#: usersetup:503
 #, sh-format
 msgid "Enter the work phone number of the user"
 msgstr "Voer het werktelefoonnummer van de gebruiker in"
 
-#: ../usersetup:632
+#: usersetup:517
 #, sh-format
 msgid "Enter the home phone number of the user"
 msgstr "Voer het telefoonnummer thuis van de gebruiker in"
 
-#: ../usersetup:649
+#: usersetup:533
 #, sh-format
 msgid "Enter the new group name"
 msgstr "Voer de nieuwe groepsnaam in"
 
-#: ../usersetup:744 ../usersetup:765 ../usersetup:774 ../usersetup:838
+#: usersetup:628 usersetup:649 usersetup:658 usersetup:722
 #, sh-format
 msgid "Warning"
 msgstr "Waarschuwing"
 
-#: ../usersetup:774
+#: usersetup:658
 #, sh-format
 msgid "You cannot delete the account"
 msgstr "U kunt de account niet verwijderen"
 
-#: ../usersetup:776
+#: usersetup:660
 #, sh-format
 msgid "Confirm user deletion"
 msgstr "Bevestig de verwijdering van de gebruiker"
 
-#: ../usersetup:778 ../usersetup:842
+#: usersetup:662 usersetup:726
 #, sh-format
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../usersetup:780
+#: usersetup:664
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
 msgstr "Weet u zeker dat u de gebruiker $user wilt verwijderen?"
 
-#: ../usersetup:838
+#: usersetup:722
 #, sh-format
 msgid "You cannot delete the group"
 msgstr "U kunt de groep niet verwijderen"
 
-#: ../usersetup:840
+#: usersetup:724
 #, sh-format
 msgid "Confirm group deletion"
 msgstr "Bevestig het verwijderen van de groep"
 
-#: ../usersetup:844
+#: usersetup:728
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "Weet u zeker dat u de groep $group wilt verwijderen?"
+
+#~ msgid "Password"
+#~ msgstr "Wachtwoord"

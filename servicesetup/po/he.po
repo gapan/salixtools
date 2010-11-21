@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-11-05 13:59+0200\n"
 "Last-Translator: my name <email@address.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,27 +15,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: servicesetup:79
+#: servicesetup:65
 #, sh-format
 msgid "Startup services"
 msgstr "שירותי אתחול"
 
-#: servicesetup:81
+#: servicesetup:66
 #, sh-format
 msgid "OK"
 msgstr "אישור"
 
-#: servicesetup:82
+#: servicesetup:67
 #, sh-format
 msgid "Exit"
 msgstr "יציאה"
 
-#: servicesetup:85
+#: servicesetup:70
 #, sh-format
 msgid "The selected services will be started at boot time:"
 msgstr "השירותים הנבחרים יופעלו בזמן הפעלת המערכת:"
 
-#: servicesetup:94
+#: servicesetup:79
 #, sh-format
 msgid "The $service service"
 msgstr "סוג השירות: $service"

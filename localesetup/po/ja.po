@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-10 12:36+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: tsuren <hydrangea_and_snail@hotmail.com>\n"
 "Language-Team: \n"
@@ -12,53 +12,52 @@ msgstr ""
 "X-Poedit-Language: Japanese\n"
 "X-Poedit-Country: JAPAN\n"
 
-#: ../localesetup:42
+#: localesetup:34
 #, sh-format
 msgid "USAGE: localesetup [locale]"
 msgstr "使用法: ローカル設定 [locale]"
 
-#: ../localesetup:43
+#: localesetup:35
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
 msgstr "使用例: localesetup en_US"
 
-#: ../localesetup:48
+#: localesetup:40
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "エラー: アーギュメントが多すぎます。"
 
-#: ../localesetup:56
+#: localesetup:48
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr "ローカルを $locale　に設定する。"
 
-#: ../localesetup:58
+#: localesetup:50
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "エラー: $newlocale は、正規のローカルではありません。"
 
-#: ../localesetup:83
+#: localesetup:75
 #, sh-format
 msgid "System language configuration"
 msgstr "システム用言語設定"
 
-#: ../localesetup:85
+#: localesetup:77
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: ../localesetup:86
+#: localesetup:78
 #, sh-format
 msgid "Exit"
 msgstr "閉じる"
 
-#: ../localesetup:89
+#: localesetup:80
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "現行のローカルは、$currentlocaleです。"
 
-#: ../localesetup:90
+#: localesetup:81
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "システム用の言語を選択してください。"
-

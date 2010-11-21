@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,27 +16,27 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: servicesetup:79
+#: servicesetup:65
 #, sh-format
 msgid "Startup services"
 msgstr ""
 
-#: servicesetup:81
+#: servicesetup:66
 #, sh-format
 msgid "OK"
 msgstr ""
 
-#: servicesetup:82
+#: servicesetup:67
 #, sh-format
 msgid "Exit"
 msgstr ""
 
-#: servicesetup:85
+#: servicesetup:70
 #, sh-format
 msgid "The selected services will be started at boot time:"
 msgstr ""
 
-#: servicesetup:94
+#: servicesetup:79
 #, sh-format
 msgid "The $service service"
 msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-10 12:36+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Thorsten Mühlfelder <thenktor@gmx.de>\n"
 "Language-Team: \n"
@@ -11,53 +11,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: German\n"
 
-#: ../localesetup:42
+#: localesetup:34
 #, sh-format
 msgid "USAGE: localesetup [locale]"
 msgstr "ANWENDUNG: localesetup [Sprache]"
 
-#: ../localesetup:43
+#: localesetup:35
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
 msgstr "BEISPIEL: localesetup de_DE"
 
-#: ../localesetup:48
+#: localesetup:40
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "FEHLER: Zu viele Argumente"
 
-#: ../localesetup:56
+#: localesetup:48
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr "Setze die Sprache auf $locale"
 
-#: ../localesetup:58
+#: localesetup:50
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "FEHLER: $newlocale ist keine gültige Spracheinstellung"
 
-#: ../localesetup:83
+#: localesetup:75
 #, sh-format
 msgid "System language configuration"
 msgstr "Konfiguration der Sprach- und Ländereinstellung"
 
-#: ../localesetup:85
+#: localesetup:77
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: ../localesetup:86
+#: localesetup:78
 #, sh-format
 msgid "Exit"
 msgstr "Beenden"
 
-#: ../localesetup:89
+#: localesetup:80
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "Momentan ist die Sprache auf $currentlocale gesetzt."
 
-#: ../localesetup:90
+#: localesetup:81
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Bitte wählen Sie ihre bevorzugte Sprache:"
-

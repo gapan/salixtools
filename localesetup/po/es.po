@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools.localesetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-10 12:36+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-03-24 00:55-0300\n"
 "Last-Translator: seacat <seacat.lang@gmail.com>\n"
 "Language-Team:  <seacat.lang@gmail.com>\n"
@@ -17,53 +17,52 @@ msgstr ""
 "X-Poedit-Language: Spanish\n"
 "X-Poedit-Country: ARGENTINA\n"
 
-#: ../localesetup:42
+#: localesetup:34
 #, sh-format
 msgid "USAGE: localesetup [locale]"
 msgstr "USO: localesetup [localización]"
 
-#: ../localesetup:43
+#: localesetup:35
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
 msgstr "EJEMPLO: localesetup es_AR"
 
-#: ../localesetup:48
+#: localesetup:40
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ERROR: Demasiados argumentos"
 
-#: ../localesetup:56
+#: localesetup:48
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr "Configurar locaización a $locale"
 
-#: ../localesetup:58
+#: localesetup:50
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "ERROR: $newlocale no es una localizaqción válida"
 
-#: ../localesetup:83
+#: localesetup:75
 #, sh-format
 msgid "System language configuration"
 msgstr "Configuración del idioma del sistema"
 
-#: ../localesetup:85
+#: localesetup:77
 #, sh-format
 msgid "OK"
 msgstr "Aceptar"
 
-#: ../localesetup:86
+#: localesetup:78
 #, sh-format
 msgid "Exit"
 msgstr "Salir"
 
-#: ../localesetup:89
+#: localesetup:80
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "La localización actual es $currentlocale."
 
-#: ../localesetup:90
+#: localesetup:81
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Por favor seleccione su idioma preferido del sistema:"
-

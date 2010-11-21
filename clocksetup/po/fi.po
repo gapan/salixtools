@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-25 21:11+0200\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: markus muttilainen <stillborn.zenwalk@gmail.com>\n"
 "Language-Team: \n"
@@ -13,178 +13,188 @@ msgstr ""
 "X-Poedit-Language: Finnish\n"
 "X-Poedit-Country: FINLAND\n"
 
-#: ../clocksetup:49
+#: clocksetup:49
 #, sh-format
 msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
 msgstr "KÄYTTÖ: clocksetup [[-c ] [-d] [-t] [-z]]"
 
-#: ../clocksetup:51
+#: clocksetup:51
 #, sh-format
 msgid "OPTIONS:"
 msgstr "VAIHTOEHDOT:"
 
-#: ../clocksetup:53
+#: clocksetup:53
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
 msgstr "   -c,   näytä vain laitteistokellon asetukset"
 
-#: ../clocksetup:54
+#: clocksetup:54
 #, sh-format
 msgid "   -d,   only show the date configuration dialog"
 msgstr "   -d,   näytä vain päiväyksen asetukset"
 
-#: ../clocksetup:55
+#: clocksetup:55
 #, sh-format
 msgid "   -t,   only show the time configuration dialog"
 msgstr "   -t,   näytä vain ajan asetukset"
 
-#: ../clocksetup:56
+#: clocksetup:56
 #, sh-format
 msgid "   -z,   only show the timezone configuration dialog"
 msgstr "   -z,   näytä vain aikavyöhykkeen asetukset"
 
-#: ../clocksetup:57
+#: clocksetup:57
 #, sh-format
 msgid "   -h,   this help message"
 msgstr "   -h,   tämä viesti"
 
-#: ../clocksetup:96
+#: clocksetup:96
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "VIRHE: Liian monta argumenttia"
 
-#: ../clocksetup:106 ../clocksetup:170 ../clocksetup:191 ../clocksetup:212
-#: ../clocksetup:262
+#: clocksetup:106 clocksetup:170 clocksetup:191 clocksetup:212 clocksetup:262
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: ../clocksetup:107
+#: clocksetup:107
 #, sh-format
 msgid "Exit"
 msgstr "Poistu"
 
-#: ../clocksetup:108
+#: clocksetup:108
 #, sh-format
 msgid "System clock configuration"
 msgstr "Järjestelmän ajan asetukset"
 
-#: ../clocksetup:110
+#: clocksetup:110
 #, sh-format
 msgid "Currently the clock is set to:"
 msgstr "Nykyinen aika on:"
 
-#: ../clocksetup:111
+#: clocksetup:111
 #, sh-format
 msgid "Please choose an option:"
 msgstr "Ole hyvä ja valitse vaihtoehto:"
 
-#: ../clocksetup:113
+#: clocksetup:113
 #, sh-format
 msgid "Set the time manually"
 msgstr "Aseta aika käsin"
 
-#: ../clocksetup:114
+#: clocksetup:114
 #, sh-format
 msgid "Set the date manually"
 msgstr "Aseta päiväys käsin"
 
-#: ../clocksetup:115
+#: clocksetup:115
 #, sh-format
 msgid "Set the time zone"
 msgstr "Aseta aikavyöhyke"
 
-#: ../clocksetup:116
+#: clocksetup:116
 #, sh-format
 msgid "Configure the hardware clock"
 msgstr "Muuta laitteistokellon asetuksia"
 
-#: ../clocksetup:117
+#: clocksetup:117
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
 msgstr "Synkronoi verkon aikapalvelimen kanssa (NTP)"
 
-#: ../clocksetup:169
+#: clocksetup:169
 #, sh-format
 msgid "Clock adjustment"
 msgstr "Ajan asetus"
 
-#: ../clocksetup:171 ../clocksetup:192 ../clocksetup:213 ../clocksetup:263
+#: clocksetup:171 clocksetup:192 clocksetup:213 clocksetup:263
 #, sh-format
 msgid "Cancel"
 msgstr "Peruuta"
 
-#: ../clocksetup:173
+#: clocksetup:173
 #, sh-format
 msgid "Please set the time..."
 msgstr "Ole hyvä ja aseta aika..."
 
-#: ../clocksetup:190
+#: clocksetup:190
 #, sh-format
 msgid "Date adjustment"
 msgstr "Päiväyksen asetus"
 
-#: ../clocksetup:194
+#: clocksetup:194
 #, sh-format
 msgid "Please set the date..."
 msgstr "Ole hyvä ja aseta päiväys..."
 
-#: ../clocksetup:214
+#: clocksetup:214
 #, sh-format
 msgid "Time zone configuration"
 msgstr "Aikavyöhykkeen asetukset"
 
-#: ../clocksetup:216
+#: clocksetup:216
 #, sh-format
 msgid "Please select your time zone..."
 msgstr "Ole hyvä ja valitse aikavyöhyke..."
 
-#: ../clocksetup:236
+#: clocksetup:236
 #, sh-format
 msgid "Warning"
 msgstr "Varoitus"
 
-#: ../clocksetup:238
+#: clocksetup:238
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
 msgstr "Käytät jo verkon aikapalvelinta ja ajan pitäisi olla oikein."
 
-#: ../clocksetup:242
+#: clocksetup:242
 #, sh-format
 msgid "Error"
 msgstr "Virhe"
 
-#: ../clocksetup:244
+#: clocksetup:244
 #, sh-format
 msgid "Something went wrong. Time was not adjusted."
 msgstr "Jotain meni väärin. Aikaa ei asetettu."
 
-#: ../clocksetup:264
-#, sh-format
-msgid "Hardware clock configuration"
-msgstr "Laitteistokellon asetukset"
+#: clocksetup:264
+#, fuzzy, sh-format
+msgid "Hardware clock set to UTC?"
+msgstr "Laitteistokellon asetus on UTC"
 
-#: ../clocksetup:266
+#: clocksetup:266
 #, sh-format
-msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
-msgstr "Onko laitteistokellon asetus Coordinated Universal Time (UTC/GMT)? Jos on, valitse tähän KYLLÄ.  Jos laitteistokellon asetus on nykyinen paikallinen aika (kuten useimmissa PC:ssä), niin laita tähän EI.  Jos et ole varma mikä tämä on, laita tähän EI."
+msgid ""
+"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
+"select YES here.  If the hardware clock is set to the current local time "
+"(this is how most PCs are set up), then say NO here.  If you are not sure "
+"what this is, you should answer NO here."
+msgstr ""
+"Onko laitteistokellon asetus Coordinated Universal Time (UTC/GMT)? Jos on, "
+"valitse tähän KYLLÄ.  Jos laitteistokellon asetus on nykyinen paikallinen "
+"aika (kuten useimmissa PC:ssä), niin laita tähän EI.  Jos et ole varma mikä "
+"tämä on, laita tähän EI."
 
-#: ../clocksetup:267
+#: clocksetup:267
 #, sh-format
 msgid "No"
 msgstr "Ei"
 
-#: ../clocksetup:267
+#: clocksetup:267
 #, sh-format
 msgid "Hardware clock is set to local time"
 msgstr "Laitteistokellon asetus on paikallinen aika"
 
-#: ../clocksetup:268
+#: clocksetup:268
 #, sh-format
 msgid "Yes"
 msgstr "Kyllä"
 
-#: ../clocksetup:268
+#: clocksetup:268
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr "Laitteistokellon asetus on UTC"
+
+#~ msgid "Hardware clock configuration"
+#~ msgstr "Laitteistokellon asetukset"

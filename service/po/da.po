@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: service\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-13 19:13+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-04-03 19:30+0200\n"
 "Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "${BOLDCYAN}Starter${COLOR_RESET} tjenesten ${BOLDWHITE}${servicename}"
 "${COLOR_RESET}"
 
-#: service:51 service:81
+#: service:51 service:63 service:81
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "Tjenesten ${BOLDWHITE}${servicename}${COLOR_RESET} findes ikke"

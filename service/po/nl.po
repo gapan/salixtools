@@ -2,12 +2,12 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the service package.
 # Imar van Erven Dorens <gambit73@gmail.com>, 2010.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-13 19:13+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-05-05 20:57+0100\n"
 "Last-Translator: Imar van Erven Dorens <gambit73@gmail.com>\n"
 "Language-Team: Dutch <LL@li.org>\n"
@@ -17,23 +17,35 @@ msgstr ""
 
 #: service:47
 #, sh-format
-msgid "${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}opgestart{COLOR_RESET}"
+msgid ""
+"${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}"
+"${COLOR_RESET} service"
+msgstr ""
+"De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}"
+"opgestart{COLOR_RESET}"
 
-#: service:51 service:81
+#: service:51 service:63 service:81
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "Geen ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 
 #: service:57
 #, sh-format
-msgid "${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDYELLOW}gestopt${COLOR_RESET}"
+msgid ""
+"${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}"
+"${COLOR_RESET} service"
+msgstr ""
+"De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDYELLOW}"
+"gestopt${COLOR_RESET}"
 
 #: service:70
 #, sh-format
-msgid "${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}herstart${COLOR_RESET}"
+msgid ""
+"${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}"
+"${COLOR_RESET} service"
+msgstr ""
+"De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}herstart"
+"${COLOR_RESET}"
 
 #: service:90
 #, sh-format

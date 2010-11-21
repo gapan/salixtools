@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-23 11:48+0200\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-03-12 15:01-0300\n"
 "Last-Translator: Willian Gustavo Veiga <wiltave@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,32 +16,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # Os valores dos parâmetros não foram traduzidos.
-#: ../keyboardsetup:48
+#: keyboardsetup:60
 #, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 msgstr "USO: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
-#: ../keyboardsetup:50
+#: keyboardsetup:62
 #, sh-format
 msgid "OPTIONS:"
 msgstr "OPÇÕES:"
 
-#: ../keyboardsetup:52
+#: keyboardsetup:64
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr "   -k keymap,         um mapa de teclado válido"
 
-#: ../keyboardsetup:53
+#: keyboardsetup:65
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlockstate,   o estado do teclado, on ou off"
 
-#: ../keyboardsetup:54
+#: keyboardsetup:66
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr "   -s scimstate,      o estado do SCIM, on ou off"
 
-#: ../keyboardsetup:104
+#: keyboardsetup:67
+#, sh-format
+msgid ""
+"   -z,                do not apply changes on the fly, only edit settings "
+"files"
+msgstr ""
+
+#: keyboardsetup:117
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
@@ -50,62 +57,62 @@ msgstr ""
 "ERRO: $OPTARG não é um mapa de teclado válido. Você pode olhar uma lista "
 "válida de mapas de teclado em $keymapsdir/keymaps"
 
-#: ../keyboardsetup:118 ../keyboardsetup:127
+#: keyboardsetup:131 keyboardsetup:140
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "ERRO: $OPTARG não é uma opção válida."
 
-#: ../keyboardsetup:139
+#: keyboardsetup:157
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ERRO: Muitos argumentos"
 
-#: ../keyboardsetup:177
+#: keyboardsetup:207
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Configuração do teclado"
 
-#: ../keyboardsetup:179
+#: keyboardsetup:209
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: ../keyboardsetup:180
+#: keyboardsetup:210
 #, sh-format
 msgid "Exit"
 msgstr "Sair"
 
-#: ../keyboardsetup:183
+#: keyboardsetup:213
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Por favor selecione o seu mapa de teclado preferido:"
 
-#: ../keyboardsetup:206
+#: keyboardsetup:236
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Configuração do Numlock"
 
-#: ../keyboardsetup:207 ../keyboardsetup:233
+#: keyboardsetup:237 keyboardsetup:263
 #, sh-format
 msgid "Enabled"
 msgstr "Habilidade"
 
-#: ../keyboardsetup:208 ../keyboardsetup:234
+#: keyboardsetup:238 keyboardsetup:264
 #, sh-format
 msgid "Disabled"
 msgstr "Desabilitado"
 
-#: ../keyboardsetup:212
+#: keyboardsetup:242
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Você quer ter o numlock habilitado ou desabilitado por padrão?"
 
-#: ../keyboardsetup:232
+#: keyboardsetup:262
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Configuração do SCIM"
 
-#: ../keyboardsetup:238
+#: keyboardsetup:268
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "

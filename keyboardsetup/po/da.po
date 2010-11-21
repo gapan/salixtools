@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keyboardsetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-23 11:48+0200\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-04-20 13:23+0200\n"
 "Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -15,32 +15,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../keyboardsetup:48
+#: keyboardsetup:60
 #, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 msgstr "BRUG: keyboardsetup [[-k tasteudlægning] [-n numlock] [-s scimstatus]]"
 
-#: ../keyboardsetup:50
+#: keyboardsetup:62
 #, sh-format
 msgid "OPTIONS:"
 msgstr "TILVALG:"
 
-#: ../keyboardsetup:52
+#: keyboardsetup:64
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr "   -k tasteudlægning,         en gyldig tastaturudlægning"
 
-#: ../keyboardsetup:53
+#: keyboardsetup:65
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlock,   status for numlock, on eller off"
 
-#: ../keyboardsetup:54
+#: keyboardsetup:66
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr "   -s scimstatus,      status for SCIM, on eller off"
 
-#: ../keyboardsetup:104
+#: keyboardsetup:67
+#, sh-format
+msgid ""
+"   -z,                do not apply changes on the fly, only edit settings "
+"files"
+msgstr ""
+
+#: keyboardsetup:117
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
@@ -49,62 +56,62 @@ msgstr ""
 "FEJL: $OPTARG er ikke en gyldig tasteudlægning. Du kan finde en liste over "
 "gyldige tastaturudlægninger i $keymapsdir/keymaps"
 
-#: ../keyboardsetup:118 ../keyboardsetup:127
+#: keyboardsetup:131 keyboardsetup:140
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "FEJL: $OPTARG er ikke et gyldigt tilvalg."
 
-#: ../keyboardsetup:139
+#: keyboardsetup:157
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "FEJL: For mange argumenter"
 
-#: ../keyboardsetup:177
+#: keyboardsetup:207
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Konfiguration af tastatur"
 
-#: ../keyboardsetup:179
+#: keyboardsetup:209
 #, sh-format
 msgid "OK"
 msgstr "O.k."
 
-#: ../keyboardsetup:180
+#: keyboardsetup:210
 #, sh-format
 msgid "Exit"
 msgstr "Afslut"
 
-#: ../keyboardsetup:183
+#: keyboardsetup:213
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Vælg venligst din foretrukne tastaturudlægning:"
 
-#: ../keyboardsetup:206
+#: keyboardsetup:236
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Konfiguration af numlock"
 
-#: ../keyboardsetup:207 ../keyboardsetup:233
+#: keyboardsetup:237 keyboardsetup:263
 #, sh-format
 msgid "Enabled"
 msgstr "Aktiveret"
 
-#: ../keyboardsetup:208 ../keyboardsetup:234
+#: keyboardsetup:238 keyboardsetup:264
 #, sh-format
 msgid "Disabled"
 msgstr "Deaktiveret"
 
-#: ../keyboardsetup:212
+#: keyboardsetup:242
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Vil du have numlock aktiveret eller deaktiveret som standard?"
 
-#: ../keyboardsetup:232
+#: keyboardsetup:262
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Konfiguration af SCIM"
 
-#: ../keyboardsetup:238
+#: keyboardsetup:268
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "

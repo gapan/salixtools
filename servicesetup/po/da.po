@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: servicesetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-14 19:56+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-03-24 11:36+0100\n"
 "Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -15,27 +15,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: servicesetup:79
+#: servicesetup:65
 #, sh-format
 msgid "Startup services"
 msgstr "Start tjenester op"
 
-#: servicesetup:81
+#: servicesetup:66
 #, sh-format
 msgid "OK"
 msgstr "O.k."
 
-#: servicesetup:82
+#: servicesetup:67
 #, sh-format
 msgid "Exit"
 msgstr "Afslut"
 
-#: servicesetup:85
+#: servicesetup:70
 #, sh-format
 msgid "The selected services will be started at boot time:"
 msgstr "De valgte tjenester vil blive startet under opstarten:"
 
-#: servicesetup:94
+#: servicesetup:79
 #, sh-format
 msgid "The $service service"
 msgstr "Tjenesten $service"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: usersetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-26 19:17+0200\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-02-03 13:14+0200\n"
 "Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: Greek\n"
@@ -16,496 +16,425 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usersetup:70
-#: ../usersetup:90
+#: usersetup:49
 #, sh-format
 msgid "Select"
 msgstr "Επιλογή"
 
-#: ../usersetup:71
-#: ../usersetup:91
+#: usersetup:50
 #, sh-format
 msgid "Exit user setup"
 msgstr "Έξοδος"
 
-#: ../usersetup:72
-#: ../usersetup:92
+#: usersetup:51
 #, sh-format
 msgid "Users accounts management"
 msgstr "Διαχείρηση λογαριασμών χρηστών"
 
-#: ../usersetup:76
-#: ../usersetup:94
+#: usersetup:53
 #, sh-format
 msgid "Please choose an option..."
 msgstr "Επιλέξτε από τα παρακάτω..."
 
-#: ../usersetup:78
-#: ../usersetup:96
+#: usersetup:55
 #, sh-format
 msgid "Create a new account"
 msgstr "Δημιουργία νέου λογαριασμού"
 
-#: ../usersetup:79
-#: ../usersetup:97
+#: usersetup:56
 #, sh-format
 msgid "Create a new account (advanced mode)"
 msgstr "Δημιουργία νέου λογαριασμού (λεπτομερής)"
 
-#: ../usersetup:80
-#: ../usersetup:98
+#: usersetup:57
 #, sh-format
 msgid "Modify account properties"
 msgstr "Αλλαγή στοιχείων λογαριασμού χρήστη"
 
-#: ../usersetup:81
-#: ../usersetup:99
+#: usersetup:58
 #, sh-format
 msgid "Change account password"
 msgstr "Αλλαγή κωδικού χρήστη"
 
-#: ../usersetup:82
-#: ../usersetup:100
+#: usersetup:59
 #, sh-format
 msgid "Delete accounts"
 msgstr "Διαγραφή λογαριασμού"
 
-#: ../usersetup:83
-#: ../usersetup:101
+#: usersetup:60
 #, sh-format
 msgid "List groups and memberships"
 msgstr "Προβολή ομάδων χρηστών"
 
-#: ../usersetup:84
-#: ../usersetup:102
+#: usersetup:61
 #, sh-format
 msgid "Create a new group"
 msgstr "Δημιουργία νέας ομάδας"
 
-#: ../usersetup:85
-#: ../usersetup:103
+#: usersetup:62
 #, sh-format
 msgid "Change group name"
 msgstr "Αλλαγή ονόματος ομάδας"
 
-#: ../usersetup:86
-#: ../usersetup:104
+#: usersetup:63
 #, sh-format
 msgid "Delete groups"
 msgstr "Διαγραφή ομάδας"
 
-#: ../usersetup:122
-#: ../usersetup:252
-#: ../usersetup:271
+#: usersetup:79 usersetup:202
 #, sh-format
 msgid "Account properties"
 msgstr "Στοιχεία λογαριασμού χρήστη"
 
-#: ../usersetup:124
-#: ../usersetup:316
-#: ../usersetup:327
+#: usersetup:80 usersetup:245
 #, sh-format
 msgid "Properties"
 msgstr "Στοιχεία χρήστη"
 
-#: ../usersetup:125
-#: ../usersetup:143
-#: ../usersetup:161
-#: ../usersetup:179
-#: ../usersetup:197
-#: ../usersetup:216
-#: ../usersetup:254
-#: ../usersetup:273
-#: ../usersetup:317
-#: ../usersetup:328
+#: usersetup:81 usersetup:98 usersetup:115 usersetup:132 usersetup:149
+#: usersetup:167 usersetup:204 usersetup:246
 #, sh-format
 msgid "Back"
 msgstr "Επιστροφή"
 
-#: ../usersetup:127
+#: usersetup:83
 #, sh-format
 msgid "Select an account to view its properties..."
 msgstr "Επιλέξτε ένα λογαριασμό χρήστη για να δείτε τα στοιχεία του..."
 
-#: ../usersetup:140
+#: usersetup:96
 #, sh-format
 msgid "Account deletion"
 msgstr "Διαγραφή λογαριασμού χρήστη"
 
-#: ../usersetup:142
-#: ../usersetup:215
-#: ../usersetup:777
-#: ../usersetup:841
+#: usersetup:97 usersetup:166 usersetup:661 usersetup:725
 #, sh-format
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: ../usersetup:145
+#: usersetup:100
 #, sh-format
 msgid "Select an account to delete..."
 msgstr "Επιλέξτε το λογαριασμό χρήστη προς διαγραφή..."
 
-#: ../usersetup:158
+#: usersetup:113
 #, sh-format
 msgid "Change password"
 msgstr "Αλλαγή κωδικού"
 
-#: ../usersetup:160
+#: usersetup:114
 #, sh-format
 msgid "Change"
 msgstr "Αλλαγή"
 
-#: ../usersetup:163
+#: usersetup:117
 #, sh-format
 msgid "Select an account to change password for..."
 msgstr "Επιλέξτε το λογαριασμό χρήστη για αλλαγή κωδικού..."
 
-#: ../usersetup:176
+#: usersetup:130
 #, sh-format
 msgid "Group memberships"
 msgstr "Συμμετοχή σε ομάδες"
 
-#: ../usersetup:178
+#: usersetup:131
 #, sh-format
 msgid "Memberships"
 msgstr "Συμμετοχή"
 
-#: ../usersetup:181
+#: usersetup:134
 #, sh-format
 msgid "Select a group to view memberships for..."
 msgstr "Επιλέξετε μία ομάδα για να δείτε τους χρήστες που περιλαμβάνει..."
 
-#: ../usersetup:194
-#: ../usersetup:645
+#: usersetup:147 usersetup:530
 #, sh-format
 msgid "Group name"
 msgstr "Όνομα ομάδας"
 
-#: ../usersetup:196
-#: ../usersetup:253
-#: ../usersetup:272
+#: usersetup:148 usersetup:203
 #, sh-format
 msgid "Modify"
 msgstr "Αλλαγή"
 
-#: ../usersetup:199
+#: usersetup:151
 #, sh-format
 msgid "Select group name to modify..."
 msgstr "Επιλέξετε μία ομάδα για αλλαγή του ονόματός της..."
 
-#: ../usersetup:213
+#: usersetup:165
 #, sh-format
 msgid "Group deletion"
 msgstr "Διαγραφή ομάδας"
 
-#: ../usersetup:218
+#: usersetup:169
 #, sh-format
 msgid "Select a group to delete..."
 msgstr "Επιλέξτε την ομάδα προς διαγραφή..."
 
-#: ../usersetup:257
-#: ../usersetup:275
+#: usersetup:206
 #, sh-format
 msgid "Detailed information for account"
 msgstr "Λεπτομερείς πληροφορίες λογαριασμού χρήστη"
 
-#: ../usersetup:259
-#: ../usersetup:277
-#: ../usersetup:583
-#: ../usersetup:695
+#: usersetup:208 usersetup:472 usersetup:579
 #, sh-format
 msgid "Full name"
 msgstr "Πλήρες όνομα"
 
-#: ../usersetup:260
-#: ../usersetup:278
-#: ../usersetup:352
-#: ../usersetup:671
+#: usersetup:209 usersetup:267 usersetup:555
 #, sh-format
 msgid "Account name"
 msgstr "Όνομα λογαριασμού"
 
-#: ../usersetup:261
-#: ../usersetup:279
-#: ../usersetup:675
+#: usersetup:210 usersetup:559
 #, sh-format
 msgid "Main Group"
 msgstr "Κύρια ομάδα"
 
-#: ../usersetup:262
-#: ../usersetup:280
-#: ../usersetup:409
-#: ../usersetup:679
+#: usersetup:211 usersetup:322 usersetup:563
 #, sh-format
 msgid "Home directory"
 msgstr "Βασικός κατάλογος χρήστη"
 
-#: ../usersetup:263
-#: ../usersetup:281
-#: ../usersetup:436
-#: ../usersetup:687
+#: usersetup:212 usersetup:348 usersetup:571
 #, sh-format
 msgid "Shell"
 msgstr "Κέλυφος"
 
-#: ../usersetup:264
-#: ../usersetup:282
-#: ../usersetup:683
+#: usersetup:213 usersetup:567
 #, sh-format
 msgid "Other groups"
 msgstr "Άλλες ομάδες"
 
-#: ../usersetup:265
-#: ../usersetup:283
-#: ../usersetup:691
+#: usersetup:214 usersetup:575
 #, sh-format
 msgid "Expiry"
 msgstr "Λήξη"
 
-#: ../usersetup:266
-#: ../usersetup:284
-#: ../usersetup:699
+#: usersetup:215 usersetup:583
 #, sh-format
 msgid "Office"
 msgstr "Γραφείο"
 
-#: ../usersetup:267
-#: ../usersetup:285
-#: ../usersetup:613
-#: ../usersetup:703
+#: usersetup:216 usersetup:500 usersetup:587
 #, sh-format
 msgid "Work phone"
 msgstr "Τηλέφωνο εργασίας"
 
-#: ../usersetup:268
-#: ../usersetup:286
-#: ../usersetup:628
-#: ../usersetup:707
+#: usersetup:217 usersetup:514 usersetup:591
 #, sh-format
 msgid "Home phone"
 msgstr "Τηλέφωνο σπιτιού"
 
-#: ../usersetup:315
-#: ../usersetup:326
-#: ../usersetup:338
+#: usersetup:244 usersetup:254
 #, sh-format
 msgid "Group members"
 msgstr "Μέλη ομάδας"
 
-#: ../usersetup:320
-#: ../usersetup:331
+#: usersetup:248
 #, sh-format
 msgid "Members of group"
 msgstr "Μέλη ομάδας"
 
-#: ../usersetup:341
+#: usersetup:256
 #, sh-format
 msgid "There are no accounts in group"
 msgstr "Δεν υπάρχουν λογαριασμοί στην ομάδα"
 
-#: ../usersetup:355
+#: usersetup:269
 #, sh-format
 msgid "Enter the new account name..."
 msgstr "Εισάγετε το νέο όνομα χρήστη..."
 
-#: ../usersetup:364
+#: usersetup:278
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
 msgstr "Το όνομα χρήστη δεν μπορεί να περιέχει τον κενό χαρακτήρα..."
 
-#: ../usersetup:366
+#: usersetup:280
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
 msgstr "Ο χρήστης $user υπάρχει ήδη, παρακαλώ επιλέξτε κάποιο άλλο όνομα..."
 
-#: ../usersetup:368
+#: usersetup:282
 #, sh-format
 msgid "The account name is empty, please correct it..."
 msgstr "Το όνομα χρήστη είναι κενό..."
 
-#: ../usersetup:370
+#: usersetup:284
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
 msgstr "Το όνομα χρήστη δεν μπορεί να ξεκινά με αριθμό..."
 
-#: ../usersetup:372
+#: usersetup:286
 #, sh-format
-msgid "An account name cannot contain uppercase characters, please correct it..."
+msgid ""
+"An account name cannot contain uppercase characters, please correct it..."
 msgstr "Το όνομα χρήστη δεν μπορεί να περιλαμβάνει κεφαλαία..."
 
-#: ../usersetup:374
+#: usersetup:288
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
 msgstr "Το όνομα χρήστη δεν μπορεί να περιλαμβάνει σημεία στήξης..."
 
-#: ../usersetup:392
+#: usersetup:306
 #, sh-format
 msgid "Group membership"
 msgstr "Συμμετοχή σε ομάδες"
 
-#: ../usersetup:394
-#: ../usersetup:411
-#: ../usersetup:438
-#: ../usersetup:459
-#: ../usersetup:485
-#: ../usersetup:585
-#: ../usersetup:600
-#: ../usersetup:615
-#: ../usersetup:630
-#: ../usersetup:647
+#: usersetup:307 usersetup:323 usersetup:349 usersetup:369 usersetup:394
+#: usersetup:473 usersetup:487 usersetup:501 usersetup:515 usersetup:531
 #, sh-format
 msgid "OK"
 msgstr "Εντάξει"
 
-#: ../usersetup:397
+#: usersetup:310
 #, sh-format
 msgid "Enter the main group for account"
 msgstr "Εισάγετε την κύρια ομάδα για το χρήστη"
 
-#: ../usersetup:413
+#: usersetup:325
 #, sh-format
 msgid "Enter the home directory for account"
 msgstr "Εισάγετε το βασικό κατάλογο του χρήστη"
 
-#: ../usersetup:441
+#: usersetup:352
 #, sh-format
 msgid "Enter the shell interpreter for account"
 msgstr "Εισάγετε το κέλυφος του χρήστη"
 
-#: ../usersetup:457
+#: usersetup:368
 #, sh-format
 msgid "Additional group membership"
 msgstr "Επιπρόσθετες πληροφορίες συμμετοχής σε ομάδες"
 
-#: ../usersetup:461
+#: usersetup:371
 #, sh-format
 msgid "Add some additional group to the list..."
 msgstr "Προσθήκη επιπλέον ομάδας στη λίστα..."
 
-#: ../usersetup:483
+#: usersetup:393
 #, sh-format
 msgid "Expiry date"
 msgstr "Ημερομηνία λήξης"
 
-#: ../usersetup:486
+#: usersetup:395
 #, sh-format
 msgid "Never"
 msgstr "Ποτέ"
 
-#: ../usersetup:489
+#: usersetup:398
 #, sh-format
 msgid "Set the account expiry date..."
 msgstr "Ορισμός ημερομηνίας λήξης λογαριασμού..."
 
-#: ../usersetup:507
-#: ../usersetup:560
-#, sh-format
-msgid "Password"
-msgstr "Κωδικός"
-
-#: ../usersetup:537
+#: usersetup:434
 #, sh-format
 msgid "Enter password for account"
 msgstr "Εισάγετε τον κωδικού του χρήστη"
 
-#: ../usersetup:538
+#: usersetup:435
 #, sh-format
 msgid "Passwords do not match, please try again..."
 msgstr "Οι κωδικοί δεν είναι ίδιοι, προσπαθήστε ξανά..."
 
-#: ../usersetup:541
+#: usersetup:438
 #, sh-format
-msgid "Password is too short (${minlength} chars minimum), please try another one..."
-msgstr "Ο κωδικός είναι πολύ μικρός (ελάχιστο ${minlength} χαρακτήρες), εισάγετε κάποιον άλλο κωδικό..."
+msgid ""
+"Password is too short (${minlength} chars minimum), please try another one..."
+msgstr ""
+"Ο κωδικός είναι πολύ μικρός (ελάχιστο ${minlength} χαρακτήρες), εισάγετε "
+"κάποιον άλλο κωδικό..."
 
-#: ../usersetup:544
+#: usersetup:441
 #, sh-format
 msgid "Enter password again for account"
 msgstr "Επανεισάγετε τον κωδικό του χρήστη"
 
-#: ../usersetup:569
+#: usersetup:458
 #, sh-format
 msgid "Failed to set password for account"
 msgstr "Αποτυχία ορισμού κωδικού χρήστη"
 
-#: ../usersetup:587
+#: usersetup:475
 #, sh-format
 msgid "Enter the full name of the user"
 msgstr "Εισάγετε το πλήρες όνομα του χρήστη"
 
-#: ../usersetup:598
+#: usersetup:486
 #, sh-format
 msgid "Office information"
 msgstr "Πληροφορίες γραφείου"
 
-#: ../usersetup:602
+#: usersetup:489
 #, sh-format
 msgid "Enter office information for the user"
 msgstr "Εισάγετε πληροφορίες γραφείου για το χρήστη"
 
-#: ../usersetup:617
+#: usersetup:503
 #, sh-format
 msgid "Enter the work phone number of the user"
 msgstr "Εισάγετε το τηλέφωνο εργασίας του χρήστη"
 
-#: ../usersetup:632
+#: usersetup:517
 #, sh-format
 msgid "Enter the home phone number of the user"
 msgstr "Εισάγετε το τηλέφωνο σπιτιού του χρήστη"
 
-#: ../usersetup:649
+#: usersetup:533
 #, sh-format
 msgid "Enter the new group name"
 msgstr "Εισάγετε το νέο όνομα ομάδας"
 
-#: ../usersetup:744
-#: ../usersetup:765
-#: ../usersetup:774
-#: ../usersetup:838
+#: usersetup:628 usersetup:649 usersetup:658 usersetup:722
 #, sh-format
 msgid "Warning"
 msgstr "Προειδοποίηση"
 
-#: ../usersetup:774
+#: usersetup:658
 #, sh-format
 msgid "You cannot delete the account"
 msgstr "Δεν μπορείτε να διαγράψετε το λογαριασμό"
 
-#: ../usersetup:776
+#: usersetup:660
 #, sh-format
 msgid "Confirm user deletion"
 msgstr "Επιβεβαίωση διαγραφής χρήστη"
 
-#: ../usersetup:778
-#: ../usersetup:842
+#: usersetup:662 usersetup:726
 #, sh-format
 msgid "Cancel"
 msgstr "Άκυρο"
 
-#: ../usersetup:780
+#: usersetup:664
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε το χρήστη $user;"
 
-#: ../usersetup:838
+#: usersetup:722
 #, sh-format
 msgid "You cannot delete the group"
 msgstr "Δεν μπορείτε να διαγράψετε την ομάδα"
 
-#: ../usersetup:840
+#: usersetup:724
 #, sh-format
 msgid "Confirm group deletion"
 msgstr "Επιβεβαίωση διαγραφής ομάδας"
 
-#: ../usersetup:844
+#: usersetup:728
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε την ομάδα $group;"
 
+#~ msgid "Password"
+#~ msgstr "Κωδικός"
+
 #~ msgid "Exit"
 #~ msgstr "Έξοδος"
+
 #~ msgid "Accounts list"
 #~ msgstr "Λίστα λογαριασμών"
+
 #~ msgid "Group list"
 #~ msgstr "Ομάδες χρηστών"
-

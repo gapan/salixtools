@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keyboardsetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-23 11:48+0200\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-09-26 11:45+0100\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
 "Language-Team: \n"
@@ -17,102 +17,113 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 
-#: ../keyboardsetup:48
+#: keyboardsetup:60
 #, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr "ANVÄNDNING: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
+msgstr ""
+"ANVÄNDNING: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
-#: ../keyboardsetup:50
+#: keyboardsetup:62
 #, sh-format
 msgid "OPTIONS:"
 msgstr "ALTERNATIV:"
 
-#: ../keyboardsetup:52
+#: keyboardsetup:64
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr "   -k keymap,         en giltig tangentbords layout"
 
-#: ../keyboardsetup:53
+#: keyboardsetup:65
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlockstate,   numlock status, on eller off"
 
-#: ../keyboardsetup:54
+#: keyboardsetup:66
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr "   -s scimstate,      SCIM status, on eller off"
 
-#: ../keyboardsetup:104
+#: keyboardsetup:67
 #, sh-format
-msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
-msgstr "FEL: $OPTARG är inte en giltig layout. Du kan titta i $keymapsdir/keymaps för en lista med giltiga layouter"
+msgid ""
+"   -z,                do not apply changes on the fly, only edit settings "
+"files"
+msgstr ""
 
-#: ../keyboardsetup:118
-#: ../keyboardsetup:127
+#: keyboardsetup:117
+#, sh-format
+msgid ""
+"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"FEL: $OPTARG är inte en giltig layout. Du kan titta i $keymapsdir/keymaps "
+"för en lista med giltiga layouter"
+
+#: keyboardsetup:131 keyboardsetup:140
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "FEL: $OPTARG är inte ett giltigt alternativ."
 
-#: ../keyboardsetup:139
+#: keyboardsetup:157
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "FEL: För många argument"
 
-#: ../keyboardsetup:177
+#: keyboardsetup:207
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Tangentbords konfiguration"
 
-#: ../keyboardsetup:179
+#: keyboardsetup:209
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: ../keyboardsetup:180
+#: keyboardsetup:210
 #, sh-format
 msgid "Exit"
 msgstr "Avsluta"
 
-#: ../keyboardsetup:183
+#: keyboardsetup:213
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Välj din önskade tangentbords layout:"
 
-#: ../keyboardsetup:206
+#: keyboardsetup:236
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Numlock konfiguration"
 
-#: ../keyboardsetup:207
-#: ../keyboardsetup:233
+#: keyboardsetup:237 keyboardsetup:263
 #, sh-format
 msgid "Enabled"
 msgstr "Aktiverad"
 
-#: ../keyboardsetup:208
-#: ../keyboardsetup:234
+#: keyboardsetup:238 keyboardsetup:264
 #, sh-format
 msgid "Disabled"
 msgstr "Avaktiverad"
 
-#: ../keyboardsetup:212
+#: keyboardsetup:242
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Vill du ha numlock aktiverad eller avaktiverad som standard?"
 
-#: ../keyboardsetup:232
+#: keyboardsetup:262
 #, sh-format
 msgid "SCIM configuration"
 msgstr "SCIM konfiguration"
 
-#: ../keyboardsetup:238
+#: keyboardsetup:268
 #, sh-format
 msgid ""
-"SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n"
-"\\n"
-"You will have to restart your system for this to take effect."
+"SCIM is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
 msgstr ""
-"SCIM är en inmatnings plattform för Kinesiska, Japanska, Koreanska och många fler språk vid användning av grafisk miljö. Vill du ha den aktiverad vid uppstart?\n"
+"SCIM är en inmatnings plattform för Kinesiska, Japanska, Koreanska och många "
+"fler språk vid användning av grafisk miljö. Vill du ha den aktiverad vid "
+"uppstart?\n"
 "\n"
 "Du måste starta om ditt system för att detta skall aktiveras."
-

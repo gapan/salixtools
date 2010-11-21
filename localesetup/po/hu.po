@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: localesetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-10 12:36+0300\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-07-21 21:05+0100\n"
 "Last-Translator: Peter Polonkai <polesz@nedudu.hu>\n"
 "Language-Team: Nedudu Team <nedudu@nedudu.hu>\n"
@@ -17,53 +17,52 @@ msgstr ""
 "X-Poedit-Language: Hungarian\n"
 "X-Poedit-Country: HUNGARY\n"
 
-#: ../localesetup:42
+#: localesetup:34
 #, sh-format
 msgid "USAGE: localesetup [locale]"
 msgstr "Használat: localesetup [lokalizáció]"
 
-#: ../localesetup:43
+#: localesetup:35
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
 msgstr "Példa: localesetup en_US"
 
-#: ../localesetup:48
+#: localesetup:40
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "HIBA: Túl sok paraméter"
 
-#: ../localesetup:56
+#: localesetup:48
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr "Nyelvi környezet beálítva erre $locale"
 
-#: ../localesetup:58
+#: localesetup:50
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "HIBA: $newlocale nem valós nyelvi környezet változó"
 
-#: ../localesetup:83
+#: localesetup:75
 #, sh-format
 msgid "System language configuration"
 msgstr "Rendszer nyelvi környezet konfiguráció"
 
-#: ../localesetup:85
+#: localesetup:77
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: ../localesetup:86
+#: localesetup:78
 #, sh-format
 msgid "Exit"
 msgstr "Kilépés"
 
-#: ../localesetup:89
+#: localesetup:80
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "A jelenlegi nyelvi környezet: $currentlocale"
 
-#: ../localesetup:90
+#: localesetup:81
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Kérem válassza ki az Ön által előnyben részesített nyelvet:"
-

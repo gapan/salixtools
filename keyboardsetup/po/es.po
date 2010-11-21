@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools.keyboardsetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-23 11:48+0200\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: 2010-03-24 01:05-0300\n"
 "Last-Translator: seacat <seacat.lang@gmail.com>\n"
 "Language-Team:  <seacat.lang@gmail.com>\n"
@@ -17,102 +17,111 @@ msgstr ""
 "X-Poedit-Language: Spanish\n"
 "X-Poedit-Country: ARGENTINA\n"
 
-#: ../keyboardsetup:48
+#: keyboardsetup:60
 #, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 msgstr "USO: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
-#: ../keyboardsetup:50
+#: keyboardsetup:62
 #, sh-format
 msgid "OPTIONS:"
 msgstr "OPCIONES:"
 
-#: ../keyboardsetup:52
+#: keyboardsetup:64
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr "   -k keymap,         un mapa de teclado válido"
 
-#: ../keyboardsetup:53
+#: keyboardsetup:65
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlockstate,   el estado de BloqNum, encendido o apagado"
 
-#: ../keyboardsetup:54
+#: keyboardsetup:66
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr "   -s scimstate,      el estado de SCIM, conextado o no"
 
-#: ../keyboardsetup:104
+#: keyboardsetup:67
 #, sh-format
-msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
-msgstr "ERROR: $OPTARG no es un mapa de teclado válido. Puede consultar en $keymapsdir/keymaps la lista de mapa de teclado válidos"
+msgid ""
+"   -z,                do not apply changes on the fly, only edit settings "
+"files"
+msgstr ""
 
-#: ../keyboardsetup:118
-#: ../keyboardsetup:127
+#: keyboardsetup:117
+#, sh-format
+msgid ""
+"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"ERROR: $OPTARG no es un mapa de teclado válido. Puede consultar en "
+"$keymapsdir/keymaps la lista de mapa de teclado válidos"
+
+#: keyboardsetup:131 keyboardsetup:140
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "ERROR: $OPTARG no es una opción válida."
 
-#: ../keyboardsetup:139
+#: keyboardsetup:157
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ERROR: Demasiados argumentos"
 
-#: ../keyboardsetup:177
+#: keyboardsetup:207
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Configuración del teclado"
 
-#: ../keyboardsetup:179
+#: keyboardsetup:209
 #, sh-format
 msgid "OK"
 msgstr "Aceptar"
 
-#: ../keyboardsetup:180
+#: keyboardsetup:210
 #, sh-format
 msgid "Exit"
 msgstr "Salir"
 
-#: ../keyboardsetup:183
+#: keyboardsetup:213
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Por favor, seleccione su mapa de teclado preferido:"
 
-#: ../keyboardsetup:206
+#: keyboardsetup:236
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Configuración de BloqNum"
 
-#: ../keyboardsetup:207
-#: ../keyboardsetup:233
+#: keyboardsetup:237 keyboardsetup:263
 #, sh-format
 msgid "Enabled"
 msgstr "Habilitado"
 
-#: ../keyboardsetup:208
-#: ../keyboardsetup:234
+#: keyboardsetup:238 keyboardsetup:264
 #, sh-format
 msgid "Disabled"
 msgstr "Deshabilitado"
 
-#: ../keyboardsetup:212
+#: keyboardsetup:242
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "¿Quiere tener BloqNum habilitado o deshabilitado por defecto?"
 
-#: ../keyboardsetup:232
+#: keyboardsetup:262
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Configuración de SCIM"
 
-#: ../keyboardsetup:238
+#: keyboardsetup:268
 #, sh-format
 msgid ""
-"SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n"
-"\\n"
-"You will have to restart your system for this to take effect."
+"SCIM is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
 msgstr ""
-"SCIM es una plataforma de entrada para chino, japonés, coreano y otros idiomas al usar u entorno gráfico. ¿Quiere tenerlo habilitado o deshabilitado en el arranque del sistema?\\n"
-"\\n"
-"Para que esta configuración se haga efectiva, tendrá que reiniciar su sistema."
-
+"SCIM es una plataforma de entrada para chino, japonés, coreano y otros "
+"idiomas al usar u entorno gráfico. ¿Quiere tenerlo habilitado o "
+"deshabilitado en el arranque del sistema?\\n\\nPara que esta configuración "
+"se haga efectiva, tendrá que reiniciar su sistema."

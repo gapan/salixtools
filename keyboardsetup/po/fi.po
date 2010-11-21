@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-23 11:48+0200\n"
+"POT-Creation-Date: 2010-11-21 17:54+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: George Vlahavas <vlahavas~at~gmail~dot~com>\n"
 "Language-Team: \n"
@@ -12,33 +12,40 @@ msgstr ""
 "X-Poedit-Language: Finnish\n"
 "X-Poedit-Country: FINLAND\n"
 
-#: ../keyboardsetup:48
+#: keyboardsetup:60
 #, fuzzy, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 msgstr ""
 "KÄYTTÖ: keyboardsetup [näppäimistökartta] [numerolukon tila (on tai off)]"
 
-#: ../keyboardsetup:50
+#: keyboardsetup:62
 #, sh-format
 msgid "OPTIONS:"
 msgstr ""
 
-#: ../keyboardsetup:52
+#: keyboardsetup:64
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr ""
 
-#: ../keyboardsetup:53
+#: keyboardsetup:65
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr ""
 
-#: ../keyboardsetup:54
+#: keyboardsetup:66
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr ""
 
-#: ../keyboardsetup:104
+#: keyboardsetup:67
+#, sh-format
+msgid ""
+"   -z,                do not apply changes on the fly, only edit settings "
+"files"
+msgstr ""
+
+#: keyboardsetup:117
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
@@ -47,62 +54,62 @@ msgstr ""
 "VIRHE: $OPTARG ei ole hyväksyttävä näppäimistökartta. Voit katsoa "
 "$keymapsdir/keymaps listan hyväksyttävistä näppäimistökartoista."
 
-#: ../keyboardsetup:118 ../keyboardsetup:127
+#: keyboardsetup:131 keyboardsetup:140
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "VIRHE: $OPTARG ei ole hyväksyttävä valinta."
 
-#: ../keyboardsetup:139
+#: keyboardsetup:157
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "VIRHE: Liian monta argumenttia."
 
-#: ../keyboardsetup:177
+#: keyboardsetup:207
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Näppäimistöasetukset"
 
-#: ../keyboardsetup:179
+#: keyboardsetup:209
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: ../keyboardsetup:180
+#: keyboardsetup:210
 #, sh-format
 msgid "Exit"
 msgstr "Poistu"
 
-#: ../keyboardsetup:183
+#: keyboardsetup:213
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Ole hyvä ja valitse näppäimistökartta:"
 
-#: ../keyboardsetup:206
+#: keyboardsetup:236
 #, fuzzy, sh-format
 msgid "Numlock configuration"
 msgstr "Näppäimistöasetukset"
 
-#: ../keyboardsetup:207 ../keyboardsetup:233
+#: keyboardsetup:237 keyboardsetup:263
 #, sh-format
 msgid "Enabled"
 msgstr ""
 
-#: ../keyboardsetup:208 ../keyboardsetup:234
+#: keyboardsetup:238 keyboardsetup:264
 #, sh-format
 msgid "Disabled"
 msgstr ""
 
-#: ../keyboardsetup:212
+#: keyboardsetup:242
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr ""
 
-#: ../keyboardsetup:232
+#: keyboardsetup:262
 #, fuzzy, sh-format
 msgid "SCIM configuration"
 msgstr "Näppäimistöasetukset"
 
-#: ../keyboardsetup:238
+#: keyboardsetup:268
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
