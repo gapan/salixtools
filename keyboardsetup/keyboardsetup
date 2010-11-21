@@ -393,4 +393,8 @@ fi
 [[ $setscim -eq 1 ]] && applyscim
 	
 # Exit back to original directory
-cd $backtohome
+if [ -d $backtohome ]; then
+	cd $backtohome
+else
+	cd
+fi
