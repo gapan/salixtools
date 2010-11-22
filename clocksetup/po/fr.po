@@ -3,12 +3,12 @@
 # Copyright (C) 2009 Pierrick Le Brun
 # This file is distributed under the same license as the clocksetup package.
 # Pierrick Le Brun <akuna~at~free~dot~fr>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: clocksetup 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
 "PO-Revision-Date: 2010-03-14 22:36+0100\n"
 "Last-Translator: Pierrick Le Brun <akuna~at~free~dot~fr>\n"
 "Language-Team: French\n"
@@ -30,8 +30,7 @@ msgstr "OPTIONS :"
 #: clocksetup:53
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
-msgstr ""
-"   -c,   afficher uniquement la boite de configuration de l'horloge interne"
+msgstr "   -c,   afficher uniquement la boite de configuration de l'horloge interne"
 
 #: clocksetup:54
 #, sh-format
@@ -46,8 +45,7 @@ msgstr "   -t,    afficher uniquement la boite de configuration de l'heure"
 #: clocksetup:56
 #, sh-format
 msgid "   -z,   only show the timezone configuration dialog"
-msgstr ""
-"   -z,    afficher uniquement la boite de configuration du fuseau horaire"
+msgstr "   -z,    afficher uniquement la boite de configuration du fuseau horaire"
 
 #: clocksetup:57
 #, sh-format
@@ -165,23 +163,14 @@ msgid "Something went wrong. Time was not adjusted."
 msgstr "Désolé… Impossible de régler l'horloge."
 
 #: clocksetup:264
-#, fuzzy, sh-format
+#, sh-format
 msgid "Hardware clock set to UTC?"
-msgstr "L'horloge interne est réglée sur UTC"
+msgstr "Est-ce l'horloge interne est réglée sur UTC (temps universel) ?"
 
 #: clocksetup:266
 #, sh-format
-msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
-"(this is how most PCs are set up), then say NO here.  If you are not sure "
-"what this is, you should answer NO here."
-msgstr ""
-"L'horloge interne est-elle réglée sur le Temps Universel Coordonné (UTC/"
-"GMT) ? Si c'est le cas, veuillez sélectionner OUI. Si l'horloge interne est "
-"réglée sur l'heure locale (c'est généralement le cas sur la majorité des "
-"ordinateurs), alors veuillez répondre NON. Si vous n'en êtes pas sûr, vous "
-"devriez sans doute répondre NON."
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "L'horloge interne est-elle réglée sur le Temps Universel Coordonné (UTC/GMT) ? Si c'est le cas, veuillez sélectionner OUI. Si l'horloge interne est réglée sur l'heure locale (c'est généralement le cas sur la majorité des ordinateurs), alors veuillez répondre NON. Si vous n'en êtes pas sûr, vous devriez sans doute répondre NON."
 
 #: clocksetup:267
 #, sh-format
