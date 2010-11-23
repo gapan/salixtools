@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keyboardsetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
-"PO-Revision-Date: 2010-09-26 11:45+0100\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"PO-Revision-Date: 2010-11-23 17:23+0100\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,8 +20,7 @@ msgstr ""
 #: keyboardsetup:60
 #, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr ""
-"ANVÄNDNING: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
+msgstr "ANVÄNDNING: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
 #: keyboardsetup:62
 #, sh-format
@@ -45,21 +44,16 @@ msgstr "   -s scimstate,      SCIM status, on eller off"
 
 #: keyboardsetup:67
 #, sh-format
-msgid ""
-"   -z,                do not apply changes on the fly, only edit settings "
-"files"
-msgstr ""
+msgid "   -z,                do not apply changes on the fly, only edit settings files"
+msgstr "   -z,                verkställ inte ändringar direkt, redigera bara inställnings filen"
 
 #: keyboardsetup:117
 #, sh-format
-msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"FEL: $OPTARG är inte en giltig layout. Du kan titta i $keymapsdir/keymaps "
-"för en lista med giltiga layouter"
+msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
+msgstr "FEL: $OPTARG är inte en giltig layout. Du kan titta i $keymapsdir/keymaps för en lista med giltiga layouter"
 
-#: keyboardsetup:131 keyboardsetup:140
+#: keyboardsetup:131
+#: keyboardsetup:140
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "FEL: $OPTARG är inte ett giltigt alternativ."
@@ -94,12 +88,14 @@ msgstr "Välj din önskade tangentbords layout:"
 msgid "Numlock configuration"
 msgstr "Numlock konfiguration"
 
-#: keyboardsetup:237 keyboardsetup:263
+#: keyboardsetup:237
+#: keyboardsetup:263
 #, sh-format
 msgid "Enabled"
 msgstr "Aktiverad"
 
-#: keyboardsetup:238 keyboardsetup:264
+#: keyboardsetup:238
+#: keyboardsetup:264
 #, sh-format
 msgid "Disabled"
 msgstr "Avaktiverad"
@@ -117,13 +113,11 @@ msgstr "SCIM konfiguration"
 #: keyboardsetup:268
 #, sh-format
 msgid ""
-"SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
-"take effect."
+"SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n"
+"\\n"
+"You will have to restart your system for this to take effect."
 msgstr ""
-"SCIM är en inmatnings plattform för Kinesiska, Japanska, Koreanska och många "
-"fler språk vid användning av grafisk miljö. Vill du ha den aktiverad vid "
-"uppstart?\n"
+"SCIM är en inmatnings plattform för Kinesiska, Japanska, Koreanska och många fler språk vid användning av grafisk miljö. Vill du ha den aktiverad vid uppstart?\n"
 "\n"
 "Du måste starta om ditt system för att detta skall aktiveras."
+
