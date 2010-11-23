@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salix clocksetup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
-"PO-Revision-Date: 2010-09-26 11:44+0100\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"PO-Revision-Date: 2010-11-23 17:22+0100\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,11 @@ msgstr "   -h,   denna hjälp"
 msgid "ERROR: Too many arguments"
 msgstr "FEL: För många argument"
 
-#: clocksetup:106 clocksetup:170 clocksetup:191 clocksetup:212 clocksetup:262
+#: clocksetup:106
+#: clocksetup:170
+#: clocksetup:191
+#: clocksetup:212
+#: clocksetup:262
 #, sh-format
 msgid "OK"
 msgstr "OK"
@@ -112,7 +116,10 @@ msgstr "Synkronisera med Network Time Protocol (NTP)"
 msgid "Clock adjustment"
 msgstr "Tid inställningar"
 
-#: clocksetup:171 clocksetup:192 clocksetup:213 clocksetup:263
+#: clocksetup:171
+#: clocksetup:192
+#: clocksetup:213
+#: clocksetup:263
 #, sh-format
 msgid "Cancel"
 msgstr "Avbryt"
@@ -163,21 +170,14 @@ msgid "Something went wrong. Time was not adjusted."
 msgstr "Något gick fel. Tideb ändrades inte."
 
 #: clocksetup:264
-#, fuzzy, sh-format
+#, sh-format
 msgid "Hardware clock set to UTC?"
-msgstr "Hårdvaruklockan är satt till UTC"
+msgstr "Är hårdvaruklockan satt till UTC?"
 
 #: clocksetup:266
 #, sh-format
-msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
-"(this is how most PCs are set up), then say NO here.  If you are not sure "
-"what this is, you should answer NO here."
-msgstr ""
-"Är hårdvaruklockan satt till UTC/GMT? Om den är välj JA här. Om "
-"hårdvaruklockan är satt till lokal tid (detta är hur de flesta PCs är "
-"konfigurerade), välj NEJ här. Om du är osäker, välj NEJ här."
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "Är hårdvaruklockan satt till UTC/GMT? Om den är välj JA här. Om hårdvaruklockan är satt till lokal tid (detta är hur de flesta PCs är konfigurerade), välj NEJ här. Om du är osäker, välj NEJ här."
 
 #: clocksetup:267
 #, sh-format
