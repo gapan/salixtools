@@ -163,7 +163,8 @@ checkoptions(){
 interactive(){
 	setkeymap=1
 	setnumlock=1
-	
+	applynow=1
+
 	# Set the current keymap as the keymap that is checked by default
 	if [ "$keymap" ] ; then
 		[ ! "$(echo $keymap | grep 'map')" ] && keymap="${keymap}.map"
