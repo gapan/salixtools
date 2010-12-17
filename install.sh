@@ -4,6 +4,7 @@
 cd $(dirname $0)
 install -d -m 755 $DESTDIR/usr/sbin
 install -d -m 755 $DESTDIR/usr/share/salixtools/servicesetup
+install -d -m 755 $DESTDIR/usr/share/salixtools/keyboardsetup
 install -d -m 755 $DESTDIR/etc/rc.d/desc.d
 
 for i in clocksetup keyboardsetup localesetup usersetup servicesetup service; do
@@ -28,6 +29,7 @@ for i in clocksetup keyboardsetup localesetup usersetup servicesetup service; do
 done
 
 install -m 644 keyboardsetup/keymaps $DESTDIR/usr/share/salixtools/
+install -m 644 keyboardsetup/10-keymap.conf-template $DESTDIR/usr/share/salixtools/keyboardsetup
 install -m 755 keyboardsetup/rc.numlock $DESTDIR/etc/rc.d/
 
 install -m 644 service/service-blacklist $DESTDIR/usr/share/salixtools/servicesetup/

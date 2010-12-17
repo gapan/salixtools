@@ -31,8 +31,8 @@ init(){
 	# Path needs to be extended in case you're only half a root :)
 	export PATH="/usr/sbin:/sbin:${PATH}"
 
-	# Path to the keymaps list file
-	keymapsdir="/usr/share/salixtools/"
+	# Path to the salixtools shared files
+	salixtoolsdir="/usr/share/salixtools/"
 
 	# Just to be sure
 	unset keymap \
@@ -110,11 +110,11 @@ checkoptions(){
 		fi
 		if [ $flag = "k" ]; then
 			setkeymap=1
-			if [ `grep "^$OPTARG|" $keymapsdir/keymaps` ]; then
+			if [ `grep "^$OPTARG|" $salixtoolsdir/keymaps` ]; then
 				key="$OPTARG"
 				keymap="$OPTARG.map"
 			else
-				echo "`eval_gettext 'ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps'`"
+				echo "`eval_gettext 'ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps for a list of valid keymaps'`"
 				usage
 			fi
 		fi
@@ -179,7 +179,7 @@ interactive(){
 
 	[ ! "$currentpathkeymap" ] && currentpathkeymap="qwerty/us.map"
 	
-	avail="$( grep -v "^#" $keymapsdir/keymaps | \
+	avail="$( grep -v "^#" $salixtoolsdir/keymaps | \
 			grep -v "^ " | \
 			sed "s/\(.*\)|.*|.*|.*/\1/")"
 	all="$(ls */* \
@@ -337,7 +337,7 @@ applyscim(){
 # Apply keyboard layout settings (console and xorg)
 applykeyboard(){
 	# Keymaps path to a system dir where it'll be installed
-	grep "^$key|.*|.*|.*" $keymapsdir/keymaps \
+	grep "^$key|.*|.*|.*" $salixtoolsdir/keymaps \
 	  | sed -e "s/^.*|\(.*\)|\(.*\)|\(.*\)/\1|\2|\3/" > $buffer/xkb
 
 	xkblayout="$(sed -e "s/^\(.*\)|.*|.*/\1/" $buffer/xkb)"
@@ -359,23 +359,11 @@ applykeyboard(){
 	fi
 	sed -i "s/\(^[ \t]*\/usr\/bin\/loadkeys -u\).*$/\1 $keymap/" /etc/rc.d/rc.keymap
 
-	if [ ! -a /etc/hal/fdi/policy/10-keymap.fdi ]; then
-		if [ -a /usr/share/hal/fdi/policy/10osvendor/10-keymap.fdi ] ; then
-			cp -f /usr/share/hal/fdi/policy/10osvendor/10-keymap.fdi /etc/hal/fdi/policy/10-keymap.fdi
-		fi
-	fi
-	if [ -a /etc/hal/fdi/policy/10-keymap.fdi ]; then
-		sed -i "s/\"input.xkb.layout\" type=\"string\">.*</\"input.xkb.layout\" type=\"string\">"$xkblayout"</" \
-		/etc/hal/fdi/policy/10-keymap.fdi
-		sed -i "s|\(<merge key=\"input.xkb.variant\" type=\"string\"\).*|\1>"$xkbvariant"</merge>|" \
-		/etc/hal/fdi/policy/10-keymap.fdi
-		sed -i "s/\"input.xkb.options\" type=\"string\">.*</\"input.xkb.options\" type=\"string\">"$xkboptions"</" \
-		/etc/hal/fdi/policy/10-keymap.fdi
-		if [ $applynow -eq 1 ]; then
-			# Re-starting hal daemon
-			/etc/rc.d/rc.hald restart
-		fi
-	fi
+	# set keymap in /etc/X11/xorg.conf.d/50-keymap.conf
+	cp -f $salixtoolsdir/keyboardsetup/10-keymap.conf-template /etc/X11/xorg.conf.d/10-keymap.conf
+	sed -i "s/__XKBLAYOUT__/$xkblayout/" /etc/X11/xorg.conf.d/10-keymap.conf
+	sed -i "s/__XKBVARIANT__/$xkbvariant/" /etc/X11/xorg.conf.d/10-keymap.conf
+	sed -i "s/__XKBOPTIONS__/$xkboptions/" /etc/X11/xorg.conf.d/10-keymap.conf
 }
 
 # This is the main thing!
