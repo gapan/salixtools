@@ -1,0 +1,8 @@
+Section "InputClass"
+	Identifier	"Keyboard settings"
+	MatchIsKeyboard	"yes"
+	Option		"XkbLayout" "__XKBLAYOUT__"
+	Option		"XkbVariant" "__XKBVARIANT__"
+	Option		"XkbOptions" "__XKBOPTIONS__"
+EndSection
+
