@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Ingemar Karlsson <por@ingk.se>, 2010.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: usersetup\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
-"PO-Revision-Date: 2010-09-26 11:50+0100\n"
-"Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
-"Language-Team: \n"
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"PO-Revision-Date: 2011-01-10 23:25+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Swedish\n"
-"X-Poedit-Country: SWEDEN\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: usersetup:49
 #, sh-format
@@ -270,8 +270,7 @@ msgstr "Ett kontonamn kan inte börja med ett nummer, så rätta till det..."
 
 #: usersetup:286
 #, sh-format
-msgid ""
-"An account name cannot contain uppercase characters, please correct it..."
+msgid "An account name cannot contain uppercase characters, please correct it..."
 msgstr "Ett kontonamn kan inte innehålla versaler, så rätta till det..."
 
 #: usersetup:288
@@ -342,10 +341,8 @@ msgstr "Lösenorden matchar inte, försök igen..."
 
 #: usersetup:438
 #, sh-format
-msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
-"Lösenordet är för kort (minst ${minlength} tecken), försök med annat..."
+msgid "Password is too short (${minlength} chars minimum), please try another one..."
+msgstr "Lösenordet är för kort (minst ${minlength} tecken), försök med annat..."
 
 #: usersetup:441
 #, sh-format
@@ -426,6 +423,3 @@ msgstr "Bekräfta ta bort grupp"
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "Är du säker på att du vill ta bort gruppen $group?"
-
-#~ msgid "Password"
-#~ msgstr "Lösenord"

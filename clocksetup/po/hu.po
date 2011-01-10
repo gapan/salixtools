@@ -2,20 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: clocksetup\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
-"PO-Revision-Date: 2010-07-21 20:50+0100\n"
-"Last-Translator: Peter Polonkai <polesz@nedudu.hu>\n"
-"Language-Team: Nedudu Team <nedudu@nedudu.hu>\n"
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"PO-Revision-Date: 2011-01-10 23:19+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Hungarian\n"
-"X-Poedit-Country: HUNGARY\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: clocksetup:49
 #, sh-format
@@ -150,9 +150,7 @@ msgstr "Figyelem"
 #: clocksetup:238
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr ""
-"Ón már használja az ntpd szerviz szolgáltatás és az órának helyesnek kell "
-"lennie."
+msgstr "Ón már használja az ntpd szerviz szolgáltatás és az órának helyesnek kell lennie."
 
 #: clocksetup:242
 #, sh-format
@@ -165,23 +163,14 @@ msgid "Something went wrong. Time was not adjusted."
 msgstr "Valami hiba történt. Az időt nem sikerült beállítani."
 
 #: clocksetup:264
-#, fuzzy, sh-format
+#, sh-format
 msgid "Hardware clock set to UTC?"
-msgstr "A hardver óra beállítása az UTC szerint"
+msgstr ""
 
 #: clocksetup:266
 #, sh-format
-msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
-"(this is how most PCs are set up), then say NO here.  If you are not sure "
-"what this is, you should answer NO here."
-msgstr ""
-"Ez a hardver óra beállítása a Greenwichi világidő szerint (UTC / GMT)? Ha "
-"igen, akkor válasszuk az Igent. Ha a hardver óra úgy van beállítva, hogy az "
-"aktuális helyi időt mutassa  (ez a legtöbb számítógép esetében így van), "
-"akkor válassza a Nem-et. Ha nem biztos benne, hogy mi ez, akkor válassza a "
-"Nem-et. "
+msgid "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, select YES here.  If the hardware clock is set to the current local time (this is how most PCs are set up), then say NO here.  If you are not sure what this is, you should answer NO here."
+msgstr "Ez a hardver óra beállítása a Greenwichi világidő szerint (UTC / GMT)? Ha igen, akkor válasszuk az Igent. Ha a hardver óra úgy van beállítva, hogy az aktuális helyi időt mutassa  (ez a legtöbb számítógép esetében így van), akkor válassza a Nem-et. Ha nem biztos benne, hogy mi ez, akkor válassza a Nem-et. "
 
 #: clocksetup:267
 #, sh-format
@@ -202,6 +191,3 @@ msgstr "Igen"
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr "A hardver óra beállítása az UTC szerint"
-
-#~ msgid "Hardware clock configuration"
-#~ msgstr "Hardver óra beállítása"

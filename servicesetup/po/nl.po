@@ -1,19 +1,21 @@
-# Dutch .po file for servicesetup.
-# Copyright (C) 2010
-# This file is distributed under the same license as the servicesetup package.
-# Imar van Erven Dorens <gambit73@gmail.com>, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
-"PO-Revision-Date: 2010-05-05 21:11+0100\n"
-"Last-Translator: Imar van Erven Dorens <gambit73@gmail.com>\n"
-"Language-Team: Dutch <LL@li.org>\n"
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"PO-Revision-Date: 2011-01-10 23:24+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: servicesetup:65
 #, sh-format
@@ -33,9 +35,7 @@ msgstr "Afsluiten"
 #: servicesetup:70
 #, sh-format
 msgid "The selected services will be started at boot time:"
-msgstr ""
-"De geselecteerde services zullen worden gestart tijdens het opstarten van "
-"het besturingssysteem:"
+msgstr "De geselecteerde services zullen worden gestart tijdens het opstarten van het besturingssysteem:"
 
 #: servicesetup:79
 #, sh-format

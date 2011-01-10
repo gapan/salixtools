@@ -5,17 +5,17 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: salixtools.clocksetup\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2010-11-21 18:03+0200\n"
-"PO-Revision-Date: 2010-03-24 00:29-0300\n"
-"Last-Translator: seacat <seacat.lang@gmail.com>\n"
-"Language-Team: <seacat.lang@gmail.com>\n"
+"PO-Revision-Date: 2011-01-10 23:19+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Spanish\n"
-"X-Poedit-Country: ARGENTINA\n"
+"Language: es_AR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: clocksetup:49
 #, sh-format
@@ -191,6 +191,3 @@ msgstr "Sí"
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr "El reloj del hardware está configurado a UTC"
-
-#~ msgid "Hardware clock configuration"
-#~ msgstr "Configuración del reloj del hardware"

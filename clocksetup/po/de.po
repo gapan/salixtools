@@ -1,21 +1,21 @@
-# German translations for clocksetup package.
-# Copyright (C) 2009 Thorsten Mühlfelder
-# This file is distributed under the same license as the clocksetup package.
-# Thorsten Mühlfelder <thenktor~at~gmx~dot~de>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: clocksetup\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2010-11-21 18:03+0200\n"
-"PO-Revision-Date: 2010-02-26 00:16+0100\n"
-"Last-Translator: Thorsten Mühlfelder <thenktor@gmx.de>\n"
-"Language-Team: German\n"
+"PO-Revision-Date: 2011-01-10 23:19+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: German <None>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: German\n"
-"X-Poedit-Country: GERMANY\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: clocksetup:49
 #, sh-format
@@ -191,6 +191,3 @@ msgstr "Ja"
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr "Die Hardware-Uhr läuft auf UTC"
-
-#~ msgid "Hardware clock configuration"
-#~ msgstr "Konfiguration der Hardware-Uhr"

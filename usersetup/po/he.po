@@ -2,18 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
-"PO-Revision-Date: 2010-11-05 13:45+0200\n"
-"Last-Translator: my name <email@address.org>\n"
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"PO-Revision-Date: 2011-01-10 23:26+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: usersetup:49
 #, sh-format
@@ -268,8 +270,7 @@ msgstr "שם חשבון לא יכול להתחיל עם מספר, נא לתקן 
 
 #: usersetup:286
 #, sh-format
-msgid ""
-"An account name cannot contain uppercase characters, please correct it..."
+msgid "An account name cannot contain uppercase characters, please correct it..."
 msgstr "שם חשבון לא יכול להכיל תווים עיליים, נא לתקן את השגיאה..."
 
 #: usersetup:288
@@ -340,8 +341,7 @@ msgstr "הסיסמאות אינן תואמות, נא לנסות שנית..."
 
 #: usersetup:438
 #, sh-format
-msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
+msgid "Password is too short (${minlength} chars minimum), please try another one..."
 msgstr "סיסמא קצרה מידי (${minlength} תווים לפחות), נא לנסות סיסמא אחרת..."
 
 #: usersetup:441
@@ -379,17 +379,10 @@ msgstr "נא להזין את הטלפון של המשתמש בעבודה"
 msgid "Enter the home phone number of the user"
 msgstr "נא להזין את הטלפון של המשתמש בבית"
 
-# Big Problem:
-# 1) Enter the new group name > is > Enter the new name of the group (I needed to see it to translate it correctly)
-# 2) Because, Enter the new group name > as is, is > Enter the name of the new group
-# 3) 7. Create a new group > the correct text of the dialog should be: Enter the name of the new group
-# 4) 8. Change group name > the correct text of the dialog should be: Enter the new name of the group
-# hence you, george, need to be more specific and add another text, because it can't be done with Hebrew (due to same form for 2 sentences).
-# george, please correct me and explain it with details.
 #: usersetup:533
-#, fuzzy, sh-format
+#, sh-format
 msgid "Enter the new group name"
-msgstr "הזנת השם החדש של הקבוצה / הזנת השם של הקבוצה החדשה"
+msgstr ""
 
 #: usersetup:628 usersetup:649 usersetup:658 usersetup:722
 #, sh-format
@@ -430,6 +423,3 @@ msgstr "אימות מחיקת קבוצה"
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "האם ברצונך למחוק את הקבוצה $group?"
-
-#~ msgid "Password"
-#~ msgstr "סיסמא"

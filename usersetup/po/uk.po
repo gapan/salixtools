@@ -2,20 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: ttt\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
-"PO-Revision-Date: 2010-05-11 18:39+0100\n"
-"Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>\n"
-"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"PO-Revision-Date: 2011-01-10 23:25+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\n\\n\\n\\n\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: usersetup:49
 #, sh-format
@@ -270,8 +270,7 @@ msgstr "Назва рахунку починається з цифри, випр
 
 #: usersetup:286
 #, sh-format
-msgid ""
-"An account name cannot contain uppercase characters, please correct it..."
+msgid "An account name cannot contain uppercase characters, please correct it..."
 msgstr "Назва рахунку не може містити букви верхнього регістру, виправте це..."
 
 #: usersetup:288
@@ -342,8 +341,7 @@ msgstr "Паролі не збігаються, спробуйте знову...
 
 #: usersetup:438
 #, sh-format
-msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
+msgid "Password is too short (${minlength} chars minimum), please try another one..."
 msgstr "Пароль закороткий (${minlength} символів мінімум), спробуйте інший..."
 
 #: usersetup:441
@@ -425,6 +423,3 @@ msgstr "Підтвердити вилучення групи"
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "Ви впевнені, що Ви бажаєте вилучити групу $group?"
-
-#~ msgid "Password"
-#~ msgstr "Пароль"

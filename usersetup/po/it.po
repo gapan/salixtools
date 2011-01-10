@@ -8,175 +8,175 @@ msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2010-11-21 18:03+0200\n"
-"PO-Revision-Date: 2011-01-10 23:25+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-01-10 23:26+0000\n"
+"Last-Translator: laplume <laplume@libero.it>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: usersetup:49
 #, sh-format
 msgid "Select"
-msgstr "Selecione"
+msgstr "Selezionare"
 
 #: usersetup:50
 #, sh-format
 msgid "Exit user setup"
-msgstr "Sair da configuração do usuário"
+msgstr "Esci da impostazione Utente"
 
 #: usersetup:51
 #, sh-format
 msgid "Users accounts management"
-msgstr "Gerenciamento das contas de usuários"
+msgstr "Gestione degli account utenti"
 
 #: usersetup:53
 #, sh-format
 msgid "Please choose an option..."
-msgstr "Por favor selecione uma opção..."
+msgstr "Scegliete un'opzione..."
 
 #: usersetup:55
 #, sh-format
 msgid "Create a new account"
-msgstr "Criar uma conta nova"
+msgstr "Creare un nuovo account"
 
 #: usersetup:56
 #, sh-format
 msgid "Create a new account (advanced mode)"
-msgstr "Criar uma conta nova (modo avançado)"
+msgstr "Creare un nuovo account (modalità avanzata)"
 
 #: usersetup:57
 #, sh-format
 msgid "Modify account properties"
-msgstr "Modificar propriedades da conta"
+msgstr "Modificare le proprietà dell'account"
 
 #: usersetup:58
 #, sh-format
 msgid "Change account password"
-msgstr "Mudar senha da conta"
+msgstr "Cambia password dell'account"
 
 #: usersetup:59
 #, sh-format
 msgid "Delete accounts"
-msgstr "Excluir contas"
+msgstr "Eliminare gli account"
 
 #: usersetup:60
 #, sh-format
 msgid "List groups and memberships"
-msgstr "Lista de grupos e membros"
+msgstr "Mostra i gruppi e le appartenenze"
 
 #: usersetup:61
 #, sh-format
 msgid "Create a new group"
-msgstr "Criar um grupo novo"
+msgstr "Creare un nuovo gruppo"
 
 #: usersetup:62
 #, sh-format
 msgid "Change group name"
-msgstr "Mudar nome do grupo"
+msgstr "Cambia il nome del gruppo"
 
 #: usersetup:63
 #, sh-format
 msgid "Delete groups"
-msgstr "Excluir grupos"
+msgstr "Elimina gruppi"
 
 #: usersetup:79 usersetup:202
 #, sh-format
 msgid "Account properties"
-msgstr "Propriedades da conta"
+msgstr "Proprietà dell'account"
 
 #: usersetup:80 usersetup:245
 #, sh-format
 msgid "Properties"
-msgstr "Propriedades"
+msgstr "Proprietà"
 
 #: usersetup:81 usersetup:98 usersetup:115 usersetup:132 usersetup:149
 #: usersetup:167 usersetup:204 usersetup:246
 #, sh-format
 msgid "Back"
-msgstr "Voltar"
+msgstr "Indietro"
 
 #: usersetup:83
 #, sh-format
 msgid "Select an account to view its properties..."
-msgstr "Selecionar uma conta para ver as suas propriedades..."
+msgstr "Selezionate un account per vederne le proprietà"
 
 #: usersetup:96
 #, sh-format
 msgid "Account deletion"
-msgstr "Exclusão da conta"
+msgstr "Cancellazione account"
 
 #: usersetup:97 usersetup:166 usersetup:661 usersetup:725
 #, sh-format
 msgid "Delete"
-msgstr "Excluir"
+msgstr "Elimina"
 
 #: usersetup:100
 #, sh-format
 msgid "Select an account to delete..."
-msgstr "Selecione uma conta para excluir..."
+msgstr "Selezionate un account da cancellare..."
 
 #: usersetup:113
 #, sh-format
 msgid "Change password"
-msgstr "Mudar senha"
+msgstr "Modificate la password"
 
 #: usersetup:114
 #, sh-format
 msgid "Change"
-msgstr "Mudar"
+msgstr "Modifica"
 
 #: usersetup:117
 #, sh-format
 msgid "Select an account to change password for..."
-msgstr "Selecione uma conta para mudar a senha..."
+msgstr "Selezionate un account di cui volete modificare la password"
 
 #: usersetup:130
 #, sh-format
 msgid "Group memberships"
-msgstr "Membros do grupo"
+msgstr "Appartiene al gruppo"
 
 #: usersetup:131
 #, sh-format
 msgid "Memberships"
-msgstr "Membros"
+msgstr "Appartenenze"
 
 #: usersetup:134
 #, sh-format
 msgid "Select a group to view memberships for..."
-msgstr "Selecione um grupo para ver os membros..."
+msgstr "Selezionate un gruppo per vederne gli appartenenti"
 
 #: usersetup:147 usersetup:530
 #, sh-format
 msgid "Group name"
-msgstr "Nome do grupo"
+msgstr "Nome gruppo"
 
 #: usersetup:148 usersetup:203
 #, sh-format
 msgid "Modify"
-msgstr "Modificar"
+msgstr "Modificare"
 
 #: usersetup:151
 #, sh-format
 msgid "Select group name to modify..."
-msgstr "Selecione um grupo para modificar..."
+msgstr "Selezionate il nome del gruppo da modificare..."
 
 #: usersetup:165
 #, sh-format
 msgid "Group deletion"
-msgstr "Exclusão do grupo"
+msgstr "Cancellazione grupp"
 
 #: usersetup:169
 #, sh-format
 msgid "Select a group to delete..."
-msgstr "Selecione um grupo para excluir..."
+msgstr "Selezionate un gruppo de cancellare..."
 
 #: usersetup:206
 #, sh-format
 msgid "Detailed information for account"
-msgstr "Informações detalhadas da conta"
+msgstr "Informazioni dettagliate dell'account"
 
 #: usersetup:208 usersetup:472 usersetup:579
 #, sh-format
@@ -186,17 +186,17 @@ msgstr "Nome completo"
 #: usersetup:209 usersetup:267 usersetup:555
 #, sh-format
 msgid "Account name"
-msgstr "Nome da conta"
+msgstr "Nome dell'account"
 
 #: usersetup:210 usersetup:559
 #, sh-format
 msgid "Main Group"
-msgstr "Grupo principal"
+msgstr "Gruppo Principale"
 
 #: usersetup:211 usersetup:322 usersetup:563
 #, sh-format
 msgid "Home directory"
-msgstr "Diretório home"
+msgstr "Cartella Home"
 
 #: usersetup:212 usersetup:348 usersetup:571
 #, sh-format
@@ -206,82 +206,82 @@ msgstr "Shell"
 #: usersetup:213 usersetup:567
 #, sh-format
 msgid "Other groups"
-msgstr "Outros grupos"
+msgstr "Altri gruppi"
 
 #: usersetup:214 usersetup:575
 #, sh-format
 msgid "Expiry"
-msgstr "Expira"
+msgstr "Scadenza"
 
 #: usersetup:215 usersetup:583
 #, sh-format
 msgid "Office"
-msgstr "Escritório"
+msgstr "Ufficio"
 
 #: usersetup:216 usersetup:500 usersetup:587
 #, sh-format
 msgid "Work phone"
-msgstr "Telefone do trabalho"
+msgstr "Telefono lavoro"
 
 #: usersetup:217 usersetup:514 usersetup:591
 #, sh-format
 msgid "Home phone"
-msgstr "Telefone de casa"
+msgstr "Telefono Abitazione"
 
 #: usersetup:244 usersetup:254
 #, sh-format
 msgid "Group members"
-msgstr "Membros do grupo"
+msgstr "Membri del gruppo"
 
 #: usersetup:248
 #, sh-format
 msgid "Members of group"
-msgstr "Membros do grupo"
+msgstr "Fanno parte del gruppo"
 
 #: usersetup:256
 #, sh-format
 msgid "There are no accounts in group"
-msgstr "Não existem contas no grupo"
+msgstr "Non ci sono account nel gruppo"
 
 #: usersetup:269
 #, sh-format
 msgid "Enter the new account name..."
-msgstr "Digite o novo nome da conta..."
+msgstr "Inserite il nome del nuovo account..."
 
 #: usersetup:278
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
-msgstr "Um nome de uma conta não pode conter espaços, por favor corrija..."
+msgstr "Un nome account non può contenere uno spazio, per favore correggetelo..."
 
 #: usersetup:280
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
-msgstr "O nome da conta $user já existe, por favor escolha outro nome..."
+msgstr "Il nome dell'account  $user esiste già, per favore scegliete un altro nome..."
 
 #: usersetup:282
 #, sh-format
 msgid "The account name is empty, please correct it..."
-msgstr "O nome da conta está vazio, por favor corrija..."
+msgstr "Il nome dell'account è vuoto, per favore correggetelo..."
 
 #: usersetup:284
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr "Um nome de conta não pode começar com número, por favor corrija..."
+msgstr "Il nome di un account non può iniziare con un numero, per favore correggetelo..."
 
 #: usersetup:286
 #, sh-format
 msgid "An account name cannot contain uppercase characters, please correct it..."
-msgstr "Um nome de conta não pode conter caracteres maiúsculos, por favor corrija..."
+msgstr "Il nome di un account non può contenere caratteri maiuscoli per favore correggetelo..."
 
 #: usersetup:288
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr "Um nome de conta não pode conter caracteres de pontuação, por favor corrija..."
+msgstr "Il nome di un account non può contenere segni di punteggiatura, per favore correggetelo..."
 
 #: usersetup:306
 #, sh-format
 msgid "Group membership"
-msgstr "Membro do grupo"
+msgstr "Appartiene ai gruppi"
 
 #: usersetup:307 usersetup:323 usersetup:349 usersetup:369 usersetup:394
 #: usersetup:473 usersetup:487 usersetup:501 usersetup:515 usersetup:531
@@ -292,134 +292,134 @@ msgstr "OK"
 #: usersetup:310
 #, sh-format
 msgid "Enter the main group for account"
-msgstr "Digite o grupo principal para a conta"
+msgstr "Inserite il gruppo principale dell'account"
 
 #: usersetup:325
 #, sh-format
 msgid "Enter the home directory for account"
-msgstr "Digite o diretório home para a conta"
+msgstr "Inserite la directory home dell'account"
 
 #: usersetup:352
 #, sh-format
 msgid "Enter the shell interpreter for account"
-msgstr "Digite o interpretador shell para a conta"
+msgstr "Inserite l'inteprete della shell per l'acount"
 
 #: usersetup:368
 #, sh-format
 msgid "Additional group membership"
-msgstr "Membros do grupo adicional"
+msgstr "Gruppi addizionali di appartenenza"
 
 #: usersetup:371
 #, sh-format
 msgid "Add some additional group to the list..."
-msgstr "Adicionar algum grupo adicional na lista..."
+msgstr "Inserite gruppi aggiuntivi alla lista..."
 
 #: usersetup:393
 #, sh-format
 msgid "Expiry date"
-msgstr "Data de expiração"
+msgstr "Data di scadenza"
 
 #: usersetup:395
 #, sh-format
 msgid "Never"
-msgstr "Nunca"
+msgstr "Mai"
 
 #: usersetup:398
 #, sh-format
 msgid "Set the account expiry date..."
-msgstr "Defina a data de expiração da conta..."
+msgstr "Impostare la data di scadenza dell'account..."
 
 #: usersetup:434
 #, sh-format
 msgid "Enter password for account"
-msgstr "Digite uma senha para a conta"
+msgstr "Inserite la password dell'account"
 
 #: usersetup:435
 #, sh-format
 msgid "Passwords do not match, please try again..."
-msgstr "As senhas não conferem, por favor tente novamente..."
+msgstr "Le password non combaciano, per favore ripetete..."
 
 #: usersetup:438
 #, sh-format
 msgid "Password is too short (${minlength} chars minimum), please try another one..."
-msgstr "A senha é muito curta (${minlength} caracteres no mínimo), por favor tente outra senha..."
+msgstr "La password è troppo corta (${minlength} chars minimum), provatene un'altra..."
 
 #: usersetup:441
 #, sh-format
 msgid "Enter password again for account"
-msgstr "Digite a senha da conta novamente"
+msgstr "Ridigitate la password dell'account"
 
 #: usersetup:458
 #, sh-format
 msgid "Failed to set password for account"
-msgstr "Falha ao definir a senha para a conta"
+msgstr "Impostazione password dell'account non riuscita"
 
 #: usersetup:475
 #, sh-format
 msgid "Enter the full name of the user"
-msgstr "Digite o nome completo do usuário"
+msgstr "Inserite il nome complete dell'utente"
 
 #: usersetup:486
 #, sh-format
 msgid "Office information"
-msgstr "Informações de escritório"
+msgstr "Ufficio"
 
 #: usersetup:489
 #, sh-format
 msgid "Enter office information for the user"
-msgstr "Digite as informações de escritório para o usuário"
+msgstr "Inserite info dell'ufficio per l'utente"
 
 #: usersetup:503
 #, sh-format
 msgid "Enter the work phone number of the user"
-msgstr "Digite o número do telefone de trabalho do usuário"
+msgstr "Inserite il numero telefonico del lavoro per l'utente"
 
 #: usersetup:517
 #, sh-format
 msgid "Enter the home phone number of the user"
-msgstr "Digite o número do telefone da casa do usuário"
+msgstr "Inserite il numero telefonico abitazione dell'utente"
 
 #: usersetup:533
 #, sh-format
 msgid "Enter the new group name"
-msgstr "Digite o novo nome do grupo"
+msgstr "Inserite il nome del nuovo gruppo"
 
 #: usersetup:628 usersetup:649 usersetup:658 usersetup:722
 #, sh-format
 msgid "Warning"
-msgstr "Aviso"
+msgstr "Attenzione"
 
 #: usersetup:658
 #, sh-format
 msgid "You cannot delete the account"
-msgstr "Você não pode excluir a conta"
+msgstr "Non è possibile eliminare l'account"
 
 #: usersetup:660
 #, sh-format
 msgid "Confirm user deletion"
-msgstr "Confirmar exclusão do usuário"
+msgstr "Conferma eliminazione utente"
 
 #: usersetup:662 usersetup:726
 #, sh-format
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Cancella"
 
 #: usersetup:664
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
-msgstr "Você tem certeza que deseja excluir o usuário $user?"
+msgstr "Siete sicuri di voler eliminare l'utente  $user?"
 
 #: usersetup:722
 #, sh-format
 msgid "You cannot delete the group"
-msgstr "Você não pode deletar o grupo"
+msgstr "Non è possibile eliminare il gruppo"
 
 #: usersetup:724
 #, sh-format
 msgid "Confirm group deletion"
-msgstr "Confirmar exclusão do grupo"
+msgstr "Conferma eliminazione gruppo"
 
 #: usersetup:728
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
-msgstr "Você tem certeza que deseja excluir o grupo $group?"
+msgstr "Siete sicuri di voler eliminare il gruppo $group?"

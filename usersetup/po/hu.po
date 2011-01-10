@@ -2,20 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: usersetup\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 17:54+0200\n"
-"PO-Revision-Date: 2010-07-21 21:36+0100\n"
-"Last-Translator: Peter Polonkai <polesz@nedudu.hu>\n"
-"Language-Team: Nedudu Team <nedudu@nedudu.hu>\n"
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
+"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"PO-Revision-Date: 2011-01-10 23:25+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Hungarian\n"
-"X-Poedit-Country: HUNGARY\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: usersetup:49
 #, sh-format
@@ -131,8 +131,7 @@ msgstr "Változtat"
 #: usersetup:117
 #, sh-format
 msgid "Select an account to change password for..."
-msgstr ""
-"Válassza ki a felhasználói fiókot melynek jelszavát meg akarja változtatni..."
+msgstr "Válassza ki a felhasználói fiókot melynek jelszavát meg akarja változtatni..."
 
 #: usersetup:130
 #, sh-format
@@ -271,8 +270,7 @@ msgstr "A felhasználónév nem kezdődhet számmal, kérem javítsa..."
 
 #: usersetup:286
 #, sh-format
-msgid ""
-"An account name cannot contain uppercase characters, please correct it..."
+msgid "An account name cannot contain uppercase characters, please correct it..."
 msgstr "A felhasználónévben nem lehet nagy betű, kérem javítsa..."
 
 #: usersetup:288
@@ -343,11 +341,8 @@ msgstr "A jelszavak nem egyeznek, kérem ismételje meg újra..."
 
 #: usersetup:438
 #, sh-format
-msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
-"A jelszó túl rövid (minimum ${minlength} karakter), kérem válasszon egy "
-"másikat..."
+msgid "Password is too short (${minlength} chars minimum), please try another one..."
+msgstr "A jelszó túl rövid (minimum ${minlength} karakter), kérem válasszon egy másikat..."
 
 #: usersetup:441
 #, sh-format
@@ -428,6 +423,3 @@ msgstr "Csoport törlésének megerősítése"
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "Valóban törölni szeretné ezt a csoportot: $group?"
-
-#~ msgid "Password"
-#~ msgstr "Jelszó"

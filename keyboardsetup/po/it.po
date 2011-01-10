@@ -8,106 +8,109 @@ msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2010-11-21 18:03+0200\n"
-"PO-Revision-Date: 2011-01-10 23:20+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: French <>\n"
+"PO-Revision-Date: 2011-01-10 23:21+0000\n"
+"Last-Translator: laplume <laplume@libero.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: keyboardsetup:60
 #, sh-format
 msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr "UTLISATION : keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
+msgstr "USO: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
 #: keyboardsetup:62
 #, sh-format
 msgid "OPTIONS:"
-msgstr "OPTIONS :"
+msgstr "OPZIONI:"
 
 #: keyboardsetup:64
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
-msgstr "   -k keymap,         une disposition de clavier valide"
+msgstr "   -k keymap,         una mappatura di tastiera valida"
 
 #: keyboardsetup:65
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
-msgstr "   -n numlockstate,   état du verrou numérique, on ou off"
+msgstr "   -n numlockstate,   stato del numlock, attivo o disattivo"
 
 #: keyboardsetup:66
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
-msgstr "   -s scimstate,      état de SCIM, on ou off"
+msgstr "   -s scimstate,      stato SCIM, attivo or disattivo"
 
 #: keyboardsetup:67
 #, sh-format
 msgid "   -z,                do not apply changes on the fly, only edit settings files"
-msgstr "   -z,                ne pas appliquer les changements immédiatement mais seulement éditer les fichiers"
+msgstr "   -z,                non applicare modifiche al volo, solo edita i file di impostazione"
 
 #: keyboardsetup:117
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
-msgstr "ERROR : $OPTARG n'est pas une disposition valide de clavier. Veuillez consulter la liste de claviers reconnus dans $keymapsdir/keymaps "
+msgstr "ERROR: $OPTARG non è una mappatura di tastiera valida. Per favore controllate $keymapsdir/keymaps per la lista delle mappature di tastiera valide."
 
 #: keyboardsetup:131 keyboardsetup:140
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
-msgstr "ERREUR : $OPTARG n'est pas une option valide."
+msgstr "ERRORE: $OPTARG non è un'opzione valida."
 
 #: keyboardsetup:157
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "ERREUR : Trop d'arguments"
+msgstr "ERRORE: Troppi argomenti"
 
 #: keyboardsetup:207
 #, sh-format
 msgid "Keyboard configuration"
-msgstr "Configuration du clavier"
+msgstr "Configurazione della tastiera"
 
 #: keyboardsetup:209
 #, sh-format
 msgid "OK"
-msgstr "Valider"
+msgstr "OK"
 
 #: keyboardsetup:210
 #, sh-format
 msgid "Exit"
-msgstr "Quitter"
+msgstr "Esci"
 
 #: keyboardsetup:213
 #, sh-format
 msgid "Please select your preferred keyboard map:"
-msgstr "Veuillez sélectionner votre disposition de clavier:"
+msgstr "Si prega di selezionare la mappa preferita della tastiera:"
 
 #: keyboardsetup:236
 #, sh-format
 msgid "Numlock configuration"
-msgstr "Configuration du verrou numérique"
+msgstr "Configurazione Numlock"
 
 #: keyboardsetup:237 keyboardsetup:263
 #, sh-format
 msgid "Enabled"
-msgstr "Activé"
+msgstr "Abilita "
 
 #: keyboardsetup:238 keyboardsetup:264
 #, sh-format
 msgid "Disabled"
-msgstr "Désactivé"
+msgstr "Disabilita"
 
 #: keyboardsetup:242
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
-msgstr "Voulez-vous activer par défaut le verrou numérique ?"
+msgstr "Vuoi avere numlock abilitato oppure disabilitato di default?"
 
 #: keyboardsetup:262
 #, sh-format
 msgid "SCIM configuration"
-msgstr "Configuration de SCIM"
+msgstr "Configurazione SCIM"
 
 #: keyboardsetup:268
 #, sh-format
 msgid "SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take effect."
-msgstr "SCIM est un système de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\\nVoulez-vous l'activer au démarrager ?\\n\\nVous devrez redémarrer votre système pour que les changements prennent effet."
+msgstr ""
+"SCIM è una piattaforma di input per la gestione di caratteri delle lingue Cinese, Giapponese, Coreana e altre ancora quando viene utilizzato un ambiente grafico. Volete che sia abilitata o disabilitata all'avvio? \n"
+"\n"
+"Dovete riavviare il sistema per rendere queste modifiche effettive."
