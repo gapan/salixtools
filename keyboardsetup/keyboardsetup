@@ -115,7 +115,7 @@ EORC
 
 # Check which options are used from the command line
 checkoptions(){
-	while getopts ":hk:n:s:z" flag
+	while getopts ":hk:n:i:s:z" flag
 	do
 		# if switch is unknown or if asking for help
 		if [ $flag = "?" ] || [ $flag = "h" ]; then
