@@ -39,6 +39,8 @@ init(){
 		key \
 		numstate \
 		numdefault \
+		ibusstate \
+		ibusdefault \
 		scimstate \
 		scimdefault \
 		xkblayout \
@@ -46,6 +48,7 @@ init(){
 		xkboptions \
 		setkeymap \
 		setnumlock \
+		setibus \
 		setscim \
 		applynow
 
@@ -57,12 +60,13 @@ init(){
 }
 
 usage(){
-	echo "`eval_gettext 'USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]'`"
+	echo "`eval_gettext 'USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]'`"
 	echo
 	echo "`eval_gettext 'OPTIONS:'`"
 	echo
 	echo "`eval_gettext '   -k keymap,         a valid keyboard map'`"
 	echo "`eval_gettext '   -n numlockstate,   the numlock state, on or off'`"
+	echo "`eval_gettext '   -i ibusstate,      the IBus state, on or off'`"
 	echo "`eval_gettext '   -s scimstate,      the SCIM state, on or off'`"
 	echo "`eval_gettext '   -z,                do not apply changes on the fly, only edit settings files'`"
 	exit 1
@@ -86,6 +90,17 @@ EORC
 		numstate="on"
 	else
 		numstate="off"
+	fi
+
+	# Check for the running IBus state (only if ibus is installed)
+	if [ -x /usr/bin/ibus-daemon ]; then
+		if [ -x /etc/profile.d/ibus.sh ]; then
+			ibusstate="on"
+		else
+			ibusstate="off"
+		fi
+	else
+		ibusstate="off"
 	fi
 
 	# Check for the running SCIM state (only if scim is installed)
@@ -127,6 +142,15 @@ checkoptions(){
 				elif [ $numstate = "off" ]; then
 					numlock="unchecked"
 				fi
+			else
+				echo "`eval_gettext 'ERROR: $OPTARG is not a valid option.'`"
+				usage
+			fi
+		fi
+		if [ $flag = "i" ]; then
+			setibus=1
+			if [ $OPTARG = "on" ] || [ $OPTARG = "off" ]; then
+				ibusstate="$OPTARG"
 			else
 				echo "`eval_gettext 'ERROR: $OPTARG is not a valid option.'`"
 				usage
@@ -251,7 +275,34 @@ interactive(){
 		numstate="off"
 		numlock="unchecked"
 	fi
-	
+
+	# Display a dialog for ibus, if ibus is installed
+	if [ -x /usr/bin/ibus-daemon ]; then
+		setibus=1
+		if [ $ibusstate = "off" ]; then
+			ibusdefault="--defaultno"
+		fi
+		$dialog \
+		--stdout \
+		--title "`eval_gettext 'IBus configuration'`" \
+		--yes-label "`eval_gettext 'Enabled'`" \
+		--no-label "`eval_gettext 'Disabled'`" \
+		$ibusdefault \
+		--icon "$iconpath" \
+		--yesno \
+		"\\n`eval_gettext 'IBus is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\n\nYou will have to restart your system for this to take effect.'`" 0 0
+		retval=$?
+		if [ $retval -eq 255 ]; then
+			setibus=0
+		elif [ $retval -eq 0 ]; then
+			ibusstate="on"
+		else
+			ibusstate="off"
+		fi
+	else
+		setibus=0
+	fi
+
 	# Display a dialog for scim, if scim is installed
 	if [ -x /usr/bin/scim ]; then
 		setscim=1
@@ -323,6 +374,18 @@ applynumlock(){
 	fi
 }
 
+
+# Apply ibus settings
+applyibus(){
+	if [ "$ibusstate" = "on" ]; then
+		[ -f /etc/profile.d/ibus.sh ] && chmod +x /etc/profile.d/ibus.sh
+		[ -f /etc/profile.d/ibus.csh ] && chmod +x /etc/profile.d/ibus.csh
+	elif [ "$ibusstate" = "off" ]; then
+		[ -f /etc/profile.d/ibus.sh ] && chmod -x /etc/profile.d/ibus.sh
+		[ -f /etc/profile.d/ibus.csh ] && chmod -x /etc/profile.d/ibus.csh
+	fi
+}
+
 # Apply scim settings
 applyscim(){
 	if [ "$scimstate" = "on" ]; then
@@ -379,6 +442,7 @@ fi
 # Apply selected settings
 [[ $setkeymap -eq 1 ]] && applykeyboard
 [[ $setnumlock -eq 1 ]] && applynumlock
+[[ $setibus -eq 1 ]] && applyibus
 [[ $setscim -eq 1 ]] && applyscim
 	
 # Exit back to original directory
