@@ -2,112 +2,154 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-13 14:38+0200\n"
 "PO-Revision-Date: 2011-01-10 23:20+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
-#: keyboardsetup:60
-#, sh-format
-msgid "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
-msgstr "ВИКОРИСТАННЯ: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
+#: keyboardsetup:61
+#, fuzzy, sh-format
+msgid ""
+"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
+"scimstate]]"
+msgstr ""
+"ВИКОРИСТАННЯ: keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
 
-#: keyboardsetup:62
+#: keyboardsetup:63
 #, sh-format
 msgid "OPTIONS:"
 msgstr "ОПЦІЇ:"
 
-#: keyboardsetup:64
+#: keyboardsetup:65
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr "   -k keymap,         існуюча розкладка клавіатури"
 
-#: keyboardsetup:65
+#: keyboardsetup:66
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlockstate,   стан numlock, on або off"
 
-#: keyboardsetup:66
+#: keyboardsetup:67
+#, fuzzy, sh-format
+msgid "   -i ibusstate,      the IBus state, on or off"
+msgstr "   -s scimstate,      стан SCIM, on або off"
+
+#: keyboardsetup:68
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr "   -s scimstate,      стан SCIM, on або off"
 
-#: keyboardsetup:67
+#: keyboardsetup:69
 #, sh-format
-msgid "   -z,                do not apply changes on the fly, only edit settings files"
-msgstr "-z, не застосовувати змін відразу, а тільки редагувати файли конфігурації"
+msgid ""
+"   -z,                do not apply changes on the fly, only edit settings "
+"files"
+msgstr ""
+"-z, не застосовувати змін відразу, а тільки редагувати файли конфігурації"
 
-#: keyboardsetup:117
-#, sh-format
-msgid "ERROR: $OPTARG is not a valid keymap. You can look in $keymapsdir/keymaps for a list of valid keymaps"
-msgstr "ПОМИЛКА: $OPTARG не є правильною розкладкою. Ви можете подивитися в $keymapsdir/keymaps для списку правильних розкладок"
+#: keyboardsetup:130
+#, fuzzy, sh-format
+msgid ""
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"ПОМИЛКА: $OPTARG не є правильною розкладкою. Ви можете подивитися в "
+"$keymapsdir/keymaps для списку правильних розкладок"
 
-#: keyboardsetup:131 keyboardsetup:140
+#: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "ПОМИЛКА: $OPTARG не є правильною опцією."
 
-#: keyboardsetup:157
+#: keyboardsetup:179
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ПОМИЛКА: Забагато аргументів"
 
-#: keyboardsetup:207
+#: keyboardsetup:230
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Налаштування клавіатури"
 
-#: keyboardsetup:209
+#: keyboardsetup:232
 #, sh-format
 msgid "OK"
 msgstr "ОК"
 
-#: keyboardsetup:210
+#: keyboardsetup:233
 #, sh-format
 msgid "Exit"
 msgstr "Вийти"
 
-#: keyboardsetup:213
+#: keyboardsetup:235
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Виберіть Вашу улюблену розкладку клавіатури:"
 
-#: keyboardsetup:236
+#: keyboardsetup:258
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Налаштування numlock"
 
-#: keyboardsetup:237 keyboardsetup:263
+#: keyboardsetup:259 keyboardsetup:284 keyboardsetup:310
 #, sh-format
 msgid "Enabled"
 msgstr "Включено"
 
-#: keyboardsetup:238 keyboardsetup:264
+#: keyboardsetup:260 keyboardsetup:285 keyboardsetup:311
 #, sh-format
 msgid "Disabled"
 msgstr "Виключено"
 
-#: keyboardsetup:242
+#: keyboardsetup:263
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Ви бажаєте мати numlock включеним чи виключеним по завчуванню?"
 
-#: keyboardsetup:262
+#: keyboardsetup:283
+#, fuzzy, sh-format
+msgid "IBus configuration"
+msgstr "Налаштування SCIM"
+
+#: keyboardsetup:288
+#, fuzzy, sh-format
+msgid ""
+"IBus is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
+msgstr ""
+"SCIM є метод вводу для китайської, японської, корейської і багато інших мов, "
+"що використовують графічну оболонку. Ви бажаєте мати його включеним чи "
+"виключеним при завантаженні?\\n\\nВи повинні перезавантажити Вашу систему "
+"для впровадження змін."
+
+#: keyboardsetup:309
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Налаштування SCIM"
 
-#: keyboardsetup:268
+#: keyboardsetup:314
 #, sh-format
-msgid "SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\\n\\nYou will have to restart your system for this to take effect."
-msgstr "SCIM є метод вводу для китайської, японської, корейської і багато інших мов, що використовують графічну оболонку. Ви бажаєте мати його включеним чи виключеним при завантаженні?\\n\\nВи повинні перезавантажити Вашу систему для впровадження змін."
+msgid ""
+"SCIM is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
+msgstr ""
+"SCIM є метод вводу для китайської, японської, корейської і багато інших мов, "
+"що використовують графічну оболонку. Ви бажаєте мати його включеним чи "
+"виключеним при завантаженні?\\n\\nВи повинні перезавантажити Вашу систему "
+"для впровадження змін."
