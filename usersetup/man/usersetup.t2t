@@ -20,46 +20,37 @@ and group memberships. It uses a __dialog__ interface to present
 the user with a menu that includes the following options:
 
 **Create a new account**,
-%comment
 which allows the creation of a new user account. Only information that
 needs to be provided is the username and password.
 
 **Create a new account (advanced mode)**,
-%comment
 which allows the creation of a new user account, providing full
 information for that user, like full username, office, home and work phone
 numbers, home directory path, shell to be used, group membership and
 account expiry date.
 
 **Modify account properties**,
-%comment
 which can be used to modify account properties for existing users.
 
 **Change account password**,
-%comment
 which allows changing the password for a user account with a new one.
 
 **Delete accounts**,
-%comment
 which can be used to delete user accounts from the system. Home
 directories for those users and all the files they include will still
 remain.
 
 **List groups and memberships**,
-%comment
 which provides a list of all groups present in the system. By selecting
 a group, a list of users that are part of that group is displayed.
 
 **Create a new group**,
-%comment
 which can be used to create a new group.
 
 **Change group name**,
-%comment
 which allows changing the name of a group already present in the system.
 
 **Delete groups**,
-%comment
 which allows the deletion of a group from the system.
 
 **usersetup** is part of the **salixtools** package.

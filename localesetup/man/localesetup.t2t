@@ -30,7 +30,7 @@ command line.
 
 = OPTIONS =
 
-:**locale**
+: **locale**
 The locale to be used. All locales that are specified from the command
 line are converted to their utf8 equivalents before being applied. You
 can get a list of available locales using the command **locale -cva**.
