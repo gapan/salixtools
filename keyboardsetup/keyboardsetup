@@ -444,7 +444,7 @@ fi
 # Exit back to original directory
 if [ -d $backtohome ]; then
 	cd $backtohome
-elif [ -d $HOME]; then
+elif [ -d $HOME ]; then
 	cd $HOME
 else
 	cd /
