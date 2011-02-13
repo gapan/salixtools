@@ -41,27 +41,27 @@ parameters from the command line.
 
 = OPTIONS =
 
-:**-k** //keymap//,
+:**-k** //keymap//
 use it to set the desired keyboard map. //keymap// specifies the
 keyboard map to be used. Look in the ///usr/share/salixtools/keymaps//
 file to view a list of valid keyboard maps and their corresponding
 Xorg layouts and options.
 
-:**-n** //numlockstate//,
+:**-n** //numlockstate//
 use it to specify the default numlock state for the linux terminal and
 Xorg. //numlockstate// can be set to either **on** or **off**.
 
-:**-i** //ibusstate//,
+:**-i** //ibusstate//
 use it to specify the default state of IBus, if IBus is installed.
 //ibusstate// can be set to either **on** or **off**. It will have no
 effect if IBus is not installed.
 
-:**-s** //scimstate//,
+:**-s** //scimstate//
 use it to specify the default state of SCIM, if SCIM is installed.
 //scimstate// can be set to either **on** or **off**. It will have no
 effect if SCIM is not installed.
 
-:**-z**,
+:**-z**
 use this to not apply settings on the fly. Changes will still be made in
 all relevant settings files, so they will be applied next time the
 system is started.

@@ -26,8 +26,7 @@ status.
 
 = OPTIONS =
 
-**action**,
-%comment
+**action**
 Can be either one of //start//, //stop//, //restart// or //list//.
 //start//, //stop// and //restart// require //servicename// to be
 provided as an additional argument. //start// starts a stopped
@@ -37,8 +36,7 @@ a currently running service and makes it not autostart at boot.
 provides a list of all available services, a short description for each
 one and their status (on or off).
 
-**servicename**,
-%comment
+**servicename**
 The name of the service to //start//, //stop// or //restart//. You can
 get a list of available service names by running **service list**.
 

@@ -29,31 +29,26 @@ used to:
 
 = OPTIONS =
 
-**-c**,
-%comment
+:**-c**
 if specified, clocksetup will only display a dialog for configuring the
 hardware clock. You can select if your hardware clock is using UTC/GMT
 or is set to local time. Most home or business computer hardware clocks
 are set to using local time, while the hardware clock in most web
 servers is probably set to using UTC time.
 
-**-d**,
-%comment
+:**-d**
 if specified, clocksetup will only display a dialog for setting the
 date.
 
-**-t**,
-%comment
+:**-t**
 if specified, clocksetup will only display a dialog for setting the
 time.
 
-**-z**,
-%comment
+:**-z**
 if specified, clocksetup will only display a dialog for setting the
 timezone instead of the main menu.
 
-**-h**,
-%comment
+:**-h**
 shows a brief help message.
 
 = AUTHORS =
