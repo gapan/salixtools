@@ -24,13 +24,14 @@ booting. User preferences are applied on the fly and appropriate changes
 are done to system configuration files so they become the system
 default.
 
-**keyboardsetup** can also be used to set SCIM to be enabled or disabled,
-if SCIM is installed, by means of providing a dialog for it.
-SCIM is an input platform for Chinese, Japanese, Korean and many other
-languages when using a graphical environment). SCIM
+**keyboardsetup** can also be used to set IBus or SCIM to be enabled or 
+disabled, if IBus or SCIM are installed, by means of providing a dialog for
+each one of them..
+IBus and SCIM are input platforms for Chinese, Japanese, Korean and many other
+languages when using a graphical environment). IBus and SCIM
 settings require the system to be restarted to take effect, or at
 the very least for the user to logout of his X session, log back in
-again and start SCIM manually.
+again and start IBus or SCIM manually.
 
 **keyboardsetup** also has a non-interactive mode that can be
 invoked by providing keyboard map, numlock state and/or SCIM state
@@ -40,26 +41,27 @@ parameters from the command line.
 
 = OPTIONS =
 
-**-k** //keymap//,
-%comment
+:**-k** //keymap//,
 use it to set the desired keyboard map. //keymap// specifies the
 keyboard map to be used. Look in the ///usr/share/salixtools/keymaps//
 file to view a list of valid keyboard maps and their corresponding
 Xorg layouts and options.
 
-**-n** //numlockstate//,
-%comment
+:**-n** //numlockstate//,
 use it to specify the default numlock state for the linux terminal and
 Xorg. //numlockstate// can be set to either **on** or **off**.
 
-**-s** //scimstate//,
-%comment
+:**-i** //ibusstate//,
+use it to specify the default state of IBus, if IBus is installed.
+//ibusstate// can be set to either **on** or **off**. It will have no
+effect if IBus is not installed.
+
+:**-s** //scimstate//,
 use it to specify the default state of SCIM, if SCIM is installed.
 //scimstate// can be set to either **on** or **off**. It will have no
 effect if SCIM is not installed.
 
-**-z**,
-%comment
+:**-z**,
 use this to not apply settings on the fly. Changes will still be made in
 all relevant settings files, so they will be applied next time the
 system is started.
