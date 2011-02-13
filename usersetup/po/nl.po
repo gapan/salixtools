@@ -2,19 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-13 14:38+0200\n"
 "PO-Revision-Date: 2011-01-10 23:25+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: usersetup:49
@@ -266,17 +266,21 @@ msgstr "De accountnaam is leeg, corrigeer dit alsublieft..."
 #: usersetup:284
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr "Een accountnaam mag niet beginnen met een nummer, corrigeer dit alsublieft..."
+msgstr ""
+"Een accountnaam mag niet beginnen met een nummer, corrigeer dit alsublieft..."
 
 #: usersetup:286
 #, sh-format
-msgid "An account name cannot contain uppercase characters, please correct it..."
-msgstr "Een accountnaam mag geen hoofdletters bevatten, corrigeer dit alsublieft..."
+msgid ""
+"An account name cannot contain uppercase characters, please correct it..."
+msgstr ""
+"Een accountnaam mag geen hoofdletters bevatten, corrigeer dit alsublieft..."
 
 #: usersetup:288
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr "Een accountnaam mag geen leestekens bevatten, corrigeer dit alsublieft..."
+msgstr ""
+"Een accountnaam mag geen leestekens bevatten, corrigeer dit alsublieft..."
 
 #: usersetup:306
 #, sh-format
@@ -341,8 +345,11 @@ msgstr "Wachtwoorden komen niet overeen, probeer het opnieuw alstublieft..."
 
 #: usersetup:438
 #, sh-format
-msgid "Password is too short (${minlength} chars minimum), please try another one..."
-msgstr "Het wachtwoord is te kort (${minlength} chars minimum), probeert u een ander wachtwoord alstublieft..."
+msgid ""
+"Password is too short (${minlength} chars minimum), please try another one..."
+msgstr ""
+"Het wachtwoord is te kort (${minlength} chars minimum), probeert u een ander "
+"wachtwoord alstublieft..."
 
 #: usersetup:441
 #, sh-format

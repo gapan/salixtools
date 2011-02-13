@@ -2,19 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2010-11-21 18:03+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-13 14:38+0200\n"
 "PO-Revision-Date: 2011-01-10 23:25+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: French <>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: usersetup:49
@@ -266,17 +266,21 @@ msgstr "Le nom du compte est vide, veuillez le corriger…"
 #: usersetup:284
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr "Un nom de compte ne doit pas commencer par un chiffre, veuillez le corriger…"
+msgstr ""
+"Un nom de compte ne doit pas commencer par un chiffre, veuillez le corriger…"
 
 #: usersetup:286
 #, sh-format
-msgid "An account name cannot contain uppercase characters, please correct it..."
-msgstr "Un nom de compte ne doit pas comporter de majuscule, veuillez le corriger…"
+msgid ""
+"An account name cannot contain uppercase characters, please correct it..."
+msgstr ""
+"Un nom de compte ne doit pas comporter de majuscule, veuillez le corriger…"
 
 #: usersetup:288
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr "Un nom de compte ne doit pas comporter de ponctuation, veuillez le corriger…"
+msgstr ""
+"Un nom de compte ne doit pas comporter de ponctuation, veuillez le corriger…"
 
 #: usersetup:306
 #, sh-format
@@ -337,12 +341,16 @@ msgstr "Veuillez saisir le mot de passe du compte"
 #: usersetup:435
 #, sh-format
 msgid "Passwords do not match, please try again..."
-msgstr "Les mots de passe ne sont pas identiques, veuillez effectuer un nouvel essai…"
+msgstr ""
+"Les mots de passe ne sont pas identiques, veuillez effectuer un nouvel essai…"
 
 #: usersetup:438
 #, sh-format
-msgid "Password is too short (${minlength} chars minimum), please try another one..."
-msgstr "Le mot de passe est trop court (${minlength} charactères minimum), veuillez effectuer un nouvel essai…"
+msgid ""
+"Password is too short (${minlength} chars minimum), please try another one..."
+msgstr ""
+"Le mot de passe est trop court (${minlength} charactères minimum), veuillez "
+"effectuer un nouvel essai…"
 
 #: usersetup:441
 #, sh-format
