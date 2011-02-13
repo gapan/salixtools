@@ -233,7 +233,6 @@ interactive(){
 	--default-item \"$currentpathkeymap\" \
 	--ok-label \"`eval_gettext 'OK'`\" \
 	--cancel-label \"`eval_gettext 'Exit'`\" \
-	--icon \"$iconpath\" \
 	--menu \
 	\"\\n        `eval_gettext 'Please select your preferred keyboard map:'`\" 20 80 11 "$list" )"
 
@@ -262,7 +261,6 @@ interactive(){
 	--yes-label "`eval_gettext 'Enabled'`" \
 	--no-label "`eval_gettext 'Disabled'`" \
 	$numdefault \
-	--icon "$iconpath" \
 	--yesno \
 	"\\n`eval_gettext 'Do you want to have numlock enabled or disabled by default?'`" 0 0
 		retval=$?
@@ -288,7 +286,6 @@ interactive(){
 		--yes-label "`eval_gettext 'Enabled'`" \
 		--no-label "`eval_gettext 'Disabled'`" \
 		$ibusdefault \
-		--icon "$iconpath" \
 		--yesno \
 		"\\n`eval_gettext 'IBus is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\n\nYou will have to restart your system for this to take effect.'`" 0 0
 		retval=$?
@@ -315,7 +312,6 @@ interactive(){
 		--yes-label "`eval_gettext 'Enabled'`" \
 		--no-label "`eval_gettext 'Disabled'`" \
 		$scimdefault \
-		--icon "$iconpath" \
 		--yesno \
 		"\\n`eval_gettext 'SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\n\nYou will have to restart your system for this to take effect.'`" 0 0
 		retval=$?
