@@ -2,27 +2,29 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-01-10 23:20+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-03-22 15:49+0000\n"
+"Last-Translator: gambit73 <gambit73@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: keyboardsetup:61
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr "GEBRUIK: keyboardsetup [[keymap-k] [-n numlockstate] [-s scimstate]]"
+msgstr ""
+"GEBRUIK: keyboardsetup [[-k keymap] [-n numlockstate] [i-ibusstate] [-s "
+"scimstate]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -40,9 +42,9 @@ msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "Numlockstate-n, de numlock status aan/uit"
 
 #: keyboardsetup:67
-#, fuzzy, sh-format
+#, sh-format
 msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr "-S scimstate, de SCIM status aan/uit"
+msgstr "-i ibusstate, de IBus status, in- of uitschakelen"
 
 #: keyboardsetup:68
 #, sh-format
@@ -59,13 +61,14 @@ msgstr ""
 "instellingen in bestanden wijzigen."
 
 #: keyboardsetup:130
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
 msgstr ""
-"FOUT: $OPTARG is geen geldige toetsindeling. U kunt kijken in $keymapsdir/"
-"keymaps voor een lijst van geldige toetsindeling"
+"FOUT: $OPTARG is geen geldige toetsenbordindeling. U kunt in "
+"$salixtoolsdir/keymaps kijken voor een lijst van geldige "
+"toetsenbordindelingen"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -118,22 +121,21 @@ msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Wilt u de numlock standaard in- of uitgeschakeld hebben?"
 
 #: keyboardsetup:283
-#, fuzzy, sh-format
+#, sh-format
 msgid "IBus configuration"
-msgstr "SCIM configuratie"
+msgstr "IBus configuratie"
 
 #: keyboardsetup:288
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
 msgstr ""
-"SCIM is een platform voor invoer van Chinees, Japans, Koreaans en vele "
-"andere talen bij gebruik van een grafische omgeving. Wilt u deze in- of "
-"uitgeschakeld hebben bij het opstarten?\\n\\nU moet uw systeem opnieuw "
-"starten om de aanpassing te ervaren."
+"IBus is een input platform voor Chinees, Japans, Koreaans en vele andere talen in een grafische omgeving. Wilt u dit in- of uitgeschakeld hebben bij het opstarten? \n"
+"\n"
+"U moet uw systeem opnieuw op te starten voordat het werkt."
 
 #: keyboardsetup:309
 #, sh-format
@@ -144,8 +146,8 @@ msgstr "SCIM configuratie"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
 msgstr ""
 "SCIM is een platform voor invoer van Chinees, Japans, Koreaans en vele "

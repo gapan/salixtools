@@ -2,28 +2,29 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-01-10 23:20+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-03-22 15:49+0000\n"
+"Last-Translator: Akuna <akuna@free.fr>\n"
 "Language-Team: French <>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: keyboardsetup:61
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
 msgstr ""
-"UTLISATION : keyboardsetup [[-k keymap] [-n numlockstate] [-s scimstate]]"
+"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
+"scimstate]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -41,9 +42,9 @@ msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlockstate,   état du verrou numérique, on ou off"
 
 #: keyboardsetup:67
-#, fuzzy, sh-format
+#, sh-format
 msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr "   -s scimstate,      état de SCIM, on ou off"
+msgstr "   -i ibusstate,      état de IBus, on ou off"
 
 #: keyboardsetup:68
 #, sh-format
@@ -56,17 +57,18 @@ msgid ""
 "   -z,                do not apply changes on the fly, only edit settings "
 "files"
 msgstr ""
-"   -z,                ne pas appliquer les changements immédiatement mais "
-"seulement éditer les fichiers"
+"   -z,                ne pas appliquer les changements immédiatement, "
+"uniquement modifier les fichiers de configuration"
 
 #: keyboardsetup:130
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
 msgstr ""
-"ERROR : $OPTARG n'est pas une disposition valide de clavier. Veuillez "
-"consulter la liste de claviers reconnus dans $keymapsdir/keymaps "
+"ERREUR: $OPTARG n'est pas une disposition de clavier valide. Vous pouvez "
+"consulter $salixtoolsdir/keymaps pour avoir une liste de dispositions de "
+"clavier valides"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -119,22 +121,22 @@ msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Voulez-vous activer par défaut le verrou numérique ?"
 
 #: keyboardsetup:283
-#, fuzzy, sh-format
+#, sh-format
 msgid "IBus configuration"
-msgstr "Configuration de SCIM"
+msgstr "Configuration de IBus "
 
 #: keyboardsetup:288
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
 msgstr ""
-"SCIM est un système de saisie graphique pour le chinois, le japonais, le "
-"coréen et bien d'autres langues.\\nVoulez-vous l'activer au démarrager ?\\n"
-"\\nVous devrez redémarrer votre système pour que les changements prennent "
-"effet."
+"IBus est un système unifié de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\n"
+"Désirez-vous l'activer au démarrage ?\n"
+"\n"
+"Vous devrez redémarrer votre système pour que les changements prennent effet."
 
 #: keyboardsetup:309
 #, sh-format
@@ -145,11 +147,11 @@ msgstr "Configuration de SCIM"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
 msgstr ""
-"SCIM est un système de saisie graphique pour le chinois, le japonais, le "
-"coréen et bien d'autres langues.\\nVoulez-vous l'activer au démarrager ?\\n"
-"\\nVous devrez redémarrer votre système pour que les changements prennent "
-"effet."
+"SCIM est un système de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\n"
+"Désirez-vous l'activer au démarrage ?\n"
+"\n"
+"Vous devrez redémarrer votre système pour que les changements prennent effet."

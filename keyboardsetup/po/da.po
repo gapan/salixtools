@@ -2,27 +2,29 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-01-10 23:20+0000\n"
+"PO-Revision-Date: 2011-03-22 15:49+0000\n"
 "Last-Translator: kristho <lakristho@gmail.com>\n"
 "Language-Team: Danish <None>\n"
-"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: keyboardsetup:61
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr "BRUG: keyboardsetup [[-k tasteudlægning] [-n numlock] [-s scimstatus]]"
+msgstr ""
+"BRUG: keyboardsetup [[-k tasteudlægning] [-n numlockstatus] [-i ibusstatus] "
+"[-s scimstatus]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -40,9 +42,9 @@ msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlock,   status for numlock, on eller off"
 
 #: keyboardsetup:67
-#, fuzzy, sh-format
+#, sh-format
 msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr "   -s scimstatus,      status for SCIM, on eller off"
+msgstr "   -i ibusstatus,      IBus-status, on eller off"
 
 #: keyboardsetup:68
 #, sh-format
@@ -59,13 +61,13 @@ msgstr ""
 "indstillingsfiler"
 
 #: keyboardsetup:130
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
 msgstr ""
-"FEJL: $OPTARG er ikke en gyldig tasteudlægning. Du kan finde en liste over "
-"gyldige tastaturudlægninger i $keymapsdir/keymaps"
+"FEJL: $OPTARG er ikke en gyldig tasteudlægning. Du kan se i "
+"$salixtoolsdir/keymaps for en liste over gyldige tasteudlægninger"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -118,22 +120,21 @@ msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Vil du have numlock aktiveret eller deaktiveret som standard?"
 
 #: keyboardsetup:283
-#, fuzzy, sh-format
+#, sh-format
 msgid "IBus configuration"
-msgstr "Konfiguration af SCIM"
+msgstr "Konfiguration af IBus"
 
 #: keyboardsetup:288
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
 msgstr ""
-"SCIM er en inputplatform for kinesisk, japansk, koreansk og mange andre "
-"sprog, når den bliver brugt i et grafisk miljø. Vil du have den aktiveret "
-"eller deaktiveret ved opstart?\\n\\nDu skal genstarte dit system for dette "
-"træder i kraft."
+"IBus er en inputplatform til kinesisk, japansk, koreansk og mange andre sprog brugt i et grafisk miljø. Vil du have det aktiveret eller deaktiveret under opstart?\n"
+"\n"
+"Du skal genstarte dit system før dette træder i kraft."
 
 #: keyboardsetup:309
 #, sh-format
@@ -144,8 +145,8 @@ msgstr "Konfiguration af SCIM"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
 msgstr ""
 "SCIM er en inputplatform for kinesisk, japansk, koreansk og mange andre "
