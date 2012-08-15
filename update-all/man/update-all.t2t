@@ -24,13 +24,18 @@ update-all - a scripts that updates several parts of a linux system
 - updates GTK+/GDK/pango files
 - compiles glib schemas
 
+
 **update-all** is part of the **salixtools** package.
+
 
 = AUTHORS =
 
+
 - George Vlahavas <vlahavas~at~gmail~dot~com>
 
+
 = SEE ALSO =
+
 
 **ldconfig**(8), **fc-cache**(1), **update-desktop-database**(1),
 **update-mime-database**(1), **glib-compile-schemas**(1)
