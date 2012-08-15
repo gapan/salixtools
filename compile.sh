@@ -7,7 +7,7 @@ for i in clocksetup keyboardsetup localesetup usersetup servicesetup service;do
 		msgfmt $j -o `echo $j | sed "s/\.po//"`.mo
 	done
 done
-for i in clocksetup keyboardsetup localesetup usersetup servicesetup service;do
+for i in clocksetup keyboardsetup localesetup usersetup servicesetup service update-all;do
 	(
 	cd $i/man
 	echo "Compiling $i manpage"
