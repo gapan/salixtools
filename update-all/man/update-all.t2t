@@ -1,0 +1,36 @@
+update-all
+George Vlahavas
+%%mtime(%m/%d/%Y)
+
+%!target: man
+%!encoding: utf-8
+
+= NAME =
+
+update-all - a scripts that updates several parts of a linux system
+
+= SYNOPSIS =
+
+**update-all**
+
+= DESCRIPTION =
+
+**update-all** is a scripts that runs the following maintenance tasks:
+- updates shared library links
+- updates X font indeces
+- updates existing icon cache files
+- updates desktop database
+- updates mime-database
+- updates GTK+/GDK/pango files
+- compiles glib schemas
+
+**update-all** is part of the **salixtools** package.
+
+= AUTHORS =
+
+- George Vlahavas <vlahavas~at~gmail~dot~com>
+
+= SEE ALSO =
+
+**ldconfig**(8), **fc-cache**(1), **update-desktop-database**(1),
+**update-mime-database**(1), **glib-compile-schemas**(1)
