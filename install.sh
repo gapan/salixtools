@@ -17,9 +17,10 @@ for i in clocksetup keyboardsetup localesetup usersetup servicesetup service; do
 		$DESTDIR/usr/share/locale/`basename $j|sed "s/.mo//"`/LC_MESSAGES/$i.mo
 	done
 done
+install -m 755 update-all/update-all $DESTDIR/usr/sbin/
 
 install -d -m 755 $DESTDIR/usr/man/man8
-for i in clocksetup keyboardsetup localesetup usersetup servicesetup service; do
+for i in clocksetup keyboardsetup localesetup usersetup servicesetup service update-all; do
 	(
 	cd $i/man
 	for j in `ls *.8`; do
