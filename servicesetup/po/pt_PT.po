@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
+"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"PO-Revision-Date: 2012-02-14 09:25+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: servicesetup:65
+#, sh-format
+msgid "Startup services"
+msgstr "Serviços de inicialização"
+
+#: servicesetup:66
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: servicesetup:67
+#, sh-format
+msgid "Exit"
+msgstr "Sair"
+
+#: servicesetup:70
+#, sh-format
+msgid "The selected services will be started at boot time:"
+msgstr "Os serviços selecionados serão iniciados no momento da inicialização:"
+
+#: servicesetup:79
+#, sh-format
+msgid "The $service service"
+msgstr "O $serviço serviço"

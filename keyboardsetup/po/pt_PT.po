@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
+"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"PO-Revision-Date: 2012-02-14 09:22+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: keyboardsetup:61
+#, sh-format
+msgid ""
+"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
+"scimstate]]"
+msgstr "UTILIZAÇÃO: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate] [-s scimstate]]"
+
+#: keyboardsetup:63
+#, sh-format
+msgid "OPTIONS:"
+msgstr "OPÇÕES:"
+
+#: keyboardsetup:65
+#, sh-format
+msgid "   -k keymap,         a valid keyboard map"
+msgstr "   -k keymap, um mapa de teclado válido         "
+
+#: keyboardsetup:66
+#, sh-format
+msgid "   -n numlockstate,   the numlock state, on or off"
+msgstr "   -n numlockstate,    o estado do numlock, on ou off"
+
+#: keyboardsetup:67
+#, sh-format
+msgid "   -i ibusstate,      the IBus state, on or off"
+msgstr "   -i ibusstate,       o estado do IBus, on ou off"
+
+#: keyboardsetup:68
+#, sh-format
+msgid "   -s scimstate,      the SCIM state, on or off"
+msgstr "   -s scimstate,       o estado do SCIM, on ou off"
+
+#: keyboardsetup:69
+#, sh-format
+msgid ""
+"   -z,                do not apply changes on the fly, only edit settings "
+"files"
+msgstr "   -z,                 não aplicar as alterações em tempo real, apenas editar as definições dos ficheiros"
+
+#: keyboardsetup:130
+#, sh-format
+msgid ""
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
+msgstr "ERRO: $OPTARG não é um esquema de teclado válido. Você pode olhar em $salixtoolsdir/keymaps para uma lista de esquemas de teclados válidos"
+
+#: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
+#, sh-format
+msgid "ERROR: $OPTARG is not a valid option."
+msgstr "ERRO: $OPTARG não é uma opção válida."
+
+#: keyboardsetup:179
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "ERROR: Demasiados argumentos"
+
+#: keyboardsetup:230
+#, sh-format
+msgid "Keyboard configuration"
+msgstr "Configuração do teclado"
+
+#: keyboardsetup:232
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: keyboardsetup:233
+#, sh-format
+msgid "Exit"
+msgstr "Sair"
+
+#: keyboardsetup:235
+#, sh-format
+msgid "Please select your preferred keyboard map:"
+msgstr "Por favor, selecione o seu esquema de teclado preferido:"
+
+#: keyboardsetup:258
+#, sh-format
+msgid "Numlock configuration"
+msgstr "Configuração do Numlock"
+
+#: keyboardsetup:259 keyboardsetup:284 keyboardsetup:310
+#, sh-format
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: keyboardsetup:260 keyboardsetup:285 keyboardsetup:311
+#, sh-format
+msgid "Disabled"
+msgstr "Desabilitado"
+
+#: keyboardsetup:263
+#, sh-format
+msgid "Do you want to have numlock enabled or disabled by default?"
+msgstr "Você quer ter numlock ativado ou desativado por padrão?"
+
+#: keyboardsetup:283
+#, sh-format
+msgid "IBus configuration"
+msgstr "Configuração Ibus"
+
+#: keyboardsetup:288
+#, sh-format
+msgid ""
+"IBus is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
+msgstr "IBus é uma plataforma de entrada para o chinês, japonês, coreano e muitas outras línguas quando se usa um ambiente gráfico. Você quer tê-lo ativado ou desativado na inicialização?\n\n\nVocê terá que reiniciar o sistema para que isso tenha efeito."
+
+#: keyboardsetup:309
+#, sh-format
+msgid "SCIM configuration"
+msgstr "Configuração SCIM"
+
+#: keyboardsetup:314
+#, sh-format
+msgid ""
+"SCIM is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
+msgstr "SCIM é uma plataforma de entrada para o chinês, japonês, coreano e muitas outras línguas quando se usa um ambiente gráfico. Você quer tê-lo ativado ou desativado na inicialização?\n\n\nVocê terá que reiniciar o seu sistema para que isso tenha efeito."

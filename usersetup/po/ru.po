@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# goriy  <wolfr2@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
+"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"PO-Revision-Date: 2012-04-08 19:01+0000\n"
+"Last-Translator: goriy <wolfr2@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: usersetup:49
+#, sh-format
+msgid "Select"
+msgstr "Выбор"
+
+#: usersetup:50
+#, sh-format
+msgid "Exit user setup"
+msgstr "Выйти из настройки пользователей"
+
+#: usersetup:51
+#, sh-format
+msgid "Users accounts management"
+msgstr "Управление учетными записями пользователей"
+
+#: usersetup:53
+#, sh-format
+msgid "Please choose an option..."
+msgstr "Выберите опцию..."
+
+#: usersetup:55
+#, sh-format
+msgid "Create a new account"
+msgstr "Создать новую учётную запись"
+
+#: usersetup:56
+#, sh-format
+msgid "Create a new account (advanced mode)"
+msgstr "Создать новую учётную запись (расширенный режим)"
+
+#: usersetup:57
+#, sh-format
+msgid "Modify account properties"
+msgstr "Изменить параметры учётной записи"
+
+#: usersetup:58
+#, sh-format
+msgid "Change account password"
+msgstr "Сменить пароль учётной записи"
+
+#: usersetup:59
+#, sh-format
+msgid "Delete accounts"
+msgstr "Удалить учётные записи"
+
+#: usersetup:60
+#, sh-format
+msgid "List groups and memberships"
+msgstr "Показать группы пользователей и членство в них"
+
+#: usersetup:61
+#, sh-format
+msgid "Create a new group"
+msgstr "Создать новую группу пользователей"
+
+#: usersetup:62
+#, sh-format
+msgid "Change group name"
+msgstr "Сменить название группы"
+
+#: usersetup:63
+#, sh-format
+msgid "Delete groups"
+msgstr "Удалить группы"
+
+#: usersetup:79 usersetup:202
+#, sh-format
+msgid "Account properties"
+msgstr "Параметры учётной записи"
+
+#: usersetup:80 usersetup:245
+#, sh-format
+msgid "Properties"
+msgstr "Параметры"
+
+#: usersetup:81 usersetup:98 usersetup:115 usersetup:132 usersetup:149
+#: usersetup:167 usersetup:204 usersetup:246
+#, sh-format
+msgid "Back"
+msgstr "Назад"
+
+#: usersetup:83
+#, sh-format
+msgid "Select an account to view its properties..."
+msgstr "Выберите учётную запись для просмотра её параметров..."
+
+#: usersetup:96
+#, sh-format
+msgid "Account deletion"
+msgstr "Удаление учётной записи"
+
+#: usersetup:97 usersetup:166 usersetup:661 usersetup:725
+#, sh-format
+msgid "Delete"
+msgstr "Удалить"
+
+#: usersetup:100
+#, sh-format
+msgid "Select an account to delete..."
+msgstr "Выберите учётную запись для удаления..."
+
+#: usersetup:113
+#, sh-format
+msgid "Change password"
+msgstr "Сменить пароль"
+
+#: usersetup:114
+#, sh-format
+msgid "Change"
+msgstr "Изменить"
+
+#: usersetup:117
+#, sh-format
+msgid "Select an account to change password for..."
+msgstr "Выберите учётную запись для смены пароля..."
+
+#: usersetup:130
+#, sh-format
+msgid "Group memberships"
+msgstr "Пользователи в группе"
+
+#: usersetup:131
+#, sh-format
+msgid "Memberships"
+msgstr "Членство пользователей"
+
+#: usersetup:134
+#, sh-format
+msgid "Select a group to view memberships for..."
+msgstr "Выберите группу для просмотра пользователей в ней..."
+
+#: usersetup:147 usersetup:530
+#, sh-format
+msgid "Group name"
+msgstr "Название группы"
+
+#: usersetup:148 usersetup:203
+#, sh-format
+msgid "Modify"
+msgstr "Изменить"
+
+#: usersetup:151
+#, sh-format
+msgid "Select group name to modify..."
+msgstr "Выберите группу для смены названия..."
+
+#: usersetup:165
+#, sh-format
+msgid "Group deletion"
+msgstr "Удаление группы"
+
+#: usersetup:169
+#, sh-format
+msgid "Select a group to delete..."
+msgstr "Выберите группу для удаления..."
+
+#: usersetup:206
+#, sh-format
+msgid "Detailed information for account"
+msgstr "Детализированная информация об учётной записи пользователя"
+
+#: usersetup:208 usersetup:472 usersetup:579
+#, sh-format
+msgid "Full name"
+msgstr "Полное имя пользователя"
+
+#: usersetup:209 usersetup:267 usersetup:555
+#, sh-format
+msgid "Account name"
+msgstr "Название учётной записи"
+
+#: usersetup:210 usersetup:559
+#, sh-format
+msgid "Main Group"
+msgstr "Основная группа"
+
+#: usersetup:211 usersetup:322 usersetup:563
+#, sh-format
+msgid "Home directory"
+msgstr "Домашний каталог"
+
+#: usersetup:212 usersetup:348 usersetup:571
+#, sh-format
+msgid "Shell"
+msgstr "Оболочка (командный интерпретатор)"
+
+#: usersetup:213 usersetup:567
+#, sh-format
+msgid "Other groups"
+msgstr "Другие группы"
+
+#: usersetup:214 usersetup:575
+#, sh-format
+msgid "Expiry"
+msgstr "Срок действия"
+
+#: usersetup:215 usersetup:583
+#, sh-format
+msgid "Office"
+msgstr "Офис"
+
+#: usersetup:216 usersetup:500 usersetup:587
+#, sh-format
+msgid "Work phone"
+msgstr "Рабочий телефон"
+
+#: usersetup:217 usersetup:514 usersetup:591
+#, sh-format
+msgid "Home phone"
+msgstr "Домашний телефон"
+
+#: usersetup:244 usersetup:254
+#, sh-format
+msgid "Group members"
+msgstr "Члены группы"
+
+#: usersetup:248
+#, sh-format
+msgid "Members of group"
+msgstr "Члены группы"
+
+#: usersetup:256
+#, sh-format
+msgid "There are no accounts in group"
+msgstr "Нет ни одной учётной записи в группе"
+
+#: usersetup:269
+#, sh-format
+msgid "Enter the new account name..."
+msgstr "Введите название новой учётной записи..."
+
+#: usersetup:278
+#, sh-format
+msgid "An account name cannot contain a space, please correct it..."
+msgstr "Название учётной записи не может содержать пробелов, исправьте..."
+
+#: usersetup:280
+#, sh-format
+msgid "The account name $user already exists, please choose another name..."
+msgstr "Название учётной записи $user уже существует, выберите другое название..."
+
+#: usersetup:282
+#, sh-format
+msgid "The account name is empty, please correct it..."
+msgstr "Название учётной записи не может быть пустым, исправьте..."
+
+#: usersetup:284
+#, sh-format
+msgid "An account name cannot begin with a number, please correct it..."
+msgstr "Название учётной записи не может начинаться с цифры, исправьте..."
+
+#: usersetup:286
+#, sh-format
+msgid ""
+"An account name cannot contain uppercase characters, please correct it..."
+msgstr "Название учётной записи не может содержать символов в верхнем регистре, исправьте..."
+
+#: usersetup:288
+#, sh-format
+msgid "An account name cannot contain punctuation marks, please correct it..."
+msgstr "Название учётной записи не может содержать знаки пунктуации, исправьте..."
+
+#: usersetup:306
+#, sh-format
+msgid "Group membership"
+msgstr "Членство в группах"
+
+#: usersetup:307 usersetup:323 usersetup:349 usersetup:369 usersetup:394
+#: usersetup:473 usersetup:487 usersetup:501 usersetup:515 usersetup:531
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: usersetup:310
+#, sh-format
+msgid "Enter the main group for account"
+msgstr "Введите название основной группы для учётной записи"
+
+#: usersetup:325
+#, sh-format
+msgid "Enter the home directory for account"
+msgstr "Введите расположение домашнего каталога для учётной записи"
+
+#: usersetup:352
+#, sh-format
+msgid "Enter the shell interpreter for account"
+msgstr "Введите командный интерпретатор для учётной записи"
+
+#: usersetup:368
+#, sh-format
+msgid "Additional group membership"
+msgstr "Членство в дополнительных группах"
+
+#: usersetup:371
+#, sh-format
+msgid "Add some additional group to the list..."
+msgstr "Добавьте дополнительные группы к списку..."
+
+#: usersetup:393
+#, sh-format
+msgid "Expiry date"
+msgstr "Дата окончания срока действия"
+
+#: usersetup:395
+#, sh-format
+msgid "Never"
+msgstr "Никогда"
+
+#: usersetup:398
+#, sh-format
+msgid "Set the account expiry date..."
+msgstr "Назначьте дату окончания срока действия учётной записи..."
+
+#: usersetup:434
+#, sh-format
+msgid "Enter password for account"
+msgstr "Введите пароль для учётной записи"
+
+#: usersetup:435
+#, sh-format
+msgid "Passwords do not match, please try again..."
+msgstr "Введенные пароли не совпадают, попробуйте ввести ещё раз..."
+
+#: usersetup:438
+#, sh-format
+msgid ""
+"Password is too short (${minlength} chars minimum), please try another "
+"one..."
+msgstr "Пароль слишком короткий (минимальное количество символов ${minlength}), выберите другой пароль..."
+
+#: usersetup:441
+#, sh-format
+msgid "Enter password again for account"
+msgstr "Повторите ввод пароля для учётной записи ещё раз"
+
+#: usersetup:458
+#, sh-format
+msgid "Failed to set password for account"
+msgstr "Не удалось задать пароль для учётной записи"
+
+#: usersetup:475
+#, sh-format
+msgid "Enter the full name of the user"
+msgstr "Введите полное имя пользователя"
+
+#: usersetup:486
+#, sh-format
+msgid "Office information"
+msgstr "Информация о месте работы"
+
+#: usersetup:489
+#, sh-format
+msgid "Enter office information for the user"
+msgstr "Введите информацию о месте работы пользователя"
+
+#: usersetup:503
+#, sh-format
+msgid "Enter the work phone number of the user"
+msgstr "Введите рабочий телефон пользователя"
+
+#: usersetup:517
+#, sh-format
+msgid "Enter the home phone number of the user"
+msgstr "Введите домашний телефон пользователя"
+
+#: usersetup:533
+#, sh-format
+msgid "Enter the new group name"
+msgstr "Введите название группы"
+
+#: usersetup:628 usersetup:649 usersetup:658 usersetup:722
+#, sh-format
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: usersetup:658
+#, sh-format
+msgid "You cannot delete the account"
+msgstr "Вы не можете удалить учётную запись"
+
+#: usersetup:660
+#, sh-format
+msgid "Confirm user deletion"
+msgstr "Подтвердите удаление пользователя"
+
+#: usersetup:662 usersetup:726
+#, sh-format
+msgid "Cancel"
+msgstr "Отмена"
+
+#: usersetup:664
+#, sh-format
+msgid "Are you sure you want to delete user $user?"
+msgstr "Вы уверены, что хотите удалить пользователя $user?"
+
+#: usersetup:722
+#, sh-format
+msgid "You cannot delete the group"
+msgstr "Вы не можете удалить группу"
+
+#: usersetup:724
+#, sh-format
+msgid "Confirm group deletion"
+msgstr "Подтвердите удаление группы"
+
+#: usersetup:728
+#, sh-format
+msgid "Are you sure you want to delete the $group group?"
+msgstr "Вы уверены, что хотите удалить группу $group?"
