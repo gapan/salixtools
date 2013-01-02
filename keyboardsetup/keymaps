@@ -61,9 +61,8 @@ it-ibm|it||
 it2|it||
 it|it||
 jp106|jp||
-lt.baltic|lt_std||
-lt.l4|lt_std||
-lt|lt_std||
+lt.baltic|lt|std|
+lt.l4|lt|std|
 lt|lt||
 lv|lv||
 lv-latin7|lv||
@@ -96,9 +95,9 @@ se-fi-ir209|se_FI||
 se-fi-lat6|se_FI||
 se-ir209|se_SE||
 se-lat6|se_SE||
-sg-latin1-lk450|sg||
-sg-latin1|de_CH||
-sg|de_CH||
+sg-latin1-lk450|ch|de|
+sg-latin1|ch|de|
+sg|ch|de|
 sk-prog-qwerty|sk_qwerty||
 sk-prog-qwertz|sk_qwerty||
 sk-prog-qwertz|sk||
