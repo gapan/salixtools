@@ -76,7 +76,7 @@ interactive(){
 	--title \"`eval_gettext 'Select repository mirror'`\" \
 	--default-item \"$CURRENTREPO\" \
 	--ok-label \"`eval_gettext 'Select'`\" \
-	--cancel-label \"`eval_gettext 'Exit'`\" \
+	--cancel-label \"`eval_gettext 'Cancel'`\" \
 	--menu \
 	\"\\n`eval_gettext 'Please select your preferred repository mirror. The country code of where the mirror is located is shown on the right. Your selection will be applied to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:'`\\n\\n`eval_gettext 'WARNING: Any changes you have manually made in the SOURCE lines of those files will be lost!'`\" 20 80 11 $list )"
 
