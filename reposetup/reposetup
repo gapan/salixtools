@@ -68,7 +68,7 @@ checkdefaults(){
 # The interactive section
 interactive(){
 
-	list="$( cat $salixtoolsdir/repomirrors )"
+	list="$( cat $salixtoolsdir/reposetup/repomirrors )"
 	
 	# Display server selection dialog
 	repo="$(eval dialog \
