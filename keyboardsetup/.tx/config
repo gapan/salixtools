@@ -1,0 +1,8 @@
+[main]
+host = http://www.transifex.net
+
+[salixtools.keyboardsetup]
+file_filter = po/<lang>.po
+source_file = po/keyboardsetup.pot
+source_lang = en
+

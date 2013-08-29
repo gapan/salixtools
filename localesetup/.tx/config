@@ -1,0 +1,8 @@
+[salixtools.localesetup]
+file_filter = po/<lang>.po
+source_file = po/localesetup.pot
+source_lang = en
+
+[main]
+host = http://www.transifex.net
+

@@ -1,0 +1,8 @@
+[main]
+host = http://www.transifex.net
+
+[salixtools.servicesetup]
+file_filter = po/<lang>.po
+source_file = po/servicesetup.pot
+source_lang = en
+

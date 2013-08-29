@@ -1,0 +1,8 @@
+[salixtools.clocksetup]
+file_filter = po/<lang>.po
+source_file = po/clocksetup.pot
+source_lang = en
+
+[main]
+host = http://www.transifex.net
+
