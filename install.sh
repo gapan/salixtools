@@ -37,4 +37,6 @@ install -m 644 service/service-blacklist $DESTDIR/usr/share/salixtools/servicese
 install -m 644 service/shell-colours $DESTDIR/usr/share/salixtools/servicesetup/
 install -m 644 service/standard.txt $DESTDIR/etc/rc.d/desc.d/
 
+install -m 644 reposetup/repomirrors $DESTDIR/usr/share/salixtools/
+
 install -m 644 salix-version $DESTDIR/usr/share/salixtools/
