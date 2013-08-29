@@ -1,0 +1,136 @@
+#!/bin/bash
+
+# This script configures the mirrors that are used in
+# /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc
+
+# This program is free software; you can redistribute it and/or modify it 
+# under the terms of the GNU General Public License as published by the
+# Free Software Foundation; either version 3 of the License, or (at your option)
+# any later version. Please take a look at http://www.gnu.org/copyleft/gpl.htm
+
+init(){
+	# Translations only work with utf8 locales
+	if [ ! `echo $LANG | grep -i utf` ]; then
+		LANG=C
+	fi
+
+	# Gettext internationalization
+	export TEXTDOMAIN="reposetup"
+	export TEXTDOMAINDIR="/usr/share/locale"
+	. gettext.sh
+	
+	# Path needs to be extended in case you're only half a root :)
+	export PATH="/usr/sbin:/sbin:${PATH}"
+
+	# Path to the salixtools shared files
+	salixtoolsdir="/usr/share/salixtools/"
+
+	# Paths to the slapt-* configuration files
+	SLAPTGETRC="/etc/slapt-get/slapt-getrc"
+	SLAPTSRCRC="/etc/slapt-get/slapt-srcrc"
+}
+
+checkdefaults(){
+	# determine arch
+	case "$( uname -m )" in
+		i?86) export arch=i486 ;;
+		arm*) export arch=arm ;;
+		*) export arch=$( uname -m ) ;;
+	esac
+	
+	# read salix version
+	version=$( cat $salixtoolsdir/salix-version )
+
+	CURRENTREPO=""
+
+	if [ -f $SLAPTGETRC ]; then
+		SLAPTGETWORKINGDIR=$( cat $SLAPTGETRC | grep "^WORKINGDIR=" | head -n 1 | sed "s/^WORKINGDIR=\(.*\)/\1/" )
+		SLAPTGETEXCLUDE=$( cat $SLAPTGETRC | grep "^EXCLUDE=" | head -n 1 | sed "s/^EXCLUDE=\(.*\)/\1/" )
+	else
+		SLAPTGETWORKINGDIR="/var/slapt-get"
+		if [ $arch == "x86_64" ]; then
+			SLAPTGETEXCLUDE="^aaa_elflibs,^aaa_base,^devs,^glibc.*,^kernel-.*,^udev,^rootuser-settings,^zzz-settings.*,-i?86-"
+		else
+			SLAPTGETEXCLUDE="^aaa_elflibs,^aaa_base,^devs,^glibc.*,^kernel-.*,^udev,^rootuser-settings,^zzz-settings.*,-x86_64-"
+		fi
+	fi
+
+	if [ -f $SLAPTSRCRC ]; then
+		CURRENTREPO=$( cat $SLAPTSRCRC | grep "^SOURCE=" | grep "slkbuild" | sed "s/^SOURCE=\(.*\)\/slkbuild\/\(.*\)/\1/" )
+		SLAPTSRCBUILDDIR=$( cat $SLAPTSRCRC | grep "^BUILDDIR=" | head -n 1 | sed "s/^BUILDDIR=\(.*\)/\1/" )
+		SLAPTSRCPKGEXT=$( cat $SLAPTSRCRC | grep "^PKGEXT=" | head -n 1 | sed "s/^PKGEXT=\(.*\)/\1/" )
+	else
+		SLAPTSRCBUILDDIR="/usr/src/slapt-src"
+		SLAPTSRCPKGEXT="txz"
+	fi
+}
+
+# The interactive section
+interactive(){
+
+	list="$( cat $salixtoolsdir/repomirrors )"
+	
+	# Display server selection dialog
+	repo="$(eval dialog \
+	--stdout \
+	--title \"`eval_gettext 'Select repository mirror'`\" \
+	--default-item \"$CURRENTREPO\" \
+	--ok-label \"`eval_gettext 'Select'`\" \
+	--cancel-label \"`eval_gettext 'Exit'`\" \
+	--menu \
+	\"\\n`eval_gettext 'Please select your preferred repository mirror. The country code of where the mirror is located is shown on the right. Your selection will be applied to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:'`\\n\\n`eval_gettext 'WARNING: Any changes you have manually made in the SOURCE lines of those files will be lost!'`\" 20 80 11 $list )"
+
+	# Don't do anything if Cancel or the close button was pressed
+	retval=$?
+	if [ $retval -eq 1 ] || [ $retval -eq 255 ]; then
+		exit 0
+	fi
+}
+
+configslaptget() {
+	(
+	echo "# Working directory for local storage/cache."
+	echo "WORKINGDIR=$SLAPTGETWORKINGDIR"
+	echo ""
+	echo "# Exclude package names and expressions."
+	echo "# To exclude pre and beta packages, add this to the exclude:"
+	echo "#   [0-9\_\.\-]{1}pre[0-9\-\.\-]{1}"
+	echo "EXCLUDE=$SLAPTGETEXCLUDE"
+	echo ""
+	echo "# This is a Slackware repository that only holds dependency info. The"
+	echo "# actual packages are downloaded from a real Slackware mirror. Read"
+	echo "# http://www.salixos.org/wiki/index.php/How_to_create_a_local_slackware_repository_with_dependency_support"
+	echo "# if you want to use another Slackware mirror and keep the dependency"
+	echo "# information."
+	echo "SOURCE=$repo/$arch/slackware-$version/:OFFICIAL"
+	echo "SOURCE=$repo/$arch/slackware-$version/extra/:OFFICIAL"
+	echo ""
+	echo "# The Salix repository"
+	echo "SOURCE=$repo/$arch/$version/:PREFERRED"
+	echo ""
+	echo "# Packages on a CD/DVD."
+	echo "# SOURCE=file:///mnt/cdrom/:OFFICIAL"
+	echo ""
+	echo "# Home made packages."
+	echo "# SOURCE=file:///var/www/packages/:CUSTOM"
+	) > $SLAPTGETRC
+}
+
+configslaptsrc(){
+	(
+	echo "BUILDDIR=$SLAPTSRCBUILDDIR"
+	echo "PKGEXT=$SLAPTSRCPKGEXT"
+	echo "SOURCE=$repo/slkbuild/$version/"
+	echo "SOURCE=$repo/sbo/$version/"
+	) > $SLAPTSRCRC
+}
+
+# This is the main thing!
+init
+checkdefaults
+interactive
+
+# Apply selected settings
+configslaptget
+configslaptsrc
+
