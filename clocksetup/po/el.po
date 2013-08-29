@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-04-28 09:12+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Greek <>\n"
+"PO-Revision-Date: 2013-04-29 09:33+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: el\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: clocksetup:49
 #, sh-format
@@ -150,9 +150,7 @@ msgstr "Προειδοποίηση"
 #: clocksetup:238
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr ""
-"Χρησιμοποιείται η υπηρεσία ntpd και το ρολόι συστήματος πρέπει να είναι ήδη "
-"σωστό."
+msgstr "Χρησιμοποιείται η υπηρεσία ntpd και το ρολόι συστήματος πρέπει να είναι ήδη σωστό."
 
 #: clocksetup:242
 #, sh-format
@@ -176,11 +174,7 @@ msgid ""
 " select YES here.  If the hardware clock is set to the current local time "
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
-msgstr ""
-"Είναι το ρολόι συστήματος ρυθμισμένο σε Παγκόσμιο Χρόνο (UTC/GMT); Αν είναι,"
-" επιλέξτε ΝΑΙ. Αν το ρολόι συστήματος είναι ρυθμισμένο σε τοπική ώρα (όπως "
-"στους περισσότερους υπολογιστές), επιλέχτε ΟΧΙ. Αν δεν είστε βέβαιοι, είναι "
-"καλύτερα να επιλέξετε ΟΧΙ."
+msgstr "Είναι το ρολόι συστήματος ρυθμισμένο σε Παγκόσμιο Χρόνο (UTC/GMT); Αν είναι, επιλέξτε ΝΑΙ. Αν το ρολόι συστήματος είναι ρυθμισμένο σε τοπική ώρα (όπως στους περισσότερους υπολογιστές), επιλέχτε ΟΧΙ. Αν δεν είστε βέβαιοι, είναι καλύτερα να επιλέξετε ΟΧΙ."
 
 #: clocksetup:267
 #, sh-format

@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-04-28 09:12+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-04-29 09:33+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/salixtools/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: clocksetup:49
 #, sh-format
@@ -174,11 +174,7 @@ msgid ""
 " select YES here.  If the hardware clock is set to the current local time "
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
-msgstr ""
-"Is de hardwareklok ingesteld op Coordinated Universal Time (UTC/GMT)? Als "
-"dat zo is, selecteer hier JA. Als de hardwareklok is ingesteld op de lokale "
-"tijd (dit is hoe de meeste PCs ingesteld zijn ingesteld), selecteer dan NEE "
-"hier. Als u niet zeker weet wat dit inhoudt, zet dan NEE hier."
+msgstr "Is de hardwareklok ingesteld op Coordinated Universal Time (UTC/GMT)? Als dat zo is, selecteer hier JA. Als de hardwareklok is ingesteld op de lokale tijd (dit is hoe de meeste PCs ingesteld zijn ingesteld), selecteer dan NEE hier. Als u niet zeker weet wat dit inhoudt, zet dan NEE hier."
 
 #: clocksetup:267
 #, sh-format

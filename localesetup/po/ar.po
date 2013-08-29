@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Karim Oulad Chalha <herr.linux88@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
@@ -10,59 +11,59 @@ msgstr ""
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
 "PO-Revision-Date: 2013-04-29 10:08+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/salixtools/language/es/)\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/salixtools/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: localesetup:34
 #, sh-format
 msgid "USAGE: localesetup [locale]"
-msgstr "USO: localesetup [localización]"
+msgstr "إسنعمال: localesetup [locale]"
 
 #: localesetup:35
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
-msgstr "EJEMPLO: localesetup es_AR"
+msgstr "مثال: localsetup ar_MA"
 
 #: localesetup:40
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "ERROR: Demasiados argumentos"
+msgstr "خطا: العديد من المعطيات"
 
 #: localesetup:48
 #, sh-format
 msgid "Setting locale to $locale"
-msgstr "Configurar locaización a $locale"
+msgstr "إعداد اللغة إلى $locale"
 
 #: localesetup:50
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
-msgstr "ERROR: $newlocale no es una localizaqción válida"
+msgstr "خطأ: $newlocale ليست لغة صحيحة"
 
 #: localesetup:75
 #, sh-format
 msgid "System language configuration"
-msgstr "Configuración del idioma del sistema"
+msgstr "إعدادات لغة النظام"
 
 #: localesetup:77
 #, sh-format
 msgid "OK"
-msgstr "Aceptar"
+msgstr "نعم"
 
 #: localesetup:78
 #, sh-format
 msgid "Exit"
-msgstr "Salir"
+msgstr "خروج"
 
 #: localesetup:80
 #, sh-format
 msgid "The current locale is $currentlocale."
-msgstr "La localización actual es $currentlocale."
+msgstr "اللغة الحالية هي $currentlocale."
 
 #: localesetup:81
 #, sh-format
 msgid "Please select your preferred system language:"
-msgstr "Por favor seleccione su idioma preferido del sistema:"
+msgstr "المرجوا إختيار لغة النظام المفضلة:"

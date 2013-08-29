@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-04-28 09:15+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: French <>\n"
+"PO-Revision-Date: 2013-04-29 10:08+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/salixtools/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: usersetup:49
 #, sh-format
@@ -251,8 +251,7 @@ msgstr "Veuillez saisir le nouveau nom du compte..."
 #: usersetup:278
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
-msgstr ""
-"Un nom de compte ne doit pas comporter d'espace, veuillez le corriger…"
+msgstr "Un nom de compte ne doit pas comporter d'espace, veuillez le corriger…"
 
 #: usersetup:280
 #, sh-format
@@ -267,21 +266,18 @@ msgstr "Le nom du compte est vide, veuillez le corriger…"
 #: usersetup:284
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr ""
-"Un nom de compte ne doit pas commencer par un chiffre, veuillez le corriger…"
+msgstr "Un nom de compte ne doit pas commencer par un chiffre, veuillez le corriger…"
 
 #: usersetup:286
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
-msgstr ""
-"Un nom de compte ne doit pas comporter de majuscule, veuillez le corriger…"
+msgstr "Un nom de compte ne doit pas comporter de majuscule, veuillez le corriger…"
 
 #: usersetup:288
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr ""
-"Un nom de compte ne doit pas comporter de ponctuation, veuillez le corriger…"
+msgstr "Un nom de compte ne doit pas comporter de ponctuation, veuillez le corriger…"
 
 #: usersetup:306
 #, sh-format
@@ -342,18 +338,14 @@ msgstr "Veuillez saisir le mot de passe du compte"
 #: usersetup:435
 #, sh-format
 msgid "Passwords do not match, please try again..."
-msgstr ""
-"Les mots de passe ne sont pas identiques, veuillez effectuer un nouvel "
-"essai…"
+msgstr "Les mots de passe ne sont pas identiques, veuillez effectuer un nouvel essai…"
 
 #: usersetup:438
 #, sh-format
 msgid ""
 "Password is too short (${minlength} chars minimum), please try another "
 "one..."
-msgstr ""
-"Le mot de passe est trop court (${minlength} charactères minimum), veuillez "
-"effectuer un nouvel essai…"
+msgstr "Le mot de passe est trop court (${minlength} charactères minimum), veuillez effectuer un nouvel essai…"
 
 #: usersetup:441
 #, sh-format

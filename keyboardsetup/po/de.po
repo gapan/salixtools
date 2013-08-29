@@ -1,28 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# shador <futur.andy@googlemail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-03-22 15:49+0000\n"
+"PO-Revision-Date: 2013-04-29 09:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: German <None>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/salixtools/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: keyboardsetup:61
 #, sh-format
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr ""
+msgstr "AUFRUF: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -42,7 +43,7 @@ msgstr "   -n numlockstate,   Numlock-Status, on (an) oder off (aus)"
 #: keyboardsetup:67
 #, sh-format
 msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr ""
+msgstr "   -i ibusstate,      der Zustand von IBus, 'on' oder 'off'"
 
 #: keyboardsetup:68
 #, sh-format
@@ -54,16 +55,14 @@ msgstr "   -s scimstate,      der SCIM-Status, on (an) oder off (aus)"
 msgid ""
 "   -z,                do not apply changes on the fly, only edit settings "
 "files"
-msgstr ""
-"-z, Veränderungen nicht sofort anwenden, sondern nur die "
-"Konfigurationsdateien ändern"
+msgstr "-z, Veränderungen nicht sofort anwenden, sondern nur die Konfigurationsdateien ändern"
 
 #: keyboardsetup:130
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
 " for a list of valid keymaps"
-msgstr ""
+msgstr "Fehler: $OPTARG ist keine gültige Keymap. Schauen Sie in das Verzeichnis $salixtoolsdir/keymaps für eine Liste gültiger Keymaps"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -118,7 +117,7 @@ msgstr "Wollen Sie Numlock standardmäßig aktiviert oder deaktiviert haben?"
 #: keyboardsetup:283
 #, sh-format
 msgid "IBus configuration"
-msgstr ""
+msgstr "IBus-Konfiguration"
 
 #: keyboardsetup:288
 #, sh-format
@@ -127,7 +126,7 @@ msgid ""
 "languages when using a graphical environment. Do you want to have it enabled"
 " or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
+msgstr "IBus ist eine Eingabeplattform für Chinesisch, Japanisch, Koreanisch und viele andere Sprachen für Nutzer von graphischen Oberflächen. Wollen Sie es beim Starten aktiviert oder deaktiviert haben?\\n\\nSie müssen Ihr System neustarten, damit diese Änderung in Kraft tritt."
 
 #: keyboardsetup:309
 #, sh-format
@@ -141,8 +140,4 @@ msgid ""
 "languages when using a graphical environment. Do you want to have it enabled"
 " or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"SCIM is eine Eingabemethode für Chinesisch, Japanisch, Koreanisch und viele "
-"andere Sprachen. Wollen Sie SCIM beim Booten aktivieren oder "
-"deaktivieren?\\n\\nSie müssen ihr System neustarten, um diese Einstellung "
-"anzuwenden."
+msgstr "SCIM is eine Eingabemethode für Chinesisch, Japanisch, Koreanisch und viele andere Sprachen. Wollen Sie SCIM beim Booten aktivieren oder deaktivieren?\\n\\nSie müssen ihr System neustarten, um diese Einstellung anzuwenden."

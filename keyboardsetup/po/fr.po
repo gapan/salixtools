@@ -1,30 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Akuna <akuna@free.fr>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-03-22 15:49+0000\n"
-"Last-Translator: Akuna <akuna@free.fr>\n"
-"Language-Team: French <>\n"
+"PO-Revision-Date: 2013-04-29 09:39+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/salixtools/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: keyboardsetup:61
 #, sh-format
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr ""
-"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
-"scimstate]]"
+msgstr "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -56,19 +55,14 @@ msgstr "   -s scimstate,      état de SCIM, on ou off"
 msgid ""
 "   -z,                do not apply changes on the fly, only edit settings "
 "files"
-msgstr ""
-"   -z,                ne pas appliquer les changements immédiatement, "
-"uniquement modifier les fichiers de configuration"
+msgstr "   -z,                ne pas appliquer les changements immédiatement, uniquement modifier les fichiers de configuration"
 
 #: keyboardsetup:130
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
 " for a list of valid keymaps"
-msgstr ""
-"ERREUR: $OPTARG n'est pas une disposition de clavier valide. Vous pouvez "
-"consulter $salixtoolsdir/keymaps pour avoir une liste de dispositions de "
-"clavier valides"
+msgstr "ERREUR: $OPTARG n'est pas une disposition de clavier valide. Vous pouvez consulter $salixtoolsdir/keymaps pour avoir une liste de dispositions de clavier valides"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -132,11 +126,7 @@ msgid ""
 "languages when using a graphical environment. Do you want to have it enabled"
 " or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"IBus est un système unifié de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\n"
-"Désirez-vous l'activer au démarrage ?\n"
-"\n"
-"Vous devrez redémarrer votre système pour que les changements prennent effet."
+msgstr "IBus est un système unifié de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\nDésirez-vous l'activer au démarrage ?\n\nVous devrez redémarrer votre système pour que les changements prennent effet."
 
 #: keyboardsetup:309
 #, sh-format
@@ -150,8 +140,4 @@ msgid ""
 "languages when using a graphical environment. Do you want to have it enabled"
 " or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"SCIM est un système de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\n"
-"Désirez-vous l'activer au démarrage ?\n"
-"\n"
-"Vous devrez redémarrer votre système pour que les changements prennent effet."
+msgstr "SCIM est un système de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\nDésirez-vous l'activer au démarrage ?\n\nVous devrez redémarrer votre système pour que les changements prennent effet."

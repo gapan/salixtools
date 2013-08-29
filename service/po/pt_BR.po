@@ -3,52 +3,53 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Eliasjunior, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2013-04-29 09:23+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/language/el/)\n"
+"PO-Revision-Date: 2013-08-03 14:05+0000\n"
+"Last-Translator: Eliasjunior\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/salixtools/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: service:47
 #, sh-format
 msgid ""
 "${BOLDCYAN}Starting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDCYAN}Εκκίνηση${COLOR_RESET} της υπηρεσίας ${BOLDWHITE}${servicename}${COLOR_RESET}"
+msgstr "${BOLDCYAN}Starting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 
 #: service:51 service:63 service:81
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "Δεν υπάρχει υπηρεσία ${BOLDWHITE}${servicename}${COLOR_RESET}"
+msgstr "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 
 #: service:57
 #, sh-format
 msgid ""
 "${BOLDYELLOW}Stopping${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDYELLOW}Σταμάτημα${COLOR_RESET} της υπηρεσίας ${BOLDWHITE}${servicename}${COLOR_RESET}"
+msgstr "${BOLDYELLOW}Stopping${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 
 #: service:70
 #, sh-format
 msgid ""
 "${BOLDCYAN}Restarting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${BOLDCYAN}Επανεκκίνηση${COLOR_RESET} της υπηρεσίας ${BOLDWHITE}${servicename}${COLOR_RESET}"
+msgstr "${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 
 #: service:90
 #, sh-format
 msgid "The $service service"
-msgstr "Η υπηρεσία $service"
+msgstr "O serviço do $service"
 
 #: service:113
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
-msgstr "Χρήση: service start|stop|restart|list [όνομα υπηρεσίας]"
+msgstr "uso: início do serviço | parar | reiniciar | lista [nome_do_serviço]"

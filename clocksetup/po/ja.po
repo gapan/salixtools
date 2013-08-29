@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# tsuren <hydrangea_and_snail@hotmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-03-22 15:47+0000\n"
-"Last-Translator: tsuren <hydrangea_and_snail@hotmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-04-29 09:33+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/salixtools/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: clocksetup:49
 #, sh-format
@@ -174,9 +175,7 @@ msgid ""
 " select YES here.  If the hardware clock is set to the current local time "
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
-msgstr ""
-"ハードウェアの時計は、Coordinated Universal Time "
-"(UTC/GMT)にセットされていますか？そうである場合は、はいを選択してください。もしも時計が、ローカルタイムにセットされている場合はいいえを選択してください。ほとんどのコンピュータは、ローカルタイムにセットされています。よくわからない場合は、いいえを選択してください。"
+msgstr "ハードウェアの時計は、Coordinated Universal Time (UTC/GMT)にセットされていますか？そうである場合は、はいを選択してください。もしも時計が、ローカルタイムにセットされている場合はいいえを選択してください。ほとんどのコンピュータは、ローカルタイムにセットされています。よくわからない場合は、いいえを選択してください。"
 
 #: clocksetup:267
 #, sh-format

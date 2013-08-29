@@ -1,21 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kerd <kerd89@gmail.com>, 2011
+# laplume <laplume@libero.it>, 2011
+# laplume <laplume@libero.it>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
-"PO-Revision-Date: 2011-03-22 15:50+0000\n"
-"Last-Translator: laplume <laplume@libero.it>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-04-29 09:33+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/salixtools/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: servicesetup:65
 #, sh-format
@@ -35,7 +38,7 @@ msgstr "Esci"
 #: servicesetup:70
 #, sh-format
 msgid "The selected services will be started at boot time:"
-msgstr "I servizi selezionati partiranno all'avvio del sistema:"
+msgstr "I servizi selezionati si attiveranno all'avvio del sistema:"
 
 #: servicesetup:79
 #, sh-format

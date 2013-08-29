@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Karim Oulad Chalha <herr.linux88@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
@@ -10,44 +11,44 @@ msgstr ""
 "POT-Creation-Date: 2011-02-13 14:38+0200\n"
 "PO-Revision-Date: 2013-04-29 09:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/projects/p/salixtools/language/fi/)\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/salixtools/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: keyboardsetup:61
 #, sh-format
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr ""
+msgstr "إستعمال: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]"
 
 #: keyboardsetup:63
 #, sh-format
 msgid "OPTIONS:"
-msgstr ""
+msgstr "خيارات:"
 
 #: keyboardsetup:65
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
-msgstr ""
+msgstr "   -k keymap,         خريطة لوحة مفانيح صالحة"
 
 #: keyboardsetup:66
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
-msgstr ""
+msgstr "   -n numlockstate,   حالة numlock, مشغل أو معطل"
 
 #: keyboardsetup:67
 #, sh-format
 msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr ""
+msgstr "   -i ibusstate,      حالة IBus, مشغل أو معطل"
 
 #: keyboardsetup:68
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
-msgstr ""
+msgstr "   -s scimstate,      حالة SCIM, مشغل أو معطل"
 
 #: keyboardsetup:69
 #, sh-format
@@ -61,62 +62,62 @@ msgstr ""
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
 " for a list of valid keymaps"
-msgstr ""
+msgstr "خطأ: $OPTARG ليست خريطة مفاتيح صالحة. يمكنك تفقد $salixtoolsdir/keymaps لقائمة بأسماء خرائط المفاتيح الصالحة"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
-msgstr "VIRHE: $OPTARG ei ole hyväksyttävä valinta."
+msgstr "خطأ: $OPTARG خيار غير صالح."
 
 #: keyboardsetup:179
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "VIRHE: Liian monta argumenttia."
+msgstr "خطأ: العديد من المعطيات"
 
 #: keyboardsetup:230
 #, sh-format
 msgid "Keyboard configuration"
-msgstr "Näppäimistöasetukset"
+msgstr "إعدادات لوحة المفاتيح"
 
 #: keyboardsetup:232
 #, sh-format
 msgid "OK"
-msgstr "OK"
+msgstr "نعم"
 
 #: keyboardsetup:233
 #, sh-format
 msgid "Exit"
-msgstr "Poistu"
+msgstr "خروج"
 
 #: keyboardsetup:235
 #, sh-format
 msgid "Please select your preferred keyboard map:"
-msgstr "Ole hyvä ja valitse näppäimistökartta:"
+msgstr "المرجوا إختيار خريطة لوحة المفاتيح المفضلة:"
 
 #: keyboardsetup:258
 #, sh-format
 msgid "Numlock configuration"
-msgstr ""
+msgstr "إعدادات Numlock"
 
 #: keyboardsetup:259 keyboardsetup:284 keyboardsetup:310
 #, sh-format
 msgid "Enabled"
-msgstr ""
+msgstr "تفعيل"
 
 #: keyboardsetup:260 keyboardsetup:285 keyboardsetup:311
 #, sh-format
 msgid "Disabled"
-msgstr ""
+msgstr "تعطيل"
 
 #: keyboardsetup:263
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
-msgstr ""
+msgstr "هل تريد numlock مفعلا أو معطلا في الحالة إفتراضية؟"
 
 #: keyboardsetup:283
 #, sh-format
 msgid "IBus configuration"
-msgstr ""
+msgstr "إعدادات IBus"
 
 #: keyboardsetup:288
 #, sh-format
@@ -125,12 +126,12 @@ msgid ""
 "languages when using a graphical environment. Do you want to have it enabled"
 " or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
+msgstr "IBus هي منصة إدخال للصينية, اليابانية, الكورية و العديد من اللغات عنذ إستعمال بيئة رسومية. عل اريد تفعيل أو تعطيل هذه الميزة في الإقلاع؟\\n\\nيجب عليك إعادة تشغيل النظام لكي يتم تفعيل التغيبرات."
 
 #: keyboardsetup:309
 #, sh-format
 msgid "SCIM configuration"
-msgstr ""
+msgstr "إعدادات SCIM"
 
 #: keyboardsetup:314
 #, sh-format
@@ -139,4 +140,4 @@ msgid ""
 "languages when using a graphical environment. Do you want to have it enabled"
 " or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
+msgstr "SCIM هي منصة إدخال للصينية, اليابانية, الكورية و العديد من اللغات عنذ إستعمال بيئة رسومية. عل اريد تفعيل أو تعطيل هذه الميزة في الإقلاع؟\\n\\nيجب عليك إعادة تشغيل النظام لكي يتم تفعيل التغيبرات."
