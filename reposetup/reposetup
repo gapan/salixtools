@@ -134,3 +134,6 @@ interactive
 configslaptget
 configslaptsrc
 
+echo `eval_gettext "Repositories were changed to: $repo"`
+echo `eval_gettext "Don't forget to update your local package cache!"`
+
