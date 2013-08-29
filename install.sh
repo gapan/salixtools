@@ -7,7 +7,7 @@ install -d -m 755 $DESTDIR/usr/share/salixtools/servicesetup
 install -d -m 755 $DESTDIR/usr/share/salixtools/keyboardsetup
 install -d -m 755 $DESTDIR/etc/rc.d/desc.d
 
-for i in clocksetup keyboardsetup localesetup usersetup servicesetup service; do
+for i in clocksetup keyboardsetup localesetup usersetup servicesetup service reposetup; do
 	install -m 755 $i/$i $DESTDIR/usr/sbin/
 	for j in `ls $i/po/*.mo`; do
 		install -d -m 755 \
@@ -20,7 +20,7 @@ done
 install -m 755 update-all/update-all $DESTDIR/usr/sbin/
 
 install -d -m 755 $DESTDIR/usr/man/man8
-for i in clocksetup keyboardsetup localesetup usersetup servicesetup service update-all; do
+for i in clocksetup keyboardsetup localesetup usersetup servicesetup service update-all reposetup; do
 	(
 	cd $i/man
 	for j in `ls *.8`; do
