@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2013-08-30 02:06+0300\n"
-"PO-Revision-Date: 2013-08-29 23:26+0000\n"
+"POT-Creation-Date: 2013-08-30 15:37+0300\n"
+"PO-Revision-Date: 2013-08-30 12:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -18,22 +18,22 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: reposetup:76
+#: reposetup:80
 #, sh-format
 msgid "Select repository mirror"
 msgstr "Επιλέξτε αποθετήριο"
 
-#: reposetup:78
+#: reposetup:82
 #, sh-format
 msgid "Select"
 msgstr "Επιλογή"
 
-#: reposetup:79
+#: reposetup:83
 #, sh-format
 msgid "Cancel"
 msgstr "Άκυρο"
 
-#: reposetup:81
+#: reposetup:85
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
@@ -41,19 +41,29 @@ msgid ""
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
 msgstr "Παρακαλούμε επιλέξτε το προτιμώμενο αποθετήριο. Ο κωδικός της χώρας όπου βρίσκεται το αποθετήριο εμφανίζεται στα δεξιά. Η επιλογή σας θα εφαρμοστεί στα αρχεία /etc/slapt-get/slapt-getrc και /etc/slapt-get/slapt-srcrc:"
 
-#: reposetup:81
+#: reposetup:85
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
 msgstr "ΠΡΟΣΟΧΗ: Αν έχετε πραγματοποιήσει κάποιες αλλαγές στις γραμμές SOURCE των αρχείων αυτών, αυτές οι αλλαγές θα χαθούν!"
 
-#: reposetup:137
+#: reposetup:97
 #, sh-format
-msgid "Repositories were changed to:"
-msgstr "Έγινε αλλαγή των απθετηρίων σε:"
+msgid "Update package caches?"
+msgstr "Ενημέρωση της τοπικής αποθήκης πακέτων;"
 
-#: reposetup:138
+#: reposetup:98
 #, sh-format
-msgid "Don't forget to update your local package cache!"
-msgstr "Μην ξεχάσετε να ενημερώσετε την τοπική αποθήκη πακέτων!"
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: reposetup:99
+#, sh-format
+msgid "Do not update"
+msgstr "Χωρίς ενημέρωση"
+
+#: reposetup:100
+#, sh-format
+msgid "Would you like to update the package and SlackBuild caches now?"
+msgstr "Θέλετε να ενημερώστε την τοπική αποθήκη πακέτων και SlackBuild;"

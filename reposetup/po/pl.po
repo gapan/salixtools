@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2013-08-30 02:06+0300\n"
-"PO-Revision-Date: 2013-08-29 23:21+0000\n"
+"POT-Creation-Date: 2013-08-30 15:37+0300\n"
+"PO-Revision-Date: 2013-08-30 12:37+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/salixtools/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: reposetup:76
+#: reposetup:80
 #, sh-format
 msgid "Select repository mirror"
 msgstr ""
 
-#: reposetup:78
+#: reposetup:82
 #, sh-format
 msgid "Select"
 msgstr ""
 
-#: reposetup:79
+#: reposetup:83
 #, sh-format
 msgid "Cancel"
 msgstr ""
 
-#: reposetup:81
+#: reposetup:85
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
@@ -40,19 +40,29 @@ msgid ""
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
 msgstr ""
 
-#: reposetup:81
+#: reposetup:85
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
 msgstr ""
 
-#: reposetup:137
+#: reposetup:97
 #, sh-format
-msgid "Repositories were changed to:"
+msgid "Update package caches?"
 msgstr ""
 
-#: reposetup:138
+#: reposetup:98
 #, sh-format
-msgid "Don't forget to update your local package cache!"
+msgid "Update"
+msgstr ""
+
+#: reposetup:99
+#, sh-format
+msgid "Do not update"
+msgstr ""
+
+#: reposetup:100
+#, sh-format
+msgid "Would you like to update the package and SlackBuild caches now?"
 msgstr ""
