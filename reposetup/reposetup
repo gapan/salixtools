@@ -99,7 +99,7 @@ configslaptget() {
 	echo ""
 	echo "# This is a Slackware repository that only holds dependency info. The"
 	echo "# actual packages are downloaded from a real Slackware mirror. Read"
-	echo "# http://www.salixos.org/wiki/index.php/How_to_create_a_local_slackware_repository_with_dependency_support"
+	echo "# http://docs.salixos.org/wiki/How_to_create_a_local_slackware_repository_with_dependency_support"
 	echo "# if you want to use another Slackware mirror and keep the dependency"
 	echo "# information."
 	echo "SOURCE=$repo/$arch/slackware-$version/:OFFICIAL"
