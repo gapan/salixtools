@@ -4,6 +4,7 @@ George Vlahavas
 
 %!target: man
 %!encoding: utf-8
+%!postproc(man): "^(\.TH.*) 1 "  "\1 8 "
 
 = NAME =
 
