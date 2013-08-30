@@ -1,0 +1,40 @@
+reposetup
+George Vlahavas
+%%mtime(%m/%d/%Y)
+
+%!target: man
+%!encoding: utf-8
+%!postproc(man): "^(\.TH.*) 1 "  "\1 8 "
+
+= NAME =
+
+reposetup - a tool that helps choose repository mirrors
+
+
+= SYNOPSIS =
+
+**reposetup**
+
+
+= DESCRIPTION =
+
+**reposetup** is an interactive tool that helps with easy and fast
+switching between available repository mirrors.
+
+The files that are being edited by **reposetup** are
+__/etc/slapt-get/slapt-getrc__ and __/etc/slapt-get/slapt-srcrc__. The
+only configuration lines in those files that are affected are the
+__SOURCE__ lines. All other lines, for example the __WORKINGDIR__ and
+__EXCLUDE__ lines in __slapt-getrc__ or the __BUILDDIR__ and __PKGEXT__
+lines in __slapt-srcrc__, are not affected. Also, any edits in the
+commented lines that might have been done, will be removed.
+
+
+= AUTHORS =
+
+- George Vlahavas <vlahavas~at~gmail~dot~com>
+
+
+= SEE ALSO =
+
+**spi**(8), **slapt-get**(8), **slapt-src**(8)
