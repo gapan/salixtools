@@ -28,6 +28,10 @@ init(){
 	# Paths to the slapt-* configuration files
 	SLAPTGETRC="/etc/slapt-get/slapt-getrc"
 	SLAPTSRCRC="/etc/slapt-get/slapt-srcrc"
+
+	# Patch to the slapt-* binaries
+	SLAPTGET="/usr/sbin/slapt-get"
+	SLAPTSRC="/usr/bin/slapt-src"
 }
 
 checkdefaults(){
@@ -87,6 +91,20 @@ interactive(){
 	fi
 }
 
+updatecache(){
+	answer="$(eval dialog \
+	--stdout \
+	--title \"`eval_gettext 'Update package caches?'`\" \
+	--yes-label \"`eval_gettext 'Update'`\" \
+	--no-label \"`eval_gettext 'Do not update'`\" \
+	--yesno \"`eval_gettext 'Would you like to update the package and SlackBuild caches now?'`\" \
+	0 0 )"
+	retval=$?
+	if [ $retval -eq 0 ]; then
+		$SLAPTGET --update && $SLAPTSRC --update
+	fi
+}
+
 configslaptget() {
 	(
 	echo "# Working directory for local storage/cache."
@@ -134,6 +152,4 @@ interactive
 configslaptget
 configslaptsrc
 
-echo `eval_gettext "Repositories were changed to:"` $repo
-echo `eval_gettext "Don't forget to update your local package cache!"`
-
+updatecache
