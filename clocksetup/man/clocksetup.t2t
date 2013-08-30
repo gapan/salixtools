@@ -10,9 +10,11 @@ George Vlahavas
 
 clocksetup - a tool that helps set the system's date and time
 
+
 = SYNOPSIS =
 
 **clocksetup** [//OPTIONS//]
+
 
 = DESCRIPTION =
 
@@ -27,6 +29,7 @@ used to:
 
 
 **clocksetup** is part of the **salixtools** package.
+
 
 = OPTIONS =
 

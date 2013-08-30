@@ -10,9 +10,11 @@ George Vlahavas
 
 **localesetup** - a tool that sets the system's locale
 
+
 = SYNOPSIS =
 
 **localesetup** [//locale//]
+
 
 = DESCRIPTION =
 
@@ -28,6 +30,7 @@ invoked by providing a locale paremeter from the
 command line.
 
 **localesetup** is part of the **salixtools** package.
+
 
 = OPTIONS =
 

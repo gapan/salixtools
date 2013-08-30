@@ -11,9 +11,11 @@ George Vlahavas
 service - a command line tool that helps with management of system
 services
 
+
 = SYNOPSIS =
 
 **service** //action// [//servicename//]
+
 
 = DESCRIPTION =
 
@@ -24,6 +26,7 @@ and can addtionally provide a list of all available services with their
 status.
 
 **service** is part of the **salixtools** package.
+
 
 = OPTIONS =
 

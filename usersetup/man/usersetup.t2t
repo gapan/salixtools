@@ -10,9 +10,11 @@ George Vlahavas
 
 usersetup - a tool that helps with user and group management
 
+
 = SYNOPSIS =
 
 **usersetup**
+
 
 = DESCRIPTION =
 
@@ -55,6 +57,7 @@ which allows changing the name of a group already present in the system.
 which allows the deletion of a group from the system.
 
 **usersetup** is part of the **salixtools** package.
+
 
 = AUTHORS =
 

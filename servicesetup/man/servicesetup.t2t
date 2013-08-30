@@ -10,9 +10,11 @@ George Vlahavas
 
 **servicesetup** - a tool that helps with management of system services
 
+
 = SYNOPSIS =
 
 **servicesetup**
+
 
 = DESCRIPTION =
 
@@ -27,6 +29,7 @@ running, will be stopped when servicesetup is exited and set to not
 autostart at next boot.
 
 **servicesetup** is part of the **salixtools** package.
+
 
 = AUTHORS =
 

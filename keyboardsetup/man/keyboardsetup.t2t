@@ -10,9 +10,11 @@ George Vlahavas
 
 keyboardsetup - a tool that helps set keyboard options
 
+
 = SYNOPSIS =
 
 **keyboardsetup** [//OPTIONS//]
+
 
 = DESCRIPTION =
 
@@ -39,6 +41,7 @@ invoked by providing keyboard map, numlock state and/or SCIM state
 parameters from the command line.
 
 **keyboardsetup** is part of the **salixtools** package.
+
 
 = OPTIONS =
 
