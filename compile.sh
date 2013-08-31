@@ -12,6 +12,7 @@ for i in clocksetup keyboardsetup localesetup usersetup servicesetup service upd
 	cd $i/man
 	echo "Compiling $i manpage"
 	txt2tags *.t2t || exit 1
+	mv $i.man $i.8
 	)
 done
 
