@@ -3,11 +3,6 @@
 # This script configures the mirrors that are used in
 # /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc
 
-# This program is free software; you can redistribute it and/or modify it 
-# under the terms of the GNU General Public License as published by the
-# Free Software Foundation; either version 3 of the License, or (at your option)
-# any later version. Please take a look at http://www.gnu.org/copyleft/gpl.htm
-
 init(){
 	# Translations only work with utf8 locales
 	if [ ! `echo $LANG | grep -i utf` ]; then

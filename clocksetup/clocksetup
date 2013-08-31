@@ -2,16 +2,6 @@
 
 # This script configures the system time & date.
 
-# This program is free software; you can redistribute it and/or modify it 
-# under the terms of the GNU General Public License as published by the
-# Free Software Foundation; either version 2 of the License, or (at your option)
-# any later version. Please take a look at http://www.gnu.org/copyleft/gpl.htm
-
-# Original code from clockconfig, Jean-Philippe Guillemin <jp.guillemin~at~free~dot~fr>
-# Modified by: Thorsten Muehlfelder <thenktor~at~gmxdot~de>
-# Modified by: Pierrick Le Brun <akuna~at~free~dot~fr>
-# Modified by: George Vlahavas <vlahavas~at~gmaill~dot~com>
-
 init(){
 	# Translations only work with utf8 locales
 	if [ ! `echo $LANG | grep -i utf` ]; then
