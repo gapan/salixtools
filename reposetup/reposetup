@@ -37,6 +37,13 @@ checkdefaults(){
 		*) export arch=$( uname -m ) ;;
 	esac
 	
+	# slackware arm has a slightly different directory name
+	if [ $arch == "arm" ]; then
+		slackdir="slackwarearm"
+	else
+		slackdir="slackware"
+	fi	
+
 	# read salix version
 	version=$( cat $salixtoolsdir/salix-version )
 
@@ -115,8 +122,8 @@ configslaptget() {
 	echo "# http://docs.salixos.org/wiki/How_to_create_a_local_slackware_repository_with_dependency_support"
 	echo "# if you want to use another Slackware mirror and keep the dependency"
 	echo "# information."
-	echo "SOURCE=$repo/$arch/slackware-$version/:OFFICIAL"
-	echo "SOURCE=$repo/$arch/slackware-$version/extra/:OFFICIAL"
+	echo "SOURCE=$repo/$arch/$slackdir-$version/:OFFICIAL"
+	echo "SOURCE=$repo/$arch/$slackdir-$version/extra/:OFFICIAL"
 	echo ""
 	echo "# The Salix repository"
 	echo "SOURCE=$repo/$arch/$version/:PREFERRED"
