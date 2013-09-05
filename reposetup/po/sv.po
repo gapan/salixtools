@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Ingemar Karlsson <ingemar@ingk.se>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2013-08-30 15:37+0300\n"
-"PO-Revision-Date: 2013-08-30 12:37+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"PO-Revision-Date: 2013-08-31 14:15+0000\n"
+"Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/salixtools/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,17 +21,17 @@ msgstr ""
 #: reposetup:80
 #, sh-format
 msgid "Select repository mirror"
-msgstr ""
+msgstr "Välj förrådsspegel"
 
 #: reposetup:82
 #, sh-format
 msgid "Select"
-msgstr ""
+msgstr "Välj"
 
 #: reposetup:83
 #, sh-format
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: reposetup:85
 #, sh-format
@@ -38,31 +39,31 @@ msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr ""
+msgstr "Vänligen välj önskat förrådsspegel. Landskoden för där spegeln ligger visas till höger. Ditt val kommer att tillämpas på /etc/slapt-get/slapt-getrc och /etc/slapt-get/slapt-srcrc filerna:"
 
 #: reposetup:85
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr ""
+msgstr "VARNING: Eventuella ändringar som du manuellt har gjort i SOURCE raderna av dessa filer kommer att gå förlorade!"
 
 #: reposetup:97
 #, sh-format
 msgid "Update package caches?"
-msgstr ""
+msgstr "Uppdatera packet cachen?"
 
 #: reposetup:98
 #, sh-format
 msgid "Update"
-msgstr ""
+msgstr "Uppdatera"
 
 #: reposetup:99
 #, sh-format
 msgid "Do not update"
-msgstr ""
+msgstr "Uppdatera inte"
 
 #: reposetup:100
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
-msgstr ""
+msgstr "Vill du uppdatera packet och SlackBuild cachen nu?"

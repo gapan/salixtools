@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# aleximon <alejandrosimon@gmx.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
 "POT-Creation-Date: 2013-08-30 15:37+0300\n"
-"PO-Revision-Date: 2013-08-30 12:37+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"PO-Revision-Date: 2013-08-31 14:01+0000\n"
+"Last-Translator: aleximon <alejandrosimon@gmx.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/salixtools/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,17 +21,17 @@ msgstr ""
 #: reposetup:80
 #, sh-format
 msgid "Select repository mirror"
-msgstr ""
+msgstr "Seleccionar el repositorio espejo"
 
 #: reposetup:82
 #, sh-format
 msgid "Select"
-msgstr ""
+msgstr "Seleccionar"
 
 #: reposetup:83
 #, sh-format
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: reposetup:85
 #, sh-format
@@ -38,31 +39,31 @@ msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr ""
+msgstr "Por favor, seleccione su repositorio espejo preferido. El código del pais donde se encentra el espejo se muestra a la derecha. Su selección se aplicará a los archivos /etc/slapt-get/slapt-getrc y /etc/slapt-get/slapt-srcrc:"
 
 #: reposetup:85
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr ""
+msgstr "ADVERTENCIA: ¡Todos los cambios realizados manualmente en las líneas SOURCE de estos archivos se perderán!"
 
 #: reposetup:97
 #, sh-format
 msgid "Update package caches?"
-msgstr ""
+msgstr "¿Actualizar los caches de paquetes?"
 
 #: reposetup:98
 #, sh-format
 msgid "Update"
-msgstr ""
+msgstr "Actualizar"
 
 #: reposetup:99
 #, sh-format
 msgid "Do not update"
-msgstr ""
+msgstr "No actualizar"
 
 #: reposetup:100
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
-msgstr ""
+msgstr "¿Desea actualizar el paquete y los caches de SlackBuild ahora?"
