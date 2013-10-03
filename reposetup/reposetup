@@ -157,7 +157,12 @@ configslaptsrc(){
 }
 
 usage(){
-echo "USAGE"
+echo "`eval_gettext 'USAGE:'` reposetup [[-m `eval_gettext 'mirror'`] [-n]]"
+echo
+echo "`eval_gettext 'OPTIONS:'`"
+echo "    -m mirror,  `eval_gettext 'Specify a repository mirror manually'`"
+echo "    -n,         `eval_gettext 'Do not update/ask for updating the package caches'`"
+echo "    -h,         `eval_gettext 'This help message'`"
 }
 
 checkoptions(){
