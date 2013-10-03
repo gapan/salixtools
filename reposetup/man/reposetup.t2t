@@ -8,12 +8,12 @@ George Vlahavas
 
 = NAME =
 
-reposetup - a tool that helps choose repository mirrors
+reposetup - a tool that helps choose repository mirrors for Salix
 
 
 = SYNOPSIS =
 
-**reposetup**
+**reposetup** [//OPTIONS//]
 
 
 = DESCRIPTION =
@@ -30,9 +30,33 @@ lines in __slapt-srcrc__, are not affected. Also, any edits in the
 commented lines that might have been done, will be removed.
 
 
+= OPTIONS =
+
+: **-m** //mirror//
+Specify a repository mirror from the command line and do not display an
+interactive dialog with a list of repository mirrors. ''http://'',
+''ftp://'' and ''file://'' locations are allowed. Other than that, no
+validity check is performed on the mirror location that is specified,
+so make sure you are specifying a correct one.
+
+: **-n**
+When used in interactive mode, it prevents **reposetup** from showing
+a dialog asking if the package caches should be updated after selecting
+a mirror. Only the configuration files are altered. If used together
+with the **-m** option, it prevents **reposetup** from updating the
+package caches.
+
+
+= GENERAL OPTIONS =
+
+: **-h**
+Prints a usage message briefly summarizing all command-line options and
+exits.
+
+
 = AUTHORS =
 
-- George Vlahavas <vlahavas~at~gmail~dot~com>
+**reposetup** was written by George Vlahavas <vlahavas~at~gmail~dot~com>
 
 
 = SEE ALSO =
