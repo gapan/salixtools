@@ -27,6 +27,13 @@ init(){
 	# Patch to the slapt-* binaries
 	SLAPTGET="/usr/sbin/slapt-get"
 	SLAPTSRC="/usr/bin/slapt-src"
+
+	# Set to interactive mode by default
+	INTERACTIVE=1
+
+	# Set to update repos by default (or ask for update if in
+	# interactive mode)
+	UPDATE=1
 }
 
 checkdefaults(){
@@ -94,14 +101,18 @@ interactive(){
 }
 
 updatecache(){
-	answer="$(eval dialog \
-	--stdout \
-	--title \"`eval_gettext 'Update package caches?'`\" \
-	--yes-label \"`eval_gettext 'Update'`\" \
-	--no-label \"`eval_gettext 'Do not update'`\" \
-	--yesno \"`eval_gettext 'Would you like to update the package and SlackBuild caches now?'`\" \
-	0 0 )"
-	retval=$?
+	if [ $INTERACTIVE -eq 1 ]; then
+		answer="$(eval dialog \
+		--stdout \
+		--title \"`eval_gettext 'Update package caches?'`\" \
+		--yes-label \"`eval_gettext 'Update'`\" \
+		--no-label \"`eval_gettext 'Do not update'`\" \
+		--yesno \"`eval_gettext 'Would you like to update the package and SlackBuild caches now?'`\" \
+		0 0 )"
+		retval=$?
+	else
+		retval=0
+	fi
 	if [ $retval -eq 0 ]; then
 		$SLAPTGET --update && $SLAPTSRC --update
 	fi
@@ -145,13 +156,59 @@ configslaptsrc(){
 	) > $SLAPTSRCRC
 }
 
+usage(){
+echo "USAGE"
+}
+
+checkoptions(){
+	while getopts ":hm:n" flag
+	do
+		# if switch is unknown or if asking for help
+		if [ $flag = "?" ] || [ $flag = "h" ]; then
+			usage
+			exit 0
+		fi
+		if [ $flag = "m" ]; then
+			# the repo URL has to be an http or ftp address
+			# we're only doing very basic address checking
+			# here
+			if [[ "$OPTARG" == http://[[:alnum:]]* ]] || [[ "$OPTARG" == ftp://[[:alnum:]]* ]]; then
+				INTERACTIVE=0
+				# remove trailing slashes
+				repo="`echo \"$OPTARG\" | sed 's|/*$||g'`"
+			else
+				usage
+				exit 1
+			fi
+		fi
+		if [ $flag = "n" ]; then
+			UPDATE=0
+		fi
+	done
+	
+	# we shift positions in $@ so that we discard all previous switches
+	shift $((OPTIND-1))
+
+	# There should be no more arguments
+	if [ $# -gt 0 ]; then
+		echo "`eval_gettext 'ERROR: Too many arguments'`" >&2
+		usage
+		exit 1
+	fi
+}
+
 # This is the main thing!
 init
 checkdefaults
-interactive
+checkoptions $@
+
+# Run interactive session
+[ $INTERACTIVE -eq 1 ] && interactive
 
 # Apply selected settings
 configslaptget
 configslaptsrc
 
-updatecache
+# Update package caches
+[ $UPDATE -eq 1 ] && updatecache
+
