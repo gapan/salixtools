@@ -1,6 +1,7 @@
 #!/bin/sh
 
-for i in clocksetup keyboardsetup localesetup service servicesetup usersetup; do
+for i in clocksetup keyboardsetup localesetup service servicesetup \
+	usersetup reposetup; do
 	cd $i
 	echo "Creating $i.pot file..."
 	xgettext --from-code=utf-8 -L shell -o po/$i.pot $i
