@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # gapan <vlahavas@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2013-04-29 09:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/"
+"language/el/)\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: keyboardsetup:61
@@ -23,7 +24,9 @@ msgstr ""
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr "ΧΡΗΣΗ: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]"
+msgstr ""
+"ΧΡΗΣΗ: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
+"scimstate]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -55,14 +58,18 @@ msgstr "   -s scimstate,      η κατάσταση του SCIM, on ή off"
 msgid ""
 "   -z,                do not apply changes on the fly, only edit settings "
 "files"
-msgstr "   -z,                χωρίς άμεση εφαρμογή των αλλαγών, οι αλλαγές θα γίνουν μόνο στα αρχεία ρυθμίσεων"
+msgstr ""
+"   -z,                χωρίς άμεση εφαρμογή των αλλαγών, οι αλλαγές θα γίνουν "
+"μόνο στα αρχεία ρυθμίσεων"
 
 #: keyboardsetup:130
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
-" for a list of valid keymaps"
-msgstr "ΣΦΑΛΜΑ: Το $OPTARG δεν είναι έγκυρη διάταξη πληκτρολογίου. Μπορείτε να ανατρέξετε στο $salixtoolsdir/keymaps για μια λίστα έγκυρων διατάξεων"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"ΣΦΑΛΜΑ: Το $OPTARG δεν είναι έγκυρη διάταξη πληκτρολογίου. Μπορείτε να "
+"ανατρέξετε στο $salixtoolsdir/keymaps για μια λίστα έγκυρων διατάξεων"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -123,10 +130,16 @@ msgstr "Προτίμηση IBus"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "Το IBus είναι μια πλατφόρμα εισαγωγής για Κινέζικα, Γιαπωνέζικια, Κορεάτικα και άλλες γλώσσες όταν χρησιμοποιείτε κάποιο γραφικό περιβάλλον. Θέλετε να είναι ενεργό ή ανενεργό κατά την εκκίνηση;\n\nΘα πρέπει να επανεκκινήσετε το σύστημά σας για να εφαρμοστούν οι αλλαγές στο IBus."
+msgstr ""
+"Το IBus είναι μια πλατφόρμα εισαγωγής για Κινέζικα, Γιαπωνέζικια, Κορεάτικα "
+"και άλλες γλώσσες όταν χρησιμοποιείτε κάποιο γραφικό περιβάλλον. Θέλετε να "
+"είναι ενεργό ή ανενεργό κατά την εκκίνηση;\n"
+"\n"
+"Θα πρέπει να επανεκκινήσετε το σύστημά σας για να εφαρμοστούν οι αλλαγές στο "
+"IBus."
 
 #: keyboardsetup:309
 #, sh-format
@@ -137,7 +150,11 @@ msgstr "Προτίμηση SCIM"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα, Γιαπωνέζικια, Κορεάτικα και άλλες γλώσσες όταν χρησιμοποιείτε κάποιο γραφικό περιβάλλον. Θέλετε να είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n\\nΘα πρέπει να επανεκκινήσετε το σύστημά σας για να εφαρμοστούν οι αλλαγές στο SCIM."
+msgstr ""
+"Το SCIM είναι μια πλατφόρμα εισαγωγής για Κινέζικα, Γιαπωνέζικια, Κορεάτικα "
+"και άλλες γλώσσες όταν χρησιμοποιείτε κάποιο γραφικό περιβάλλον. Θέλετε να "
+"είναι ενεργό ή ανενεργό κατά την εκκίνηση;\\n\\nΘα πρέπει να επανεκκινήσετε "
+"το σύστημά σας για να εφαρμοστούν οι αλλαγές στο SCIM."

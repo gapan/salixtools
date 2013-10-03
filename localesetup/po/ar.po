@@ -1,69 +1,71 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Karim Oulad Chalha <herr.linux88@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2013-04-29 10:08+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/projects/p/salixtools/language/ar/)\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/salixtools/"
+"language/ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: localesetup:34
+#: localesetup:25
 #, sh-format
 msgid "USAGE: localesetup [locale]"
 msgstr "إسنعمال: localesetup [locale]"
 
-#: localesetup:35
+#: localesetup:26
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
 msgstr "مثال: localsetup ar_MA"
 
-#: localesetup:40
+#: localesetup:31
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "خطا: العديد من المعطيات"
 
-#: localesetup:48
+#: localesetup:39
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr "إعداد اللغة إلى $locale"
 
-#: localesetup:50
+#: localesetup:41
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "خطأ: $newlocale ليست لغة صحيحة"
 
-#: localesetup:75
+#: localesetup:66
 #, sh-format
 msgid "System language configuration"
 msgstr "إعدادات لغة النظام"
 
-#: localesetup:77
+#: localesetup:68
 #, sh-format
 msgid "OK"
 msgstr "نعم"
 
-#: localesetup:78
+#: localesetup:69
 #, sh-format
 msgid "Exit"
 msgstr "خروج"
 
-#: localesetup:80
+#: localesetup:71
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "اللغة الحالية هي $currentlocale."
 
-#: localesetup:81
+#: localesetup:72
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "المرجوا إختيار لغة النظام المفضلة:"

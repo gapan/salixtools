@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,38 +17,38 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: service:47
+#: service:39
 #, sh-format
 msgid ""
 "${BOLDCYAN}Starting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr ""
 
-#: service:51 service:63 service:81
+#: service:43 service:55 service:73
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr ""
 
-#: service:57
+#: service:49
 #, sh-format
 msgid ""
 "${BOLDYELLOW}Stopping${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr ""
 
-#: service:70
+#: service:62
 #, sh-format
 msgid ""
 "${BOLDCYAN}Restarting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr ""
 
-#: service:90
+#: service:82
 #, sh-format
 msgid "The $service service"
 msgstr ""
 
-#: service:113
+#: service:105
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
 msgstr ""

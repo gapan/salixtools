@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Laszlo Dvornik <rezuri@zoho.com>, 2011
 # Péter Polonkai <polesz@nedudu.hu>, 2011
@@ -9,15 +9,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2013-04-29 09:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/"
+"language/hu/)\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: keyboardsetup:61
@@ -25,7 +26,9 @@ msgstr ""
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr "HASZNÁLAT: keyboardsetup [[-k billentyűzetkiosztás] [-n numlock_állapot] [-i ibus_állapot ] [-s scim_állapot]]"
+msgstr ""
+"HASZNÁLAT: keyboardsetup [[-k billentyűzetkiosztás] [-n numlock_állapot] [-i "
+"ibus_állapot ] [-s scim_állapot]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -57,14 +60,19 @@ msgstr "   -s scim_állapot,         a SCIM állapota, on (be) vagy off (ki)"
 msgid ""
 "   -z,                do not apply changes on the fly, only edit settings "
 "files"
-msgstr "   -z,                      nem alkalmazza azonnal a változtatásokat, csak a\n                            beállítófájlokat szerkeszti"
+msgstr ""
+"   -z,                      nem alkalmazza azonnal a változtatásokat, csak "
+"a\n"
+"                            beállítófájlokat szerkeszti"
 
 #: keyboardsetup:130
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
-" for a list of valid keymaps"
-msgstr "HIBA: $OPTARG nem érvényes billentyűzetkiosztás. Megnézheti az $salixtoolsdir/keymaps fájlt az érvényes billentyűzetkiosztások listájához."
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"HIBA: $OPTARG nem érvényes billentyűzetkiosztás. Megnézheti az "
+"$salixtoolsdir/keymaps fájlt az érvényes billentyűzetkiosztások listájához."
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -125,10 +133,13 @@ msgstr "IBus beállítása"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "Az IBus beviteli platform kínai, japán, koreai és egyéb nyelvekhez grafikus környezet használatakor. Engedélyezni vagy tiltani szeretné induláskor?\\n\\nA változtatás életbe léptetéséhez újra kell indítania a rendszert."
+msgstr ""
+"Az IBus beviteli platform kínai, japán, koreai és egyéb nyelvekhez grafikus "
+"környezet használatakor. Engedélyezni vagy tiltani szeretné induláskor?\\n"
+"\\nA változtatás életbe léptetéséhez újra kell indítania a rendszert."
 
 #: keyboardsetup:309
 #, sh-format
@@ -139,7 +150,10 @@ msgstr "SCIM beállítása"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "A SCIM beviteli platform kínai, japán, koreai és egyéb nyelvekhez grafikus környezet használatakor. Engedélyezni vagy tiltani szeretné induláskor?\\n\\nA változtatás életbe léptetéséhez újra kell indítania a rendszert."
+msgstr ""
+"A SCIM beviteli platform kínai, japán, koreai és egyéb nyelvekhez grafikus "
+"környezet használatakor. Engedélyezni vagy tiltani szeretné induláskor?\\n"
+"\\nA változtatás életbe léptetéséhez újra kell indítania a rendszert."

@@ -1,55 +1,61 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2012-02-14 08:27+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_PT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: service:47
+#: service:39
 #, sh-format
 msgid ""
 "${BOLDCYAN}Starting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${NEGRITOCIANO}Começando${REDEFINIR_CORES}o\n${NEGRITOBRANCO}${nomeserviço}${REDEFINIR_CORES}serviço"
+msgstr ""
+"${NEGRITOCIANO}Começando${REDEFINIR_CORES}o\n"
+"${NEGRITOBRANCO}${nomeserviço}${REDEFINIR_CORES}serviço"
 
-#: service:51 service:63 service:81
+#: service:43 service:55 service:73
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "Não ${BRANCONEGRITO}${nomedeserviço}${REINICIAR_COR} serviço"
 
-#: service:57
+#: service:49
 #, sh-format
 msgid ""
 "${BOLDYELLOW}Stopping${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${AMARELONEGRITO}Parando${REINICIAR_COR} o\n${BRANCONEGRITO}${nomedeserviço}${REINICIAR_COR} serviço"
+msgstr ""
+"${AMARELONEGRITO}Parando${REINICIAR_COR} o\n"
+"${BRANCONEGRITO}${nomedeserviço}${REINICIAR_COR} serviço"
 
-#: service:70
+#: service:62
 #, sh-format
 msgid ""
 "${BOLDCYAN}Restarting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "${CIANONEGRITO}Reiniciando${REINICIAR_COR} o\n${BRANCONEGRITO}${nomedeserviço}${REINICIAR_COR} serviço"
+msgstr ""
+"${CIANONEGRITO}Reiniciando${REINICIAR_COR} o\n"
+"${BRANCONEGRITO}${nomedeserviço}${REINICIAR_COR} serviço"
 
-#: service:90
+#: service:82
 #, sh-format
 msgid "The $service service"
 msgstr "O $serviço serviço"
 
-#: service:113
+#: service:105
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
 msgstr "uso : serviço de início | parar | reiniciar | listar [nome_serviço]"

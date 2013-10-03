@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # tsuren <hydrangea_and_snail@hotmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2013-04-29 09:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/salixtools/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/salixtools/"
+"language/ja/)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: keyboardsetup:61
@@ -23,7 +24,9 @@ msgstr ""
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr "使用法：keyboardsetup　[[- k　キーマップ] [- n　ナムロック設定] [- i　ibus設定] [-s scim設定]]"
+msgstr ""
+"使用法：keyboardsetup　[[- k　キーマップ] [- n　ナムロック設定] [- i　ibus設"
+"定] [-s scim設定]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -55,14 +58,18 @@ msgstr "   -s scimstate      SCIM使用: onかoff"
 msgid ""
 "   -z,                do not apply changes on the fly, only edit settings "
 "files"
-msgstr "   -z,                設定変更をその場で運用せず、設定ファイルの変更だけをおこなう。"
+msgstr ""
+"   -z,                設定変更をその場で運用せず、設定ファイルの変更だけをお"
+"こなう。"
 
 #: keyboardsetup:130
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
-" for a list of valid keymaps"
-msgstr "エラー：$ OPTARGは、使用できるキーマップではありません。使用できるキーマップのリストは、$ salixtoolsdir /keymapsでみることができます。"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"エラー：$ OPTARGは、使用できるキーマップではありません。使用できるキーマップ"
+"のリストは、$ salixtoolsdir /keymapsでみることができます。"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -123,10 +130,15 @@ msgstr "IBus設定"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "IBusは、グラフィカル環境をつかって、日本語、中国語、韓国語や他の多くの言語を入力するためのプラットフォームです。ブート時にIBusを有効化、または無効化するかを設定してください。\n\n設定後システムを再起動する必要があります。"
+msgstr ""
+"IBusは、グラフィカル環境をつかって、日本語、中国語、韓国語や他の多くの言語を"
+"入力するためのプラットフォームです。ブート時にIBusを有効化、または無効化する"
+"かを設定してください。\n"
+"\n"
+"設定後システムを再起動する必要があります。"
 
 #: keyboardsetup:309
 #, sh-format
@@ -137,7 +149,10 @@ msgstr "SCIMの設定"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "SCIM は日本語などのアジアの言語をタイプできるようにするアプリです。デフォで起動時に始動させますか。\\n\\n新しい設定を使用するためには、再起動してください。"
+msgstr ""
+"SCIM は日本語などのアジアの言語をタイプできるようにするアプリです。デフォで起"
+"動時に始動させますか。\\n\\n新しい設定を使用するためには、再起動してくださ"
+"い。"

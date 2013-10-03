@@ -1,54 +1,61 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2013-04-29 09:23+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/salixtools/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/salixtools/"
+"language/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: service:47
+#: service:39
 #, sh-format
 msgid ""
 "${BOLDCYAN}Starting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}opgestart{COLOR_RESET}"
+msgstr ""
+"De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}"
+"opgestart{COLOR_RESET}"
 
-#: service:51 service:63 service:81
+#: service:43 service:55 service:73
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "Geen ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 
-#: service:57
+#: service:49
 #, sh-format
 msgid ""
 "${BOLDYELLOW}Stopping${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDYELLOW}gestopt${COLOR_RESET}"
+msgstr ""
+"De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDYELLOW}"
+"gestopt${COLOR_RESET}"
 
-#: service:70
+#: service:62
 #, sh-format
 msgid ""
 "${BOLDCYAN}Restarting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr "De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}herstart${COLOR_RESET}"
+msgstr ""
+"De ${BOLDWHITE}${servicename}${COLOR_RESET} service wordt ${BOLDCYAN}herstart"
+"${COLOR_RESET}"
 
-#: service:90
+#: service:82
 #, sh-format
 msgid "The $service service"
 msgstr "De $service service"
 
-#: service:113
+#: service:105
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
 msgstr "gebruik: service start|stop|restart|list [service_name]"

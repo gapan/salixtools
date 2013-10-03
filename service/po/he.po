@@ -2,22 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2011-04-28 09:14+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: he\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: service:47
+#: service:39
 #, sh-format
 msgid ""
 "${BOLDCYAN}Starting${COLOR_RESET} the "
@@ -26,12 +26,12 @@ msgstr ""
 "${BOLDCYAN}התחלת${COLOR_RESET} השירות "
 "${BOLDWHITE}${servicename}${COLOR_RESET}"
 
-#: service:51 service:63 service:81
+#: service:43 service:55 service:73
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 
-#: service:57
+#: service:49
 #, sh-format
 msgid ""
 "${BOLDYELLOW}Stopping${COLOR_RESET} the "
@@ -40,7 +40,7 @@ msgstr ""
 "${BOLDYELLOW}עצירת${COLOR_RESET} השירות "
 "${BOLDWHITE}${servicename}${COLOR_RESET}"
 
-#: service:70
+#: service:62
 #, sh-format
 msgid ""
 "${BOLDCYAN}Restarting${COLOR_RESET} the "
@@ -49,12 +49,12 @@ msgstr ""
 "${BOLDCYAN}אתחול${COLOR_RESET} השירות "
 "${BOLDWHITE}${servicename}${COLOR_RESET}"
 
-#: service:90
+#: service:82
 #, sh-format
 msgid "The $service service"
 msgstr "סוג שירות: $service"
 
-#: service:113
+#: service:105
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
 msgstr "שימוש : service start|stop|restart|list [שם_שירות]"

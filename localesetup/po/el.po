@@ -1,68 +1,69 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2013-04-29 10:08+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/"
+"language/el/)\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: localesetup:34
+#: localesetup:25
 #, sh-format
 msgid "USAGE: localesetup [locale]"
 msgstr "ΧΡΗΣΗ: localesetup [locale]"
 
-#: localesetup:35
+#: localesetup:26
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
 msgstr "ΠΑΡΑΔΕΙΓΜΑ: localesetup el_GR"
 
-#: localesetup:40
+#: localesetup:31
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ΣΦΑΛΜΑ: Πολλές παράμετροι"
 
-#: localesetup:48
+#: localesetup:39
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr "Ρύθμιση της γλώσσας συστήματος σε $locale"
 
-#: localesetup:50
+#: localesetup:41
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "ΣΦΑΛΜΑ: Το $newlocale δεν είναι έγκυρη γλώσσα συστήματος"
 
-#: localesetup:75
+#: localesetup:66
 #, sh-format
 msgid "System language configuration"
 msgstr "Ρύθμιση γλώσσας συστήματος"
 
-#: localesetup:77
+#: localesetup:68
 #, sh-format
 msgid "OK"
 msgstr "Εντάξει"
 
-#: localesetup:78
+#: localesetup:69
 #, sh-format
 msgid "Exit"
 msgstr "Έξοδος"
 
-#: localesetup:80
+#: localesetup:71
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "Η τρέχουσα γλώσσα συστήματος είναι $currentlocale."
 
-#: localesetup:81
+#: localesetup:72
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Παρακαλώ επιλέξτε τη γλώσσα συστήματος."

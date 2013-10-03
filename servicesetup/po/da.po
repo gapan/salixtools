@@ -1,43 +1,44 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2013-04-29 09:33+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/salixtools/language/da/)\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/salixtools/"
+"language/da/)\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: servicesetup:65
+#: servicesetup:56
 #, sh-format
 msgid "Startup services"
 msgstr "Start tjenester op"
 
-#: servicesetup:66
+#: servicesetup:57
 #, sh-format
 msgid "OK"
 msgstr "O.k."
 
-#: servicesetup:67
+#: servicesetup:58
 #, sh-format
 msgid "Exit"
 msgstr "Afslut"
 
-#: servicesetup:70
+#: servicesetup:61
 #, sh-format
 msgid "The selected services will be started at boot time:"
 msgstr "De valgte tjenester vil blive startet under opstarten:"
 
-#: servicesetup:79
+#: servicesetup:70
 #, sh-format
 msgid "The $service service"
 msgstr "Tjenesten $service"

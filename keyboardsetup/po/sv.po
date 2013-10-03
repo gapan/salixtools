@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Ingemar Karlsson <ingemar@ingk.se>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2011-02-13 14:38+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:10+0300\n"
 "PO-Revision-Date: 2013-04-29 09:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/salixtools/language/sv/)\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/salixtools/"
+"language/sv/)\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: keyboardsetup:61
@@ -23,7 +24,9 @@ msgstr ""
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr "ANVÄNDNING: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate] [-s scimstate]]"
+msgstr ""
+"ANVÄNDNING: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate] [-s "
+"scimstate]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -55,14 +58,18 @@ msgstr "   -s scimstate,      SCIM status, on eller off"
 msgid ""
 "   -z,                do not apply changes on the fly, only edit settings "
 "files"
-msgstr "   -z,                verkställ inte ändringar direkt, redigera bara inställnings filen"
+msgstr ""
+"   -z,                verkställ inte ändringar direkt, redigera bara "
+"inställnings filen"
 
 #: keyboardsetup:130
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
-" for a list of valid keymaps"
-msgstr "FEL: $OPTARG är inte ett giltigt tangentlayout. Du kan titta i $salixtoolsdir/keymaps för en lista med giltiga tangentuppsättningar"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"FEL: $OPTARG är inte ett giltigt tangentlayout. Du kan titta i "
+"$salixtoolsdir/keymaps för en lista med giltiga tangentuppsättningar"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -123,10 +130,15 @@ msgstr "IBus konfiguration"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "IBus är en inmatnings plattform för kinesiska, japanska, koreanska och många andra språk när du använder en grafisk miljö. Vill du ha det aktiverat eller inaktiverat vid uppstart?\n\nDu måste starta om datorn för att detta ska börja gälla."
+msgstr ""
+"IBus är en inmatnings plattform för kinesiska, japanska, koreanska och många "
+"andra språk när du använder en grafisk miljö. Vill du ha det aktiverat eller "
+"inaktiverat vid uppstart?\n"
+"\n"
+"Du måste starta om datorn för att detta ska börja gälla."
 
 #: keyboardsetup:309
 #, sh-format
@@ -137,7 +149,12 @@ msgstr "SCIM konfiguration"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "SCIM är en inmatnings plattform för Kinesiska, Japanska, Koreanska och många fler språk vid användning av grafisk miljö. Vill du ha den aktiverad vid uppstart?\n\nDu måste starta om ditt system för att detta skall aktiveras."
+msgstr ""
+"SCIM är en inmatnings plattform för Kinesiska, Japanska, Koreanska och många "
+"fler språk vid användning av grafisk miljö. Vill du ha den aktiverad vid "
+"uppstart?\n"
+"\n"
+"Du måste starta om ditt system för att detta skall aktiveras."
