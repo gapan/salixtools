@@ -1,69 +1,112 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Didier_Spaier <didier.spaier@epsm.fr>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
-"Report-Msgid-Bugs-To: http://sourceforge.net/apps/trac/salix/wiki\n"
-"POT-Creation-Date: 2013-08-30 15:37+0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
 "PO-Revision-Date: 2013-08-31 11:03+0000\n"
 "Last-Translator: Didier_Spaier <didier.spaier@epsm.fr>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/salixtools/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/projects/p/salixtools/"
+"language/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: reposetup:80
+#: reposetup:89
 #, sh-format
 msgid "Select repository mirror"
 msgstr "Sélectionner le dépôt miroir"
 
-#: reposetup:82
+#: reposetup:91
 #, sh-format
 msgid "Select"
 msgstr "Sélectionner"
 
-#: reposetup:83
+#: reposetup:92
 #, sh-format
 msgid "Cancel"
 msgstr "Abandonner"
 
-#: reposetup:85
+#: reposetup:94
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr "Merci de sélectionner votre dépot miroir préféré. Le code du pays où se situe le miroir apparaît à droite. Votre sélection s'appliquera aux fichiers /etc/slapt-get/slaptget-rc et /etc/slapt-get/slapt-srcrc :"
+msgstr ""
+"Merci de sélectionner votre dépot miroir préféré. Le code du pays où se "
+"situe le miroir apparaît à droite. Votre sélection s'appliquera aux "
+"fichiers /etc/slapt-get/slaptget-rc et /etc/slapt-get/slapt-srcrc :"
 
-#: reposetup:85
+#: reposetup:94
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr "ATTENTION : toutes les modifications que vous avez effectuées manuellement dans les lignes SOURCE de ces fichiers seront perdues !"
+msgstr ""
+"ATTENTION : toutes les modifications que vous avez effectuées manuellement "
+"dans les lignes SOURCE de ces fichiers seront perdues !"
 
-#: reposetup:97
+#: reposetup:107
 #, sh-format
 msgid "Update package caches?"
 msgstr "Mettre à jour les caches des paquets ?"
 
-#: reposetup:98
+#: reposetup:108
 #, sh-format
 msgid "Update"
 msgstr "Mettre à jour"
 
-#: reposetup:99
+#: reposetup:109
 #, sh-format
 msgid "Do not update"
 msgstr "Ne pas mettre à jour"
 
-#: reposetup:100
+#: reposetup:110
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
-msgstr "Voulez-vous mettre à jour les caches des paquets et des SlackBuild maintenant ?"
+msgstr ""
+"Voulez-vous mettre à jour les caches des paquets et des SlackBuild "
+"maintenant ?"
+
+#: reposetup:160
+#, sh-format
+msgid "USAGE:"
+msgstr ""
+
+#: reposetup:160
+#, sh-format
+msgid "mirror"
+msgstr ""
+
+#: reposetup:162
+#, sh-format
+msgid "OPTIONS:"
+msgstr ""
+
+#: reposetup:163
+#, fuzzy, sh-format
+msgid "Specify a repository mirror manually"
+msgstr "Sélectionner le dépôt miroir"
+
+#: reposetup:164
+#, sh-format
+msgid "Do not update/ask for updating the package caches"
+msgstr ""
+
+#: reposetup:165
+#, sh-format
+msgid "This help message"
+msgstr ""
+
+#: reposetup:202
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr ""

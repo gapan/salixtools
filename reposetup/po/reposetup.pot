@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-30 15:37+0300\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: reposetup:80
+#: reposetup:89
 #, sh-format
 msgid "Select repository mirror"
 msgstr ""
 
-#: reposetup:82
+#: reposetup:91
 #, sh-format
 msgid "Select"
 msgstr ""
 
-#: reposetup:83
+#: reposetup:92
 #, sh-format
 msgid "Cancel"
 msgstr ""
 
-#: reposetup:85
+#: reposetup:94
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
@@ -40,29 +40,64 @@ msgid ""
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
 msgstr ""
 
-#: reposetup:85
+#: reposetup:94
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
 msgstr ""
 
-#: reposetup:97
+#: reposetup:107
 #, sh-format
 msgid "Update package caches?"
 msgstr ""
 
-#: reposetup:98
+#: reposetup:108
 #, sh-format
 msgid "Update"
 msgstr ""
 
-#: reposetup:99
+#: reposetup:109
 #, sh-format
 msgid "Do not update"
 msgstr ""
 
-#: reposetup:100
+#: reposetup:110
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
+msgstr ""
+
+#: reposetup:160
+#, sh-format
+msgid "USAGE:"
+msgstr ""
+
+#: reposetup:160
+#, sh-format
+msgid "mirror"
+msgstr ""
+
+#: reposetup:162
+#, sh-format
+msgid "OPTIONS:"
+msgstr ""
+
+#: reposetup:163
+#, sh-format
+msgid "Specify a repository mirror manually"
+msgstr ""
+
+#: reposetup:164
+#, sh-format
+msgid "Do not update/ask for updating the package caches"
+msgstr ""
+
+#: reposetup:165
+#, sh-format
+msgid "This help message"
+msgstr ""
+
+#: reposetup:202
+#, sh-format
+msgid "ERROR: Too many arguments"
 msgstr ""
