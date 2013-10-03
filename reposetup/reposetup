@@ -169,10 +169,13 @@ checkoptions(){
 			exit 0
 		fi
 		if [ $flag = "m" ]; then
-			# the repo URL has to be an http or ftp address
+			# the repo URL has to be an http:// or ftp://
+			# or even a file:// address for local files.
 			# we're only doing very basic address checking
 			# here
-			if [[ "$OPTARG" == http://[[:alnum:]]* ]] || [[ "$OPTARG" == ftp://[[:alnum:]]* ]]; then
+			if [[ "$OPTARG" == http://[[:alnum:]]* ]] \
+				|| [[ "$OPTARG" == ftp://[[:alnum:]]* ]] \
+				|| [[ "$OPTARG" == file://[[:alnum:]]* ]] ; then
 				INTERACTIVE=0
 				# remove trailing slashes
 				repo="`echo \"$OPTARG\" | sed 's|/*$||g'`"
