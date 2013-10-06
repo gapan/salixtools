@@ -211,6 +211,10 @@ checkoptions(){
 	fi
 }
 
+cleanup(){
+	rm -f /tmp/reposetup.$$
+}
+
 # This is the main thing!
 init
 checkdefaults
@@ -225,4 +229,7 @@ configslaptsrc
 
 # Update package caches
 [ $UPDATE -eq 1 ] && updatecache
+
+# clean up
+cleanup
 
