@@ -56,6 +56,7 @@ checkdefaults(){
 
 	CURRENTREPO=""
 
+	# slapt-getrc
 	if [ -f $SLAPTGETRC ]; then
 		SLAPTGETWORKINGDIR=$( cat $SLAPTGETRC | grep "^WORKINGDIR=" | head -n 1 | sed "s/^WORKINGDIR=\(.*\)/\1/" )
 		SLAPTGETEXCLUDE=$( cat $SLAPTGETRC | grep "^EXCLUDE=" | head -n 1 | sed "s/^EXCLUDE=\(.*\)/\1/" )
@@ -67,7 +68,11 @@ checkdefaults(){
 			SLAPTGETEXCLUDE="^aaa_elflibs,^aaa_base,^devs,^glibc.*,^kernel-.*,^udev,^rootuser-settings,^zzz-settings.*,-x86_64-"
 		fi
 	fi
+	
+	# keep CUSTOM slapt-get repos in a temporary file
+	grep "CUSTOM$" $SLAPTGETRC > /tmp/reposetup.$$
 
+	# slapt-srcrc
 	if [ -f $SLAPTSRCRC ]; then
 		CURRENTREPO=$( cat $SLAPTSRCRC | grep "^SOURCE=" | grep "slkbuild" | sed "s/^SOURCE=\(.*\)\/slkbuild\/\(.*\)/\1/" )
 		SLAPTSRCBUILDDIR=$( cat $SLAPTSRCRC | grep "^BUILDDIR=" | head -n 1 | sed "s/^BUILDDIR=\(.*\)/\1/" )
@@ -143,8 +148,9 @@ configslaptget() {
 	echo "# SOURCE=file:///mnt/cdrom/:OFFICIAL"
 	echo ""
 	echo "# Home made packages."
-	echo "# SOURCE=file:///var/www/packages/:CUSTOM"
 	) > $SLAPTGETRC
+
+	cat /tmp/reposetup.$$ >> $SLAPTGETRC
 }
 
 configslaptsrc(){
