@@ -144,10 +144,7 @@ configslaptget() {
 	echo "# The Salix repository"
 	echo "SOURCE=$repo/$arch/$version/:PREFERRED"
 	echo ""
-	echo "# Packages on a CD/DVD."
-	echo "# SOURCE=file:///mnt/cdrom/:OFFICIAL"
-	echo ""
-	echo "# Home made packages."
+	echo "# Local repositories"
 	) > $SLAPTGETRC
 
 	cat /tmp/reposetup.$$ >> $SLAPTGETRC
