@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"POT-Creation-Date: 2013-10-13 13:28+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: reposetup:89
+#: reposetup:97
 #, sh-format
 msgid "Select repository mirror"
 msgstr ""
 
-#: reposetup:91
+#: reposetup:99
 #, sh-format
 msgid "Select"
 msgstr ""
 
-#: reposetup:92
+#: reposetup:100
 #, sh-format
 msgid "Cancel"
 msgstr ""
 
-#: reposetup:94
+#: reposetup:102
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
@@ -40,64 +40,79 @@ msgid ""
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
 msgstr ""
 
-#: reposetup:94
+#: reposetup:102
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
 msgstr ""
 
-#: reposetup:107
+#: reposetup:115
 #, sh-format
 msgid "Update package caches?"
 msgstr ""
 
-#: reposetup:108
+#: reposetup:116
 #, sh-format
 msgid "Update"
 msgstr ""
 
-#: reposetup:109
+#: reposetup:117
 #, sh-format
 msgid "Do not update"
 msgstr ""
 
-#: reposetup:110
+#: reposetup:118
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
 msgstr ""
 
-#: reposetup:160
+#: reposetup:162
 #, sh-format
 msgid "USAGE:"
 msgstr ""
 
-#: reposetup:160
+#: reposetup:162
 #, sh-format
 msgid "mirror"
 msgstr ""
 
-#: reposetup:162
+#: reposetup:164
 #, sh-format
 msgid "OPTIONS:"
 msgstr ""
 
-#: reposetup:163
+#: reposetup:165
 #, sh-format
 msgid "Specify a repository mirror manually"
 msgstr ""
 
-#: reposetup:164
+#: reposetup:166
+#, sh-format
+msgid "Use local mirror list and do not download a new one"
+msgstr ""
+
+#: reposetup:167
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
 msgstr ""
 
-#: reposetup:165
+#: reposetup:168
 #, sh-format
 msgid "This help message"
 msgstr ""
 
-#: reposetup:202
+#: reposetup:208
 #, sh-format
 msgid "ERROR: Too many arguments"
+msgstr ""
+
+#: reposetup:222 reposetup:243
+#, sh-format
+msgid "Refreshing mirror list from"
+msgstr ""
+
+#: reposetup:229 reposetup:250
+#, sh-format
+msgid "Getting mirror list failed"
 msgstr ""
