@@ -39,6 +39,12 @@ interactive dialog with a list of repository mirrors. ''http://'',
 validity check is performed on the mirror location that is specified,
 so make sure you are specifying a correct one.
 
+: **-l**
+By default, reposetup will try to refresh the local mirrors list,
+present in the __/usr/share/salixtools/reposetup/repomirrors__ file with
+a more up to date one. This switch disables that behaviour and just uses
+the local list of mirrors.
+
 : **-n**
 When used in interactive mode, it prevents **reposetup** from showing
 a dialog asking if the package caches should be updated after selecting
