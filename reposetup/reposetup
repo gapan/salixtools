@@ -31,6 +31,9 @@ init(){
 	# Set to interactive mode by default
 	INTERACTIVE=1
 
+	# Refresh the mirror list from an online location by default
+	REFRESHMIRRORS=1
+
 	# Set to update repos by default (or ask for update if in
 	# interactive mode)
 	UPDATE=1
@@ -156,16 +159,17 @@ configslaptsrc(){
 }
 
 usage(){
-echo "`eval_gettext 'USAGE:'` reposetup [[-m `eval_gettext 'mirror'`] [-n]]"
+echo "`eval_gettext 'USAGE:'` reposetup [[-m `eval_gettext 'mirror'`] [-l] [-n]]"
 echo
 echo "`eval_gettext 'OPTIONS:'`"
 echo "    -m mirror,  `eval_gettext 'Specify a repository mirror manually'`"
+echo "    -l,         `eval_gettext 'Use local mirror list and do not download a new one'`"
 echo "    -n,         `eval_gettext 'Do not update/ask for updating the package caches'`"
 echo "    -h,         `eval_gettext 'This help message'`"
 }
 
 checkoptions(){
-	while getopts ":hm:n" flag
+	while getopts ":hm:ln" flag
 	do
 		# if switch is unknown or if asking for help
 		if [ $flag = "?" ] || [ $flag = "h" ]; then
@@ -188,6 +192,9 @@ checkoptions(){
 				exit 1
 			fi
 		fi
+		if [ $flag = "l" ]; then
+			REFRESHMIRRORS=0
+		fi
 		if [ $flag = "n" ]; then
 			UPDATE=0
 		fi
@@ -204,6 +211,62 @@ checkoptions(){
 	fi
 }
 
+refreshmirrors(){
+# clean up any old remnants just in case
+rm -f $salixtoolsdir/reposetup/repomirrors.new
+
+# If there is a repo already set, use it
+if [[ -z $CURRENTREPO ]]; then
+	REFRESH=1
+else
+	message="`eval_gettext 'Refreshing mirror list from'` $CURRENTREPO/MIRRORS"
+	dialog --infobox "$message" 0 0
+	wget -q $CURRENTREPO/MIRRORS -O $salixtoolsdir/reposetup/repomirrors.new
+	retval=$?
+	if [ $retval -eq 0 ]; then
+		REFRESH=0
+	else
+		message="`eval_gettext 'Getting mirror list failed'`"
+		dialog --infobox "$message" 0 0
+		sleep 1
+		REFRESH=1
+	fi
+fi
+
+# if the already selected repo does not work, try to use any of the
+# other ones that are listed in the repomirrors file that is already
+# there
+if [ $REFRESH -eq 1 ]; then
+	while read line; do
+		rm -f $salixtoolsdir/reposetup/repomirrors.new
+		REPO=$( echo $line | sed "s/^\(.*\) [A-Z][A-Z]/\1/" )
+		message="`eval_gettext 'Refreshing mirror list from'` $REPO/MIRRORS"
+		dialog --infobox "$message" 0 0
+		wget -q $REPO/MIRRORS -O $salixtoolsdir/reposetup/repomirrors.new
+		retval=$?
+		if [ $retval -eq 0 ]; then
+			break
+		else
+			message="`eval_gettext 'Getting mirror list failed'`"
+			dialog --infobox "$message" 0 0
+			sleep 1
+		fi
+	done < $salixtoolsdir/reposetup/repomirrors
+fi
+
+# compare the old and new repomirrors files
+diff -q \
+	$salixtoolsdir/reposetup/repomirrors \
+	$salixtoolsdir/reposetup/repomirrors.new > /dev/null
+retval=$?
+if [ $retval -eq 1 ]; then
+	mv $salixtoolsdir/reposetup/repomirrors.new \
+		$salixtoolsdir/reposetup/repomirrors
+else
+	rm -f $salixtoolsdir/reposetup/repomirrors.new
+fi
+}
+
 cleanup(){
 	rm -f /tmp/reposetup.$$
 }
@@ -212,6 +275,9 @@ cleanup(){
 init
 checkdefaults
 checkoptions $@
+
+# Refresh mirror list (only in interactive mode)
+[ $INTERACTIVE -eq 1 ] && [ $REFRESHMIRRORS -eq 1 ] && refreshmirrors
 
 # Run interactive session
 [ $INTERACTIVE -eq 1 ] && interactive
