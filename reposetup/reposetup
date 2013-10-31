@@ -183,7 +183,7 @@ checkoptions(){
 			# here
 			if [[ "$OPTARG" == http://[[:alnum:]]* ]] \
 				|| [[ "$OPTARG" == ftp://[[:alnum:]]* ]] \
-				|| [[ "$OPTARG" == file://[[:alnum:]]* ]] ; then
+				|| [[ "$OPTARG" == file:///[[:alnum:]]* ]] ; then
 				INTERACTIVE=0
 				# remove trailing slashes
 				repo="`echo \"$OPTARG\" | sed 's|/*$||g'`"
