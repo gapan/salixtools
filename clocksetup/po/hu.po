@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Laszlo Dvornik <rezuri@zoho.com>, 2011
 # Péter Polonkai <polesz@nedudu.hu>, 2011
@@ -10,15 +10,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:10+0300\n"
-"PO-Revision-Date: 2013-04-29 09:33+0000\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"PO-Revision-Date: 2013-11-19 16:46+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/"
-"language/hu/)\n"
-"Language: hu\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: clocksetup:39
@@ -154,8 +153,7 @@ msgstr "Figyelmeztetés"
 #: clocksetup:228
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr ""
-"Már használja az ntpd szolgáltatást és az órának helyesnek kell lennie."
+msgstr "Már használja az ntpd szolgáltatást és az órának helyesnek kell lennie."
 
 #: clocksetup:232
 #, sh-format
@@ -175,16 +173,11 @@ msgstr "A hardveróra UTC-re van beállítva?"
 #: clocksetup:256
 #, sh-format
 msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
+"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is,"
+" select YES here.  If the hardware clock is set to the current local time "
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
-msgstr ""
-"A hardveróra a koordinált világidőre van beállítva (UTC/GMT)? Ha igen, akkor "
-"válassza az 'Igen'-t. Ha a hardver óra úgy van beállítva, hogy az aktuális "
-"helyi időt mutassa  (ez a legtöbb számítógép esetében így van), akkor "
-"válassza a 'Nem'-et. Ha nem biztos benne, hogy mi ez, akkor válassza a 'Nem'-"
-"et."
+msgstr "A hardveróra a koordinált világidőre van beállítva (UTC/GMT)? Ha igen, akkor válassza az 'Igen'-t. Ha a hardver óra úgy van beállítva, hogy az aktuális helyi időt mutassa  (ez a legtöbb számítógép esetében így van), akkor válassza a 'Nem'-et. Ha nem biztos benne, hogy mi ez, akkor válassza a 'Nem'-et."
 
 #: clocksetup:257
 #, sh-format

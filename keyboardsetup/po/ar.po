@@ -1,33 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Karim Oulad Chalha <herr.linux88@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:10+0300\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
 "PO-Revision-Date: 2013-04-29 09:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/projects/p/salixtools/"
-"language/ar/)\n"
-"Language: ar\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/salixtools/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: keyboardsetup:61
 #, sh-format
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr ""
-"إستعمال: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
-"scimstate]]"
+msgstr "إستعمال: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -64,11 +60,9 @@ msgstr ""
 #: keyboardsetup:130
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"خطأ: $OPTARG ليست خريطة مفاتيح صالحة. يمكنك تفقد $salixtoolsdir/keymaps "
-"لقائمة بأسماء خرائط المفاتيح الصالحة"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
+msgstr "خطأ: $OPTARG ليست خريطة مفاتيح صالحة. يمكنك تفقد $salixtoolsdir/keymaps لقائمة بأسماء خرائط المفاتيح الصالحة"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -129,13 +123,10 @@ msgstr "إعدادات IBus"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"IBus هي منصة إدخال للصينية, اليابانية, الكورية و العديد من اللغات عنذ "
-"إستعمال بيئة رسومية. عل اريد تفعيل أو تعطيل هذه الميزة في الإقلاع؟\\n\\nيجب "
-"عليك إعادة تشغيل النظام لكي يتم تفعيل التغيبرات."
+msgstr "IBus هي منصة إدخال للصينية, اليابانية, الكورية و العديد من اللغات عنذ إستعمال بيئة رسومية. عل اريد تفعيل أو تعطيل هذه الميزة في الإقلاع؟\\n\\nيجب عليك إعادة تشغيل النظام لكي يتم تفعيل التغيبرات."
 
 #: keyboardsetup:309
 #, sh-format
@@ -146,10 +137,7 @@ msgstr "إعدادات SCIM"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"SCIM هي منصة إدخال للصينية, اليابانية, الكورية و العديد من اللغات عنذ "
-"إستعمال بيئة رسومية. عل اريد تفعيل أو تعطيل هذه الميزة في الإقلاع؟\\n\\nيجب "
-"عليك إعادة تشغيل النظام لكي يتم تفعيل التغيبرات."
+msgstr "SCIM هي منصة إدخال للصينية, اليابانية, الكورية و العديد من اللغات عنذ إستعمال بيئة رسومية. عل اريد تفعيل أو تعطيل هذه الميزة في الإقلاع؟\\n\\nيجب عليك إعادة تشغيل النظام لكي يتم تفعيل التغيبرات."

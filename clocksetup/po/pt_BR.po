@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:10+0300\n"
-"PO-Revision-Date: 2013-04-29 09:33+0000\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"PO-Revision-Date: 2013-11-19 16:46+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
-"salixtools/language/pt_BR/)\n"
-"Language: pt_BR\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/salixtools/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: clocksetup:39
@@ -32,8 +31,7 @@ msgstr "OPÇÕES:"
 #: clocksetup:43
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
-msgstr ""
-"    -c,    mostra apenas o diálogo de configuração do relógio de hardware"
+msgstr "    -c,    mostra apenas o diálogo de configuração do relógio de hardware"
 
 #: clocksetup:44
 #, sh-format
@@ -153,8 +151,7 @@ msgstr "Aviso"
 #: clocksetup:228
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr ""
-"Você já está usando o serviço do ntpd e o relógio deverá estar correto."
+msgstr "Você já está usando o serviço do ntpd e o relógio deverá estar correto."
 
 #: clocksetup:232
 #, sh-format
@@ -174,16 +171,11 @@ msgstr "Relógio do hardware definido para UTC?"
 #: clocksetup:256
 #, sh-format
 msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
+"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is,"
+" select YES here.  If the hardware clock is set to the current local time "
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
-msgstr ""
-"Está o conjunto de relógio do hardware coordenado para a Hora Universal (UTC/"
-"GMT)? Se estiver, selecione SIM aqui.   Se o relógio do hardware está "
-"definido para a hora local atual (isto é como a maioria dos PCs são "
-"configurados), então diga NÃO aqui.   Se você não tem certeza do que é isto, "
-"você deve responder NÃO aqui."
+msgstr "Está o conjunto de relógio do hardware coordenado para a Hora Universal (UTC/GMT)? Se estiver, selecione SIM aqui.   Se o relógio do hardware está definido para a hora local atual (isto é como a maioria dos PCs são configurados), então diga NÃO aqui.   Se você não tem certeza do que é isto, você deve responder NÃO aqui."
 
 #: clocksetup:257
 #, sh-format

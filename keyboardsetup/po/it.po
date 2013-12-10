@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Kerd <kerd89@gmail.com>, 2011
 # laplume <laplume@libero.it>, 2011
@@ -10,15 +10,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:10+0300\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
 "PO-Revision-Date: 2013-04-29 09:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/salixtools/"
-"language/it/)\n"
-"Language: it\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/salixtools/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: keyboardsetup:61
@@ -26,9 +25,7 @@ msgstr ""
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr ""
-"UTILIZZO: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
-"scimstate]]"
+msgstr "UTILIZZO: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]"
 
 #: keyboardsetup:63
 #, sh-format
@@ -60,18 +57,14 @@ msgstr "   -s scimstate,      stato SCIM, attivato o disattivato"
 msgid ""
 "   -z,                do not apply changes on the fly, only edit settings "
 "files"
-msgstr ""
-"   -z,                non applicare modifiche al volo, solo edita i file di "
-"impostazione"
+msgstr "   -z,                non applicare modifiche al volo, solo edita i file di impostazione"
 
 #: keyboardsetup:130
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"ERRORE: $OPTARG non è una mappatura di tastiera valida. Per favore "
-"verificate in $salixtoolsdir/keymaps la lista della mappature valide"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
+msgstr "ERRORE: $OPTARG non è una mappatura di tastiera valida. Per favore verificate in $salixtoolsdir/keymaps la lista della mappature valide"
 
 #: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
@@ -132,14 +125,10 @@ msgstr "Configurazione IBus"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"IBus è una piattaforma di input per caratteri cinesi, giapponesi, coreani e "
-"di molte altre lingue utilizzata nelle sessioni con anbiente grafico. "
-"Desiderate che sia abilitata/disabilita all'avvio del sistema?\\n\\nIl "
-"computer dovrà essere riavviato per rendere effettive le modifiche. "
+msgstr "IBus è una piattaforma di input per caratteri cinesi, giapponesi, coreani e di molte altre lingue utilizzata nelle sessioni con anbiente grafico. Desiderate che sia abilitata/disabilita all'avvio del sistema?\\n\\nIl computer dovrà essere riavviato per rendere effettive le modifiche. "
 
 #: keyboardsetup:309
 #, sh-format
@@ -150,12 +139,7 @@ msgstr "Configurazione SCIM"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"SCIM è una piattaforma di input per la gestione di caratteri delle lingue "
-"Cinese, Giapponese, Coreana e altre ancora quando viene utilizzato un "
-"ambiente grafico. Volete che sia abilitata o disabilitata all'avvio? \n"
-"\n"
-"Dovete riavviare il sistema per rendere queste modifiche effettive."
+msgstr "SCIM è una piattaforma di input per la gestione di caratteri delle lingue Cinese, Giapponese, Coreana e altre ancora quando viene utilizzato un ambiente grafico. Volete che sia abilitata o disabilitata all'avvio? \n\nDovete riavviare il sistema per rendere queste modifiche effettive."

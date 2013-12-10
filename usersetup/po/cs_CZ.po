@@ -1,0 +1,428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"PO-Revision-Date: 2013-12-10 09:17+0000\n"
+"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/salixtools/language/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: usersetup:39
+#, sh-format
+msgid "Select"
+msgstr ""
+
+#: usersetup:40
+#, sh-format
+msgid "Exit user setup"
+msgstr ""
+
+#: usersetup:41
+#, sh-format
+msgid "Users accounts management"
+msgstr ""
+
+#: usersetup:43
+#, sh-format
+msgid "Please choose an option..."
+msgstr ""
+
+#: usersetup:45
+#, sh-format
+msgid "Create a new account"
+msgstr ""
+
+#: usersetup:46
+#, sh-format
+msgid "Create a new account (advanced mode)"
+msgstr ""
+
+#: usersetup:47
+#, sh-format
+msgid "Modify account properties"
+msgstr ""
+
+#: usersetup:48
+#, sh-format
+msgid "Change account password"
+msgstr ""
+
+#: usersetup:49
+#, sh-format
+msgid "Delete accounts"
+msgstr ""
+
+#: usersetup:50
+#, sh-format
+msgid "List groups and memberships"
+msgstr ""
+
+#: usersetup:51
+#, sh-format
+msgid "Create a new group"
+msgstr ""
+
+#: usersetup:52
+#, sh-format
+msgid "Change group name"
+msgstr ""
+
+#: usersetup:53
+#, sh-format
+msgid "Delete groups"
+msgstr ""
+
+#: usersetup:69 usersetup:192
+#, sh-format
+msgid "Account properties"
+msgstr ""
+
+#: usersetup:70 usersetup:235
+#, sh-format
+msgid "Properties"
+msgstr ""
+
+#: usersetup:71 usersetup:88 usersetup:105 usersetup:122 usersetup:139
+#: usersetup:157 usersetup:194 usersetup:236
+#, sh-format
+msgid "Back"
+msgstr ""
+
+#: usersetup:73
+#, sh-format
+msgid "Select an account to view its properties..."
+msgstr ""
+
+#: usersetup:86
+#, sh-format
+msgid "Account deletion"
+msgstr ""
+
+#: usersetup:87 usersetup:156 usersetup:651 usersetup:715
+#, sh-format
+msgid "Delete"
+msgstr ""
+
+#: usersetup:90
+#, sh-format
+msgid "Select an account to delete..."
+msgstr ""
+
+#: usersetup:103
+#, sh-format
+msgid "Change password"
+msgstr ""
+
+#: usersetup:104
+#, sh-format
+msgid "Change"
+msgstr ""
+
+#: usersetup:107
+#, sh-format
+msgid "Select an account to change password for..."
+msgstr ""
+
+#: usersetup:120
+#, sh-format
+msgid "Group memberships"
+msgstr ""
+
+#: usersetup:121
+#, sh-format
+msgid "Memberships"
+msgstr ""
+
+#: usersetup:124
+#, sh-format
+msgid "Select a group to view memberships for..."
+msgstr ""
+
+#: usersetup:137 usersetup:520
+#, sh-format
+msgid "Group name"
+msgstr ""
+
+#: usersetup:138 usersetup:193
+#, sh-format
+msgid "Modify"
+msgstr ""
+
+#: usersetup:141
+#, sh-format
+msgid "Select group name to modify..."
+msgstr ""
+
+#: usersetup:155
+#, sh-format
+msgid "Group deletion"
+msgstr ""
+
+#: usersetup:159
+#, sh-format
+msgid "Select a group to delete..."
+msgstr ""
+
+#: usersetup:196
+#, sh-format
+msgid "Detailed information for account"
+msgstr ""
+
+#: usersetup:198 usersetup:462 usersetup:569
+#, sh-format
+msgid "Full name"
+msgstr ""
+
+#: usersetup:199 usersetup:257 usersetup:545
+#, sh-format
+msgid "Account name"
+msgstr ""
+
+#: usersetup:200 usersetup:549
+#, sh-format
+msgid "Main Group"
+msgstr ""
+
+#: usersetup:201 usersetup:312 usersetup:553
+#, sh-format
+msgid "Home directory"
+msgstr ""
+
+#: usersetup:202 usersetup:338 usersetup:561
+#, sh-format
+msgid "Shell"
+msgstr ""
+
+#: usersetup:203 usersetup:557
+#, sh-format
+msgid "Other groups"
+msgstr ""
+
+#: usersetup:204 usersetup:565
+#, sh-format
+msgid "Expiry"
+msgstr ""
+
+#: usersetup:205 usersetup:573
+#, sh-format
+msgid "Office"
+msgstr ""
+
+#: usersetup:206 usersetup:490 usersetup:577
+#, sh-format
+msgid "Work phone"
+msgstr ""
+
+#: usersetup:207 usersetup:504 usersetup:581
+#, sh-format
+msgid "Home phone"
+msgstr ""
+
+#: usersetup:234 usersetup:244
+#, sh-format
+msgid "Group members"
+msgstr ""
+
+#: usersetup:238
+#, sh-format
+msgid "Members of group"
+msgstr ""
+
+#: usersetup:246
+#, sh-format
+msgid "There are no accounts in group"
+msgstr ""
+
+#: usersetup:259
+#, sh-format
+msgid "Enter the new account name..."
+msgstr ""
+
+#: usersetup:268
+#, sh-format
+msgid "An account name cannot contain a space, please correct it..."
+msgstr ""
+
+#: usersetup:270
+#, sh-format
+msgid "The account name $user already exists, please choose another name..."
+msgstr ""
+
+#: usersetup:272
+#, sh-format
+msgid "The account name is empty, please correct it..."
+msgstr ""
+
+#: usersetup:274
+#, sh-format
+msgid "An account name cannot begin with a number, please correct it..."
+msgstr ""
+
+#: usersetup:276
+#, sh-format
+msgid ""
+"An account name cannot contain uppercase characters, please correct it..."
+msgstr ""
+
+#: usersetup:278
+#, sh-format
+msgid "An account name cannot contain punctuation marks, please correct it..."
+msgstr ""
+
+#: usersetup:296
+#, sh-format
+msgid "Group membership"
+msgstr ""
+
+#: usersetup:297 usersetup:313 usersetup:339 usersetup:359 usersetup:384
+#: usersetup:463 usersetup:477 usersetup:491 usersetup:505 usersetup:521
+#, sh-format
+msgid "OK"
+msgstr ""
+
+#: usersetup:300
+#, sh-format
+msgid "Enter the main group for account"
+msgstr ""
+
+#: usersetup:315
+#, sh-format
+msgid "Enter the home directory for account"
+msgstr ""
+
+#: usersetup:342
+#, sh-format
+msgid "Enter the shell interpreter for account"
+msgstr ""
+
+#: usersetup:358
+#, sh-format
+msgid "Additional group membership"
+msgstr ""
+
+#: usersetup:361
+#, sh-format
+msgid "Add some additional group to the list..."
+msgstr ""
+
+#: usersetup:383
+#, sh-format
+msgid "Expiry date"
+msgstr ""
+
+#: usersetup:385
+#, sh-format
+msgid "Never"
+msgstr ""
+
+#: usersetup:388
+#, sh-format
+msgid "Set the account expiry date..."
+msgstr ""
+
+#: usersetup:424
+#, sh-format
+msgid "Enter password for account"
+msgstr ""
+
+#: usersetup:425
+#, sh-format
+msgid "Passwords do not match, please try again..."
+msgstr ""
+
+#: usersetup:428
+#, sh-format
+msgid ""
+"Password is too short (${minlength} chars minimum), please try another "
+"one..."
+msgstr ""
+
+#: usersetup:431
+#, sh-format
+msgid "Enter password again for account"
+msgstr ""
+
+#: usersetup:448
+#, sh-format
+msgid "Failed to set password for account"
+msgstr ""
+
+#: usersetup:465
+#, sh-format
+msgid "Enter the full name of the user"
+msgstr ""
+
+#: usersetup:476
+#, sh-format
+msgid "Office information"
+msgstr ""
+
+#: usersetup:479
+#, sh-format
+msgid "Enter office information for the user"
+msgstr ""
+
+#: usersetup:493
+#, sh-format
+msgid "Enter the work phone number of the user"
+msgstr ""
+
+#: usersetup:507
+#, sh-format
+msgid "Enter the home phone number of the user"
+msgstr ""
+
+#: usersetup:523
+#, sh-format
+msgid "Enter the new group name"
+msgstr ""
+
+#: usersetup:618 usersetup:639 usersetup:648 usersetup:712
+#, sh-format
+msgid "Warning"
+msgstr ""
+
+#: usersetup:648
+#, sh-format
+msgid "You cannot delete the account"
+msgstr ""
+
+#: usersetup:650
+#, sh-format
+msgid "Confirm user deletion"
+msgstr ""
+
+#: usersetup:652 usersetup:716
+#, sh-format
+msgid "Cancel"
+msgstr ""
+
+#: usersetup:654
+#, sh-format
+msgid "Are you sure you want to delete user $user?"
+msgstr ""
+
+#: usersetup:712
+#, sh-format
+msgid "You cannot delete the group"
+msgstr ""
+
+#: usersetup:714
+#, sh-format
+msgid "Confirm group deletion"
+msgstr ""
+
+#: usersetup:718
+#, sh-format
+msgid "Are you sure you want to delete the $group group?"
+msgstr ""
