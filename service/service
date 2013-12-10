@@ -60,7 +60,7 @@ restart() {
   chmod 755 $rcdir/rc.${servicename}
   if [ -r $rcdir/rc.${servicename} ]; then
     echo -e "`eval_gettext '${BOLDCYAN}Restarting${COLOR_RESET} the ${BOLDWHITE}${servicename}${COLOR_RESET} service'`" 
-    if grep -q "^[^#]*['\"]restart[\"'][:space:]*)[:space:]*$" $rcdir/rc.${servicename} ; then
+    if grep -q "^[^#]*['\"]restart[\"'][[:space:]]*)[[:space:]]*$" $rcdir/rc.${servicename} ; then
     	/bin/sh $rcdir/rc.${servicename} restart 1>&2 2>/dev/null &
     	sleep 2
     else
