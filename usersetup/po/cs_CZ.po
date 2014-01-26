@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# jui <appukonrad@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-04 01:13+0300\n"
-"PO-Revision-Date: 2013-12-10 09:17+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"PO-Revision-Date: 2013-12-10 10:13+0000\n"
+"Last-Translator: jui <appukonrad@gmail.com>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/salixtools/language/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,223 +21,223 @@ msgstr ""
 #: usersetup:39
 #, sh-format
 msgid "Select"
-msgstr ""
+msgstr "Vybrat"
 
 #: usersetup:40
 #, sh-format
 msgid "Exit user setup"
-msgstr ""
+msgstr "Ukončit nastavení uživatele"
 
 #: usersetup:41
 #, sh-format
 msgid "Users accounts management"
-msgstr ""
+msgstr "Správa uživatelských účtů"
 
 #: usersetup:43
 #, sh-format
 msgid "Please choose an option..."
-msgstr ""
+msgstr "Prosím, zvolte jednu z možností..."
 
 #: usersetup:45
 #, sh-format
 msgid "Create a new account"
-msgstr ""
+msgstr "Vytvořit nový účet"
 
 #: usersetup:46
 #, sh-format
 msgid "Create a new account (advanced mode)"
-msgstr ""
+msgstr "Vytvořit nový účet (rozšířený režim)"
 
 #: usersetup:47
 #, sh-format
 msgid "Modify account properties"
-msgstr ""
+msgstr "Upravit vlastnosti účtu"
 
 #: usersetup:48
 #, sh-format
 msgid "Change account password"
-msgstr ""
+msgstr "Změna hesla účtu"
 
 #: usersetup:49
 #, sh-format
 msgid "Delete accounts"
-msgstr ""
+msgstr "Smazat účet"
 
 #: usersetup:50
 #, sh-format
 msgid "List groups and memberships"
-msgstr ""
+msgstr "Seznam skupin a členství"
 
 #: usersetup:51
 #, sh-format
 msgid "Create a new group"
-msgstr ""
+msgstr "Vytvořit novou skupinu"
 
 #: usersetup:52
 #, sh-format
 msgid "Change group name"
-msgstr ""
+msgstr "Změna názvu skupiny"
 
 #: usersetup:53
 #, sh-format
 msgid "Delete groups"
-msgstr ""
+msgstr "Smazání skupiny"
 
 #: usersetup:69 usersetup:192
 #, sh-format
 msgid "Account properties"
-msgstr ""
+msgstr "Vlastnosti účtu"
 
 #: usersetup:70 usersetup:235
 #, sh-format
 msgid "Properties"
-msgstr ""
+msgstr "Vlastnosti"
 
 #: usersetup:71 usersetup:88 usersetup:105 usersetup:122 usersetup:139
 #: usersetup:157 usersetup:194 usersetup:236
 #, sh-format
 msgid "Back"
-msgstr ""
+msgstr "Zpět"
 
 #: usersetup:73
 #, sh-format
 msgid "Select an account to view its properties..."
-msgstr ""
+msgstr "Vyberte účet, u kterého chcete zobrazit jeho vlastnosti ..."
 
 #: usersetup:86
 #, sh-format
 msgid "Account deletion"
-msgstr ""
+msgstr "Smazání účtu"
 
 #: usersetup:87 usersetup:156 usersetup:651 usersetup:715
 #, sh-format
 msgid "Delete"
-msgstr ""
+msgstr "Smazat"
 
 #: usersetup:90
 #, sh-format
 msgid "Select an account to delete..."
-msgstr ""
+msgstr "Vyberte účet, který chcete odstranit ..."
 
 #: usersetup:103
 #, sh-format
 msgid "Change password"
-msgstr ""
+msgstr "Změna hesla"
 
 #: usersetup:104
 #, sh-format
 msgid "Change"
-msgstr ""
+msgstr "Změna"
 
 #: usersetup:107
 #, sh-format
 msgid "Select an account to change password for..."
-msgstr ""
+msgstr "Vyberte účet, u kterého chcete změnit heslo..."
 
 #: usersetup:120
 #, sh-format
 msgid "Group memberships"
-msgstr ""
+msgstr "Členství ve skupinách"
 
 #: usersetup:121
 #, sh-format
 msgid "Memberships"
-msgstr ""
+msgstr "Skupiny"
 
 #: usersetup:124
 #, sh-format
 msgid "Select a group to view memberships for..."
-msgstr ""
+msgstr "Vyberte skupinu, u které chcete zobrazení členství..."
 
 #: usersetup:137 usersetup:520
 #, sh-format
 msgid "Group name"
-msgstr ""
+msgstr "Název skupiny"
 
 #: usersetup:138 usersetup:193
 #, sh-format
 msgid "Modify"
-msgstr ""
+msgstr "Pozměnit"
 
 #: usersetup:141
 #, sh-format
 msgid "Select group name to modify..."
-msgstr ""
+msgstr "Vyberte skupinu, u které chcete pozměnit název..."
 
 #: usersetup:155
 #, sh-format
 msgid "Group deletion"
-msgstr ""
+msgstr "Smazání skupiny"
 
 #: usersetup:159
 #, sh-format
 msgid "Select a group to delete..."
-msgstr ""
+msgstr "Vyberte skupinu k odstranění..."
 
 #: usersetup:196
 #, sh-format
 msgid "Detailed information for account"
-msgstr ""
+msgstr "Podrobné informace o účtu"
 
 #: usersetup:198 usersetup:462 usersetup:569
 #, sh-format
 msgid "Full name"
-msgstr ""
+msgstr "Celé jméno"
 
 #: usersetup:199 usersetup:257 usersetup:545
 #, sh-format
 msgid "Account name"
-msgstr ""
+msgstr "Název účtu"
 
 #: usersetup:200 usersetup:549
 #, sh-format
 msgid "Main Group"
-msgstr ""
+msgstr "Hlavní skupina"
 
 #: usersetup:201 usersetup:312 usersetup:553
 #, sh-format
 msgid "Home directory"
-msgstr ""
+msgstr "Domácí adresář"
 
 #: usersetup:202 usersetup:338 usersetup:561
 #, sh-format
 msgid "Shell"
-msgstr ""
+msgstr "Shell"
 
 #: usersetup:203 usersetup:557
 #, sh-format
 msgid "Other groups"
-msgstr ""
+msgstr "Ostatní skupiny"
 
 #: usersetup:204 usersetup:565
 #, sh-format
 msgid "Expiry"
-msgstr ""
+msgstr "Vypršení platnosti"
 
 #: usersetup:205 usersetup:573
 #, sh-format
 msgid "Office"
-msgstr ""
+msgstr "Společnost"
 
 #: usersetup:206 usersetup:490 usersetup:577
 #, sh-format
 msgid "Work phone"
-msgstr ""
+msgstr "Pracovní telefon"
 
 #: usersetup:207 usersetup:504 usersetup:581
 #, sh-format
 msgid "Home phone"
-msgstr ""
+msgstr "Domácí telefon"
 
 #: usersetup:234 usersetup:244
 #, sh-format
 msgid "Group members"
-msgstr ""
+msgstr "Členové skupiny"
 
 #: usersetup:238
 #, sh-format
 msgid "Members of group"
-msgstr ""
+msgstr "Členové ve skupině"
 
 #: usersetup:246
 #, sh-format
@@ -246,7 +247,7 @@ msgstr ""
 #: usersetup:259
 #, sh-format
 msgid "Enter the new account name..."
-msgstr ""
+msgstr "Zadejte nový název účtu..."
 
 #: usersetup:268
 #, sh-format
@@ -288,7 +289,7 @@ msgstr ""
 #: usersetup:463 usersetup:477 usersetup:491 usersetup:505 usersetup:521
 #, sh-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: usersetup:300
 #, sh-format
@@ -318,27 +319,27 @@ msgstr ""
 #: usersetup:383
 #, sh-format
 msgid "Expiry date"
-msgstr ""
+msgstr "Datum vypršení platnosti"
 
 #: usersetup:385
 #, sh-format
 msgid "Never"
-msgstr ""
+msgstr "Nikdy"
 
 #: usersetup:388
 #, sh-format
 msgid "Set the account expiry date..."
-msgstr ""
+msgstr "Nastavení datum ukončení platnosti účtu..."
 
 #: usersetup:424
 #, sh-format
 msgid "Enter password for account"
-msgstr ""
+msgstr "Zadejte heslo pro účet"
 
 #: usersetup:425
 #, sh-format
 msgid "Passwords do not match, please try again..."
-msgstr ""
+msgstr "Hesla se neshodují, zkuste to prosím znovu..."
 
 #: usersetup:428
 #, sh-format
@@ -390,7 +391,7 @@ msgstr ""
 #: usersetup:618 usersetup:639 usersetup:648 usersetup:712
 #, sh-format
 msgid "Warning"
-msgstr ""
+msgstr "Varování"
 
 #: usersetup:648
 #, sh-format
@@ -405,12 +406,12 @@ msgstr ""
 #: usersetup:652 usersetup:716
 #, sh-format
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: usersetup:654
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
-msgstr ""
+msgstr "Jste si jisti, že chcete odstranit uživatele $user?"
 
 #: usersetup:712
 #, sh-format
