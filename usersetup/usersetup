@@ -274,13 +274,19 @@ setusername() {
       message="`eval_gettext 'An account name cannot begin with a number, please correct it...'`  "
     elif [ ! "$user" = "$(echo $user | tr A-Z a-z)" ]; then
       message="`eval_gettext 'An account name cannot contain uppercase characters, please correct it...'`"                
-	  elif [ ! -z "$( echo $user | grep '\.' )" ]; then
+    elif [ ! -z "$( echo $user | grep '\.' )" ]; then
       message="`eval_gettext 'An account name cannot contain punctuation marks, please correct it...'`"
     fi
     if [ "$message" = "ok" ]; then
       for membershipgroup in $(echo $useraddmembership | tr "," " ") ; do
         groupadd $membershipgroup 2>/dev/null
       done
+      # if no other user is present in the system, add the newly created
+      # user to the wheel group
+      present_users=$( grep -v '^[^:]\+:x:[0-9]\{0,3\}:' /etc/passwd | wc -l )
+      if [ if $present_users -eq 0 ]; then
+        useraddmembership="${useraddmembership},wheel"
+      fi
       useradd -s $defaultshell -g $defaultgroup -m -k $skeleton -G $useraddmembership "$user" 2>/dev/null
     fi
   fi
