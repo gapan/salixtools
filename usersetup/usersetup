@@ -284,7 +284,7 @@ setusername() {
       # if no other user is present in the system, add the newly created
       # user to the wheel group
       present_users=$( grep -v '^[^:]\+:x:[0-9]\{0,3\}:' /etc/passwd | wc -l )
-      if [ if $present_users -eq 0 ]; then
+      if [ $present_users -eq 0 ]; then
         useraddmembership="${useraddmembership},wheel"
       fi
       useradd -s $defaultshell -g $defaultgroup -m -k $skeleton -G $useraddmembership "$user" 2>/dev/null
