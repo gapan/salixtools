@@ -20,6 +20,13 @@ descdir='/etc/rc.d/desc.d'
 actionname=$1
 servicename=$2
 
+check_for_root(){
+if [ "$UID" != "0" ]; then
+	echo "`eval_gettext 'This action requires root privileges.'`"
+	exit 1
+fi
+}
+
 blacklist(){
 	echo $1 | grep -f /usr/share/salixtools/servicesetup/service-blacklist
 }
@@ -90,12 +97,15 @@ list() {
 
 case "${actionname}" in
 'start')
+  check_for_root
   start ${servicename}
   ;;
 'stop')
+  check_for_root
   stop ${servicename}
   ;;
 'restart')
+  check_for_root
   restart ${servicename}
   ;;
 'list')
