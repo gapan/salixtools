@@ -184,7 +184,6 @@ checkoptions(){
 			exit 0
 		fi
 		if [ $flag = "m" ]; then
-			check_for_root
 			# the repo URL has to be an http:// or ftp://
 			# or even a file:// address for local files.
 			# we're only doing very basic address checking
@@ -201,11 +200,9 @@ checkoptions(){
 			fi
 		fi
 		if [ $flag = "l" ]; then
-			check_for_root
 			REFRESHMIRRORS=0
 		fi
 		if [ $flag = "n" ]; then
-			check_for_root
 			UPDATE=0
 		fi
 	done
@@ -285,6 +282,7 @@ cleanup(){
 init
 checkdefaults
 checkoptions $@
+check_for_root
 
 # Refresh mirror list (only in interactive mode)
 [ $INTERACTIVE -eq 1 ] && [ $REFRESHMIRRORS -eq 1 ] && refreshmirrors
