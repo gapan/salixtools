@@ -13,6 +13,12 @@ export TEXTDOMAIN="usersetup"
 export TEXTDOMAINDIR="/usr/share/locale"
 . gettext.sh
 
+# check for root privileges
+if [ "$UID" != "0" ]; then
+	echo "`eval_gettext 'You need root privileges to run this'`"
+	exit 1
+fi
+
 dialog="dialog"
 
 # Path needs to be extended in case you're only half a root :)

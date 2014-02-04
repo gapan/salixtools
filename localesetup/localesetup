@@ -32,6 +32,12 @@ if [ $# -gt 1 ]; then
 	usage
 fi
 
+# check for root privileges
+if [ "$UID" != "0" ]; then
+	echo "`eval_gettext 'You need root privileges to run this'`"
+	exit 1
+fi
+
 if [ ! -z $1 ]; then
 	newlocale="`echo $1 | sed 's/UTF-8/utf8/'`"
 	if [[ `locale -cva |grep locale | grep utf8 | sed "s/locale: \(.*\) *directory.*/\1/"| grep "^$newlocale\|$newlocale.utf8"` ]]; then

@@ -21,6 +21,12 @@ export PATH="/usr/sbin:/sbin:${PATH}"
 rcdir='/etc/rc.d'
 descdir='/etc/rc.d/desc.d'
 
+# check for root privileges
+if [ "$UID" != "0" ]; then
+	echo "`eval_gettext 'You need root privileges to run this'`"
+	exit 1
+fi
+
 checkstatus(){
   if [ -x $rcdir/rc.$1 ]; then
     echo "on"

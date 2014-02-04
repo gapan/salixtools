@@ -11,6 +11,13 @@
 # Modified by:	Pierrick Le Brun <akuna~at~free~dot~fr>
 # Modified by:  George Vlahavas <vlahavas~at~gmail~dot~com>
 
+check_for_root(){
+	if [ "$UID" != "0" ]; then
+		echo "`eval_gettext 'You need root privileges to run this'`"
+		exit 1
+	fi
+}
+
 init(){
 	# Translations only work with utf8 locales
 	if [ ! `echo $LANG | grep -i utf` ]; then
@@ -428,9 +435,11 @@ init
 checkdefaults
 # If no arguments are passed, run interactively, else not
 if [ $# -eq 0 ]; then
+	check_for_root
 	interactive
 else
 	checkoptions $@
+	check_for_root
 fi
 
 # Apply selected settings

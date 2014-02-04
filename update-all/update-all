@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# check for root privileges
+if [ "$UID" != "0" ]; then
+	echo "You need root privileges to run this"
+	exit 1
+fi
+
 # Update all the shared library links:
 if [ -x /sbin/ldconfig ]; then
   /sbin/ldconfig &
