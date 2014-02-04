@@ -1,38 +1,44 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-13 13:28+0300\n"
+"POT-Creation-Date: 2014-02-04 12:25+0200\n"
 "PO-Revision-Date: 2013-10-13 10:28+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/projects/p/salixtools/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/projects/p/salixtools/"
+"language/fi/)\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: reposetup:97
+#: reposetup:8
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr ""
+
+#: reposetup:104
 #, sh-format
 msgid "Select repository mirror"
 msgstr ""
 
-#: reposetup:99
+#: reposetup:106
 #, sh-format
 msgid "Select"
 msgstr ""
 
-#: reposetup:100
+#: reposetup:107
 #, sh-format
 msgid "Cancel"
 msgstr ""
 
-#: reposetup:102
+#: reposetup:109
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
@@ -40,79 +46,79 @@ msgid ""
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
 msgstr ""
 
-#: reposetup:102
+#: reposetup:109
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
 msgstr ""
 
-#: reposetup:115
+#: reposetup:122
 #, sh-format
 msgid "Update package caches?"
 msgstr ""
 
-#: reposetup:116
+#: reposetup:123
 #, sh-format
 msgid "Update"
 msgstr ""
 
-#: reposetup:117
+#: reposetup:124
 #, sh-format
 msgid "Do not update"
 msgstr ""
 
-#: reposetup:118
+#: reposetup:125
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
 msgstr ""
 
-#: reposetup:162
+#: reposetup:169
 #, sh-format
 msgid "USAGE:"
 msgstr ""
 
-#: reposetup:162
+#: reposetup:169
 #, sh-format
 msgid "mirror"
 msgstr ""
 
-#: reposetup:164
+#: reposetup:171
 #, sh-format
 msgid "OPTIONS:"
 msgstr ""
 
-#: reposetup:165
+#: reposetup:172
 #, sh-format
 msgid "Specify a repository mirror manually"
 msgstr ""
 
-#: reposetup:166
+#: reposetup:173
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
 msgstr ""
 
-#: reposetup:167
+#: reposetup:174
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
 msgstr ""
 
-#: reposetup:168
+#: reposetup:175
 #, sh-format
 msgid "This help message"
 msgstr ""
 
-#: reposetup:208
+#: reposetup:218
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr ""
 
-#: reposetup:222 reposetup:243
+#: reposetup:232 reposetup:253
 #, sh-format
 msgid "Refreshing mirror list from"
 msgstr ""
 
-#: reposetup:229 reposetup:250
+#: reposetup:239 reposetup:260
 #, sh-format
 msgid "Getting mirror list failed"
 msgstr ""

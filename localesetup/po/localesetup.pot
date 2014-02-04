@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"POT-Creation-Date: 2014-02-04 12:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,37 +32,42 @@ msgstr ""
 msgid "ERROR: Too many arguments"
 msgstr ""
 
-#: localesetup:39
+#: localesetup:37
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr ""
+
+#: localesetup:45
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr ""
 
-#: localesetup:41
+#: localesetup:47
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr ""
 
-#: localesetup:66
+#: localesetup:72
 #, sh-format
 msgid "System language configuration"
 msgstr ""
 
-#: localesetup:68
+#: localesetup:74
 #, sh-format
 msgid "OK"
 msgstr ""
 
-#: localesetup:69
+#: localesetup:75
 #, sh-format
 msgid "Exit"
 msgstr ""
 
-#: localesetup:71
+#: localesetup:77
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr ""
 
-#: localesetup:72
+#: localesetup:78
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr ""

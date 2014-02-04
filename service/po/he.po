@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:10+0300\n"
+"POT-Creation-Date: 2014-02-04 12:25+0200\n"
 "PO-Revision-Date: 2011-04-28 09:14+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: service:39
+#: service:25
+#, sh-format
+msgid "This action requires root privileges."
+msgstr ""
+
+#: service:46
 #, sh-format
 msgid ""
 "${BOLDCYAN}Starting${COLOR_RESET} the "
@@ -26,12 +31,12 @@ msgstr ""
 "${BOLDCYAN}התחלת${COLOR_RESET} השירות "
 "${BOLDWHITE}${servicename}${COLOR_RESET}"
 
-#: service:43 service:55 service:73
+#: service:50 service:62 service:80
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 
-#: service:49
+#: service:56
 #, sh-format
 msgid ""
 "${BOLDYELLOW}Stopping${COLOR_RESET} the "
@@ -40,7 +45,7 @@ msgstr ""
 "${BOLDYELLOW}עצירת${COLOR_RESET} השירות "
 "${BOLDWHITE}${servicename}${COLOR_RESET}"
 
-#: service:62
+#: service:69
 #, sh-format
 msgid ""
 "${BOLDCYAN}Restarting${COLOR_RESET} the "
@@ -49,12 +54,12 @@ msgstr ""
 "${BOLDCYAN}אתחול${COLOR_RESET} השירות "
 "${BOLDWHITE}${servicename}${COLOR_RESET}"
 
-#: service:82
+#: service:89
 #, sh-format
 msgid "The $service service"
 msgstr "סוג שירות: $service"
 
-#: service:105
+#: service:115
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
 msgstr "שימוש : service start|stop|restart|list [שם_שירות]"

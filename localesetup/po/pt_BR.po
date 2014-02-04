@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"POT-Creation-Date: 2014-02-04 12:25+0200\n"
 "PO-Revision-Date: 2013-11-20 11:57+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/salixtools/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
+"salixtools/language/pt_BR/)\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: localesetup:25
@@ -32,37 +33,42 @@ msgstr "EXEMPLO: localesetup pt_BR"
 msgid "ERROR: Too many arguments"
 msgstr "ERRO: Muitos argumentos"
 
-#: localesetup:39
+#: localesetup:37
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr ""
+
+#: localesetup:45
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr "Configurando a localidade para $locale"
 
-#: localesetup:41
+#: localesetup:47
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "ERRO: $newlocale não é uma localidade válida"
 
-#: localesetup:66
+#: localesetup:72
 #, sh-format
 msgid "System language configuration"
 msgstr "Configuração do idioma do sistema"
 
-#: localesetup:68
+#: localesetup:74
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: localesetup:69
+#: localesetup:75
 #, sh-format
 msgid "Exit"
 msgstr "Sair"
 
-#: localesetup:71
+#: localesetup:77
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "A localidade atual é $currentlocale."
 
-#: localesetup:72
+#: localesetup:78
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Por favor, selecione o idioma desejado para o sistema"
