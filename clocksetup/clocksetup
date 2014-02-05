@@ -40,15 +40,15 @@ init(){
 }
 
 usage(){
-	echo "`eval_gettext 'USAGE: clocksetup [[-c ] [-d] [-t] [-z]]'`"
+	echo "`eval_gettext 'USAGE:'` clocksetup [[-c ] [-d] [-t] [-z]]"
 	echo
 	echo "`eval_gettext 'OPTIONS:'`"
 	echo
-	echo "`eval_gettext '   -c,   only show the hardware clock configuration dialog'`"
-	echo "`eval_gettext '   -d,   only show the date configuration dialog'`"
-	echo "`eval_gettext '   -t,   only show the time configuration dialog'`"
-	echo "`eval_gettext '   -z,   only show the timezone configuration dialog'`"
-	echo "`eval_gettext '   -h,   this help message'`"
+	echo "   -c,   `eval_gettext 'only show the hardware clock configuration dialog'`"
+	echo "   -d,   `eval_gettext 'only show the date configuration dialog'`"
+	echo "   -t,   `eval_gettext 'only show the time configuration dialog'`"
+	echo "   -z,   `eval_gettext 'only show the timezone configuration dialog'`"
+	echo "   -h,   `eval_gettext 'this help message'`"
 }
 
 checkoptions(){

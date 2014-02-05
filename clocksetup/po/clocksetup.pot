@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
+"POT-Creation-Date: 2014-02-05 22:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,157 +22,157 @@ msgstr ""
 msgid "You need root privileges to run this"
 msgstr ""
 
-#: clocksetup:46
+#: clocksetup:43
 #, sh-format
-msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
+msgid "USAGE:"
 msgstr ""
 
-#: clocksetup:48
+#: clocksetup:45
 #, sh-format
 msgid "OPTIONS:"
 msgstr ""
 
+#: clocksetup:47
+#, sh-format
+msgid "only show the hardware clock configuration dialog"
+msgstr ""
+
+#: clocksetup:48
+#, sh-format
+msgid "only show the date configuration dialog"
+msgstr ""
+
+#: clocksetup:49
+#, sh-format
+msgid "only show the time configuration dialog"
+msgstr ""
+
 #: clocksetup:50
 #, sh-format
-msgid "   -c,   only show the hardware clock configuration dialog"
+msgid "only show the timezone configuration dialog"
 msgstr ""
 
 #: clocksetup:51
 #, sh-format
-msgid "   -d,   only show the date configuration dialog"
+msgid "this help message"
 msgstr ""
 
-#: clocksetup:52
-#, sh-format
-msgid "   -t,   only show the time configuration dialog"
-msgstr ""
-
-#: clocksetup:53
-#, sh-format
-msgid "   -z,   only show the timezone configuration dialog"
-msgstr ""
-
-#: clocksetup:54
-#, sh-format
-msgid "   -h,   this help message"
-msgstr ""
-
-#: clocksetup:93
+#: clocksetup:90
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr ""
 
-#: clocksetup:103 clocksetup:167 clocksetup:188 clocksetup:209 clocksetup:259
+#: clocksetup:100 clocksetup:164 clocksetup:185 clocksetup:206 clocksetup:256
 #, sh-format
 msgid "OK"
 msgstr ""
 
-#: clocksetup:104
+#: clocksetup:101
 #, sh-format
 msgid "Exit"
 msgstr ""
 
-#: clocksetup:105
+#: clocksetup:102
 #, sh-format
 msgid "System clock configuration"
 msgstr ""
 
-#: clocksetup:107
+#: clocksetup:104
 #, sh-format
 msgid "Currently the clock is set to:"
 msgstr ""
 
-#: clocksetup:108
+#: clocksetup:105
 #, sh-format
 msgid "Please choose an option:"
 msgstr ""
 
-#: clocksetup:110
+#: clocksetup:107
 #, sh-format
 msgid "Set the time manually"
 msgstr ""
 
-#: clocksetup:111
+#: clocksetup:108
 #, sh-format
 msgid "Set the date manually"
 msgstr ""
 
-#: clocksetup:112
+#: clocksetup:109
 #, sh-format
 msgid "Set the time zone"
 msgstr ""
 
-#: clocksetup:113
+#: clocksetup:110
 #, sh-format
 msgid "Configure the hardware clock"
 msgstr ""
 
-#: clocksetup:114
+#: clocksetup:111
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
 msgstr ""
 
-#: clocksetup:166
+#: clocksetup:163
 #, sh-format
 msgid "Clock adjustment"
 msgstr ""
 
-#: clocksetup:168 clocksetup:189 clocksetup:210 clocksetup:260
+#: clocksetup:165 clocksetup:186 clocksetup:207 clocksetup:257
 #, sh-format
 msgid "Cancel"
 msgstr ""
 
-#: clocksetup:170
+#: clocksetup:167
 #, sh-format
 msgid "Please set the time..."
 msgstr ""
 
-#: clocksetup:187
+#: clocksetup:184
 #, sh-format
 msgid "Date adjustment"
 msgstr ""
 
-#: clocksetup:191
+#: clocksetup:188
 #, sh-format
 msgid "Please set the date..."
 msgstr ""
 
-#: clocksetup:211
+#: clocksetup:208
 #, sh-format
 msgid "Time zone configuration"
 msgstr ""
 
-#: clocksetup:213
+#: clocksetup:210
 #, sh-format
 msgid "Please select your time zone..."
 msgstr ""
 
-#: clocksetup:233
+#: clocksetup:230
 #, sh-format
 msgid "Warning"
 msgstr ""
 
-#: clocksetup:235
+#: clocksetup:232
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
 msgstr ""
 
-#: clocksetup:239
+#: clocksetup:236
 #, sh-format
 msgid "Error"
 msgstr ""
 
-#: clocksetup:241
+#: clocksetup:238
 #, sh-format
 msgid "Something went wrong. Time was not adjusted."
 msgstr ""
 
-#: clocksetup:261
+#: clocksetup:258
 #, sh-format
 msgid "Hardware clock set to UTC?"
 msgstr ""
 
-#: clocksetup:263
+#: clocksetup:260
 #, sh-format
 msgid ""
 "Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
@@ -181,22 +181,22 @@ msgid ""
 "what this is, you should answer NO here."
 msgstr ""
 
-#: clocksetup:264
+#: clocksetup:261
 #, sh-format
 msgid "No"
 msgstr ""
 
-#: clocksetup:264
+#: clocksetup:261
 #, sh-format
 msgid "Hardware clock is set to local time"
 msgstr ""
 
-#: clocksetup:265
+#: clocksetup:262
 #, sh-format
 msgid "Yes"
 msgstr ""
 
-#: clocksetup:265
+#: clocksetup:262
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr ""
