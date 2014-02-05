@@ -1,67 +1,55 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Laszlo Dvornik <rezuri@zoho.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
-"PO-Revision-Date: 2013-11-20 10:49+0000\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"PO-Revision-Date: 2014-02-05 08:55+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/"
-"language/hu/)\n"
-"Language: hu\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: service:25
-#, sh-format
-msgid "This action requires root privileges."
-msgstr ""
-
-#: service:46
+#: service:39
 #, sh-format
 msgid ""
 "${BOLDCYAN}Starting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
-"A(z) ${BOLDWHITE}${servicename}${COLOR_RESET} szolgáltatás ${BOLDCYAN}"
-"indítása${COLOR_RESET}"
+msgstr "A(z) ${BOLDWHITE}${servicename}${COLOR_RESET} szolgáltatás ${BOLDCYAN}indítása${COLOR_RESET}"
 
-#: service:50 service:62 service:80
+#: service:43 service:55 service:73
 #, sh-format
 msgid "No ${BOLDWHITE}${servicename}${COLOR_RESET} service"
 msgstr "Nincs ${BOLDWHITE}${servicename}${COLOR_RESET} szolgáltatás"
 
-#: service:56
+#: service:49
 #, sh-format
 msgid ""
 "${BOLDYELLOW}Stopping${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
-"A(z) ${BOLDWHITE}${servicename}${COLOR_RESET} szolgáltatás ${BOLDYELLOW}"
-"leállítása${COLOR_RESET}"
+msgstr "A(z) ${BOLDWHITE}${servicename}${COLOR_RESET} szolgáltatás ${BOLDYELLOW}leállítása${COLOR_RESET}"
 
-#: service:69
+#: service:62
 #, sh-format
 msgid ""
 "${BOLDCYAN}Restarting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
-"A(z) ${BOLDWHITE}${servicename}${COLOR_RESET} szolgáltatás ${BOLDCYAN}"
-"újraindítása${COLOR_RESET}"
+msgstr "A(z) ${BOLDWHITE}${servicename}${COLOR_RESET} szolgáltatás ${BOLDCYAN}újraindítása${COLOR_RESET}"
 
-#: service:89
+#: service:82
 #, sh-format
 msgid "The $service service"
 msgstr "A(z) $service szolgáltatás"
 
-#: service:115
+#: service:105
 #, sh-format
 msgid "usage : service start|stop|restart|list [service_name]"
 msgstr "használat: service start|stop|restart|list [szolgáltatás_neve]"

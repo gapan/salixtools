@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
-"PO-Revision-Date: 2013-11-20 11:57+0000\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"PO-Revision-Date: 2014-02-05 09:23+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/salixtools/"
-"language/nl/)\n"
-"Language: nl\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/salixtools/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: localesetup:25
@@ -33,42 +32,37 @@ msgstr "VOORBEELD: localesetup nl_NL"
 msgid "ERROR: Too many arguments"
 msgstr "FOUT: Te veel argumenten"
 
-#: localesetup:37
-#, sh-format
-msgid "You need root privileges to run this"
-msgstr ""
-
-#: localesetup:45
+#: localesetup:39
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr "Instellen van locale tot $locale"
 
-#: localesetup:47
+#: localesetup:41
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "FOUT: $newlocale is geen geldige locale"
 
-#: localesetup:72
+#: localesetup:66
 #, sh-format
 msgid "System language configuration"
 msgstr "Systeemtaal configuratie"
 
-#: localesetup:74
+#: localesetup:68
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: localesetup:75
+#: localesetup:69
 #, sh-format
 msgid "Exit"
 msgstr "Afsluiten"
 
-#: localesetup:77
+#: localesetup:71
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "De huidige locale is $currentlocale."
 
-#: localesetup:78
+#: localesetup:72
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Kies uw favoriete systeemtaal:"

@@ -1,49 +1,43 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
-"PO-Revision-Date: 2013-04-29 09:33+0000\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"PO-Revision-Date: 2014-02-05 09:04+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/salixtools/"
-"language/fr/)\n"
-"Language: fr\n"
+"Language-Team: French (http://www.transifex.com/projects/p/salixtools/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: servicesetup:26
-#, sh-format
-msgid "You need root privileges to run this"
-msgstr ""
-
-#: servicesetup:62
+#: servicesetup:56
 #, sh-format
 msgid "Startup services"
 msgstr "Démarrage des services"
 
-#: servicesetup:63
+#: servicesetup:57
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: servicesetup:64
+#: servicesetup:58
 #, sh-format
 msgid "Exit"
 msgstr "Quitter"
 
-#: servicesetup:67
+#: servicesetup:61
 #, sh-format
 msgid "The selected services will be started at boot time:"
 msgstr "Les services sélectionnés seront lancés au démarrage :"
 
-#: servicesetup:76
+#: servicesetup:70
 #, sh-format
 msgid "The $service service"
 msgstr "Le service $service"

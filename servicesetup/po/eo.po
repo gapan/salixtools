@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Karim Oulad Chalha <herr.linux88@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
@@ -11,34 +10,34 @@ msgstr ""
 "POT-Creation-Date: 2013-10-04 01:13+0300\n"
 "PO-Revision-Date: 2014-02-05 09:04+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/projects/p/salixtools/language/ar/)\n"
+"Language-Team: Esperanto (http://www.transifex.com/projects/p/salixtools/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: servicesetup:56
 #, sh-format
 msgid "Startup services"
-msgstr "خدمات بدء التشغيل"
+msgstr ""
 
 #: servicesetup:57
 #, sh-format
 msgid "OK"
-msgstr "نعم"
+msgstr ""
 
 #: servicesetup:58
 #, sh-format
 msgid "Exit"
-msgstr "خروج"
+msgstr ""
 
 #: servicesetup:61
 #, sh-format
 msgid "The selected services will be started at boot time:"
-msgstr "الخدمات المحدد سيتم تشغيلها عند وقت إقلاع النضام:"
+msgstr ""
 
 #: servicesetup:70
 #, sh-format
 msgid "The $service service"
-msgstr "الخدمة $service"
+msgstr ""

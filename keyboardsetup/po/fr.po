@@ -1,166 +1,143 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Akuna <akuna@free.fr>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
-"PO-Revision-Date: 2013-04-29 09:39+0000\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"PO-Revision-Date: 2014-02-05 09:06+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/salixtools/"
-"language/fr/)\n"
-"Language: fr\n"
+"Language-Team: French (http://www.transifex.com/projects/p/salixtools/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: keyboardsetup:16
-#, sh-format
-msgid "You need root privileges to run this"
-msgstr ""
-
-#: keyboardsetup:68
+#: keyboardsetup:61
 #, sh-format
 msgid ""
 "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
 "scimstate]]"
-msgstr ""
-"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
-"scimstate]]"
+msgstr "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]"
 
-#: keyboardsetup:70
+#: keyboardsetup:63
 #, sh-format
 msgid "OPTIONS:"
 msgstr "OPTIONS :"
 
-#: keyboardsetup:72
+#: keyboardsetup:65
 #, sh-format
 msgid "   -k keymap,         a valid keyboard map"
 msgstr "   -k keymap,         une disposition de clavier valide"
 
-#: keyboardsetup:73
+#: keyboardsetup:66
 #, sh-format
 msgid "   -n numlockstate,   the numlock state, on or off"
 msgstr "   -n numlockstate,   état du verrou numérique, on ou off"
 
-#: keyboardsetup:74
+#: keyboardsetup:67
 #, sh-format
 msgid "   -i ibusstate,      the IBus state, on or off"
 msgstr "   -i ibusstate,      état de IBus, on ou off"
 
-#: keyboardsetup:75
+#: keyboardsetup:68
 #, sh-format
 msgid "   -s scimstate,      the SCIM state, on or off"
 msgstr "   -s scimstate,      état de SCIM, on ou off"
 
-#: keyboardsetup:76
+#: keyboardsetup:69
 #, sh-format
 msgid ""
 "   -z,                do not apply changes on the fly, only edit settings "
 "files"
-msgstr ""
-"   -z,                ne pas appliquer les changements immédiatement, "
-"uniquement modifier les fichiers de configuration"
+msgstr "   -z,                ne pas appliquer les changements immédiatement, uniquement modifier les fichiers de configuration"
 
-#: keyboardsetup:137
+#: keyboardsetup:130
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"ERREUR: $OPTARG n'est pas une disposition de clavier valide. Vous pouvez "
-"consulter $salixtoolsdir/keymaps pour avoir une liste de dispositions de "
-"clavier valides"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
+msgstr "ERREUR: $OPTARG n'est pas une disposition de clavier valide. Vous pouvez consulter $salixtoolsdir/keymaps pour avoir une liste de dispositions de clavier valides"
 
-#: keyboardsetup:151 keyboardsetup:160 keyboardsetup:169
+#: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "ERREUR : $OPTARG n'est pas une option valide."
 
-#: keyboardsetup:186
+#: keyboardsetup:179
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ERREUR : Trop d'arguments"
 
-#: keyboardsetup:237
+#: keyboardsetup:230
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Configuration du clavier"
 
-#: keyboardsetup:239
+#: keyboardsetup:232
 #, sh-format
 msgid "OK"
 msgstr "Valider"
 
-#: keyboardsetup:240
+#: keyboardsetup:233
 #, sh-format
 msgid "Exit"
 msgstr "Quitter"
 
-#: keyboardsetup:242
+#: keyboardsetup:235
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Veuillez sélectionner votre disposition de clavier:"
 
-#: keyboardsetup:265
+#: keyboardsetup:258
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Configuration du verrou numérique"
 
-#: keyboardsetup:266 keyboardsetup:291 keyboardsetup:317
+#: keyboardsetup:259 keyboardsetup:284 keyboardsetup:310
 #, sh-format
 msgid "Enabled"
 msgstr "Activé"
 
-#: keyboardsetup:267 keyboardsetup:292 keyboardsetup:318
+#: keyboardsetup:260 keyboardsetup:285 keyboardsetup:311
 #, sh-format
 msgid "Disabled"
 msgstr "Désactivé"
 
-#: keyboardsetup:270
+#: keyboardsetup:263
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Voulez-vous activer par défaut le verrou numérique ?"
 
-#: keyboardsetup:290
+#: keyboardsetup:283
 #, sh-format
 msgid "IBus configuration"
 msgstr "Configuration de IBus "
 
-#: keyboardsetup:295
+#: keyboardsetup:288
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"IBus est un système unifié de saisie graphique pour le chinois, le japonais, "
-"le coréen et bien d'autres langues.\n"
-"Désirez-vous l'activer au démarrage ?\n"
-"\n"
-"Vous devrez redémarrer votre système pour que les changements prennent effet."
+msgstr "IBus est un système unifié de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\nDésirez-vous l'activer au démarrage ?\n\nVous devrez redémarrer votre système pour que les changements prennent effet."
 
-#: keyboardsetup:316
+#: keyboardsetup:309
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Configuration de SCIM"
 
-#: keyboardsetup:321
+#: keyboardsetup:314
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"SCIM est un système de saisie graphique pour le chinois, le japonais, le "
-"coréen et bien d'autres langues.\n"
-"Désirez-vous l'activer au démarrage ?\n"
-"\n"
-"Vous devrez redémarrer votre système pour que les changements prennent effet."
+msgstr "SCIM est un système de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\nDésirez-vous l'activer au démarrage ?\n\nVous devrez redémarrer votre système pour que les changements prennent effet."

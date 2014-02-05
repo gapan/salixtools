@@ -1,28 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# aleximon <alejandrosimon@gmx.com>, 2013
+# aleximon <alejandrosimon@gmx.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-04 12:25+0200\n"
-"PO-Revision-Date: 2013-11-06 18:26+0000\n"
+"PO-Revision-Date: 2014-02-04 20:04+0000\n"
 "Last-Translator: aleximon <alejandrosimon@gmx.com>\n"
-"Language-Team: Spanish (Argentina) (http://www.transifex.com/projects/p/"
-"salixtools/language/es_AR/)\n"
-"Language: es_AR\n"
+"Language-Team: Spanish (Argentina) (http://www.transifex.com/projects/p/salixtools/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es_AR\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: reposetup:8
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr ""
+msgstr "Necesita privilegios de administrador para ejecutarlo"
 
 #: reposetup:104
 #, sh-format
@@ -45,19 +44,14 @@ msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr ""
-"Por favor, seleccione su repositorio espejo preferido. El país donde se "
-"encuentra cada espejo se muestra a la derecha. Su selección se aplicará a "
-"los archivos  /etc/slapt-get/slapt-getrc y /etc/slapt-get/slapt-srcrc:"
+msgstr "Por favor, seleccione su repositorio espejo preferido. El país donde se encuentra cada espejo se muestra a la derecha. Su selección se aplicará a los archivos  /etc/slapt-get/slapt-getrc y /etc/slapt-get/slapt-srcrc:"
 
 #: reposetup:109
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr ""
-"ADVERTENCIA: ¡Cualquier cambio que haya realizado manualmente en las líneas "
-"SOURCE de estos archivos se perderá!"
+msgstr "ADVERTENCIA: ¡Cualquier cambio que haya realizado manualmente en las líneas SOURCE de estos archivos se perderá!"
 
 #: reposetup:122
 #, sh-format

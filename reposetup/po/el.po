@@ -1,28 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# gapan <vlahavas@gmail.com>, 2013
+# gapan <vlahavas@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-04 12:25+0200\n"
-"PO-Revision-Date: 2013-10-13 10:48+0000\n"
+"PO-Revision-Date: 2014-02-04 11:15+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/"
-"language/el/)\n"
-"Language: el\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: reposetup:8
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr ""
+msgstr "Απαιτούνται δικαιώματα υπερχρήστη για την εκτέλεση"
 
 #: reposetup:104
 #, sh-format
@@ -45,19 +44,14 @@ msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr ""
-"Παρακαλούμε επιλέξτε το προτιμώμενο αποθετήριο. Ο κωδικός της χώρας όπου "
-"βρίσκεται το αποθετήριο εμφανίζεται στα δεξιά. Η επιλογή σας θα εφαρμοστεί "
-"στα αρχεία /etc/slapt-get/slapt-getrc και /etc/slapt-get/slapt-srcrc:"
+msgstr "Παρακαλούμε επιλέξτε το προτιμώμενο αποθετήριο. Ο κωδικός της χώρας όπου βρίσκεται το αποθετήριο εμφανίζεται στα δεξιά. Η επιλογή σας θα εφαρμοστεί στα αρχεία /etc/slapt-get/slapt-getrc και /etc/slapt-get/slapt-srcrc:"
 
 #: reposetup:109
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr ""
-"ΠΡΟΣΟΧΗ: Αν έχετε πραγματοποιήσει κάποιες αλλαγές στις γραμμές SOURCE των "
-"αρχείων αυτών, αυτές οι αλλαγές θα χαθούν!"
+msgstr "ΠΡΟΣΟΧΗ: Αν έχετε πραγματοποιήσει κάποιες αλλαγές στις γραμμές SOURCE των αρχείων αυτών, αυτές οι αλλαγές θα χαθούν!"
 
 #: reposetup:122
 #, sh-format
@@ -102,9 +96,7 @@ msgstr "Δηλώση ενός καθρέπτη αποθετηρίου χειρο
 #: reposetup:173
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
-msgstr ""
-"Χρήση της τοπικής λίστας καθρεπτών αποθετηρίων χωρίς να κατεβεί καινούρια "
-"λίστα"
+msgstr "Χρήση της τοπικής λίστας καθρεπτών αποθετηρίων χωρίς να κατεβεί καινούρια λίστα"
 
 #: reposetup:174
 #, sh-format

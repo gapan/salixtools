@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Laszlo Dvornik <rezuri@zoho.com>, 2011
 # Péter Polonkai <polesz@nedudu.hu>, 2011
@@ -10,203 +10,191 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
-"PO-Revision-Date: 2013-11-19 16:46+0000\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"PO-Revision-Date: 2014-02-05 09:05+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/"
-"language/hu/)\n"
-"Language: hu\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: clocksetup:7
-#, sh-format
-msgid "You need root privileges to run this"
-msgstr ""
-
-#: clocksetup:46
+#: clocksetup:39
 #, sh-format
 msgid "USAGE: clocksetup [[-c ] [-d] [-t] [-z]]"
 msgstr "Használat: clocksetup [[-c] [-d] [-t] [-z]]"
 
-#: clocksetup:48
+#: clocksetup:41
 #, sh-format
 msgid "OPTIONS:"
 msgstr "KAPCSOLÓK:"
 
-#: clocksetup:50
+#: clocksetup:43
 #, sh-format
 msgid "   -c,   only show the hardware clock configuration dialog"
 msgstr "   -c,   csak a hardveróra beállító párbeszédablakának mutatása"
 
-#: clocksetup:51
+#: clocksetup:44
 #, sh-format
 msgid "   -d,   only show the date configuration dialog"
 msgstr "   -d,   csak a dátum beállító párbeszédablakának mutatása"
 
-#: clocksetup:52
+#: clocksetup:45
 #, sh-format
 msgid "   -t,   only show the time configuration dialog"
 msgstr "   -t,   csak az idő beállító párbeszédablakának mutatása"
 
-#: clocksetup:53
+#: clocksetup:46
 #, sh-format
 msgid "   -z,   only show the timezone configuration dialog"
 msgstr "   -z,   csak az időzóna beállító párbeszédablakának mutatása"
 
-#: clocksetup:54
+#: clocksetup:47
 #, sh-format
 msgid "   -h,   this help message"
 msgstr "   -h,   ezen súgóüzenet"
 
-#: clocksetup:93
+#: clocksetup:86
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "HIBA: túl sok paraméter"
 
-#: clocksetup:103 clocksetup:167 clocksetup:188 clocksetup:209 clocksetup:259
+#: clocksetup:96 clocksetup:160 clocksetup:181 clocksetup:202 clocksetup:252
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: clocksetup:104
+#: clocksetup:97
 #, sh-format
 msgid "Exit"
 msgstr "Kilépés"
 
-#: clocksetup:105
+#: clocksetup:98
 #, sh-format
 msgid "System clock configuration"
 msgstr "Rendszeróra beállítása"
 
-#: clocksetup:107
+#: clocksetup:100
 #, sh-format
 msgid "Currently the clock is set to:"
 msgstr "Az óra jelenlegi beállítása:"
 
-#: clocksetup:108
+#: clocksetup:101
 #, sh-format
 msgid "Please choose an option:"
 msgstr "Válasszon az opciók közül:"
 
-#: clocksetup:110
+#: clocksetup:103
 #, sh-format
 msgid "Set the time manually"
 msgstr "Idő kézi beállítása"
 
-#: clocksetup:111
+#: clocksetup:104
 #, sh-format
 msgid "Set the date manually"
 msgstr "Dátum kézi beállítása"
 
-#: clocksetup:112
+#: clocksetup:105
 #, sh-format
 msgid "Set the time zone"
 msgstr "Időzóna beállítása"
 
-#: clocksetup:113
+#: clocksetup:106
 #, sh-format
 msgid "Configure the hardware clock"
 msgstr "Hardveróra beállítása"
 
-#: clocksetup:114
+#: clocksetup:107
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
 msgstr "Szinkronizálás az internetes időhöz (NTP)"
 
-#: clocksetup:166
+#: clocksetup:159
 #, sh-format
 msgid "Clock adjustment"
 msgstr "Óra beállítása"
 
-#: clocksetup:168 clocksetup:189 clocksetup:210 clocksetup:260
+#: clocksetup:161 clocksetup:182 clocksetup:203 clocksetup:253
 #, sh-format
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: clocksetup:170
+#: clocksetup:163
 #, sh-format
 msgid "Please set the time..."
 msgstr "Állítsa be az időt..."
 
-#: clocksetup:187
+#: clocksetup:180
 #, sh-format
 msgid "Date adjustment"
 msgstr "Dátum beállítása"
 
-#: clocksetup:191
+#: clocksetup:184
 #, sh-format
 msgid "Please set the date..."
 msgstr "Állítsa be a dátumot..."
 
-#: clocksetup:211
+#: clocksetup:204
 #, sh-format
 msgid "Time zone configuration"
 msgstr "Időzóna beállítása"
 
-#: clocksetup:213
+#: clocksetup:206
 #, sh-format
 msgid "Please select your time zone..."
 msgstr "Válasszon időzónát..."
 
-#: clocksetup:233
+#: clocksetup:226
 #, sh-format
 msgid "Warning"
 msgstr "Figyelmeztetés"
 
-#: clocksetup:235
+#: clocksetup:228
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr ""
-"Már használja az ntpd szolgáltatást és az órának helyesnek kell lennie."
+msgstr "Már használja az ntpd szolgáltatást és az órának helyesnek kell lennie."
 
-#: clocksetup:239
+#: clocksetup:232
 #, sh-format
 msgid "Error"
 msgstr "Hiba"
 
-#: clocksetup:241
+#: clocksetup:234
 #, sh-format
 msgid "Something went wrong. Time was not adjusted."
 msgstr "Hiba történt. Az időt nem sikerült beállítani."
 
-#: clocksetup:261
+#: clocksetup:254
 #, sh-format
 msgid "Hardware clock set to UTC?"
 msgstr "A hardveróra UTC-re van beállítva?"
 
-#: clocksetup:263
+#: clocksetup:256
 #, sh-format
 msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
+"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is,"
+" select YES here.  If the hardware clock is set to the current local time "
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
-msgstr ""
-"A hardveróra a koordinált világidőre van beállítva (UTC/GMT)? Ha igen, akkor "
-"válassza az 'Igen'-t. Ha a hardver óra úgy van beállítva, hogy az aktuális "
-"helyi időt mutassa  (ez a legtöbb számítógép esetében így van), akkor "
-"válassza a 'Nem'-et. Ha nem biztos benne, hogy mi ez, akkor válassza a 'Nem'-"
-"et."
+msgstr "A hardveróra a koordinált világidőre van beállítva (UTC/GMT)? Ha igen, akkor válassza az 'Igen'-t. Ha a hardver óra úgy van beállítva, hogy az aktuális helyi időt mutassa  (ez a legtöbb számítógép esetében így van), akkor válassza a 'Nem'-et. Ha nem biztos benne, hogy mi ez, akkor válassza a 'Nem'-et."
 
-#: clocksetup:264
+#: clocksetup:257
 #, sh-format
 msgid "No"
 msgstr "Nem"
 
-#: clocksetup:264
+#: clocksetup:257
 #, sh-format
 msgid "Hardware clock is set to local time"
 msgstr "A hardveróra beállítva a helyi időhöz"
 
-#: clocksetup:265
+#: clocksetup:258
 #, sh-format
 msgid "Yes"
 msgstr "Igen"
 
-#: clocksetup:265
+#: clocksetup:258
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr "A hardveróra beállítva UTC-re"

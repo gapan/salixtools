@@ -1,439 +1,428 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
-"PO-Revision-Date: 2013-11-20 13:39+0000\n"
+"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"PO-Revision-Date: 2014-02-05 09:23+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/salixtools/"
-"language/fr/)\n"
-"Language: fr\n"
+"Language-Team: French (http://www.transifex.com/projects/p/salixtools/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: usersetup:18
-#, sh-format
-msgid "You need root privileges to run this"
-msgstr ""
-
-#: usersetup:45
+#: usersetup:39
 #, sh-format
 msgid "Select"
 msgstr "Sélectionnez"
 
-#: usersetup:46
+#: usersetup:40
 #, sh-format
 msgid "Exit user setup"
 msgstr "Sortir de la config"
 
-#: usersetup:47
+#: usersetup:41
 #, sh-format
 msgid "Users accounts management"
 msgstr "Gestion des comptes"
 
-#: usersetup:49
+#: usersetup:43
 #, sh-format
 msgid "Please choose an option..."
 msgstr "Veuillez choisir une an option…"
 
-#: usersetup:51
+#: usersetup:45
 #, sh-format
 msgid "Create a new account"
 msgstr "Créer un nouveau compte"
 
-#: usersetup:52
+#: usersetup:46
 #, sh-format
 msgid "Create a new account (advanced mode)"
 msgstr "Créer un nouveau compte (mode expert)"
 
-#: usersetup:53
+#: usersetup:47
 #, sh-format
 msgid "Modify account properties"
 msgstr "Modifier les propriétés d'un compte"
 
-#: usersetup:54
+#: usersetup:48
 #, sh-format
 msgid "Change account password"
 msgstr "Changer le mot de passe d'un compte"
 
-#: usersetup:55
+#: usersetup:49
 #, sh-format
 msgid "Delete accounts"
 msgstr "Supprimer un compte"
 
-#: usersetup:56
+#: usersetup:50
 #, sh-format
 msgid "List groups and memberships"
 msgstr "Afficher les groupes et leur membres"
 
-#: usersetup:57
+#: usersetup:51
 #, sh-format
 msgid "Create a new group"
 msgstr "Créer un nouveau groupe"
 
-#: usersetup:58
+#: usersetup:52
 #, sh-format
 msgid "Change group name"
 msgstr "Modifier le nom d'un groupe"
 
-#: usersetup:59
+#: usersetup:53
 #, sh-format
 msgid "Delete groups"
 msgstr "Supprimer un groupe"
 
-#: usersetup:75 usersetup:198
+#: usersetup:69 usersetup:192
 #, sh-format
 msgid "Account properties"
 msgstr "Propriétés du compte"
 
-#: usersetup:76 usersetup:241
+#: usersetup:70 usersetup:235
 #, sh-format
 msgid "Properties"
 msgstr "Propriétés"
 
-#: usersetup:77 usersetup:94 usersetup:111 usersetup:128 usersetup:145
-#: usersetup:163 usersetup:200 usersetup:242
+#: usersetup:71 usersetup:88 usersetup:105 usersetup:122 usersetup:139
+#: usersetup:157 usersetup:194 usersetup:236
 #, sh-format
 msgid "Back"
 msgstr "Retour"
 
-#: usersetup:79
+#: usersetup:73
 #, sh-format
 msgid "Select an account to view its properties..."
 msgstr "Veuillez sélectionner un compte pour afficher ses propriétés…"
 
-#: usersetup:92
+#: usersetup:86
 #, sh-format
 msgid "Account deletion"
 msgstr "Suppression d'un compte"
 
-#: usersetup:93 usersetup:162 usersetup:663 usersetup:727
+#: usersetup:87 usersetup:156 usersetup:651 usersetup:715
 #, sh-format
 msgid "Delete"
 msgstr "Supprimer"
 
-#: usersetup:96
+#: usersetup:90
 #, sh-format
 msgid "Select an account to delete..."
 msgstr "Veuillez sélectionner le compte à supprimer…"
 
-#: usersetup:109
+#: usersetup:103
 #, sh-format
 msgid "Change password"
 msgstr "Changer le mot de passe"
 
-#: usersetup:110
+#: usersetup:104
 #, sh-format
 msgid "Change"
 msgstr "Changer"
 
-#: usersetup:113
+#: usersetup:107
 #, sh-format
 msgid "Select an account to change password for..."
 msgstr "Veuillez sélectionner un compte pour changer son mot de passe…"
 
-#: usersetup:126
+#: usersetup:120
 #, sh-format
 msgid "Group memberships"
 msgstr "Groupe principal"
 
-#: usersetup:127
+#: usersetup:121
 #, sh-format
 msgid "Memberships"
 msgstr "Membres"
 
-#: usersetup:130
+#: usersetup:124
 #, sh-format
 msgid "Select a group to view memberships for..."
 msgstr "Veuillez sélectionner un groupe pour afficher ses membres…"
 
-#: usersetup:143 usersetup:532
+#: usersetup:137 usersetup:520
 #, sh-format
 msgid "Group name"
 msgstr "Nom du groupe"
 
-#: usersetup:144 usersetup:199
+#: usersetup:138 usersetup:193
 #, sh-format
 msgid "Modify"
 msgstr "Modifier"
 
-#: usersetup:147
+#: usersetup:141
 #, sh-format
 msgid "Select group name to modify..."
 msgstr "Veuillez sélectionner un groupe pour modifier son nom…"
 
-#: usersetup:161
+#: usersetup:155
 #, sh-format
 msgid "Group deletion"
 msgstr "Suppression d'un groupe"
 
-#: usersetup:165
+#: usersetup:159
 #, sh-format
 msgid "Select a group to delete..."
 msgstr "Veuillez sélectionner le groupe à supprimer…"
 
-#: usersetup:202
+#: usersetup:196
 #, sh-format
 msgid "Detailed information for account"
 msgstr "Propriétés détaillées du compte"
 
-#: usersetup:204 usersetup:474 usersetup:581
+#: usersetup:198 usersetup:462 usersetup:569
 #, sh-format
 msgid "Full name"
 msgstr "Nom complet"
 
-#: usersetup:205 usersetup:263 usersetup:557
+#: usersetup:199 usersetup:257 usersetup:545
 #, sh-format
 msgid "Account name"
 msgstr "Nom du compte"
 
-#: usersetup:206 usersetup:561
+#: usersetup:200 usersetup:549
 #, sh-format
 msgid "Main Group"
 msgstr "Groupe principal"
 
-#: usersetup:207 usersetup:324 usersetup:565
+#: usersetup:201 usersetup:312 usersetup:553
 #, sh-format
 msgid "Home directory"
 msgstr "Répertoire personnel"
 
-#: usersetup:208 usersetup:350 usersetup:573
+#: usersetup:202 usersetup:338 usersetup:561
 #, sh-format
 msgid "Shell"
 msgstr "Interpréteur de commandes"
 
-#: usersetup:209 usersetup:569
+#: usersetup:203 usersetup:557
 #, sh-format
 msgid "Other groups"
 msgstr "Groupes supplémentaires"
 
-#: usersetup:210 usersetup:577
+#: usersetup:204 usersetup:565
 #, sh-format
 msgid "Expiry"
 msgstr "Date d'expiration"
 
-#: usersetup:211 usersetup:585
+#: usersetup:205 usersetup:573
 #, sh-format
 msgid "Office"
 msgstr "Bureau"
 
-#: usersetup:212 usersetup:502 usersetup:589
+#: usersetup:206 usersetup:490 usersetup:577
 #, sh-format
 msgid "Work phone"
 msgstr "Téléphone professionnel"
 
-#: usersetup:213 usersetup:516 usersetup:593
+#: usersetup:207 usersetup:504 usersetup:581
 #, sh-format
 msgid "Home phone"
 msgstr "Téléphone privé"
 
-#: usersetup:240 usersetup:250
+#: usersetup:234 usersetup:244
 #, sh-format
 msgid "Group members"
 msgstr "Appartenance au groupe"
 
-#: usersetup:244
+#: usersetup:238
 #, sh-format
 msgid "Members of group"
 msgstr "Membres du groupe"
 
-#: usersetup:252
+#: usersetup:246
 #, sh-format
 msgid "There are no accounts in group"
 msgstr "Il n'y a aucun compte dans le groupe"
 
-#: usersetup:265
+#: usersetup:259
 #, sh-format
 msgid "Enter the new account name..."
 msgstr "Veuillez saisir le nouveau nom du compte..."
 
-#: usersetup:274
+#: usersetup:268
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
 msgstr "Un nom de compte ne doit pas comporter d'espace, veuillez le corriger…"
 
-#: usersetup:276
+#: usersetup:270
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
 msgstr "Le nom de compte $user existe déjà, veuillez choisir un autre nom…"
 
-#: usersetup:278
+#: usersetup:272
 #, sh-format
 msgid "The account name is empty, please correct it..."
 msgstr "Le nom du compte est vide, veuillez le corriger…"
 
-#: usersetup:280
+#: usersetup:274
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr ""
-"Un nom de compte ne doit pas commencer par un chiffre, veuillez le corriger…"
+msgstr "Un nom de compte ne doit pas commencer par un chiffre, veuillez le corriger…"
 
-#: usersetup:282
+#: usersetup:276
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
-msgstr ""
-"Un nom de compte ne doit pas comporter de majuscule, veuillez le corriger…"
+msgstr "Un nom de compte ne doit pas comporter de majuscule, veuillez le corriger…"
 
-#: usersetup:284
+#: usersetup:278
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr ""
-"Un nom de compte ne doit pas comporter de ponctuation, veuillez le corriger…"
+msgstr "Un nom de compte ne doit pas comporter de ponctuation, veuillez le corriger…"
 
-#: usersetup:308
+#: usersetup:296
 #, sh-format
 msgid "Group membership"
 msgstr "Groupe principal"
 
-#: usersetup:309 usersetup:325 usersetup:351 usersetup:371 usersetup:396
-#: usersetup:475 usersetup:489 usersetup:503 usersetup:517 usersetup:533
+#: usersetup:297 usersetup:313 usersetup:339 usersetup:359 usersetup:384
+#: usersetup:463 usersetup:477 usersetup:491 usersetup:505 usersetup:521
 #, sh-format
 msgid "OK"
 msgstr "Valider"
 
-#: usersetup:312
+#: usersetup:300
 #, sh-format
 msgid "Enter the main group for account"
 msgstr "Veuillez saisir le nom de groupe principal du compte"
 
-#: usersetup:327
+#: usersetup:315
 #, sh-format
 msgid "Enter the home directory for account"
 msgstr "Veuillez saisir le nom de répertoire personnel du compte"
 
-#: usersetup:354
+#: usersetup:342
 #, sh-format
 msgid "Enter the shell interpreter for account"
 msgstr "Veuillez saisir le nom de l'interpréteur de commandes du compte"
 
-#: usersetup:370
+#: usersetup:358
 #, sh-format
 msgid "Additional group membership"
 msgstr "Appartenance à des groupes supplémentaires"
 
-#: usersetup:373
+#: usersetup:361
 #, sh-format
 msgid "Add some additional group to the list..."
 msgstr "Veuillez ajouter des groupes supplémentaires à la liste…"
 
-#: usersetup:395
+#: usersetup:383
 #, sh-format
 msgid "Expiry date"
 msgstr "Date d'expiration"
 
-#: usersetup:397
+#: usersetup:385
 #, sh-format
 msgid "Never"
 msgstr "Jamais"
 
-#: usersetup:400
+#: usersetup:388
 #, sh-format
 msgid "Set the account expiry date..."
 msgstr "Veuillez définir la date d'expiration…"
 
-#: usersetup:436
+#: usersetup:424
 #, sh-format
 msgid "Enter password for account"
 msgstr "Veuillez saisir le mot de passe du compte"
 
-#: usersetup:437
+#: usersetup:425
 #, sh-format
 msgid "Passwords do not match, please try again..."
-msgstr ""
-"Les mots de passe ne sont pas identiques, veuillez effectuer un nouvel essai…"
+msgstr "Les mots de passe ne sont pas identiques, veuillez effectuer un nouvel essai…"
 
-#: usersetup:440
+#: usersetup:428
 #, sh-format
 msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
-"Le mot de passe est trop court (${minlength} charactères minimum), veuillez "
-"effectuer un nouvel essai…"
+"Password is too short (${minlength} chars minimum), please try another "
+"one..."
+msgstr "Le mot de passe est trop court (${minlength} charactères minimum), veuillez effectuer un nouvel essai…"
 
-#: usersetup:443
+#: usersetup:431
 #, sh-format
 msgid "Enter password again for account"
 msgstr "Veuillez de nouveau saisir le mot de passe du compte"
 
-#: usersetup:460
+#: usersetup:448
 #, sh-format
 msgid "Failed to set password for account"
 msgstr "Impossible de définir le mot de passe du compte"
 
-#: usersetup:477
+#: usersetup:465
 #, sh-format
 msgid "Enter the full name of the user"
 msgstr "Veuillez saisir le nom complet de l'utilisateur du compte"
 
-#: usersetup:488
+#: usersetup:476
 #, sh-format
 msgid "Office information"
 msgstr "Données professionnelles"
 
-#: usersetup:491
+#: usersetup:479
 #, sh-format
 msgid "Enter office information for the user"
 msgstr "Veuillez saisir les données professionnelles de l'utilisateur"
 
-#: usersetup:505
+#: usersetup:493
 #, sh-format
 msgid "Enter the work phone number of the user"
 msgstr "Veuillez saisir le téléphone professionnel de l'utilisateur"
 
-#: usersetup:519
+#: usersetup:507
 #, sh-format
 msgid "Enter the home phone number of the user"
 msgstr "Veuillez saisir le téléphone personnel de l'utilisateur"
 
-#: usersetup:535
+#: usersetup:523
 #, sh-format
 msgid "Enter the new group name"
 msgstr "Veuillez saisir le nouveau nom du groupe"
 
-#: usersetup:630 usersetup:651 usersetup:660 usersetup:724
+#: usersetup:618 usersetup:639 usersetup:648 usersetup:712
 #, sh-format
 msgid "Warning"
 msgstr "Avertissement"
 
-#: usersetup:660
+#: usersetup:648
 #, sh-format
 msgid "You cannot delete the account"
 msgstr "Vous ne pouvez pas supprimer le compte"
 
-#: usersetup:662
+#: usersetup:650
 #, sh-format
 msgid "Confirm user deletion"
 msgstr "Confirmer la suppression du compte"
 
-#: usersetup:664 usersetup:728
+#: usersetup:652 usersetup:716
 #, sh-format
 msgid "Cancel"
 msgstr "Annuler"
 
-#: usersetup:666
+#: usersetup:654
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
 msgstr "Êtes vous certain de vouloir supprimer le compte $user ?"
 
-#: usersetup:724
+#: usersetup:712
 #, sh-format
 msgid "You cannot delete the group"
 msgstr "Vous ne pouvez pas supprimer le groupe"
 
-#: usersetup:726
+#: usersetup:714
 #, sh-format
 msgid "Confirm group deletion"
 msgstr "Confirmer la suppression du groupe"
 
-#: usersetup:730
+#: usersetup:718
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "Êtes vous certain de vouloir supprimer le groupe $group ?"
