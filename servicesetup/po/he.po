@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
 "PO-Revision-Date: 2011-04-28 09:15+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: servicesetup:26
+#: servicesetup:23
 #, sh-format
 msgid "You need root privileges to run this"
 msgstr ""
 
-#: servicesetup:62
+#: servicesetup:59
 #, sh-format
 msgid "Startup services"
 msgstr "שירותי אתחול"
 
-#: servicesetup:63
+#: servicesetup:60
 #, sh-format
 msgid "OK"
 msgstr "אישור"
 
-#: servicesetup:64
+#: servicesetup:61
 #, sh-format
 msgid "Exit"
 msgstr "יציאה"
 
-#: servicesetup:67
+#: servicesetup:64
 #, sh-format
 msgid "The selected services will be started at boot time:"
 msgstr "השירותים הנבחרים יופעלו בזמן הפעלת המערכת:"
 
-#: servicesetup:76
+#: servicesetup:73
 #, sh-format
 msgid "The $service service"
 msgstr "סוג השירות: $service"

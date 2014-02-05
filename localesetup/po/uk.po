@@ -1,68 +1,75 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
 "PO-Revision-Date: 2014-02-05 09:23+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/salixtools/language/uk/)\n"
+"Language-Team: Ukrainian (http://www.transifex.com/projects/p/salixtools/"
+"language/uk/)\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: localesetup:25
+#: localesetup:22
 #, sh-format
 msgid "USAGE: localesetup [locale]"
 msgstr "ВИКОРИСТАННЯ: localesetup [локаль]"
 
-#: localesetup:26
+#: localesetup:23
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
 msgstr "ПРИКЛАД: localesetup uk_UA"
 
-#: localesetup:31
+#: localesetup:28
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ПОМИЛКА: Забагато аргументів"
 
-#: localesetup:39
+#: localesetup:34
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr ""
+
+#: localesetup:42
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr "Налаштування локалі до $locale"
 
-#: localesetup:41
+#: localesetup:44
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "ПОМИЛКА: $newlocale не є правильною локаллю"
 
-#: localesetup:66
+#: localesetup:69
 #, sh-format
 msgid "System language configuration"
 msgstr "Налаштування системної мови"
 
-#: localesetup:68
+#: localesetup:71
 #, sh-format
 msgid "OK"
 msgstr "ОК"
 
-#: localesetup:69
+#: localesetup:72
 #, sh-format
 msgid "Exit"
 msgstr "Вихід"
 
-#: localesetup:71
+#: localesetup:74
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "Поточна локаль є $currentlocale."
 
-#: localesetup:72
+#: localesetup:75
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Будь ласка, виберіть Вашу улюблену системну мову:"

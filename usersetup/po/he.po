@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
 "PO-Revision-Date: 2011-04-28 09:15+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,411 +22,411 @@ msgstr ""
 msgid "You need root privileges to run this"
 msgstr ""
 
-#: usersetup:45
+#: usersetup:42
 #, sh-format
 msgid "Select"
 msgstr "בחירה"
 
-#: usersetup:46
+#: usersetup:43
 #, sh-format
 msgid "Exit user setup"
 msgstr "יציאה מקביעת תצורת משתמש"
 
-#: usersetup:47
+#: usersetup:44
 #, sh-format
 msgid "Users accounts management"
 msgstr "ניהול חשבונות משתמשים"
 
-#: usersetup:49
+#: usersetup:46
 #, sh-format
 msgid "Please choose an option..."
 msgstr "נא לבחור באפשרות..."
 
-#: usersetup:51
+#: usersetup:48
 #, sh-format
 msgid "Create a new account"
 msgstr "יצירת חשבון חדש"
 
-#: usersetup:52
+#: usersetup:49
 #, sh-format
 msgid "Create a new account (advanced mode)"
 msgstr "יצירת חשבון חדש (מצב מתקדם)"
 
-#: usersetup:53
+#: usersetup:50
 #, sh-format
 msgid "Modify account properties"
 msgstr "שינוי מאפייניי חשבון"
 
-#: usersetup:54
+#: usersetup:51
 #, sh-format
 msgid "Change account password"
 msgstr "שינוי סיסמת חשבון"
 
-#: usersetup:55
+#: usersetup:52
 #, sh-format
 msgid "Delete accounts"
 msgstr "מחיקת חשבונות"
 
-#: usersetup:56
+#: usersetup:53
 #, sh-format
 msgid "List groups and memberships"
 msgstr "פירוט חברויות וקבוצות"
 
-#: usersetup:57
+#: usersetup:54
 #, sh-format
 msgid "Create a new group"
 msgstr "יצירת קבוצה חדשה"
 
-#: usersetup:58
+#: usersetup:55
 #, sh-format
 msgid "Change group name"
 msgstr "שינוי שם קבוצה"
 
-#: usersetup:59
+#: usersetup:56
 #, sh-format
 msgid "Delete groups"
 msgstr "מחיקת קבוצה"
 
-#: usersetup:75 usersetup:198
+#: usersetup:72 usersetup:195
 #, sh-format
 msgid "Account properties"
 msgstr "מאפייניי חשבון"
 
-#: usersetup:76 usersetup:241
+#: usersetup:73 usersetup:238
 #, sh-format
 msgid "Properties"
 msgstr "מאפיינים"
 
-#: usersetup:77 usersetup:94 usersetup:111 usersetup:128 usersetup:145
-#: usersetup:163 usersetup:200 usersetup:242
+#: usersetup:74 usersetup:91 usersetup:108 usersetup:125 usersetup:142
+#: usersetup:160 usersetup:197 usersetup:239
 #, sh-format
 msgid "Back"
 msgstr "חזרה"
 
-#: usersetup:79
+#: usersetup:76
 #, sh-format
 msgid "Select an account to view its properties..."
 msgstr "נא לבחור חשבון כדי לצפות במאפייניו..."
 
-#: usersetup:92
+#: usersetup:89
 #, sh-format
 msgid "Account deletion"
 msgstr "מחיקת חשבון"
 
-#: usersetup:93 usersetup:162 usersetup:663 usersetup:727
+#: usersetup:90 usersetup:159 usersetup:660 usersetup:724
 #, sh-format
 msgid "Delete"
 msgstr "מחיקה"
 
-#: usersetup:96
+#: usersetup:93
 #, sh-format
 msgid "Select an account to delete..."
 msgstr "בחירת חשבון למחיקה..."
 
-#: usersetup:109
+#: usersetup:106
 #, sh-format
 msgid "Change password"
 msgstr "שינוי סיסמא"
 
-#: usersetup:110
+#: usersetup:107
 #, sh-format
 msgid "Change"
 msgstr "שינוי"
 
-#: usersetup:113
+#: usersetup:110
 #, sh-format
 msgid "Select an account to change password for..."
 msgstr "נא לבחור חשבון כדי לשנות את הסיסמא עבורו..."
 
-#: usersetup:126
+#: usersetup:123
 #, sh-format
 msgid "Group memberships"
 msgstr "חברויות קבוצה"
 
-#: usersetup:127
+#: usersetup:124
 #, sh-format
 msgid "Memberships"
 msgstr "חברויות"
 
-#: usersetup:130
+#: usersetup:127
 #, sh-format
 msgid "Select a group to view memberships for..."
 msgstr "נא לבחור קבוצה כדי להציג החברויות עבורה..."
 
-#: usersetup:143 usersetup:532
+#: usersetup:140 usersetup:529
 #, sh-format
 msgid "Group name"
 msgstr "שם קבוצה"
 
-#: usersetup:144 usersetup:199
+#: usersetup:141 usersetup:196
 #, sh-format
 msgid "Modify"
 msgstr "שינוי"
 
-#: usersetup:147
+#: usersetup:144
 #, sh-format
 msgid "Select group name to modify..."
 msgstr "נא לבחור קבוצה כדי לשנות את שמה..."
 
-#: usersetup:161
+#: usersetup:158
 #, sh-format
 msgid "Group deletion"
 msgstr "מחיקת קבוצה"
 
-#: usersetup:165
+#: usersetup:162
 #, sh-format
 msgid "Select a group to delete..."
 msgstr "בחירת קבוצה למחיקה..."
 
-#: usersetup:202
+#: usersetup:199
 #, sh-format
 msgid "Detailed information for account"
 msgstr "מידע מפורט עבור החשבון"
 
-#: usersetup:204 usersetup:474 usersetup:581
+#: usersetup:201 usersetup:471 usersetup:578
 #, sh-format
 msgid "Full name"
 msgstr "שם מלא"
 
-#: usersetup:205 usersetup:263 usersetup:557
+#: usersetup:202 usersetup:260 usersetup:554
 #, sh-format
 msgid "Account name"
 msgstr "שם חשבון"
 
-#: usersetup:206 usersetup:561
+#: usersetup:203 usersetup:558
 #, sh-format
 msgid "Main Group"
 msgstr "קבוצה ראשית"
 
-#: usersetup:207 usersetup:324 usersetup:565
+#: usersetup:204 usersetup:321 usersetup:562
 #, sh-format
 msgid "Home directory"
 msgstr "מדור הבית"
 
-#: usersetup:208 usersetup:350 usersetup:573
+#: usersetup:205 usersetup:347 usersetup:570
 #, sh-format
 msgid "Shell"
 msgstr "מעטפת"
 
-#: usersetup:209 usersetup:569
+#: usersetup:206 usersetup:566
 #, sh-format
 msgid "Other groups"
 msgstr "קבוצות אחרות"
 
-#: usersetup:210 usersetup:577
+#: usersetup:207 usersetup:574
 #, sh-format
 msgid "Expiry"
 msgstr "תפוגה"
 
-#: usersetup:211 usersetup:585
+#: usersetup:208 usersetup:582
 #, sh-format
 msgid "Office"
 msgstr "משרד"
 
-#: usersetup:212 usersetup:502 usersetup:589
+#: usersetup:209 usersetup:499 usersetup:586
 #, sh-format
 msgid "Work phone"
 msgstr "טלפון משרדי"
 
-#: usersetup:213 usersetup:516 usersetup:593
+#: usersetup:210 usersetup:513 usersetup:590
 #, sh-format
 msgid "Home phone"
 msgstr "טלפון ביתי"
 
-#: usersetup:240 usersetup:250
+#: usersetup:237 usersetup:247
 #, sh-format
 msgid "Group members"
 msgstr "חברים בקבוצה"
 
-#: usersetup:244
+#: usersetup:241
 #, sh-format
 msgid "Members of group"
 msgstr "החברים של הקבוצה / החברים שבקבוצת"
 
-#: usersetup:252
+#: usersetup:249
 #, sh-format
 msgid "There are no accounts in group"
 msgstr "לא קיימים שום חשבונות בקבוצה"
 
-#: usersetup:265
+#: usersetup:262
 #, sh-format
 msgid "Enter the new account name..."
 msgstr "הזנת השם של החשבון החדש..."
 
-#: usersetup:274
+#: usersetup:271
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
 msgstr "שם חשבון לא יכול להכיל רווח, נא לתקן את השגיאה..."
 
-#: usersetup:276
+#: usersetup:273
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
 msgstr "שם החשבון $user כבר קיים, נא לבחור שם אחר..."
 
-#: usersetup:278
+#: usersetup:275
 #, sh-format
 msgid "The account name is empty, please correct it..."
 msgstr "שם החשבון הינו ריק, נא לתקן את השגיאה..."
 
-#: usersetup:280
+#: usersetup:277
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
 msgstr "שם חשבון לא יכול להתחיל עם מספר, נא לתקן את השגיאה..."
 
-#: usersetup:282
+#: usersetup:279
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
 msgstr "שם חשבון לא יכול להכיל תווים עיליים, נא לתקן את השגיאה..."
 
-#: usersetup:284
+#: usersetup:281
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
 msgstr "שם חשבון לא יכול להכיל סימני פיסוק, נא לתקן את השגיאה..."
 
-#: usersetup:308
+#: usersetup:305
 #, sh-format
 msgid "Group membership"
 msgstr "חברות קבוצה"
 
-#: usersetup:309 usersetup:325 usersetup:351 usersetup:371 usersetup:396
-#: usersetup:475 usersetup:489 usersetup:503 usersetup:517 usersetup:533
+#: usersetup:306 usersetup:322 usersetup:348 usersetup:368 usersetup:393
+#: usersetup:472 usersetup:486 usersetup:500 usersetup:514 usersetup:530
 #, sh-format
 msgid "OK"
 msgstr "אישור"
 
-#: usersetup:312
+#: usersetup:309
 #, sh-format
 msgid "Enter the main group for account"
 msgstr "נא להזין את הקבוצה הראשית עבור החשבון"
 
-#: usersetup:327
+#: usersetup:324
 #, sh-format
 msgid "Enter the home directory for account"
 msgstr "נא להזין את מדור הבית עבור החשבון"
 
-#: usersetup:354
+#: usersetup:351
 #, sh-format
 msgid "Enter the shell interpreter for account"
 msgstr "נא להזין את מפרש מעטפת-הפקודה עבור החשבון"
 
-#: usersetup:370
+#: usersetup:367
 #, sh-format
 msgid "Additional group membership"
 msgstr "חברות קבוצה נוספת"
 
-#: usersetup:373
+#: usersetup:370
 #, sh-format
 msgid "Add some additional group to the list..."
 msgstr "הוספת קבוצה נוספת לרשימה..."
 
-#: usersetup:395
+#: usersetup:392
 #, sh-format
 msgid "Expiry date"
 msgstr "תאריך תפוגה"
 
-#: usersetup:397
+#: usersetup:394
 #, sh-format
 msgid "Never"
 msgstr "אף פעם"
 
-#: usersetup:400
+#: usersetup:397
 #, sh-format
 msgid "Set the account expiry date..."
 msgstr "קביעת תאריך תפוגה של החשבון..."
 
-#: usersetup:436
+#: usersetup:433
 #, sh-format
 msgid "Enter password for account"
 msgstr "הזנת סיסמא עבור החשבון"
 
-#: usersetup:437
+#: usersetup:434
 #, sh-format
 msgid "Passwords do not match, please try again..."
 msgstr "הסיסמאות אינן תואמות, נא לנסות שנית..."
 
-#: usersetup:440
+#: usersetup:437
 #, sh-format
 msgid ""
 "Password is too short (${minlength} chars minimum), please try another one..."
 msgstr "סיסמא קצרה מידי (${minlength} תווים לפחות), נא לנסות סיסמא אחרת..."
 
-#: usersetup:443
+#: usersetup:440
 #, sh-format
 msgid "Enter password again for account"
 msgstr "נא להזין את הסיסמא שנית עבור החשבון"
 
-#: usersetup:460
+#: usersetup:457
 #, sh-format
 msgid "Failed to set password for account"
 msgstr "כישלון בקיבוע סיסמא עבור החשבון"
 
-#: usersetup:477
+#: usersetup:474
 #, sh-format
 msgid "Enter the full name of the user"
 msgstr "נא להזין את השם המלא של המשתמש"
 
-#: usersetup:488
+#: usersetup:485
 #, sh-format
 msgid "Office information"
 msgstr "מידע משרדי"
 
-#: usersetup:491
+#: usersetup:488
 #, sh-format
 msgid "Enter office information for the user"
 msgstr "נא להזין את המידע המשרדי עבור המשתמש"
 
-#: usersetup:505
+#: usersetup:502
 #, sh-format
 msgid "Enter the work phone number of the user"
 msgstr "נא להזין את הטלפון של המשתמש בעבודה"
 
-#: usersetup:519
+#: usersetup:516
 #, sh-format
 msgid "Enter the home phone number of the user"
 msgstr "נא להזין את הטלפון של המשתמש בבית"
 
-#: usersetup:535
+#: usersetup:532
 #, sh-format
 msgid "Enter the new group name"
 msgstr ""
 
-#: usersetup:630 usersetup:651 usersetup:660 usersetup:724
+#: usersetup:627 usersetup:648 usersetup:657 usersetup:721
 #, sh-format
 msgid "Warning"
 msgstr "אזהרה"
 
-#: usersetup:660
+#: usersetup:657
 #, sh-format
 msgid "You cannot delete the account"
 msgstr "לא ניתן למחוק את החשבון"
 
-#: usersetup:662
+#: usersetup:659
 #, sh-format
 msgid "Confirm user deletion"
 msgstr "אימות מחיקת משתמש"
 
-#: usersetup:664 usersetup:728
+#: usersetup:661 usersetup:725
 #, sh-format
 msgid "Cancel"
 msgstr "ביטול"
 
-#: usersetup:666
+#: usersetup:663
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
 msgstr "האם ברצונך למחוק את המשתמש $user?"
 
-#: usersetup:724
+#: usersetup:721
 #, sh-format
 msgid "You cannot delete the group"
 msgstr "לא ניתן למחוק את הקבוצה"
 
-#: usersetup:726
+#: usersetup:723
 #, sh-format
 msgid "Confirm group deletion"
 msgstr "אימות מחיקת קבוצה"
 
-#: usersetup:730
+#: usersetup:727
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "האם ברצונך למחוק את הקבוצה $group?"

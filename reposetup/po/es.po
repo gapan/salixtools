@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
 "PO-Revision-Date: 2014-01-08 21:25+0000\n"
 "Last-Translator: aleximon <alejandrosimon@gmx.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/salixtools/"
@@ -24,22 +24,22 @@ msgstr ""
 msgid "You need root privileges to run this"
 msgstr ""
 
-#: reposetup:104
+#: reposetup:101
 #, sh-format
 msgid "Select repository mirror"
 msgstr "Seleccionar el repositorio espejo"
 
-#: reposetup:106
+#: reposetup:103
 #, sh-format
 msgid "Select"
 msgstr "Seleccionar"
 
-#: reposetup:107
+#: reposetup:104
 #, sh-format
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: reposetup:109
+#: reposetup:106
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
@@ -51,7 +51,7 @@ msgstr ""
 "aplicará a los archivos /etc/slapt-get/slapt-getrc y /etc/slapt-get/slapt-"
 "srcrc:"
 
-#: reposetup:109
+#: reposetup:106
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
@@ -60,73 +60,73 @@ msgstr ""
 "ADVERTENCIA: ¡Todos los cambios realizados manualmente en las líneas SOURCE "
 "de estos archivos se perderán!"
 
-#: reposetup:122
+#: reposetup:119
 #, sh-format
 msgid "Update package caches?"
 msgstr "¿Actualizar los caches de paquetes?"
 
-#: reposetup:123
+#: reposetup:120
 #, sh-format
 msgid "Update"
 msgstr "Actualizar"
 
-#: reposetup:124
+#: reposetup:121
 #, sh-format
 msgid "Do not update"
 msgstr "No actualizar"
 
-#: reposetup:125
+#: reposetup:122
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
 msgstr "¿Desea actualizar el paquete y los caches de SlackBuild ahora?"
 
-#: reposetup:169
+#: reposetup:166
 #, sh-format
 msgid "USAGE:"
 msgstr "USO:"
 
-#: reposetup:169
+#: reposetup:166
 #, sh-format
 msgid "mirror"
 msgstr "espejo"
 
-#: reposetup:171
+#: reposetup:168
 #, sh-format
 msgid "OPTIONS:"
 msgstr "OPCIONES:"
 
-#: reposetup:172
+#: reposetup:169
 #, sh-format
 msgid "Specify a repository mirror manually"
 msgstr "Especificar manualmente el repositorio espejo"
 
-#: reposetup:173
+#: reposetup:170
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
 msgstr "Usar la lista espejo local y no descargar una nueva"
 
-#: reposetup:174
+#: reposetup:171
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
 msgstr ""
 "No actualizar ni preguntar por actualizaciones de los cachés de paquete"
 
-#: reposetup:175
+#: reposetup:172
 #, sh-format
 msgid "This help message"
 msgstr "Este mensaje de aydua"
 
-#: reposetup:218
+#: reposetup:212
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ERROR: Demasiados argumentos"
 
-#: reposetup:232 reposetup:253
+#: reposetup:226 reposetup:247
 #, sh-format
 msgid "Refreshing mirror list from"
 msgstr "Refrescando la lista de espejos desde"
 
-#: reposetup:239 reposetup:260
+#: reposetup:233 reposetup:254
 #, sh-format
 msgid "Getting mirror list failed"
 msgstr "Fallo al descargar la lista de espejos"

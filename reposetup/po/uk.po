@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
 "PO-Revision-Date: 2014-01-17 12:41+0000\n"
 "Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/salixtools/"
@@ -25,22 +25,22 @@ msgstr ""
 msgid "You need root privileges to run this"
 msgstr ""
 
-#: reposetup:104
+#: reposetup:101
 #, sh-format
 msgid "Select repository mirror"
 msgstr "Виберіть дзеркало сховища"
 
-#: reposetup:106
+#: reposetup:103
 #, sh-format
 msgid "Select"
 msgstr "Вибрати"
 
-#: reposetup:107
+#: reposetup:104
 #, sh-format
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: reposetup:109
+#: reposetup:106
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
@@ -51,7 +51,7 @@ msgstr ""
 "сховища міститься праворуч. Ваш вибір буде записано у файли /etc/slapt-get/"
 "slapt-getrc та /etc/slapt-get/slapt-srcrc:"
 
-#: reposetup:109
+#: reposetup:106
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
@@ -60,72 +60,72 @@ msgstr ""
 "ПОПЕРЕДЖЕННЯ: Будь-які зміни, які Ви зробили вручну в ДЖЕРЕЛЬНИХ стрічках "
 "цих файлів, будуть втрачені!"
 
-#: reposetup:122
+#: reposetup:119
 #, sh-format
 msgid "Update package caches?"
 msgstr "Оновити кеш пакунків?"
 
-#: reposetup:123
+#: reposetup:120
 #, sh-format
 msgid "Update"
 msgstr "Оновити"
 
-#: reposetup:124
+#: reposetup:121
 #, sh-format
 msgid "Do not update"
 msgstr "Не оновлювати"
 
-#: reposetup:125
+#: reposetup:122
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
 msgstr "Ви бажаєте зараз оновити кеш пакунків і SlackBuild'ів?"
 
-#: reposetup:169
+#: reposetup:166
 #, sh-format
 msgid "USAGE:"
 msgstr "ВИКОРИСТАННЯ:"
 
-#: reposetup:169
+#: reposetup:166
 #, sh-format
 msgid "mirror"
 msgstr "дзеркало"
 
-#: reposetup:171
+#: reposetup:168
 #, sh-format
 msgid "OPTIONS:"
 msgstr "ПАРАМЕТРИ:"
 
-#: reposetup:172
+#: reposetup:169
 #, sh-format
 msgid "Specify a repository mirror manually"
 msgstr "Ручне вказування дзеркала сховищ"
 
-#: reposetup:173
+#: reposetup:170
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
 msgstr "Використання локально списку дзеркал без звантажування нового"
 
-#: reposetup:174
+#: reposetup:171
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
 msgstr "Не оновлювати/питати про оновлення кешу пакунків"
 
-#: reposetup:175
+#: reposetup:172
 #, sh-format
 msgid "This help message"
 msgstr "Це повідомлення"
 
-#: reposetup:218
+#: reposetup:212
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ПОМИЛКА: Забагато параметрів"
 
-#: reposetup:232 reposetup:253
+#: reposetup:226 reposetup:247
 #, sh-format
 msgid "Refreshing mirror list from"
 msgstr "Оновлення списку дзеркал з"
 
-#: reposetup:239 reposetup:260
+#: reposetup:233 reposetup:254
 #, sh-format
 msgid "Getting mirror list failed"
 msgstr "Отримання списку дзеркал не вдалося"

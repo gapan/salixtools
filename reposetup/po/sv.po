@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Ingemar Karlsson <ingemar@ingk.se>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
 "PO-Revision-Date: 2014-02-04 18:00+0000\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/salixtools/language/sv/)\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/salixtools/"
+"language/sv/)\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: reposetup:8
@@ -23,102 +24,107 @@ msgstr ""
 msgid "You need root privileges to run this"
 msgstr "Du behöver root-behörighet för att köra det här"
 
-#: reposetup:104
+#: reposetup:101
 #, sh-format
 msgid "Select repository mirror"
 msgstr "Välj förrådsspegel"
 
-#: reposetup:106
+#: reposetup:103
 #, sh-format
 msgid "Select"
 msgstr "Välj"
 
-#: reposetup:107
+#: reposetup:104
 #, sh-format
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: reposetup:109
+#: reposetup:106
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr "Vänligen välj önskat förrådsspegel. Landskoden för där spegeln ligger visas till höger. Ditt val kommer att tillämpas på /etc/slapt-get/slapt-getrc och /etc/slapt-get/slapt-srcrc filerna:"
+msgstr ""
+"Vänligen välj önskat förrådsspegel. Landskoden för där spegeln ligger visas "
+"till höger. Ditt val kommer att tillämpas på /etc/slapt-get/slapt-getrc och /"
+"etc/slapt-get/slapt-srcrc filerna:"
 
-#: reposetup:109
+#: reposetup:106
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr "VARNING: Eventuella ändringar som du manuellt har gjort i SOURCE raderna av dessa filer kommer att gå förlorade!"
+msgstr ""
+"VARNING: Eventuella ändringar som du manuellt har gjort i SOURCE raderna av "
+"dessa filer kommer att gå förlorade!"
 
-#: reposetup:122
+#: reposetup:119
 #, sh-format
 msgid "Update package caches?"
 msgstr "Uppdatera packet cachen?"
 
-#: reposetup:123
+#: reposetup:120
 #, sh-format
 msgid "Update"
 msgstr "Uppdatera"
 
-#: reposetup:124
+#: reposetup:121
 #, sh-format
 msgid "Do not update"
 msgstr "Uppdatera inte"
 
-#: reposetup:125
+#: reposetup:122
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
 msgstr "Vill du uppdatera packet och SlackBuild cachen nu?"
 
-#: reposetup:169
+#: reposetup:166
 #, sh-format
 msgid "USAGE:"
 msgstr "ANVÄNDNING:"
 
-#: reposetup:169
+#: reposetup:166
 #, sh-format
 msgid "mirror"
 msgstr "förrådsspegel"
 
-#: reposetup:171
+#: reposetup:168
 #, sh-format
 msgid "OPTIONS:"
 msgstr "ALTERNATIV:"
 
-#: reposetup:172
+#: reposetup:169
 #, sh-format
 msgid "Specify a repository mirror manually"
 msgstr "Ange förrådsspegel manuelt"
 
-#: reposetup:173
+#: reposetup:170
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
 msgstr "Använd lokal spegellista och ladda inte ner en ny"
 
-#: reposetup:174
+#: reposetup:171
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
 msgstr "Uppdatera/fråga inte  för uppdatering av paketet cachar"
 
-#: reposetup:175
+#: reposetup:172
 #, sh-format
 msgid "This help message"
 msgstr "Denna hjälp"
 
-#: reposetup:218
+#: reposetup:212
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "FEL: För många argument"
 
-#: reposetup:232 reposetup:253
+#: reposetup:226 reposetup:247
 #, sh-format
 msgid "Refreshing mirror list from"
 msgstr "Uppdatera spegelförråd från"
 
-#: reposetup:239 reposetup:260
+#: reposetup:233 reposetup:254
 #, sh-format
 msgid "Getting mirror list failed"
 msgstr "Hämtning av förrådsspegel misslyckades"

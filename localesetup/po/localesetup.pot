@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 12:25+0200\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,57 +17,57 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: localesetup:25
+#: localesetup:22
 #, sh-format
 msgid "USAGE: localesetup [locale]"
 msgstr ""
 
-#: localesetup:26
+#: localesetup:23
 #, sh-format
 msgid "EXAMPLE: localesetup en_US"
 msgstr ""
 
-#: localesetup:31
+#: localesetup:28
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr ""
 
-#: localesetup:37
+#: localesetup:34
 #, sh-format
 msgid "You need root privileges to run this"
 msgstr ""
 
-#: localesetup:45
+#: localesetup:42
 #, sh-format
 msgid "Setting locale to $locale"
 msgstr ""
 
-#: localesetup:47
+#: localesetup:44
 #, sh-format
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr ""
 
-#: localesetup:72
+#: localesetup:69
 #, sh-format
 msgid "System language configuration"
 msgstr ""
 
-#: localesetup:74
+#: localesetup:71
 #, sh-format
 msgid "OK"
 msgstr ""
 
-#: localesetup:75
+#: localesetup:72
 #, sh-format
 msgid "Exit"
 msgstr ""
 
-#: localesetup:77
+#: localesetup:74
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr ""
 
-#: localesetup:78
+#: localesetup:75
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr ""

@@ -1,429 +1,436 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Laszlo Dvornik <rezuri@zoho.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
 "PO-Revision-Date: 2014-02-05 09:23+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/salixtools/"
+"language/hu/)\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: usersetup:39
+#: usersetup:18
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr ""
+
+#: usersetup:42
 #, sh-format
 msgid "Select"
 msgstr "Kiválasztás"
 
-#: usersetup:40
+#: usersetup:43
 #, sh-format
 msgid "Exit user setup"
 msgstr "Kilépés a felhasználó beállításokból"
 
-#: usersetup:41
+#: usersetup:44
 #, sh-format
 msgid "Users accounts management"
 msgstr "Felhasználói fiókok kezelése"
 
-#: usersetup:43
+#: usersetup:46
 #, sh-format
 msgid "Please choose an option..."
 msgstr "Válasszon az opciók közül..."
 
-#: usersetup:45
+#: usersetup:48
 #, sh-format
 msgid "Create a new account"
 msgstr "Új fiók létrehozása"
 
-#: usersetup:46
+#: usersetup:49
 #, sh-format
 msgid "Create a new account (advanced mode)"
 msgstr "Új fiók létrehozása (haladó mód)"
 
-#: usersetup:47
+#: usersetup:50
 #, sh-format
 msgid "Modify account properties"
 msgstr "Fiók tulajdonságainak módosítása"
 
-#: usersetup:48
+#: usersetup:51
 #, sh-format
 msgid "Change account password"
 msgstr "Fiók jelszavának megváltoztatása"
 
-#: usersetup:49
+#: usersetup:52
 #, sh-format
 msgid "Delete accounts"
 msgstr "Fiókok törlése"
 
-#: usersetup:50
+#: usersetup:53
 #, sh-format
 msgid "List groups and memberships"
 msgstr "Csoportok és tagok listázása"
 
-#: usersetup:51
+#: usersetup:54
 #, sh-format
 msgid "Create a new group"
 msgstr "Új csoport létrehozása"
 
-#: usersetup:52
+#: usersetup:55
 #, sh-format
 msgid "Change group name"
 msgstr "Csoportnév megváltoztatása"
 
-#: usersetup:53
+#: usersetup:56
 #, sh-format
 msgid "Delete groups"
 msgstr "Csoportok törlése"
 
-#: usersetup:69 usersetup:192
+#: usersetup:72 usersetup:195
 #, sh-format
 msgid "Account properties"
 msgstr "Fiók tulajdonságai"
 
-#: usersetup:70 usersetup:235
+#: usersetup:73 usersetup:238
 #, sh-format
 msgid "Properties"
 msgstr "Tulajdonságok"
 
-#: usersetup:71 usersetup:88 usersetup:105 usersetup:122 usersetup:139
-#: usersetup:157 usersetup:194 usersetup:236
+#: usersetup:74 usersetup:91 usersetup:108 usersetup:125 usersetup:142
+#: usersetup:160 usersetup:197 usersetup:239
 #, sh-format
 msgid "Back"
 msgstr "Vissza"
 
-#: usersetup:73
+#: usersetup:76
 #, sh-format
 msgid "Select an account to view its properties..."
 msgstr "Válasszon fiókot a tulajdonságainak megtekintéséhez..."
 
-#: usersetup:86
+#: usersetup:89
 #, sh-format
 msgid "Account deletion"
 msgstr "Fiók törlése"
 
-#: usersetup:87 usersetup:156 usersetup:651 usersetup:715
+#: usersetup:90 usersetup:159 usersetup:660 usersetup:724
 #, sh-format
 msgid "Delete"
 msgstr "Törlés"
 
-#: usersetup:90
+#: usersetup:93
 #, sh-format
 msgid "Select an account to delete..."
 msgstr "Válassza ki a törlendő fiókot..."
 
-#: usersetup:103
+#: usersetup:106
 #, sh-format
 msgid "Change password"
 msgstr "Jelszó megváltoztatása"
 
-#: usersetup:104
+#: usersetup:107
 #, sh-format
 msgid "Change"
 msgstr "Megváltoztatás"
 
-#: usersetup:107
+#: usersetup:110
 #, sh-format
 msgid "Select an account to change password for..."
 msgstr "Válassza ki a fiókot, amelynek a jelszavát meg kívánja változtatni..."
 
-#: usersetup:120
+#: usersetup:123
 #, sh-format
 msgid "Group memberships"
 msgstr "Csoport tagjai"
 
-#: usersetup:121
+#: usersetup:124
 #, sh-format
 msgid "Memberships"
 msgstr "Tagok"
 
-#: usersetup:124
+#: usersetup:127
 #, sh-format
 msgid "Select a group to view memberships for..."
 msgstr "Válassza ki a csoportot, amelynek meg kívánja tekinteni a tagjait..."
 
-#: usersetup:137 usersetup:520
+#: usersetup:140 usersetup:529
 #, sh-format
 msgid "Group name"
 msgstr "Csoportnév"
 
-#: usersetup:138 usersetup:193
+#: usersetup:141 usersetup:196
 #, sh-format
 msgid "Modify"
 msgstr "Módosítás"
 
-#: usersetup:141
+#: usersetup:144
 #, sh-format
 msgid "Select group name to modify..."
 msgstr "Válassza ki a módosítandó csoportnevet..."
 
-#: usersetup:155
+#: usersetup:158
 #, sh-format
 msgid "Group deletion"
 msgstr "Csoport törlése"
 
-#: usersetup:159
+#: usersetup:162
 #, sh-format
 msgid "Select a group to delete..."
 msgstr "Válassza ki a törlendő csoportot..."
 
-#: usersetup:196
+#: usersetup:199
 #, sh-format
 msgid "Detailed information for account"
 msgstr "Részletes információk a fiókról"
 
-#: usersetup:198 usersetup:462 usersetup:569
+#: usersetup:201 usersetup:471 usersetup:578
 #, sh-format
 msgid "Full name"
 msgstr "Teljes név"
 
-#: usersetup:199 usersetup:257 usersetup:545
+#: usersetup:202 usersetup:260 usersetup:554
 #, sh-format
 msgid "Account name"
 msgstr "Fióknév"
 
-#: usersetup:200 usersetup:549
+#: usersetup:203 usersetup:558
 #, sh-format
 msgid "Main Group"
 msgstr "Elsődleges csoport"
 
-#: usersetup:201 usersetup:312 usersetup:553
+#: usersetup:204 usersetup:321 usersetup:562
 #, sh-format
 msgid "Home directory"
 msgstr "Felhasználói könyvtár"
 
-#: usersetup:202 usersetup:338 usersetup:561
+#: usersetup:205 usersetup:347 usersetup:570
 #, sh-format
 msgid "Shell"
 msgstr "Bejelentkezési parancsértelmező"
 
-#: usersetup:203 usersetup:557
+#: usersetup:206 usersetup:566
 #, sh-format
 msgid "Other groups"
 msgstr "Egyéb csoportok"
 
-#: usersetup:204 usersetup:565
+#: usersetup:207 usersetup:574
 #, sh-format
 msgid "Expiry"
 msgstr "Lejárat"
 
-#: usersetup:205 usersetup:573
+#: usersetup:208 usersetup:582
 #, sh-format
 msgid "Office"
 msgstr "Munkahely"
 
-#: usersetup:206 usersetup:490 usersetup:577
+#: usersetup:209 usersetup:499 usersetup:586
 #, sh-format
 msgid "Work phone"
 msgstr "Munkahelyi telefon"
 
-#: usersetup:207 usersetup:504 usersetup:581
+#: usersetup:210 usersetup:513 usersetup:590
 #, sh-format
 msgid "Home phone"
 msgstr "Otthoni telefon"
 
-#: usersetup:234 usersetup:244
+#: usersetup:237 usersetup:247
 #, sh-format
 msgid "Group members"
 msgstr "Csoporttagságok"
 
-#: usersetup:238
+#: usersetup:241
 #, sh-format
 msgid "Members of group"
 msgstr "A csoport tagjai"
 
-#: usersetup:246
+#: usersetup:249
 #, sh-format
 msgid "There are no accounts in group"
 msgstr "Nincs fiók a csoportban"
 
-#: usersetup:259
+#: usersetup:262
 #, sh-format
 msgid "Enter the new account name..."
 msgstr "Adja meg az új fióknevet..."
 
-#: usersetup:268
+#: usersetup:271
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
 msgstr "A fióknév nem tartalmazhat szóközt, javítsa ki..."
 
-#: usersetup:270
+#: usersetup:273
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
 msgstr "A(z) $user fióknév már létezik, válasszon másik nevet..."
 
-#: usersetup:272
+#: usersetup:275
 #, sh-format
 msgid "The account name is empty, please correct it..."
 msgstr "A fióknév üres, javítsa ki..."
 
-#: usersetup:274
+#: usersetup:277
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
 msgstr "A fióknév nem kezdődhet számmal, javítsa ki..."
 
-#: usersetup:276
+#: usersetup:279
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
 msgstr "A fióknévben nem lehet nagybetű, javítsa ki..."
 
-#: usersetup:278
+#: usersetup:281
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
 msgstr "A fióknév nem tartalmazhat írásjeleket, javítsa ki..."
 
-#: usersetup:296
+#: usersetup:305
 #, sh-format
 msgid "Group membership"
 msgstr "Csoporttagság"
 
-#: usersetup:297 usersetup:313 usersetup:339 usersetup:359 usersetup:384
-#: usersetup:463 usersetup:477 usersetup:491 usersetup:505 usersetup:521
+#: usersetup:306 usersetup:322 usersetup:348 usersetup:368 usersetup:393
+#: usersetup:472 usersetup:486 usersetup:500 usersetup:514 usersetup:530
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: usersetup:300
+#: usersetup:309
 #, sh-format
 msgid "Enter the main group for account"
 msgstr "Adja meg a fiók elsődleges csoportját"
 
-#: usersetup:315
+#: usersetup:324
 #, sh-format
 msgid "Enter the home directory for account"
 msgstr "Adja meg a fiók felhasználói könyvtárát"
 
-#: usersetup:342
+#: usersetup:351
 #, sh-format
 msgid "Enter the shell interpreter for account"
 msgstr "Adja meg a fiók bejelentkezési parancsértelmezőjét"
 
-#: usersetup:358
+#: usersetup:367
 #, sh-format
 msgid "Additional group membership"
 msgstr "További csoporttagság"
 
-#: usersetup:361
+#: usersetup:370
 #, sh-format
 msgid "Add some additional group to the list..."
 msgstr "Adjon további csoportokat a listához..."
 
-#: usersetup:383
+#: usersetup:392
 #, sh-format
 msgid "Expiry date"
 msgstr "Lejárati idő"
 
-#: usersetup:385
+#: usersetup:394
 #, sh-format
 msgid "Never"
 msgstr "Soha"
 
-#: usersetup:388
+#: usersetup:397
 #, sh-format
 msgid "Set the account expiry date..."
 msgstr "Adja meg a fiók lejárati idejét..."
 
-#: usersetup:424
+#: usersetup:433
 #, sh-format
 msgid "Enter password for account"
 msgstr "Adja meg a fiók jelszavát"
 
-#: usersetup:425
+#: usersetup:434
 #, sh-format
 msgid "Passwords do not match, please try again..."
 msgstr "A jelszavak nem egyeznek, próbálja újra..."
 
-#: usersetup:428
+#: usersetup:437
 #, sh-format
 msgid ""
-"Password is too short (${minlength} chars minimum), please try another "
-"one..."
-msgstr "A jelszó túl rövid (minimum ${minlength} karakter szükséges), válasszon másikat..."
+"Password is too short (${minlength} chars minimum), please try another one..."
+msgstr ""
+"A jelszó túl rövid (minimum ${minlength} karakter szükséges), válasszon "
+"másikat..."
 
-#: usersetup:431
+#: usersetup:440
 #, sh-format
 msgid "Enter password again for account"
 msgstr "Adja meg ismét a fiók jelszavát"
 
-#: usersetup:448
+#: usersetup:457
 #, sh-format
 msgid "Failed to set password for account"
 msgstr "A fiók jelszavának beállítása meghiúsult"
 
-#: usersetup:465
+#: usersetup:474
 #, sh-format
 msgid "Enter the full name of the user"
 msgstr "Adja meg a felhasználó teljes nevét"
 
-#: usersetup:476
+#: usersetup:485
 #, sh-format
 msgid "Office information"
 msgstr "Munkahelyi információ"
 
-#: usersetup:479
+#: usersetup:488
 #, sh-format
 msgid "Enter office information for the user"
 msgstr "Adja meg a felhasználó munkahelyi információit"
 
-#: usersetup:493
+#: usersetup:502
 #, sh-format
 msgid "Enter the work phone number of the user"
 msgstr "Adja meg a felhasználó munkahelyi telefonszámát"
 
-#: usersetup:507
+#: usersetup:516
 #, sh-format
 msgid "Enter the home phone number of the user"
 msgstr "Adja meg a felhasználó otthoni telefonszámát"
 
-#: usersetup:523
+#: usersetup:532
 #, sh-format
 msgid "Enter the new group name"
 msgstr "Adja meg az új csoport nevét"
 
-#: usersetup:618 usersetup:639 usersetup:648 usersetup:712
+#: usersetup:627 usersetup:648 usersetup:657 usersetup:721
 #, sh-format
 msgid "Warning"
 msgstr "Figyelmeztetés"
 
-#: usersetup:648
+#: usersetup:657
 #, sh-format
 msgid "You cannot delete the account"
 msgstr "Nem lehet törölni a fiókot"
 
-#: usersetup:650
+#: usersetup:659
 #, sh-format
 msgid "Confirm user deletion"
 msgstr "Felhasználó törlésének megerősítése"
 
-#: usersetup:652 usersetup:716
+#: usersetup:661 usersetup:725
 #, sh-format
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: usersetup:654
+#: usersetup:663
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
 msgstr "Valóban törölni szeretné ezt a felhasználót: $user?"
 
-#: usersetup:712
+#: usersetup:721
 #, sh-format
 msgid "You cannot delete the group"
 msgstr "Nem lehet törölni a csoportot"
 
-#: usersetup:714
+#: usersetup:723
 #, sh-format
 msgid "Confirm group deletion"
 msgstr "Csoport törlésének megerősítése"
 
-#: usersetup:718
+#: usersetup:727
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "Valóban törölni szeretné ezt a csoportot: $group?"
