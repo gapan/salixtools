@@ -35,9 +35,6 @@ init(){
 	# remove the buffer directory on any type of exit
 	trap 'rm -rf $buffer 2>/dev/null' TERM INT EXIT
 
-	# Path needs to be extended in case you're only half a root :)
-	export PATH="/usr/sbin:/sbin:${PATH}"
-
 	# Path to the salixtools shared files
 	salixtoolsdir="/usr/share/salixtools/"
 
@@ -65,15 +62,15 @@ init(){
 }
 
 usage(){
-	echo "`eval_gettext 'USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]'`"
+	echo "`eval_gettext 'USAGE:'` keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate] [-z]]"
 	echo
 	echo "`eval_gettext 'OPTIONS:'`"
 	echo
-	echo "`eval_gettext '   -k keymap,         a valid keyboard map'`"
-	echo "`eval_gettext '   -n numlockstate,   the numlock state, on or off'`"
-	echo "`eval_gettext '   -i ibusstate,      the IBus state, on or off'`"
-	echo "`eval_gettext '   -s scimstate,      the SCIM state, on or off'`"
-	echo "`eval_gettext '   -z,                do not apply changes on the fly, only edit settings files'`"
+	echo "   -k keymap,        `eval_gettext 'a valid keyboard map'`"
+	echo "   -n numlockstate,  `eval_gettext 'the numlock state, on or off'`"
+	echo "   -i ibusstate,     `eval_gettext 'the IBus state, on or off'`"
+	echo "   -s scimstate,     `eval_gettext 'the SCIM state, on or off'`"
+	echo "   -z,               `eval_gettext 'do not apply changes on the fly, only edit settings files'`"
 	exit 1
 }
 
