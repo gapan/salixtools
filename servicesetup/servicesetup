@@ -14,9 +14,6 @@ export TEXTDOMAINDIR="/usr/share/locale"
 
 dialog="dialog"
 
-# Path needs to be extended in case you're only half a root :)
-export PATH="/usr/sbin:/sbin:${PATH}"
-
 # Some globals
 rcdir='/etc/rc.d'
 descdir='/etc/rc.d/desc.d'

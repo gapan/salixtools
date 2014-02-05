@@ -12,9 +12,6 @@ export TEXTDOMAIN="localesetup"
 export TEXTDOMAINDIR="/usr/share/locale"
 . gettext.sh
 
-# Path needs to be extended in case you're only half a root :)
-export PATH="/usr/sbin:/sbin:${PATH}"
-
 dialog="dialog"
 
 # Just to be sure
