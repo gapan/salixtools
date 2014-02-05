@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
-"PO-Revision-Date: 2014-02-05 09:06+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2014-02-05 20:45+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/salixtools/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -18,108 +18,109 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: keyboardsetup:61
+#: keyboardsetup:16
 #, sh-format
-msgid ""
-"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
-"scimstate]]"
-msgstr "USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]"
+msgid "You need root privileges to run this"
+msgstr ""
 
-#: keyboardsetup:63
+#: keyboardsetup:65
+#, sh-format
+msgid "USAGE:"
+msgstr "USAGE:"
+
+#: keyboardsetup:67
 #, sh-format
 msgid "OPTIONS:"
 msgstr "OPTIONS :"
 
-#: keyboardsetup:65
-#, sh-format
-msgid "   -k keymap,         a valid keyboard map"
-msgstr "   -k keymap,         une disposition de clavier valide"
-
-#: keyboardsetup:66
-#, sh-format
-msgid "   -n numlockstate,   the numlock state, on or off"
-msgstr "   -n numlockstate,   état du verrou numérique, on ou off"
-
-#: keyboardsetup:67
-#, sh-format
-msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr "   -i ibusstate,      état de IBus, on ou off"
-
-#: keyboardsetup:68
-#, sh-format
-msgid "   -s scimstate,      the SCIM state, on or off"
-msgstr "   -s scimstate,      état de SCIM, on ou off"
-
 #: keyboardsetup:69
 #, sh-format
-msgid ""
-"   -z,                do not apply changes on the fly, only edit settings "
-"files"
-msgstr "   -z,                ne pas appliquer les changements immédiatement, uniquement modifier les fichiers de configuration"
+msgid "a valid keyboard map"
+msgstr "une disposition de clavier valide"
 
-#: keyboardsetup:130
+#: keyboardsetup:70
+#, sh-format
+msgid "the numlock state, on or off"
+msgstr "état du verrou numérique, on ou off"
+
+#: keyboardsetup:71
+#, sh-format
+msgid "the IBus state, on or off"
+msgstr "état de IBus, on ou off"
+
+#: keyboardsetup:72
+#, sh-format
+msgid "the SCIM state, on or off"
+msgstr "état de SCIM, on ou off"
+
+#: keyboardsetup:73
+#, sh-format
+msgid "do not apply changes on the fly, only edit settings files"
+msgstr "ne pas appliquer les changements immédiatement, uniquement modifier les fichiers de configuration"
+
+#: keyboardsetup:134
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
 " for a list of valid keymaps"
 msgstr "ERREUR: $OPTARG n'est pas une disposition de clavier valide. Vous pouvez consulter $salixtoolsdir/keymaps pour avoir une liste de dispositions de clavier valides"
 
-#: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
+#: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "ERREUR : $OPTARG n'est pas une option valide."
 
-#: keyboardsetup:179
+#: keyboardsetup:183
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ERREUR : Trop d'arguments"
 
-#: keyboardsetup:230
+#: keyboardsetup:234
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Configuration du clavier"
 
-#: keyboardsetup:232
+#: keyboardsetup:236
 #, sh-format
 msgid "OK"
 msgstr "Valider"
 
-#: keyboardsetup:233
+#: keyboardsetup:237
 #, sh-format
 msgid "Exit"
 msgstr "Quitter"
 
-#: keyboardsetup:235
+#: keyboardsetup:239
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Veuillez sélectionner votre disposition de clavier:"
 
-#: keyboardsetup:258
+#: keyboardsetup:262
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Configuration du verrou numérique"
 
-#: keyboardsetup:259 keyboardsetup:284 keyboardsetup:310
+#: keyboardsetup:263 keyboardsetup:288 keyboardsetup:314
 #, sh-format
 msgid "Enabled"
 msgstr "Activé"
 
-#: keyboardsetup:260 keyboardsetup:285 keyboardsetup:311
+#: keyboardsetup:264 keyboardsetup:289 keyboardsetup:315
 #, sh-format
 msgid "Disabled"
 msgstr "Désactivé"
 
-#: keyboardsetup:263
+#: keyboardsetup:267
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Voulez-vous activer par défaut le verrou numérique ?"
 
-#: keyboardsetup:283
+#: keyboardsetup:287
 #, sh-format
 msgid "IBus configuration"
 msgstr "Configuration de IBus "
 
-#: keyboardsetup:288
+#: keyboardsetup:292
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
@@ -128,12 +129,12 @@ msgid ""
 "take effect."
 msgstr "IBus est un système unifié de saisie graphique pour le chinois, le japonais, le coréen et bien d'autres langues.\nDésirez-vous l'activer au démarrage ?\n\nVous devrez redémarrer votre système pour que les changements prennent effet."
 
-#: keyboardsetup:309
+#: keyboardsetup:313
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Configuration de SCIM"
 
-#: keyboardsetup:314
+#: keyboardsetup:318
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "

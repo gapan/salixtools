@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
-"PO-Revision-Date: 2014-02-05 09:06+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2014-02-05 20:45+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/salixtools/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -18,108 +18,109 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: keyboardsetup:61
+#: keyboardsetup:16
 #, sh-format
-msgid ""
-"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
-"scimstate]]"
-msgstr "BRUG: keyboardsetup [[-k tasteudlægning] [-n numlockstatus] [-i ibusstatus] [-s scimstatus]]"
+msgid "You need root privileges to run this"
+msgstr ""
 
-#: keyboardsetup:63
+#: keyboardsetup:65
+#, sh-format
+msgid "USAGE:"
+msgstr "BRUG:"
+
+#: keyboardsetup:67
 #, sh-format
 msgid "OPTIONS:"
 msgstr "TILVALG:"
 
-#: keyboardsetup:65
-#, sh-format
-msgid "   -k keymap,         a valid keyboard map"
-msgstr "   -k tasteudlægning,         en gyldig tastaturudlægning"
-
-#: keyboardsetup:66
-#, sh-format
-msgid "   -n numlockstate,   the numlock state, on or off"
-msgstr "   -n numlock,   status for numlock, on eller off"
-
-#: keyboardsetup:67
-#, sh-format
-msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr "   -i ibusstatus,      IBus-status, on eller off"
-
-#: keyboardsetup:68
-#, sh-format
-msgid "   -s scimstate,      the SCIM state, on or off"
-msgstr "   -s scimstatus,      status for SCIM, on eller off"
-
 #: keyboardsetup:69
 #, sh-format
-msgid ""
-"   -z,                do not apply changes on the fly, only edit settings "
-"files"
-msgstr "   -z,                tildel ikke ændringer med det samme, ret kun indstillingsfiler"
+msgid "a valid keyboard map"
+msgstr "en gyldig tastaturudlægning"
 
-#: keyboardsetup:130
+#: keyboardsetup:70
+#, sh-format
+msgid "the numlock state, on or off"
+msgstr "status for numlock, on eller off"
+
+#: keyboardsetup:71
+#, sh-format
+msgid "the IBus state, on or off"
+msgstr "IBus-status, on eller off"
+
+#: keyboardsetup:72
+#, sh-format
+msgid "the SCIM state, on or off"
+msgstr "status for SCIM, on eller off"
+
+#: keyboardsetup:73
+#, sh-format
+msgid "do not apply changes on the fly, only edit settings files"
+msgstr "tildel ikke ændringer med det samme, ret kun indstillingsfiler"
+
+#: keyboardsetup:134
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
 " for a list of valid keymaps"
 msgstr "FEJL: $OPTARG er ikke en gyldig tasteudlægning. Du kan se i $salixtoolsdir/keymaps for en liste over gyldige tasteudlægninger"
 
-#: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
+#: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "FEJL: $OPTARG er ikke et gyldigt tilvalg."
 
-#: keyboardsetup:179
+#: keyboardsetup:183
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "FEJL: For mange argumenter"
 
-#: keyboardsetup:230
+#: keyboardsetup:234
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Konfiguration af tastatur"
 
-#: keyboardsetup:232
+#: keyboardsetup:236
 #, sh-format
 msgid "OK"
 msgstr "O.k."
 
-#: keyboardsetup:233
+#: keyboardsetup:237
 #, sh-format
 msgid "Exit"
 msgstr "Afslut"
 
-#: keyboardsetup:235
+#: keyboardsetup:239
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Vælg venligst din foretrukne tastaturudlægning:"
 
-#: keyboardsetup:258
+#: keyboardsetup:262
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Konfiguration af numlock"
 
-#: keyboardsetup:259 keyboardsetup:284 keyboardsetup:310
+#: keyboardsetup:263 keyboardsetup:288 keyboardsetup:314
 #, sh-format
 msgid "Enabled"
 msgstr "Aktiveret"
 
-#: keyboardsetup:260 keyboardsetup:285 keyboardsetup:311
+#: keyboardsetup:264 keyboardsetup:289 keyboardsetup:315
 #, sh-format
 msgid "Disabled"
 msgstr "Deaktiveret"
 
-#: keyboardsetup:263
+#: keyboardsetup:267
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "Vil du have numlock aktiveret eller deaktiveret som standard?"
 
-#: keyboardsetup:283
+#: keyboardsetup:287
 #, sh-format
 msgid "IBus configuration"
 msgstr "Konfiguration af IBus"
 
-#: keyboardsetup:288
+#: keyboardsetup:292
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
@@ -128,12 +129,12 @@ msgid ""
 "take effect."
 msgstr "IBus er en inputplatform til kinesisk, japansk, koreansk og mange andre sprog brugt i et grafisk miljø. Vil du have det aktiveret eller deaktiveret under opstart?\n\nDu skal genstarte dit system før dette træder i kraft."
 
-#: keyboardsetup:309
+#: keyboardsetup:313
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Konfiguration af SCIM"
 
-#: keyboardsetup:314
+#: keyboardsetup:318
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "

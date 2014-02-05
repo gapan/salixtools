@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
-"PO-Revision-Date: 2014-02-05 09:06+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2014-02-05 20:39+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Latvian (Latvia) (http://www.transifex.com/projects/p/salixtools/language/lv_LV/)\n"
 "MIME-Version: 1.0\n"
@@ -17,108 +17,109 @@ msgstr ""
 "Language: lv_LV\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#: keyboardsetup:61
+#: keyboardsetup:16
 #, sh-format
-msgid ""
-"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
-"scimstate]]"
-msgstr ""
-
-#: keyboardsetup:63
-#, sh-format
-msgid "OPTIONS:"
+msgid "You need root privileges to run this"
 msgstr ""
 
 #: keyboardsetup:65
 #, sh-format
-msgid "   -k keymap,         a valid keyboard map"
-msgstr ""
-
-#: keyboardsetup:66
-#, sh-format
-msgid "   -n numlockstate,   the numlock state, on or off"
+msgid "USAGE:"
 msgstr ""
 
 #: keyboardsetup:67
 #, sh-format
-msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr ""
-
-#: keyboardsetup:68
-#, sh-format
-msgid "   -s scimstate,      the SCIM state, on or off"
+msgid "OPTIONS:"
 msgstr ""
 
 #: keyboardsetup:69
 #, sh-format
-msgid ""
-"   -z,                do not apply changes on the fly, only edit settings "
-"files"
+msgid "a valid keyboard map"
 msgstr ""
 
-#: keyboardsetup:130
+#: keyboardsetup:70
+#, sh-format
+msgid "the numlock state, on or off"
+msgstr ""
+
+#: keyboardsetup:71
+#, sh-format
+msgid "the IBus state, on or off"
+msgstr ""
+
+#: keyboardsetup:72
+#, sh-format
+msgid "the SCIM state, on or off"
+msgstr ""
+
+#: keyboardsetup:73
+#, sh-format
+msgid "do not apply changes on the fly, only edit settings files"
+msgstr ""
+
+#: keyboardsetup:134
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
 " for a list of valid keymaps"
 msgstr ""
 
-#: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
+#: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr ""
 
-#: keyboardsetup:179
+#: keyboardsetup:183
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr ""
 
-#: keyboardsetup:230
+#: keyboardsetup:234
 #, sh-format
 msgid "Keyboard configuration"
 msgstr ""
 
-#: keyboardsetup:232
+#: keyboardsetup:236
 #, sh-format
 msgid "OK"
 msgstr ""
 
-#: keyboardsetup:233
+#: keyboardsetup:237
 #, sh-format
 msgid "Exit"
 msgstr ""
 
-#: keyboardsetup:235
+#: keyboardsetup:239
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr ""
 
-#: keyboardsetup:258
+#: keyboardsetup:262
 #, sh-format
 msgid "Numlock configuration"
 msgstr ""
 
-#: keyboardsetup:259 keyboardsetup:284 keyboardsetup:310
+#: keyboardsetup:263 keyboardsetup:288 keyboardsetup:314
 #, sh-format
 msgid "Enabled"
 msgstr ""
 
-#: keyboardsetup:260 keyboardsetup:285 keyboardsetup:311
+#: keyboardsetup:264 keyboardsetup:289 keyboardsetup:315
 #, sh-format
 msgid "Disabled"
 msgstr ""
 
-#: keyboardsetup:263
+#: keyboardsetup:267
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr ""
 
-#: keyboardsetup:283
+#: keyboardsetup:287
 #, sh-format
 msgid "IBus configuration"
 msgstr ""
 
-#: keyboardsetup:288
+#: keyboardsetup:292
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
@@ -127,12 +128,12 @@ msgid ""
 "take effect."
 msgstr ""
 
-#: keyboardsetup:309
+#: keyboardsetup:313
 #, sh-format
 msgid "SCIM configuration"
 msgstr ""
 
-#: keyboardsetup:314
+#: keyboardsetup:318
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "

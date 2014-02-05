@@ -4,12 +4,13 @@
 # 
 # Translators:
 # jui <appukonrad@gmail.com>, 2013
+# jui <appukonrad@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
-"PO-Revision-Date: 2014-02-05 09:06+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2014-02-05 20:45+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/salixtools/language/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
@@ -18,108 +19,109 @@ msgstr ""
 "Language: cs_CZ\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: keyboardsetup:61
+#: keyboardsetup:16
 #, sh-format
-msgid ""
-"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
-"scimstate]]"
+msgid "You need root privileges to run this"
 msgstr ""
-
-#: keyboardsetup:63
-#, sh-format
-msgid "OPTIONS:"
-msgstr "MOŽNOSTI:"
 
 #: keyboardsetup:65
 #, sh-format
-msgid "   -k keymap,         a valid keyboard map"
-msgstr "-k mapa kláves, mapa klávesnice"
-
-#: keyboardsetup:66
-#, sh-format
-msgid "   -n numlockstate,   the numlock state, on or off"
+msgid "USAGE:"
 msgstr ""
 
 #: keyboardsetup:67
 #, sh-format
-msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr ""
-
-#: keyboardsetup:68
-#, sh-format
-msgid "   -s scimstate,      the SCIM state, on or off"
-msgstr ""
+msgid "OPTIONS:"
+msgstr "MOŽNOSTI:"
 
 #: keyboardsetup:69
 #, sh-format
-msgid ""
-"   -z,                do not apply changes on the fly, only edit settings "
-"files"
+msgid "a valid keyboard map"
+msgstr "mapa kláves, mapa klávesnice"
+
+#: keyboardsetup:70
+#, sh-format
+msgid "the numlock state, on or off"
 msgstr ""
 
-#: keyboardsetup:130
+#: keyboardsetup:71
+#, sh-format
+msgid "the IBus state, on or off"
+msgstr ""
+
+#: keyboardsetup:72
+#, sh-format
+msgid "the SCIM state, on or off"
+msgstr ""
+
+#: keyboardsetup:73
+#, sh-format
+msgid "do not apply changes on the fly, only edit settings files"
+msgstr ""
+
+#: keyboardsetup:134
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
 " for a list of valid keymaps"
 msgstr ""
 
-#: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
+#: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "CHYBA: $OPTARG není platná možnost."
 
-#: keyboardsetup:179
+#: keyboardsetup:183
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "CHYBA: Příliš mnoho argumentů"
 
-#: keyboardsetup:230
+#: keyboardsetup:234
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Nastavení klávesnice"
 
-#: keyboardsetup:232
+#: keyboardsetup:236
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: keyboardsetup:233
+#: keyboardsetup:237
 #, sh-format
 msgid "Exit"
 msgstr "Opustit"
 
-#: keyboardsetup:235
+#: keyboardsetup:239
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Prosím vyberte Vaší preferovanou mapu klávesnice:"
 
-#: keyboardsetup:258
+#: keyboardsetup:262
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Nastavení NumLocku"
 
-#: keyboardsetup:259 keyboardsetup:284 keyboardsetup:310
+#: keyboardsetup:263 keyboardsetup:288 keyboardsetup:314
 #, sh-format
 msgid "Enabled"
 msgstr "Povolit"
 
-#: keyboardsetup:260 keyboardsetup:285 keyboardsetup:311
+#: keyboardsetup:264 keyboardsetup:289 keyboardsetup:315
 #, sh-format
 msgid "Disabled"
 msgstr "Zakázat"
 
-#: keyboardsetup:263
+#: keyboardsetup:267
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr ""
 
-#: keyboardsetup:283
+#: keyboardsetup:287
 #, sh-format
 msgid "IBus configuration"
 msgstr "Nastavení IBus"
 
-#: keyboardsetup:288
+#: keyboardsetup:292
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
@@ -128,12 +130,12 @@ msgid ""
 "take effect."
 msgstr ""
 
-#: keyboardsetup:309
+#: keyboardsetup:313
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Nastavení SCIM"
 
-#: keyboardsetup:314
+#: keyboardsetup:318
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "

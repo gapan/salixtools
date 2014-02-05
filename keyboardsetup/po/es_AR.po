@@ -4,13 +4,14 @@
 # 
 # Translators:
 # aleximon <alejandrosimon@gmx.com>, 2014
+# aleximon <alejandrosimon@gmx.com>, 2014
 # seacat <seacat.linux@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-04 01:13+0300\n"
-"PO-Revision-Date: 2014-02-05 09:06+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2014-02-05 20:45+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Spanish (Argentina) (http://www.transifex.com/projects/p/salixtools/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
@@ -19,108 +20,109 @@ msgstr ""
 "Language: es_AR\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: keyboardsetup:61
+#: keyboardsetup:16
 #, sh-format
-msgid ""
-"USAGE: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s "
-"scimstate]]"
-msgstr "USO: keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate]]"
+msgid "You need root privileges to run this"
+msgstr ""
 
-#: keyboardsetup:63
+#: keyboardsetup:65
+#, sh-format
+msgid "USAGE:"
+msgstr "USO:"
+
+#: keyboardsetup:67
 #, sh-format
 msgid "OPTIONS:"
 msgstr "OPCIONES:"
 
-#: keyboardsetup:65
-#, sh-format
-msgid "   -k keymap,         a valid keyboard map"
-msgstr "   -k keymap,         un mapa de teclado válido"
-
-#: keyboardsetup:66
-#, sh-format
-msgid "   -n numlockstate,   the numlock state, on or off"
-msgstr "   -n numlockstate,   el estado de BloqNum, encendido o apagado"
-
-#: keyboardsetup:67
-#, sh-format
-msgid "   -i ibusstate,      the IBus state, on or off"
-msgstr "   -i ibusstate,      estado de IBus, on u off"
-
-#: keyboardsetup:68
-#, sh-format
-msgid "   -s scimstate,      the SCIM state, on or off"
-msgstr "   -s scimstate,      el estado de SCIM, conextado o no"
-
 #: keyboardsetup:69
 #, sh-format
-msgid ""
-"   -z,                do not apply changes on the fly, only edit settings "
-"files"
-msgstr "-z, no aplica los cambios sobre la marcha, solo edita los archivos de configuración"
+msgid "a valid keyboard map"
+msgstr "un mapa de teclado válido"
 
-#: keyboardsetup:130
+#: keyboardsetup:70
+#, sh-format
+msgid "the numlock state, on or off"
+msgstr "el estado de BloqNum, encendido o apagado"
+
+#: keyboardsetup:71
+#, sh-format
+msgid "the IBus state, on or off"
+msgstr "estado de IBus, on u off"
+
+#: keyboardsetup:72
+#, sh-format
+msgid "the SCIM state, on or off"
+msgstr "el estado de SCIM, conextado o no"
+
+#: keyboardsetup:73
+#, sh-format
+msgid "do not apply changes on the fly, only edit settings files"
+msgstr "no aplica los cambios sobre la marcha, solo edita los archivos de configuración"
+
+#: keyboardsetup:134
 #, sh-format
 msgid ""
 "ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
 " for a list of valid keymaps"
 msgstr "ERROR: $OPTARG no es un mapa de teclado válido. Puede buscar en $salixtoolsdir/keymaps la lista de mapas de teclado válidos"
 
-#: keyboardsetup:144 keyboardsetup:153 keyboardsetup:162
+#: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
 msgstr "ERROR: $OPTARG no es una opción válida."
 
-#: keyboardsetup:179
+#: keyboardsetup:183
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ERROR: Demasiados argumentos"
 
-#: keyboardsetup:230
+#: keyboardsetup:234
 #, sh-format
 msgid "Keyboard configuration"
 msgstr "Configuración del teclado"
 
-#: keyboardsetup:232
+#: keyboardsetup:236
 #, sh-format
 msgid "OK"
 msgstr "Aceptar"
 
-#: keyboardsetup:233
+#: keyboardsetup:237
 #, sh-format
 msgid "Exit"
 msgstr "Salir"
 
-#: keyboardsetup:235
+#: keyboardsetup:239
 #, sh-format
 msgid "Please select your preferred keyboard map:"
 msgstr "Por favor, seleccione su mapa de teclado preferido:"
 
-#: keyboardsetup:258
+#: keyboardsetup:262
 #, sh-format
 msgid "Numlock configuration"
 msgstr "Configuración de BloqNum"
 
-#: keyboardsetup:259 keyboardsetup:284 keyboardsetup:310
+#: keyboardsetup:263 keyboardsetup:288 keyboardsetup:314
 #, sh-format
 msgid "Enabled"
 msgstr "Habilitado"
 
-#: keyboardsetup:260 keyboardsetup:285 keyboardsetup:311
+#: keyboardsetup:264 keyboardsetup:289 keyboardsetup:315
 #, sh-format
 msgid "Disabled"
 msgstr "Deshabilitado"
 
-#: keyboardsetup:263
+#: keyboardsetup:267
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
 msgstr "¿Quiere tener BloqNum habilitado o deshabilitado por defecto?"
 
-#: keyboardsetup:283
+#: keyboardsetup:287
 #, sh-format
 msgid "IBus configuration"
 msgstr "Configuración de IBus"
 
-#: keyboardsetup:288
+#: keyboardsetup:292
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
@@ -129,12 +131,12 @@ msgid ""
 "take effect."
 msgstr "IBus es una plataforma de entrada para chino, japonés, coreno y muchos otros idiomas cuando se usa un entorno gráfico. ¿Desea tenerlo habilitado o deshabilitado al arranque?\n\nPara que el cambio surta efecto, tendrá que reiniciar su sistema."
 
-#: keyboardsetup:309
+#: keyboardsetup:313
 #, sh-format
 msgid "SCIM configuration"
 msgstr "Configuración de SCIM"
 
-#: keyboardsetup:314
+#: keyboardsetup:318
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
