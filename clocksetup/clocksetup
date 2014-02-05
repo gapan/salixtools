@@ -22,9 +22,6 @@ init(){
 		
 	dialog="dialog"
 
-	# Path needs to be extended in case you're only half a root :)
-	export PATH="/usr/sbin:/sbin:${PATH}"
-	
 	HWCLOCK_CONF=/etc/hardwareclock
 
 	hour="$(date +%H)"
