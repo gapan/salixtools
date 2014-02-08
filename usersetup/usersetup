@@ -254,6 +254,7 @@ fi
 ###############################################
 # Set the account name or create the account if new name
 setusername() {
+  unset GROUPS
   current="$user"
   user=$($dialog \
   --stdout \
@@ -288,9 +289,11 @@ setusername() {
       # user to the wheel group
       present_users=$( grep -v '^[^:]\+:x:[0-9]\{0,3\}:' /etc/passwd | wc -l )
       if [ $present_users -eq 0 ]; then
-        useraddmembership="${useraddmembership},wheel"
+        GROUPS="${useraddmembership},wheel"
+      else
+        GROUPS="${useraddmembership}"
       fi
-      useradd -s $defaultshell -g $defaultgroup -m -k $skeleton -G $useraddmembership "$user" 2>/dev/null
+      useradd -s $defaultshell -g $defaultgroup -m -k $skeleton -G $GROUPS "$user" 2>/dev/null
     fi
   fi
   current=""
