@@ -268,15 +268,15 @@ setusername() {
   else
     message="ok"
     if [ "$( echo "$user" | grep " " )" ]; then
-      message="`eval_gettext 'An account name cannot contain a space, please correct it...'`  "                 
+      message="`eval_gettext 'An account name cannot contain a space, please correct it...'`  "
     elif [ "$(grep -e "^$user:.*$" $pwfile )" ]; then
-      message="`eval_gettext 'The account name $user already exists, please choose another name...'`  "              
+      message="`eval_gettext 'The account name $user already exists, please choose another name...'`  "
     elif [ ! "$user" ]; then
       message="`eval_gettext 'The account name is empty, please correct it...'`  "
     elif [ "$( echo $user | grep "^[0-9]" )" ]; then
       message="`eval_gettext 'An account name cannot begin with a number, please correct it...'`  "
     elif [ ! "$user" = "$(echo $user | tr A-Z a-z)" ]; then
-      message="`eval_gettext 'An account name cannot contain uppercase characters, please correct it...'`"                
+      message="`eval_gettext 'An account name cannot contain uppercase characters, please correct it...'`"
     elif [ ! -z "$( echo $user | grep '\.' )" ]; then
       message="`eval_gettext 'An account name cannot contain punctuation marks, please correct it...'`"
     fi
