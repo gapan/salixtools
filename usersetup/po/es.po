@@ -1,27 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
+# aleximon <alejandrosimon@gmx.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2014-02-05 09:23+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/salixtools/"
-"language/es/)\n"
-"Language: es\n"
+"PO-Revision-Date: 2014-02-05 22:49+0000\n"
+"Last-Translator: aleximon <alejandrosimon@gmx.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/salixtools/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: usersetup:18
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr ""
+msgstr "Necesita privilegios de administrador para ejecutarlo"
 
 #: usersetup:42
 #, sh-format
@@ -257,8 +257,7 @@ msgstr "Ingresar un nuevo nombre de cuenta..."
 #: usersetup:271
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
-msgstr ""
-"Un nombre de cuenta no puede contener un espacio, por favor corríjalo..."
+msgstr "Un nombre de cuenta no puede contener un espacio, por favor corríjalo..."
 
 #: usersetup:273
 #, sh-format
@@ -273,23 +272,18 @@ msgstr "El nombre de la cuenta está vacío, por favor corríjalo..."
 #: usersetup:277
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr ""
-"Un nombre de cuenta no puede comenzar con un número, por favor corríjalo..."
+msgstr "Un nombre de cuenta no puede comenzar con un número, por favor corríjalo..."
 
 #: usersetup:279
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
-msgstr ""
-"Un nombre de cuenta no puede contener letras mayúsculas, por favor "
-"corríjalo..."
+msgstr "Un nombre de cuenta no puede contener letras mayúsculas, por favor corríjalo..."
 
 #: usersetup:281
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr ""
-"Un nombre de cuenta no puede contener signos de puntuación, por favor "
-"corríjalo..."
+msgstr "Un nombre de cuenta no puede contener signos de puntuación, por favor corríjalo..."
 
 #: usersetup:305
 #, sh-format
@@ -355,10 +349,9 @@ msgstr "Las contraseñas no coinciden, por favor inténtelo otra vez..."
 #: usersetup:437
 #, sh-format
 msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
-"La contraseña es demasiado corta (${minlength} caracteres como mínimo), por "
-"favor intente con otra..."
+"Password is too short (${minlength} chars minimum), please try another "
+"one..."
+msgstr "La contraseña es demasiado corta (${minlength} caracteres como mínimo), por favor intente con otra..."
 
 #: usersetup:440
 #, sh-format

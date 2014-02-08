@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2014-02-05 20:40+0000\n"
+"PO-Revision-Date: 2014-02-08 17:10+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: keyboardsetup:16
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr ""
+msgstr "Απαιτούνται δικαιώματα υπερχρήστη για την εκτέλεση"
 
 #: keyboardsetup:65
 #, sh-format
