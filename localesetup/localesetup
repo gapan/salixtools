@@ -53,6 +53,13 @@ currentlocale="$(cat /etc/profile.d/lang.sh \
   | grep -E "^[[:space:]]*export LANG=" \
   | sed -e "s/^[ ]*export LANG=\(.*\)$/\1/")"
 
+# default to en_US.utf8 if what is set in lang.sh is only just en_US 
+if [ "$currentlocale" = "en_US" ]; then
+	defaultlocale="en_US.utf8"
+else
+	defaultlocale="$currentlocale"
+fi
+
 # probe for available locales
 list="$(locale -cva \
 | grep -A 2 utf8 | sed '/^-/d' \
@@ -67,7 +74,7 @@ s/^\(.*\) *\n *title . \(.*\)$/"\1" "\2 " \\/'}
 locale="$(eval $dialog \
 --stdout \
 --title \"`eval_gettext 'System language configuration'`\" \
---default-item \"${currentlocale}\" \
+--default-item \"${defaultlocale}\" \
 --ok-label "`eval_gettext 'OK'`" \
 --cancel-label "`eval_gettext 'Exit'`" \
 --menu \
