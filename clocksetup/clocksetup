@@ -274,8 +274,8 @@ hwclockmenu(){
 
 # This is the main thing!
 init
-check_for_root
 checkoptions $@
+check_for_root
 
 if [ $showmenu -eq 0 ]; then
 	if [ $showdate -eq 1 ]; then
