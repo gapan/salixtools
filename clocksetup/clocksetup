@@ -30,7 +30,11 @@ init(){
 	month="$(date +%m)"
 	day="$(date +%d)"
 	year="$(date +%Y)"
-	zone=$(ls -l /etc/localtime-copied-from | sed -n 's/^.*->.*zoneinfo\/\(.*\)$/\1/p')
+	if [ -L /etc/localtime-copied-from ]; then
+		zone=$(ls -l /etc/localtime-copied-from | sed -n 's/^.*->.*zoneinfo\/\(.*\)$/\1/p')
+	else
+		zone="Etc/UTC"
+	fi
 	
 	showmenu=1
 	showdate=0
