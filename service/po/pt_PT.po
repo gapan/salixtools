@@ -1,38 +1,35 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2012
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2012,2014
 # Sérgio Marques <smarquespt@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2014-02-05 08:55+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/"
-"salixtools/language/pt_PT/)\n"
-"Language: pt_PT\n"
+"PO-Revision-Date: 2014-03-02 18:51+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/salixtools/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: service:25
 #, sh-format
 msgid "This action requires root privileges."
-msgstr ""
+msgstr "Esta ação requer privilégios root."
 
 #: service:46
 #, sh-format
 msgid ""
 "${BOLDCYAN}Starting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
-"${BOLDCYAN}A iniciar${COLOR_RESET} o serviço "
-"${BOLDWHITE}${servicename}${COLOR_RESET}"
+msgstr "${BOLDCYAN}A iniciar${COLOR_RESET} o serviço ${BOLDWHITE}${servicename}${COLOR_RESET}"
 
 #: service:50 service:62 service:80
 #, sh-format
@@ -44,18 +41,14 @@ msgstr "Serviço ${BOLDWHITE}${servicename}${COLOR_RESET} inexistente"
 msgid ""
 "${BOLDYELLOW}Stopping${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
-"${BOLDYELLOW}A parar${COLOR_RESET} o serviço "
-"${BOLDWHITE}${servicename}${COLOR_RESET}"
+msgstr "${BOLDYELLOW}A parar${COLOR_RESET} o serviço ${BOLDWHITE}${servicename}${COLOR_RESET}"
 
 #: service:69
 #, sh-format
 msgid ""
 "${BOLDCYAN}Restarting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
-"${BOLDCYAN}A reiniciar${COLOR_RESET} o serviço "
-"${BOLDWHITE}${servicename}${COLOR_RESET}"
+msgstr "${BOLDCYAN}A reiniciar${COLOR_RESET} o serviço ${BOLDWHITE}${servicename}${COLOR_RESET}"
 
 #: service:89
 #, sh-format

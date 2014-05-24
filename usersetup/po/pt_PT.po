@@ -1,29 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2012
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2012,2014
 # Sérgio Marques <smarquespt@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2014-02-05 09:23+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/"
-"salixtools/language/pt_PT/)\n"
-"Language: pt_PT\n"
+"PO-Revision-Date: 2014-03-02 18:40+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/salixtools/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: usersetup:18
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr ""
+msgstr "Você precisa de privilégios root para executar isto"
 
 #: usersetup:42
 #, sh-format
@@ -280,14 +279,12 @@ msgstr "O nome de conta não pode começar com um número. Por favor corrija..."
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
-msgstr ""
-"O nome de conta não pode conter caracteres maiúsculos. Por favor corrija.."
+msgstr "O nome de conta não pode conter caracteres maiúsculos. Por favor corrija.."
 
 #: usersetup:281
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr ""
-"O nome de conta não pode conter sinais de pontuação. Por favor corrija..."
+msgstr "O nome de conta não pode conter sinais de pontuação. Por favor corrija..."
 
 #: usersetup:305
 #, sh-format
@@ -353,10 +350,9 @@ msgstr "As senhas não são iguais. Por favor tente novamente..."
 #: usersetup:437
 #, sh-format
 msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
-"A senha é muito curta (tem que usar, pelo menos ${minLength} caracteres). "
-"Por favor escolha outra..."
+"Password is too short (${minlength} chars minimum), please try another "
+"one..."
+msgstr "A senha é muito curta (tem que usar, pelo menos ${minLength} caracteres). Por favor escolha outra..."
 
 #: usersetup:440
 #, sh-format
