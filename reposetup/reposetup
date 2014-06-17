@@ -174,11 +174,12 @@ echo "`eval_gettext 'OPTIONS:'`"
 echo "    -m mirror,  `eval_gettext 'Specify a repository mirror manually'`"
 echo "    -l,         `eval_gettext 'Use local mirror list and do not download a new one'`"
 echo "    -n,         `eval_gettext 'Do not update/ask for updating the package caches'`"
+echo "    -p,         `eval_gettext 'Print currently selected mirror'`"
 echo "    -h,         `eval_gettext 'This help message'`"
 }
 
 checkoptions(){
-	while getopts ":hm:ln" flag
+	while getopts ":hm:lnp" flag
 	do
 		# if switch is unknown or if asking for help
 		if [ $flag = "?" ] || [ $flag = "h" ]; then
@@ -208,6 +209,16 @@ checkoptions(){
 		fi
 		if [ $flag = "n" ]; then
 			UPDATE=0
+		fi
+		if [ $flag = "p" ]; then
+			if [[ -n $CURRENTREPO ]]; then
+				echo $CURRENTREPO
+				cleanup
+				exit 0
+			else
+				cleanup
+				exit 1
+			fi
 		fi
 	done
 	
