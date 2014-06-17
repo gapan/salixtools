@@ -20,7 +20,11 @@ init(){
 	export TEXTDOMAIN="reposetup"
 	export TEXTDOMAINDIR="/usr/share/locale"
 	. gettext.sh
-	
+
+	# create temp dir
+	TEMPDIR="$(mktemp -d -p /tmp reposetup.XXXXXXXX)"
+	cd $TEMPDIR
+
 	# Path to the salixtools shared files
 	salixtoolsdir="/usr/share/salixtools/"
 
@@ -77,7 +81,7 @@ checkdefaults(){
 	fi
 	
 	# keep CUSTOM slapt-get repos in a temporary file
-	grep "CUSTOM$" $SLAPTGETRC > /tmp/reposetup.$$
+	grep "CUSTOM$" $SLAPTGETRC > $TEMPDIR/custom
 
 	# slapt-srcrc
 	if [ -f $SLAPTSRCRC ]; then
@@ -108,6 +112,7 @@ interactive(){
 	# Don't do anything if Cancel or the close button was pressed
 	retval=$?
 	if [ $retval -eq 1 ] || [ $retval -eq 255 ]; then
+		cleanup
 		exit 0
 	fi
 }
@@ -150,7 +155,7 @@ configslaptget() {
 	echo "# Local repositories"
 	) > $SLAPTGETRC
 
-	cat /tmp/reposetup.$$ >> $SLAPTGETRC
+	cat $TEMPDIR/custom >> $SLAPTGETRC
 }
 
 configslaptsrc(){
@@ -178,6 +183,7 @@ checkoptions(){
 		# if switch is unknown or if asking for help
 		if [ $flag = "?" ] || [ $flag = "h" ]; then
 			usage
+			cleanup
 			exit 0
 		fi
 		if [ $flag = "m" ]; then
@@ -193,6 +199,7 @@ checkoptions(){
 				repo="`echo \"$OPTARG\" | sed 's|/*$||g'`"
 			else
 				usage
+				cleanup
 				exit 1
 			fi
 		fi
@@ -211,6 +218,7 @@ checkoptions(){
 	if [ $# -gt 0 ]; then
 		echo "`eval_gettext 'ERROR: Too many arguments'`" >&2
 		usage
+		cleanup
 		exit 1
 	fi
 }
@@ -272,7 +280,7 @@ fi
 }
 
 cleanup(){
-	rm -f /tmp/reposetup.$$
+	rm -rf $TEMPDIR
 }
 
 # This is the main thing!
