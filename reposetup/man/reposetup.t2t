@@ -52,6 +52,10 @@ a mirror. Only the configuration files are altered. If used together
 with the **-m** option, it prevents **reposetup** from updating the
 package caches.
 
+: **-p**
+Only print the currently selected mirror and exit, without making any
+changes. If no mirror has been set, exit code 1 is returned..
+
 
 = GENERAL OPTIONS =
 
