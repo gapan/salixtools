@@ -1,27 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
+# Thorsten <thenktor@posteo.de>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2014-02-05 09:23+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/salixtools/"
-"language/de/)\n"
-"Language: de\n"
+"PO-Revision-Date: 2014-07-24 10:39+0000\n"
+"Last-Translator: Thorsten <thenktor@posteo.de>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/salixtools/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: usersetup:18
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr ""
+msgstr "Sie benötigen Root-Rechte, um dies auszuführen"
 
 #: usersetup:42
 #, sh-format
@@ -257,15 +257,12 @@ msgstr "Geben Sie den neuen Benutzernamen ein..."
 #: usersetup:271
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
-msgstr ""
-"Ein Benutzername darf kein Leerzeichen enthalten, bitte korrigieren Sie "
-"ihn..."
+msgstr "Ein Benutzername darf kein Leerzeichen enthalten, bitte korrigieren Sie ihn..."
 
 #: usersetup:273
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
-msgstr ""
-"Der Benutzer $user existiert bereits, bitte wählen Sie einen anderen Namen..."
+msgstr "Der Benutzer $user existiert bereits, bitte wählen Sie einen anderen Namen..."
 
 #: usersetup:275
 #, sh-format
@@ -275,24 +272,18 @@ msgstr "Der Benutzername ist leer, bitte korrigieren Sie ihn..."
 #: usersetup:277
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr ""
-"Der Benutzername darf nicht mit einer Zahl beginnen, bitte korrigieren Sie "
-"ihn..."
+msgstr "Der Benutzername darf nicht mit einer Zahl beginnen, bitte korrigieren Sie ihn..."
 
 #: usersetup:279
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
-msgstr ""
-"Ein Benutzername darf keine Großbuchstaben enthalten, bitte korrigieren Sie "
-"ihn..."
+msgstr "Ein Benutzername darf keine Großbuchstaben enthalten, bitte korrigieren Sie ihn..."
 
 #: usersetup:281
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr ""
-"Ein Benutzername darf keine Satzzeichen enthalten, bitte korrigieren Sie "
-"ihn..."
+msgstr "Ein Benutzername darf keine Satzzeichen enthalten, bitte korrigieren Sie ihn..."
 
 #: usersetup:305
 #, sh-format
@@ -358,10 +349,9 @@ msgstr "Die Passwörter stimmen nicht überein, bitte versuchen Sie es erneut...
 #: usersetup:437
 #, sh-format
 msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
-"Das Passwort ist zu kurz (mindestens ${minlength} Zeichen), bitte versuchen "
-"Sie ein anderes..."
+"Password is too short (${minlength} chars minimum), please try another "
+"one..."
+msgstr "Das Passwort ist zu kurz (mindestens ${minlength} Zeichen), bitte versuchen Sie ein anderes..."
 
 #: usersetup:440
 #, sh-format
