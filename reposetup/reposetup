@@ -73,10 +73,13 @@ checkdefaults(){
 		SLAPTGETEXCLUDE=$( cat $SLAPTGETRC | grep "^EXCLUDE=" | head -n 1 | sed "s/^EXCLUDE=\(.*\)/\1/" )
 	else
 		SLAPTGETWORKINGDIR="/var/slapt-get"
-		if [ $arch == "x86_64" ]; then
-			SLAPTGETEXCLUDE="^aaa_elflibs,^aaa_base,^devs,^glibc.*,^kernel-.*,^udev,^rootuser-settings,^zzz-settings.*,-i?86-"
+		ALLEXCLUDE="^aaa_elflibs,^aaa_base,^devs,^glibc.*,^kernel-.*,^udev,^rootuser-settings,^zzz-settings.*"
+		if [ $arch == "arm" ]; then
+			SLAPTGETEXCLUDE="${ALLEXCLUDE}"
+		elif [ $arch == "x86_64" ]; then
+			SLAPTGETEXCLUDE="${ALLEXCLUDE},-i?86-"
 		else
-			SLAPTGETEXCLUDE="^aaa_elflibs,^aaa_base,^devs,^glibc.*,^kernel-.*,^udev,^rootuser-settings,^zzz-settings.*,-x86_64-"
+			SLAPTGETEXCLUDE="${ALLEXCLUDE},-x86_64-"
 		fi
 	fi
 	
