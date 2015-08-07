@@ -32,7 +32,7 @@ init(){
 	SLAPTGETRC="/etc/slapt-get/slapt-getrc"
 	SLAPTSRCRC="/etc/slapt-get/slapt-srcrc"
 
-	# Patch to the slapt-* binaries
+	# Paths to the slapt-* binaries
 	SLAPTGET="/usr/sbin/slapt-get"
 	SLAPTSRC="/usr/bin/slapt-src"
 
