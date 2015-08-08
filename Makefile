@@ -79,4 +79,12 @@ update-po:
 		cd ../../; \
 	done
 
-.PHONY: all man mo update-po clean install
+transifex:
+	for i in clocksetup keyboardsetup localesetup service servicesetup \
+		usersetup reposetup; do \
+		cd $$i; \
+		tx pull -a; \
+		cd ..; \
+	done
+
+.PHONY: all man mo update-po transifex clean install
