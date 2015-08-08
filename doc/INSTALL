@@ -3,15 +3,15 @@ Installation
 
 To install, just run:
 
- ./compile.sh
+ make
 
 followed by:
 
- ./install.sh
+ make install
 
 as root. You can set DESTDIR to change the installation target:
 
-DESTDIR=/my/custom/installation/target ./install.sh
+ make install DESTDIR=/my/custom/installation/target
 
 NOTE: You will need to have txt2tags installed. It is used for creating
 manpages for all salixtools.
