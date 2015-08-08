@@ -64,4 +64,19 @@ install:
 	install -m 644 reposetup/repomirrors $(DESTDIR)/usr/share/salixtools/reposetup
 	install -m 644 salix-version $(DESTDIR)/usr/share/salixtools/
 
-.PHONY: all man mo clean install
+update-po:
+	for i in clocksetup keyboardsetup localesetup service servicesetup \
+		usersetup reposetup; do \
+		cd $$i; \
+		echo "Creating $$i.pot file..."; \
+		xgettext --from-code=utf-8 -L shell -o po/$$i.pot $$i; \
+		cd po; \
+		for j in `ls *.po`; do \
+			echo -n "Merging $$j translation for $$i..."; \
+			msgmerge -U $$j $$i.pot; \
+		done; \
+		rm -f ./*~; \
+		cd ../../; \
+	done
+
+.PHONY: all man mo update-po clean install
