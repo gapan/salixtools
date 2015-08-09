@@ -38,10 +38,10 @@ install:
 		install -m 755 $$i/$$i $(DESTDIR)/usr/sbin/; \
 		for j in `ls $$i/po/*.mo`; do \
 			install -d -m 755 \
-			$(DESTDIR)/usr/share/locale/`basename $$j|sed "s/.mo//"`/LC_MESSAGES \
+			$(DESTDIR)/$(PACKAGE_LOCALE_DIR)/`basename $$j|sed "s/.mo//"`/LC_MESSAGES \
 			2> /dev/null; \
 			install -m 644 $$j \
-			$(DESTDIR)/usr/share/locale/`basename $$j|sed "s/.mo//"`/LC_MESSAGES/$$i.mo; \
+			$(DESTDIR)/$(PACKAGE_LOCALE_DIR)/`basename $$j|sed "s/.mo//"`/LC_MESSAGES/$$i.mo; \
 		done; \
 	done
 	install -m 755 update-all/update-all $(DESTDIR)/usr/sbin/
