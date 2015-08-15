@@ -1,0 +1,13 @@
+Salixtools is a collection of command line (ncurses) system tools for
+Salix. They can be also used in any other Slackware derivative.
+
+It includes:
+- clocksetup: configures system date and time
+- keyboardsetup: selects the system wide keymap
+- localesetup: selects the system locale
+- reposetup: selects the repository mirror to use for package management
+- service: manages system services from the command line
+- servicesetup: manages system services interatively
+- update-all: updates all sorts of caches (pango, mime etc)
+- usersetup: manages user accounts
+
