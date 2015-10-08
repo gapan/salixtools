@@ -69,6 +69,7 @@ checkdefaults(){
 
 	# slapt-getrc
 	if [ -f $SLAPTGETRC ]; then
+		CURRENTREPO=$( cat $SLAPTGETRC | grep "^SOURCE=" | grep ":PREFERRED$" | sed "s/^SOURCE=\(.*\)\/$arch\/$version\/:PREFERED/\1/" )
 		SLAPTGETWORKINGDIR=$( cat $SLAPTGETRC | grep "^WORKINGDIR=" | head -n 1 | sed "s/^WORKINGDIR=\(.*\)/\1/" )
 		SLAPTGETEXCLUDE=$( cat $SLAPTGETRC | grep "^EXCLUDE=" | head -n 1 | sed "s/^EXCLUDE=\(.*\)/\1/" )
 	else
