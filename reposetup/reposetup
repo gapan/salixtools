@@ -67,7 +67,7 @@ checkdefaults(){
 		version=$( cat $salixtoolsdir/salix-version )
 	else
 		echo "ERROR: $salixtoolsdir/salix-version not found"
-		exit 1
+		exit 11
 	fi
 
 	CURRENTREPO=""
