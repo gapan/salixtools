@@ -37,7 +37,7 @@ sed -n "s/^${1}:\(.*\):.*$/\1/p" $descdir/*.txt
 
 getdaemon(){
   daemon=$(sed -n "s/^${actionname}:.*:\(.*\)$/\1/p" $descdir/*.txt)
-  pidof -x $daemon
+  /sbin/pidof -x $daemon
 }
 
 start() {
