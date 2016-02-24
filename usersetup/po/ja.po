@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"POT-Creation-Date: 2016-02-24 12:54+0200\n"
 "PO-Revision-Date: 2014-02-05 09:23+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/salixtools/"
@@ -114,7 +114,7 @@ msgstr "詳細を見るためにアカウントを選ぶ。"
 msgid "Account deletion"
 msgstr "アカウントを消去する"
 
-#: usersetup:90 usersetup:159 usersetup:660 usersetup:724
+#: usersetup:90 usersetup:159 usersetup:663 usersetup:727
 #, sh-format
 msgid "Delete"
 msgstr "消去"
@@ -154,7 +154,7 @@ msgstr "メンバーシップ"
 msgid "Select a group to view memberships for..."
 msgstr "メンバーシップを表示するためにグループを選ぶ"
 
-#: usersetup:140 usersetup:529
+#: usersetup:140 usersetup:532
 #, sh-format
 msgid "Group name"
 msgstr "グループの名前"
@@ -184,52 +184,52 @@ msgstr "消去するグループを選ぶ"
 msgid "Detailed information for account"
 msgstr "アカウントの詳細"
 
-#: usersetup:201 usersetup:471 usersetup:578
+#: usersetup:201 usersetup:474 usersetup:581
 #, sh-format
 msgid "Full name"
 msgstr "氏名"
 
-#: usersetup:202 usersetup:260 usersetup:554
+#: usersetup:202 usersetup:261 usersetup:557
 #, sh-format
 msgid "Account name"
 msgstr "アカウントの名前"
 
-#: usersetup:203 usersetup:558
+#: usersetup:203 usersetup:561
 #, sh-format
 msgid "Main Group"
 msgstr "主なグループ"
 
-#: usersetup:204 usersetup:321 usersetup:562
+#: usersetup:204 usersetup:324 usersetup:565
 #, sh-format
 msgid "Home directory"
 msgstr "Home（ホーム）ディレクトリ"
 
-#: usersetup:205 usersetup:347 usersetup:570
+#: usersetup:205 usersetup:350 usersetup:573
 #, sh-format
 msgid "Shell"
 msgstr "シェル"
 
-#: usersetup:206 usersetup:566
+#: usersetup:206 usersetup:569
 #, sh-format
 msgid "Other groups"
 msgstr "その他のグループ"
 
-#: usersetup:207 usersetup:574
+#: usersetup:207 usersetup:577
 #, sh-format
 msgid "Expiry"
 msgstr "有効期間満了日"
 
-#: usersetup:208 usersetup:582
+#: usersetup:208 usersetup:585
 #, sh-format
 msgid "Office"
 msgstr "オフィス"
 
-#: usersetup:209 usersetup:499 usersetup:586
+#: usersetup:209 usersetup:502 usersetup:589
 #, sh-format
 msgid "Work phone"
 msgstr "仕事の電話番号"
 
-#: usersetup:210 usersetup:513 usersetup:590
+#: usersetup:210 usersetup:516 usersetup:593
 #, sh-format
 msgid "Home phone"
 msgstr "プライベートの電話番号"
@@ -249,105 +249,105 @@ msgstr "グループのメンバー"
 msgid "There are no accounts in group"
 msgstr "グループに所属するアカウントが、一つもありません。"
 
-#: usersetup:262
+#: usersetup:263
 #, sh-format
 msgid "Enter the new account name..."
 msgstr "新しいアカウントの名前を入力する。"
 
-#: usersetup:271
+#: usersetup:272
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
 msgstr "アカウントの名前には、スペースを入れないでください。"
 
-#: usersetup:273
+#: usersetup:274
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
 msgstr ""
 "$userのアカウントネームは、既に使われています。別の名前を選んでください。"
 
-#: usersetup:275
+#: usersetup:276
 #, sh-format
 msgid "The account name is empty, please correct it..."
 msgstr "アカウントに名前をつけてください。"
 
-#: usersetup:277
+#: usersetup:278
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
 msgstr "アカウントの名前は、数字で始まることができません。"
 
-#: usersetup:279
+#: usersetup:280
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
 msgstr "アカウントの名前に大文字を使うことは、できません。"
 
-#: usersetup:281
+#: usersetup:282
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
 msgstr "アカウントの名前に点や丸を使うことはできません。見直してください。"
 
-#: usersetup:305
+#: usersetup:308
 #, sh-format
 msgid "Group membership"
 msgstr "グループ・メンバーシップ"
 
-#: usersetup:306 usersetup:322 usersetup:348 usersetup:368 usersetup:393
-#: usersetup:472 usersetup:486 usersetup:500 usersetup:514 usersetup:530
+#: usersetup:309 usersetup:325 usersetup:351 usersetup:371 usersetup:396
+#: usersetup:475 usersetup:489 usersetup:503 usersetup:517 usersetup:533
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: usersetup:309
+#: usersetup:312
 #, sh-format
 msgid "Enter the main group for account"
 msgstr "アカウントの主なグループを入力する。"
 
-#: usersetup:324
+#: usersetup:327
 #, sh-format
 msgid "Enter the home directory for account"
 msgstr "Home（ホーム）ディレクトリを入力してください。"
 
-#: usersetup:351
+#: usersetup:354
 #, sh-format
 msgid "Enter the shell interpreter for account"
 msgstr "アカウントのシェル・インタープレターを入力してください。"
 
-#: usersetup:367
+#: usersetup:370
 #, sh-format
 msgid "Additional group membership"
 msgstr "グループ・メンバーシップ追加"
 
-#: usersetup:370
+#: usersetup:373
 #, sh-format
 msgid "Add some additional group to the list..."
 msgstr "さらにグループをリストに追加する。"
 
-#: usersetup:392
+#: usersetup:395
 #, sh-format
 msgid "Expiry date"
 msgstr "有効期限満了日"
 
-#: usersetup:394
+#: usersetup:397
 #, sh-format
 msgid "Never"
 msgstr "無期限"
 
-#: usersetup:397
+#: usersetup:400
 #, sh-format
 msgid "Set the account expiry date..."
 msgstr "アカウントの有効期限満了日を設定する。"
 
-#: usersetup:433
+#: usersetup:436
 #, sh-format
 msgid "Enter password for account"
 msgstr "アカウントのパスワードを入力する。"
 
-#: usersetup:434
+#: usersetup:437
 #, sh-format
 msgid "Passwords do not match, please try again..."
 msgstr "パスワードが、会いません。もう一度ためしてください。"
 
-#: usersetup:437
+#: usersetup:440
 #, sh-format
 msgid ""
 "Password is too short (${minlength} chars minimum), please try another one..."
@@ -355,82 +355,82 @@ msgstr ""
 "パスワードが短すぎます(最低${minlength}文字 )。もう一度 入力しなおして下さ"
 "い。"
 
-#: usersetup:440
+#: usersetup:443
 #, sh-format
 msgid "Enter password again for account"
 msgstr "パスワードを再入力してください。"
 
-#: usersetup:457
+#: usersetup:460
 #, sh-format
 msgid "Failed to set password for account"
 msgstr "アカウントのパスワードを設定することができませんでした。"
 
-#: usersetup:474
+#: usersetup:477
 #, sh-format
 msgid "Enter the full name of the user"
 msgstr "氏名を入力してください。"
 
-#: usersetup:485
+#: usersetup:488
 #, sh-format
 msgid "Office information"
 msgstr "オフィスのインフォメーション"
 
-#: usersetup:488
+#: usersetup:491
 #, sh-format
 msgid "Enter office information for the user"
 msgstr "ユーザのためのオフィスのインフォを入力してください。"
 
-#: usersetup:502
+#: usersetup:505
 #, sh-format
 msgid "Enter the work phone number of the user"
 msgstr "ユーザの仕事の電話番号を入力してください。"
 
-#: usersetup:516
+#: usersetup:519
 #, sh-format
 msgid "Enter the home phone number of the user"
 msgstr "ユーザのプライベートの電話番号を入力してください。"
 
-#: usersetup:532
+#: usersetup:535
 #, sh-format
 msgid "Enter the new group name"
 msgstr "新しいグループの名前を入力してください。"
 
-#: usersetup:627 usersetup:648 usersetup:657 usersetup:721
+#: usersetup:630 usersetup:651 usersetup:660 usersetup:724
 #, sh-format
 msgid "Warning"
 msgstr "注意"
 
-#: usersetup:657
+#: usersetup:660
 #, sh-format
 msgid "You cannot delete the account"
 msgstr "このアカウントを消去することは、できません。"
 
-#: usersetup:659
+#: usersetup:662
 #, sh-format
 msgid "Confirm user deletion"
 msgstr "ユーザを消去することを確認してください、"
 
-#: usersetup:661 usersetup:725
+#: usersetup:664 usersetup:728
 #, sh-format
 msgid "Cancel"
 msgstr "取り消し"
 
-#: usersetup:663
+#: usersetup:666
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
 msgstr "$userを消去します。確認してください。"
 
-#: usersetup:721
+#: usersetup:724
 #, sh-format
 msgid "You cannot delete the group"
 msgstr "このグループを消去することは、できません。"
 
-#: usersetup:723
+#: usersetup:726
 #, sh-format
 msgid "Confirm group deletion"
 msgstr "グループを消去するのを確認"
 
-#: usersetup:727
+#: usersetup:730
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "$groupグループを消去します。確認してください。"

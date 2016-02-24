@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Eliasjunior, 2013
 # Eliasjunior, 2013
@@ -10,14 +10,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"POT-Creation-Date: 2016-02-24 12:54+0200\n"
 "PO-Revision-Date: 2014-02-05 20:44+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/salixtools/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
+"salixtools/language/pt_BR/)\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: keyboardsetup:16
@@ -58,14 +59,17 @@ msgstr "estado do SCIM, ligado ou desligado"
 #: keyboardsetup:73
 #, sh-format
 msgid "do not apply changes on the fly, only edit settings files"
-msgstr "não aplicar as alterações em tempo real, só editar arquivos de configurações"
+msgstr ""
+"não aplicar as alterações em tempo real, só editar arquivos de configurações"
 
 #: keyboardsetup:134
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
-" for a list of valid keymaps"
-msgstr "ERRO: $OPTARG não é um mapa de teclado válido. Você pode olhar uma lista válida de mapas de teclado em $salixtoolsdir/keymaps"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"ERRO: $OPTARG não é um mapa de teclado válido. Você pode olhar uma lista "
+"válida de mapas de teclado em $salixtoolsdir/keymaps"
 
 #: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
@@ -126,10 +130,14 @@ msgstr "Configuração do Ibus"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "IBus é uma plataforma de entrada para Chinês, Japonês, Coreano e muitas outras línguas quando é utilizado um ambiente gráfico. Você quer ter ela habilitada ou desabilitada no boot?\\n\\nVocê terá que reiniciar o seu sistema para que isto tenha efeito."
+msgstr ""
+"IBus é uma plataforma de entrada para Chinês, Japonês, Coreano e muitas "
+"outras línguas quando é utilizado um ambiente gráfico. Você quer ter ela "
+"habilitada ou desabilitada no boot?\\n\\nVocê terá que reiniciar o seu "
+"sistema para que isto tenha efeito."
 
 #: keyboardsetup:313
 #, sh-format
@@ -140,7 +148,11 @@ msgstr "Configuração do SCIM"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "SCIM é uma plataforma de entrada para Chinês, Japonês, Coreano e muitas outras línguas quando é utilizado um ambiente gráfico. Você quer ter ela habilitada ou desabilitada no boot?\\n\\nVocê terá que reiniciar o seu sistema para que isto tenha efeito."
+msgstr ""
+"SCIM é uma plataforma de entrada para Chinês, Japonês, Coreano e muitas "
+"outras línguas quando é utilizado um ambiente gráfico. Você quer ter ela "
+"habilitada ou desabilitada no boot?\\n\\nVocê terá que reiniciar o seu "
+"sistema para que isto tenha efeito."

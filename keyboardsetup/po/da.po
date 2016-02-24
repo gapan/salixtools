@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Kris Thomsen <lakristho@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"POT-Creation-Date: 2016-02-24 12:54+0200\n"
 "PO-Revision-Date: 2014-02-05 20:45+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/salixtools/language/da/)\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/salixtools/"
+"language/da/)\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: keyboardsetup:16
@@ -61,9 +62,11 @@ msgstr "tildel ikke ændringer med det samme, ret kun indstillingsfiler"
 #: keyboardsetup:134
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
-" for a list of valid keymaps"
-msgstr "FEJL: $OPTARG er ikke en gyldig tasteudlægning. Du kan se i $salixtoolsdir/keymaps for en liste over gyldige tasteudlægninger"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
+"for a list of valid keymaps"
+msgstr ""
+"FEJL: $OPTARG er ikke en gyldig tasteudlægning. Du kan se i $salixtoolsdir/"
+"keymaps for en liste over gyldige tasteudlægninger"
 
 #: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
@@ -124,10 +127,15 @@ msgstr "Konfiguration af IBus"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "IBus er en inputplatform til kinesisk, japansk, koreansk og mange andre sprog brugt i et grafisk miljø. Vil du have det aktiveret eller deaktiveret under opstart?\n\nDu skal genstarte dit system før dette træder i kraft."
+msgstr ""
+"IBus er en inputplatform til kinesisk, japansk, koreansk og mange andre "
+"sprog brugt i et grafisk miljø. Vil du have det aktiveret eller deaktiveret "
+"under opstart?\n"
+"\n"
+"Du skal genstarte dit system før dette træder i kraft."
 
 #: keyboardsetup:313
 #, sh-format
@@ -138,7 +146,11 @@ msgstr "Konfiguration af SCIM"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled"
-" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled "
+"or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr "SCIM er en inputplatform for kinesisk, japansk, koreansk og mange andre sprog, når den bliver brugt i et grafisk miljø. Vil du have den aktiveret eller deaktiveret ved opstart?\\n\\nDu skal genstarte dit system for dette træder i kraft."
+msgstr ""
+"SCIM er en inputplatform for kinesisk, japansk, koreansk og mange andre "
+"sprog, når den bliver brugt i et grafisk miljø. Vil du have den aktiveret "
+"eller deaktiveret ved opstart?\\n\\nDu skal genstarte dit system for dette "
+"træder i kraft."

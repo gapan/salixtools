@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"POT-Creation-Date: 2016-02-24 12:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,27 +47,27 @@ msgstr ""
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr ""
 
-#: localesetup:69
+#: localesetup:76
 #, sh-format
 msgid "System language configuration"
 msgstr ""
 
-#: localesetup:71
+#: localesetup:78
 #, sh-format
 msgid "OK"
 msgstr ""
 
-#: localesetup:72
+#: localesetup:79
 #, sh-format
 msgid "Exit"
 msgstr ""
 
-#: localesetup:74
+#: localesetup:81
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr ""
 
-#: localesetup:75
+#: localesetup:82
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr ""

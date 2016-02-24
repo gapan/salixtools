@@ -1,22 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Yarema aka Knedlyk <yupadmin@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"POT-Creation-Date: 2016-02-24 12:54+0200\n"
 "PO-Revision-Date: 2014-02-06 10:35+0000\n"
 "Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/salixtools/language/uk/)\n"
+"Language-Team: Ukrainian (http://www.transifex.com/projects/p/salixtools/"
+"language/uk/)\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: usersetup:18
 #, sh-format
@@ -114,7 +116,7 @@ msgstr "Виберіть рахунок для перегляду його вл�
 msgid "Account deletion"
 msgstr "Видалення рахунку"
 
-#: usersetup:90 usersetup:159 usersetup:660 usersetup:724
+#: usersetup:90 usersetup:159 usersetup:663 usersetup:727
 #, sh-format
 msgid "Delete"
 msgstr "Видалити"
@@ -154,7 +156,7 @@ msgstr "Членство"
 msgid "Select a group to view memberships for..."
 msgstr "Вибрати групу для перегляду її учасників..."
 
-#: usersetup:140 usersetup:529
+#: usersetup:140 usersetup:532
 #, sh-format
 msgid "Group name"
 msgstr "Назва групи"
@@ -184,52 +186,52 @@ msgstr "Вибрати групу для вилучення..."
 msgid "Detailed information for account"
 msgstr "Детальна інформація про рахунок"
 
-#: usersetup:201 usersetup:471 usersetup:578
+#: usersetup:201 usersetup:474 usersetup:581
 #, sh-format
 msgid "Full name"
 msgstr "Повне ім’я"
 
-#: usersetup:202 usersetup:260 usersetup:554
+#: usersetup:202 usersetup:261 usersetup:557
 #, sh-format
 msgid "Account name"
 msgstr "Назва рахунку"
 
-#: usersetup:203 usersetup:558
+#: usersetup:203 usersetup:561
 #, sh-format
 msgid "Main Group"
 msgstr "Основна групу"
 
-#: usersetup:204 usersetup:321 usersetup:562
+#: usersetup:204 usersetup:324 usersetup:565
 #, sh-format
 msgid "Home directory"
 msgstr "Домашня тека"
 
-#: usersetup:205 usersetup:347 usersetup:570
+#: usersetup:205 usersetup:350 usersetup:573
 #, sh-format
 msgid "Shell"
 msgstr "Шел"
 
-#: usersetup:206 usersetup:566
+#: usersetup:206 usersetup:569
 #, sh-format
 msgid "Other groups"
 msgstr "Інші групи"
 
-#: usersetup:207 usersetup:574
+#: usersetup:207 usersetup:577
 #, sh-format
 msgid "Expiry"
 msgstr "Закінчення дії"
 
-#: usersetup:208 usersetup:582
+#: usersetup:208 usersetup:585
 #, sh-format
 msgid "Office"
 msgstr "Робота"
 
-#: usersetup:209 usersetup:499 usersetup:586
+#: usersetup:209 usersetup:502 usersetup:589
 #, sh-format
 msgid "Work phone"
 msgstr "Робочий телефон"
 
-#: usersetup:210 usersetup:513 usersetup:590
+#: usersetup:210 usersetup:516 usersetup:593
 #, sh-format
 msgid "Home phone"
 msgstr "Домашній телефон"
@@ -249,186 +251,185 @@ msgstr "Члени групи"
 msgid "There are no accounts in group"
 msgstr "Немає рахунків в групі"
 
-#: usersetup:262
+#: usersetup:263
 #, sh-format
 msgid "Enter the new account name..."
 msgstr "Введіть нову назву рахунку..."
 
-#: usersetup:271
+#: usersetup:272
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
 msgstr "Назва рахунку не повинна містити пропусків, виправте це..."
 
-#: usersetup:273
+#: usersetup:274
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
 msgstr "Назва рахунку $user вже існує, виберіть іншу назву..."
 
-#: usersetup:275
+#: usersetup:276
 #, sh-format
 msgid "The account name is empty, please correct it..."
 msgstr "Назва рахунку пуста, виправте це..."
 
-#: usersetup:277
+#: usersetup:278
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
 msgstr "Назва рахунку починається з цифри, виправте це..."
 
-#: usersetup:279
+#: usersetup:280
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
 msgstr "Назва рахунку не може містити букви верхнього регістру, виправте це..."
 
-#: usersetup:281
+#: usersetup:282
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
 msgstr "Назва рахунку не може містити знаки пунктуації, виправте це..."
 
-#: usersetup:305
+#: usersetup:308
 #, sh-format
 msgid "Group membership"
 msgstr "Членство в групах"
 
-#: usersetup:306 usersetup:322 usersetup:348 usersetup:368 usersetup:393
-#: usersetup:472 usersetup:486 usersetup:500 usersetup:514 usersetup:530
+#: usersetup:309 usersetup:325 usersetup:351 usersetup:371 usersetup:396
+#: usersetup:475 usersetup:489 usersetup:503 usersetup:517 usersetup:533
 #, sh-format
 msgid "OK"
 msgstr "ОК"
 
-#: usersetup:309
+#: usersetup:312
 #, sh-format
 msgid "Enter the main group for account"
 msgstr "Введіть основну групу для рахунку"
 
-#: usersetup:324
+#: usersetup:327
 #, sh-format
 msgid "Enter the home directory for account"
 msgstr "Введіть домашню теку для рахунку"
 
-#: usersetup:351
+#: usersetup:354
 #, sh-format
 msgid "Enter the shell interpreter for account"
 msgstr "Введіть інтерпретатор шелу для рахунку"
 
-#: usersetup:367
+#: usersetup:370
 #, sh-format
 msgid "Additional group membership"
 msgstr "Додаткове членство в групах"
 
-#: usersetup:370
+#: usersetup:373
 #, sh-format
 msgid "Add some additional group to the list..."
 msgstr "Додати деякі додаткові групи до списку"
 
-#: usersetup:392
+#: usersetup:395
 #, sh-format
 msgid "Expiry date"
 msgstr "Дата закінчення дії"
 
-#: usersetup:394
+#: usersetup:397
 #, sh-format
 msgid "Never"
 msgstr "Ніколи"
 
-#: usersetup:397
+#: usersetup:400
 #, sh-format
 msgid "Set the account expiry date..."
 msgstr "Встановити дату закінчення дії рахунку"
 
-#: usersetup:433
+#: usersetup:436
 #, sh-format
 msgid "Enter password for account"
 msgstr "Введіть пароль для рахунку"
 
-#: usersetup:434
+#: usersetup:437
 #, sh-format
 msgid "Passwords do not match, please try again..."
 msgstr "Паролі не збігаються, спробуйте знову..."
 
-#: usersetup:437
+#: usersetup:440
 #, sh-format
 msgid ""
-"Password is too short (${minlength} chars minimum), please try another "
-"one..."
+"Password is too short (${minlength} chars minimum), please try another one..."
 msgstr "Пароль закороткий (${minlength} символів мінімум), спробуйте інший..."
 
-#: usersetup:440
+#: usersetup:443
 #, sh-format
 msgid "Enter password again for account"
 msgstr "Введіть знову пароль для рахунку"
 
-#: usersetup:457
+#: usersetup:460
 #, sh-format
 msgid "Failed to set password for account"
 msgstr "Встановлення паролю для рахунку не вдалося"
 
-#: usersetup:474
+#: usersetup:477
 #, sh-format
 msgid "Enter the full name of the user"
 msgstr "Введіть повне ім’я для користувача"
 
-#: usersetup:485
+#: usersetup:488
 #, sh-format
 msgid "Office information"
 msgstr "Інформація про роботу"
 
-#: usersetup:488
+#: usersetup:491
 #, sh-format
 msgid "Enter office information for the user"
 msgstr "Введіть інформацію про роботу для користувача"
 
-#: usersetup:502
+#: usersetup:505
 #, sh-format
 msgid "Enter the work phone number of the user"
 msgstr "Введіть номер робочого телефону для користувача"
 
-#: usersetup:516
+#: usersetup:519
 #, sh-format
 msgid "Enter the home phone number of the user"
 msgstr "Введіть номер домашнього телефону для користувача"
 
-#: usersetup:532
+#: usersetup:535
 #, sh-format
 msgid "Enter the new group name"
 msgstr "Введіть нову назву групи"
 
-#: usersetup:627 usersetup:648 usersetup:657 usersetup:721
+#: usersetup:630 usersetup:651 usersetup:660 usersetup:724
 #, sh-format
 msgid "Warning"
 msgstr "Попередження"
 
-#: usersetup:657
+#: usersetup:660
 #, sh-format
 msgid "You cannot delete the account"
 msgstr "Ви не можете вилучити рахунок"
 
-#: usersetup:659
+#: usersetup:662
 #, sh-format
 msgid "Confirm user deletion"
 msgstr "Підтвердження вилучення користувача"
 
-#: usersetup:661 usersetup:725
+#: usersetup:664 usersetup:728
 #, sh-format
 msgid "Cancel"
 msgstr "Відмінити"
 
-#: usersetup:663
+#: usersetup:666
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
 msgstr "Ви впевнені, що Ви бажаєте вилучити користувача $user?"
 
-#: usersetup:721
+#: usersetup:724
 #, sh-format
 msgid "You cannot delete the group"
 msgstr "Ви не можете вилучити групу"
 
-#: usersetup:723
+#: usersetup:726
 #, sh-format
 msgid "Confirm group deletion"
 msgstr "Підтвердити вилучення групи"
 
-#: usersetup:727
+#: usersetup:730
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "Ви впевнені, що Ви бажаєте вилучити групу $group?"

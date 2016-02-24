@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"POT-Creation-Date: 2016-02-24 12:54+0200\n"
 "PO-Revision-Date: 2014-02-05 09:23+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/salixtools/"
@@ -48,27 +48,27 @@ msgstr "Instellen van locale tot $locale"
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "FOUT: $newlocale is geen geldige locale"
 
-#: localesetup:69
+#: localesetup:76
 #, sh-format
 msgid "System language configuration"
 msgstr "Systeemtaal configuratie"
 
-#: localesetup:71
+#: localesetup:78
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: localesetup:72
+#: localesetup:79
 #, sh-format
 msgid "Exit"
 msgstr "Afsluiten"
 
-#: localesetup:74
+#: localesetup:81
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "De huidige locale is $currentlocale."
 
-#: localesetup:75
+#: localesetup:82
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Kies uw favoriete systeemtaal:"
