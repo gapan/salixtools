@@ -56,3 +56,7 @@ if [ -x /usr/bin/glib-compile-schemas ]; then
   /usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas > /dev/null 2>&1
 fi
 
+# ca-certificates
+if [ -x /usr/sbin/update-ca-certificates ]; then
+  /usr/sbin/update-ca-certificates --fresh 1> /dev/null 2> /dev/null
+fi
