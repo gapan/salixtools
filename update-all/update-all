@@ -2,8 +2,8 @@
 
 # check for root privileges
 if [ "$UID" != "0" ]; then
-	echo "You need root privileges to run this"
-	exit 1
+  echo "You need root privileges to run this"
+  exit 1
 fi
 
 # Update all the shared library links:
@@ -31,7 +31,7 @@ fi
 
 # Update desktop database:
 if [ -x /usr/bin/update-desktop-database ]; then
-	/usr/bin/update-desktop-database /usr/share/applications 1> /dev/null 2> /dev/null
+  /usr/bin/update-desktop-database /usr/share/applications 1> /dev/null 2> /dev/null
 fi
 
 # Update mime database:
