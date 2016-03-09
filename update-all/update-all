@@ -17,7 +17,7 @@ if [ -x /usr/bin/fc-cache ]; then
 fi
 
 # Update any existing icon cache files:
-if find /usr/share/icons 2> /dev/null | grep -q icon-theme.cache ; then
+if find /usr/share/icons -maxdepth 2 2> /dev/null | grep -q icon-theme.cache ; then
   for theme_dir in /usr/share/icons/* ; do
     if [ -r ${theme_dir}/icon-theme.cache ]; then
       /usr/bin/gtk-update-icon-cache -t -f ${theme_dir} 1> /dev/null 2> /dev/null &
