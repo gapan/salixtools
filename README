@@ -7,7 +7,7 @@ It includes:
 - localesetup: selects the system locale
 - reposetup: selects the repository mirror to use for package management
 - service: manages system services from the command line
-- servicesetup: manages system services interatively
+- servicesetup: manages system services interactively
 - update-all: updates all sorts of caches (pango, mime etc)
 - usersetup: manages user accounts
 
