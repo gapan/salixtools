@@ -102,6 +102,7 @@ fi
 # set locale
 if [ "$locale" ]; then
 	sed -i "s/^ *\(export LANG=\).*$/\1$locale/" /etc/profile.d/lang.sh
+	/bin/bash /etc/profile.d/lang.sh
 	locale_noutf8=`echo $locale | sed "s/.utf8//"`
 	if [ -f /etc/kde/kdm/kdmrc ]; then
 		sed -i "s/\(^\|^#\)Language=.*/Language=$locale_noutf8/" /etc/kde/kdm/kdmrc
