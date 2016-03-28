@@ -3,7 +3,7 @@
 # Select/deselect system daemons (services)"
 
 # Translations only work with utf8 locales
-if [ ! `echo $LANG | grep -i utf` ]; then
+if ! locale -k charmap|grep -q UTF-8 ; then
         LANG=C
 fi
 
