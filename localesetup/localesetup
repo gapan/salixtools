@@ -3,7 +3,8 @@
 # This script configures the system locale.
 
 # Translations only work with utf8 locales
-if [ ! `echo $LANG | grep -i utf` ]; then
+# Even those whose name doen't end in .utf8 - Didier
+if ! locale -k charmap|grep -q UTF-8 ; then
 	LANG=C
 fi
 
@@ -19,29 +20,31 @@ unset locale newlocale
 
 # usage screen
 usage(){
-	echo "`eval_gettext 'USAGE: localesetup [locale]'`"
-	echo "`eval_gettext 'EXAMPLE: localesetup en_US'`"
+	gettext -s "USAGE: localesetup [locale]"
+	gettext -s "EXAMPLE: localesetup en_US"
 	exit 1
 }
 
 if [ $# -gt 1 ]; then
-	echo "`eval_gettext 'ERROR: Too many arguments'`"
+	gettext -s "ERROR: Too many arguments"
 	usage
 fi
 
 # check for root privileges
 if [ "$UID" != "0" ]; then
-	echo "`eval_gettext 'You need root privileges to run this'`"
+	gettext -s "You need root privileges to run this"
 	exit 1
 fi
 
 if [ ! -z $1 ]; then
-	newlocale="`echo $1 | sed 's/UTF-8/utf8/'`"
-	if [[ `locale -cva |grep locale | grep utf8 | sed "s/locale: \(.*\) *directory.*/\1/"| grep "^$newlocale\|$newlocale.utf8"` ]]; then
-		locale="`echo $newlocale | sed "s/.utf8//"`.utf8"
-		echo "`eval_gettext 'Setting locale to $locale'`"
+	newlocale="$1"
+	if LANG="$newlocale" locale -k charmap 2>/dev/null|grep -q UTF-8 ; then
+		locale="$newlocale"
+		eval_gettext "Setting locale to $locale"
+		echo
 	else
-		echo "`eval_gettext 'ERROR: $newlocale is not a valid locale'`"
+		eval_gettext "ERROR: $newlocale is not a valid locale"
+		echo
 		usage
 	fi
 else
@@ -49,9 +52,9 @@ else
 # start of interactive section
 
 # find current locale
-currentlocale="$(cat /etc/profile.d/lang.sh \
-  | grep -E "^[[:space:]]*export LANG=" \
-  | sed -e "s/^[ ]*export LANG=\(.*\)$/\1/")"
+currentlocale=$(sed -n '
+	 /^ *export LANG=/{
+  	s/^ *export LANG=\(.*\)$/\1/p}' /etc/profile.d/lang.sh)
 
 # default to en_US.utf8 if what is set in lang.sh is only just en_US 
 if [ "$currentlocale" = "en_US" ]; then
@@ -61,14 +64,23 @@ else
 fi
 
 # probe for available locales
-list="$(locale -cva \
-| grep -A 2 utf8 | sed '/^-/d' \
-| sed '
-/^locale:.*directory.*/{
-s/^locale: \([^ ]*\) *directory.*$/\1/
-N
-s/^\(.*\) *\n *title . \(.*\)$/"\1" "\2 " \\/'}
-)"
+# modified to includes all UTF-8 encoded locales - Didier
+list=$(locale -avc|LC_CTYPE=C sed -n '
+/^locale:/H
+/title |/H
+/^  codeset | /{
+	/UTF-8/{
+		g
+		s/\nlocale: \([^ ]*\)[^|]\{1,\}| \([^\n]\{1,\}\).*/"\1" "\2" \\/
+		s/[lL]anguage //
+		s/[lL]ocale //
+		p
+	}
+	/UTF-8/!{
+		s/.*//
+		h
+	}
+}')
 
 # generate a menu
 locale="$(eval $dialog \
@@ -79,7 +91,7 @@ locale="$(eval $dialog \
 --cancel-label "`eval_gettext 'Exit'`" \
 --menu \
 \"\\n`eval_gettext 'The current locale is $currentlocale.'` \\n\\n\
-`eval_gettext 'Please select your preferred system language:'`\" 0 0 11 \
+`eval_gettext 'Please select your preferred system language:'`\" 0 0 0 \
 "${list}"
 )"
 
