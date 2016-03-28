@@ -90,7 +90,7 @@ locale="$(eval $dialog \
 --cancel-label "`eval_gettext 'Exit'`" \
 --menu \
 \"\\n`eval_gettext 'The current locale is $currentlocale.'` \\n\\n\
-`eval_gettext 'Please select your preferred system language:'`\" 0 0 0 \
+`eval_gettext 'Please select your preferred system language:'`\" 0 0 11 \
 "${list}"
 )"
 
