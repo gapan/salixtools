@@ -53,7 +53,7 @@ else
 # find current locale
 currentlocale=$(sed -n '
 	 /^ *export LANG=/{
-  	s/^ *export LANG=\(.*\)$/\1/p}' /etc/profile.d/lang.sh)
+	s/^ *export LANG=\(.*\)$/\1/p}' /etc/profile.d/lang.sh)
 
 # default to en_US.utf8 if what is set in lang.sh is only just en_US 
 if [ "$currentlocale" = "en_US" ]; then
