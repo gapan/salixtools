@@ -29,7 +29,7 @@ grpfile='/etc/group'
 shadowfile='/etc/shadow'
 
 for isgroupinsalix in audio video cdrom floppy lp plugdev scanner \
-	power polkitd polkit netdev ; do
+	power polkitd pulse netdev ; do
 	grep -q "^${isgroupinsalix}:" $grpfile && useraddmembership="${isgroupinsalix},${useraddmembership}"
 done
 useraddmembership="$( echo ${useraddmembership} | sed -e 's/^\(.*\),$/\1/' )"
