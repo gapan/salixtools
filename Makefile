@@ -80,7 +80,7 @@ update-po:
 		cd ../../; \
 	done
 
-transifex:
+tx-pull:
 	for i in $(TOOLS); do \
 		cd $$i; \
 		tx pull -a; \
@@ -88,4 +88,4 @@ transifex:
 	done
 
 
-.PHONY: all man mo update-po transifex clean install
+.PHONY: all man mo update-po tx-pull clean install
