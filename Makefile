@@ -84,8 +84,27 @@ tx-pull:
 	for i in $(TOOLS); do \
 		cd $$i; \
 		tx pull -a; \
+		for j in `ls po/*.po`; do \
+			msgfmt --statistics $$j 2>&1 | grep "^0 translated" > /dev/null \
+			&& rm $$j || true; \
+			rm -f messages.mo; \
+		done; \
+		cd ..; \
+	done
+
+stat:
+	@for i in $(TOOLS); do \
+		cd $$i; \
+		echo "=================="; \
+		echo "$$i"; \
+		echo "=================="; \
+		for j in `ls po/*.po`; do \
+			echo "Statistics for $$j:"; \
+			msgfmt --statistics $$j 2>&1; \
+			echo; \
+		done; \
 		cd ..; \
 	done
 
 
-.PHONY: all man mo update-po tx-pull clean install
+.PHONY: all man mo update-po tx-pull clean install stat
