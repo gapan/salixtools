@@ -1,11 +1,14 @@
 PREFIX ?= /usr/local
 DESTDIR ?= /
 PACKAGE_LOCALE_DIR ?= /usr/share/locale
+TOOLS = clocksetup keyboardsetup localesetup usersetup servicesetup service reposetup
+ALL_TOOLS = $(TOOLS) update-all
+
 
 all: man mo
 
 mo:
-	for i in clocksetup keyboardsetup localesetup usersetup servicesetup service reposetup;do \
+	for i in $(TOOLS); do \
 		for j in `ls $$i/po/*.po`;do \
 			echo "Compiling `echo $$j|sed "s|/po||"`"; \
 			msgfmt $$j -o `echo $$j | sed "s/\.po//"`.mo; \
@@ -13,7 +16,7 @@ mo:
 	done
 
 man:
-	for i in clocksetup keyboardsetup localesetup usersetup servicesetup service update-all reposetup;do \
+	for i in $(ALL_TOOLS); do \
 		( \
 		cd $$i/man; \
 		echo "Compiling $$i manpage"; \
@@ -34,8 +37,7 @@ install:
 	install -d -m 755 $(DESTDIR)/usr/share/salixtools/keyboardsetup
 	install -d -m 755 $(DESTDIR)/usr/share/salixtools/reposetup
 	install -d -m 755 $(DESTDIR)/etc/rc.d/desc.d
-	for i in clocksetup keyboardsetup localesetup \
-			usersetup servicesetup service reposetup; do \
+	for i in $(TOOLS); do \
 		install -m 755 $$i/$$i $(DESTDIR)/usr/sbin/; \
 		for j in `ls $$i/po/*.mo`; do \
 			install -d -m 755 \
@@ -47,8 +49,7 @@ install:
 	done
 	install -m 755 update-all/update-all $(DESTDIR)/usr/sbin/
 	install -d -m 755 $(DESTDIR)/usr/man/man8
-	for i in clocksetup keyboardsetup localesetup usersetup \
-			servicesetup service update-all reposetup; do \
+	for i in $(ALL_TOOLS); do \
 		( \
 		cd $$i/man; \
 		for j in `ls *.8`; do \
@@ -66,8 +67,7 @@ install:
 	install -m 644 salix-version $(DESTDIR)/usr/share/salixtools/
 
 update-po:
-	for i in clocksetup keyboardsetup localesetup service servicesetup \
-		usersetup reposetup; do \
+	for i in $(TOOLS); do \
 		cd $$i; \
 		echo "Creating $$i.pot file..."; \
 		xgettext --from-code=utf-8 -L shell -o po/$$i.pot $$i; \
@@ -81,11 +81,11 @@ update-po:
 	done
 
 transifex:
-	for i in clocksetup keyboardsetup localesetup service servicesetup \
-		usersetup reposetup; do \
+	for i in $(TOOLS); do \
 		cd $$i; \
 		tx pull -a; \
 		cd ..; \
 	done
+
 
 .PHONY: all man mo update-po transifex clean install
