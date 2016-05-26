@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2015-10-28 14:00+0000\n"
+"Last-Translator: GabiT. <splanckx@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/gapan/salixtools/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: localesetup:22
+#, sh-format
+msgid "USAGE: localesetup [locale]"
+msgstr "FOLOSIRE: localesetup [locale]"
+
+#: localesetup:23
+#, sh-format
+msgid "EXAMPLE: localesetup en_US"
+msgstr "EXEMPLU: localesetup ro_RO"
+
+#: localesetup:28
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "EROARE: Prea multe argumente"
+
+#: localesetup:34
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Ai nevoie de privilegii root pentru a rula aceasta"
+
+#: localesetup:42
+#, sh-format
+msgid "Setting locale to $locale"
+msgstr "Setare localizare în $locale"
+
+#: localesetup:44
+#, sh-format
+msgid "ERROR: $newlocale is not a valid locale"
+msgstr "EROARE: $newlocale nu este o localizare validă"
+
+#: localesetup:69
+#, sh-format
+msgid "System language configuration"
+msgstr "Configurare localizare sistem"
+
+#: localesetup:71
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: localesetup:72
+#, sh-format
+msgid "Exit"
+msgstr "Ieșire"
+
+#: localesetup:74
+#, sh-format
+msgid "The current locale is $currentlocale."
+msgstr "Localizarea curentă este $currentlocale."
+
+#: localesetup:75
+#, sh-format
+msgid "Please select your preferred system language:"
+msgstr "Vă rugăm să selectați localizarea preferată:"

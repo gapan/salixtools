@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2015-10-28 14:00+0000\n"
+"Last-Translator: GabiT. <splanckx@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/gapan/salixtools/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: usersetup:18
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Aveți nevoie de privilegii root pentru a rula"
+
+#: usersetup:42
+#, sh-format
+msgid "Select"
+msgstr "Selectează"
+
+#: usersetup:43
+#, sh-format
+msgid "Exit user setup"
+msgstr "Ieșire setare user"
+
+#: usersetup:44
+#, sh-format
+msgid "Users accounts management"
+msgstr "Instrument pentru gestionarea conturilor userilor"
+
+#: usersetup:46
+#, sh-format
+msgid "Please choose an option..."
+msgstr "Vă rugăm alegeti o opțiune..."
+
+#: usersetup:48
+#, sh-format
+msgid "Create a new account"
+msgstr "Crează un cont nou"
+
+#: usersetup:49
+#, sh-format
+msgid "Create a new account (advanced mode)"
+msgstr "Crează un cont nou (mod avansat)"
+
+#: usersetup:50
+#, sh-format
+msgid "Modify account properties"
+msgstr "Modifică proprietăți cont "
+
+#: usersetup:51
+#, sh-format
+msgid "Change account password"
+msgstr "Modifică parolă cont"
+
+#: usersetup:52
+#, sh-format
+msgid "Delete accounts"
+msgstr "Șterge conturi"
+
+#: usersetup:53
+#, sh-format
+msgid "List groups and memberships"
+msgstr "Listează grupuri și membri"
+
+#: usersetup:54
+#, sh-format
+msgid "Create a new group"
+msgstr "Crează un nou grup"
+
+#: usersetup:55
+#, sh-format
+msgid "Change group name"
+msgstr "Modifică nume grup"
+
+#: usersetup:56
+#, sh-format
+msgid "Delete groups"
+msgstr "Șterge grupuri"
+
+#: usersetup:72 usersetup:195
+#, sh-format
+msgid "Account properties"
+msgstr "Proprietăți cont"
+
+#: usersetup:73 usersetup:238
+#, sh-format
+msgid "Properties"
+msgstr "Proprietăți"
+
+#: usersetup:74 usersetup:91 usersetup:108 usersetup:125 usersetup:142
+#: usersetup:160 usersetup:197 usersetup:239
+#, sh-format
+msgid "Back"
+msgstr "Înapoi"
+
+#: usersetup:76
+#, sh-format
+msgid "Select an account to view its properties..."
+msgstr "Selectează un cont pentru a vedea proprietățile acestuia"
+
+#: usersetup:89
+#, sh-format
+msgid "Account deletion"
+msgstr "Ștergere cont"
+
+#: usersetup:90 usersetup:159 usersetup:660 usersetup:724
+#, sh-format
+msgid "Delete"
+msgstr "Ștergere"
+
+#: usersetup:93
+#, sh-format
+msgid "Select an account to delete..."
+msgstr "Selectează un cont pentru ștergere..."
+
+#: usersetup:106
+#, sh-format
+msgid "Change password"
+msgstr "Modificare parolă"
+
+#: usersetup:107
+#, sh-format
+msgid "Change"
+msgstr "Modificare"
+
+#: usersetup:110
+#, sh-format
+msgid "Select an account to change password for..."
+msgstr "Selectare cont pentru modificare parolă..."
+
+#: usersetup:123
+#, sh-format
+msgid "Group memberships"
+msgstr "Membri grup"
+
+#: usersetup:124
+#, sh-format
+msgid "Memberships"
+msgstr "Membri"
+
+#: usersetup:127
+#, sh-format
+msgid "Select a group to view memberships for..."
+msgstr "Selectează un grup pentru a vedea membrii..."
+
+#: usersetup:140 usersetup:529
+#, sh-format
+msgid "Group name"
+msgstr "Nume grup"
+
+#: usersetup:141 usersetup:196
+#, sh-format
+msgid "Modify"
+msgstr "Modifică"
+
+#: usersetup:144
+#, sh-format
+msgid "Select group name to modify..."
+msgstr "Selectează nume grup pentru modificare..."
+
+#: usersetup:158
+#, sh-format
+msgid "Group deletion"
+msgstr "Ștergere grup"
+
+#: usersetup:162
+#, sh-format
+msgid "Select a group to delete..."
+msgstr "Selectează grup pentru ștergere..."
+
+#: usersetup:199
+#, sh-format
+msgid "Detailed information for account"
+msgstr "Informații detaliate despre cont"
+
+#: usersetup:201 usersetup:471 usersetup:578
+#, sh-format
+msgid "Full name"
+msgstr "Nume complet"
+
+#: usersetup:202 usersetup:260 usersetup:554
+#, sh-format
+msgid "Account name"
+msgstr "Nume cont"
+
+#: usersetup:203 usersetup:558
+#, sh-format
+msgid "Main Group"
+msgstr "Grup principal"
+
+#: usersetup:204 usersetup:321 usersetup:562
+#, sh-format
+msgid "Home directory"
+msgstr "Directorul casă"
+
+#: usersetup:205 usersetup:347 usersetup:570
+#, sh-format
+msgid "Shell"
+msgstr "Interpretor"
+
+#: usersetup:206 usersetup:566
+#, sh-format
+msgid "Other groups"
+msgstr "Alte grupuri"
+
+#: usersetup:207 usersetup:574
+#, sh-format
+msgid "Expiry"
+msgstr "Expiră"
+
+#: usersetup:208 usersetup:582
+#, sh-format
+msgid "Office"
+msgstr "Birou"
+
+#: usersetup:209 usersetup:499 usersetup:586
+#, sh-format
+msgid "Work phone"
+msgstr "Telefon serviciu"
+
+#: usersetup:210 usersetup:513 usersetup:590
+#, sh-format
+msgid "Home phone"
+msgstr "Telefon acasă"
+
+#: usersetup:237 usersetup:247
+#, sh-format
+msgid "Group members"
+msgstr "Membri grup"
+
+#: usersetup:241
+#, sh-format
+msgid "Members of group"
+msgstr "Membri ai grupului"
+
+#: usersetup:249
+#, sh-format
+msgid "There are no accounts in group"
+msgstr "Fără conturi în grup"
+
+#: usersetup:262
+#, sh-format
+msgid "Enter the new account name..."
+msgstr "Introduceți un nou nume de cont"
+
+#: usersetup:271
+#, sh-format
+msgid "An account name cannot contain a space, please correct it..."
+msgstr "Numele contului nu poate conține spațiu, vă rugăm corectați..."
+
+#: usersetup:273
+#, sh-format
+msgid "The account name $user already exists, please choose another name..."
+msgstr "Contul cu numele $user există deja, vă rugăm alegeți alt nume..."
+
+#: usersetup:275
+#, sh-format
+msgid "The account name is empty, please correct it..."
+msgstr "Numele contului nu este completat, vă rugăm corectați..."
+
+#: usersetup:277
+#, sh-format
+msgid "An account name cannot begin with a number, please correct it..."
+msgstr "Numele contului nu poate începe cu un număr, vă rugăm corectați..."
+
+#: usersetup:279
+#, sh-format
+msgid ""
+"An account name cannot contain uppercase characters, please correct it..."
+msgstr "Numele contului nu poate conține majuscule, vă rugăm corectați..."
+
+#: usersetup:281
+#, sh-format
+msgid "An account name cannot contain punctuation marks, please correct it..."
+msgstr "Numele contului nu poate conține semne de punctuație, vă rugăm corectați..."
+
+#: usersetup:305
+#, sh-format
+msgid "Group membership"
+msgstr "Membri grup"
+
+#: usersetup:306 usersetup:322 usersetup:348 usersetup:368 usersetup:393
+#: usersetup:472 usersetup:486 usersetup:500 usersetup:514 usersetup:530
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: usersetup:309
+#, sh-format
+msgid "Enter the main group for account"
+msgstr "Introduceți grupul principal pentru cont"
+
+#: usersetup:324
+#, sh-format
+msgid "Enter the home directory for account"
+msgstr "Introduceți directorul home pentru cont"
+
+#: usersetup:351
+#, sh-format
+msgid "Enter the shell interpreter for account"
+msgstr "Introduceți interpretorul pentru cont"
+
+#: usersetup:367
+#, sh-format
+msgid "Additional group membership"
+msgstr "Membri grup suplimentari"
+
+#: usersetup:370
+#, sh-format
+msgid "Add some additional group to the list..."
+msgstr "Adaugă grupuri suplimentare la listă..."
+
+#: usersetup:392
+#, sh-format
+msgid "Expiry date"
+msgstr "Data expirare"
+
+#: usersetup:394
+#, sh-format
+msgid "Never"
+msgstr "Niciodată"
+
+#: usersetup:397
+#, sh-format
+msgid "Set the account expiry date..."
+msgstr "Setează data de expirare a contului..."
+
+#: usersetup:433
+#, sh-format
+msgid "Enter password for account"
+msgstr "Introdeceți parolă pentru cont"
+
+#: usersetup:434
+#, sh-format
+msgid "Passwords do not match, please try again..."
+msgstr "Parolele nu se potrivesc, vă rugăm încercați din nou..."
+
+#: usersetup:437
+#, sh-format
+msgid ""
+"Password is too short (${minlength} chars minimum), please try another "
+"one..."
+msgstr "Parola este prea scurtă (${minlength} caractere minim), vă rugăm încercați alta..."
+
+#: usersetup:440
+#, sh-format
+msgid "Enter password again for account"
+msgstr "Introduceți parola din nou pentru cont"
+
+#: usersetup:457
+#, sh-format
+msgid "Failed to set password for account"
+msgstr "Eșuare în setarea parolei pentru cont"
+
+#: usersetup:474
+#, sh-format
+msgid "Enter the full name of the user"
+msgstr "Introduceți numele complet al userului"
+
+#: usersetup:485
+#, sh-format
+msgid "Office information"
+msgstr "Informații birou"
+
+#: usersetup:488
+#, sh-format
+msgid "Enter office information for the user"
+msgstr "Introduceți informații birou pentru user"
+
+#: usersetup:502
+#, sh-format
+msgid "Enter the work phone number of the user"
+msgstr "Introduceți telefonul de serviciu al userului"
+
+#: usersetup:516
+#, sh-format
+msgid "Enter the home phone number of the user"
+msgstr "Introduceți telefonul de acasă al userului"
+
+#: usersetup:532
+#, sh-format
+msgid "Enter the new group name"
+msgstr "Introduceți un nou nume de grup"
+
+#: usersetup:627 usersetup:648 usersetup:657 usersetup:721
+#, sh-format
+msgid "Warning"
+msgstr "Atenție"
+
+#: usersetup:657
+#, sh-format
+msgid "You cannot delete the account"
+msgstr "Nu puteți șterge contul"
+
+#: usersetup:659
+#, sh-format
+msgid "Confirm user deletion"
+msgstr "Confirmare ștergere user"
+
+#: usersetup:661 usersetup:725
+#, sh-format
+msgid "Cancel"
+msgstr "Renunță"
+
+#: usersetup:663
+#, sh-format
+msgid "Are you sure you want to delete user $user?"
+msgstr "Sunteți sigur că doriți să ștergeți userul $user?"
+
+#: usersetup:721
+#, sh-format
+msgid "You cannot delete the group"
+msgstr "Nu puteți șterge grupul"
+
+#: usersetup:723
+#, sh-format
+msgid "Confirm group deletion"
+msgstr "Confirmare ștergere grup"
+
+#: usersetup:727
+#, sh-format
+msgid "Are you sure you want to delete the $group group?"
+msgstr "Sunteți sigur că doriți să ștergeți grupul $group?"

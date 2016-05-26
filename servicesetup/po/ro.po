@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2015-10-28 14:00+0000\n"
+"Last-Translator: GabiT. <splanckx@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/gapan/salixtools/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: servicesetup:23
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Ai nevoie de privilegii de root pentru a rula aceasta"
+
+#: servicesetup:59
+#, sh-format
+msgid "Startup services"
+msgstr "Servicii active la pornire"
+
+#: servicesetup:60
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: servicesetup:61
+#, sh-format
+msgid "Exit"
+msgstr "Ieșire"
+
+#: servicesetup:64
+#, sh-format
+msgid "The selected services will be started at boot time:"
+msgstr "Serviciile selectate vor fi active la pornire:"
+
+#: servicesetup:73
+#, sh-format
+msgid "The $service service"
+msgstr "Serviciul $service"

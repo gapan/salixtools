@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2015-10-28 14:00+0000\n"
+"Last-Translator: GabiT. <splanckx@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/gapan/salixtools/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: reposetup:8
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Ai nevoie de privilegii root pentru a rula "
+
+#: reposetup:105
+#, sh-format
+msgid "Select repository mirror"
+msgstr "Selectează serverul"
+
+#: reposetup:107
+#, sh-format
+msgid "Select"
+msgstr "Selectează"
+
+#: reposetup:108
+#, sh-format
+msgid "Cancel"
+msgstr "Renunță"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"Please select your preferred repository mirror. The country code of where "
+"the mirror is located is shown on the right. Your selection will be applied "
+"to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
+msgstr "Vă rugăm selectați serverul preferat.Codul de țară al serverului se află în partea dreaptă.Selecția va fi aplicată fișierelor /etc/slapt-get/slapt-getrc și /etc/slapt-get/slapt-srcrc:"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"WARNING: Any changes you have manually made in the SOURCE lines of those "
+"files will be lost!"
+msgstr "ATENȚIE:Orice modificări manuale  pe care le-ați făcut la liniile SOURCE în aceste fișiere vor fi pierdute!"
+
+#: reposetup:124
+#, sh-format
+msgid "Update package caches?"
+msgstr "Înnoiți cache-ul de pachete?"
+
+#: reposetup:125
+#, sh-format
+msgid "Update"
+msgstr "Înnoire"
+
+#: reposetup:126
+#, sh-format
+msgid "Do not update"
+msgstr "Nu înnoi "
+
+#: reposetup:127
+#, sh-format
+msgid "Would you like to update the package and SlackBuild caches now?"
+msgstr "Vreți să înnoiți acum cache-ul de pachete și SlackBuild-uri?"
+
+#: reposetup:171
+#, sh-format
+msgid "USAGE:"
+msgstr "Folosire:"
+
+#: reposetup:171
+#, sh-format
+msgid "mirror"
+msgstr "server"
+
+#: reposetup:173
+#, sh-format
+msgid "OPTIONS:"
+msgstr "OPȚIUNI:"
+
+#: reposetup:174
+#, sh-format
+msgid "Specify a repository mirror manually"
+msgstr "Specifică manual serverul "
+
+#: reposetup:175
+#, sh-format
+msgid "Use local mirror list and do not download a new one"
+msgstr "Folosește lista locală de servere și nu descărca alta"
+
+#: reposetup:176
+#, sh-format
+msgid "Do not update/ask for updating the package caches"
+msgstr "Nu înnoiți/întreba cache-ul pachetelor"
+
+#: reposetup:177
+#, sh-format
+msgid "Print currently selected mirror"
+msgstr "Printează serverul selectat"
+
+#: reposetup:178
+#, sh-format
+msgid "This help message"
+msgstr "Acesta este mesajul de ajutor"
+
+#: reposetup:230
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "EROARE: Prea multe argumente"
+
+#: reposetup:245 reposetup:266
+#, sh-format
+msgid "Refreshing mirror list from"
+msgstr "Împrospătare listă servere din"
+
+#: reposetup:252 reposetup:273
+#, sh-format
+msgid "Getting mirror list failed"
+msgstr "Eșuare în descărcarea listei de servere"
