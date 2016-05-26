@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# tsuren <hydrangea_and_snail@hotmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2015-08-20 05:34+0000\n"
+"Last-Translator: tsuren <hydrangea_and_snail@hotmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/gapan/salixtools/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: reposetup:8
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "これを実行するには、rootの権限が必要です。"
+
+#: reposetup:105
+#, sh-format
+msgid "Select repository mirror"
+msgstr "リポジトリ·ミラーを選択"
+
+#: reposetup:107
+#, sh-format
+msgid "Select"
+msgstr "選択"
+
+#: reposetup:108
+#, sh-format
+msgid "Cancel"
+msgstr "取り消し"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"Please select your preferred repository mirror. The country code of where "
+"the mirror is located is shown on the right. Your selection will be applied "
+"to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
+msgstr "お好みのリポジトリ·ミラーを選択してください。ミラーが配置されている場所の国コードが右側に表示されます。あなたの選択は、/ etc/ slapt-get/ slapt-getrcと/ etc/ slapt-get/ slapt-srcrcファイルに適用されます。"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"WARNING: Any changes you have manually made in the SOURCE lines of those "
+"files will be lost!"
+msgstr "警告：これらのファイルで手動で行ったソースの変更は失われます！"
+
+#: reposetup:124
+#, sh-format
+msgid "Update package caches?"
+msgstr "パッケージのキャッシをアップデートしますか？"
+
+#: reposetup:125
+#, sh-format
+msgid "Update"
+msgstr "アップデート"
+
+#: reposetup:126
+#, sh-format
+msgid "Do not update"
+msgstr "アップデートしない"
+
+#: reposetup:127
+#, sh-format
+msgid "Would you like to update the package and SlackBuild caches now?"
+msgstr "パッケージとSlackBuildのキャッシュを、今更新しますか？"
+
+#: reposetup:171
+#, sh-format
+msgid "USAGE:"
+msgstr "使用法："
+
+#: reposetup:171
+#, sh-format
+msgid "mirror"
+msgstr "ミラー"
+
+#: reposetup:173
+#, sh-format
+msgid "OPTIONS:"
+msgstr "オプション："
+
+#: reposetup:174
+#, sh-format
+msgid "Specify a repository mirror manually"
+msgstr "リポジトリ·ミラーを手動で選択"
+
+#: reposetup:175
+#, sh-format
+msgid "Use local mirror list and do not download a new one"
+msgstr "ローカル·ミラーのリストを使用して、新しいものをダウンロードしない"
+
+#: reposetup:176
+#, sh-format
+msgid "Do not update/ask for updating the package caches"
+msgstr "パッケージ・キャッシュを更新するかどうかの質問をとばす"
+
+#: reposetup:177
+#, sh-format
+msgid "Print currently selected mirror"
+msgstr "現在選択されているミラーを表示"
+
+#: reposetup:178
+#, sh-format
+msgid "This help message"
+msgstr "ヘルプ・メッセージ"
+
+#: reposetup:230
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "エラー: アーギュメントが多すぎます。"
+
+#: reposetup:245 reposetup:266
+#, sh-format
+msgid "Refreshing mirror list from"
+msgstr "ミラー·リストのリフレッシュ："
+
+#: reposetup:252 reposetup:273
+#, sh-format
+msgid "Getting mirror list failed"
+msgstr "ミラーリストの入手に失敗しました"
