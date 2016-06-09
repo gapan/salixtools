@@ -5,6 +5,7 @@ It includes:
 - clocksetup: configures system date and time
 - keyboardsetup: selects the system wide keymap
 - localesetup: selects the system locale
+- netsetup: do basic network configuration
 - reposetup: selects the repository mirror to use for package management
 - service: manages system services from the command line
 - servicesetup: manages system services interactively
