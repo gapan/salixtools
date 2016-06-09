@@ -1,0 +1,19 @@
+#!/bin/sh
+#BLURB="Configure basic network settings"
+
+# Gettext internationalization
+export TEXTDOMAIN="netsetup"
+export TEXTDOMAINDIR="/usr/share/locale"
+. gettext.sh
+
+TMP=/var/log/setup/tmp
+dialog --title "`gettext "CONFIGURE NETWORK?"`" --yesno "`gettext "Would you like to \
+configure your network?"`" 5 80
+if [ $? = 0 ]; then
+  while [ 0 ]; do # we're gonna do this until we get it right :-)
+    sh usr/sbin/netsetup $*
+    if [ "$?" = "0" ]; then # success
+      break;
+    fi
+  done
+fi

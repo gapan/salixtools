@@ -1,0 +1,111 @@
+netsetup
+George Vlahavas
+%%mtime(%m/%d/%Y)
+
+%!target: man
+%!encoding: utf-8
+%!postproc(man): "^(\.TH.*) 1 "  "\1 8 "
+
+= NAME =
+
+netsetup - a script to do basic network configuration
+
+
+= SYNOPSIS =
+
+**netsetup**
+
+
+= DESCRIPTION =
+
+**netsetup** is a tool that helps setup basic network configuration. It
+uses __dialog__ to present the user with a series of questions to
+answer. The program will then edit the rc.inet1.conf file.
+
+You will also need kernel support for your network card. The **netsetup**
+program can probe your system for a network card and enable it. Or you
+can edit ///etc/rc.d/rc.modules// and select your card.
+
+You can, of course, edit the network configuration files by hand. They
+are ///etc/rc.d/rc.inet1.conf// and ///etc/rc.d/rc.inet2//, which are
+discussed in greater detail below.
+
+**netsetup** is as a fork of the stock Slackware script **netconfig**.
+In fact the two are identical, except for the fact that **netsetup** is
+internationalized.
+
+**netsetup** is part of the **salixtools** package.
+
+
+= DHCP SUPPORT =
+
+**netsetup** will ask if you want to use DHCP for your network setup. Or
+you can edit //rc.inet1.conf// to run **/sbin/dhcpd** for you. Be sure
+that you have kernel support for your network card enabled
+(**netsetup** can do this for you).
+
+
+= rc.inet1 =
+
+**rc.inet1**'s role is simple: it configures your networking devices and
+sets up your routing. Essentially, **rc.inet1** is the file that gives
+you a network in the first place, reading config options from its config
+file: //rc.inet1.conf//.
+
+This configuration file is pretty simple, it supports up to 3 different
+networking devices. For each device there's a section like the
+following:
+
+```
+# Config information for eth0:
+IPADDR[0]=""
+NETMASK[0]=""
+USE_DHCP[0]=""
+DHCP_HOSTNAME[0]=""
+```
+
+Your IP address (//IPADDR//) you can get from your network
+administrator.  The netmask is almost always going to be
+//255.255.255.0//, unless your machine is at the top of the subnet (in
+which case you probably don't need this page). //USE_DHCP// and
+//DHCP_HOSTNAME// are used if you lease an IP address from a DHCP
+server.
+
+At the bottom of rc.inet1.conf you'll find:
+
+```
+# Default gateway IP address:
+GATEWAY=""
+
+# Change this to "yes" for debugging output to stdout. Unfortunately,
+# /sbin/hotplug seems to disable stdout so you'll only see debugging
+# output
+# when rc.inet1 is called directly.
+DEBUG_ETH_UP="no"
+```
+
+//GATEWAY// is usually going to be the first machine on your subnet
+(though it may not be... ask your network admin.). //DEBUG_ETH_UP// can
+be used for debugging purposes.
+
+
+= rc.inet2 =
+
+
+**rc.inet1** gives you a network; **rc.inet2** finishes the job of network
+configuration by running stuff on that network. Any services or daemons
+that use the network should be started from this file. Most of the rc
+scripts in charge of starting daemons like inetd, sshd, bind, nfs, etc
+get called from **rc.inet2**.
+
+Other daemons (httpd, mysql, samba, etc) get called by init scripts run
+from **rc.M**, so that's where you may want to look at, if you need to
+disable them (or see how it works ;-) ).
+
+
+= AUTHORS =
+
+**netsetup** is maintained by George Vlahavas
+<vlahavas~at~gmail~dot~com>. **netsetup** is a fork of **netconfig**.
+**netconfig** is mostly written by Patrick Volkerding
+<volkerdi~at~slackware~dot~com>.

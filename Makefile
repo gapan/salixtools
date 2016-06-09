@@ -1,6 +1,14 @@
 DESTDIR ?= /
 PACKAGE_LOCALE_DIR ?= /usr/share/locale
-TOOLS = clocksetup keyboardsetup localesetup usersetup servicesetup service reposetup update-all
+TOOLS = clocksetup \
+		keyboardsetup \
+		localesetup \
+		netsetup \
+		reposetup \
+		service \
+		servicesetup \
+		update-all \
+		usersetup
 
 export DESTDIR PACKAGE_LOCALE_DIR
 
