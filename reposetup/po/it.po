@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2016-06-04 09:40+0000\n"
+"Last-Translator: Antonio Sardei <laplume@libero.it>\n"
+"Language-Team: Italian (http://www.transifex.com/gapan/salixtools/language/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: reposetup:8
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Devi avere i privilegi di amministratore per avviare questa applicazione"
+
+#: reposetup:105
+#, sh-format
+msgid "Select repository mirror"
+msgstr "Seleziona il mirror dei repository"
+
+#: reposetup:107
+#, sh-format
+msgid "Select"
+msgstr "Seleziona"
+
+#: reposetup:108
+#, sh-format
+msgid "Cancel"
+msgstr "Annulla"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"Please select your preferred repository mirror. The country code of where "
+"the mirror is located is shown on the right. Your selection will be applied "
+"to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
+msgstr "Per favore seleziona il mirror dei repository. Il codice del paese che ospita il mirror viene mostrato nella parte destra della finestra. La selezione verrà scritta nei file /etc/slapt-get/slapt-getrc e /etc/slapt-get/slapt-srcrc:"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"WARNING: Any changes you have manually made in the SOURCE lines of those "
+"files will be lost!"
+msgstr "ATTENZIONE: Qualunque modifica eseguita manualmente sulle righe SOURCE di tali files verrà perduta!"
+
+#: reposetup:124
+#, sh-format
+msgid "Update package caches?"
+msgstr "Aggiorno la cache dei pachetti?"
+
+#: reposetup:125
+#, sh-format
+msgid "Update"
+msgstr "Aggiorna"
+
+#: reposetup:126
+#, sh-format
+msgid "Do not update"
+msgstr "Non Aggiornare"
+
+#: reposetup:127
+#, sh-format
+msgid "Would you like to update the package and SlackBuild caches now?"
+msgstr "Desideri aggiornare ora la cache dei pacchetti e degli Slackbuild?"
+
+#: reposetup:171
+#, sh-format
+msgid "USAGE:"
+msgstr "UTIIZZO:"
+
+#: reposetup:171
+#, sh-format
+msgid "mirror"
+msgstr "mirror"
+
+#: reposetup:173
+#, sh-format
+msgid "OPTIONS:"
+msgstr "OPZIONI:"
+
+#: reposetup:174
+#, sh-format
+msgid "Specify a repository mirror manually"
+msgstr "Imposta manualmente un mirror per i repository"
+
+#: reposetup:175
+#, sh-format
+msgid "Use local mirror list and do not download a new one"
+msgstr "Utilizza una lista di mirror locale e non scaricarne un'altra"
+
+#: reposetup:176
+#, sh-format
+msgid "Do not update/ask for updating the package caches"
+msgstr "Non aggiornare/richiedi di aggiornare la cache dei pacchetti"
+
+#: reposetup:177
+#, sh-format
+msgid "Print currently selected mirror"
+msgstr "Stampa il mirror selezionato"
+
+#: reposetup:178
+#, sh-format
+msgid "This help message"
+msgstr "Messaggio di Aiuto"
+
+#: reposetup:230
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "ERRORE: Troppi argomenti"
+
+#: reposetup:245 reposetup:266
+#, sh-format
+msgid "Refreshing mirror list from"
+msgstr "Aggiorna la lista dei mirror da"
+
+#: reposetup:252 reposetup:273
+#, sh-format
+msgid "Getting mirror list failed"
+msgstr "Recupero della lista dei mirror fallito"
