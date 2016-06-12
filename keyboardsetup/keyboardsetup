@@ -421,6 +421,7 @@ applykeyboard(){
 	sed -i "s/\(^[ \t]*\/usr\/bin\/loadkeys -u\).*$/\1 $keymap/" /etc/rc.d/rc.keymap
 
 	# set keymap in /etc/X11/xorg.conf.d/50-keymap.conf
+	mkdir -p /etc/X11/xorg.conf.d
 	cp -f $salixtoolsdir/keyboardsetup/10-keymap.conf-template /etc/X11/xorg.conf.d/10-keymap.conf
 	sed -i "s/__XKBLAYOUT__/$xkblayout/" /etc/X11/xorg.conf.d/10-keymap.conf
 	sed -i "s/__XKBVARIANT__/$xkbvariant/" /etc/X11/xorg.conf.d/10-keymap.conf
