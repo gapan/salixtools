@@ -5,9 +5,35 @@
 # Internationalized by Didier Spaier <didier~at~slint~dot~fr>.
 # Forked as netsetup for Salix by George Vlahavas <vlahavas~at~gmail~dot~com>
 
+# Set the OS root directory (called T_PX for some unknown reason).
+# If an argument is given to this script and it is a directory, it
+# is taken to be the root directory.  First though, we check for a
+# directory named $T_PX, and that gets the first priority.
+if [ ! -d "$T_PX" ]; then
+  if [ ! "$1" = "" ]; then
+    if [ -d "$1" ]; then
+      T_PX="$1"
+    fi
+  else
+    # Are we on the installer image?
+    if [ -r /usr/lib/setup/SeTpartitions ]; then
+      T_PX=/mnt
+    # Or, are we on a running system?
+    elif [ -r /etc/slackware-version ]; then
+      T_PX=/
+    # One more installer-likely thing:
+    elif [ -r /usr/lib/setup/setup ]; then
+      T_PX=/mnt
+    else
+      # We will have to assume we're on an installed and running system.
+      T_PX=/
+    fi
+  fi
+fi
+
 # Gettext internationalization
 export TEXTDOMAIN="netsetup"
-export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAINDIR="$T_PX/usr/share/locale"
 . gettext.sh
 
 write_config_files() {
