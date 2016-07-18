@@ -111,7 +111,7 @@ interactive(){
 
 	list="$( cat $salixtoolsdir/reposetup/repomirrors )"
 	if [ -f $REPOSCUSTOM ]; then
-		list_custom="$( grep "^file:///\|^http://\|^ftp://" $REPOSCUSTOM | sed "s/$/ **/" )"
+		list_custom="$( grep "^file:///\|^http://\|^ftp://" $REPOSCUSTOM | sed "s/$/ \.\./" )"
 	else
 		list_custom=""
 	fi
