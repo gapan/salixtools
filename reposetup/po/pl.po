@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Lukasz Kaminski <elpikej@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2016-06-17 12:40+0000\n"
+"Last-Translator: Lukasz Kaminski <elpikej@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/gapan/salixtools/language/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: reposetup:8
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Musisz mieć uprawnienia administratora aby to uruchomić "
+
+#: reposetup:105
+#, sh-format
+msgid "Select repository mirror"
+msgstr "Wybierz serwer lustrzany repozytorium"
+
+#: reposetup:107
+#, sh-format
+msgid "Select"
+msgstr "Wybierz"
+
+#: reposetup:108
+#, sh-format
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"Please select your preferred repository mirror. The country code of where "
+"the mirror is located is shown on the right. Your selection will be applied "
+"to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
+msgstr "Proszę wybrać swój preferowany serwer lustrzany repozytoriów. Kod kraju w którym zlokalizowany jest serwer lustrzany jest widoczny po prawej. Twój wybór będzie zapisany w plikach /etc/slapt-get/slapt-getrc i /etc/slapt-get/slapt-srcrc "
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"WARNING: Any changes you have manually made in the SOURCE lines of those "
+"files will be lost!"
+msgstr "UWAGA: Wszystkie zmiany ręcznie wprowadzone w LINIACH ŹRÓDŁOWYCH tych plików będą utracone!"
+
+#: reposetup:124
+#, sh-format
+msgid "Update package caches?"
+msgstr "Uaktualnić  pamięć podręczną pakietów?"
+
+#: reposetup:125
+#, sh-format
+msgid "Update"
+msgstr "Uaktualnij"
+
+#: reposetup:126
+#, sh-format
+msgid "Do not update"
+msgstr "Nie uaktualniaj"
+
+#: reposetup:127
+#, sh-format
+msgid "Would you like to update the package and SlackBuild caches now?"
+msgstr "Czy chciałbyś teraz uaktualnić pamięć podręczną pakietu i SlackBuild?"
+
+#: reposetup:171
+#, sh-format
+msgid "USAGE:"
+msgstr "UŻYCIE:"
+
+#: reposetup:171
+#, sh-format
+msgid "mirror"
+msgstr "serwer lustrzany"
+
+#: reposetup:173
+#, sh-format
+msgid "OPTIONS:"
+msgstr "OPCJE:"
+
+#: reposetup:174
+#, sh-format
+msgid "Specify a repository mirror manually"
+msgstr "Wybierz serwer lustrzany repozytorium"
+
+#: reposetup:175
+#, sh-format
+msgid "Use local mirror list and do not download a new one"
+msgstr "Wybierz lokalną listę serwerów lustrzanych i nie pobieraj nowej"
+
+#: reposetup:176
+#, sh-format
+msgid "Do not update/ask for updating the package caches"
+msgstr "Nie uaktualniaj/pytaj o uaktualnienie pamięci podręcznej pakietów"
+
+#: reposetup:177
+#, sh-format
+msgid "Print currently selected mirror"
+msgstr "Wydrukuj obecnie zaznaczony serwer lustrzany"
+
+#: reposetup:178
+#, sh-format
+msgid "This help message"
+msgstr "ten komunikat pomocy"
+
+#: reposetup:230
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "BŁĄD: Zbyt wiele argumentów"
+
+#: reposetup:245 reposetup:266
+#, sh-format
+msgid "Refreshing mirror list from"
+msgstr "Odświeżanie listy serwerów lustrzanych z"
+
+#: reposetup:252 reposetup:273
+#, sh-format
+msgid "Getting mirror list failed"
+msgstr "Pobieranie listy serwerów lustrzanych się nie powiodło"

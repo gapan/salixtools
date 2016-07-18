@@ -1,30 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # ink3 <sgasior1@gmail.com>, 2011
+# Lukasz Kaminski <elpikej@gmail.com>, 2016
 # ink3 <sgasior1@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-05 20:48+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/salixtools/"
-"language/pl/)\n"
-"Language: pl\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2016-06-17 12:31+0000\n"
+"Last-Translator: Lukasz Kaminski <elpikej@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/gapan/salixtools/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: keyboardsetup:16
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr ""
+msgstr "Musisz mieć uprawnienia administratora aby to uruchomić "
 
 #: keyboardsetup:65
 #, sh-format
@@ -64,11 +63,9 @@ msgstr "nie stosuje się zmiany w locie, tylko edytuje ustawienia plików"
 #: keyboardsetup:134
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"Błąd: $OPTARG nie jest prawidłową mapą klawiatury . Możesz zobaczyć w "
-"$salixtoolsdir/keymaps na listy ważnych map"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
+msgstr "Błąd: $OPTARG nie jest prawidłową mapą klawiatury . Możesz zobaczyć w $salixtoolsdir/keymaps na listy ważnych map"
 
 #: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
@@ -129,14 +126,10 @@ msgstr "Konfiguracja IBus "
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"IBus jest platformą wejść na chiński, japoński, koreański i wiele innych "
-"języków przy użyciu środowiska graficznego. Czy chcesz go mieć włączony lub "
-"wyłączony podczas startu?\\n\\nBędziesz musiał ponownie uruchomić system aby "
-"ustawienie zadziałało."
+msgstr "IBus jest platformą wejść na chiński, japoński, koreański i wiele innych języków przy użyciu środowiska graficznego. Czy chcesz go mieć włączony lub wyłączony podczas startu?\\n\\nBędziesz musiał ponownie uruchomić system aby ustawienie zadziałało."
 
 #: keyboardsetup:313
 #, sh-format
@@ -147,11 +140,7 @@ msgstr "Konfiguracja SCIM"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"SCIM jest platformą wejść na chiński, japoński, koreański i wiele innych "
-"języków przy użyciu środowiska graficznego. Czy chcesz go mieć włączony lub "
-"wyłączony podczas startu?n\\n\\Będziesz musiał ponownie uruchomić system aby "
-"uzyskać ten efekt."
+msgstr "SCIM jest platformą wejść na chiński, japoński, koreański i wiele innych języków przy użyciu środowiska graficznego. Czy chcesz go mieć włączony lub wyłączony podczas startu?n\\n\\Będziesz musiał ponownie uruchomić system aby uzyskać ten efekt."
