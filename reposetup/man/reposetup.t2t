@@ -29,6 +29,12 @@ __EXCLUDE__ lines in __slapt-getrc__ or the __BUILDDIR__ and __PKGEXT__
 lines in __slapt-srcrc__, are not affected. Also, any edits in the
 commented lines that might have been done, will be removed.
 
+The repositories that are displayed in the **reposetup** interface are
+read from the __/usr/share/salixtools/reposetup/repomirrors__ file. This
+files should not be edited by the user. Additional custom repositories
+can be specified by the user in an __/etc/salixtools/repos-custom__
+file.
+
 
 = OPTIONS =
 

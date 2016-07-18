@@ -32,6 +32,9 @@ init(){
 	SLAPTGETRC="/etc/slapt-get/slapt-getrc"
 	SLAPTSRCRC="/etc/slapt-get/slapt-srcrc"
 
+	# Path to the repos-custom.conf
+	REPOSCUSTOM="/etc/salixtools/repos-custom"
+
 	# Paths to the slapt-* binaries
 	SLAPTGET="/usr/sbin/slapt-get"
 	SLAPTSRC="/usr/bin/slapt-src"
@@ -107,6 +110,11 @@ checkdefaults(){
 interactive(){
 
 	list="$( cat $salixtoolsdir/reposetup/repomirrors )"
+	if [ -f $REPOSCUSTOM ]; then
+		list_custom="$( grep "^file:///\|^http://\|^ftp://" $REPOSCUSTOM | sed "s/$/ **/" )"
+	else
+		list_custom=""
+	fi
 	
 	# Display server selection dialog
 	repo="$(eval dialog \
@@ -116,7 +124,7 @@ interactive(){
 	--ok-label \"`eval_gettext 'Select'`\" \
 	--cancel-label \"`eval_gettext 'Cancel'`\" \
 	--menu \
-	\"\\n`eval_gettext 'Please select your preferred repository mirror. The country code of where the mirror is located is shown on the right. Your selection will be applied to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:'`\\n\\n`eval_gettext 'WARNING: Any changes you have manually made in the SOURCE lines of those files will be lost!'`\" 20 80 11 $list )"
+	\"\\n`eval_gettext 'Please select your preferred repository mirror. The country code of where the mirror is located is shown on the right. Your selection will be applied to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:'`\\n\\n`eval_gettext 'WARNING: Any changes you have manually made in the SOURCE lines of those files will be lost!'`\" 20 80 11 $list $list_custom )"
 
 	# Don't do anything if Cancel or the close button was pressed
 	retval=$?

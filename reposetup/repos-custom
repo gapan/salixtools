@@ -1,0 +1,12 @@
+# Add any custom URLs that include Salix repositories in this file. The format
+# is one repository per line. Repository URLs should start with:
+# * "file:///" for repositories stored locally in your HD
+# * "http://" for repositories stored in a web server
+# * "ftp://" for repositories stored in an ftp server
+# 
+# Lines with any other content will not be taken into account.
+#
+# Examples:
+# file:///home/george/salix/repos
+# http://address-for-my-custom-salix-repo.com
+
