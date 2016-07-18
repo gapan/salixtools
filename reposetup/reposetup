@@ -32,7 +32,7 @@ init(){
 	SLAPTGETRC="/etc/slapt-get/slapt-getrc"
 	SLAPTSRCRC="/etc/slapt-get/slapt-srcrc"
 
-	# Path to the repos-custom.conf
+	# Path to the repos-custom
 	REPOSCUSTOM="/etc/salixtools/repos-custom"
 
 	# Paths to the slapt-* binaries
