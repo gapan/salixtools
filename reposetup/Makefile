@@ -26,7 +26,7 @@ install:
 	install -d -m 755 $(DESTDIR)/usr/share/salixtools/reposetup
 	install -m 644 repomirrors $(DESTDIR)/usr/share/salixtools/reposetup
 	install -d -m 755 $(DESTDIR)/etc/salixtools
-	install -m 644 repos-custom.conf $(DESTDIR)/etc/salixtools/
+	install -m 644 repos-custom $(DESTDIR)/etc/salixtools/
 	$(MAKE) install -C po
 	$(MAKE) install -C man
 
