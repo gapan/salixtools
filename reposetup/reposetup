@@ -168,6 +168,8 @@ configslaptget() {
 	echo ""
 	echo "# The Salix repository"
 	echo "SOURCE=$repo/$arch/$version/:PREFERRED"
+	echo "# And the Salix extra repository"
+	echo "SOURCE=$repo/$arch/extra-$version/:OFFICIAL"
 	echo ""
 	echo "# Local repositories"
 	) > $SLAPTGETRC
