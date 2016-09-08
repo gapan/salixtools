@@ -47,3 +47,7 @@ tx-pull:
 stat:
 	$(MAKE) stat -C po
 
+.PHONY: upload-mirrors
+upload-mirrors:
+	scp repomirrors repo@salixos.org:repo/MIRRORS
+
