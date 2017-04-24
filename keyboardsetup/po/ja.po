@@ -1,33 +1,34 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
+# ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2016
+# tsuren <hydrangea_and_snail@hotmail.com>, 2015
 # tsuren <hydrangea_and_snail@hotmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-05 20:48+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/salixtools/"
-"language/ja/)\n"
-"Language: ja\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2016-10-31 07:08+0000\n"
+"Last-Translator: ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen.\n"
+"Language-Team: Japanese (http://www.transifex.com/gapan/salixtools/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: keyboardsetup:16
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr ""
+msgstr "実行するには root 権限が必要です"
 
 #: keyboardsetup:65
 #, sh-format
 msgid "USAGE:"
-msgstr ""
+msgstr "使用方法："
 
 #: keyboardsetup:67
 #, sh-format
@@ -37,46 +38,44 @@ msgstr "オプション："
 #: keyboardsetup:69
 #, sh-format
 msgid "a valid keyboard map"
-msgstr ""
+msgstr "正規のキーボードマップ"
 
 #: keyboardsetup:70
 #, sh-format
 msgid "the numlock state, on or off"
-msgstr ""
+msgstr "numlock の状態、on または off"
 
 #: keyboardsetup:71
 #, sh-format
 msgid "the IBus state, on or off"
-msgstr ""
+msgstr "IBus の状態、on または off"
 
 #: keyboardsetup:72
 #, sh-format
 msgid "the SCIM state, on or off"
-msgstr ""
+msgstr "SCIM の状態、on または off"
 
 #: keyboardsetup:73
 #, sh-format
 msgid "do not apply changes on the fly, only edit settings files"
-msgstr ""
+msgstr "設定変更をその場で運用せず、設定ファイルの変更のみ行う"
 
 #: keyboardsetup:134
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"エラー：$OPTARGは、使用できるキーマップではありません。使用できるキーマップの"
-"リストは、$salixtoolsdir/keymapsでみることができます。"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
+msgstr "エラー：$OPTARG は使用できるキーマップではありません。使用できるキーマップリストは $salixtoolsdir/keymaps でみることができます。"
 
 #: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
 msgid "ERROR: $OPTARG is not a valid option."
-msgstr "エラー: $OPTARG のオプションは、使えません。"
+msgstr "エラー: $OPTARG オプションは使用できません。"
 
 #: keyboardsetup:183
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "エラー: アーギュメント多すぎです。"
+msgstr "エラー: 引数が多すぎます"
 
 #: keyboardsetup:234
 #, sh-format
@@ -91,17 +90,17 @@ msgstr "OK"
 #: keyboardsetup:237
 #, sh-format
 msgid "Exit"
-msgstr "閉じる"
+msgstr "終了"
 
 #: keyboardsetup:239
 #, sh-format
 msgid "Please select your preferred keyboard map:"
-msgstr "キーボードマップを選んでください。"
+msgstr "キーボードマップを選択して下さい:"
 
 #: keyboardsetup:262
 #, sh-format
 msgid "Numlock configuration"
-msgstr "数字キーパッド設定"
+msgstr "Numlock 設定"
 
 #: keyboardsetup:263 keyboardsetup:288 keyboardsetup:314
 #, sh-format
@@ -116,40 +115,32 @@ msgstr "不使用"
 #: keyboardsetup:267
 #, sh-format
 msgid "Do you want to have numlock enabled or disabled by default?"
-msgstr "数字キーパッドをデフォでオンにしますか"
+msgstr "Numlock をデフォルトで有効にしますか？"
 
 #: keyboardsetup:287
 #, sh-format
 msgid "IBus configuration"
-msgstr "IBus設定"
+msgstr "IBus 設定"
 
 #: keyboardsetup:292
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"IBusは、グラフィカル環境をつかって、日本語、中国語、韓国語や他の多くの言語を"
-"入力するためのプラットフォームです。ブート時にIBusを有効化、または無効化する"
-"かを設定してください。\n"
-"\n"
-"設定後システムを再起動する必要があります。"
+msgstr "IBus はグラフィカル環境を用いて日本語、中国語、韓国語、そ他の多くの言語を入力するためのプラットフォームです。起動時に IBus を有効にしますか？\\n\\n設定後、システムを再起動する必要があります。"
 
 #: keyboardsetup:313
 #, sh-format
 msgid "SCIM configuration"
-msgstr "SCIMの設定"
+msgstr "SCIM 設定"
 
 #: keyboardsetup:318
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"SCIM は日本語などのアジアの言語をタイプできるようにするアプリです。デフォで起"
-"動時に始動させますか。\\n\\n新しい設定を使用するためには、再起動してくださ"
-"い。"
+msgstr "SCIM はグラフィカル環境を用いて日本語、中国語、韓国語、その他多くの言語を入力できるようにするためのプラットフォームです。起動時に SCIM を有効にしますか？\\n\\n設定後、システムを再起動する必要があります。"

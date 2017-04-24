@@ -3,41 +3,40 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2016
-# tsuren <hydrangea_and_snail@hotmail.com>, 2015
+# Onur ÖZDEMİR, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-17 22:15+0300\n"
-"PO-Revision-Date: 2016-10-31 07:17+0000\n"
-"Last-Translator: ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen.\n"
-"Language-Team: Japanese (http://www.transifex.com/gapan/salixtools/language/ja/)\n"
+"PO-Revision-Date: 2016-12-02 06:04+0000\n"
+"Last-Translator: Onur ÖZDEMİR\n"
+"Language-Team: Turkish (http://www.transifex.com/gapan/salixtools/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: reposetup:8
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr "実行するには root 権限が必要です"
+msgstr "Bunu çalıştırmak için root yetkilerine sahip olmanız gerekmektedir"
 
 #: reposetup:105
 #, sh-format
 msgid "Select repository mirror"
-msgstr "リポジトリミラーを選択して下さい"
+msgstr "Yansı deposunu seçin"
 
 #: reposetup:107
 #, sh-format
 msgid "Select"
-msgstr "選択"
+msgstr "Seç"
 
 #: reposetup:108
 #, sh-format
 msgid "Cancel"
-msgstr "取り消し"
+msgstr "İptal et"
 
 #: reposetup:110
 #, sh-format
@@ -45,86 +44,86 @@ msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr "お好みのリポジトリミラーを選択して下さい。ミラーが配置されている場所の国コードが右側に表示されます。選択はファイル /etc/slapt-get/slapt-getrc および /etc/slapt-get/slapt-srcrc に適用されます:"
+msgstr "Lütfen tercih ettiğiniz depo yansısını seçin. Yansının bulunduğu ülke kodu sağda gösterilir. Seçiminiz /etc/slapt-get/slapt-getrc ve /etc/slapt-get/slapt-srcrc dosyalarına uygulanacaktır:"
 
 #: reposetup:110
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr "警告：手動で行ったこれらファイルのソース変更は失われます！"
+msgstr "UYARI: Bu dosyaların KAYNAK satırlarında manuel olarak yaptığınız değişiklikler kaybolacaktır!"
 
 #: reposetup:124
 #, sh-format
 msgid "Update package caches?"
-msgstr "パッケージキャッシュを更新しますか？"
+msgstr "Paket önbellekleri güncelleştirilsin mi?"
 
 #: reposetup:125
 #, sh-format
 msgid "Update"
-msgstr "更新する"
+msgstr "Güncelle"
 
 #: reposetup:126
 #, sh-format
 msgid "Do not update"
-msgstr "更新しない"
+msgstr "Güncelleme"
 
 #: reposetup:127
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
-msgstr "パッケージと SlackBuild のキャッシュを今すぐ更新しますか？"
+msgstr "Paket ve SlackBuild önbelleklerini şimdi güncellemek ister misiniz?"
 
 #: reposetup:171
 #, sh-format
 msgid "USAGE:"
-msgstr "使用方法："
+msgstr "KULLANIM:"
 
 #: reposetup:171
 #, sh-format
 msgid "mirror"
-msgstr "ミラー"
+msgstr "yansı"
 
 #: reposetup:173
 #, sh-format
 msgid "OPTIONS:"
-msgstr "オプション："
+msgstr "OPSİYONLAR:"
 
 #: reposetup:174
 #, sh-format
 msgid "Specify a repository mirror manually"
-msgstr "リポジトリミラーを手動で選択"
+msgstr "Depo yansısını elle belirtin"
 
 #: reposetup:175
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
-msgstr "ローカルのミラーリストを使用し、新しいリストをダウンロードしない"
+msgstr "Yerel yansı listesini kullanın ve yeni bir tane indirmeyin"
 
 #: reposetup:176
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
-msgstr "パッケージキャッシュを更新するかどうかの質問をなくす"
+msgstr ""
 
 #: reposetup:177
 #, sh-format
 msgid "Print currently selected mirror"
-msgstr "現在選択されているミラーを表示"
+msgstr "Şu anda seçili yansıyı yazdır"
 
 #: reposetup:178
 #, sh-format
 msgid "This help message"
-msgstr "ヘルプメッセージ"
+msgstr "Bu yardım mesajı"
 
 #: reposetup:230
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "エラー: 引数が多すぎます"
+msgstr "HATA: Çok fazla parametre"
 
 #: reposetup:245 reposetup:266
 #, sh-format
 msgid "Refreshing mirror list from"
-msgstr "ミラーリストの更新"
+msgstr "Yansı listesi yenilenecek"
 
 #: reposetup:252 reposetup:273
 #, sh-format
 msgid "Getting mirror list failed"
-msgstr "ミラーリストの取得に失敗しました"
+msgstr "Yansı listesini alma başarısız oldu"

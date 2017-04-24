@@ -3,47 +3,47 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Didier Spaier <didier@slint.fr>, 2016
+# Onur ÖZDEMİR, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2016-11-29 22:33+0000\n"
-"Last-Translator: Didier Spaier <didier@slint.fr>\n"
-"Language-Team: French (http://www.transifex.com/gapan/salixtools/language/fr/)\n"
+"PO-Revision-Date: 2016-12-02 06:20+0000\n"
+"Last-Translator: Onur ÖZDEMİR\n"
+"Language-Team: Turkish (http://www.transifex.com/gapan/salixtools/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
+"Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: servicesetup:23
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr "Vous avez besoin des droits de 'root' pour exécuter cette commande"
+msgstr "Bunu çalıştırmak için root yetkilerine sahip olmanız gerekmektedir"
 
 #: servicesetup:59
 #, sh-format
 msgid "Startup services"
-msgstr "Démarrage des services"
+msgstr "Başlangıç servisleri"
 
 #: servicesetup:60
 #, sh-format
 msgid "OK"
-msgstr "OK"
+msgstr "TAMAM"
 
 #: servicesetup:61
 #, sh-format
 msgid "Exit"
-msgstr "Quitter"
+msgstr "Çıkış"
 
 #: servicesetup:64
 #, sh-format
 msgid "The selected services will be started at boot time:"
-msgstr "Les services sélectionnés seront lancés au démarrage :"
+msgstr "Seçilen servisler önyükleme zamanında başlatılacak:"
 
 #: servicesetup:73
 #, sh-format
 msgid "The $service service"
-msgstr "Le service $service"
+msgstr "$service servisi"

@@ -3,27 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# tarakbumba <tarakbumba@gmail.com>, 2013
-# atlantistruva, 2013
-# Didier Spaier <didier (at) slint (dot) fr>, 2014
-# Didier Spaier <didier@slint.fr>, 2014
-# kaanureyen07 <kaanureyen07@gmail.com>, 2014
-# Onur ÖZDEMİR, 2016
-# Orhan Orhan <orhan.orhan@hotmail.com.tr>, 2013,2016
-# Samet YILMAZ <admin@linux.net.tr>, 2013
+# ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-09 13:36+0300\n"
-"PO-Revision-Date: 2016-12-01 21:25+0000\n"
-"Last-Translator: Onur ÖZDEMİR\n"
-"Language-Team: Turkish (http://www.transifex.com/gapan/salixtools/language/tr/)\n"
+"PO-Revision-Date: 2016-11-07 03:37+0000\n"
+"Last-Translator: ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen.\n"
+"Language-Team: Japanese (http://www.transifex.com/gapan/salixtools/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: netsetup:245
 #, sh-format
@@ -31,11 +24,11 @@ msgid ""
 "The address you have entered seems to be non-standard. We were expecting\n"
 "$ArG2 groups of numbers seperated by dots, like: 127.0.0.1\n"
 "Are you absolutely sure you want to use the address $ArG1?"
-msgstr "Girdiğiniz adres standart dışı görünüyor. Noktalarla ayrılmış $ArG2 grup sayılar\nbekliyoruz, şöyle: 127.0.0.1\nKesinlikle $ArG1 adresini kullanmak istediğinizden emin misiniz?"
+msgstr "入力したアドレスが標準的ではなさそうです。\nグループ $ArG2 は 127.0.0.1 のようにドットで区切られた数字を期待します。\nアドレス $ArG1 の使用を行いますか？"
 
 #: netsetup:249
 msgid "WARNING"
-msgstr "UYARI"
+msgstr "警告"
 
 #: netsetup:284
 msgid ""
@@ -43,11 +36,11 @@ msgid ""
 "Only the base hostname is needed right now. (not the domain)\n"
 "\n"
 "Enter hostname:"
-msgstr "İlk olarak makinıza vermek istediğiniz isim gerekiyor.\nŞu anda sadece temel makinaadı gerekiyor. (alan adı değil)\n\nmakinaadını girin:"
+msgstr "まず、ホスト名が必要になります。\nここではベースとなるホスト名のみが必要です。（ドメインは外す）\nホスト名を入力して下さい:"
 
 #: netsetup:288
 msgid "ENTER HOSTNAME"
-msgstr "MAKİNA ADINI GİRİN"
+msgstr "ホスト名を入力して下さい"
 
 #: netsetup:302
 #, sh-format
@@ -59,44 +52,44 @@ msgid ""
 "Do not supply a leading '.'\n"
 "\n"
 "Enter domain name for $HOSTNM:"
-msgstr "Şimdi bu makina için alan adı gerekiyor, mesela:\n\nexample.org\n\nÖnünde '.' olmadan\n\n$HOSTNM için alan adı girin:"
+msgstr "このようなマシンのドメイン名が必要です:\n\nexample.org\n\n'.' を外さないで下さい\n\n$HOSTNM のドメイン名を入力して下さい:"
 
 #: netsetup:309
 #, sh-format
 msgid "ENTER DOMAINNAME FOR $HOSTNM"
-msgstr "$HOSTNM İÇİN ALANADI GİRİN"
+msgstr "$HOSTNM のドメイン名を入力して下さい"
 
 #: netsetup:330
 #, sh-format
 msgid "CONFIGURATION TYPE FOR $HOSTNM.$DOMAIN"
-msgstr "$HOSTNM.$DOMAIN İÇİN YAPILANDIRMA TÜRÜ"
+msgstr "$HOSTNM.$DOMAIN の構成タイプ"
 
 #: netsetup:333
 msgid ""
 "Now we need to know how your machine connects to the network.\n"
 "\n"
 "If you have an internal network card and an assigned IP address, gateway, and DNS, use the 'static IP' choice to enter these values.  If your IP address is assigned by a DHCP server (commonly used by cable modem and DSL services), select 'DHCP'.  If you do not have a network card, select the 'loopback' choice.  You may also select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works). Which type of network setup would you like?"
-msgstr "Şimdi makinanızın ağa nasıl bağlandığını bilmemiz gerekiyor.\n\nEğer dahili bir ağ kartınız varsa ve IP adresi, ağ geçidi, ve DNS atanmışsa, bu değerleri girmek için 'statik IP' seçeneğini kullanın. Eğer IP adresiniz bir DHCP sunucu tarafından atanmışsa (kablo modem ve DSL hizmetleri tarafından yaygın olarak kullanılır), 'DHCP' seçiniz. Eğer bir ağ kartınız yoksa, 'loopback' seçeneğini seçiniz. Ayrıca NetworkManager sürecinin kablolu ve kablosuz ağ arayüzlerini otomatik olarak yönetmesini isterseniz 'NetworkManager' seçebilirsiniz (bu basittir ve genellikle işe yarar). Hangi tür ağ kurulumu istersiniz?"
+msgstr "ネットワークの接続方法を知る必要があります。\n\n内部ネットワークカードと割り当てられたIPアドレス、ゲートウェイ、DNS を使用している場合、これらの値を入力するために「静的 IP」の選択肢を使用します。IP アドレスが DHCP サーバによって割り当てられている場合は、「DHCP」を選択します。（通常ケーブルモデムや DSL サービスで使用されます）ネットワークカードがない場合は、「ループバック」を選択を選択します。自動的に NetworkManager デーモンを持っている有線・無線ネットワークインターフェースを処理したい場合は「NetworkManager」を選択する事ができます。（これは単純であり通常動作します）どのネットワーク設定をご希望ですか？"
 
 #: netsetup:343
 msgid "Use a static IP address to configure ethernet"
-msgstr "Etherneti yapılandırmak için sabit IP adresi kullan"
+msgstr "有線設定に固定 IP アドレスを使用する"
 
 #: netsetup:344
 msgid "Use a DHCP server to configure ethernet"
-msgstr "Etherneti yapılandırmak için bir DHCP sunucu kullan"
+msgstr "有線設定に DHCP サーバを使用する"
 
 #: netsetup:345
 msgid "Set up a loopback connection (modem or no net)"
-msgstr "Bir loopback bağlantısı ayarla (modem ya da ağ yok)"
+msgstr "ループバック接続の設定 (モデムまたはネット未使用)"
 
 #: netsetup:346
 msgid "Autoconfigure network using NetworkManager"
-msgstr "NetworkManager kullanarak ağı otomatik yapılandır"
+msgstr "NetworkManager を使用したネットワークの自動設定"
 
 #: netsetup:356
 msgid "SET DHCP HOSTNAME"
-msgstr "DHCP MAKİNAADI AYARLA"
+msgstr "DHCP ホスト名を設定します"
 
 #: netsetup:356
 msgid ""
@@ -105,7 +98,7 @@ msgid ""
 " look something like CC-NUMBER-A (this depends on your ISP).  If you were "
 "assigned a DHCP hostname, please enter it below.  If you do not have a DHCP "
 "hostname, just hit ENTER or Cancel."
-msgstr "Bazı ağ sağlayıcıları bağlanmak için DHCP makinaadının ayarlanmasını gerektirir. Eğer öyleyse, makinanıza bir makinaadı atayacaklardır, ki bu CC-NUMBER-A (ISP nize bağlıdır) gibi birşeydir. Eğer bir DHCP makinaadı atanmışsa, bunu aşağıya girin. Eğer bir DHCP makinaadınız yoksa sadece ENTER a ya da İptale basın."
+msgstr "一部のネットワークプロバイダは、DHCP ホスト名を接続するために設定されることを必要とします。もしその場合、CC-NUMBER-Aのようなものをホスト名として割り当てています。（これは ISP によって異なります）DHCP ホスト名を割り当てたい場合は入力してください。DHCP ホスト名を持っていない場合は、単に ENTER キーをオス化、またはキャンセルを選択して下さい。"
 
 #: netsetup:381
 #, sh-format
@@ -113,27 +106,27 @@ msgid ""
 "Enter your IP address for the local machine.  Example: \n"
 "111.112.113.114\n"
 "Enter IP address for $HOSTNM (aaa.bbb.ccc.ddd):"
-msgstr "Yerel makina için IP adresinizi girin. Örnek: \n111.112.113.114\n$HOSTNM için IP adresi girin (aaa.bbb.ccc.ddd):"
+msgstr "ローカルマシンの IP アドレスを入力して下さい。例：\n111.112.113.114\n$HOSTNM の IP アドレスを入力して下さい (aaa.bbb.ccc.ddd):"
 
 #: netsetup:384
 #, sh-format
 msgid "ENTER IP ADDRESS FOR $HOSTNM.$DOMAIN"
-msgstr "$HOSTNM.$DOMAIN İÇİN IP ADRESİ GİRİN"
+msgstr "$HOSTNM.$DOMAIN の IP アドレスを入力して下さい"
 
 #: netsetup:407
 msgid ""
 "Enter your netmask.  This will generally look something\n"
 "like this: 255.255.255.0\n"
 "Enter netmask (aaa.bbb.ccc.ddd):"
-msgstr "Ağ maskenizi girin.  Genellikle şunun gibi birşeydir:\n255.255.255.0\nAğ maskesi girin (aaa.bbb.ccc.ddd):"
+msgstr "ネットマスクを入力して下さい。通常このような形式です:\n255.255.255.0\nネットマスクを入力して下さい (aaa.bbb.ccc.ddd)"
 
 #: netsetup:410
 msgid "ENTER NETMASK FOR LOCAL NETWORK"
-msgstr "YEREL AĞ İÇİN AĞ MASKESİ GİRİN"
+msgstr "ローカルネットワークのネットマクスを入力して下さい"
 
 #: netsetup:437
 msgid "Enter the address for the gateway on your network, such as:"
-msgstr "Ağınızdaki ağ geçidi için adresi girin, şunun gibi:"
+msgstr "ネットワークゲートウェイのアドレスを入力して下さい。例えば:"
 
 #: netsetup:441
 msgid ""
@@ -141,19 +134,19 @@ msgid ""
 "without entering a gateway IP address.\n"
 "\n"
 "Enter gateway address (aaa.bbb.ccc.ddd):"
-msgstr "Eğer ağınızda bir ağ geçidi yoksa  bir ağ geçidi adresi girmeden\nsadece ENTER a basın\n\nAğ geçidi adresi girin  (aaa.bbb.ccc.ddd):"
+msgstr "ネットワーク上にゲートウェイがない場合場合は、\nゲートウェイ IP アドレスを入力せず Enter を押して下さい。\n\nゲートウェイアドレスを入力して下さい (aaa.bbb.ccc.ddd):"
 
 #: netsetup:445
 msgid "ENTER GATEWAY ADDRESS"
-msgstr "AĞ GEÇİDİ ADRESİ GİRİN"
+msgstr "ゲートウェイアドレスを入力して下さい"
 
 #: netsetup:466
 msgid "USE A NAMESERVER?"
-msgstr "BİR İSİM SUNUCUSU KULLAN?"
+msgstr "ネームサーバを使用しますか？"
 
 #: netsetup:466
 msgid "Will you be accessing a nameserver?"
-msgstr "Bir isim sunucusuna erişecek misiniz?"
+msgstr "ネームサーバの入力を行いますか？"
 
 #: netsetup:477
 #, sh-format
@@ -167,15 +160,15 @@ msgid ""
 "You can add more Domain Name Servers later by editing $RESOLV.\n"
 "\n"
 "Primary name server to use (aaa.bbb.ccc.ddd):"
-msgstr "Şu anki IP adresiniz, tam makina adı, ve temel makina adı şöyle:\n$IPADDR $HOSTNM.$DOMAIN $HOSTNM\n\nLütfen kullanılacak isim sunucu adresini, $DNSSAMPLE\ngibi giriniz.\n\nDaha sonra $RESOLV u düzenleyerek daha fazla DNS girebilirsiniz.\n\nKullanılacak birincil isim sunucu (aaa.bbb.ccc.ddd):"
+msgstr "現在のIPアドレス、完全なホスト名、ベースホスト名は次のとおりです:\n$IPADDR       $HOSTNM.$DOMAIN    $HOSTNM\n\n使用するネームサーバの IP アドレスを入力して下さい。\n例えば $DNSSAMPLE\n\n後に $RESOLV を編集して、より多くのドメインネームサーバを追加することができます。\n\n使用するプライマリネームサーバ (aaa.bbb.ccc.ddd):"
 
 #: netsetup:486
 msgid "SELECT NAMESERVER"
-msgstr "İSİM SUNUCU SEÇİN"
+msgstr "ネームサーバを選択して下さい"
 
 #: netsetup:514
 msgid "PROBE FOR NETWORK CARD?"
-msgstr "AĞ KARTI ARAŞTIR?"
+msgstr "ネットワークカードを探索しますか？"
 
 #: netsetup:514
 msgid ""
@@ -186,28 +179,28 @@ msgid ""
 "configure your system manually, you can skip the probing process and edit "
 "/etc/rc.d/rc.modules or /etc/modules.conf later to have it load the right "
 "module."
-msgstr "Eğer isterseniz, makinanızda hangi tür bir ağ kartınız olduğuna bakabiliriz, ve eğer bir tane bulursak önyükleme zamanında bunun için modülün yüklenmesi için bir /etc/rc.d/rc.netdevice betiği oluşturabiliriz. İncelemenin probleme yol açmasıla ilgili küçük bir tehlike vardır, fakat çoğunlukla iyi çalışır. Eğer bunun yerine sisteminizi elle yapılandırırsanız, inceleme aşamasını geçebilirsiniz ve /etc/rc.d/rc.modules veya /etc/modules.conf dosyasını sonradan doru modülü yüklemesi için düzenleyebilirsiniz."
+msgstr ""
 
 #: netsetup:522
 msgid "look for network cards to set up"
-msgstr "kurulacak ağ kartı ara"
+msgstr "セットアップするネットワークカードを見る"
 
 #: netsetup:523
 msgid "skip probe;  edit /etc/rc.d/rc.modules later"
-msgstr "araştırmayı geç; sonra /etc/rc.d/rc.modules ü değiştir"
+msgstr ""
 
 #: netsetup:536 netsetup:553
 msgid "CARD DETECTED"
-msgstr "KART ALGILANDI"
+msgstr "カードを検出しました"
 
 #: netsetup:536 netsetup:553
 #, sh-format
 msgid "A networking card using the $card.o module has been detected."
-msgstr "$card.o modülünü kullanan bir ağ kartı algılandı."
+msgstr ""
 
 #: netsetup:561
 msgid "NO CARD DETECTED"
-msgstr "KART ALGILANMADI"
+msgstr "カードは検出されませんでした"
 
 #: netsetup:561
 msgid ""
@@ -215,11 +208,11 @@ msgid ""
 "(like non-PCI NE2000s) must be supplied with the I/O address to use and "
 "can't be probed for safely. You'll have to try to configure the card later "
 "by editing /etc/rc.d/rc.modules or recompiling your kernel."
-msgstr "Üzgünüz, fakat sisteminiz üzerinde hiç bir ağ kartı incelenemedi. Bazı kartlar (PCI-olmayan NE2000s gibi) kullanılacak I/O adresi ile verilmeli ve güvenli olarak incelenemezler. Daha sonra kartı yapılandırmak için /etc/rc.d/rc.modules ü düzenlemeli ya da çekirdeği yeniden derlemelisiniz."
+msgstr ""
 
 #: netsetup:571 netsetup:580
 msgid "NETWORK SETUP COMPLETE"
-msgstr "AĞ KURULUMU TAMAMLANDI"
+msgstr "ネットワーク設定が完了しました"
 
 #: netsetup:571
 msgid ""
@@ -229,7 +222,7 @@ msgid ""
 "Netmask: 255.255.255.0\n"
 "\n"
 "Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
-msgstr "Ağ sisteminiz loopback kullanacak şekilde yapılandırışdı:\n\nIP adres: 127.0.0.1\nAğ maskesi: 255.255.255.0\n\nBu doğru mu? Devam etmek için 'Evet' e, yeniden yapılandırmak \niçin 'Hayır' a tıklayın."
+msgstr ""
 
 #: netsetup:580
 msgid ""
@@ -239,46 +232,46 @@ msgid ""
 "your KDE desktop.\n"
 "\n"
 "Is this correct?  Press 'Yes' to confirm, or 'No' to reconfigure."
-msgstr "Ağ sisteminiz şimdi kablolu ve kablosuz ağ yönetimi için NetworkManager\nkullanacak şekilde yapılandırıldı. Kablosuz ağları kurmak ve durumlarını\ngörmek için, KDE masaüstünüze Network Management kontrol paneli \naracını ekleyin.\n\nBu doğru mu? Onaylamak için 'Evet', yeniden yapılandırmak için 'Hayır'."
+msgstr ""
 
 #: netsetup:590
 msgid "CONFIRM NETWORK SETUP"
-msgstr "AĞ KURULUMUNU DOĞRULA"
+msgstr "ネットワーク設定の確認"
 
 #: netsetup:595
 msgid ""
 "These are the settings you have entered.  To accept them and complete the "
 "networking setup, press enter.  If you need to make any changes, you can do "
 "that now (or reconfigure later using 'netsetup')."
-msgstr "Bunlar girdiğiniz ayarlar. Ağ kurulumunu kabul etmek ve tamamlamak için enter a basın. Herhangi bir değişiklik yapmanız gerekiyorsa, bunu şimdi yapabilirsiniz (ya da 'netsetup' kullanarak daha sonra)."
+msgstr ""
 
 #: netsetup:599
 msgid "Hostname:"
-msgstr "Makinaadı:"
+msgstr "ホスト名:"
 
 #: netsetup:600
 msgid "Domain name:"
-msgstr "Alan adı:"
+msgstr "ドメイン名:"
 
 #: netsetup:601
 msgid "IP address:"
-msgstr "IP adresi:"
+msgstr "IP アドレス:"
 
 #: netsetup:602
 msgid "Netmask:"
-msgstr "Ağ maskesi:"
+msgstr "ネットマスク:"
 
 #: netsetup:603
 msgid "Gateway:"
-msgstr "Ağ geçidi:"
+msgstr "ゲートウェイ:"
 
 #: netsetup:604
 msgid "Nameserver:"
-msgstr "İsimsunucu:"
+msgstr "ネームサーバ:"
 
 #: netsetup:627
 msgid "CONFIRM SETUP COMPLETE"
-msgstr "KURULUM TAMAMLANDI DOĞRULA"
+msgstr ""
 
 #: netsetup:628
 #, sh-format
@@ -293,22 +286,22 @@ msgid ""
 "  Nameserver:   (use DHCP server)\n"
 "\n"
 "Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
-msgstr "Ağ sisteminiz DHCP kullanacak şekilde yapılandırıldı:\n\nMakinaadı: $HOSTNM\nAlan adı: $DOMAIN\nIP adresi: (DHCP sunucu kullanır)\nAğ maskesi (DHCP sunucu kullanır)\nAğ geçidi: (DHCP sunucu kullanır)\nİsimsunucu: (DHCP sunucu kullanır)\n\nBu doğru mu? Devam etmek için 'Evet' e, yeniden yapılandırmak \niçin 'Hayır' a tıklayın."
+msgstr ""
 
 #: netsetup:653
 msgid "Settings accepted.  Basic network configuration is complete."
-msgstr "Ayarlar kabul edildi. Temel ağ kurulumu tamamlandı."
+msgstr ""
 
 #: netsetup:657
 msgid ""
 "Settings discarded.  Run the 'netsetup' command again if you need to "
 "reconfigure your network settings."
-msgstr "Ayarlar kabul edilmedi. Ağ ayarlarınızı yeniden yapılandırmak için eğer gerekliyse netsetup' komutunu yeniden çalıştırın."
+msgstr ""
 
 #: setup.netsetup:5
 msgid "CONFIGURE NETWORK?"
-msgstr "AĞI YAPILANDIR?"
+msgstr ""
 
 #: setup.netsetup:5
 msgid "Would you like to configure your network?"
-msgstr "Ağınızı yapılandırmak ister misiniz?"
+msgstr ""

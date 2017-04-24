@@ -3,177 +3,175 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2016
-# tsuren <hydrangea_and_snail@hotmail.com>, 2015
-# tsuren <hydrangea_and_snail@hotmail.com>, 2011
+# Onur ÖZDEMİR, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:56+0200\n"
-"PO-Revision-Date: 2016-10-31 07:01+0000\n"
-"Last-Translator: ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen.\n"
-"Language-Team: Japanese (http://www.transifex.com/gapan/salixtools/language/ja/)\n"
+"PO-Revision-Date: 2016-12-01 21:08+0000\n"
+"Last-Translator: Onur ÖZDEMİR\n"
+"Language-Team: Turkish (http://www.transifex.com/gapan/salixtools/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: clocksetup:7
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr "実行するには root 権限が必要です"
+msgstr "Bunu çalıştırmak için root yetkilerine sahip olmanız gerekmektedir"
 
 #: clocksetup:43
 #, sh-format
 msgid "USAGE:"
-msgstr "使用方法："
+msgstr "KULLANIM:"
 
 #: clocksetup:45
 #, sh-format
 msgid "OPTIONS:"
-msgstr "オプション："
+msgstr "OPSİYONLAR:"
 
 #: clocksetup:47
 #, sh-format
 msgid "only show the hardware clock configuration dialog"
-msgstr "ハードウェアクロックの設定ダイアログのみを表示"
+msgstr "yalnızca donanım saati yapılandırma iletişim kutusunu gösterin"
 
 #: clocksetup:48
 #, sh-format
 msgid "only show the date configuration dialog"
-msgstr "日付設定のダイアログのみを表示"
+msgstr "yalnızca tarih yapılandırma iletişim kutusunu gösterin"
 
 #: clocksetup:49
 #, sh-format
 msgid "only show the time configuration dialog"
-msgstr "時間設定のダイアログのみを表示"
+msgstr "yalnızca zaman yapılandırma iletişim kutusunu gösterin"
 
 #: clocksetup:50
 #, sh-format
 msgid "only show the timezone configuration dialog"
-msgstr "タイムゾーン設定のダイアログのみを表示"
+msgstr "yalnızca saat dilimi yapılandırma iletişim kutusunu gösterin"
 
 #: clocksetup:51
 #, sh-format
 msgid "this help message"
-msgstr "ヘルプメッセージ"
+msgstr "bu yardım mesajı"
 
 #: clocksetup:90
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "エラー: 引数が多すぎます"
+msgstr "HATA: çok fazla parametre var"
 
 #: clocksetup:100 clocksetup:164 clocksetup:185 clocksetup:206 clocksetup:256
 #, sh-format
 msgid "OK"
-msgstr "OK"
+msgstr "TAMAM"
 
 #: clocksetup:101
 #, sh-format
 msgid "Exit"
-msgstr "閉じる"
+msgstr "Çıkış"
 
 #: clocksetup:102
 #, sh-format
 msgid "System clock configuration"
-msgstr "システム時計設定"
+msgstr "Sistem saati yapılandırması"
 
 #: clocksetup:104
 #, sh-format
 msgid "Currently the clock is set to:"
-msgstr "現在時計の設定："
+msgstr "Şu anda saat şu şekilde ayarlanmıştır:"
 
 #: clocksetup:105
 #, sh-format
 msgid "Please choose an option:"
-msgstr "オプションを選択してください:"
+msgstr "Lütfen bir opsiyon seçiniz:"
 
 #: clocksetup:107
 #, sh-format
 msgid "Set the time manually"
-msgstr "時間を手動で設定する"
+msgstr "Saati elle ayarla"
 
 #: clocksetup:108
 #, sh-format
 msgid "Set the date manually"
-msgstr "日付を手動で設定する"
+msgstr "Tarihi elle ayarlayın"
 
 #: clocksetup:109
 #, sh-format
 msgid "Set the time zone"
-msgstr "タイムゾーンを設定する"
+msgstr "Saat dilimini ayarlayın"
 
 #: clocksetup:110
 #, sh-format
 msgid "Configure the hardware clock"
-msgstr "ハードウェアの時計を設定"
+msgstr "Donanım saatini yapılandır"
 
 #: clocksetup:111
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
-msgstr "Network Time Protocol (NTP) で同期する"
+msgstr "Ağ Zaman Protokolü (NTP) ile senkronize edin"
 
 #: clocksetup:163
 #, sh-format
 msgid "Clock adjustment"
-msgstr "時間の調整"
+msgstr "Saat ayarı"
 
 #: clocksetup:165 clocksetup:186 clocksetup:207 clocksetup:257
 #, sh-format
 msgid "Cancel"
-msgstr "キャンセル"
+msgstr "İptal et"
 
 #: clocksetup:167
 #, sh-format
 msgid "Please set the time..."
-msgstr "時間を設定して下さい..."
+msgstr "Lütfen saati ayarlayın..."
 
 #: clocksetup:184
 #, sh-format
 msgid "Date adjustment"
-msgstr "日付の調整"
+msgstr "Tarih ayarı"
 
 #: clocksetup:188
 #, sh-format
 msgid "Please set the date..."
-msgstr "日付を設定して下さい..."
+msgstr "Lütfen tarihi ayarlayın..."
 
 #: clocksetup:208
 #, sh-format
 msgid "Time zone configuration"
-msgstr "タイムゾーンの設定"
+msgstr "Saat dilimi yapılandırması"
 
 #: clocksetup:210
 #, sh-format
 msgid "Please select your time zone..."
-msgstr "タイムゾーンを設定して下さい..."
+msgstr "Lütfen saat diliminizi seçiniz..."
 
 #: clocksetup:230
 #, sh-format
 msgid "Warning"
-msgstr "注意"
+msgstr "Uyarı"
 
 #: clocksetup:232
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
-msgstr "すでに ntpd サービスが使用されています。時計は正しく動作しているはずです。"
+msgstr "Zaten ntpd servisini kullanıyorsunuz ve saat doğru olmalıdır."
 
 #: clocksetup:236
 #, sh-format
 msgid "Error"
-msgstr "エラー"
+msgstr "Hata"
 
 #: clocksetup:238
 #, sh-format
 msgid "Something went wrong. Time was not adjusted."
-msgstr "なにか問題があります。時間設定できませんでした。"
+msgstr "Bir şeyler yanlış gitti. Zaman ayarlanmadı."
 
 #: clocksetup:258
 #, sh-format
 msgid "Hardware clock set to UTC?"
-msgstr "ハードウェアクロックを UTC に設定する"
+msgstr "Donanım saati UTC'ye göre ayarlansın mı?"
 
 #: clocksetup:260
 #, sh-format
@@ -182,24 +180,24 @@ msgid ""
 " select YES here.  If the hardware clock is set to the current local time "
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
-msgstr "ハードウェアクロックは Coordinated Universal Time (UTC/GMT) に設定していますか？ そうである場合は、はい を選択してください。もしも時計が、ローカルタイムに設定している場合は いいえ を選択してください。ほとんどのコンピュータは、ローカルタイムに設定されています。よくわからない場合は いいえ を選択してください。"
+msgstr "Donanım saati Eş Güdümlü Evrensel Saat (UTC/GMT) olarak ayarlanmış mı? Öyleyse, burada EVET'i seçin. Donanım saati geçerli yerel saate ayarlanırsa (çoğu PC kuruldukları şekilde), burada HAYIR deyin. Bunun ne olduğundan emin değilseniz, burada hayır cevabınızdır."
 
 #: clocksetup:261
 #, sh-format
 msgid "No"
-msgstr "いいえ"
+msgstr "Hayır"
 
 #: clocksetup:261
 #, sh-format
 msgid "Hardware clock is set to local time"
-msgstr "ハードウェアクロックは ローカルタイム に設定されています"
+msgstr "Donanım saati yerel saate ayarlandı"
 
 #: clocksetup:262
 #, sh-format
 msgid "Yes"
-msgstr "はい"
+msgstr "Evet"
 
 #: clocksetup:262
 #, sh-format
 msgid "Hardware clock is set to UTC"
-msgstr "ハードウェアクリックは UTC に設定されています"
+msgstr "Donanım saati UTC'ye ayarlandı"

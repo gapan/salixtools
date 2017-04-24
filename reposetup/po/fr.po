@@ -1,137 +1,130 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Didier Spaier <didier.spaier@epsm.fr>, 2013
+# Didier Spaier <didier@slint.fr>, 2016
+# Didier Spaier <didier@slint.fr>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-06-17 19:18+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/salixtools/"
-"language/fr/)\n"
-"Language: fr\n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2016-11-29 23:09+0000\n"
+"Last-Translator: Didier Spaier <didier@slint.fr>\n"
+"Language-Team: French (http://www.transifex.com/gapan/salixtools/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: reposetup:8
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr ""
+msgstr "Vous avez besoin des droits de 'root' pour exécuter cette commande"
 
-#: reposetup:114
+#: reposetup:105
 #, sh-format
 msgid "Select repository mirror"
 msgstr "Sélectionner le dépôt miroir"
 
-#: reposetup:116
+#: reposetup:107
 #, sh-format
 msgid "Select"
 msgstr "Sélectionner"
 
-#: reposetup:117
+#: reposetup:108
 #, sh-format
 msgid "Cancel"
 msgstr "Abandonner"
 
-#: reposetup:119
+#: reposetup:110
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr ""
-"Merci de sélectionner votre dépot miroir préféré. Le code du pays où se "
-"situe le miroir apparaît à droite. Votre sélection s'appliquera aux "
-"fichiers /etc/slapt-get/slaptget-rc et /etc/slapt-get/slapt-srcrc :"
+msgstr "Merci de sélectionner votre dépot miroir préféré. Le code du pays où se situe le miroir apparaît à droite. Votre sélection s'appliquera aux fichiers /etc/slapt-get/slaptget-rc et /etc/slapt-get/slapt-srcrc :"
 
-#: reposetup:119
+#: reposetup:110
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr ""
-"ATTENTION : toutes les modifications que vous avez effectuées manuellement "
-"dans les lignes SOURCE de ces fichiers seront perdues !"
+msgstr "ATTENTION : toutes les modifications que vous avez effectuées manuellement dans les lignes SOURCE de ces fichiers seront perdues !"
 
-#: reposetup:133
+#: reposetup:124
 #, sh-format
 msgid "Update package caches?"
 msgstr "Mettre à jour les caches des paquets ?"
 
-#: reposetup:134
+#: reposetup:125
 #, sh-format
 msgid "Update"
 msgstr "Mettre à jour"
 
-#: reposetup:135
+#: reposetup:126
 #, sh-format
 msgid "Do not update"
 msgstr "Ne pas mettre à jour"
 
-#: reposetup:136
+#: reposetup:127
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
-msgstr ""
-"Voulez-vous mettre à jour les caches des paquets et des SlackBuild "
-"maintenant ?"
+msgstr "Voulez-vous mettre à jour les caches des paquets et des SlackBuild maintenant ?"
 
-#: reposetup:180
+#: reposetup:171
 #, sh-format
 msgid "USAGE:"
-msgstr ""
+msgstr "UTILISATION :"
 
-#: reposetup:180
+#: reposetup:171
 #, sh-format
 msgid "mirror"
-msgstr ""
+msgstr "miroir"
 
-#: reposetup:182
+#: reposetup:173
 #, sh-format
 msgid "OPTIONS:"
-msgstr ""
+msgstr "OPTIONS:"
 
-#: reposetup:183
+#: reposetup:174
 #, sh-format
 msgid "Specify a repository mirror manually"
-msgstr ""
+msgstr "Indiquer un dépôt miroir manuellement"
 
-#: reposetup:184
+#: reposetup:175
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
-msgstr ""
+msgstr "Utiliser une liste de miroirs locale et ne pas en télécharger une nouvelle"
 
-#: reposetup:185
+#: reposetup:176
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
-msgstr ""
+msgstr "Ne pas mettre à jour/demander à mettre à jour le cache des paquets "
 
-#: reposetup:186
+#: reposetup:177
 #, sh-format
 msgid "Print currently selected mirror"
-msgstr ""
+msgstr "Afficher le miroir actuellement sélectionné"
 
-#: reposetup:187
+#: reposetup:178
 #, sh-format
 msgid "This help message"
-msgstr ""
+msgstr "Ce message d'aide"
 
-#: reposetup:239
+#: reposetup:230
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr ""
+msgstr "ERREUR : trop d'arguments "
 
-#: reposetup:254 reposetup:275
+#: reposetup:245 reposetup:266
 #, sh-format
 msgid "Refreshing mirror list from"
-msgstr ""
+msgstr "Mettre à jour la liste des miroirs"
 
-#: reposetup:261 reposetup:282
+#: reposetup:252 reposetup:273
 #, sh-format
 msgid "Getting mirror list failed"
-msgstr ""
+msgstr "La récupération de la liste des miroirs a échoué"
