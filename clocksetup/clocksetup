@@ -227,21 +227,24 @@ timezonemenu(){
 }
 
 setntp(){
-	/bin/bash /etc/rc.d/rc.ntpd sync
-	if [ "$?" = "2" ]; then
-		echo RUNNING
+	PID=`/usr/bin/pidof -o %PPID /usr/sbin/ntpd`
+	if [ -z "$PID" ]; then
+		/usr/bin/clear
+		/usr/sbin/ntpd -gq
+		retval=$?
+		if [ $retval -eq 0 ]; then
+			/sbin/hwclock -w
+		else
+			$dialog \
+			--title "`eval_gettext 'Error'`" \
+			--msgbox \
+			"`eval_gettext 'Something went wrong. Time was not adjusted.'`" 0 0
+		fi
+	else
 		$dialog \
 		--title "`eval_gettext 'Warning'`" \
 		--msgbox \
 		"`eval_gettext 'You are already using the ntpd service and clock should be correct.'`" 0 0
-	elif [ "$?" = "1" ]; then
-		echo ERROR
-		$dialog \
-		--title "`eval_gettext 'Error'`" \
-		--msgbox \
-		"`eval_gettext 'Something went wrong. Time was not adjusted.'`" 0 0
-	else
-		hwclock --systoh
 	fi
 }
 
