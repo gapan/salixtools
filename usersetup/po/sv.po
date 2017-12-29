@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Ingemar Karlsson <ingemar@ingk.se>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-06 17:59+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2017-09-19 09:12+0000\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/salixtools/"
-"language/sv/)\n"
-"Language: sv\n"
+"Language-Team: Swedish (http://www.transifex.com/gapan/salixtools/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: usersetup:18
@@ -115,7 +114,7 @@ msgstr "Välj ett konto för att visa egenskaper..."
 msgid "Account deletion"
 msgstr "Konto radering"
 
-#: usersetup:90 usersetup:159 usersetup:663 usersetup:727
+#: usersetup:90 usersetup:159 usersetup:660 usersetup:724
 #, sh-format
 msgid "Delete"
 msgstr "Ta bort"
@@ -155,7 +154,7 @@ msgstr "Medlemskap"
 msgid "Select a group to view memberships for..."
 msgstr "Välj en grupp för att visa medlemskap för..."
 
-#: usersetup:140 usersetup:532
+#: usersetup:140 usersetup:529
 #, sh-format
 msgid "Group name"
 msgstr "Grupp namn"
@@ -185,52 +184,52 @@ msgstr "Välj en grupp att ta bort..."
 msgid "Detailed information for account"
 msgstr "Detaljerad information för konto"
 
-#: usersetup:201 usersetup:474 usersetup:581
+#: usersetup:201 usersetup:471 usersetup:578
 #, sh-format
 msgid "Full name"
 msgstr "fullständigt namn"
 
-#: usersetup:202 usersetup:261 usersetup:557
+#: usersetup:202 usersetup:260 usersetup:554
 #, sh-format
 msgid "Account name"
 msgstr "Konto namn"
 
-#: usersetup:203 usersetup:561
+#: usersetup:203 usersetup:558
 #, sh-format
 msgid "Main Group"
 msgstr "Huvud grupp"
 
-#: usersetup:204 usersetup:324 usersetup:565
+#: usersetup:204 usersetup:321 usersetup:562
 #, sh-format
 msgid "Home directory"
 msgstr "Hemkatalog"
 
-#: usersetup:205 usersetup:350 usersetup:573
+#: usersetup:205 usersetup:347 usersetup:570
 #, sh-format
 msgid "Shell"
 msgstr "Skal"
 
-#: usersetup:206 usersetup:569
+#: usersetup:206 usersetup:566
 #, sh-format
 msgid "Other groups"
 msgstr "Andra grupper"
 
-#: usersetup:207 usersetup:577
+#: usersetup:207 usersetup:574
 #, sh-format
 msgid "Expiry"
 msgstr "Upphör"
 
-#: usersetup:208 usersetup:585
+#: usersetup:208 usersetup:582
 #, sh-format
 msgid "Office"
 msgstr "Kontor"
 
-#: usersetup:209 usersetup:502 usersetup:589
+#: usersetup:209 usersetup:499 usersetup:586
 #, sh-format
 msgid "Work phone"
 msgstr "Telefon arbete"
 
-#: usersetup:210 usersetup:516 usersetup:593
+#: usersetup:210 usersetup:513 usersetup:590
 #, sh-format
 msgid "Home phone"
 msgstr "Telefon hem"
@@ -250,186 +249,186 @@ msgstr "Medlemmar av grupp"
 msgid "There are no accounts in group"
 msgstr "Det finns inga konton i gruppen"
 
-#: usersetup:263
+#: usersetup:262
 #, sh-format
 msgid "Enter the new account name..."
 msgstr "Skriv in nytt konto namn..."
 
-#: usersetup:272
+#: usersetup:271
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
 msgstr "Ett kontonamn kan inte innehålla ett mellanslag, så rätta till det..."
 
-#: usersetup:274
+#: usersetup:273
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
 msgstr "Kontonamnet $user finns redan, välj ett annat namn..."
 
-#: usersetup:276
+#: usersetup:275
 #, sh-format
 msgid "The account name is empty, please correct it..."
 msgstr "Konto namn är tomt, var vänlig att fixa det..."
 
-#: usersetup:278
+#: usersetup:277
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
 msgstr "Ett kontonamn kan inte börja med ett nummer, så rätta till det..."
 
-#: usersetup:280
+#: usersetup:279
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
 msgstr "Ett kontonamn kan inte innehålla versaler, så rätta till det..."
 
-#: usersetup:282
+#: usersetup:281
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
 msgstr "Ett kontonamn kan inte innehålla skiljetecken, så rätta till det..."
 
-#: usersetup:308
+#: usersetup:305
 #, sh-format
 msgid "Group membership"
 msgstr "Grupp medlemskap"
 
-#: usersetup:309 usersetup:325 usersetup:351 usersetup:371 usersetup:396
-#: usersetup:475 usersetup:489 usersetup:503 usersetup:517 usersetup:533
+#: usersetup:306 usersetup:322 usersetup:348 usersetup:368 usersetup:393
+#: usersetup:472 usersetup:486 usersetup:500 usersetup:514 usersetup:530
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: usersetup:312
+#: usersetup:309
 #, sh-format
 msgid "Enter the main group for account"
 msgstr "Skriv in huvudgrupp för konto"
 
-#: usersetup:327
+#: usersetup:324
 #, sh-format
 msgid "Enter the home directory for account"
 msgstr "Skriv in hemkatalog för konto"
 
-#: usersetup:354
+#: usersetup:351
 #, sh-format
 msgid "Enter the shell interpreter for account"
 msgstr "Ange skal tolk för kontot"
 
-#: usersetup:370
+#: usersetup:367
 #, sh-format
 msgid "Additional group membership"
 msgstr "Ytterligare grupp medlemskap"
 
-#: usersetup:373
+#: usersetup:370
 #, sh-format
 msgid "Add some additional group to the list..."
 msgstr "Lägg till lite extra grupp till listan..."
 
-#: usersetup:395
+#: usersetup:392
 #, sh-format
 msgid "Expiry date"
 msgstr "Upphör datum"
 
-#: usersetup:397
+#: usersetup:394
 #, sh-format
 msgid "Never"
 msgstr "Aldrig"
 
-#: usersetup:400
+#: usersetup:397
 #, sh-format
 msgid "Set the account expiry date..."
 msgstr "Sätt när kontot upphör att gälla..."
 
-#: usersetup:436
+#: usersetup:433
 #, sh-format
 msgid "Enter password for account"
 msgstr "Skriv in lösenord för konto"
 
-#: usersetup:437
+#: usersetup:434
 #, sh-format
 msgid "Passwords do not match, please try again..."
 msgstr "Lösenorden matchar inte, försök igen..."
 
-#: usersetup:440
+#: usersetup:437
 #, sh-format
 msgid ""
-"Password is too short (${minlength} chars minimum), please try another one..."
-msgstr ""
-"Lösenordet är för kort (minst ${minlength} tecken), försök med annat..."
+"Password is too short (${minlength} chars minimum), please try another "
+"one..."
+msgstr "Lösenordet är för kort (minst ${minlength} tecken), försök med annat..."
 
-#: usersetup:443
+#: usersetup:440
 #, sh-format
 msgid "Enter password again for account"
 msgstr "Skriv in lösenordet igen"
 
-#: usersetup:460
+#: usersetup:457
 #, sh-format
 msgid "Failed to set password for account"
 msgstr "Kunde inte sätta lösenord för konto"
 
-#: usersetup:477
+#: usersetup:474
 #, sh-format
 msgid "Enter the full name of the user"
 msgstr "Skriv in fulständigt namn på användaren"
 
-#: usersetup:488
+#: usersetup:485
 #, sh-format
 msgid "Office information"
 msgstr "Kontors information"
 
-#: usersetup:491
+#: usersetup:488
 #, sh-format
 msgid "Enter office information for the user"
 msgstr "Skriv in kontors information"
 
-#: usersetup:505
+#: usersetup:502
 #, sh-format
 msgid "Enter the work phone number of the user"
 msgstr "Skriv in arbets telefon nummer"
 
-#: usersetup:519
+#: usersetup:516
 #, sh-format
 msgid "Enter the home phone number of the user"
 msgstr "Skriv in hem telefon nummer"
 
-#: usersetup:535
+#: usersetup:532
 #, sh-format
 msgid "Enter the new group name"
 msgstr "Skriv in nya grupp namnet"
 
-#: usersetup:630 usersetup:651 usersetup:660 usersetup:724
+#: usersetup:627 usersetup:648 usersetup:657 usersetup:721
 #, sh-format
 msgid "Warning"
 msgstr "Varning"
 
-#: usersetup:660
+#: usersetup:657
 #, sh-format
 msgid "You cannot delete the account"
 msgstr "Du kan inte ta bort kontot"
 
-#: usersetup:662
+#: usersetup:659
 #, sh-format
 msgid "Confirm user deletion"
 msgstr "Bekräfta ta bort användare"
 
-#: usersetup:664 usersetup:728
+#: usersetup:661 usersetup:725
 #, sh-format
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: usersetup:666
+#: usersetup:663
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
 msgstr "Är du säker på att du vill ta bort användaren $user?"
 
-#: usersetup:724
+#: usersetup:721
 #, sh-format
 msgid "You cannot delete the group"
 msgstr "Du kan inte ta bort gruppen"
 
-#: usersetup:726
+#: usersetup:723
 #, sh-format
 msgid "Confirm group deletion"
 msgstr "Bekräfta ta bort grupp"
 
-#: usersetup:730
+#: usersetup:727
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
 msgstr "Är du säker på att du vill ta bort gruppen $group?"

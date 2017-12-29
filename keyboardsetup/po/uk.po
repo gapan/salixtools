@@ -1,24 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Yarema aka Knedlyk <yupadmin@gmail.com>, 2011,2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-06 10:36+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2017-09-19 09:13+0000\n"
 "Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/salixtools/"
-"language/uk/)\n"
-"Language: uk\n"
+"Language-Team: Ukrainian (http://www.transifex.com/gapan/salixtools/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: keyboardsetup:16
 #, sh-format
@@ -63,11 +61,9 @@ msgstr "не застосовувати змін відразу, а тільки
 #: keyboardsetup:134
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"ПОМИЛКА: $OPTARG не є правильною розкладкою. Ви можете подивитися в "
-"$salixtoolsdir/keymaps список правильних розкладок"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
+msgstr "ПОМИЛКА: $OPTARG не є правильною розкладкою. Ви можете подивитися в $salixtoolsdir/keymaps список правильних розкладок"
 
 #: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
@@ -128,15 +124,10 @@ msgstr "Конфігурація IBus"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"IBus є платформою вводу для китайської, японської, корейської та багатьох "
-"інших мов при використанні графічного середовища. Ви бажаєте включити або "
-"відключити її при завантаженні? \n"
-"\n"
-"Вам доведеться перезавантажити комп'ютер для застосування змін."
+msgstr "IBus є платформою вводу для китайської, японської, корейської та багатьох інших мов при використанні графічного середовища. Ви бажаєте включити або відключити її при завантаженні? \n\nВам доведеться перезавантажити комп'ютер для застосування змін."
 
 #: keyboardsetup:313
 #, sh-format
@@ -147,11 +138,7 @@ msgstr "Налаштування SCIM"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"SCIM є метод вводу для китайської, японської, корейської і багато інших мов, "
-"що використовують графічну оболонку. Ви бажаєте мати його включеним чи "
-"виключеним при завантаженні?\\n\\nВи повинні перезавантажити Вашу систему "
-"для впровадження змін."
+msgstr "SCIM є метод вводу для китайської, японської, корейської і багато інших мов, що використовують графічну оболонку. Ви бажаєте мати його включеним чи виключеним при завантаженні?\\n\\nВи повинні перезавантажити Вашу систему для впровадження змін."

@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # gapan <vlahavas@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-06-17 21:13+0000\n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2017-09-19 19:35+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/"
-"language/el/)\n"
-"Language: el\n"
+"Language-Team: Greek (http://www.transifex.com/gapan/salixtools/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: reposetup:8
@@ -24,114 +23,107 @@ msgstr ""
 msgid "You need root privileges to run this"
 msgstr "Απαιτούνται δικαιώματα υπερχρήστη για την εκτέλεση"
 
-#: reposetup:114
+#: reposetup:105
 #, sh-format
 msgid "Select repository mirror"
 msgstr "Επιλέξτε αποθετήριο"
 
-#: reposetup:116
+#: reposetup:107
 #, sh-format
 msgid "Select"
 msgstr "Επιλογή"
 
-#: reposetup:117
+#: reposetup:108
 #, sh-format
 msgid "Cancel"
 msgstr "Άκυρο"
 
-#: reposetup:119
+#: reposetup:110
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr ""
-"Παρακαλούμε επιλέξτε το προτιμώμενο αποθετήριο. Ο κωδικός της χώρας όπου "
-"βρίσκεται το αποθετήριο εμφανίζεται στα δεξιά. Η επιλογή σας θα εφαρμοστεί "
-"στα αρχεία /etc/slapt-get/slapt-getrc και /etc/slapt-get/slapt-srcrc:"
+msgstr "Παρακαλούμε επιλέξτε το προτιμώμενο αποθετήριο. Ο κωδικός της χώρας όπου βρίσκεται το αποθετήριο εμφανίζεται στα δεξιά. Η επιλογή σας θα εφαρμοστεί στα αρχεία /etc/slapt-get/slapt-getrc και /etc/slapt-get/slapt-srcrc:"
 
-#: reposetup:119
+#: reposetup:110
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr ""
-"ΠΡΟΣΟΧΗ: Αν έχετε πραγματοποιήσει κάποιες αλλαγές στις γραμμές SOURCE των "
-"αρχείων αυτών, αυτές οι αλλαγές θα χαθούν!"
+msgstr "ΠΡΟΣΟΧΗ: Αν έχετε πραγματοποιήσει κάποιες αλλαγές στις γραμμές SOURCE των αρχείων αυτών, αυτές οι αλλαγές θα χαθούν!"
 
-#: reposetup:133
+#: reposetup:124
 #, sh-format
 msgid "Update package caches?"
 msgstr "Ενημέρωση της τοπικής αποθήκης πακέτων;"
 
-#: reposetup:134
+#: reposetup:125
 #, sh-format
 msgid "Update"
 msgstr "Ενημέρωση"
 
-#: reposetup:135
+#: reposetup:126
 #, sh-format
 msgid "Do not update"
 msgstr "Χωρίς ενημέρωση"
 
-#: reposetup:136
+#: reposetup:127
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
 msgstr "Θέλετε να ενημερώστε την τοπική αποθήκη πακέτων και SlackBuild;"
 
-#: reposetup:180
+#: reposetup:171
 #, sh-format
 msgid "USAGE:"
 msgstr "ΧΡΗΣΗ:"
 
-#: reposetup:180
+#: reposetup:171
 #, sh-format
 msgid "mirror"
 msgstr "καθρέπτης"
 
-#: reposetup:182
+#: reposetup:173
 #, sh-format
 msgid "OPTIONS:"
 msgstr "ΠΑΡΑΜΕΤΡΟΙ:"
 
-#: reposetup:183
+#: reposetup:174
 #, sh-format
 msgid "Specify a repository mirror manually"
 msgstr "Δηλώση ενός καθρέπτη αποθετηρίου χειροκίνητα"
 
-#: reposetup:184
+#: reposetup:175
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
-msgstr ""
-"Χρήση της τοπικής λίστας καθρεπτών αποθετηρίων χωρίς να κατεβεί καινούρια "
-"λίστα"
+msgstr "Χρήση της τοπικής λίστας καθρεπτών αποθετηρίων χωρίς να κατεβεί καινούρια λίστα"
 
-#: reposetup:185
+#: reposetup:176
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
 msgstr "Χωρίς ανανέωση/ερώτηση για ανανέωση των τοπικών δεδομένων των πακέτων"
 
-#: reposetup:186
+#: reposetup:177
 #, sh-format
 msgid "Print currently selected mirror"
 msgstr "Εκτύπωση του επιλεγμένου αποθετηρίου"
 
-#: reposetup:187
+#: reposetup:178
 #, sh-format
 msgid "This help message"
 msgstr "Το παρόν μήνυμα βοήθειας"
 
-#: reposetup:239
+#: reposetup:230
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ΣΦΑΛΜΑ: Μεγάλος αριθμός παραμέτρων"
 
-#: reposetup:254 reposetup:275
+#: reposetup:245 reposetup:266
 #, sh-format
 msgid "Refreshing mirror list from"
 msgstr "Ανανέωση της λίστας καθρεπτών αποθετηρίων από"
 
-#: reposetup:261 reposetup:282
+#: reposetup:252 reposetup:273
 #, sh-format
 msgid "Getting mirror list failed"
 msgstr "Η ανάκτηση της λίστας καθρεπτών αποθετηρίων απέτυχε"

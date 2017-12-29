@@ -1,24 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # shador <futur.andy@googlemail.com>, 2011
 # shador <futur.andy@googlemail.com>, 2011
-# Thorsten <thenktor@posteo.de>, 2014
+# Thorsten, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-07-24 10:43+0000\n"
-"Last-Translator: Thorsten <thenktor@posteo.de>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/salixtools/"
-"language/de/)\n"
-"Language: de\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2017-09-19 09:13+0000\n"
+"Last-Translator: Thorsten\n"
+"Language-Team: German (http://www.transifex.com/gapan/salixtools/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: keyboardsetup:16
@@ -59,18 +58,14 @@ msgstr "der SCIM-Status, an oder aus"
 #: keyboardsetup:73
 #, sh-format
 msgid "do not apply changes on the fly, only edit settings files"
-msgstr ""
-"Änderungen nicht sofort anwenden, sondern nur die Konfigurationsdateien "
-"bearbeiten"
+msgstr "Änderungen nicht sofort anwenden, sondern nur die Konfigurationsdateien bearbeiten"
 
 #: keyboardsetup:134
 #, sh-format
 msgid ""
-"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps "
-"for a list of valid keymaps"
-msgstr ""
-"Fehler: $OPTARG ist keine gültige Keymap. Schauen Sie in das Verzeichnis "
-"$salixtoolsdir/keymaps für eine Liste gültiger Keymaps"
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
+msgstr "Fehler: $OPTARG ist keine gültige Keymap. Schauen Sie in das Verzeichnis $salixtoolsdir/keymaps für eine Liste gültiger Keymaps"
 
 #: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
 #, sh-format
@@ -131,14 +126,10 @@ msgstr "IBus-Konfiguration"
 #, sh-format
 msgid ""
 "IBus is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"IBus ist eine Eingabeplattform für Chinesisch, Japanisch, Koreanisch und "
-"viele andere Sprachen für Nutzer von graphischen Oberflächen. Wollen Sie es "
-"beim Starten aktiviert oder deaktiviert haben?\\n\\nSie müssen Ihr System "
-"neustarten, damit diese Änderung in Kraft tritt."
+msgstr "IBus ist eine Eingabeplattform für Chinesisch, Japanisch, Koreanisch und viele andere Sprachen für Nutzer von graphischen Oberflächen. Wollen Sie es beim Starten aktiviert oder deaktiviert haben?\\n\\nSie müssen Ihr System neustarten, damit diese Änderung in Kraft tritt."
 
 #: keyboardsetup:313
 #, sh-format
@@ -149,10 +140,7 @@ msgstr "SCIM-Konfiguration"
 #, sh-format
 msgid ""
 "SCIM is an input platform for Chinese, Japanese, Korean and many other "
-"languages when using a graphical environment. Do you want to have it enabled "
-"or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
 "take effect."
-msgstr ""
-"SCIM is eine Eingabemethode für Chinesisch, Japanisch, Koreanisch und viele "
-"andere Sprachen. Wollen Sie SCIM beim Booten aktivieren oder deaktivieren?\\n"
-"\\nSie müssen ihr System neustarten, um diese Einstellung anzuwenden."
+msgstr "SCIM is eine Eingabemethode für Chinesisch, Japanisch, Koreanisch und viele andere Sprachen. Wollen Sie SCIM beim Booten aktivieren oder deaktivieren?\\n\\nSie müssen ihr System neustarten, um diese Einstellung anzuwenden."

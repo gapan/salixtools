@@ -1,136 +1,129 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Yarema aka Knedlyk <yupadmin@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-06-17 19:18+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/salixtools/"
-"language/uk/)\n"
-"Language: uk\n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2017-09-19 19:35+0000\n"
+"Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/gapan/salixtools/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: reposetup:8
 #, sh-format
 msgid "You need root privileges to run this"
 msgstr "Вам потрібно права суперкористувача для запуску цього"
 
-#: reposetup:114
+#: reposetup:105
 #, sh-format
 msgid "Select repository mirror"
 msgstr "Виберіть дзеркало сховища"
 
-#: reposetup:116
+#: reposetup:107
 #, sh-format
 msgid "Select"
 msgstr "Вибрати"
 
-#: reposetup:117
+#: reposetup:108
 #, sh-format
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: reposetup:119
+#: reposetup:110
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr ""
-"Вкажіть, будь ласка, Ваше улюблене дзеркало сховищ. Код країни знаходження "
-"сховища міститься праворуч. Ваш вибір буде записано у файли /etc/slapt-get/"
-"slapt-getrc та /etc/slapt-get/slapt-srcrc:"
+msgstr "Вкажіть, будь ласка, Ваше улюблене дзеркало сховищ. Код країни знаходження сховища міститься праворуч. Ваш вибір буде записано у файли /etc/slapt-get/slapt-getrc та /etc/slapt-get/slapt-srcrc:"
 
-#: reposetup:119
+#: reposetup:110
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr ""
-"ПОПЕРЕДЖЕННЯ: Будь-які зміни, які Ви зробили вручну в ДЖЕРЕЛЬНИХ стрічках "
-"цих файлів, будуть втрачені!"
+msgstr "ПОПЕРЕДЖЕННЯ: Будь-які зміни, які Ви зробили вручну в ДЖЕРЕЛЬНИХ стрічках цих файлів, будуть втрачені!"
 
-#: reposetup:133
+#: reposetup:124
 #, sh-format
 msgid "Update package caches?"
 msgstr "Оновити кеш пакунків?"
 
-#: reposetup:134
+#: reposetup:125
 #, sh-format
 msgid "Update"
 msgstr "Оновити"
 
-#: reposetup:135
+#: reposetup:126
 #, sh-format
 msgid "Do not update"
 msgstr "Не оновлювати"
 
-#: reposetup:136
+#: reposetup:127
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
 msgstr "Ви бажаєте зараз оновити кеш пакунків і SlackBuild'ів?"
 
-#: reposetup:180
+#: reposetup:171
 #, sh-format
 msgid "USAGE:"
 msgstr "ВИКОРИСТАННЯ:"
 
-#: reposetup:180
+#: reposetup:171
 #, sh-format
 msgid "mirror"
 msgstr "дзеркало"
 
-#: reposetup:182
+#: reposetup:173
 #, sh-format
 msgid "OPTIONS:"
 msgstr "ПАРАМЕТРИ:"
 
-#: reposetup:183
+#: reposetup:174
 #, sh-format
 msgid "Specify a repository mirror manually"
 msgstr "Ручне вказування дзеркала сховищ"
 
-#: reposetup:184
+#: reposetup:175
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
 msgstr "Використання локально списку дзеркал без звантажування нового"
 
-#: reposetup:185
+#: reposetup:176
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
 msgstr "Не оновлювати/питати про оновлення кешу пакунків"
 
-#: reposetup:186
+#: reposetup:177
 #, sh-format
 msgid "Print currently selected mirror"
-msgstr ""
+msgstr "Надрукувати вибране дзеркало сховища"
 
-#: reposetup:187
+#: reposetup:178
 #, sh-format
 msgid "This help message"
 msgstr "Це повідомлення"
 
-#: reposetup:239
+#: reposetup:230
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "ПОМИЛКА: Забагато параметрів"
 
-#: reposetup:254 reposetup:275
+#: reposetup:245 reposetup:266
 #, sh-format
 msgid "Refreshing mirror list from"
 msgstr "Оновлення списку дзеркал з"
 
-#: reposetup:261 reposetup:282
+#: reposetup:252 reposetup:273
 #, sh-format
 msgid "Getting mirror list failed"
 msgstr "Отримання списку дзеркал не вдалося"

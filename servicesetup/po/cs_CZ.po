@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Jiří Vírava <appukonrad@gmail.com>, 2014
+# Jiří Vírava <appukonrad@gmail.com>, 2014,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2014-09-12 06:52+0000\n"
+"PO-Revision-Date: 2017-11-16 06:18+0000\n"
 "Last-Translator: Jiří Vírava <appukonrad@gmail.com>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/gapan/salixtools/language/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "Pro spuštění musíte mít root oprávnění."
 #: servicesetup:59
 #, sh-format
 msgid "Startup services"
-msgstr ""
+msgstr "Služby po spuštění"
 
 #: servicesetup:60
 #, sh-format
@@ -41,9 +41,9 @@ msgstr "Opustit"
 #: servicesetup:64
 #, sh-format
 msgid "The selected services will be started at boot time:"
-msgstr ""
+msgstr "Vybrané služby budou spuštěny při startu systému:"
 
 #: servicesetup:73
 #, sh-format
 msgid "The $service service"
-msgstr ""
+msgstr "služba $service "

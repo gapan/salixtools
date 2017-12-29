@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-05 09:23+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2017-09-19 09:10+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/salixtools/"
-"language/da/)\n"
-"Language: da\n"
+"Language-Team: Danish (http://www.transifex.com/gapan/salixtools/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: localesetup:22
@@ -48,27 +47,27 @@ msgstr "Indstiller lokalitet til $locale"
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "FEJL: $newlocale er ikke en gyldig lokalitet"
 
-#: localesetup:76
+#: localesetup:69
 #, sh-format
 msgid "System language configuration"
 msgstr "Konfiguration af systemsprog"
 
-#: localesetup:78
+#: localesetup:71
 #, sh-format
 msgid "OK"
 msgstr "O.k."
 
-#: localesetup:79
+#: localesetup:72
 #, sh-format
 msgid "Exit"
 msgstr "Afslut"
 
-#: localesetup:81
+#: localesetup:74
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "Den nuværende lokalitet er $currentlocale."
 
-#: localesetup:82
+#: localesetup:75
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Vælg venligst dit foretrukne systemsprog:"

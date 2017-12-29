@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Thorsten <thenktor@posteo.de>, 2014
+# Thorsten, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-07-24 12:05+0000\n"
-"Last-Translator: Thorsten <thenktor@posteo.de>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/salixtools/"
-"language/de/)\n"
-"Language: de\n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2017-09-19 19:35+0000\n"
+"Last-Translator: Thorsten\n"
+"Language-Team: German (http://www.transifex.com/gapan/salixtools/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: reposetup:8
@@ -24,114 +23,107 @@ msgstr ""
 msgid "You need root privileges to run this"
 msgstr "Sie benötigen Root-Rechte, um dies auszuführen"
 
-#: reposetup:114
+#: reposetup:105
 #, sh-format
 msgid "Select repository mirror"
 msgstr "Paketquelle auswählen"
 
-#: reposetup:116
+#: reposetup:107
 #, sh-format
 msgid "Select"
 msgstr "Auswählen"
 
-#: reposetup:117
+#: reposetup:108
 #, sh-format
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: reposetup:119
+#: reposetup:110
 #, sh-format
 msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr ""
-"Bitte wählen Sie Ihre bevorzugte Paketquelle aus. Der Ländercode der "
-"Paketquelle steht auf der rechten Seite. Ihre Auswahl wird in die Dateien /"
-"etc/slapt-get/slapt-getrc und /etc/slapt-get/slapt-srcrc übernommen:"
+msgstr "Bitte wählen Sie Ihre bevorzugte Paketquelle aus. Der Ländercode der Paketquelle steht auf der rechten Seite. Ihre Auswahl wird in die Dateien /etc/slapt-get/slapt-getrc und /etc/slapt-get/slapt-srcrc übernommen:"
 
-#: reposetup:119
+#: reposetup:110
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr ""
-"WARNUNG: Alle Änderungen, die Sie in diesen Dateien per Hand an den SOURCE-"
-"Zeilen vorgenommen haben, gehen verloren!"
+msgstr "WARNUNG: Alle Änderungen, die Sie in diesen Dateien per Hand an den SOURCE-Zeilen vorgenommen haben, gehen verloren!"
 
-#: reposetup:133
+#: reposetup:124
 #, sh-format
 msgid "Update package caches?"
 msgstr "Paket-Zwischenspeicher aktualisieren?"
 
-#: reposetup:134
+#: reposetup:125
 #, sh-format
 msgid "Update"
 msgstr "Aktualisieren"
 
-#: reposetup:135
+#: reposetup:126
 #, sh-format
 msgid "Do not update"
 msgstr "Nicht aktualisieren"
 
-#: reposetup:136
+#: reposetup:127
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
-msgstr ""
-"Möchten Sie den Paket- und SlackBuild Zwischenspeicher jetzt aktualisieren?"
+msgstr "Möchten Sie den Paket- und SlackBuild Zwischenspeicher jetzt aktualisieren?"
 
-#: reposetup:180
+#: reposetup:171
 #, sh-format
 msgid "USAGE:"
 msgstr "ANWENDUNG:"
 
-#: reposetup:180
+#: reposetup:171
 #, sh-format
 msgid "mirror"
 msgstr "Paketquelle"
 
-#: reposetup:182
+#: reposetup:173
 #, sh-format
 msgid "OPTIONS:"
 msgstr "OPTIONEN:"
 
-#: reposetup:183
+#: reposetup:174
 #, sh-format
 msgid "Specify a repository mirror manually"
 msgstr "Paketquelle selbst angeben"
 
-#: reposetup:184
+#: reposetup:175
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
 msgstr "Lokale Paketquellenliste benutzen und keine neue runterladen"
 
-#: reposetup:185
+#: reposetup:176
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
-msgstr ""
-"Nicht nachfragen, ob die Paketzwischenspeicher aktualisiert werden sollen"
+msgstr "Nicht nachfragen, ob die Paketzwischenspeicher aktualisiert werden sollen"
 
-#: reposetup:186
+#: reposetup:177
 #, sh-format
 msgid "Print currently selected mirror"
 msgstr "Momentan gewählte Paketquelle ausgeben"
 
-#: reposetup:187
+#: reposetup:178
 #, sh-format
 msgid "This help message"
 msgstr "Diese Hilfe"
 
-#: reposetup:239
+#: reposetup:230
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "FEHLER: Zu viele Argumente"
 
-#: reposetup:254 reposetup:275
+#: reposetup:245 reposetup:266
 #, sh-format
 msgid "Refreshing mirror list from"
 msgstr "Paketquellenliste aktualisieren von"
 
-#: reposetup:261 reposetup:282
+#: reposetup:252 reposetup:273
 #, sh-format
 msgid "Getting mirror list failed"
 msgstr "Abholen der Paketquellenliste fehlgeschlagen"

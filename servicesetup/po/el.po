@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # gapan <vlahavas@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-08 17:12+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2017-09-19 09:13+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/salixtools/"
-"language/el/)\n"
-"Language: el\n"
+"Language-Team: Greek (http://www.transifex.com/gapan/salixtools/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: servicesetup:23
@@ -42,8 +41,7 @@ msgstr "Έξοδος"
 #: servicesetup:64
 #, sh-format
 msgid "The selected services will be started at boot time:"
-msgstr ""
-"Οι επιλεγμένες υπηρεσίες θα εκκινούνται με την εκκίνηση του υπολογιστή:"
+msgstr "Οι επιλεγμένες υπηρεσίες θα εκκινούνται με την εκκίνηση του υπολογιστή:"
 
 #: servicesetup:73
 #, sh-format

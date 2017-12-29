@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Ingemar Karlsson <ingemar@ingk.se>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-06 18:05+0000\n"
+"POT-Creation-Date: 2014-02-05 22:56+0200\n"
+"PO-Revision-Date: 2017-09-19 09:12+0000\n"
 "Last-Translator: Ingemar Karlsson <ingemar@ingk.se>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/salixtools/"
-"language/sv/)\n"
-"Language: sv\n"
+"Language-Team: Swedish (http://www.transifex.com/gapan/salixtools/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: clocksetup:7
@@ -24,184 +23,181 @@ msgstr ""
 msgid "You need root privileges to run this"
 msgstr "Du behöver root-behörighet för att köra det här"
 
-#: clocksetup:47
+#: clocksetup:43
 #, sh-format
 msgid "USAGE:"
 msgstr "ANVÄNDNING:"
 
-#: clocksetup:49
+#: clocksetup:45
 #, sh-format
 msgid "OPTIONS:"
 msgstr "ALTERNATIV:"
 
-#: clocksetup:51
+#: clocksetup:47
 #, sh-format
 msgid "only show the hardware clock configuration dialog"
 msgstr "visa bara hårdvaruklockans konfigurationsdialog"
 
-#: clocksetup:52
+#: clocksetup:48
 #, sh-format
 msgid "only show the date configuration dialog"
 msgstr "visa bara datums konfigurationsdialog"
 
-#: clocksetup:53
+#: clocksetup:49
 #, sh-format
 msgid "only show the time configuration dialog"
 msgstr "visa bara tids konfigurationsdialog"
 
-#: clocksetup:54
+#: clocksetup:50
 #, sh-format
 msgid "only show the timezone configuration dialog"
 msgstr "visa bara tidszon konfigurationsdialog"
 
-#: clocksetup:55
+#: clocksetup:51
 #, sh-format
 msgid "this help message"
 msgstr "denna hjälp"
 
-#: clocksetup:94
+#: clocksetup:90
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "FEL: För många argument"
 
-#: clocksetup:104 clocksetup:168 clocksetup:189 clocksetup:210 clocksetup:260
+#: clocksetup:100 clocksetup:164 clocksetup:185 clocksetup:206 clocksetup:256
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: clocksetup:105
+#: clocksetup:101
 #, sh-format
 msgid "Exit"
 msgstr "Avsluta"
 
-#: clocksetup:106
+#: clocksetup:102
 #, sh-format
 msgid "System clock configuration"
 msgstr "Konfigurera system klocka"
 
-#: clocksetup:108
+#: clocksetup:104
 #, sh-format
 msgid "Currently the clock is set to:"
 msgstr "Klockan är förnärvarande inställd på:"
 
-#: clocksetup:109
+#: clocksetup:105
 #, sh-format
 msgid "Please choose an option:"
 msgstr "Välj ett alternativ:"
 
-#: clocksetup:111
+#: clocksetup:107
 #, sh-format
 msgid "Set the time manually"
 msgstr "Sätt tiden manuellt"
 
-#: clocksetup:112
+#: clocksetup:108
 #, sh-format
 msgid "Set the date manually"
 msgstr "Sätt datum manuellt"
 
-#: clocksetup:113
+#: clocksetup:109
 #, sh-format
 msgid "Set the time zone"
 msgstr "Sätt tidszon"
 
-#: clocksetup:114
+#: clocksetup:110
 #, sh-format
 msgid "Configure the hardware clock"
 msgstr "Konfigurera hårdvaruklockan"
 
-#: clocksetup:115
+#: clocksetup:111
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
 msgstr "Synkronisera med Network Time Protocol (NTP)"
 
-#: clocksetup:167
+#: clocksetup:163
 #, sh-format
 msgid "Clock adjustment"
 msgstr "Tid inställningar"
 
-#: clocksetup:169 clocksetup:190 clocksetup:211 clocksetup:261
+#: clocksetup:165 clocksetup:186 clocksetup:207 clocksetup:257
 #, sh-format
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: clocksetup:171
+#: clocksetup:167
 #, sh-format
 msgid "Please set the time..."
 msgstr "Ställ in tiden..."
 
-#: clocksetup:188
+#: clocksetup:184
 #, sh-format
 msgid "Date adjustment"
 msgstr "Datum inställningar"
 
-#: clocksetup:192
+#: clocksetup:188
 #, sh-format
 msgid "Please set the date..."
 msgstr "Ställ in datum..."
 
-#: clocksetup:212
+#: clocksetup:208
 #, sh-format
 msgid "Time zone configuration"
 msgstr "Tidszon konfiguration"
 
-#: clocksetup:214
+#: clocksetup:210
 #, sh-format
 msgid "Please select your time zone..."
 msgstr "Välj din tidszon..."
 
-#: clocksetup:234
+#: clocksetup:230
 #, sh-format
 msgid "Warning"
 msgstr "Varning"
 
-#: clocksetup:236
+#: clocksetup:232
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
 msgstr "Du använder redan ntpd tjänsten och din klocka bör vara rätt."
 
-#: clocksetup:240
+#: clocksetup:236
 #, sh-format
 msgid "Error"
 msgstr "Fel"
 
-#: clocksetup:242
+#: clocksetup:238
 #, sh-format
 msgid "Something went wrong. Time was not adjusted."
 msgstr "Något gick fel. Tideb ändrades inte."
 
-#: clocksetup:262
+#: clocksetup:258
 #, sh-format
 msgid "Hardware clock set to UTC?"
 msgstr "Är hårdvaruklockan satt till UTC?"
 
-#: clocksetup:264
+#: clocksetup:260
 #, sh-format
 msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
+"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is,"
+" select YES here.  If the hardware clock is set to the current local time "
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
-msgstr ""
-"Är hårdvaruklockan satt till UTC/GMT? Om den är välj JA här. Om "
-"hårdvaruklockan är satt till lokal tid (detta är hur de flesta PCs är "
-"konfigurerade), välj NEJ här. Om du är osäker, välj NEJ här."
+msgstr "Är hårdvaruklockan satt till UTC/GMT? Om den är välj JA här. Om hårdvaruklockan är satt till lokal tid (detta är hur de flesta PCs är konfigurerade), välj NEJ här. Om du är osäker, välj NEJ här."
 
-#: clocksetup:265
+#: clocksetup:261
 #, sh-format
 msgid "No"
 msgstr "Nej"
 
-#: clocksetup:265
+#: clocksetup:261
 #, sh-format
 msgid "Hardware clock is set to local time"
 msgstr "Hårdvaruklockan är satt till lokal tid"
 
-#: clocksetup:266
+#: clocksetup:262
 #, sh-format
 msgid "Yes"
 msgstr "Ja"
 
-#: clocksetup:266
+#: clocksetup:262
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr "Hårdvaruklockan är satt till UTC"

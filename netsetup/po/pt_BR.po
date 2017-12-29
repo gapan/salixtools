@@ -10,7 +10,7 @@
 # Gabriel Magno de Oliveira Silva <gabrielmagno1@gmail.com>, 2013
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2014
 # Isaque Galdino <igaldino@gmail.com>, 2013
-# Malkon Rodrigo <malkon.inf@gmail.com>, 2014
+# Malkon Rodrigo <inactive+Malkon@transifex.com>, 2014
 # Marcelo Pio de Castro <belfalas.vinyamar@gmail.com>, 2013
 # Thaigo Rocco <thiagomt.rocco@gmail.com>, 2013,2016
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-09 13:36+0300\n"
-"PO-Revision-Date: 2016-06-09 10:49+0000\n"
+"PO-Revision-Date: 2017-09-23 00:05+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/gapan/salixtools/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"

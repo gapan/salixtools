@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-05 21:16+0000\n"
+"POT-Creation-Date: 2014-02-05 22:56+0200\n"
+"PO-Revision-Date: 2017-09-19 09:12+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/projects/p/salixtools/"
-"language/fi/)\n"
-"Language: fi\n"
+"Language-Team: Finnish (http://www.transifex.com/gapan/salixtools/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: clocksetup:7
@@ -23,185 +22,181 @@ msgstr ""
 msgid "You need root privileges to run this"
 msgstr ""
 
-#: clocksetup:47
+#: clocksetup:43
 #, sh-format
 msgid "USAGE:"
 msgstr ""
 
-#: clocksetup:49
+#: clocksetup:45
 #, sh-format
 msgid "OPTIONS:"
 msgstr "VAIHTOEHDOT:"
 
-#: clocksetup:51
+#: clocksetup:47
 #, sh-format
 msgid "only show the hardware clock configuration dialog"
 msgstr ""
 
-#: clocksetup:52
+#: clocksetup:48
 #, sh-format
 msgid "only show the date configuration dialog"
 msgstr ""
 
-#: clocksetup:53
+#: clocksetup:49
 #, sh-format
 msgid "only show the time configuration dialog"
 msgstr ""
 
-#: clocksetup:54
+#: clocksetup:50
 #, sh-format
 msgid "only show the timezone configuration dialog"
 msgstr ""
 
-#: clocksetup:55
+#: clocksetup:51
 #, sh-format
 msgid "this help message"
 msgstr ""
 
-#: clocksetup:94
+#: clocksetup:90
 #, sh-format
 msgid "ERROR: Too many arguments"
 msgstr "VIRHE: Liian monta argumenttia"
 
-#: clocksetup:104 clocksetup:168 clocksetup:189 clocksetup:210 clocksetup:260
+#: clocksetup:100 clocksetup:164 clocksetup:185 clocksetup:206 clocksetup:256
 #, sh-format
 msgid "OK"
 msgstr "OK"
 
-#: clocksetup:105
+#: clocksetup:101
 #, sh-format
 msgid "Exit"
 msgstr "Poistu"
 
-#: clocksetup:106
+#: clocksetup:102
 #, sh-format
 msgid "System clock configuration"
 msgstr "Järjestelmän ajan asetukset"
 
-#: clocksetup:108
+#: clocksetup:104
 #, sh-format
 msgid "Currently the clock is set to:"
 msgstr "Nykyinen aika on:"
 
-#: clocksetup:109
+#: clocksetup:105
 #, sh-format
 msgid "Please choose an option:"
 msgstr "Ole hyvä ja valitse vaihtoehto:"
 
-#: clocksetup:111
+#: clocksetup:107
 #, sh-format
 msgid "Set the time manually"
 msgstr "Aseta aika käsin"
 
-#: clocksetup:112
+#: clocksetup:108
 #, sh-format
 msgid "Set the date manually"
 msgstr "Aseta päiväys käsin"
 
-#: clocksetup:113
+#: clocksetup:109
 #, sh-format
 msgid "Set the time zone"
 msgstr "Aseta aikavyöhyke"
 
-#: clocksetup:114
+#: clocksetup:110
 #, sh-format
 msgid "Configure the hardware clock"
 msgstr "Muuta laitteistokellon asetuksia"
 
-#: clocksetup:115
+#: clocksetup:111
 #, sh-format
 msgid "Synchronize with Network Time Protocol (NTP)"
 msgstr "Synkronoi verkon aikapalvelimen kanssa (NTP)"
 
-#: clocksetup:167
+#: clocksetup:163
 #, sh-format
 msgid "Clock adjustment"
 msgstr "Ajan asetus"
 
-#: clocksetup:169 clocksetup:190 clocksetup:211 clocksetup:261
+#: clocksetup:165 clocksetup:186 clocksetup:207 clocksetup:257
 #, sh-format
 msgid "Cancel"
 msgstr "Peruuta"
 
-#: clocksetup:171
+#: clocksetup:167
 #, sh-format
 msgid "Please set the time..."
 msgstr "Ole hyvä ja aseta aika..."
 
-#: clocksetup:188
+#: clocksetup:184
 #, sh-format
 msgid "Date adjustment"
 msgstr "Päiväyksen asetus"
 
-#: clocksetup:192
+#: clocksetup:188
 #, sh-format
 msgid "Please set the date..."
 msgstr "Ole hyvä ja aseta päiväys..."
 
-#: clocksetup:212
+#: clocksetup:208
 #, sh-format
 msgid "Time zone configuration"
 msgstr "Aikavyöhykkeen asetukset"
 
-#: clocksetup:214
+#: clocksetup:210
 #, sh-format
 msgid "Please select your time zone..."
 msgstr "Ole hyvä ja valitse aikavyöhyke..."
 
-#: clocksetup:234
+#: clocksetup:230
 #, sh-format
 msgid "Warning"
 msgstr "Varoitus"
 
-#: clocksetup:236
+#: clocksetup:232
 #, sh-format
 msgid "You are already using the ntpd service and clock should be correct."
 msgstr "Käytät jo verkon aikapalvelinta ja ajan pitäisi olla oikein."
 
-#: clocksetup:240
+#: clocksetup:236
 #, sh-format
 msgid "Error"
 msgstr "Virhe"
 
-#: clocksetup:242
+#: clocksetup:238
 #, sh-format
 msgid "Something went wrong. Time was not adjusted."
 msgstr "Jotain meni väärin. Aikaa ei asetettu."
 
-#: clocksetup:262
+#: clocksetup:258
 #, sh-format
 msgid "Hardware clock set to UTC?"
 msgstr ""
 
-#: clocksetup:264
+#: clocksetup:260
 #, sh-format
 msgid ""
-"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is, "
-"select YES here.  If the hardware clock is set to the current local time "
+"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is,"
+" select YES here.  If the hardware clock is set to the current local time "
 "(this is how most PCs are set up), then say NO here.  If you are not sure "
 "what this is, you should answer NO here."
-msgstr ""
-"Onko laitteistokellon asetus Coordinated Universal Time (UTC/GMT)? Jos on, "
-"valitse tähän KYLLÄ.  Jos laitteistokellon asetus on nykyinen paikallinen "
-"aika (kuten useimmissa PC:ssä), niin laita tähän EI.  Jos et ole varma mikä "
-"tämä on, laita tähän EI."
+msgstr "Onko laitteistokellon asetus Coordinated Universal Time (UTC/GMT)? Jos on, valitse tähän KYLLÄ.  Jos laitteistokellon asetus on nykyinen paikallinen aika (kuten useimmissa PC:ssä), niin laita tähän EI.  Jos et ole varma mikä tämä on, laita tähän EI."
 
-#: clocksetup:265
+#: clocksetup:261
 #, sh-format
 msgid "No"
 msgstr "Ei"
 
-#: clocksetup:265
+#: clocksetup:261
 #, sh-format
 msgid "Hardware clock is set to local time"
 msgstr "Laitteistokellon asetus on paikallinen aika"
 
-#: clocksetup:266
+#: clocksetup:262
 #, sh-format
 msgid "Yes"
 msgstr "Kyllä"
 
-#: clocksetup:266
+#: clocksetup:262
 #, sh-format
 msgid "Hardware clock is set to UTC"
 msgstr "Laitteistokellon asetus on UTC"

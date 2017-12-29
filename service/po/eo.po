@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Kris Thomsen <lakristho@gmail.com>, 2011
 msgid ""
@@ -9,14 +9,13 @@ msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2014-02-05 08:55+0000\n"
+"PO-Revision-Date: 2017-09-19 09:42+0000\n"
 "Last-Translator: gapan <vlahavas@gmail.com>\n"
-"Language-Team: Esperanto (http://www.transifex.com/projects/p/salixtools/"
-"language/eo/)\n"
-"Language: eo\n"
+"Language-Team: Esperanto (http://www.transifex.com/gapan/salixtools/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: service:25
@@ -29,9 +28,7 @@ msgstr ""
 msgid ""
 "${BOLDCYAN}Starting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
-"${BOLDCYAN}Startas${COLOR_RESET} la ${BOLDWHITE}${servicename}${COLOR_RESET} "
-"servo"
+msgstr "${BOLDCYAN}Startas${COLOR_RESET} la ${BOLDWHITE}${servicename}${COLOR_RESET} servo"
 
 #: service:50 service:62 service:80
 #, sh-format
@@ -43,18 +40,14 @@ msgstr "Neniu ${BOLDWHITE}${servicename}${COLOR_RESET} servo"
 msgid ""
 "${BOLDYELLOW}Stopping${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
-"${BOLDYELLOW}Haltas${COLOR_RESET} la "
-"${BOLDWHITE}${servicename}${COLOR_RESET} servo"
+msgstr "${BOLDYELLOW}Haltas${COLOR_RESET} la ${BOLDWHITE}${servicename}${COLOR_RESET} servo"
 
 #: service:69
 #, sh-format
 msgid ""
 "${BOLDCYAN}Restarting${COLOR_RESET} the "
 "${BOLDWHITE}${servicename}${COLOR_RESET} service"
-msgstr ""
-"${BOLDCYAN}Restartas${COLOR_RESET} la "
-"${BOLDWHITE}${servicename}${COLOR_RESET} servo"
+msgstr "${BOLDCYAN}Restartas${COLOR_RESET} la ${BOLDWHITE}${servicename}${COLOR_RESET} servo"
 
 #: service:89
 #, sh-format

@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# aleximon <alejandrosimon@gmx.com>, 2014
+# Alejandro Simón <alejandrosimon@gmx.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-05 22:48+0000\n"
-"Last-Translator: aleximon <alejandrosimon@gmx.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/salixtools/"
-"language/es/)\n"
-"Language: es\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2017-09-19 09:10+0000\n"
+"Last-Translator: Alejandro Simón <alejandrosimon@gmx.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/gapan/salixtools/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: localesetup:22
@@ -49,27 +48,27 @@ msgstr "Configurar locaización a $locale"
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "ERROR: $newlocale no es una localizaqción válida"
 
-#: localesetup:76
+#: localesetup:69
 #, sh-format
 msgid "System language configuration"
 msgstr "Configuración del idioma del sistema"
 
-#: localesetup:78
+#: localesetup:71
 #, sh-format
 msgid "OK"
 msgstr "Aceptar"
 
-#: localesetup:79
+#: localesetup:72
 #, sh-format
 msgid "Exit"
 msgstr "Salir"
 
-#: localesetup:81
+#: localesetup:74
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "La localización actual es $currentlocale."
 
-#: localesetup:82
+#: localesetup:75
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Por favor seleccione su idioma preferido del sistema:"

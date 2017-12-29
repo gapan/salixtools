@@ -1,24 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Yarema aka Knedlyk <yupadmin@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24 12:54+0200\n"
-"PO-Revision-Date: 2014-02-06 10:36+0000\n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2017-09-19 09:10+0000\n"
 "Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/salixtools/"
-"language/uk/)\n"
-"Language: uk\n"
+"Language-Team: Ukrainian (http://www.transifex.com/gapan/salixtools/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: localesetup:22
 #, sh-format
@@ -50,27 +48,27 @@ msgstr "Налаштування локалі до $locale"
 msgid "ERROR: $newlocale is not a valid locale"
 msgstr "ПОМИЛКА: $newlocale не є правильною локаллю"
 
-#: localesetup:76
+#: localesetup:69
 #, sh-format
 msgid "System language configuration"
 msgstr "Налаштування системної мови"
 
-#: localesetup:78
+#: localesetup:71
 #, sh-format
 msgid "OK"
 msgstr "ОК"
 
-#: localesetup:79
+#: localesetup:72
 #, sh-format
 msgid "Exit"
 msgstr "Вихід"
 
-#: localesetup:81
+#: localesetup:74
 #, sh-format
 msgid "The current locale is $currentlocale."
 msgstr "Поточна локаль є $currentlocale."
 
-#: localesetup:82
+#: localesetup:75
 #, sh-format
 msgid "Please select your preferred system language:"
 msgstr "Будь ласка, виберіть Вашу улюблену системну мову:"
