@@ -3,41 +3,40 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# abc Def <hdogan1974@gmail.com>, 2020
-# Onur ÖZDEMİR, 2016
+# The Cat, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-17 22:15+0300\n"
-"PO-Revision-Date: 2020-03-29 00:50+0000\n"
-"Last-Translator: abc Def <hdogan1974@gmail.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/gapan/salixtools/language/tr/)\n"
+"PO-Revision-Date: 2020-11-09 17:13+0000\n"
+"Last-Translator: The Cat\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/gapan/salixtools/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: reposetup:8
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr "Bunu çalıştırmak için root yetkilerine sahip olmanız gerekmektedir"
+msgstr "Você precisa de privilégios de administrador para executar isto"
 
 #: reposetup:105
 #, sh-format
 msgid "Select repository mirror"
-msgstr "Yansı deposunu seçin"
+msgstr "Selecionar espelho do repositório"
 
 #: reposetup:107
 #, sh-format
 msgid "Select"
-msgstr "Seç"
+msgstr "Selecionar"
 
 #: reposetup:108
 #, sh-format
 msgid "Cancel"
-msgstr "İptal et"
+msgstr "Cancelar"
 
 #: reposetup:110
 #, sh-format
@@ -45,86 +44,86 @@ msgid ""
 "Please select your preferred repository mirror. The country code of where "
 "the mirror is located is shown on the right. Your selection will be applied "
 "to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
-msgstr "Lütfen tercih ettiğiniz depo yansısını seçin. Yansının bulunduğu ülke kodu sağda gösterilir. Seçiminiz /etc/slapt-get/slapt-getrc ve /etc/slapt-get/slapt-srcrc dosyalarına uygulanacaktır:"
+msgstr "Por favor, selecione o seu espelho do repositório preferido. O código do país de onde o espelho está localizado é exibido à direita. A sua seleção será aplicada aos arquivos /etc/slapt-get/slapt-getrc e /etc/slapt-get/slapt-srcrc:"
 
 #: reposetup:110
 #, sh-format
 msgid ""
 "WARNING: Any changes you have manually made in the SOURCE lines of those "
 "files will be lost!"
-msgstr "UYARI: Bu dosyaların KAYNAK satırlarında manuel olarak yaptığınız değişiklikler kaybolacaktır!"
+msgstr "ATENÇÃO: Quaisquer alterações feitas manualmente nas linhas de FONTE desses arquivos serão perdidas!"
 
 #: reposetup:124
 #, sh-format
 msgid "Update package caches?"
-msgstr "Paket önbellekleri güncelleştirilsin mi?"
+msgstr "Atualizar caches dos pacotes?"
 
 #: reposetup:125
 #, sh-format
 msgid "Update"
-msgstr "Güncelle"
+msgstr "Atualizar"
 
 #: reposetup:126
 #, sh-format
 msgid "Do not update"
-msgstr "Güncelleme"
+msgstr "Não atualizar"
 
 #: reposetup:127
 #, sh-format
 msgid "Would you like to update the package and SlackBuild caches now?"
-msgstr "Paket ve SlackBuild önbelleklerini şimdi güncellemek ister misiniz?"
+msgstr "Você gostaria de atualizar o pacote e os caches do SlackBuild agora?"
 
 #: reposetup:171
 #, sh-format
 msgid "USAGE:"
-msgstr "KULLANIM:"
+msgstr "USO:"
 
 #: reposetup:171
 #, sh-format
 msgid "mirror"
-msgstr "yansı"
+msgstr "espelho"
 
 #: reposetup:173
 #, sh-format
 msgid "OPTIONS:"
-msgstr "OPSİYONLAR:"
+msgstr "OPÇÕES:"
 
 #: reposetup:174
 #, sh-format
 msgid "Specify a repository mirror manually"
-msgstr "Depo yansısını elle belirtin"
+msgstr "Especifique um espelho do repositório manualmente"
 
 #: reposetup:175
 #, sh-format
 msgid "Use local mirror list and do not download a new one"
-msgstr "Yerel yansı listesini kullanın ve yeni bir tane indirmeyin"
+msgstr "Usar a lista de espelhos local e não baixar uma nova"
 
 #: reposetup:176
 #, sh-format
 msgid "Do not update/ask for updating the package caches"
-msgstr "Paket önbelleklerini güncelleştirmek için sormayın/güncelleştirmeyin"
+msgstr "Não atualizar/pedir para atualizar os caches dos pacotes"
 
 #: reposetup:177
 #, sh-format
 msgid "Print currently selected mirror"
-msgstr "Şu anda seçili yansıyı yazdır"
+msgstr "Imprimir espelho selecionado atualmente"
 
 #: reposetup:178
 #, sh-format
 msgid "This help message"
-msgstr "Bu yardım mesajı"
+msgstr "Esta mensagem de ajuda"
 
 #: reposetup:230
 #, sh-format
 msgid "ERROR: Too many arguments"
-msgstr "HATA: Çok fazla parametre"
+msgstr "ERRO: Demasiados argumentos"
 
 #: reposetup:245 reposetup:266
 #, sh-format
 msgid "Refreshing mirror list from"
-msgstr "Yansı listesi yenilenecek"
+msgstr "Atualizando a lista de espelhos a partir de"
 
 #: reposetup:252 reposetup:273
 #, sh-format
 msgid "Getting mirror list failed"
-msgstr "Yansı listesini alma başarısız oldu"
+msgstr "Falha na obtenção da lista de espelhos"

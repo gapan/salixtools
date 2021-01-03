@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Panwar108 <caspian7pena@gmail.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2020-06-26 13:47+0000\n"
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/gapan/salixtools/language/hi_IN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: reposetup:8
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "इस हेतु रुट उपयोक्ता विशेषाधिकार होना आवश्यक है"
+
+#: reposetup:105
+#, sh-format
+msgid "Select repository mirror"
+msgstr "पैकेज-संग्रह हेतु सर्वर-मिरर चुनें"
+
+#: reposetup:107
+#, sh-format
+msgid "Select"
+msgstr "चुनें"
+
+#: reposetup:108
+#, sh-format
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"Please select your preferred repository mirror. The country code of where "
+"the mirror is located is shown on the right. Your selection will be applied "
+"to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
+msgstr "कृपया, पैकेज-संग्रह हेतु इच्छित सर्वर-मिरर चुनें। सर्वर का भौगोलिक स्थान देश कोड के रूप में दायीं ओर है। चयन /etc/slapt-get/slapt-getrc व /etc/slapt-get/slapt-srcrc फ़ाइलों पर लागू होगा :"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"WARNING: Any changes you have manually made in the SOURCE lines of those "
+"files will be lost!"
+msgstr "चेतावनी : इन फ़ाइलों की स्रोत पंक्तियों में मैनुअल रूप से किए गए बदलाव नष्ट हो जाएँगे!"
+
+#: reposetup:124
+#, sh-format
+msgid "Update package caches?"
+msgstr "पैकेज कैश अपडेट करें?"
+
+#: reposetup:125
+#, sh-format
+msgid "Update"
+msgstr "अपडेट करें"
+
+#: reposetup:126
+#, sh-format
+msgid "Do not update"
+msgstr "अपडेट न करें"
+
+#: reposetup:127
+#, sh-format
+msgid "Would you like to update the package and SlackBuild caches now?"
+msgstr "क्या आप पैकेज व स्लैकबिल्ड कैश अभी अपडेट करना चाहते हैं?"
+
+#: reposetup:171
+#, sh-format
+msgid "USAGE:"
+msgstr "उपयोग :"
+
+#: reposetup:171
+#, sh-format
+msgid "mirror"
+msgstr "सर्वर-मिरर"
+
+#: reposetup:173
+#, sh-format
+msgid "OPTIONS:"
+msgstr "विकल्प :"
+
+#: reposetup:174
+#, sh-format
+msgid "Specify a repository mirror manually"
+msgstr "पैकेज-संग्रह हेतु सर्वर-मिरर मैनुअल रूप से निर्दिष्ट करें"
+
+#: reposetup:175
+#, sh-format
+msgid "Use local mirror list and do not download a new one"
+msgstr "लोकल सर्वर-मिरर सूची उपयोग करें व नई डाउनलोड न करें"
+
+#: reposetup:176
+#, sh-format
+msgid "Do not update/ask for updating the package caches"
+msgstr "पैकेज कैश अपडेट न करें/ न अपडेट करने हेतु पूछें "
+
+#: reposetup:177
+#, sh-format
+msgid "Print currently selected mirror"
+msgstr "वर्तमान चयनित सर्वर-मिरर दिखाएँ"
+
+#: reposetup:178
+#, sh-format
+msgid "This help message"
+msgstr "यह सहायता संदेश"
+
+#: reposetup:230
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "त्रुटि : अनावश्यक मानदंड"
+
+#: reposetup:245 reposetup:266
+#, sh-format
+msgid "Refreshing mirror list from"
+msgstr "यहाँ से सर्वर-मिरर सूची रिफ्रेश हो रही है"
+
+#: reposetup:252 reposetup:273
+#, sh-format
+msgid "Getting mirror list failed"
+msgstr "सर्वर-मिरर सूची प्राप्त करना विफल रहा"

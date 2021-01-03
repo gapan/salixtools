@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Panwar108 <caspian7pena@gmail.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 22:56+0200\n"
+"PO-Revision-Date: 2020-06-26 12:35+0000\n"
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/gapan/salixtools/language/hi_IN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: clocksetup:7
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "इस हेतु रुट उपयोक्ता विशेषाधिकार होना आवश्यक है"
+
+#: clocksetup:43
+#, sh-format
+msgid "USAGE:"
+msgstr "उपयोग :"
+
+#: clocksetup:45
+#, sh-format
+msgid "OPTIONS:"
+msgstr "विकल्प :"
+
+#: clocksetup:47
+#, sh-format
+msgid "only show the hardware clock configuration dialog"
+msgstr "केवल हार्डवेयर घड़ी विन्यास विंडो दिखाएँ"
+
+#: clocksetup:48
+#, sh-format
+msgid "only show the date configuration dialog"
+msgstr "केवल दिनांक विन्यास विंडो दिखाएँ"
+
+#: clocksetup:49
+#, sh-format
+msgid "only show the time configuration dialog"
+msgstr "केवल समय विन्यास विंडो दिखाएँ"
+
+#: clocksetup:50
+#, sh-format
+msgid "only show the timezone configuration dialog"
+msgstr "केवल समय क्षेत्र विन्यास विंडो दिखाएँ"
+
+#: clocksetup:51
+#, sh-format
+msgid "this help message"
+msgstr "यह सहायता संदेश"
+
+#: clocksetup:90
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "त्रुटि : अनावश्यक मानदंड"
+
+#: clocksetup:100 clocksetup:164 clocksetup:185 clocksetup:206 clocksetup:256
+#, sh-format
+msgid "OK"
+msgstr "ठीक है"
+
+#: clocksetup:101
+#, sh-format
+msgid "Exit"
+msgstr "बंद करें"
+
+#: clocksetup:102
+#, sh-format
+msgid "System clock configuration"
+msgstr "सिस्टम घड़ी विन्यास"
+
+#: clocksetup:104
+#, sh-format
+msgid "Currently the clock is set to:"
+msgstr "वर्तमान में घड़ी, इस पर सेट है :"
+
+#: clocksetup:105
+#, sh-format
+msgid "Please choose an option:"
+msgstr "कृपया एक विकल्प चुनें :"
+
+#: clocksetup:107
+#, sh-format
+msgid "Set the time manually"
+msgstr "समय मैनुअल रूप से सेट करें"
+
+#: clocksetup:108
+#, sh-format
+msgid "Set the date manually"
+msgstr "दिनांक मैनुअल रूप से सेट करें"
+
+#: clocksetup:109
+#, sh-format
+msgid "Set the time zone"
+msgstr "समय क्षेत्र सेट करें"
+
+#: clocksetup:110
+#, sh-format
+msgid "Configure the hardware clock"
+msgstr "हार्डवेयर घड़ी विन्यस्त करें"
+
+#: clocksetup:111
+#, sh-format
+msgid "Synchronize with Network Time Protocol (NTP)"
+msgstr "नेटवर्क समय प्रोटोकॉल (एनटीपी) द्वारा समकालीन करें"
+
+#: clocksetup:163
+#, sh-format
+msgid "Clock adjustment"
+msgstr "घड़ी समायोजन"
+
+#: clocksetup:165 clocksetup:186 clocksetup:207 clocksetup:257
+#, sh-format
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: clocksetup:167
+#, sh-format
+msgid "Please set the time..."
+msgstr "कृपया समय सेट करें ..."
+
+#: clocksetup:184
+#, sh-format
+msgid "Date adjustment"
+msgstr "दिनांक समायोजन"
+
+#: clocksetup:188
+#, sh-format
+msgid "Please set the date..."
+msgstr "कृपया दिनांक सेट करें ..."
+
+#: clocksetup:208
+#, sh-format
+msgid "Time zone configuration"
+msgstr "समय क्षेत्र विन्यास"
+
+#: clocksetup:210
+#, sh-format
+msgid "Please select your time zone..."
+msgstr "कृपया समय क्षेत्र चुनें ..."
+
+#: clocksetup:230
+#, sh-format
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: clocksetup:232
+#, sh-format
+msgid "You are already using the ntpd service and clock should be correct."
+msgstr "एनटीपीडी सेवा पहले से ही कार्यरत है अतः घड़ी ठीक है।"
+
+#: clocksetup:236
+#, sh-format
+msgid "Error"
+msgstr "त्रुटि"
+
+#: clocksetup:238
+#, sh-format
+msgid "Something went wrong. Time was not adjusted."
+msgstr "त्रुटि हुई। समय समायोजित नहीं हो सका।"
+
+#: clocksetup:258
+#, sh-format
+msgid "Hardware clock set to UTC?"
+msgstr "हार्डवेयर घड़ी UTC पर सेट करें?"
+
+#: clocksetup:260
+#, sh-format
+msgid ""
+"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is,"
+" select YES here.  If the hardware clock is set to the current local time "
+"(this is how most PCs are set up), then say NO here.  If you are not sure "
+"what this is, you should answer NO here."
+msgstr "क्या हार्डवेयर घड़ी समन्वित सर्वत्र समय (UTC/GMT) पर सेट है? यदि हाँ, तो यहाँ 'हाँ' चिन्हित करें। यदि हार्डवेयर घड़ी स्थानीय समय के अनुरूप सेट हो (अधिकतर कंप्यूटर इसी रूप में सेट होते हैं) तो यहाँ 'नहीं' चिन्हित करें। संशय की स्थिति में 'नहीं' चिन्हित करें।"
+
+#: clocksetup:261
+#, sh-format
+msgid "No"
+msgstr "नहीं"
+
+#: clocksetup:261
+#, sh-format
+msgid "Hardware clock is set to local time"
+msgstr "हार्डवेयर घड़ी स्थानीय समय के अनुरूप सेट है"
+
+#: clocksetup:262
+#, sh-format
+msgid "Yes"
+msgstr "हाँ"
+
+#: clocksetup:262
+#, sh-format
+msgid "Hardware clock is set to UTC"
+msgstr "हार्डवेयर घड़ी UTC के अनुरूप सेट है"

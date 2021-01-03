@@ -1,0 +1,307 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Panwar108 <caspian7pena@gmail.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-09 13:36+0300\n"
+"PO-Revision-Date: 2020-06-27 07:29+0000\n"
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/gapan/salixtools/language/hi_IN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: netsetup:245
+#, sh-format
+msgid ""
+"The address you have entered seems to be non-standard. We were expecting\n"
+"$ArG2 groups of numbers seperated by dots, like: 127.0.0.1\n"
+"Are you absolutely sure you want to use the address $ArG1?"
+msgstr "दर्ज किया गया पता असामान्य है। सामान्यतः $ArG2 के\nसंख्या समूह बिंदु द्वारा पृथक होते हैं, जैसे : 127.0.0.1\nक्या आप निश्चित ही पता उपयोग करना चाहते हैं?"
+
+#: netsetup:249
+msgid "WARNING"
+msgstr "चेतावनी"
+
+#: netsetup:284
+msgid ""
+"First, we'll need the name you'd like to give your host.\n"
+"Only the base hostname is needed right now. (not the domain)\n"
+"\n"
+"Enter hostname:"
+msgstr "सर्वप्रथम, अपने होस्ट हेतु एक नाम प्रदान करें।\nअभी केवल बेस होस्ट नाम चाहिए (न की डोमेन)\n\nहोस्ट नाम दर्ज करें :"
+
+#: netsetup:288
+msgid "ENTER HOSTNAME"
+msgstr "होस्ट नाम दर्ज करें"
+
+#: netsetup:302
+#, sh-format
+msgid ""
+"Now, we need the domain name for this machine, such as:\n"
+"\n"
+"example.org\n"
+"\n"
+"Do not supply a leading '.'\n"
+"\n"
+"Enter domain name for $HOSTNM:"
+msgstr "अब, मशीन हेतु डोमेन नाम प्रदान करें, जैसे:\n\nexample.org\n\nअग्रिम बिंदु '.' दर्ज न करें\n\n$HOSTNM हेतु डोमेन नाम दर्ज करें :"
+
+#: netsetup:309
+#, sh-format
+msgid "ENTER DOMAINNAME FOR $HOSTNM"
+msgstr "$HOSTNM हेतु डोमेन नाम दर्ज करें"
+
+#: netsetup:330
+#, sh-format
+msgid "CONFIGURATION TYPE FOR $HOSTNM.$DOMAIN"
+msgstr "$HOSTNM.$DOMAIN हेतु विन्यास प्रकार"
+
+#: netsetup:333
+msgid ""
+"Now we need to know how your machine connects to the network.\n"
+"\n"
+"If you have an internal network card and an assigned IP address, gateway, and DNS, use the 'static IP' choice to enter these values.  If your IP address is assigned by a DHCP server (commonly used by cable modem and DSL services), select 'DHCP'.  If you do not have a network card, select the 'loopback' choice.  You may also select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works). Which type of network setup would you like?"
+msgstr "अब आपकी मशीन हेतु नेटवर्क विन्यास किया जाएगा।\n\nयदि नेटवर्क कार्ड आंतरिक व आईपी-पता, गेटवे, डीएनएस नियत है तो इन हेतु 'स्थिर आईपी' विकल्प उपयोग करें। यदि आईपी-पता डीएचसीपी सर्वर (केबल मॉडेम व डीएसएल इंटरनेट सेवा) द्वारा नियत है तो 'डीएचसीपी' चुनें। कोई नेटवर्क कार्ड नहीं है तो 'लूपबैक' चुनें। यदि आप 'नेटवर्क प्रबंधक' चुनते हैं तो, नेटवर्क प्रबंधक डेमॉन सेवा द्वारा स्वतः ही केबल व केबल-रहित नेटवर्क इंटरफ़ेस सेट किया जाएगा( यह सरल एवं सुचारू है)। आप किस प्रकार का नेटवर्क सेटअप चाहते हैं?"
+
+#: netsetup:343
+msgid "Use a static IP address to configure ethernet"
+msgstr "ईथरनेट विन्यास हेतु स्थिर आईपी-पता चुनें"
+
+#: netsetup:344
+msgid "Use a DHCP server to configure ethernet"
+msgstr "ईथरनेट विन्यास हेतु डीएचसीपी सर्वर चुनें"
+
+#: netsetup:345
+msgid "Set up a loopback connection (modem or no net)"
+msgstr "लूपबैक कनेक्शन सेट करें (मॉडेम या नेट नहीं)"
+
+#: netsetup:346
+msgid "Autoconfigure network using NetworkManager"
+msgstr "नेटवर्क प्रबंधक द्वारा नेटवर्क स्वतः विन्यस्त करें"
+
+#: netsetup:356
+msgid "SET DHCP HOSTNAME"
+msgstr "डीएचसीपी होस्ट नाम सेट करें"
+
+#: netsetup:356
+msgid ""
+"Some network providers require that the DHCP hostname be set in order to "
+"connect.  If so, they'll have assigned a hostname to your machine, which may"
+" look something like CC-NUMBER-A (this depends on your ISP).  If you were "
+"assigned a DHCP hostname, please enter it below.  If you do not have a DHCP "
+"hostname, just hit ENTER or Cancel."
+msgstr "कुछ नेटवर्क प्रदाताओं के कनेक्शन हेतु डीएचसीपी होस्ट नाम सेट करना आवश्यक होता है। इस स्थिति में प्रदत द्वारा आपकी मशीन हेतु होस्ट नाम नियत किया होगा, जो सम्भवतः ऐसा दिखता हो CC-संख्या-A (यह इंटरनेट सेवा प्रदाता पर निर्भर है)। यदि डीएचसीपी होस्ट नाम नियत है तो उसे यहाँ दर्ज करें। यदि नहीं तो एंटर दबाएँ या रद्द करें।"
+
+#: netsetup:381
+#, sh-format
+msgid ""
+"Enter your IP address for the local machine.  Example: \n"
+"111.112.113.114\n"
+"Enter IP address for $HOSTNM (aaa.bbb.ccc.ddd):"
+msgstr "लोकल मशीन हेतु आईपी-पता दर्ज करें। उदाहरण :\n111.112.113.114\n$HOSTNM हेतु आईपी-पता दर्ज करें (aaa.bbb.ccc.ddd):"
+
+#: netsetup:384
+#, sh-format
+msgid "ENTER IP ADDRESS FOR $HOSTNM.$DOMAIN"
+msgstr "$HOSTNM.$DOMAIN  हेतु आईपी-पता दर्ज करें"
+
+#: netsetup:407
+msgid ""
+"Enter your netmask.  This will generally look something\n"
+"like this: 255.255.255.0\n"
+"Enter netmask (aaa.bbb.ccc.ddd):"
+msgstr "नेटमास्क दर्ज करें। यह इस प्रकार दिखता है\n: 255.255.255.0\nनेटमास्क दर्ज करें (aaa.bbb.ccc.ddd):"
+
+#: netsetup:410
+msgid "ENTER NETMASK FOR LOCAL NETWORK"
+msgstr "लोकल नेटवर्क हेतु नेटमास्क दर्ज करे"
+
+#: netsetup:437
+msgid "Enter the address for the gateway on your network, such as:"
+msgstr "नेटवर्क गेटवे हेतु पता दर्ज करें, जैसे :"
+
+#: netsetup:441
+msgid ""
+"If you don't have a gateway on your network just hit ENTER\n"
+"without entering a gateway IP address.\n"
+"\n"
+"Enter gateway address (aaa.bbb.ccc.ddd):"
+msgstr "यदि नेटवर्क गेटवे नहीं है तो\nबिना गेटवे आईपी-पता दर्ज करें, एंटर दबाएँ।\n\nगेटवे पता दर्ज करें(aaa.bbb.ccc.ddd):"
+
+#: netsetup:445
+msgid "ENTER GATEWAY ADDRESS"
+msgstr "गेटवे पता दर्ज करें"
+
+#: netsetup:466
+msgid "USE A NAMESERVER?"
+msgstr "नाम सर्वर उपयोग करें?"
+
+#: netsetup:466
+msgid "Will you be accessing a nameserver?"
+msgstr "क्या आप नाम सर्वर उपयोग करेंगे?"
+
+#: netsetup:477
+#, sh-format
+msgid ""
+"Here is your current IP address, full hostname, and base hostname:\n"
+"$IPADDR       $HOSTNM.$DOMAIN    $HOSTNM\n"
+"\n"
+"Please give the IP address of the name server to use,\n"
+"such as $DNSSAMPLE.\n"
+"\n"
+"You can add more Domain Name Servers later by editing $RESOLV.\n"
+"\n"
+"Primary name server to use (aaa.bbb.ccc.ddd):"
+msgstr "यह है आपका वर्तमान आईपी-पता, पूर्ण होस्ट नाम, बेस होस्ट नाम :\n$IPADDR       $HOSTNM.$DOMAIN    $HOSTNM\n\nनाम सर्वर उपयोग हेतु आईपी-पता दर्ज करें\nजैसे $DNSSAMPLE.\n\nबाद में, $RESOLV संपादित कर आप अन्य डोमेन नाम सर्वर जोड़ सकते हैं।\n\nउपयोग हेतु प्राथमिक नाम सर्वर (aaa.bbb.ccc.ddd):"
+
+#: netsetup:486
+msgid "SELECT NAMESERVER"
+msgstr "नाम सर्वर चुनें"
+
+#: netsetup:514
+msgid "PROBE FOR NETWORK CARD?"
+msgstr "नेटवर्क कार्ड हेतु पहचान आरंभ करें?"
+
+#: netsetup:514
+msgid ""
+"If you like, we can look to see what kind of network card you have in your "
+"machine, and if we find one create an /etc/rc.d/rc.netdevice script to load "
+"the module for it at boot time.  There's a slight bit of danger that the "
+"probing can cause problems, but it almost always works.  If you'd rather "
+"configure your system manually, you can skip the probing process and edit "
+"/etc/rc.d/rc.modules or /etc/modules.conf later to have it load the right "
+"module."
+msgstr "इच्छित हो तो, सिस्टम आपकी मशीन के नेटवर्क कार्ड की पहचान करेगा व सफल रहा तो सिस्टम आरंभ पर मॉड्यूल लोड करने हेतु /etc/rc.d/rc.netdevice स्क्रिप्ट बनाई जाएगी। इस प्रक्रिया में समस्या की संभावना कम होती है। यदि आप सिस्टम को मैनुअल रूप से विन्यस्त करना चाहते हैं तो पहचान प्रक्रिया निरस्त करें व मॉड्यूल लोड करने हेतु /etc/rc.d/rc.modules या /etc/modules.conf बाद में संपादित करें।"
+
+#: netsetup:522
+msgid "look for network cards to set up"
+msgstr "सेटअप करने हेतु नेटवर्क कार्ड खोजें"
+
+#: netsetup:523
+msgid "skip probe;  edit /etc/rc.d/rc.modules later"
+msgstr "पहचान प्रक्रिया रद्द करें, /etc/rc.d/rc.modules बाद में संपादित करें"
+
+#: netsetup:536 netsetup:553
+msgid "CARD DETECTED"
+msgstr "कार्ड की पहचान की गई"
+
+#: netsetup:536 netsetup:553
+#, sh-format
+msgid "A networking card using the $card.o module has been detected."
+msgstr "$card.o मॉड्यूल उपयोग कर रहे नेटवर्क कार्ड की पहचान हुई।"
+
+#: netsetup:561
+msgid "NO CARD DETECTED"
+msgstr "किसी कार्ड की पहचान नहीं हुई"
+
+#: netsetup:561
+msgid ""
+"Sorry, but no network card could be probed for on your system.  Some cards "
+"(like non-PCI NE2000s) must be supplied with the I/O address to use and "
+"can't be probed for safely. You'll have to try to configure the card later "
+"by editing /etc/rc.d/rc.modules or recompiling your kernel."
+msgstr "क्षमा करें, सिस्टम हेतु कोई नेटवर्क कार्ड नहीं मिला। कुछ कार्ड (जैसे गैर-पीसीआई NE2000s) उपयोग करने हेतु इनपुट/आउटपुट पता प्रदान करना आवश्यक होता है व सुचारू पहचान नहीं की जा सकती हैं। कार्ड विन्यस्त करने हेतु /etc/rc.d/rc.modules बाद में संपादित करें या कर्नेल पुनः संकलित करें।"
+
+#: netsetup:571 netsetup:580
+msgid "NETWORK SETUP COMPLETE"
+msgstr "नेटवर्क सेटअप पूर्ण हुआ"
+
+#: netsetup:571
+msgid ""
+"Your networking system is now configured to use loopback:\n"
+"\n"
+"IP address: 127.0.0.1\n"
+"Netmask: 255.255.255.0\n"
+"\n"
+"Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
+msgstr "अब आपका नेटवर्क सिस्टम लूपबैक उपयोग करने हेतु विन्यस्त है :\n\nआईपी-पता : 127.0.0.1\nनेटमास्क : 255.255.255.0\n\nक्या यह सही है? जारी रखने हेतु 'हाँ', या पुनः विन्यास हेतु 'नहीं' दबाएँ।"
+
+#: netsetup:580
+msgid ""
+"Your networking system is now configured to use NetworkManager for\n"
+"wired and wireless network management.  To set up wireless networks\n"
+"and view status, add the Network Management control panel widget to\n"
+"your KDE desktop.\n"
+"\n"
+"Is this correct?  Press 'Yes' to confirm, or 'No' to reconfigure."
+msgstr "अब आपका नेटवर्क सिस्टम, केबल व केबल-रहित नेटवर्क\nप्रबंधन के लिए नेटवर्क प्रबंधक उपयोग करने हेतु विन्यस्त है।\nकेबल-रहित नेटवर्क सेट करने व स्थिति देखने हेतु, नेटवर्क\nप्रबंधन नियंत्रण पैनल विजेट अपने केडीेई डेस्कटॉप पर जोड़ें।\n\nक्या यह सही है? जारी रखने हेतु 'हाँ', या पुनः विन्यास हेतु 'नहीं' दबाएँ।"
+
+#: netsetup:590
+msgid "CONFIRM NETWORK SETUP"
+msgstr "नेटवर्क सेटअप की पुष्टि करें"
+
+#: netsetup:595
+msgid ""
+"These are the settings you have entered.  To accept them and complete the "
+"networking setup, press enter.  If you need to make any changes, you can do "
+"that now (or reconfigure later using 'netsetup')."
+msgstr "ये हैं, आपके द्वारा दर्ज की गई सेटिंग्स। स्वीकृत कर नेटवर्क सेटअप पूर्ण करने हेतु, एंटर दबाएँ। कोई बदलाव करना है तो अभी करें (या बाद में, 'netsetup' उपयोग कर पुनः विन्यस्त करें)।"
+
+#: netsetup:599
+msgid "Hostname:"
+msgstr "होस्ट नाम :"
+
+#: netsetup:600
+msgid "Domain name:"
+msgstr "डोमेन नाम :"
+
+#: netsetup:601
+msgid "IP address:"
+msgstr "आईपी-पता :"
+
+#: netsetup:602
+msgid "Netmask:"
+msgstr "नेटमास्क :"
+
+#: netsetup:603
+msgid "Gateway:"
+msgstr "गेटवे :"
+
+#: netsetup:604
+msgid "Nameserver:"
+msgstr "नाम सर्वर :"
+
+#: netsetup:627
+msgid "CONFIRM SETUP COMPLETE"
+msgstr "नेटवर्क सेटअप पूर्ण होने की पुष्टि करें"
+
+#: netsetup:628
+#, sh-format
+msgid ""
+"Your networking system is now configured to use DHCP:\n"
+"\n"
+"  Hostname:     $HOSTNM\n"
+"  Domain name:  $DOMAIN\n"
+"  IP address:   (use DHCP server)\n"
+"  Netmask:      (use DHCP server)\n"
+"  Gateway:      (use DHCP server)\n"
+"  Nameserver:   (use DHCP server)\n"
+"\n"
+"Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
+msgstr "आपका नेटवर्क सिस्टम अब डीएचसीपी उपयोग करने हेतु विन्यस्त है :\n\n  होस्ट नाम :     $HOSTNM\n  डोमेन नाम :    $DOMAIN\n  आईपी-पता :  (डीएचसीपी सर्वर उपयोग करें)\n  नेटमास्क :      (डीएचसीपी सर्वर उपयोग करें)\n  गेटवे :           (डीएचसीपी सर्वर उपयोग करें)\n  नाम सर्वर :     (डीएचसीपी सर्वर उपयोग करें)\n\nक्या यह सही है? जारी रखने हेतु 'हाँ', या पुनः विन्यास हेतु 'नहीं' दबाएँ।"
+
+#: netsetup:653
+msgid "Settings accepted.  Basic network configuration is complete."
+msgstr "सेटिंग्स स्वीकृत की गई। सामान्य नेटवर्क विन्यास पूर्ण हुआ।"
+
+#: netsetup:657
+msgid ""
+"Settings discarded.  Run the 'netsetup' command again if you need to "
+"reconfigure your network settings."
+msgstr "सेटिंग्स निरस्त की गई। यदि नेटवर्क सेटिंग्स पुनः विन्यस्त करनी हैं तो 'netsetup' कमांड पुनः निष्पादित करें।"
+
+#: setup.netsetup:5
+msgid "CONFIGURE NETWORK?"
+msgstr "नेटवर्क विन्यस्त करें?"
+
+#: setup.netsetup:5
+msgid "Would you like to configure your network?"
+msgstr "क्या आप नेटवर्क विन्यस्त करना चाहते हैं ?"

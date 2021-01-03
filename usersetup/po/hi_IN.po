@@ -3,432 +3,432 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# The Cat, 2020
+# Panwar108 <caspian7pena@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2020-11-09 17:08+0000\n"
-"Last-Translator: The Cat\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/gapan/salixtools/language/pt_BR/)\n"
+"PO-Revision-Date: 2020-06-26 14:53+0000\n"
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/gapan/salixtools/language/hi_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: usersetup:18
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr "Você precisa de privilégios de administrador para executar isto"
+msgstr "इस हेतु रुट उपयोक्ता विशेषाधिकार होना आवश्यक है"
 
 #: usersetup:42
 #, sh-format
 msgid "Select"
-msgstr "Selecione"
+msgstr "चुनें"
 
 #: usersetup:43
 #, sh-format
 msgid "Exit user setup"
-msgstr "Sair da configuração do usuário"
+msgstr "उपयोक्ता सेटअप बंद करें"
 
 #: usersetup:44
 #, sh-format
 msgid "Users accounts management"
-msgstr "Gerenciamento das contas de usuários"
+msgstr "उपयोक्ता अकाउंट प्रबंधन"
 
 #: usersetup:46
 #, sh-format
 msgid "Please choose an option..."
-msgstr "Por favor selecione uma opção..."
+msgstr "कृपया एक विकल्प चुनें ..."
 
 #: usersetup:48
 #, sh-format
 msgid "Create a new account"
-msgstr "Criar uma conta nova"
+msgstr "नया अकाउंट बनाएँ"
 
 #: usersetup:49
 #, sh-format
 msgid "Create a new account (advanced mode)"
-msgstr "Criar uma conta nova (modo avançado)"
+msgstr "नया अकाउंट बनाएँ (विस्तृत मोड)"
 
 #: usersetup:50
 #, sh-format
 msgid "Modify account properties"
-msgstr "Modificar propriedades da conta"
+msgstr "अकाउंट विशेषताएँ बदलें"
 
 #: usersetup:51
 #, sh-format
 msgid "Change account password"
-msgstr "Mudar senha da conta"
+msgstr "अकाउंट कूटशब्द बदलें"
 
 #: usersetup:52
 #, sh-format
 msgid "Delete accounts"
-msgstr "Excluir contas"
+msgstr "अकाउंट हटाएँ"
 
 #: usersetup:53
 #, sh-format
 msgid "List groups and memberships"
-msgstr "Lista de grupos e membros"
+msgstr "समूह व सदस्यताएँ सूचीबद्ध करें"
 
 #: usersetup:54
 #, sh-format
 msgid "Create a new group"
-msgstr "Criar um grupo novo"
+msgstr "नया समूह बनाएँ"
 
 #: usersetup:55
 #, sh-format
 msgid "Change group name"
-msgstr "Mudar nome do grupo"
+msgstr "समूह नाम बदलें"
 
 #: usersetup:56
 #, sh-format
 msgid "Delete groups"
-msgstr "Excluir grupos"
+msgstr "समूह हटाएँ"
 
 #: usersetup:72 usersetup:195
 #, sh-format
 msgid "Account properties"
-msgstr "Propriedades da conta"
+msgstr "अकाउंट विशेषताएँ"
 
 #: usersetup:73 usersetup:238
 #, sh-format
 msgid "Properties"
-msgstr "Propriedades"
+msgstr "विशेषताएँ"
 
 #: usersetup:74 usersetup:91 usersetup:108 usersetup:125 usersetup:142
 #: usersetup:160 usersetup:197 usersetup:239
 #, sh-format
 msgid "Back"
-msgstr "Voltar"
+msgstr "वापस"
 
 #: usersetup:76
 #, sh-format
 msgid "Select an account to view its properties..."
-msgstr "Selecionar uma conta para ver as suas propriedades..."
+msgstr "विशेषताएँ देखने हेतु अकाउंट चयनित करें ..."
 
 #: usersetup:89
 #, sh-format
 msgid "Account deletion"
-msgstr "Exclusão da conta"
+msgstr "अकाउंट हटाना"
 
 #: usersetup:90 usersetup:159 usersetup:660 usersetup:724
 #, sh-format
 msgid "Delete"
-msgstr "Excluir"
+msgstr "हटाएँ"
 
 #: usersetup:93
 #, sh-format
 msgid "Select an account to delete..."
-msgstr "Selecione uma conta para excluir..."
+msgstr "हटाने हेतु अकाउंट चुनें"
 
 #: usersetup:106
 #, sh-format
 msgid "Change password"
-msgstr "Mudar senha"
+msgstr "कूटशब्द बदलें"
 
 #: usersetup:107
 #, sh-format
 msgid "Change"
-msgstr "Mudar"
+msgstr "बदलें"
 
 #: usersetup:110
 #, sh-format
 msgid "Select an account to change password for..."
-msgstr "Selecione uma conta para mudar a senha..."
+msgstr "कूटशब्द हटाने हेतु अकाउंट चुनें ..."
 
 #: usersetup:123
 #, sh-format
 msgid "Group memberships"
-msgstr "Membros do grupo"
+msgstr "समूह सदस्यताएँ"
 
 #: usersetup:124
 #, sh-format
 msgid "Memberships"
-msgstr "Membros"
+msgstr "सदस्यताएँ"
 
 #: usersetup:127
 #, sh-format
 msgid "Select a group to view memberships for..."
-msgstr "Selecione um grupo para ver os membros..."
+msgstr "सदस्यताएँ देखने हेतु समूह चयनित करें ..."
 
 #: usersetup:140 usersetup:529
 #, sh-format
 msgid "Group name"
-msgstr "Nome do grupo"
+msgstr "समूह नाम"
 
 #: usersetup:141 usersetup:196
 #, sh-format
 msgid "Modify"
-msgstr "Modificar"
+msgstr "संशोधन"
 
 #: usersetup:144
 #, sh-format
 msgid "Select group name to modify..."
-msgstr "Selecione um grupo para modificar..."
+msgstr "संशोधन हेतु समूह नाम चुनें ..."
 
 #: usersetup:158
 #, sh-format
 msgid "Group deletion"
-msgstr "Exclusão do grupo"
+msgstr "समूह हटाना"
 
 #: usersetup:162
 #, sh-format
 msgid "Select a group to delete..."
-msgstr "Selecione um grupo para excluir..."
+msgstr "हटाने हेतु समूह चुनें ..."
 
 #: usersetup:199
 #, sh-format
 msgid "Detailed information for account"
-msgstr "Informações detalhadas da conta"
+msgstr "अकाउंट हेतु विस्तृत जानकारी"
 
 #: usersetup:201 usersetup:471 usersetup:578
 #, sh-format
 msgid "Full name"
-msgstr "Nome completo"
+msgstr "पूर्ण नाम"
 
 #: usersetup:202 usersetup:260 usersetup:554
 #, sh-format
 msgid "Account name"
-msgstr "Nome da conta"
+msgstr "अकाउंट नाम"
 
 #: usersetup:203 usersetup:558
 #, sh-format
 msgid "Main Group"
-msgstr "Grupo principal"
+msgstr "मुख्य समूह"
 
 #: usersetup:204 usersetup:321 usersetup:562
 #, sh-format
 msgid "Home directory"
-msgstr "Diretório home"
+msgstr "होम डायरेक्टरी"
 
 #: usersetup:205 usersetup:347 usersetup:570
 #, sh-format
 msgid "Shell"
-msgstr "Shell"
+msgstr "शैल"
 
 #: usersetup:206 usersetup:566
 #, sh-format
 msgid "Other groups"
-msgstr "Outros grupos"
+msgstr "अन्य समूह"
 
 #: usersetup:207 usersetup:574
 #, sh-format
 msgid "Expiry"
-msgstr "Expira"
+msgstr "समापन"
 
 #: usersetup:208 usersetup:582
 #, sh-format
 msgid "Office"
-msgstr "Escritório"
+msgstr "ऑफिस"
 
 #: usersetup:209 usersetup:499 usersetup:586
 #, sh-format
 msgid "Work phone"
-msgstr "Telefone do trabalho"
+msgstr "कार्य फोन"
 
 #: usersetup:210 usersetup:513 usersetup:590
 #, sh-format
 msgid "Home phone"
-msgstr "Telefone de casa"
+msgstr "गृह फोन"
 
 #: usersetup:237 usersetup:247
 #, sh-format
 msgid "Group members"
-msgstr "Membros do grupo"
+msgstr "समूह सदस्य"
 
 #: usersetup:241
 #, sh-format
 msgid "Members of group"
-msgstr "Membros do grupo"
+msgstr "समूह के सदस्य"
 
 #: usersetup:249
 #, sh-format
 msgid "There are no accounts in group"
-msgstr "Não existem contas no grupo"
+msgstr "समूह में कोई अकाउंट नहीं है"
 
 #: usersetup:262
 #, sh-format
 msgid "Enter the new account name..."
-msgstr "Digite o novo nome da conta..."
+msgstr "नया अकाउंट नाम दर्ज करें ..."
 
 #: usersetup:271
 #, sh-format
 msgid "An account name cannot contain a space, please correct it..."
-msgstr "Um nome de uma conta não pode conter espaços, por favor corrija..."
+msgstr "अकाउंट नाम में रिक्त अक्षर नहीं होना चाहिए, कृपया इसे सही करें ..."
 
 #: usersetup:273
 #, sh-format
 msgid "The account name $user already exists, please choose another name..."
-msgstr "O nome da conta $user já existe, por favor escolha outro nome..."
+msgstr "अकाउंट नाम $user पहले से मौजूद है, कृपया अन्य नाम चुनें ..."
 
 #: usersetup:275
 #, sh-format
 msgid "The account name is empty, please correct it..."
-msgstr "O nome da conta está vazio, por favor corrija..."
+msgstr "अकाउंट नाम रिक्त है, कृपया इसे सही करें ..."
 
 #: usersetup:277
 #, sh-format
 msgid "An account name cannot begin with a number, please correct it..."
-msgstr "Um nome de conta não pode começar com número, por favor corrija..."
+msgstr "अकाउंट नाम संख्या से आरंभ नहीं होना चाहिए, कृपया इसे सही करें ..."
 
 #: usersetup:279
 #, sh-format
 msgid ""
 "An account name cannot contain uppercase characters, please correct it..."
-msgstr "Um nome de conta não pode conter caracteres maiúsculos, por favor corrija..."
+msgstr "अकाउंट नाम में अपरकेस अक्षर नहीं होने चाहिए, कृपया इसे सही करें ..."
 
 #: usersetup:281
 #, sh-format
 msgid "An account name cannot contain punctuation marks, please correct it..."
-msgstr "Um nome de conta não pode conter caracteres de pontuação, por favor corrija..."
+msgstr "अकाउंट नाम में विराम चिन्ह नहीं होने चाहिए, कृपया इसे सही करें ..."
 
 #: usersetup:305
 #, sh-format
 msgid "Group membership"
-msgstr "Membro do grupo"
+msgstr "समूह सदस्यता"
 
 #: usersetup:306 usersetup:322 usersetup:348 usersetup:368 usersetup:393
 #: usersetup:472 usersetup:486 usersetup:500 usersetup:514 usersetup:530
 #, sh-format
 msgid "OK"
-msgstr "OK"
+msgstr "ठीक है"
 
 #: usersetup:309
 #, sh-format
 msgid "Enter the main group for account"
-msgstr "Digite o grupo principal para a conta"
+msgstr "अकाउंट हेतु मुख्य समूह दर्ज करें"
 
 #: usersetup:324
 #, sh-format
 msgid "Enter the home directory for account"
-msgstr "Digite o diretório home para a conta"
+msgstr "अकाउंट हेतु होम डायरेक्टरी दर्ज करें"
 
 #: usersetup:351
 #, sh-format
 msgid "Enter the shell interpreter for account"
-msgstr "Digite o interpretador shell para a conta"
+msgstr "अकाउंट हेतु शैल भाषांतरकार दर्ज करें"
 
 #: usersetup:367
 #, sh-format
 msgid "Additional group membership"
-msgstr "Membros do grupo adicional"
+msgstr "अतिरिक्त समूह सदस्यता"
 
 #: usersetup:370
 #, sh-format
 msgid "Add some additional group to the list..."
-msgstr "Adicionar algum grupo adicional na lista..."
+msgstr "सूची में अतिरिक्त समूह जोड़ें ..."
 
 #: usersetup:392
 #, sh-format
 msgid "Expiry date"
-msgstr "Data de expiração"
+msgstr "समापन तिथि"
 
 #: usersetup:394
 #, sh-format
 msgid "Never"
-msgstr "Nunca"
+msgstr "कभी नहीं"
 
 #: usersetup:397
 #, sh-format
 msgid "Set the account expiry date..."
-msgstr "Defina a data de expiração da conta..."
+msgstr "अकाउंट समापन दिनांक सेट करें ..."
 
 #: usersetup:433
 #, sh-format
 msgid "Enter password for account"
-msgstr "Digite uma senha para a conta"
+msgstr "अकाउंट हेतु कूटशब्द करें"
 
 #: usersetup:434
 #, sh-format
 msgid "Passwords do not match, please try again..."
-msgstr "As senhas não conferem, por favor tente novamente..."
+msgstr "कूटशब्द मेल नहीं खाते, पुनः प्रयास करें ..."
 
 #: usersetup:437
 #, sh-format
 msgid ""
 "Password is too short (${minlength} chars minimum), please try another "
 "one..."
-msgstr "A senha é muito curta (${minlength} caracteres no mínimo), por favor tente outra senha..."
+msgstr "कूटशब्द काफी छोटा है (${minlength} अक्षर न्यूनतम), कृपया कोई अन्य उपयोग करें ..."
 
 #: usersetup:440
 #, sh-format
 msgid "Enter password again for account"
-msgstr "Digite a senha da conta novamente"
+msgstr "अकाउंट हेतु कूटशब्द पुनः दर्ज करें"
 
 #: usersetup:457
 #, sh-format
 msgid "Failed to set password for account"
-msgstr "Falha ao definir a senha para a conta"
+msgstr "अकाउंट हेतु कूटशब्द सेट करने में विफल"
 
 #: usersetup:474
 #, sh-format
 msgid "Enter the full name of the user"
-msgstr "Digite o nome completo do usuário"
+msgstr "उपयोक्ता का पूर्ण नाम दर्ज करें"
 
 #: usersetup:485
 #, sh-format
 msgid "Office information"
-msgstr "Informações de escritório"
+msgstr "ऑफिस जानकारी"
 
 #: usersetup:488
 #, sh-format
 msgid "Enter office information for the user"
-msgstr "Digite as informações de escritório para o usuário"
+msgstr "उपयोक्ता हेतु ऑफिस जानकारी दर्ज करें"
 
 #: usersetup:502
 #, sh-format
 msgid "Enter the work phone number of the user"
-msgstr "Digite o número do telefone de trabalho do usuário"
+msgstr "उपयोक्ता हेतु कार्यस्थल फोन नंबर दर्ज करें"
 
 #: usersetup:516
 #, sh-format
 msgid "Enter the home phone number of the user"
-msgstr "Digite o número do telefone da casa do usuário"
+msgstr "उपयोक्ता हेतु निवास गृह फोन नंबर दर्ज करें"
 
 #: usersetup:532
 #, sh-format
 msgid "Enter the new group name"
-msgstr "Digite o novo nome do grupo"
+msgstr "नया समूह नाम दर्ज करें"
 
 #: usersetup:627 usersetup:648 usersetup:657 usersetup:721
 #, sh-format
 msgid "Warning"
-msgstr "Aviso"
+msgstr "चेतावनी"
 
 #: usersetup:657
 #, sh-format
 msgid "You cannot delete the account"
-msgstr "Você não pode excluir a conta"
+msgstr "आप अकाउंट नहीं हटा सकते हैं"
 
 #: usersetup:659
 #, sh-format
 msgid "Confirm user deletion"
-msgstr "Confirmar exclusão do usuário"
+msgstr "उपयोक्ता हटाने को पुष्टि करें"
 
 #: usersetup:661 usersetup:725
 #, sh-format
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "रद्द करें"
 
 #: usersetup:663
 #, sh-format
 msgid "Are you sure you want to delete user $user?"
-msgstr "Você tem certeza que deseja excluir o usuário $user?"
+msgstr "क्या आप निश्चित ही उपयोक्ता $user को हटाना चाहते हैं?"
 
 #: usersetup:721
 #, sh-format
 msgid "You cannot delete the group"
-msgstr "Você não pode deletar o grupo"
+msgstr "आप समूह नहीं हटा सकते हैं"
 
 #: usersetup:723
 #, sh-format
 msgid "Confirm group deletion"
-msgstr "Confirmar exclusão do grupo"
+msgstr "समूह हटाने को पुष्टि करें"
 
 #: usersetup:727
 #, sh-format
 msgid "Are you sure you want to delete the $group group?"
-msgstr "Você tem certeza que deseja excluir o grupo $group?"
+msgstr "क्या आप निश्चित ही $group समूह को हटाना चाहते हैं?"

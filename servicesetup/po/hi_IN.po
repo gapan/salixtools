@@ -3,47 +3,47 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2012,2014,2019
+# Panwar108 <caspian7pena@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-05 22:41+0200\n"
-"PO-Revision-Date: 2019-06-05 22:13+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/gapan/salixtools/language/pt_PT/)\n"
+"PO-Revision-Date: 2020-06-16 15:58+0000\n"
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/gapan/salixtools/language/hi_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_PT\n"
+"Language: hi_IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: servicesetup:23
 #, sh-format
 msgid "You need root privileges to run this"
-msgstr "Precisa de privilégios root para executar isto"
+msgstr "इस हेतु रुट उपयोक्ता विशेषाधिकार होना आवश्यक है"
 
 #: servicesetup:59
 #, sh-format
 msgid "Startup services"
-msgstr "Serviços de arranque"
+msgstr "आरंभिकरण सेवाएँ"
 
 #: servicesetup:60
 #, sh-format
 msgid "OK"
-msgstr "OK"
+msgstr "ठीक है"
 
 #: servicesetup:61
 #, sh-format
 msgid "Exit"
-msgstr "Sair"
+msgstr "बंद करें"
 
 #: servicesetup:64
 #, sh-format
 msgid "The selected services will be started at boot time:"
-msgstr "Os serviços selecionados serão iniciados ao arrancar:"
+msgstr "चयनित सेवाएँ सिस्टम आरंभ पर चालू की जाएँगी :"
 
 #: servicesetup:73
 #, sh-format
 msgid "The $service service"
-msgstr "O serviço $service"
+msgstr "$service सेवा"
