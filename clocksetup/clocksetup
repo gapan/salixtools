@@ -30,8 +30,8 @@ init(){
 	month="$(date +%m)"
 	day="$(date +%d)"
 	year="$(date +%Y)"
-	if [ -L /etc/localtime-copied-from ]; then
-		zone=$(ls -l /etc/localtime-copied-from | sed -n 's/^.*->.*zoneinfo\/\(.*\)$/\1/p')
+	if [ -L /etc/localtime ]; then
+		zone=$(ls -l /etc/localtime | sed -n 's/^.*->.*zoneinfo\/\(.*\)$/\1/p')
 	else
 		zone="Etc/UTC"
 	fi
@@ -219,9 +219,8 @@ timezonemenu(){
 	(	
 	cd /etc
 	if [[ "$zone" && -r /usr/share/zoneinfo/$zone ]]; then
-		ln -sf /usr/share/zoneinfo/$zone localtime-copied-from
 		rm -f localtime
-		cp localtime-copied-from localtime
+		ln -sf /usr/share/zoneinfo/$zone localtime
 	fi
 	)
 }
