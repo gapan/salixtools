@@ -120,11 +120,10 @@ tr_q-latin5|tr||
 tralt|tr||
 tralt|tr||
 trq|tr||
-ua-utf-ws|ua||
-ua-utf|ua||
-ua-ws|ua||
-ua|ua||
-ua|ua||
+ua-utf-ws|us,ua||grp:switch,grp:alt_shift_toggle,grp_led:scroll
+ua-utf|us,ua||grp:switch,grp:alt_shift_toggle,grp_led:scroll
+ua-ws|us,ua||grp:switch,grp:alt_shift_toggle,grp_led:scroll
+ua|us,ua||grp:switch,grp:alt_shift_toggle,grp_led:scroll
 uk|gb||
 us-acentos|us||
 us|us||
