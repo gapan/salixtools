@@ -221,6 +221,7 @@ interactive(){
 	done
 
 	list="$( echo "$templist" | sed -e 's/^\(.*\).gz$/\"\1\" \" \" \\/' )"
+	list=${list:0:-1} # strip last \
 	
 	if [ -x /etc/rc.d/rc.numlock ]; then
 		numprecheck="on"

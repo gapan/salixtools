@@ -80,6 +80,7 @@ list=$(locale -avc|LC_CTYPE=C sed -n '
 		h
 	}
 }')
+list=${list:0:-1} # strip last \
 
 # generate a menu
 locale="$(eval $dialog \
