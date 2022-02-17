@@ -3,27 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Didier Spaier <didier (at) slint (dot) fr>, 2014
 # Didier Spaier <didier@slint.fr>, 2014
-# Enrico Nicoletto <enrico.BR@gmx.co.uk>, 2013
-# Francis Real Ushiyama <francisushiyama@gmail.com>, 2013
-# Gabriel Magno de Oliveira Silva <gabrielmagno1@gmail.com>, 2013
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2014,2016
-# Isaque Galdino <igaldino@gmail.com>, 2013
-# Marcelo Pio de Castro <belfalas.vinyamar@gmail.com>, 2013
-# Thaigo Rocco <thiagomt.rocco@gmail.com>, 2013,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-09 13:36+0300\n"
-"PO-Revision-Date: 2022-02-15 14:44+0000\n"
+"PO-Revision-Date: 2022-02-15 14:45+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/gapan/salixtools/language/pt_PT/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/gapan/salixtools/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_PT\n"
+"Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: netsetup:245
