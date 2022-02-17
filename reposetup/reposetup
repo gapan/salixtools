@@ -148,7 +148,7 @@ updatecache(){
 		retval=0
 	fi
 	if [ $retval -eq 0 ]; then
-		$SLAPTGET --update && $SLAPTSRC --update
+		$SLAPTGET --update && [ -x $SLAPTSRC ] && $SLAPTSRC --update
 	fi
 }
 
