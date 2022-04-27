@@ -45,15 +45,12 @@ init(){
 		numdefault \
 		ibusstate \
 		ibusdefault \
-		scimstate \
-		scimdefault \
 		xkblayout \
 		xkbvariant \
 		xkboptions \
 		setkeymap \
 		setnumlock \
 		setibus \
-		setscim \
 		applynow
 
 	backtohome=$(pwd)
@@ -62,14 +59,13 @@ init(){
 }
 
 usage(){
-	echo "`eval_gettext 'USAGE:'` keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-s scimstate] [-z]]"
+	echo "`eval_gettext 'USAGE:'` keyboardsetup [[-k keymap] [-n numlockstate] [-i ibusstate ] [-z]]"
 	echo
 	echo "`eval_gettext 'OPTIONS:'`"
 	echo
 	echo "   -k keymap,        `eval_gettext 'a valid keyboard map'`"
 	echo "   -n numlockstate,  `eval_gettext 'the numlock state, on or off'`"
 	echo "   -i ibusstate,     `eval_gettext 'the IBus state, on or off'`"
-	echo "   -s scimstate,     `eval_gettext 'the SCIM state, on or off'`"
 	echo "   -z,               `eval_gettext 'do not apply changes on the fly, only edit settings files'`"
 	exit 1
 }
@@ -103,17 +99,6 @@ EORC
 		fi
 	else
 		ibusstate="off"
-	fi
-
-	# Check for the running SCIM state (only if scim is installed)
-	if [ -x /usr/bin/scim ]; then
-		if [ -x /etc/profile.d/scim.sh ]; then
-			scimstate="on"
-		else
-			scimstate="off"
-		fi
-	else
-		scimstate="off"
 	fi
 }
 
@@ -153,15 +138,6 @@ checkoptions(){
 			setibus=1
 			if [ $OPTARG = "on" ] || [ $OPTARG = "off" ]; then
 				ibusstate="$OPTARG"
-			else
-				echo "`eval_gettext 'ERROR: $OPTARG is not a valid option.'`"
-				usage
-			fi
-		fi
-		if [ $flag = "s" ]; then
-			setscim=1
-			if [ $OPTARG = "on" ] || [ $OPTARG = "off" ]; then
-				scimstate="$OPTARG"
 			else
 				echo "`eval_gettext 'ERROR: $OPTARG is not a valid option.'`"
 				usage
@@ -302,32 +278,6 @@ interactive(){
 	else
 		setibus=0
 	fi
-
-	# Display a dialog for scim, if scim is installed
-	if [ -x /usr/bin/scim ]; then
-		setscim=1
-		if [ $scimstate = "off" ]; then
-			scimdefault="--defaultno"
-		fi
-		dialog \
-		--stdout \
-		--title "`eval_gettext 'SCIM configuration'`" \
-		--yes-label "`eval_gettext 'Enabled'`" \
-		--no-label "`eval_gettext 'Disabled'`" \
-		$scimdefault \
-		--yesno \
-		"\\n`eval_gettext 'SCIM is an input platform for Chinese, Japanese, Korean and many other languages when using a graphical environment. Do you want to have it enabled or disabled on boot?\n\nYou will have to restart your system for this to take effect.'`" 0 0
-		retval=$?
-		if [ $retval -eq 255 ]; then
-			setscim=0
-		elif [ $retval -eq 0 ]; then
-			scimstate="on"
-		else
-			scimstate="off"
-		fi
-	else
-		setscim=0
-	fi
 }
 
 # Apply numlock settings
@@ -385,17 +335,6 @@ applyibus(){
 	fi
 }
 
-# Apply scim settings
-applyscim(){
-	if [ "$scimstate" = "on" ]; then
-		[ -f /etc/profile.d/scim.sh ] && chmod +x /etc/profile.d/scim.sh
-		[ -f /etc/profile.d/scim.csh ] && chmod +x /etc/profile.d/scim.csh
-	elif [ "$scimstate" = "off" ]; then
-		[ -f /etc/profile.d/scim.sh ] && chmod -x /etc/profile.d/scim.sh
-		[ -f /etc/profile.d/scim.csh ] && chmod -x /etc/profile.d/scim.csh
-	fi
-}
-
 # Apply keyboard layout settings (console and xorg)
 applykeyboard(){
 	# Keymaps path to a system dir where it'll be installed
@@ -445,8 +384,7 @@ fi
 [[ $setkeymap -eq 1 ]] && applykeyboard
 [[ $setnumlock -eq 1 ]] && applynumlock
 [[ $setibus -eq 1 ]] && applyibus
-[[ $setscim -eq 1 ]] && applyscim
-	
+
 # Exit back to original directory
 if [ -d $backtohome ]; then
 	cd $backtohome
