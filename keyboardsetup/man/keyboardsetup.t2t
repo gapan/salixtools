@@ -27,17 +27,14 @@ booting. User preferences are applied on the fly and appropriate changes
 are done to system configuration files so they become the system
 default.
 
-**keyboardsetup** can also be used to set IBus or SCIM to be enabled or 
-disabled, if IBus or SCIM are installed, by means of providing a dialog for
-each one of them..
-IBus and SCIM are input platforms for Chinese, Japanese, Korean and many other
-languages when using a graphical environment). IBus and SCIM
-settings require the system to be restarted to take effect, or at
-the very least for the user to logout of his X session, log back in
-again and start IBus or SCIM manually.
+**keyboardsetup** can also be used to set IBus to be enabled or disabled, if
+IBus or is installed. IBus is an input platforms for Chinese, Japanese, Korean
+and many other languages when using a graphical environment. IBus settings
+require the system to be restarted to take effect, or at the very least for the
+user to logout of his X session, log back in again and start IBus manually.
 
 **keyboardsetup** also has a non-interactive mode that can be
-invoked by providing keyboard map, numlock state and/or SCIM state
+invoked by providing keyboard map, numlock state and/or IBus state
 parameters from the command line.
 
 **keyboardsetup** is part of the **salixtools** package.
@@ -59,11 +56,6 @@ Xorg. //numlockstate// can be set to either **on** or **off**.
 Use it to specify the default state of IBus, if IBus is installed.
 //ibusstate// can be set to either **on** or **off**. It will have no
 effect if IBus is not installed.
-
-: **-s** //scimstate//
-Use it to specify the default state of SCIM, if SCIM is installed.
-//scimstate// can be set to either **on** or **off**. It will have no
-effect if SCIM is not installed.
 
 : **-z**
 Use this to not apply settings on the fly. Changes will still be made in
