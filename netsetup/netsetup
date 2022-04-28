@@ -735,25 +735,140 @@ if [ "$LOOPBACK" = "no" -a ! "$USE_DHCP" = "yes" -a ! "$USE_SLAAC" = "yes" ]; th
 
 `gettext "If you don't have an IPv4 gateway on your network, leave it blank or select 'Skip'."`
 
-`gettext "Enter gateway address"` (aaa.bbb.ccc.ddd):" > $TMP/tempmsg
-  dialog --title "`gettext "ENTER GATEWAY ADDRESS"`" --inputbox "`cat $TMP/tempmsg`" \
-  14 80 $GATEWAY 2> $TMP/SeTgate
-  if [ $? = 1 -o $? = 255 ]; then
-   rm -f $TMP/SeTgate $TMP/tempmsg
-   exit
-  fi
-  GATEWAY="`cat $TMP/SeTgate`"
-  rm -f $TMP/SeTgate $TMP/tempmsg
-  if [ "$GATEWAY" = "" ]; then
-    echo > $TMP/SeTgateway
-    break;
-  fi
-  syntax_check_color $GATEWAY 4 WARN
-  if [ $? = 0 ]; then
-    echo $GATEWAY > $TMP/SeTgateway
-    break;
-  fi
- done
+`gettext "Enter IPv4 gateway address:"`" 14 69 "$GATEWAY" 2> $TMP/SeTgateway4
+        ERRNO="$?"
+        if [ "$ERRNO" = "1" ]; then
+          GATEWAY=""
+          rm -f $TMP/SeTgateway4
+          break
+        elif [ "$ERRNO" = "255" ]; then
+          rm -f $TMP/SeTgateway4
+          exit
+        fi
+        GATEWAY="`cat $TMP/SeTgateway4`"
+        rm -f $TMP/SeTgateway4
+        if [ "$GATEWAY" = "" ]; then
+          break
+        fi
+        syntax_check_v4 "$GATEWAY" 4 WARN
+        if [ $? = 0 ]; then
+          break
+        fi
+      done
+      rm -f $TMP/SeTgateway4
+    fi
+
+    while [ 0 ]; do
+      if [ -r $TMP/SeTIPSv6 ]; then
+        IP6ADDRS=($(cat $TMP/SeTIPSv6))
+      fi
+      dialog --title "`gettext "ENTER IPv6 ADDRESSES"`" --cancel-label "`gettext "Skip"`" \
+          --inputbox \
+"`gettext "Enter the IPv6 addresses for this host."`  `gettext "You may list one or more,
+space delimited, IPv6 addresses with their prefixes in the format:"`
+  <`gettext "IP address"`>/<`gettext "prefix"`>
+`gettext "For example"`:
+  1a:1b:1c:1d::abc/64  `gettext "or"`  1a:1b:1c:1d::abc/64 2b2c::2:3:4:abc/64
+`gettext "If a prefix is not specified a default of 64 will be used."`
+
+`gettext "If you do not want to configure a static IPv6 address or don't
+know what to put, just leave it blank or select 'Skip'."`" \
+          16 70 "${IP6ADDRS[*]}" 2> $TMP/SeTIPSv6
+      ERRNO="$?"
+      if [ "$ERRNO" = "1" ]; then
+        IP6ADDRS=()
+        rm -f $TMP/SeTIPSv6
+        break
+      elif [ "$ERRNO" = "255" ]; then
+        rm -f $TMP/SeTIPSv6
+        exit
+      fi
+      IP6ADDRS=($(cat $TMP/SeTIPSv6))
+      rm -f $TMP/SeTIPSv6
+      if [ "${IP6ADDRS[*]}" = "" ]; then
+        break
+      fi
+      for ((I=0; I < ${#IP6ADDRS[@]}; I++)); do
+        IP="${IP6ADDRS[$I]%/*}"
+        PREFIX="${IP6ADDRS[$I]#*/}"
+        if [ "$IP" = "" ]; then
+          dialog --title "`gettext "NO IPv6 ADDRESSES"`" --ok-button "`gettext "Back"`" --msgbox \
+              "`gettext "No IP specified in entry:"` ${IP6ADDRS[$I]}." 5 60
+          if [ "$?" = "255" ]; then
+            rm -f $TMP/SeTIPSv6
+            exit
+          fi
+          continue 2
+        fi
+        syntax_check_v6 "$IP" || continue 2
+        if [ "$PREFIX" = "" ] || [ "$IP" == "$PREFIX" ]; then
+          IP6ADDRS[$I]="$IP/64"
+          PREFIX="64"
+        fi
+        if [[ ! "$PREFIX" =~ ^[0-9]+$ ]] || (($PREFIX <= 0)) || (($PREFIX > 128)); then
+          dialog --title "`gettext "INVALID PREFIX"`" --msgbox \
+"`gettext "Invalid prefix specified for entry:"` ${IP6ADDRS[$I]}.
+`gettext "Valid prefixes will be in the range 1-128."`" 6 70
+          if [ "$?" = "255" ]; then
+            rm -f $TMP/SeTIPSv6
+            exit
+          fi
+          echo "${IP6ADDRS[@]}" >$TMP/SeTIPSv6
+          continue 2
+        fi
+      done
+      rm -f $TMP/SeTIPSv6
+      break
+    done
+
+    if [ ! "${IP6ADDRS[*]}" = "" ]; then
+      while [ 0 ]; do
+        if [ -r $TMP/SeTgateway6 ]; then
+          GATEWAY6="`cat $TMP/SeTgateway6`"
+        fi
+        dialog --title "`gettext "ENTER IPv6 GATEWAY ADDRESS"`" --cancel-label "`gettext "Skip"`" --inputbox \
+"`gettext "Enter the address for the IPv6 gateway on your network, such as:"`
+  fe80:426c:ffff::1
+
+`gettext "If you don't have an IPv6 gateway on your network, leave it blank
+or select 'Skip'."`
+
+`gettext "Enter IPv6 gateway address:"`" 14 69 "$GATEWAY6" 2> $TMP/SeTgateway6
+        ERRNO="$?"
+        if [ "$ERRNO" = "1" ]; then
+          GATEWAY6=""
+          rm -f $TMP/SeTgateway6
+          break
+        elif [ "$ERRNO" = "255" ]; then
+          rm -f $TMP/SeTgateway6
+          exit
+        fi
+        GATEWAY6="`cat $TMP/SeTgateway6`"
+        rm -f $TMP/SeTgateway6
+        if [ "$GATEWAY6" = "" ]; then
+          break
+        fi
+        syntax_check_v6 "$GATEWAY6"
+        if [ $? = 0 ]; then
+          break
+        fi
+      done
+      rm -f $TMP/SeTgateway6
+    fi
+
+    if [ "${IPADDRS[*]}" = "" ] && [ "${IP6ADDRS[*]}" = "" ]; then
+      dialog --title "`gettext "NO IP ADDRESSES"`" --defaultno --yesno \
+"`gettext "You have not configured any IP addresses for this host.
+Are you sure you want to proceed with no IPs?"`" 6 59
+      ERRNO="$?"
+      if [ "$ERRNO" = "255" ]; then
+        exit
+      elif [ "$ERRNO" = "1" ]; then
+        continue
+      fi
+    fi
+    break
+  done
 fi
 
 if [ "$LOOPBACK" = "no" ]; then
