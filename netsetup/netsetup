@@ -36,6 +36,9 @@ export TEXTDOMAIN="netsetup"
 export TEXTDOMAINDIR="$T_PX/usr/share/locale"
 . gettext.sh
 
+# Find out if NetworkManager is installed (nm-online is a small binary in the package)
+[ -x $T_PX/usr/bin/nm-online ] && HAS_NM=1
+
 write_config_files() {
 #
 ############################################################################
@@ -567,19 +570,26 @@ gettext "Now we need to know how your machine connects to the network." > $TMP/t
 echo -e "\n" >> $TMP/tempmsg
 gettext "If you have an internal network card and an assigned IP address, gateway, and DNS, use the 'static IP' choice to enter these values." >> $TMP/tempmsg
 gettext "If your IP address is assigned by a DHCP server (commonly used by cable modem and DSL services), select 'DHCP'." >> $TMP/tempmsg
-gettext "Select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works)." >> $TMP/tempmsg
+[ ! -z $HAS_NM ] && \
+  gettext "Select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works)." >> $TMP/tempmsg
 gettext "IPv6 networks may also use SLAAC (Stateless Address Autoconfiguration) to assign an address based on Router Advertisments." >> $TMP/tempmsg
 gettext "If you do not have a network card, select the 'loopback' choice." >> $TMP/tempmsg
 echo -e "\n" >> $TMP/tempmsg
 gettext "Which type of network setup would you like?" >> $TMP/tempmsg
 
+if [ ! -z $HAS_NM ]; then
+  DEFAULT_NETWORK_ITEM="NetworkManager"
+else
+  DEFAULT_NETWORK_ITEM="DHCP"
+fi
+
 dialog --visit-items --title "`cat $TMP/temptitle`" \
---default-item NetworkManager --cancel-button "`gettext "Exit"`" \
+--default-item $DEFAULT_NETWORK_ITEM --cancel-button "`gettext "Exit"`" \
 --menu \
 "`cat $TMP/tempmsg`"  23 80 4 \
 "static IP" "`gettext "Use a static IP address to configure ethernet"`" \
 "DHCP" "`gettext "Use a DHCP server to configure ethernet"`" \
-"NetworkManager" "`gettext "Autoconfigure network using NetworkManager"`" \
+${HAS_NM:+"NetworkManager" "`gettext "Autoconfigure network using NetworkManager"`"} \
 "SLAAC" "`gettext "Use SLAAC to configure ethernet (IPv6 only)"`" \
 "loopback" "`gettext "Set up a loopback connection (modem or no net)"`" 2> $TMP/reply
 if [ $? = 1 -o $? = 255 ]; then
