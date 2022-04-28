@@ -524,7 +524,7 @@ gettext "Do you wish to configure a VLAN ID now?" >> $TMP/tempmsg
 echo -e "\n" >> $TMP/tempmsg
 gettext "Unless you are sure you require a VLAN ID, select 'No'." >> $TMP/tempmsg
 dialog --title "`gettext "CONNECT VIA VLAN"`" --defaultno \
-  --yesno "`cat $TMP/tempmsg`" 8 68
+  --yesno "`cat $TMP/tempmsg`" 10 68
 ERRNO="$?"
 if [ "$ERRNO" = "255" ]; then
   rm -f $TMP/tempmsg
