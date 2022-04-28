@@ -1063,7 +1063,7 @@ can do that now using 'Edit' (or reconfigure later using 'netsetup')."`" \
 "`gettext "Hostname"`": "$HOSTNM" \
 "`gettext "Domain Name"`": "$DOMAIN" \
 "`gettext "VLAN ID"`": "$VLAN" \
-"`gettext "IPv4 addresses"`": "${IPADDRS[*]}" \
+"`gettext "IPv4 Addresses"`": "${IPADDRS[*]}" \
 "`gettext "IPv4 Gateway"`": "$GATEWAY" \
 "`gettext "IPv6 Addresses"`": "${IP6ADDRS[*]}" \
 "`gettext "IPv6 Gateway"`": "$GATEWAY6" \
