@@ -586,7 +586,7 @@ fi
 dialog --visit-items --title "`cat $TMP/temptitle`" \
 --default-item $DEFAULT_NETWORK_ITEM --cancel-button "`gettext "Exit"`" \
 --menu \
-"`cat $TMP/tempmsg`"  25 80 4 \
+"`cat $TMP/tempmsg`"  25 80 5 \
 "static IP" "`gettext "Use a static IP address to configure ethernet"`" \
 "DHCP" "`gettext "Use a DHCP server to configure ethernet"`" \
 ${HAS_NM:+"NetworkManager" "`gettext "Autoconfigure network using NetworkManager"`"} \
