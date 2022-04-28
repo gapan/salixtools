@@ -567,14 +567,14 @@ echo -n "`gettext "CONFIGURATION TYPE FOR"` " > $TMP/temptitle
 echo "$HOSTNM.$DOMAIN" >> $TMP/temptitle
 
 echo "`gettext "Now we need to know how your machine connects to the network."` " > $TMP/tempmsg
-echo -e "\n" >> $TMP/tempmsg
+echo  >> $TMP/tempmsg
 echo "`gettext "If you have an internal network card and an assigned IP address, gateway, and DNS, use the 'static IP' choice to enter these values."` " >> $TMP/tempmsg
 echo "`gettext "If your IP address is assigned by a DHCP server (commonly used by cable modem and DSL services), select 'DHCP'."` " >> $TMP/tempmsg
 [ ! -z $HAS_NM ] && \
   echo "`gettext "Select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works)."` " >> $TMP/tempmsg
 echo "`gettext "IPv6 networks may also use SLAAC (Stateless Address Autoconfiguration) to assign an address based on Router Advertisments."` " >> $TMP/tempmsg
 echo "`gettext "If you do not have a network card, select the 'loopback' choice."`" >> $TMP/tempmsg
-echo -e "\n" >> $TMP/tempmsg
+echo >> $TMP/tempmsg
 gettext "Which type of network setup would you like?" >> $TMP/tempmsg
 
 if [ ! -z $HAS_NM ]; then
@@ -586,7 +586,7 @@ fi
 dialog --visit-items --title "`cat $TMP/temptitle`" \
 --default-item $DEFAULT_NETWORK_ITEM --cancel-button "`gettext "Exit"`" \
 --menu \
-"`cat $TMP/tempmsg`"  25 80 5 \
+"`cat $TMP/tempmsg`" 0 0 5 \
 "static IP" "`gettext "Use a static IP address to configure ethernet"`" \
 "DHCP" "`gettext "Use a DHCP server to configure ethernet"`" \
 ${HAS_NM:+"NetworkManager" "`gettext "Autoconfigure network using NetworkManager"`"} \
@@ -729,7 +729,7 @@ if [ "$LOOPBACK" = "no" -a ! "$USE_DHCP" = "yes" -a ! "$USE_SLAAC" = "yes" ]; th
         if [ -r $TMP/SeTgateway4 ]; then
           GATEWAY="`cat $TMP/SeTgateway4`"
         fi
-        dialog --title "`gettext "ENTER IPv4 GATEWAY ADDRESS"`" --cancel-label `gettext "Skip"`" --inputbox \
+        dialog --title "`gettext "ENTER IPv4 GATEWAY ADDRESS"`" --cancel-label "`gettext "Skip"`" --inputbox \
 "`gettext "Enter the address for the IPv4 gateway on your network, such as:"`
   `echo ${IPADDRS[0]} | cut -f 1-3 -d .`.1
 
@@ -764,8 +764,8 @@ if [ "$LOOPBACK" = "no" -a ! "$USE_DHCP" = "yes" -a ! "$USE_SLAAC" = "yes" ]; th
       fi
       dialog --title "`gettext "ENTER IPv6 ADDRESSES"`" --cancel-label "`gettext "Skip"`" \
           --inputbox \
-"`gettext "Enter the IPv6 addresses for this host."`  `gettext "You may list one or more,
-space delimited, IPv6 addresses with their prefixes in the format:"`
+"`gettext "Enter the IPv6 addresses for this host."`  
+`gettext "You may list one or more, space delimited, IPv6 addresses with their prefixes in the format:"`
   <`gettext "IP address"`>/<`gettext "prefix"`>
 `gettext "For example"`:
   1a:1b:1c:1d::abc/64  `gettext "or"`  1a:1b:1c:1d::abc/64 2b2c::2:3:4:abc/64
@@ -1006,7 +1006,7 @@ the \\\$card.o module has been detected."`" 5 80
 card could be probed for on your system.  Some cards (like non-PCI NE2000s) \
 must be supplied with the I/O address to use and can't be probed for safely. \
 You'll have to try to configure the card later by editing \
-/etc/rc.d/rc.modules or recompiling your kernel."`" 9 80
+/etc/rc.d/rc.modules or recompiling your kernel."`" 0 0
      fi
   fi
 fi
