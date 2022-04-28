@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-28 20:54+0300\n"
+"POT-Creation-Date: 2022-04-29 00:13+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -570,8 +570,8 @@ msgstr ""
 msgid "Domain Name"
 msgstr ""
 
-#: netsetup:1066
-msgid "IPv4 addresses"
+#: netsetup:1066 netsetup:1081
+msgid "IPv4 Addresses"
 msgstr ""
 
 #: netsetup:1067 netsetup:1083
@@ -584,10 +584,6 @@ msgstr ""
 
 #: netsetup:1069 netsetup:1087
 msgid "IPv6 Gateway"
-msgstr ""
-
-#: netsetup:1081
-msgid "IPv4 Addresses"
 msgstr ""
 
 #: netsetup:1104
