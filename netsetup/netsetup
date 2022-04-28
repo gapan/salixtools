@@ -418,13 +418,13 @@ syntax_check_v4() {
     ArG2=$2
     echo > $TMP/tempmsg
     gettext "The IP address you have entered is not valid." >> $TMP/tempmsg
-    echo >> $TMP/tempmsg
+    echo -e "\n" >> $TMP/tempmsg
     eval_gettext "There should be \$ArG2 groups of numbers seperated by dots, for example:" \
         >> $TMP/tempmsg
     echo -e "  192.168.1.1\n" >> $TMP/tempmsg
     gettext "Please correct any mistakes in the IP." >> $TMP/tempmsg
     unset ArG1 ArG2
-    dialog --title "`gettext "INVALID IP"`" --ok-button "Back" --msgbox "`cat $TMP/tempmsg`" 12 72
+    dialog --title "`gettext "INVALID IP"`" --ok-button "`gettext "Back"`" --msgbox "`cat $TMP/tempmsg`" 12 72
     rm -r $TMP/tempmsg
   else
     if [ "$3" = "ECHO" ]; then
@@ -441,11 +441,10 @@ syntax_check_v6() {
   if [[ "$1" =~ ^[0-9a-fA-F:]+$ ]] && [[ "$1" =~ :[0-9a-fA-F]{1,4}$ ]]; then
     return 0
   else
-    echo > $TMP/tempmsg
-    gettext "The IP address you have entered is not valid." >> $TMP/tempmsg
-    echo >> $TMP/tempmsg
-    gettext "Please enter a valid IPv6 address." >> $TMP/tempmsg
-    dialog --title "`gettext "INVALID IP"`" --ok-button "`gettext "Back"`" --msgbox "`cat $TMP/tempmsg`" 9 72
+    dialog --title "`gettext "INVALID IP"`" --ok-button "`gettext "Back"`" --msgbox \
+"`gettext "The IP address you have entered is not valid."`
+
+`gettext "Please enter a valid IPv6 address."`" 9 72
   fi
   return 1
 }
@@ -478,8 +477,9 @@ NETWORK=127.0.0.0
 
 while [ 0 ]; do
   gettext "First, we'll need the name you'd like to give your host." > $TMP/tempmsg
-  gettext "Only the base hostname is needed right now - not the domain." >> $TMP/tempmsg
   echo >> $TMP/tempmsg
+  gettext "Only the base hostname is needed right now - not the domain." >> $TMP/tempmsg
+  echo -e "\n" >> $TMP/tempmsg
   gettext "Enter hostname:" >> $TMP/tempmsg
   dialog --title "`gettext "ENTER HOSTNAME"`" --cancel-label "`gettext "Exit"`" --inputbox "`cat $TMP/tempmsg`" 12 80 \
    "$HOSTNM" 2> $TMP/SeThost
@@ -495,29 +495,28 @@ while [ 0 ]; do
 done
 
 while [ 0 ]; do
-  echo -n "`gettext "ENTER DOMAINNAME FOR"` " > $TMP/tmphostnm
-  echo "$HOSTNM" >> $TMP/tmphostnm
-  gettext "Now, we need the domain name for this machine, such as:" > $TMP/tempmsg
-  echo >> $TMP/tempmsg
-  echo "example.org" >> $TMP/tempmsg
-  gettext "Do not supply a leading '.'" >> $TMP/tempmsg
-  echo >> $TMP/tempmsg
-  echo "`gettext "Enter domain name for "` ${HOSTNM}:" >> $TMP/tempmsg
-  dialog --title "`cat $TMP/temphostnm`" --cancel-label "`gettext "Exit"`" \
-      --inputbox "`cat $TMP/tempmsg`" 14 80 "$DOMAIN" 2> $TMP/SeTdom
+  cat << EOF > $TMP/tempmsg
+`gettext "Now, we need the domain name for this machine, such as:"`
+  example.org
+`gettext "Do not supply a leading '.'"`
+
+`gettext "Enter domain name for"` $HOSTNM:
+EOF
+  dialog --title "`gettext "ENTER DOMAINNAME"`" --cancel-label "`gettext "Exit"`" \
+      --inputbox "`cat $TMP/tempmsg`" 12 59 "$DOMAIN" 2> $TMP/SeTdom
   if [ $? = 1 -o $? = 255 ]; then
-    rm -f $TMP/SeTdom $TMP/tempmsg $TMP/tmphostnm
+    rm -f $TMP/SeTdom $TMP/tempmsg
     exit
   fi
   DOMAIN="`cat $TMP/SeTdom`"
-  rm -f $TMP/SeTdom $TMP/tempmsg $TMP/tmphostnm
+  rm -f $TMP/SeTdom $TMP/tempmsg
   if [ ! "$DOMAIN" = "" ]; then
     break;
   fi
 done
 
 gettext "Some advanced networking set ups require a VLAN ID in order to connect to the network." > $TMP/tempmsg
-echo >> $TMP/tempmsg
+echo -e "\n" >> $TMP/tempmsg
 gettext "Do you wish to configure a VLAN ID now?" >> $TMP/tempmsg
 echo -e "\n" >> $TMP/tempmsg
 gettext "Unless you are sure you require a VLAN ID, select 'No'." >> $TMP/tempmsg
@@ -525,14 +524,15 @@ dialog --title "`gettext "CONNECT VIA VLAN"`" --defaultno \
   --yesno "`cat $TMP/tempmsg`" 8 68
 ERRNO="$?"
 if [ "$ERRNO" = "255" ]; then
+  rm -f $TMP/tempmsg
   exit
 elif [ "$ERRNO" = "1" ]; then
   true
 else
   while true; do
     [ -r $TMP/SeTVLAN ] && VLAN="$(cat $TMP/SeTVLAN)"
-    dialog --title "VLAN ID" --cancel-label "Skip" --inputbox \
-        "Enter the VLAN ID used on this network:" 8 45 "$VLAN" 2>$TMP/reply
+    dialog --title "`gettext "VLAN ID"`" --cancel-label "`gettext "Skip"`" --inputbox \
+        "`gettext "Enter the VLAN ID used on this network:"`" 8 45 "$VLAN" 2>$TMP/reply
     ERRNO="$?"
     if [ "$ERRNO" = "255" ]; then
       rm -f $TMP/SeTVLAN
@@ -545,8 +545,8 @@ else
       VLAN="$(cat $TMP/reply)"
       echo "$VLAN" >$TMP/SeTVLAN
       if [[ ! "$VLAN" =~ ^[0-9]+$ ]]; then
-        dialog --title "VLAN ID" --ok-button "Back" --msgbox \
-            "That doesn't appear to be a valid VLAN ID." 5 46
+        dialog --title "`gettext "VLAN ID"`" --ok-button "`gettext "Back"`" --msgbox \
+            "`gettext "That doesn't appear to be a valid VLAN ID."`" 5 46
         if [ "$?" = "255" ]; then
           exit
         fi
@@ -558,18 +558,19 @@ else
     fi
   done
 fi
+rm -f $TMP/tempmsg
 
 echo -n "`gettext "CONFIGURATION TYPE FOR"` " > $TMP/temptitle
 echo "$HOSTNM.$DOMAIN" >> $TMP/temptitle
 
 gettext "Now we need to know how your machine connects to the network." > $TMP/tempmsg
-echo >> $TMP/tempmsg
+echo -e "\n" >> $TMP/tempmsg
 gettext "If you have an internal network card and an assigned IP address, gateway, and DNS, use the 'static IP' choice to enter these values." >> $TMP/tempmsg
 gettext "If your IP address is assigned by a DHCP server (commonly used by cable modem and DSL services), select 'DHCP'." >> $TMP/tempmsg
 gettext "Select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works)." >> $TMP/tempmsg
 gettext "IPv6 networks may also use SLAAC (Stateless Address Autoconfiguration) to assign an address based on Router Advertisments." >> $TMP/tempmsg
 gettext "If you do not have a network card, select the 'loopback' choice." >> $TMP/tempmsg
-echo >> $TMP/tempmsg
+echo -e "\n" >> $TMP/tempmsg
 gettext "Which type of network setup would you like?" >> $TMP/tempmsg
 
 dialog --visit-items --title "`cat $TMP/temptitle`" \
@@ -656,7 +657,7 @@ if [ "$LOOPBACK" = "no" -a ! "$USE_DHCP" = "yes" -a ! "$USE_SLAAC" = "yes" ]; th
       echo "  111.112.113.114/24  `gettext "or"` 111.112.113.114/24 10.0.1.114/8" >> $TMP/tempmsg
       gettext "Old style netmask 255.255.255.0 is equivalent of 24 in CIDR style." >> $TMP/tempmsg
       gettext "If a netmask is not specified a default of 24 will be used." >> $TMP/tempmsg
-      echo >> $TMP/tempmsg
+      echo -e "\n" >> $TMP/tempmsg
       gettext "The first address entered will become the primary IPv4 address of this host." >> $TMP/tempmsg
       gettext "If you do not want to configure a static IPv4 address, just leave it blank or select 'Skip'." >> $TMP/tempmsg
       dialog --title "`gettext "ENTER IPv4 ADDRESSES"`" --cancel-label "`gettext "Skip"`" \
