@@ -566,14 +566,14 @@ rm -f $TMP/tempmsg
 echo -n "`gettext "CONFIGURATION TYPE FOR"` " > $TMP/temptitle
 echo "$HOSTNM.$DOMAIN" >> $TMP/temptitle
 
-gettext "Now we need to know how your machine connects to the network." > $TMP/tempmsg
+echo "`gettext "Now we need to know how your machine connects to the network."` " > $TMP/tempmsg
 echo -e "\n" >> $TMP/tempmsg
-gettext "If you have an internal network card and an assigned IP address, gateway, and DNS, use the 'static IP' choice to enter these values." >> $TMP/tempmsg
-gettext "If your IP address is assigned by a DHCP server (commonly used by cable modem and DSL services), select 'DHCP'." >> $TMP/tempmsg
+echo "`gettext "If you have an internal network card and an assigned IP address, gateway, and DNS, use the 'static IP' choice to enter these values."` " >> $TMP/tempmsg
+echo "`gettext "If your IP address is assigned by a DHCP server (commonly used by cable modem and DSL services), select 'DHCP'."` " >> $TMP/tempmsg
 [ ! -z $HAS_NM ] && \
-  gettext "Select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works)." >> $TMP/tempmsg
-gettext "IPv6 networks may also use SLAAC (Stateless Address Autoconfiguration) to assign an address based on Router Advertisments." >> $TMP/tempmsg
-gettext "If you do not have a network card, select the 'loopback' choice." >> $TMP/tempmsg
+  echo "`gettext "Select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works)."` " >> $TMP/tempmsg
+echo "`gettext "IPv6 networks may also use SLAAC (Stateless Address Autoconfiguration) to assign an address based on Router Advertisments."` " >> $TMP/tempmsg
+echo "`gettext "If you do not have a network card, select the 'loopback' choice."`" >> $TMP/tempmsg
 echo -e "\n" >> $TMP/tempmsg
 gettext "Which type of network setup would you like?" >> $TMP/tempmsg
 
@@ -601,7 +601,9 @@ rm -f $TMP/reply $TMP/temptitle $TMP/tempmsg
 
 if [ "$REPLY" = "DHCP" ]; then
   gettext "Please select the type of DHCP to use to configure your networking." > $TMP/tempmsg
+  echo >> $TMP/tempmsg
   gettext "Select 'DHCPv4' to configure for an IPv4 network (this is the most common type of network, and the safe choice)." >> $TMP/tempmsg
+  echo >> $TMP/tempmsg
   gettext "Select 'DHCPv6' for a pure IPv6 network, or 'Both' to try and set up both types of network." >> $TMP/tempmsg
   # We need the line below to make sure there are entries for loopback in
   # /etc/hosts labeled with the machine's hostname, otherwise we might not
@@ -626,9 +628,9 @@ if [ "$REPLY" = "DHCP" ]; then
     USE_DHCP="yes"
     USE_DHCP6="yes"
   fi
-  gettext "Some network providers require that the DHCP hostname be set in order to connect." > $TMP/tempmsg
-  gettext "If so, they'll have assigned a hostname to your machine, which may look something like CC-NUMBER-A (this depends on your ISP)." >> $TMP/tempmsg
-  gettext "If you were assigned a DHCP hostname, please enter it below." >> $TMP/tempmsg
+  echo "`gettext "Some network providers require that the DHCP hostname be set in order to connect."` " > $TMP/tempmsg
+  echo "`gettext "If so, they'll have assigned a hostname to your machine, which may look something like CC-NUMBER-A (this depends on your ISP)."` " >> $TMP/tempmsg
+  echo "`gettext "If you were assigned a DHCP hostname, please enter it below."` " >> $TMP/tempmsg
   gettext "If you do not have a DHCP hostname, just leave it blank or select 'Skip'." >> $TMP/tempmsg
   dialog --title "`gettext "SET DHCP HOSTNAME"`"  --cancel-label "`gettext "Skip"`" \
       --inputbox "`cat $TMP/tempmsg`" 13 67 \
@@ -660,15 +662,17 @@ if [ "$LOOPBACK" = "no" -a ! "$USE_DHCP" = "yes" -a ! "$USE_SLAAC" = "yes" ]; th
       if [ -r $TMP/SeTIPSv4 ]; then
         IPADDRS=($(cat $TMP/SeTIPSv4))
       fi
-      gettext "Enter the IPv4 addresses for this host." > $TMP/tempmsg
+      echo "`gettext "Enter the IPv4 addresses for this host."` " > $TMP/tempmsg
       gettext "You may list one or more, space delimited, IPv4 addresses with netmasks in the format:" >> $TMP/tempmsg
+      echo >> $TMP/tempmsg
       echo "  <`gettext "IP address"`>/<`gettext "CIDR netmask"`>" >> $TMP/tempmsg
       gettext "For example:" >> $TMP/tempmsg
+      echo >> $TMP/tempmsg
       echo "  111.112.113.114/24  `gettext "or"` 111.112.113.114/24 10.0.1.114/8" >> $TMP/tempmsg
-      gettext "Old style netmask 255.255.255.0 is equivalent of 24 in CIDR style." >> $TMP/tempmsg
+      echo "`gettext "Old style netmask 255.255.255.0 is equivalent of 24 in CIDR style."` " >> $TMP/tempmsg
       gettext "If a netmask is not specified a default of 24 will be used." >> $TMP/tempmsg
       echo -e "\n" >> $TMP/tempmsg
-      gettext "The first address entered will become the primary IPv4 address of this host." >> $TMP/tempmsg
+      echo "`gettext "The first address entered will become the primary IPv4 address of this host."` " >> $TMP/tempmsg
       gettext "If you do not want to configure a static IPv4 address, just leave it blank or select 'Skip'." >> $TMP/tempmsg
       dialog --title "`gettext "ENTER IPv4 ADDRESSES"`" --cancel-label "`gettext "Skip"`" \
           --inputbox "`cat $TMP/tempmsg`" \
