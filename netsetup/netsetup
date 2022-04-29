@@ -771,8 +771,7 @@ if [ "$LOOPBACK" = "no" -a ! "$USE_DHCP" = "yes" -a ! "$USE_SLAAC" = "yes" ]; th
   1a:1b:1c:1d::abc/64  `gettext "or"`  1a:1b:1c:1d::abc/64 2b2c::2:3:4:abc/64
 `gettext "If a prefix is not specified a default of 64 will be used."`
 
-`gettext "If you do not want to configure a static IPv6 address or don't
-know what to put, just leave it blank or select 'Skip'."`" \
+`gettext "If you do not want to configure a static IPv6 address or don't know what to put, just leave it blank or select 'Skip'."`" \
           16 70 "${IP6ADDRS[*]}" 2> $TMP/SeTIPSv6
       ERRNO="$?"
       if [ "$ERRNO" = "1" ]; then
