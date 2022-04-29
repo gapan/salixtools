@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 00:13+0300\n"
+"POT-Creation-Date: 2022-04-29 11:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr ""
 msgid "INVALID IP"
 msgstr ""
 
-#: netsetup:430 netsetup:447 netsetup:551 netsetup:698 netsetup:795
+#: netsetup:430 netsetup:447 netsetup:551 netsetup:698 netsetup:794
 msgid "Back"
 msgstr ""
 
@@ -96,13 +96,13 @@ msgstr ""
 msgid "CONNECT VIA VLAN"
 msgstr ""
 
-#: netsetup:537 netsetup:551 netsetup:1042 netsetup:1065 netsetup:1079
-#: netsetup:1109
+#: netsetup:537 netsetup:551 netsetup:1040 netsetup:1063 netsetup:1077
+#: netsetup:1107
 msgid "VLAN ID"
 msgstr ""
 
 #: netsetup:537 netsetup:635 netsetup:677 netsetup:732 netsetup:765
-#: netsetup:829 netsetup:898
+#: netsetup:828 netsetup:896
 msgid "Skip"
 msgstr ""
 
@@ -289,7 +289,7 @@ msgstr ""
 msgid "NO IPv4 ADDRESSES"
 msgstr ""
 
-#: netsetup:699 netsetup:796
+#: netsetup:699 netsetup:795
 msgid "No IP specified in entry:"
 msgstr ""
 
@@ -351,83 +351,83 @@ msgstr ""
 
 #: netsetup:774
 msgid ""
-"If you do not want to configure a static IPv6 address or don't\n"
-"know what to put, just leave it blank or select 'Skip'."
+"If you do not want to configure a static IPv6 address or don't know what to "
+"put, just leave it blank or select 'Skip'."
 msgstr ""
 
-#: netsetup:795
+#: netsetup:794
 msgid "NO IPv6 ADDRESSES"
 msgstr ""
 
-#: netsetup:809
+#: netsetup:808
 msgid "INVALID PREFIX"
 msgstr ""
 
-#: netsetup:810
+#: netsetup:809
 msgid "Invalid prefix specified for entry:"
 msgstr ""
 
-#: netsetup:811
+#: netsetup:810
 msgid "Valid prefixes will be in the range 1-128."
 msgstr ""
 
-#: netsetup:829
+#: netsetup:828
 msgid "ENTER IPv6 GATEWAY ADDRESS"
 msgstr ""
 
-#: netsetup:830
+#: netsetup:829
 msgid "Enter the address for the IPv6 gateway on your network, such as:"
 msgstr ""
 
-#: netsetup:833
+#: netsetup:832
 msgid ""
-"If you don't have an IPv6 gateway on your network, leave it blank\n"
-"or select 'Skip'."
+"If you don't have an IPv6 gateway on your network, leave it blank or select "
+"'Skip'."
 msgstr ""
 
-#: netsetup:836
+#: netsetup:834
 msgid "Enter IPv6 gateway address:"
 msgstr ""
 
-#: netsetup:860
+#: netsetup:858
 msgid "NO IP ADDRESSES"
 msgstr ""
 
-#: netsetup:861
+#: netsetup:859
 msgid ""
 "You have not configured any IP addresses for this host.\n"
 "Are you sure you want to proceed with no IPs?"
 msgstr ""
 
-#: netsetup:875
+#: netsetup:873
 msgid "USE A NAMESERVER?"
 msgstr ""
 
-#: netsetup:875
+#: netsetup:873
 msgid "Will you be accessing a nameserver?"
 msgstr ""
 
-#: netsetup:898
+#: netsetup:896
 msgid "ENTER NAMESERVER IP ADDRESS"
 msgstr ""
 
-#: netsetup:900
+#: netsetup:898
 msgid "Please give the IP address of the name server to use, such as"
 msgstr ""
 
-#: netsetup:902
+#: netsetup:900
 msgid "You can add more Domain Name Servers later by editing"
 msgstr ""
 
-#: netsetup:905
+#: netsetup:903
 msgid "Primary name server to use:"
 msgstr ""
 
-#: netsetup:958
+#: netsetup:956
 msgid "PROBE FOR NETWORK CARD?"
 msgstr ""
 
-#: netsetup:958
+#: netsetup:956
 msgid ""
 "If you like, we can look to see what kind of network card you have in your "
 "machine, and if we find one create an /etc/rc.d/rc.netdevice script to load "
@@ -438,36 +438,36 @@ msgid ""
 "module."
 msgstr ""
 
-#: netsetup:966
+#: netsetup:964
 msgid "probe"
 msgstr ""
 
-#: netsetup:966
+#: netsetup:964
 msgid "look for network cards to set up"
 msgstr ""
 
-#: netsetup:967 netsetup:974
+#: netsetup:965 netsetup:972
 msgid "skip"
 msgstr ""
 
-#: netsetup:967
+#: netsetup:965
 msgid "skip probe;  edit /etc/rc.d/rc.modules later"
 msgstr ""
 
-#: netsetup:980 netsetup:997
+#: netsetup:978 netsetup:995
 msgid "CARD DETECTED"
 msgstr ""
 
-#: netsetup:980 netsetup:997
+#: netsetup:978 netsetup:995
 #, sh-format
 msgid "A networking card using the $card.o module has been detected."
 msgstr ""
 
-#: netsetup:1005
+#: netsetup:1003
 msgid "NO CARD DETECTED"
 msgstr ""
 
-#: netsetup:1005
+#: netsetup:1003
 msgid ""
 "Sorry, but no network card could be probed for on your system.  Some cards "
 "(like non-PCI NE2000s) must be supplied with the I/O address to use and "
@@ -475,151 +475,151 @@ msgid ""
 "by editing /etc/rc.d/rc.modules or recompiling your kernel."
 msgstr ""
 
-#: netsetup:1015 netsetup:1026 netsetup:1038
+#: netsetup:1013 netsetup:1024 netsetup:1036
 msgid "NETWORK SETUP COMPLETE"
 msgstr ""
 
-#: netsetup:1015
+#: netsetup:1013
 msgid "Your networking system is now configured to use loopback:"
 msgstr ""
 
-#: netsetup:1018 netsetup:1043 netsetup:1111
+#: netsetup:1016 netsetup:1041 netsetup:1109
 msgid "IP addresses"
 msgstr ""
 
-#: netsetup:1020
+#: netsetup:1018
 msgid "Is this correct?  Press 'Yes' to continue, or 'No' to abandon."
 msgstr ""
 
-#: netsetup:1026
+#: netsetup:1024
 msgid ""
 "Your networking system is now configured to use NetworkManager for\n"
 "wired and wireless network management."
 msgstr ""
 
-#: netsetup:1028
+#: netsetup:1026
 msgid ""
 "To set up wireless networks\n"
 "and view status, add the Network Management control panel widget to\n"
 "your desktop."
 msgstr ""
 
-#: netsetup:1032
+#: netsetup:1030
 msgid "Is this correct?  Press 'Yes' to confirm, or 'No' to abandon."
 msgstr ""
 
-#: netsetup:1039
+#: netsetup:1037
 msgid "Your system is now set up to autoconfigure an IPv6 IP address:"
 msgstr ""
 
-#: netsetup:1040 netsetup:1063 netsetup:1075 netsetup:1107
+#: netsetup:1038 netsetup:1061 netsetup:1073 netsetup:1105
 msgid "Hostname"
 msgstr ""
 
-#: netsetup:1041
+#: netsetup:1039
 msgid "Domain name"
 msgstr ""
 
-#: netsetup:1042 netsetup:1044 netsetup:1109 netsetup:1110
+#: netsetup:1040 netsetup:1042 netsetup:1107 netsetup:1108
 msgid "none"
 msgstr ""
 
-#: netsetup:1043
+#: netsetup:1041
 msgid "use IPv6 SLAAC"
 msgstr ""
 
-#: netsetup:1044 netsetup:1070 netsetup:1089 netsetup:1114
+#: netsetup:1042 netsetup:1068 netsetup:1087 netsetup:1112
 msgid "Nameserver"
 msgstr ""
 
-#: netsetup:1046
+#: netsetup:1044
 msgid "If this is correct, hit 'Yes' to confirm, or 'No' to abandon."
 msgstr ""
 
-#: netsetup:1053
+#: netsetup:1051
 msgid "CONFIRM NETWORK SETUP"
 msgstr ""
 
-#: netsetup:1054
+#: netsetup:1052
 msgid "Accept"
 msgstr ""
 
-#: netsetup:1055
+#: netsetup:1053
 msgid "Edit"
 msgstr ""
 
-#: netsetup:1056
+#: netsetup:1054
 msgid "Abandon"
 msgstr ""
 
-#: netsetup:1058
+#: netsetup:1056
 msgid "These are the settings you have entered."
 msgstr ""
 
-#: netsetup:1059
+#: netsetup:1057
 msgid "To accept them and complete the networking setup, press ENTER."
 msgstr ""
 
-#: netsetup:1060
+#: netsetup:1058
 msgid ""
 "If you need to make any changes, you can do that now using 'Edit' (or "
 "reconfigure later using 'netsetup')."
 msgstr ""
 
-#: netsetup:1064 netsetup:1077 netsetup:1108
+#: netsetup:1062 netsetup:1075 netsetup:1106
 msgid "Domain Name"
 msgstr ""
 
-#: netsetup:1066 netsetup:1081
+#: netsetup:1064 netsetup:1079
 msgid "IPv4 Addresses"
 msgstr ""
 
-#: netsetup:1067 netsetup:1083
+#: netsetup:1065 netsetup:1081
 msgid "IPv4 Gateway"
 msgstr ""
 
-#: netsetup:1068 netsetup:1085
+#: netsetup:1066 netsetup:1083
 msgid "IPv6 Addresses"
 msgstr ""
 
-#: netsetup:1069 netsetup:1087
+#: netsetup:1067 netsetup:1085
 msgid "IPv6 Gateway"
 msgstr ""
 
-#: netsetup:1104
+#: netsetup:1102
 msgid "CONFIRM SETUP COMPLETE"
 msgstr ""
 
-#: netsetup:1105
+#: netsetup:1103
 #, sh-format
 msgid "Your networking system is now configured to use DHCP"
 msgstr ""
 
-#: netsetup:1110
+#: netsetup:1108
 msgid "DHCP hostname"
 msgstr ""
 
-#: netsetup:1111 netsetup:1112 netsetup:1113 netsetup:1114
+#: netsetup:1109 netsetup:1110 netsetup:1111 netsetup:1112
 msgid "use DHCP server"
 msgstr ""
 
-#: netsetup:1112
+#: netsetup:1110
 msgid "Netmask & Prefix"
 msgstr ""
 
-#: netsetup:1113
+#: netsetup:1111
 msgid "Gateways"
 msgstr ""
 
-#: netsetup:1116
+#: netsetup:1114
 msgid "Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
 msgstr ""
 
-#: netsetup:1133
+#: netsetup:1131
 msgid "Settings accepted.  Basic network configuration is complete."
 msgstr ""
 
-#: netsetup:1135
+#: netsetup:1133
 msgid ""
 "Settings discarded.  Run the 'netsetup' command again if you need to "
 "reconfigure your network settings."
