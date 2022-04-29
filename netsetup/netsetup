@@ -829,8 +829,7 @@ if [ "$LOOPBACK" = "no" -a ! "$USE_DHCP" = "yes" -a ! "$USE_SLAAC" = "yes" ]; th
 "`gettext "Enter the address for the IPv6 gateway on your network, such as:"`
   fe80:426c:ffff::1
 
-`gettext "If you don't have an IPv6 gateway on your network, leave it blank
-or select 'Skip'."`
+`gettext "If you don't have an IPv6 gateway on your network, leave it blank or select 'Skip'."`
 
 `gettext "Enter IPv6 gateway address:"`" 14 69 "$GATEWAY6" 2> $TMP/SeTgateway6
         ERRNO="$?"
