@@ -1021,11 +1021,9 @@ system is now configured to use loopback:"`
     exit
   fi
 elif [ "$LOOPBACK" = "yes" -a "$NETWORKMANAGER" = "yes" ]; then
-  dialog --title "`gettext "NETWORK SETUP COMPLETE"`" --yesno "`gettext "Your networking \
-system is now configured to use NetworkManager for
-wired and wireless network management."` `gettext "To set up wireless networks
-and view status, add the Network Management control panel widget to
-your desktop."`
+  dialog --title "`gettext "NETWORK SETUP COMPLETE"`" --yesno \
+    "`gettext "Your networking system is now configured to use NetworkManager for wired and wireless network management."` \
+    `gettext "To set up wireless networks and view status, add the Network Management control panel widget to your desktop."`
 
 `gettext "Is this correct?  Press 'Yes' to confirm, or 'No' to abandon."`" 0 0
   RETVAL=$?
