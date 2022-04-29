@@ -856,8 +856,7 @@ if [ "$LOOPBACK" = "no" -a ! "$USE_DHCP" = "yes" -a ! "$USE_SLAAC" = "yes" ]; th
 
     if [ "${IPADDRS[*]}" = "" ] && [ "${IP6ADDRS[*]}" = "" ]; then
       dialog --title "`gettext "NO IP ADDRESSES"`" --defaultno --yesno \
-"`gettext "You have not configured any IP addresses for this host.
-Are you sure you want to proceed with no IPs?"`" 6 59
+"`gettext "You have not configured any IP addresses for this host. Are you sure you want to proceed with no IPs?"`" 6 59
       ERRNO="$?"
       if [ "$ERRNO" = "255" ]; then
         exit
