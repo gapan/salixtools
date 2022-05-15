@@ -6,13 +6,14 @@
 # Didier Spaier <didier@slint.fr>, 2014
 # Eric Hameleers <alien@slackware.com>, 2013
 # Eric Hameleers <eric.hameleers@gmail.com>, 2014,2016
+# Gambit <gambit73@gmail.com>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-09 13:36+0300\n"
-"PO-Revision-Date: 2017-09-23 00:05+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"POT-Creation-Date: 2022-04-29 11:13+0300\n"
+"PO-Revision-Date: 2016-06-09 10:48+0000\n"
+"Last-Translator: Gambit <gambit73@gmail.com>, 2022\n"
 "Language-Team: Dutch (http://www.transifex.com/gapan/salixtools/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,159 +21,418 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: netsetup:245
+#: netsetup:423 netsetup:448
+msgid "The IP address you have entered is not valid."
+msgstr "Het IP adres welke u heeft ingevoerd is fout."
+
+#: netsetup:425
 #, sh-format
 msgid ""
-"The address you have entered seems to be non-standard. We were expecting\n"
-"$ArG2 groups of numbers seperated by dots, like: 127.0.0.1\n"
-"Are you absolutely sure you want to use the address $ArG1?"
-msgstr "Het adres dat je hebt ingevoerd lijkt niet standaard. We verwachtten\n$ArG2 groepen van cijfers gescheiden door punten, zoals: 127.0.0.1\nWeet je heel zeker dat je adres $ArG1 wilt gebruiken?"
+"There should be $ArG2 groups of numbers seperated by dots, for example:"
+msgstr "Er behoren $ArG2 nummergroepen te staan gescheiden met punten, bijvoorbeeld:"
 
-#: netsetup:249
-msgid "WARNING"
-msgstr "WAARSCHUWING"
+#: netsetup:428
+msgid "Please correct any mistakes in the IP."
+msgstr "Corrigeer alstublieft de fouten in het IP."
 
-#: netsetup:284
-msgid ""
-"First, we'll need the name you'd like to give your host.\n"
-"Only the base hostname is needed right now. (not the domain)\n"
-"\n"
-"Enter hostname:"
-msgstr "Eerst hebben we de naam nodig die je aan je host wilt geven.\nAlleen de basis-hostnaam is nu nodig. (niet het domein)\n\nVoer hostnaam in:"
+#: netsetup:430 netsetup:447
+msgid "INVALID IP"
+msgstr "FOUT IP"
 
-#: netsetup:288
+#: netsetup:430 netsetup:447 netsetup:551 netsetup:698 netsetup:794
+msgid "Back"
+msgstr "Terug"
+
+#: netsetup:450
+msgid "Please enter a valid IPv6 address."
+msgstr "Voer alstublieft een correct IPv6 adres in."
+
+#: netsetup:482
+msgid "First, we'll need the name you'd like to give your host."
+msgstr "Eerst hebben we een naam nodig welke u uw host wilt geven."
+
+#: netsetup:484
+msgid "Only the base hostname is needed right now - not the domain."
+msgstr "Alleen de kale hostnaam is momenteel nodig - niet het domein."
+
+#: netsetup:486
+msgid "Enter hostname:"
+msgstr "Voer hostnaam in:"
+
+#: netsetup:487
 msgid "ENTER HOSTNAME"
 msgstr "VOER HOSTNAAM IN:"
 
-#: netsetup:302
-#, sh-format
+#: netsetup:487 netsetup:508 netsetup:587 netsetup:613
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: netsetup:502
+msgid "Now, we need the domain name for this machine, such as:"
+msgstr "Nu hebben we de domeinnaam nodig voor deze machine, zoals:"
+
+#: netsetup:504
+msgid "Do not supply a leading '.'"
+msgstr "Voer geen '.' in als eerste karakter"
+
+#: netsetup:506
+msgid "Enter domain name for"
+msgstr "Voer de domeinnaam in voor"
+
+#: netsetup:508
+msgid "ENTER DOMAINNAME"
+msgstr "VOER DOMEINNAAM IN"
+
+#: netsetup:521
 msgid ""
-"Now, we need the domain name for this machine, such as:\n"
-"\n"
-"example.org\n"
-"\n"
-"Do not supply a leading '.'\n"
-"\n"
-"Enter domain name for $HOSTNM:"
-msgstr "Nu hebben we de domeinnaam voor deze machine nodig, zoals:\n\nvoorbeeld.org\n\nGeef geen '.' vooraf.\n\nVoer domeinnaam in voor $HOSTNM:"
+"Some advanced networking set ups require a VLAN ID in order to connect to "
+"the network."
+msgstr "Sommige geavanceerde netwerk instellingen hebben een VLAN ID nodig om het netwerk te verbinden."
 
-#: netsetup:309
-#, sh-format
-msgid "ENTER DOMAINNAME FOR $HOSTNM"
-msgstr "VOER DOMEINNAAM IN VOOR $HOSTNM"
+#: netsetup:523
+msgid "Do you wish to configure a VLAN ID now?"
+msgstr "Wilt u een VLAN ID nu instellen?"
 
-#: netsetup:330
-#, sh-format
-msgid "CONFIGURATION TYPE FOR $HOSTNM.$DOMAIN"
-msgstr "CONFIGURATIETYPE VOOR $HOSTNM.$DOMAIN"
+#: netsetup:525
+msgid "Unless you are sure you require a VLAN ID, select 'No'."
+msgstr "Selecteer 'Nee' als u niet zeker bent dat een VLAN ID nodig is."
 
-#: netsetup:333
+#: netsetup:526
+msgid "CONNECT VIA VLAN"
+msgstr "VERBINDT VIA VLAN"
+
+#: netsetup:537 netsetup:551 netsetup:1037 netsetup:1060 netsetup:1074
+#: netsetup:1104
+msgid "VLAN ID"
+msgstr "VLAN ID"
+
+#: netsetup:537 netsetup:635 netsetup:677 netsetup:732 netsetup:765
+#: netsetup:828 netsetup:895
+msgid "Skip"
+msgstr "Sla over"
+
+#: netsetup:538
+msgid "Enter the VLAN ID used on this network:"
+msgstr "Voer het VLAN ID in welke in dit netwerk wordt gebruikt:"
+
+#: netsetup:552
+msgid "That doesn't appear to be a valid VLAN ID."
+msgstr "Dat lijkt geen valide VLAN ID."
+
+#: netsetup:566
+msgid "CONFIGURATION TYPE FOR"
+msgstr "CONFIGURATIETYPE VOOR"
+
+#: netsetup:569
+msgid "Now we need to know how your machine connects to the network."
+msgstr "Nu moeten we weten hoe uw computer aan het netwerk verbindt."
+
+#: netsetup:571
 msgid ""
-"Now we need to know how your machine connects to the network.\n"
-"\n"
-"If you have an internal network card and an assigned IP address, gateway, and DNS, use the 'static IP' choice to enter these values.  If your IP address is assigned by a DHCP server (commonly used by cable modem and DSL services), select 'DHCP'.  If you do not have a network card, select the 'loopback' choice.  You may also select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works). Which type of network setup would you like?"
-msgstr "Nu willen we weten hoe je machine met het netwerk verbindt.\n\nAls je een interne netwerkkaart hebt met een zelf toegekend IP-adres, gateway en DNS, kies dan 'static IP' om deze waarden in te geven.  Als je IP-adres wordt toegekend door een DHCP server (vaak het gevsl bij kabel- en DSL-modems), kies 'DHCP'.  Als je geen netwerkkaart hebt kies dan 'loopback'.  Je kunt ook nog 'NetworkManager' kiezen als je wilt dat de NetworkManager daemon automatisch je bedrade en draadloze netwerkinterfaces beheert (dit is eenvoudig en werkt meestal). Welk type netwerk zou je willen opzetten?"
+"If you have an internal network card and an assigned IP address, gateway, "
+"and DNS, use the 'static IP' choice to enter these values."
+msgstr "Als u een netwerkkaart en een vast IP adres, gateway en DNS, kies dan 'vast IP' om deze waarden in te voeren."
 
-#: netsetup:343
+#: netsetup:572
+msgid ""
+"If your IP address is assigned by a DHCP server (commonly used by cable "
+"modem and DSL services), select 'DHCP'."
+msgstr "Als het IP adres door een DHCP server (gewoonlijk door een modem) wordt toegewezen, selecteer 'DHCP'."
+
+#: netsetup:574
+msgid ""
+"Select 'NetworkManager' if you would like to have the NetworkManager daemon "
+"automatically handle your wired and wireless network interfaces (this is "
+"simple and usually works)."
+msgstr "Selecteer 'NetworkManager' als u de NetworkManager daemon uw bekabelde en draadloze netwerk automatisch wilt beheren (dit is eenvoudig en werkt meestal goed)."
+
+#: netsetup:575
+msgid ""
+"IPv6 networks may also use SLAAC (Stateless Address Autoconfiguration) to "
+"assign an address based on Router Advertisments."
+msgstr "IPv6 netwerken kunnen ook SLAAC (Stateless Address Autoconfiguration) gebruiken om een adres toe te wijzen op basis van Router Advertenties."
+
+#: netsetup:576
+msgid "If you do not have a network card, select the 'loopback' choice."
+msgstr "Als u geen netwerkkaart heeft, kies dan 'loopback'"
+
+#: netsetup:578
+msgid "Which type of network setup would you like?"
+msgstr "Wat voor netwerkinstellingen wilt u hebben?"
+
+#: netsetup:590
 msgid "Use a static IP address to configure ethernet"
 msgstr "Gebruik een vast IP-adres om ethernet te configureren"
 
-#: netsetup:344
+#: netsetup:591
 msgid "Use a DHCP server to configure ethernet"
 msgstr "Gebruik een DHCP-server om ethernet te configureren"
 
-#: netsetup:345
-msgid "Set up a loopback connection (modem or no net)"
-msgstr "Stel een loopback verbinding in (modem of geen netwerk)"
-
-#: netsetup:346
+#: netsetup:592
 msgid "Autoconfigure network using NetworkManager"
 msgstr "Configureer het netwerk automatisch met NetworkManager"
 
-#: netsetup:356
+#: netsetup:593
+msgid "Use SLAAC to configure ethernet (IPv6 only)"
+msgstr "Gebruik SLAAC om ethernet in te stellen (alleen IPv6)"
+
+#: netsetup:594
+msgid "Set up a loopback connection (modem or no net)"
+msgstr "Stel een loopback verbinding in (modem of geen netwerk)"
+
+#: netsetup:603
+msgid "Please select the type of DHCP to use to configure your networking."
+msgstr "Selecteer het soort DHCP om uw netwerk in te stellen."
+
+#: netsetup:605
+msgid ""
+"Select 'DHCPv4' to configure for an IPv4 network (this is the most common "
+"type of network, and the safe choice)."
+msgstr "Selecteer 'DHCPv4' om een IPv4 netwerk in te stellen (dit is het meest gewoonlijke type voor een netwerk en de meest veilige keuze)."
+
+#: netsetup:607
+msgid ""
+"Select 'DHCPv6' for a pure IPv6 network, or 'Both' to try and set up both "
+"types of network."
+msgstr "Selecteer 'DHCPv6' voor een puur IPv6 netwerk of 'Beide' om beide typen netwerk in te stellen."
+
+#: netsetup:612
+msgid "SELECT DHCP TYPE"
+msgstr "SELECTEER DHCP TYPE"
+
+#: netsetup:614
+msgid "An IPv4 based network, with no IPv6 configuration"
+msgstr "Een netwerk op basis van IPv4, zonder IPv6 configuratie"
+
+#: netsetup:615
+msgid "An IPv6 based network, with no IPv4 configuration"
+msgstr "Een netwerk op basis van IPv6, zonder IPv4 configuratie"
+
+#: netsetup:616
+msgid "Both"
+msgstr "Beide"
+
+#: netsetup:616
+msgid "A combination of IPv4 and IPv6 networks"
+msgstr "Een combinatie van IPv4 en IPv6 netwerken"
+
+#: netsetup:631
+msgid ""
+"Some network providers require that the DHCP hostname be set in order to "
+"connect."
+msgstr "Sommige netwerkproviders vereisen dat de DHCP hostnaam ingesteld moet worden om verbinding te maken."
+
+#: netsetup:632
+msgid ""
+"If so, they'll have assigned a hostname to your machine, which may look "
+"something like CC-NUMBER-A (this depends on your ISP)."
+msgstr "Indien dit het geval is, zullen ze een hostnaam toegewezen hebben aan uw computer welke eruit kan zien als CC-NUMBER-A (dit hangt van uw provider af)."
+
+#: netsetup:633
+msgid "If you were assigned a DHCP hostname, please enter it below."
+msgstr "Als u een DHCP hostnaam toegwezen krijgt, voer het dan hieronder in."
+
+#: netsetup:634
+msgid ""
+"If you do not have a DHCP hostname, just leave it blank or select 'Skip'."
+msgstr "Als u geen DHCP hostnaam heeft, laat het dan leeg of selecteer 'Sla over'."
+
+#: netsetup:635
 msgid "SET DHCP HOSTNAME"
 msgstr "STEL DHCP HOSTNAAM IN"
 
-#: netsetup:356
+#: netsetup:665
+msgid "Enter the IPv4 addresses for this host."
+msgstr "Voer de IPv4 adressen in for deze host."
+
+#: netsetup:666
 msgid ""
-"Some network providers require that the DHCP hostname be set in order to "
-"connect.  If so, they'll have assigned a hostname to your machine, which may"
-" look something like CC-NUMBER-A (this depends on your ISP).  If you were "
-"assigned a DHCP hostname, please enter it below.  If you do not have a DHCP "
-"hostname, just hit ENTER or Cancel."
-msgstr "Sommige internetproviders vereisen dat de DHCP-hostnaam wordt ingesteld om te verbinden. Zoja, dan hebben ze een hostnaam aan je machine toegekend welke er ongeveer uit ziet als CC-NUMMER-A (dit verschilt per provider). Als dit het geval is, voer die dan hieronder in. Als je geen DHCP-hostnaam hebt toets dan ENTER of Cancel."
+"You may list one or more, space delimited, IPv4 addresses with netmasks in "
+"the format:"
+msgstr "U kunt één of meerdere, met spaties gescheiden, IPv4 adressen met netmaskers plaatsen in het formaat:"
 
-#: netsetup:381
-#, sh-format
+#: netsetup:668 netsetup:769
+msgid "IP address"
+msgstr "IP adres"
+
+#: netsetup:668
+msgid "CIDR netmask"
+msgstr "CIDR netmask"
+
+#: netsetup:669
+msgid "For example:"
+msgstr "Bijvoorbeeld:"
+
+#: netsetup:671 netsetup:771
+msgid "or"
+msgstr "of"
+
+#: netsetup:672
+msgid "Old style netmask 255.255.255.0 is equivalent of 24 in CIDR style."
+msgstr "Oude stijl netmask 255.255.255.0 is gelijk aan 24 in CIDR stijl."
+
+#: netsetup:673
+msgid "If a netmask is not specified a default of 24 will be used."
+msgstr "Als een netmask niet gespecificeerd is zal standaard 24 gebruikt worden."
+
+#: netsetup:675
 msgid ""
-"Enter your IP address for the local machine.  Example: \n"
-"111.112.113.114\n"
-"Enter IP address for $HOSTNM (aaa.bbb.ccc.ddd):"
-msgstr "Voer je IP-adres in voor de lokale machine. Voorbeeld: \n111.112.113.114\nVoer IP-adres in voor $HOSTNM (aaa.bbb.ccc.ddd):"
+"The first address entered will become the primary IPv4 address of this host."
+msgstr "Het eerst jingevoerde adres wordt het primaire IPv4 adres van deze host."
 
-#: netsetup:384
-#, sh-format
-msgid "ENTER IP ADDRESS FOR $HOSTNM.$DOMAIN"
-msgstr "VOER IP-ADRES IN VOOR $HOSTNM.$DOMAIN"
-
-#: netsetup:407
+#: netsetup:676
 msgid ""
-"Enter your netmask.  This will generally look something\n"
-"like this: 255.255.255.0\n"
-"Enter netmask (aaa.bbb.ccc.ddd):"
-msgstr "Voer je subnetmasker in. Dat ziet er meestal uit zoals:\n255.255.255.0\nVoer subnetmasker in (aaa.bbb.ccc.ddd):"
+"If you do not want to configure a static IPv4 address, just leave it blank "
+"or select 'Skip'."
+msgstr "Als u geen vast IPv4 adres wilt instellen, laat het leeg of selecteer 'Sla over'."
 
-#: netsetup:410
-msgid "ENTER NETMASK FOR LOCAL NETWORK"
-msgstr "VOER SUBNETMASKER IN VOOR LOKAAL NETWERK"
+#: netsetup:677
+msgid "ENTER IPv4 ADDRESSES"
+msgstr "VOER IPv4 ADDRESSEN IN"
 
-#: netsetup:437
-msgid "Enter the address for the gateway on your network, such as:"
-msgstr "Voer het adres in van de default gateway op je netwerk, zoals:"
+#: netsetup:698
+msgid "NO IPv4 ADDRESSES"
+msgstr "GEEN IPv4 ADDRESSEN"
 
-#: netsetup:441
+#: netsetup:699 netsetup:795
+msgid "No IP specified in entry:"
+msgstr "Geen IP invoer in:"
+
+#: netsetup:712
+msgid "INVALID NETMASK"
+msgstr "ONGELDIGE NETMASK"
+
+#: netsetup:713
+msgid "Invalid netmask specified for entry:"
+msgstr "Ongeldige netmask invoer in:"
+
+#: netsetup:714
+msgid "Valid netmasks will be in the range 1-32."
+msgstr "Geldige netmasks kunnen in de reeks 1-32."
+
+#: netsetup:732
+msgid "ENTER IPv4 GATEWAY ADDRESS"
+msgstr "VOER IPv4 GATEWAY ADDRES IN"
+
+#: netsetup:733
+msgid "Enter the address for the IPv4 gateway on your network, such as:"
+msgstr "Voer het adres in van de default IPv4 gateway op je netwerk, zoals:"
+
+#: netsetup:736
 msgid ""
-"If you don't have a gateway on your network just hit ENTER\n"
-"without entering a gateway IP address.\n"
-"\n"
-"Enter gateway address (aaa.bbb.ccc.ddd):"
-msgstr "Als je geen default gateway op je netwerk hebt toets dan ENTER\nzonder iets in te voeren.\n\nVoer default gateway adres in (aaa.bbb.ccc.ddd):"
+"If you don't have an IPv4 gateway on your network, leave it blank or select "
+"'Skip'."
+msgstr "Als u geen IPv4 gateway heeft binnen uw netwerk, laat het dan leeg of selecteer 'Sla over'."
 
-#: netsetup:445
-msgid "ENTER GATEWAY ADDRESS"
-msgstr "VOER DEFAULT GATEWAY ADRES IN"
+#: netsetup:738
+msgid "Enter IPv4 gateway address:"
+msgstr "Voer IPv4 gateway adres in:"
 
-#: netsetup:466
+#: netsetup:765
+msgid "ENTER IPv6 ADDRESSES"
+msgstr "VOER IPv6 ADDRESSEN IN"
+
+#: netsetup:767
+msgid "Enter the IPv6 addresses for this host."
+msgstr "Voer de IPv6 adressen in for deze host."
+
+#: netsetup:768
+msgid ""
+"You may list one or more, space delimited, IPv6 addresses with their "
+"prefixes in the format:"
+msgstr "U kunt één of meerdere, met spaties gescheiden, IPv6 adressen met hun prefix plaatsen in het formaat:"
+
+#: netsetup:769
+msgid "prefix"
+msgstr "prefix"
+
+#: netsetup:770
+msgid "For example"
+msgstr "Bijvoorbeeld"
+
+#: netsetup:772
+msgid "If a prefix is not specified a default of 64 will be used."
+msgstr "Als een prefix niet gespecificeerd is zal standaard 64 gebruikt worden."
+
+#: netsetup:774
+msgid ""
+"If you do not want to configure a static IPv6 address or don't know what to "
+"put, just leave it blank or select 'Skip'."
+msgstr "Als u geen vast IPv6 adres wilt instellen, laat het leeg of selecteer 'Sla over'."
+
+#: netsetup:794
+msgid "NO IPv6 ADDRESSES"
+msgstr "GEEN IPv6 ADDRESSEN"
+
+#: netsetup:808
+msgid "INVALID PREFIX"
+msgstr "ONGELDIGE PREFIX"
+
+#: netsetup:809
+msgid "Invalid prefix specified for entry:"
+msgstr "Ongeldige prefix invoer in:"
+
+#: netsetup:810
+msgid "Valid prefixes will be in the range 1-128."
+msgstr "Geldige prefixes kunnen in de reeks 1-128."
+
+#: netsetup:828
+msgid "ENTER IPv6 GATEWAY ADDRESS"
+msgstr "VOER IPv6 GATEWAY ADDRES IN"
+
+#: netsetup:829
+msgid "Enter the address for the IPv6 gateway on your network, such as:"
+msgstr "Voer het adres in van de default IPv6 gateway op je netwerk, zoals:"
+
+#: netsetup:832
+msgid ""
+"If you don't have an IPv6 gateway on your network, leave it blank or select "
+"'Skip'."
+msgstr "Als u geen IPv6 gateway heeft binnen uw netwerk, laat het dan leeg of selecteer 'Sla over'."
+
+#: netsetup:834
+msgid "Enter IPv6 gateway address:"
+msgstr "Voer IPv6 gateway adres in:"
+
+#: netsetup:858
+msgid "NO IP ADDRESSES"
+msgstr "GEEN IP ADDRESSEN"
+
+#: netsetup:859
+msgid ""
+"You have not configured any IP addresses for this host. Are you sure you "
+"want to proceed with no IPs?"
+msgstr "U heeft geen enkel IP adres ingesteld voor deze host. Weet u zeker dat door wilt gaan zonder IPs?"
+
+#: netsetup:872
 msgid "USE A NAMESERVER?"
 msgstr "GEBRUIK JE EEN NAAMSERVER?"
 
-#: netsetup:466
+#: netsetup:872
 msgid "Will you be accessing a nameserver?"
 msgstr "Ga je een naamserver gebruiken?"
 
-#: netsetup:477
-#, sh-format
-msgid ""
-"Here is your current IP address, full hostname, and base hostname:\n"
-"$IPADDR       $HOSTNM.$DOMAIN    $HOSTNM\n"
-"\n"
-"Please give the IP address of the name server to use,\n"
-"such as $DNSSAMPLE.\n"
-"\n"
-"You can add more Domain Name Servers later by editing $RESOLV.\n"
-"\n"
-"Primary name server to use (aaa.bbb.ccc.ddd):"
-msgstr "Hier is je huidige IP-adres, volledige hostnaam en basis-hostnaam:\n$IPADDR $HOSTNM.$DOMAIN $HOSTNM\n\nGeef het IP-adres op van de naamserver die je wilt gebruiken,\nzoals $DNSSAMPLE.\n\nJe kunt later meer Domain Name Servers toevoegen in $RESOLV.\n\nGeef primaire naamserver op (aaa.bbb.ccc.ddd):"
+#: netsetup:895
+msgid "ENTER NAMESERVER IP ADDRESS"
+msgstr "VOER NAMESERVER IP ADRESSEN IN"
 
-#: netsetup:486
-msgid "SELECT NAMESERVER"
-msgstr "KIES NAAMSERVER"
+#: netsetup:897
+msgid "Please give the IP address of the name server to use, such as"
+msgstr "Geef alstublieft de IP adressen van de te gebruiken nameserver op, zoals"
 
-#: netsetup:514
+#: netsetup:899
+msgid "You can add more Domain Name Servers later by editing"
+msgstr "U kan later meer Domain Name Servers toevoegen door het wijzigen van"
+
+#: netsetup:902
+msgid "Primary name server to use:"
+msgstr "Primair te gebruiken nameserver:"
+
+#: netsetup:955
 msgid "PROBE FOR NETWORK CARD?"
 msgstr "NETWERKKAART DETECTEREN?"
 
-#: netsetup:514
+#: netsetup:955
 msgid ""
 "If you like, we can look to see what kind of network card you have in your "
 "machine, and if we find one create an /etc/rc.d/rc.netdevice script to load "
@@ -183,28 +443,36 @@ msgid ""
 "module."
 msgstr "Als je wilt kunnen we kijken wat voor netwerkkaart je in je machine hebt en als we die vinden een /etc/rc.d/rc.netdevice script maken dat de module hiervoor laadt bij het opstarten. Er is een klein gevaar dat deze detectie problemen kan geven maar meestal werkt dit OK. Als je je systeem liever handmatig wilt configureren kun je dit detectieproces overslaan en /etc/rc.d/rc.modules of /etc/modules.conf later bewerken om de juiste module te laden."
 
-#: netsetup:522
+#: netsetup:963
+msgid "probe"
+msgstr "Doorzoek"
+
+#: netsetup:963
 msgid "look for network cards to set up"
 msgstr "zoeken naar netwerkkaarten om in te stellen"
 
-#: netsetup:523
+#: netsetup:964 netsetup:971
+msgid "skip"
+msgstr "sla over"
+
+#: netsetup:964
 msgid "skip probe;  edit /etc/rc.d/rc.modules later"
 msgstr "sla detectie over; bewerk /etc/rc.d/rc.modules later"
 
-#: netsetup:536 netsetup:553
+#: netsetup:977 netsetup:994
 msgid "CARD DETECTED"
 msgstr "KAART GEDETECTEERD"
 
-#: netsetup:536 netsetup:553
+#: netsetup:977 netsetup:994
 #, sh-format
 msgid "A networking card using the $card.o module has been detected."
 msgstr "Een netwerkkaart die de $card.o module gebruikt werd gevonden."
 
-#: netsetup:561
+#: netsetup:1002
 msgid "NO CARD DETECTED"
 msgstr "GEEN KAART GEDETECTEERD"
 
-#: netsetup:561
+#: netsetup:1002
 msgid ""
 "Sorry, but no network card could be probed for on your system.  Some cards "
 "(like non-PCI NE2000s) must be supplied with the I/O address to use and "
@@ -212,98 +480,159 @@ msgid ""
 "by editing /etc/rc.d/rc.modules or recompiling your kernel."
 msgstr "Sorry, er kon geen netwerkkaart op je systeem worden gevonden. Sommige kaarten (zoals niet-PCI NE2000's) moeten worden voorzien van het te gebruiken I/O-adres en kunnen niet veilig worden gedetecteerd. Je zult die kaart later moeten configureren door bewerking van /etc/rc.d/rc.modules of het opnieuw compileren van je kernel."
 
-#: netsetup:571 netsetup:580
+#: netsetup:1012 netsetup:1023 netsetup:1033
 msgid "NETWORK SETUP COMPLETE"
 msgstr "INSTELLEN NETWERK GEREED"
 
-#: netsetup:571
-msgid ""
-"Your networking system is now configured to use loopback:\n"
-"\n"
-"IP address: 127.0.0.1\n"
-"Netmask: 255.255.255.0\n"
-"\n"
-"Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
-msgstr "Je netwerksysteem is nu ingesteld voor gebruik van loopback:\n\nIP-adres: 127.0.0.1\nSubnetmasker: 255.255.255.0\n\nIs dit correct? Toets 'Ja' voor doorgaan of  'Nee' voor herconfiguratie."
+#: netsetup:1012
+msgid "Your networking system is now configured to use loopback:"
+msgstr "Uw netwerk is nu ingesteld om loopback te gebruik:en"
 
-#: netsetup:580
-msgid ""
-"Your networking system is now configured to use NetworkManager for\n"
-"wired and wireless network management.  To set up wireless networks\n"
-"and view status, add the Network Management control panel widget to\n"
-"your KDE desktop.\n"
-"\n"
-"Is this correct?  Press 'Yes' to confirm, or 'No' to reconfigure."
-msgstr "Je netwerksysteem is nu ingesteld voor het gebruik van NetworkManager\nvoor bedraad en draadloos netwerkbeheer. Voeg voor het instellen van\ndraadloze netwerken en het bekijken van de status de Network Management\nwidget toe aan je KDE desktop.\n\nIs dit correct? Druk 'Ja' om te bevestigen of 'Nee' voor opnieuw."
+#: netsetup:1015 netsetup:1038 netsetup:1106
+msgid "IP addresses"
+msgstr "IP adressen"
 
-#: netsetup:590
+#: netsetup:1017
+msgid "Is this correct?  Press 'Yes' to continue, or 'No' to abandon."
+msgstr "Is dit correct? Druk op 'Ja' om door te gaan of 'Nee' om te annuleren."
+
+#: netsetup:1024
+msgid ""
+"Your networking system is now configured to use NetworkManager for wired and"
+" wireless network management."
+msgstr "Uw netwerk is nu ingesteld om NetworkManager te gebruiken voor bekabeld en draadloos netwerkbeheer."
+
+#: netsetup:1025
+msgid ""
+"To set up wireless networks and view status, add the Network Management "
+"control panel widget to your desktop."
+msgstr "Om draadloos netwerk in te stellen en de status ervan te zien, voeg de Network Management control panel widget toe aan uw desktop."
+
+#: netsetup:1027
+msgid "Is this correct?  Press 'Yes' to confirm, or 'No' to abandon."
+msgstr "Is dit correct? Druk op 'Ja' om te bevestigen of 'Nee' om te annuleren."
+
+#: netsetup:1034
+msgid "Your system is now set up to autoconfigure an IPv6 IP address:"
+msgstr "Uw systeem is nu ingesteld om automatisch een IPv6 IP adres in te stellen:"
+
+#: netsetup:1035 netsetup:1058 netsetup:1070 netsetup:1102
+msgid "Hostname"
+msgstr "Hostnaam"
+
+#: netsetup:1036
+msgid "Domain name"
+msgstr "Domeinnaam"
+
+#: netsetup:1037 netsetup:1039 netsetup:1104 netsetup:1105
+msgid "none"
+msgstr "geen"
+
+#: netsetup:1038
+msgid "use IPv6 SLAAC"
+msgstr "gebruik IPv6 SLAAC"
+
+#: netsetup:1039 netsetup:1065 netsetup:1084 netsetup:1109
+msgid "Nameserver"
+msgstr "Naamserver"
+
+#: netsetup:1041
+msgid "If this is correct, hit 'Yes' to confirm, or 'No' to abandon."
+msgstr "Als dit correct Is, druk op 'Ja' om te bevestigen of 'Nee' om te annuleren."
+
+#: netsetup:1048
 msgid "CONFIRM NETWORK SETUP"
 msgstr "BEVESTIG NETWERKINSTELLING"
 
-#: netsetup:595
+#: netsetup:1049
+msgid "Accept"
+msgstr "Accepteer"
+
+#: netsetup:1050
+msgid "Edit"
+msgstr "Wijzig"
+
+#: netsetup:1051
+msgid "Abandon"
+msgstr "Annuleer"
+
+#: netsetup:1053
+msgid "These are the settings you have entered."
+msgstr "Dit zijn de instellingen welke u heeft ingevoerd."
+
+#: netsetup:1054
+msgid "To accept them and complete the networking setup, press ENTER."
+msgstr "Om te accepteren en de netwerk instelling te voltooien, druk op ENTER."
+
+#: netsetup:1055
 msgid ""
-"These are the settings you have entered.  To accept them and complete the "
-"networking setup, press enter.  If you need to make any changes, you can do "
-"that now (or reconfigure later using 'netsetup')."
-msgstr "Dit zijn de instellingen die je hebt opgegeven. Toets ENTER om ze door te voeren. Als je hier nog iets aan wilt veranderen kun je dat nu nog doen (of later herconfigureren met 'netsetup')."
+"If you need to make any changes, you can do that now using 'Edit' (or "
+"reconfigure later using 'netsetup')."
+msgstr "Als u wijzigingen moet uitvoeren, kunt u dat nu doen door 'Wijzig' te gebruiken (of stel later opnieuw in door 'netsetup' te gebruiken)."
 
-#: netsetup:599
-msgid "Hostname:"
-msgstr "Hostnaam:"
+#: netsetup:1059 netsetup:1072 netsetup:1103
+msgid "Domain Name"
+msgstr "Domeinnaam"
 
-#: netsetup:600
-msgid "Domain name:"
-msgstr "Domeinnaam:"
+#: netsetup:1061 netsetup:1076
+msgid "IPv4 Addresses"
+msgstr "IPv4 adressen"
 
-#: netsetup:601
-msgid "IP address:"
-msgstr "IP-adres:"
+#: netsetup:1062 netsetup:1078
+msgid "IPv4 Gateway"
+msgstr "IPv4 Gateway"
 
-#: netsetup:602
-msgid "Netmask:"
-msgstr "Subnetmasker:"
+#: netsetup:1063 netsetup:1080
+msgid "IPv6 Addresses"
+msgstr "IPv6 Adressen"
 
-#: netsetup:603
-msgid "Gateway:"
-msgstr "Gateway:"
+#: netsetup:1064 netsetup:1082
+msgid "IPv6 Gateway"
+msgstr "IPv6 Gateway"
 
-#: netsetup:604
-msgid "Nameserver:"
-msgstr "Naamserver:"
-
-#: netsetup:627
+#: netsetup:1099
 msgid "CONFIRM SETUP COMPLETE"
 msgstr "BEVESTIG INSTELLINGEN GEREED"
 
-#: netsetup:628
+#: netsetup:1100
 #, sh-format
-msgid ""
-"Your networking system is now configured to use DHCP:\n"
-"\n"
-"  Hostname:     $HOSTNM\n"
-"  Domain name:  $DOMAIN\n"
-"  IP address:   (use DHCP server)\n"
-"  Netmask:      (use DHCP server)\n"
-"  Gateway:      (use DHCP server)\n"
-"  Nameserver:   (use DHCP server)\n"
-"\n"
-"Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
-msgstr "Je netwerksysteem is nu ingesteld op DHCP:\n\n  Hostnaam: $HOSTNM\n  Domeinnaam: $DOMAIN\n  IP-adres: (gebruik DHCP-server)\n  Subnetmasker: (gebruik DHCP-server)\n  Gateway: (gebruik DHCP-server)\n  Naamserver: (gebruik DHCP-server)\n\nIs dit correct? Toets 'Ja' voor doorgaan of 'Nee' voor herconfiguratie."
+msgid "Your networking system is now configured to use DHCP"
+msgstr "Uw netwerk is nu ingesteld om DHCP te gebruik:en"
 
-#: netsetup:653
+#: netsetup:1105
+msgid "DHCP hostname"
+msgstr "DHCP hostnaam"
+
+#: netsetup:1106 netsetup:1107 netsetup:1108 netsetup:1109
+msgid "use DHCP server"
+msgstr "gebruik DHCP server"
+
+#: netsetup:1107
+msgid "Netmask & Prefix"
+msgstr "Netmask & Prefix"
+
+#: netsetup:1108
+msgid "Gateways"
+msgstr "Gateways"
+
+#: netsetup:1111
+msgid "Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
+msgstr "Is dit correct? Druk op 'Ja' om door te gaan of 'Nee' om opnieuw in te stellen."
+
+#: netsetup:1128
 msgid "Settings accepted.  Basic network configuration is complete."
-msgstr "Instellingen geaccepteerd. Basisnetwerkinstelling is nu gereed."
+msgstr "Instellingen geaccepteerd. Basisnetwerkinstelling is gereed."
 
-#: netsetup:657
+#: netsetup:1130
 msgid ""
 "Settings discarded.  Run the 'netsetup' command again if you need to "
 "reconfigure your network settings."
-msgstr "Instellingen verworpen. Voer 'netsetup' nogmaals uit als je je netwerkinstellingen wilt herconfigureren."
+msgstr "Instellingen verworpen. Start 'netsetup' nogmaals als u de netwerkinstellingen wilt herconfigureren."
 
-#: setup.netsetup:5
+#: setup.netsetup:36
 msgid "CONFIGURE NETWORK?"
 msgstr "NETWERK CONFIGUREREN?"
 
-#: setup.netsetup:5
+#: setup.netsetup:36
 msgid "Would you like to configure your network?"
 msgstr "Wil je je netwerk configureren?"

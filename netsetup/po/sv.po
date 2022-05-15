@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Didier Spaier <didier@slint.fr>, 2014
-# Ingemar Karlsson <ingemar@ingk.se>, 2014,2016
+# Ingemar Karlsson <ingemar@ingk.se>, 2014,2016,2022
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-09 13:36+0300\n"
-"PO-Revision-Date: 2017-09-23 00:05+0000\n"
-"Last-Translator: gapan <vlahavas@gmail.com>\n"
+"POT-Creation-Date: 2022-04-29 11:13+0300\n"
+"PO-Revision-Date: 2016-06-09 10:48+0000\n"
+"Last-Translator: Ingemar Karlsson <ingemar@ingk.se>, 2014,2016,2022\n"
 "Language-Team: Swedish (http://www.transifex.com/gapan/salixtools/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,159 +19,418 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: netsetup:245
+#: netsetup:423 netsetup:448
+msgid "The IP address you have entered is not valid."
+msgstr "IP-adressen du har angivet är inte giltig."
+
+#: netsetup:425
 #, sh-format
 msgid ""
-"The address you have entered seems to be non-standard. We were expecting\n"
-"$ArG2 groups of numbers seperated by dots, like: 127.0.0.1\n"
-"Are you absolutely sure you want to use the address $ArG1?"
-msgstr "Adressen du har angett verkar inte vara standard. Vi förväntade oss\n$ArG2 grupper av siffror separerade med punkter, som: 127.0.0.1\nÄr du helt säker på att du vill använda adressen $ArG1?"
+"There should be $ArG2 groups of numbers seperated by dots, for example:"
+msgstr "Det bör finnas $ArG2-grupper med nummer separerade med punkter, till exempel:"
 
-#: netsetup:249
-msgid "WARNING"
-msgstr "VARNING"
+#: netsetup:428
+msgid "Please correct any mistakes in the IP."
+msgstr "Vänligen korrigera eventuella fel i IP-adressen."
 
-#: netsetup:284
-msgid ""
-"First, we'll need the name you'd like to give your host.\n"
-"Only the base hostname is needed right now. (not the domain)\n"
-"\n"
-"Enter hostname:"
-msgstr "Först behöver vi det namn du vill ge din värd.\nEndast bas värdnamn behövs just nu. (inte domänen)\n\nAnge värdnamn:"
+#: netsetup:430 netsetup:447
+msgid "INVALID IP"
+msgstr "OGILTIG IP"
 
-#: netsetup:288
+#: netsetup:430 netsetup:447 netsetup:551 netsetup:698 netsetup:794
+msgid "Back"
+msgstr "Tillbaka"
+
+#: netsetup:450
+msgid "Please enter a valid IPv6 address."
+msgstr "Ange en giltig IPv6-adress."
+
+#: netsetup:482
+msgid "First, we'll need the name you'd like to give your host."
+msgstr "Först behöver vi det namn som du vill ge din värd."
+
+#: netsetup:484
+msgid "Only the base hostname is needed right now - not the domain."
+msgstr "Det är bara basvärdsnamn som behövs just nu - inte domänen."
+
+#: netsetup:486
+msgid "Enter hostname:"
+msgstr "Ange värdnamn:"
+
+#: netsetup:487
 msgid "ENTER HOSTNAME"
 msgstr "SKRIV IN VÄRDNAMN"
 
-#: netsetup:302
-#, sh-format
+#: netsetup:487 netsetup:508 netsetup:587 netsetup:613
+msgid "Exit"
+msgstr "Avsluta"
+
+#: netsetup:502
+msgid "Now, we need the domain name for this machine, such as:"
+msgstr "Nu behöver vi domännamnet för den här maskinen, till exempel:"
+
+#: netsetup:504
+msgid "Do not supply a leading '.'"
+msgstr "Ange inte ett inledande '.'"
+
+#: netsetup:506
+msgid "Enter domain name for"
+msgstr "Ange domännamn för"
+
+#: netsetup:508
+msgid "ENTER DOMAINNAME"
+msgstr "ANGE DOMÄNNAMN"
+
+#: netsetup:521
 msgid ""
-"Now, we need the domain name for this machine, such as:\n"
-"\n"
-"example.org\n"
-"\n"
-"Do not supply a leading '.'\n"
-"\n"
-"Enter domain name for $HOSTNM:"
-msgstr "Nu behöver vi domännamnet för den här maskinen, till exempel:\n\nexempel.org\n\nAnge inte en inledande \".\"\n\nAnge domännamn för $HOSTNM:"
+"Some advanced networking set ups require a VLAN ID in order to connect to "
+"the network."
+msgstr "Vissa avancerade nätverksinställningar kräver ett VLAN-ID för att kunna ansluta till nätverket."
 
-#: netsetup:309
-#, sh-format
-msgid "ENTER DOMAINNAME FOR $HOSTNM"
-msgstr "ANGE DOMÄNNAMN FÖR $HOSTNM"
+#: netsetup:523
+msgid "Do you wish to configure a VLAN ID now?"
+msgstr "Vill du konfigurera ett VLAN-ID nu?"
 
-#: netsetup:330
-#, sh-format
-msgid "CONFIGURATION TYPE FOR $HOSTNM.$DOMAIN"
-msgstr "KONFIGURATIONS TYP FÖR $HOSTNM.$DOMAIN"
+#: netsetup:525
+msgid "Unless you are sure you require a VLAN ID, select 'No'."
+msgstr "Om du inte är säker på att du behöver ett VLAN-ID, välj \"Nej\"."
 
-#: netsetup:333
+#: netsetup:526
+msgid "CONNECT VIA VLAN"
+msgstr "ANSLUTA VIA VLAN"
+
+#: netsetup:537 netsetup:551 netsetup:1037 netsetup:1060 netsetup:1074
+#: netsetup:1104
+msgid "VLAN ID"
+msgstr "VLAN ID"
+
+#: netsetup:537 netsetup:635 netsetup:677 netsetup:732 netsetup:765
+#: netsetup:828 netsetup:895
+msgid "Skip"
+msgstr "Hoppa över"
+
+#: netsetup:538
+msgid "Enter the VLAN ID used on this network:"
+msgstr "Ange VLAN-ID som används på detta nätverk:"
+
+#: netsetup:552
+msgid "That doesn't appear to be a valid VLAN ID."
+msgstr "Det verkar inte vara ett giltigt VLAN-ID."
+
+#: netsetup:566
+msgid "CONFIGURATION TYPE FOR"
+msgstr "KONFIGURATIONSTYP FÖR"
+
+#: netsetup:569
+msgid "Now we need to know how your machine connects to the network."
+msgstr "Nu behöver vi veta hur din maskin ansluter till nätverket."
+
+#: netsetup:571
 msgid ""
-"Now we need to know how your machine connects to the network.\n"
-"\n"
-"If you have an internal network card and an assigned IP address, gateway, and DNS, use the 'static IP' choice to enter these values.  If your IP address is assigned by a DHCP server (commonly used by cable modem and DSL services), select 'DHCP'.  If you do not have a network card, select the 'loopback' choice.  You may also select 'NetworkManager' if you would like to have the NetworkManager daemon automatically handle your wired and wireless network interfaces (this is simple and usually works). Which type of network setup would you like?"
-msgstr "Nu behöver vi veta hur maskinen ansluts till nätverket.\n\nOm du har ett internt nätverkskort och en tilldelad IP-adress, gateway och DNS, använd \"static IP\" valet för att ange dessa värden. Om din IP-adress tilldelas av en DHCP-server (som vanligen används av kabelmodem och DSL-tjänster), välj \"DHCP\". Om du inte har ett nätverkskort, välj \"loopback\". Du kan också välja \"NetworkManager\" om du vill att NetworkManager demonen automatiskt hantera dina trådbundna och trådlösa nätverksgränssnitt (detta är enkel och fungerar oftast). Vilken typ av nätverksinställningar vill du ha?"
+"If you have an internal network card and an assigned IP address, gateway, "
+"and DNS, use the 'static IP' choice to enter these values."
+msgstr "Om du har ett internt nätverkskort och en tilldelad IP-adress, gateway och DNS, använd alternativet \"statisk IP\" för att ange dessa värden."
 
-#: netsetup:343
+#: netsetup:572
+msgid ""
+"If your IP address is assigned by a DHCP server (commonly used by cable "
+"modem and DSL services), select 'DHCP'."
+msgstr "Om din IP-adress tilldelas av en DHCP-server (används vanligtvis av kabelmodem och DSL-tjänster), välj \"DHCP\"."
+
+#: netsetup:574
+msgid ""
+"Select 'NetworkManager' if you would like to have the NetworkManager daemon "
+"automatically handle your wired and wireless network interfaces (this is "
+"simple and usually works)."
+msgstr "Välj 'NetworkManager' om du vill att NetworkManager-demonen automatiskt ska hantera dina trådbundna och trådlösa nätverksgränssnitt (detta är enkelt och fungerar vanligtvis)."
+
+#: netsetup:575
+msgid ""
+"IPv6 networks may also use SLAAC (Stateless Address Autoconfiguration) to "
+"assign an address based on Router Advertisments."
+msgstr "IPv6-nätverk kan också använda SLAAC (Stateless Address Autoconfiguration) för att tilldela en adress baserat på routerannonser."
+
+#: netsetup:576
+msgid "If you do not have a network card, select the 'loopback' choice."
+msgstr "Om du inte har ett nätverkskort, välj alternativet 'loopback'."
+
+#: netsetup:578
+msgid "Which type of network setup would you like?"
+msgstr "Vilken typ av nätverkskonfiguration vill du ha?"
+
+#: netsetup:590
 msgid "Use a static IP address to configure ethernet"
 msgstr "Använd en statisk IP-adress för att konfigurera Ethernet"
 
-#: netsetup:344
+#: netsetup:591
 msgid "Use a DHCP server to configure ethernet"
 msgstr "Använd en DHCP-server för att konfigurera ethernet"
 
-#: netsetup:345
-msgid "Set up a loopback connection (modem or no net)"
-msgstr "Konfigurera en loopback-anslutning (modem eller inget nät)"
-
-#: netsetup:346
+#: netsetup:592
 msgid "Autoconfigure network using NetworkManager"
 msgstr "Autokonfigurera nätverket med NetworkManager"
 
-#: netsetup:356
+#: netsetup:593
+msgid "Use SLAAC to configure ethernet (IPv6 only)"
+msgstr "Använd SLAAC för att konfigurera Ethernet (endast IPv6)"
+
+#: netsetup:594
+msgid "Set up a loopback connection (modem or no net)"
+msgstr "Konfigurera en loopback-anslutning (modem eller inget nät)"
+
+#: netsetup:603
+msgid "Please select the type of DHCP to use to configure your networking."
+msgstr "Välj vilken typ av DHCP som ska användas för att konfigurera ditt nätverk."
+
+#: netsetup:605
+msgid ""
+"Select 'DHCPv4' to configure for an IPv4 network (this is the most common "
+"type of network, and the safe choice)."
+msgstr "Välj 'DHCPv4' för att konfigurera för ett IPv4-nätverk (detta är den vanligaste typen av nätverk och det säkra valet)."
+
+#: netsetup:607
+msgid ""
+"Select 'DHCPv6' for a pure IPv6 network, or 'Both' to try and set up both "
+"types of network."
+msgstr "Välj \"DHCPv6\" för ett rent IPv6-nätverk, eller \"Båda\" för att försöka ställa in båda typerna av nätverk"
+
+#: netsetup:612
+msgid "SELECT DHCP TYPE"
+msgstr "VÄLJ DHCP-TYP"
+
+#: netsetup:614
+msgid "An IPv4 based network, with no IPv6 configuration"
+msgstr "Ett IPv4-baserat nätverk, utan IPv6-konfiguration"
+
+#: netsetup:615
+msgid "An IPv6 based network, with no IPv4 configuration"
+msgstr "Ett IPv6-baserat nätverk, utan IPv4-konfiguration"
+
+#: netsetup:616
+msgid "Both"
+msgstr "Båda"
+
+#: netsetup:616
+msgid "A combination of IPv4 and IPv6 networks"
+msgstr "En kombination av IPv4 och IPv6-nätverk"
+
+#: netsetup:631
+msgid ""
+"Some network providers require that the DHCP hostname be set in order to "
+"connect."
+msgstr "Vissa nätverksleverantörer kräver att DHCP-värdnamnet ställs in för att kunna ansluta."
+
+#: netsetup:632
+msgid ""
+"If so, they'll have assigned a hostname to your machine, which may look "
+"something like CC-NUMBER-A (this depends on your ISP)."
+msgstr "Om så är fallet, kommer de att ha tilldelat ett värdnamn till din maskin, som kan se ut ungefär som CC-NUMMER-A (detta beror på din internetleverantör)."
+
+#: netsetup:633
+msgid "If you were assigned a DHCP hostname, please enter it below."
+msgstr "Om du tilldelades ett DHCP-värdnamn, vänligen ange det nedan."
+
+#: netsetup:634
+msgid ""
+"If you do not have a DHCP hostname, just leave it blank or select 'Skip'."
+msgstr "Om du inte har ett DHCP-värdnamn, lämna det tomt eller välj \"Hoppa över\"."
+
+#: netsetup:635
 msgid "SET DHCP HOSTNAME"
 msgstr "ANGE DHCP VÄRDNAMN"
 
-#: netsetup:356
+#: netsetup:665
+msgid "Enter the IPv4 addresses for this host."
+msgstr "Ange IPv4-adresserna för denna värd."
+
+#: netsetup:666
 msgid ""
-"Some network providers require that the DHCP hostname be set in order to "
-"connect.  If so, they'll have assigned a hostname to your machine, which may"
-" look something like CC-NUMBER-A (this depends on your ISP).  If you were "
-"assigned a DHCP hostname, please enter it below.  If you do not have a DHCP "
-"hostname, just hit ENTER or Cancel."
-msgstr "Vissa nätoperatörer kräver att DHCP värdnamn anges för att kunna ansluta. Om så är fallet, kommer de att ha tilldelat ett värdnamn för din maskin, vilket kan se ut ungefär som CC-NUMMER-A (detta, beror på din ISP). Om du blev tilldelade ett DHCP värdnamn ska du ange det nedan. Om du inte har en DHCP-värdnamn, tryck bara ENTER eller Avbryt."
+"You may list one or more, space delimited, IPv4 addresses with netmasks in "
+"the format:"
+msgstr "Du kan lista en eller flera, mellanslagsavgränsade, IPv4-adresser med nätmasker i formatet:"
 
-#: netsetup:381
-#, sh-format
+#: netsetup:668 netsetup:769
+msgid "IP address"
+msgstr "IP-adress"
+
+#: netsetup:668
+msgid "CIDR netmask"
+msgstr "CIDR nätmask"
+
+#: netsetup:669
+msgid "For example:"
+msgstr "Till exempel:"
+
+#: netsetup:671 netsetup:771
+msgid "or"
+msgstr "eller"
+
+#: netsetup:672
+msgid "Old style netmask 255.255.255.0 is equivalent of 24 in CIDR style."
+msgstr "Den gammal stilen på nätmask 255.255.255.0 motsvarar 24 i CIDR-stil."
+
+#: netsetup:673
+msgid "If a netmask is not specified a default of 24 will be used."
+msgstr "Om en nätmask inte anges kommer standardvärdet 24 att användas."
+
+#: netsetup:675
 msgid ""
-"Enter your IP address for the local machine.  Example: \n"
-"111.112.113.114\n"
-"Enter IP address for $HOSTNM (aaa.bbb.ccc.ddd):"
-msgstr "Ange din IP-adress för den lokala maskinen. exempel:\n111.112.113.114\nAnge IP-adress för $HOSTNM (aaa.bbb.ccc.ddd):"
+"The first address entered will become the primary IPv4 address of this host."
+msgstr "Den först angivna adressen blir den primära IPv4-adressen för denna värd."
 
-#: netsetup:384
-#, sh-format
-msgid "ENTER IP ADDRESS FOR $HOSTNM.$DOMAIN"
-msgstr "ANGE IP-ADRESS FÖR $HOSTNM.$DOMAIN"
-
-#: netsetup:407
+#: netsetup:676
 msgid ""
-"Enter your netmask.  This will generally look something\n"
-"like this: 255.255.255.0\n"
-"Enter netmask (aaa.bbb.ccc.ddd):"
-msgstr "Ange din nätmask. Detta ser i allmänhet ut\nså här: 255.255.255.0\nAnge nätmask (aaa.bbb.ccc.ddd):"
+"If you do not want to configure a static IPv4 address, just leave it blank "
+"or select 'Skip'."
+msgstr "Om du inte vill konfigurera en statisk IPv4-adress, lämna den tom eller välj \"Hoppa över\"."
 
-#: netsetup:410
-msgid "ENTER NETMASK FOR LOCAL NETWORK"
-msgstr "ANGE NÄTMASK FÖR LOKALT NÄTVERK"
+#: netsetup:677
+msgid "ENTER IPv4 ADDRESSES"
+msgstr "ANGE IPv4 ADRESSER"
 
-#: netsetup:437
-msgid "Enter the address for the gateway on your network, such as:"
-msgstr "Ange adressen för gateway i nätverket, till exempel:"
+#: netsetup:698
+msgid "NO IPv4 ADDRESSES"
+msgstr "INGA IPv4 ADRESSER"
 
-#: netsetup:441
+#: netsetup:699 netsetup:795
+msgid "No IP specified in entry:"
+msgstr "Ingen IP specificerad i posten:"
+
+#: netsetup:712
+msgid "INVALID NETMASK"
+msgstr "OGILTIG NÄTMASK"
+
+#: netsetup:713
+msgid "Invalid netmask specified for entry:"
+msgstr "Ogiltig nätmask angiven i posten:"
+
+#: netsetup:714
+msgid "Valid netmasks will be in the range 1-32."
+msgstr "Giltig nätmask skall vara i omfånget 1-32."
+
+#: netsetup:732
+msgid "ENTER IPv4 GATEWAY ADDRESS"
+msgstr "ANGE IPv4 GATEWAY-ADRESS"
+
+#: netsetup:733
+msgid "Enter the address for the IPv4 gateway on your network, such as:"
+msgstr "Ange adressen för IPv4-gatewayen på ditt nätverk, till exempel:"
+
+#: netsetup:736
 msgid ""
-"If you don't have a gateway on your network just hit ENTER\n"
-"without entering a gateway IP address.\n"
-"\n"
-"Enter gateway address (aaa.bbb.ccc.ddd):"
-msgstr "Om du inte har en gateway i nätverket tryck bara Enter\nutan att ange en gateway IP-adress.\n\nAnge gateway-adress (aaa.bbb.ccc.ddd):"
+"If you don't have an IPv4 gateway on your network, leave it blank or select "
+"'Skip'."
+msgstr "Om du inte har en IPv4-gateway i ditt nätverk, lämna den tom eller välj \"Hoppa över\"."
 
-#: netsetup:445
-msgid "ENTER GATEWAY ADDRESS"
-msgstr "ANGE GATEWAY ADRESS"
+#: netsetup:738
+msgid "Enter IPv4 gateway address:"
+msgstr "Ange IPv4 gateway-adress:"
 
-#: netsetup:466
+#: netsetup:765
+msgid "ENTER IPv6 ADDRESSES"
+msgstr "ANGE IPv6 ADRESSER"
+
+#: netsetup:767
+msgid "Enter the IPv6 addresses for this host."
+msgstr "Ange IPv6 adresser för denna värd."
+
+#: netsetup:768
+msgid ""
+"You may list one or more, space delimited, IPv6 addresses with their "
+"prefixes in the format:"
+msgstr "Du kan lista en eller flera, mellanslagsavgränsade, IPv6-adresser med deras prefix i formatet:"
+
+#: netsetup:769
+msgid "prefix"
+msgstr "prefix"
+
+#: netsetup:770
+msgid "For example"
+msgstr "Till exempel:"
+
+#: netsetup:772
+msgid "If a prefix is not specified a default of 64 will be used."
+msgstr "Om ett prefix inte anges kommer standardvärdet 64 att användas."
+
+#: netsetup:774
+msgid ""
+"If you do not want to configure a static IPv6 address or don't know what to "
+"put, just leave it blank or select 'Skip'."
+msgstr "Om du inte vill konfigurera en statisk IPv6-adress eller inte vet vad du ska ange, lämnar du den tom eller väljer \"Hoppa över\"."
+
+#: netsetup:794
+msgid "NO IPv6 ADDRESSES"
+msgstr "INGA IPv6 ADRESSER"
+
+#: netsetup:808
+msgid "INVALID PREFIX"
+msgstr "OGILTIGT PREFIX"
+
+#: netsetup:809
+msgid "Invalid prefix specified for entry:"
+msgstr "Ogiltigt prefix har angetts för posten:"
+
+#: netsetup:810
+msgid "Valid prefixes will be in the range 1-128."
+msgstr "Giltiga prefix ligger i intervallet 1-128."
+
+#: netsetup:828
+msgid "ENTER IPv6 GATEWAY ADDRESS"
+msgstr "ANGE IPv6 GATEWAY-ADRESS"
+
+#: netsetup:829
+msgid "Enter the address for the IPv6 gateway on your network, such as:"
+msgstr "Ange adressen för IPv6-gatewayen på ditt nätverk, till exempel:"
+
+#: netsetup:832
+msgid ""
+"If you don't have an IPv6 gateway on your network, leave it blank or select "
+"'Skip'."
+msgstr "Om du inte har en IPv6-gateway i ditt nätverk, lämna den tom eller välj \"Hoppa över\"."
+
+#: netsetup:834
+msgid "Enter IPv6 gateway address:"
+msgstr "Ange IPv6 gateway-adress:"
+
+#: netsetup:858
+msgid "NO IP ADDRESSES"
+msgstr "INGA IP ADRESSER"
+
+#: netsetup:859
+msgid ""
+"You have not configured any IP addresses for this host. Are you sure you "
+"want to proceed with no IPs?"
+msgstr "Du har inte konfigurerat några IP-adresser för denna värd. Är du säker på att du vill fortsätta utan IP-adresser?"
+
+#: netsetup:872
 msgid "USE A NAMESERVER?"
 msgstr "ANVÄNDA EN NAMNSERVER?"
 
-#: netsetup:466
+#: netsetup:872
 msgid "Will you be accessing a nameserver?"
 msgstr "Kommer du att ha tillgång till en namnserver?"
 
-#: netsetup:477
-#, sh-format
-msgid ""
-"Here is your current IP address, full hostname, and base hostname:\n"
-"$IPADDR       $HOSTNM.$DOMAIN    $HOSTNM\n"
-"\n"
-"Please give the IP address of the name server to use,\n"
-"such as $DNSSAMPLE.\n"
-"\n"
-"You can add more Domain Name Servers later by editing $RESOLV.\n"
-"\n"
-"Primary name server to use (aaa.bbb.ccc.ddd):"
-msgstr "Här är din aktuella IP-adress, fullständiga värdnamn, och grund värdnamn:\n$IPADDR $HOSTNM.$DOMAIN $HOSTNM\n\nVänligen ange IP-adressen för namnserver att använda,\nt.ex. $DNSSAMPLE.\n\nDu kan lägga till fler domännamnservrar senare genom att redigera $RESOLV.\n\nPrimär namnserver att använda (aaa.bbb.ccc.ddd):"
+#: netsetup:895
+msgid "ENTER NAMESERVER IP ADDRESS"
+msgstr "ANGE NAMNSERVER IP-ADRESS"
 
-#: netsetup:486
-msgid "SELECT NAMESERVER"
-msgstr "VÄLJ NAMNSERVER"
+#: netsetup:897
+msgid "Please give the IP address of the name server to use, such as"
+msgstr "Ange IP-adressen till namnservern som ska användas, t.ex"
 
-#: netsetup:514
+#: netsetup:899
+msgid "You can add more Domain Name Servers later by editing"
+msgstr "Du kan lägga till fler domännamnsservrar senare genom att redigera"
+
+#: netsetup:902
+msgid "Primary name server to use:"
+msgstr "Primär namnserver att använda:"
+
+#: netsetup:955
 msgid "PROBE FOR NETWORK CARD?"
 msgstr "SÖKA EFTER NÄTVERKSKORT?"
 
-#: netsetup:514
+#: netsetup:955
 msgid ""
 "If you like, we can look to see what kind of network card you have in your "
 "machine, and if we find one create an /etc/rc.d/rc.netdevice script to load "
@@ -182,28 +441,36 @@ msgid ""
 "module."
 msgstr "Om du vill, kan vi försöka att se vilken typ av nätverkskort du har i din maskin, och om vi hittar en skapa ett /etc/rc.d/rc.netdevice skript för att ladda modulen för den vid uppstart. Det finns en liten risk att avkänningen kan orsaka problem, men det fungerar nästan alltid. Om du hellre vill konfigurera systemet manuellt, kan du hoppa över avsöknings-processen och redigera /etc/rc.d/rc.modules eller /etc/modules.conf senare för att ladda rätt modul."
 
-#: netsetup:522
+#: netsetup:963
+msgid "probe"
+msgstr "sök"
+
+#: netsetup:963
 msgid "look for network cards to set up"
 msgstr "leta efter nätverkskort att ställa in"
 
-#: netsetup:523
+#: netsetup:964 netsetup:971
+msgid "skip"
+msgstr "Hoppa över"
+
+#: netsetup:964
 msgid "skip probe;  edit /etc/rc.d/rc.modules later"
 msgstr "hoppa över avsökning; redigera /etc/rc.d/rc.modules senare"
 
-#: netsetup:536 netsetup:553
+#: netsetup:977 netsetup:994
 msgid "CARD DETECTED"
 msgstr "KORTDETEKTERING"
 
-#: netsetup:536 netsetup:553
+#: netsetup:977 netsetup:994
 #, sh-format
 msgid "A networking card using the $card.o module has been detected."
 msgstr "En nätverkskortet som använder $card.o modulen har upptäckts."
 
-#: netsetup:561
+#: netsetup:1002
 msgid "NO CARD DETECTED"
 msgstr "INGA KORT UPPTÄCKTA"
 
-#: netsetup:561
+#: netsetup:1002
 msgid ""
 "Sorry, but no network card could be probed for on your system.  Some cards "
 "(like non-PCI NE2000s) must be supplied with the I/O address to use and "
@@ -211,98 +478,159 @@ msgid ""
 "by editing /etc/rc.d/rc.modules or recompiling your kernel."
 msgstr "Ledsen, men inget nätverkskort kan upptäckas på ditt system. Vissa kort (som icke-PCI NE2000s) skall förses med I/O-adress att använda och kan inte undersökas på ett säkert sätt. Du måste försöka att konfigurera kortet senare genom att redigera /etc/rc.d/rc.modules eller kompilera om din kärna."
 
-#: netsetup:571 netsetup:580
+#: netsetup:1012 netsetup:1023 netsetup:1033
 msgid "NETWORK SETUP COMPLETE"
 msgstr "INSTÄLLNING AV NÄTVERKSKORT KLAR"
 
-#: netsetup:571
-msgid ""
-"Your networking system is now configured to use loopback:\n"
-"\n"
-"IP address: 127.0.0.1\n"
-"Netmask: 255.255.255.0\n"
-"\n"
-"Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
-msgstr "Din nätverkssystem är nu konfigurerad för att använda loopback:\n\nIP-adress: 127.0.0.1\nNätmask: 255.255.255.0\n\nÄr detta korrekt? Tryck på \"Ja\" för att fortsätta, eller \"Nej\" för att konfigurera."
+#: netsetup:1012
+msgid "Your networking system is now configured to use loopback:"
+msgstr "Ditt nätverkssystem är nu konfigurerat att använda loopback:"
 
-#: netsetup:580
-msgid ""
-"Your networking system is now configured to use NetworkManager for\n"
-"wired and wireless network management.  To set up wireless networks\n"
-"and view status, add the Network Management control panel widget to\n"
-"your KDE desktop.\n"
-"\n"
-"Is this correct?  Press 'Yes' to confirm, or 'No' to reconfigure."
-msgstr "Ditt nätverkssystem är nu konfigurerad för att använda Networkmanager för\ntrådbundna och trådlösa nätverk. För att ställa in trådlösa nätverk\noch visa status, lägga till Network Management kontrollpanel widget till\nKDE-skrivbordet.\n\nÄr detta korrekt? Tryck på \"Ja\" för att bekräfta, eller \"Nej\" för att konfigurera."
+#: netsetup:1015 netsetup:1038 netsetup:1106
+msgid "IP addresses"
+msgstr "IP-adresser"
 
-#: netsetup:590
+#: netsetup:1017
+msgid "Is this correct?  Press 'Yes' to continue, or 'No' to abandon."
+msgstr "Är detta rätt? Tryck på \"Ja\" för att fortsätta, eller \"Nej\" för att avbryta."
+
+#: netsetup:1024
+msgid ""
+"Your networking system is now configured to use NetworkManager for wired and"
+" wireless network management."
+msgstr "Ditt nätverkssystem är nu konfigurerat för att använda NetworkManager för trådbundna och trådlösa nätverkshantering."
+
+#: netsetup:1025
+msgid ""
+"To set up wireless networks and view status, add the Network Management "
+"control panel widget to your desktop."
+msgstr "För att konfigurera trådlösa nätverk och visa status, lägg till widgeten Network Management-kontrollpanelen på skrivbordet."
+
+#: netsetup:1027
+msgid "Is this correct?  Press 'Yes' to confirm, or 'No' to abandon."
+msgstr "Är detta rätt? Tryck på \"Ja\" för att bekräfta, eller \"Nej\" för att avbryta."
+
+#: netsetup:1034
+msgid "Your system is now set up to autoconfigure an IPv6 IP address:"
+msgstr "Ditt system är nu inställt för att auto-konfigurera en IPv6 IP-adress:"
+
+#: netsetup:1035 netsetup:1058 netsetup:1070 netsetup:1102
+msgid "Hostname"
+msgstr "Värdnamn"
+
+#: netsetup:1036
+msgid "Domain name"
+msgstr "Domännamn"
+
+#: netsetup:1037 netsetup:1039 netsetup:1104 netsetup:1105
+msgid "none"
+msgstr "ingen"
+
+#: netsetup:1038
+msgid "use IPv6 SLAAC"
+msgstr "använd IPv6 SLAAC"
+
+#: netsetup:1039 netsetup:1065 netsetup:1084 netsetup:1109
+msgid "Nameserver"
+msgstr "Namnserver"
+
+#: netsetup:1041
+msgid "If this is correct, hit 'Yes' to confirm, or 'No' to abandon."
+msgstr "Är detta rätt? Tryck på \"Ja\" för att bekräfta, eller \"Nej\" för att avbryta."
+
+#: netsetup:1048
 msgid "CONFIRM NETWORK SETUP"
 msgstr "BEKRÄFTA NÄTVERKSINSTÄLLNINGAR"
 
-#: netsetup:595
+#: netsetup:1049
+msgid "Accept"
+msgstr "Acceptera"
+
+#: netsetup:1050
+msgid "Edit"
+msgstr "Redigera"
+
+#: netsetup:1051
+msgid "Abandon"
+msgstr "Överge"
+
+#: netsetup:1053
+msgid "These are the settings you have entered."
+msgstr "Det här är inställningarna du har angett."
+
+#: netsetup:1054
+msgid "To accept them and complete the networking setup, press ENTER."
+msgstr "För att acceptera dem och slutföra nätverksinstallationen, tryck på ENTER."
+
+#: netsetup:1055
 msgid ""
-"These are the settings you have entered.  To accept them and complete the "
-"networking setup, press enter.  If you need to make any changes, you can do "
-"that now (or reconfigure later using 'netsetup')."
-msgstr "Dessa är de inställningar du har angett. För att acceptera dessa och slutföra installationen av nätverket, tryck på enter. Om du behöver göra några ändringar, kan du göra det nu (eller konfigurera senare genom att använda \"netsetup\")."
+"If you need to make any changes, you can do that now using 'Edit' (or "
+"reconfigure later using 'netsetup')."
+msgstr "Om du behöver göra några ändringar kan du göra det nu med \"Redigera\" (eller konfigurera om senare med \"netsetup\")."
 
-#: netsetup:599
-msgid "Hostname:"
-msgstr "Värdnamn:"
+#: netsetup:1059 netsetup:1072 netsetup:1103
+msgid "Domain Name"
+msgstr "Domännamn"
 
-#: netsetup:600
-msgid "Domain name:"
-msgstr "Domännamn:"
+#: netsetup:1061 netsetup:1076
+msgid "IPv4 Addresses"
+msgstr "IPv4-adresser"
 
-#: netsetup:601
-msgid "IP address:"
-msgstr "IP adress:"
+#: netsetup:1062 netsetup:1078
+msgid "IPv4 Gateway"
+msgstr "IPv4 Gateway"
 
-#: netsetup:602
-msgid "Netmask:"
-msgstr "Nätmask:"
+#: netsetup:1063 netsetup:1080
+msgid "IPv6 Addresses"
+msgstr "IPv6-adresser"
 
-#: netsetup:603
-msgid "Gateway:"
-msgstr "Gateway:"
+#: netsetup:1064 netsetup:1082
+msgid "IPv6 Gateway"
+msgstr "IPv6 Gateway"
 
-#: netsetup:604
-msgid "Nameserver:"
-msgstr "Namnserver:"
-
-#: netsetup:627
+#: netsetup:1099
 msgid "CONFIRM SETUP COMPLETE"
 msgstr "BEKRÄFTA INSTÄLLNING"
 
-#: netsetup:628
+#: netsetup:1100
 #, sh-format
-msgid ""
-"Your networking system is now configured to use DHCP:\n"
-"\n"
-"  Hostname:     $HOSTNM\n"
-"  Domain name:  $DOMAIN\n"
-"  IP address:   (use DHCP server)\n"
-"  Netmask:      (use DHCP server)\n"
-"  Gateway:      (use DHCP server)\n"
-"  Nameserver:   (use DHCP server)\n"
-"\n"
-"Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
-msgstr "Din nätverkssystem är nu inställd på att använda DHCP:\n\n  Värdnamn:     $HOSTNM\n  Domännamn:   $DOMAIN\n  IP-adress:     (använd DHCP-server)\n  Nätmask:     (använd DHCP-server)\n  Gateway:     (använd DHCP-server)\n  Namnserver:     (använd DHCP-server)\n\nÄr detta korrekt? Tryck på \"Ja\" för att fortsätta, eller \"Nej\" för att konfigurera."
+msgid "Your networking system is now configured to use DHCP"
+msgstr "Ditt nätverkssystem är nu konfigurerat att använda DHCP"
 
-#: netsetup:653
+#: netsetup:1105
+msgid "DHCP hostname"
+msgstr "DHCP värdnamn"
+
+#: netsetup:1106 netsetup:1107 netsetup:1108 netsetup:1109
+msgid "use DHCP server"
+msgstr "använd DHCP-server"
+
+#: netsetup:1107
+msgid "Netmask & Prefix"
+msgstr "Nätmask & Prefix"
+
+#: netsetup:1108
+msgid "Gateways"
+msgstr "Gateways"
+
+#: netsetup:1111
+msgid "Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
+msgstr "Är detta rätt? Tryck på \"Ja\" för att fortsätta eller \"Nej\" för att konfigurera om."
+
+#: netsetup:1128
 msgid "Settings accepted.  Basic network configuration is complete."
 msgstr "Inställningar accepteras. Grundläggande nätverkskonfiguration är komplett."
 
-#: netsetup:657
+#: netsetup:1130
 msgid ""
 "Settings discarded.  Run the 'netsetup' command again if you need to "
 "reconfigure your network settings."
 msgstr "Inställningar kastades. Kör \"netsetup\" kommandot igen om du måste konfigurera nätverksinställningarna."
 
-#: setup.netsetup:5
+#: setup.netsetup:36
 msgid "CONFIGURE NETWORK?"
 msgstr "KONFIGURERA NÄTVERKET?"
 
-#: setup.netsetup:5
+#: setup.netsetup:36
 msgid "Would you like to configure your network?"
 msgstr "Vill du konfigurera ditt nätverk?"
