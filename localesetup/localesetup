@@ -107,6 +107,10 @@ if [ "$locale" ]; then
 	if [ -f /etc/kde/kdm/kdmrc ]; then
 		sed -i "s/\(^\|^#\)Language=.*/Language=$locale_noutf8/" /etc/kde/kdm/kdmrc
 	fi
+	# pam
+	grep -q "^LANG=" /etc/environment && \
+		sed -i "s/^LANG=.*/LANG=$locale/" /etc/environment || \
+		echo "LANG=$locale" >> /etc/environment
 fi
 
 # end
