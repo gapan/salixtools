@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Alejandro Simón <alejandrosimon@gmx.com>, 2016
+# Alejandro Simón <alejandrosimon@gmx.com>, 2016,2022
 # diantre, 2013,2016
 # Diantre, 2013
 # diantre, 2013-2014, 2016
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-29 11:13+0300\n"
 "PO-Revision-Date: 2016-06-09 10:48+0000\n"
-"Last-Translator: Alejandro Simón <alejandrosimon@gmx.com>, 2016\n"
+"Last-Translator: Alejandro Simón <alejandrosimon@gmx.com>, 2016,2022\n"
 "Language-Team: Spanish (http://www.transifex.com/gapan/salixtools/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,146 +26,146 @@ msgstr ""
 
 #: netsetup:423 netsetup:448
 msgid "The IP address you have entered is not valid."
-msgstr ""
+msgstr "La dirección IP ingresada no es válida."
 
 #: netsetup:425
 #, sh-format
 msgid ""
 "There should be $ArG2 groups of numbers seperated by dots, for example:"
-msgstr ""
+msgstr "Deben ser $ArG2 grupos de números separados por puntos, por ejemplo:"
 
 #: netsetup:428
 msgid "Please correct any mistakes in the IP."
-msgstr ""
+msgstr "Por favor, corrija los errores en la IP."
 
 #: netsetup:430 netsetup:447
 msgid "INVALID IP"
-msgstr ""
+msgstr "IP INVÁLIDA"
 
 #: netsetup:430 netsetup:447 netsetup:551 netsetup:698 netsetup:794
 msgid "Back"
-msgstr ""
+msgstr "Volver"
 
 #: netsetup:450
 msgid "Please enter a valid IPv6 address."
-msgstr ""
+msgstr "Por favor, ingrese una dirección IPv6 válida."
 
 #: netsetup:482
 msgid "First, we'll need the name you'd like to give your host."
-msgstr ""
+msgstr "Ante todo se necesita el nombre de host que se le asignará a su equipo."
 
 #: netsetup:484
 msgid "Only the base hostname is needed right now - not the domain."
-msgstr ""
+msgstr " Ahora solo es necesario el nombre de host del equipo, no el dominio."
 
 #: netsetup:486
 msgid "Enter hostname:"
-msgstr ""
+msgstr "Ingrese el nombre de host del equipo:"
 
 #: netsetup:487
 msgid "ENTER HOSTNAME"
-msgstr "INGRESE NOMBRE DEL EQUIPO (HOSTNAME)"
+msgstr "INGRESAR EL NOMBRE DE HOST DEL EQUIPO"
 
 #: netsetup:487 netsetup:508 netsetup:587 netsetup:613
 msgid "Exit"
-msgstr ""
+msgstr "Salir"
 
 #: netsetup:502
 msgid "Now, we need the domain name for this machine, such as:"
-msgstr ""
+msgstr "Ahora se necesita el nombre de dominio de esta máquina, tal como:"
 
 #: netsetup:504
 msgid "Do not supply a leading '.'"
-msgstr ""
+msgstr "No proporcione un '.' inicial."
 
 #: netsetup:506
 msgid "Enter domain name for"
-msgstr ""
+msgstr "Ingrese el nombre de dominio para"
 
 #: netsetup:508
 msgid "ENTER DOMAINNAME"
-msgstr ""
+msgstr "INGRESAR EL NOMBRE DE DOMINIO"
 
 #: netsetup:521
 msgid ""
 "Some advanced networking set ups require a VLAN ID in order to connect to "
 "the network."
-msgstr ""
+msgstr "Algunas configuraciones avanzadas de red requieren una ID VLAN para poder conectarse."
 
 #: netsetup:523
 msgid "Do you wish to configure a VLAN ID now?"
-msgstr ""
+msgstr "¿Desea configurar una ID VLAN ahora?"
 
 #: netsetup:525
 msgid "Unless you are sure you require a VLAN ID, select 'No'."
-msgstr ""
+msgstr "A menos que tenga la seguridad de necesitar una ID VLAN, seleccione 'No'."
 
 #: netsetup:526
 msgid "CONNECT VIA VLAN"
-msgstr ""
+msgstr "CONECTAR VIA VLAN"
 
 #: netsetup:537 netsetup:551 netsetup:1037 netsetup:1060 netsetup:1074
 #: netsetup:1104
 msgid "VLAN ID"
-msgstr ""
+msgstr "ID VLAN"
 
 #: netsetup:537 netsetup:635 netsetup:677 netsetup:732 netsetup:765
 #: netsetup:828 netsetup:895
 msgid "Skip"
-msgstr ""
+msgstr "Saltear"
 
 #: netsetup:538
 msgid "Enter the VLAN ID used on this network:"
-msgstr ""
+msgstr "Ingrese la ID VLAN utilizada en esta red:"
 
 #: netsetup:552
 msgid "That doesn't appear to be a valid VLAN ID."
-msgstr ""
+msgstr "No parece ser una ID VLAN válida."
 
 #: netsetup:566
 msgid "CONFIGURATION TYPE FOR"
-msgstr ""
+msgstr "TIPO DE CONFIGURACIÓN PARA"
 
 #: netsetup:569
 msgid "Now we need to know how your machine connects to the network."
-msgstr ""
+msgstr "Ahora se necesita saber la forma en que su máquina se conectará a la red."
 
 #: netsetup:571
 msgid ""
 "If you have an internal network card and an assigned IP address, gateway, "
 "and DNS, use the 'static IP' choice to enter these values."
-msgstr ""
+msgstr "Si posee una tarjeta de red interna y ha asignado una dirección IP, puerta de enlace, y DNS, elija la opción 'IP estática' para ingresar estos valores. "
 
 #: netsetup:572
 msgid ""
 "If your IP address is assigned by a DHCP server (commonly used by cable "
 "modem and DSL services), select 'DHCP'."
-msgstr ""
+msgstr "Si su dirección IP es provista por un servidor DHCP (usualmente utilizado por cablemodem y servicios DSL), seleccione 'DHCP'"
 
 #: netsetup:574
 msgid ""
 "Select 'NetworkManager' if you would like to have the NetworkManager daemon "
 "automatically handle your wired and wireless network interfaces (this is "
 "simple and usually works)."
-msgstr ""
+msgstr "Seleccione 'NetworkManager' si desea que el demonio NetworkManager sea quien maneje automáticamente sus interfaces de red cableadas e inalámbricas (es simple y habitualmente funciona)."
 
 #: netsetup:575
 msgid ""
 "IPv6 networks may also use SLAAC (Stateless Address Autoconfiguration) to "
 "assign an address based on Router Advertisments."
-msgstr ""
+msgstr "Las redes IPv6 suelen usar SLAAC (configuración automática de dirección sin estado) para asignar una dirección basada en las indicaciones del router."
 
 #: netsetup:576
 msgid "If you do not have a network card, select the 'loopback' choice."
-msgstr ""
+msgstr "Si no posee una tarjeta de red, seleccione la opción 'loopback'."
 
 #: netsetup:578
 msgid "Which type of network setup would you like?"
-msgstr ""
+msgstr "¿Qué tipo de configuración de red desea?"
 
 #: netsetup:590
 msgid "Use a static IP address to configure ethernet"
-msgstr "Usar dirección IP estática para configurar ethernet"
+msgstr "Usar una dirección IP estática para configurar ethernet"
 
 #: netsetup:591
 msgid "Use a DHCP server to configure ethernet"
@@ -177,7 +177,7 @@ msgstr "Configurar automáticamente utilizando NetworkManager"
 
 #: netsetup:593
 msgid "Use SLAAC to configure ethernet (IPv6 only)"
-msgstr ""
+msgstr "Usar SLAAC para configurar ethernet (sólo IPv6)"
 
 #: netsetup:594
 msgid "Set up a loopback connection (modem or no net)"
@@ -185,60 +185,60 @@ msgstr "Configurar una conexión 'loopback' (módem o sin red)"
 
 #: netsetup:603
 msgid "Please select the type of DHCP to use to configure your networking."
-msgstr ""
+msgstr "Por favor, seleccione el tipo de DHCP a utilizar para configurar su red."
 
 #: netsetup:605
 msgid ""
 "Select 'DHCPv4' to configure for an IPv4 network (this is the most common "
 "type of network, and the safe choice)."
-msgstr ""
+msgstr "Seleccionar 'DHCPv4' para configurar una red IPv4 (el tipo de red más usual y la opción más segura)."
 
 #: netsetup:607
 msgid ""
 "Select 'DHCPv6' for a pure IPv6 network, or 'Both' to try and set up both "
 "types of network."
-msgstr ""
+msgstr "Seleccionar 'DHCPv6' para una red IPv6 pura, o 'Ambos' para intentar configurar los dos tipos de red."
 
 #: netsetup:612
 msgid "SELECT DHCP TYPE"
-msgstr ""
+msgstr "SELECCIONAR EL TIPO DE DHCP"
 
 #: netsetup:614
 msgid "An IPv4 based network, with no IPv6 configuration"
-msgstr ""
+msgstr "Red basada en IPv4, sin configuración de IPv6"
 
 #: netsetup:615
 msgid "An IPv6 based network, with no IPv4 configuration"
-msgstr ""
+msgstr "Red basada en IPv6, sin configuración de IPv4"
 
 #: netsetup:616
 msgid "Both"
-msgstr ""
+msgstr "Ambos"
 
 #: netsetup:616
 msgid "A combination of IPv4 and IPv6 networks"
-msgstr ""
+msgstr "Una combinación de redes IPv4 e IPv6"
 
 #: netsetup:631
 msgid ""
 "Some network providers require that the DHCP hostname be set in order to "
 "connect."
-msgstr ""
+msgstr "Algunos proveedores de red requieren que se ingrese el nombre de host DHCP para poder conectarse."
 
 #: netsetup:632
 msgid ""
 "If so, they'll have assigned a hostname to your machine, which may look "
 "something like CC-NUMBER-A (this depends on your ISP)."
-msgstr ""
+msgstr "Si es así, le habrán asignado un nombre de host a su equipo, del tipo CC-NUMERO-A (esto depende de su ISP)."
 
 #: netsetup:633
 msgid "If you were assigned a DHCP hostname, please enter it below."
-msgstr ""
+msgstr "Si se le asignó un nombre de host DHCP, ingréselo a continuación."
 
 #: netsetup:634
 msgid ""
 "If you do not have a DHCP hostname, just leave it blank or select 'Skip'."
-msgstr ""
+msgstr "Si no posee un nombre de host DHCP, solo déjelo en blanco o seleccione 'Saltear'."
 
 #: netsetup:635
 msgid "SET DHCP HOSTNAME"
@@ -246,166 +246,166 @@ msgstr "CONFIGURAR EL NOMBRE DE HOST DHCP"
 
 #: netsetup:665
 msgid "Enter the IPv4 addresses for this host."
-msgstr ""
+msgstr "Ingresar la dirección IPv4 para este equipo."
 
 #: netsetup:666
 msgid ""
 "You may list one or more, space delimited, IPv4 addresses with netmasks in "
 "the format:"
-msgstr ""
+msgstr "Puede inidcar una o más direcciones IPv4 con sus máscaras de red, separadas por espacio, con el siguiente formato: "
 
 #: netsetup:668 netsetup:769
 msgid "IP address"
-msgstr ""
+msgstr "Dirección IP"
 
 #: netsetup:668
 msgid "CIDR netmask"
-msgstr ""
+msgstr "Máscara de red CIDR"
 
 #: netsetup:669
 msgid "For example:"
-msgstr ""
+msgstr "Por ejemplo:"
 
 #: netsetup:671 netsetup:771
 msgid "or"
-msgstr ""
+msgstr "o bien,"
 
 #: netsetup:672
 msgid "Old style netmask 255.255.255.0 is equivalent of 24 in CIDR style."
-msgstr ""
+msgstr "La tradicional máscara de red 255.255.255.0 es equivalente a 24 en el estilo CIDR."
 
 #: netsetup:673
 msgid "If a netmask is not specified a default of 24 will be used."
-msgstr ""
+msgstr "Si no se especifica una máscara de red, se usará 24 por defecto."
 
 #: netsetup:675
 msgid ""
 "The first address entered will become the primary IPv4 address of this host."
-msgstr ""
+msgstr "La primera dirección ingresada será la dirección IPv4 primaria de este equipo. "
 
 #: netsetup:676
 msgid ""
 "If you do not want to configure a static IPv4 address, just leave it blank "
 "or select 'Skip'."
-msgstr ""
+msgstr "Si no desea configurar una dirección IPv4 estática, solo debe dejarla en blanco o seleccionar 'Saltear'."
 
 #: netsetup:677
 msgid "ENTER IPv4 ADDRESSES"
-msgstr ""
+msgstr "INGRESE LA DIRECCIÓN IPv4"
 
 #: netsetup:698
 msgid "NO IPv4 ADDRESSES"
-msgstr ""
+msgstr "SIN DIRECCIÓN IPv4"
 
 #: netsetup:699 netsetup:795
 msgid "No IP specified in entry:"
-msgstr ""
+msgstr "No se indicó dirección IP:"
 
 #: netsetup:712
 msgid "INVALID NETMASK"
-msgstr ""
+msgstr "MÁSCARA DE RED INVÁLIDA"
 
 #: netsetup:713
 msgid "Invalid netmask specified for entry:"
-msgstr ""
+msgstr "Máscara de red inválida para la entrada:"
 
 #: netsetup:714
 msgid "Valid netmasks will be in the range 1-32."
-msgstr ""
+msgstr "Las máscaras de red válidas deben estar en el rango 1-32."
 
 #: netsetup:732
 msgid "ENTER IPv4 GATEWAY ADDRESS"
-msgstr ""
+msgstr "INGRESAR LA DIRECCIÓN DE LA PUERTA DE ENLACE IPv4"
 
 #: netsetup:733
 msgid "Enter the address for the IPv4 gateway on your network, such as:"
-msgstr ""
+msgstr "Ingrese la dirección para la puerta de enlace IPv4 en su red, como:"
 
 #: netsetup:736
 msgid ""
 "If you don't have an IPv4 gateway on your network, leave it blank or select "
 "'Skip'."
-msgstr ""
+msgstr "Si no posee una puerta de enlace IPv4 en su red, deje el espacio en blanco o seleccione 'Saltar'."
 
 #: netsetup:738
 msgid "Enter IPv4 gateway address:"
-msgstr ""
+msgstr "Ingrese la dirección de la puerta de enlace IPv4:"
 
 #: netsetup:765
 msgid "ENTER IPv6 ADDRESSES"
-msgstr ""
+msgstr "INGRESAR LAS DIRECCIONES IPv6"
 
 #: netsetup:767
 msgid "Enter the IPv6 addresses for this host."
-msgstr ""
+msgstr "Ingrese las direcciones IPv6 para este equipo."
 
 #: netsetup:768
 msgid ""
 "You may list one or more, space delimited, IPv6 addresses with their "
 "prefixes in the format:"
-msgstr ""
+msgstr "Es posible indicar una o más direcciones IPv6, separadas por espacios, con sus prefijos con el formato:"
 
 #: netsetup:769
 msgid "prefix"
-msgstr ""
+msgstr "prefijo"
 
 #: netsetup:770
 msgid "For example"
-msgstr ""
+msgstr "Por ejemplo,"
 
 #: netsetup:772
 msgid "If a prefix is not specified a default of 64 will be used."
-msgstr ""
+msgstr "Si no se especifica un prefijo, se usará el valor por omisión de 64."
 
 #: netsetup:774
 msgid ""
 "If you do not want to configure a static IPv6 address or don't know what to "
 "put, just leave it blank or select 'Skip'."
-msgstr ""
+msgstr "Si no desea configurar una dirección IPv6 estática o no sabe qué valor indicar, deje el espacio en blanco o seleccione 'Saltar'."
 
 #: netsetup:794
 msgid "NO IPv6 ADDRESSES"
-msgstr ""
+msgstr "SIN DIRECCIONES IPv6"
 
 #: netsetup:808
 msgid "INVALID PREFIX"
-msgstr ""
+msgstr "PREFIJO INVÁLIDO"
 
 #: netsetup:809
 msgid "Invalid prefix specified for entry:"
-msgstr ""
+msgstr "Se especificó un prefijo inválido para la entrada: "
 
 #: netsetup:810
 msgid "Valid prefixes will be in the range 1-128."
-msgstr ""
+msgstr "Los prefijos válidos deben estar en el rango 1-128."
 
 #: netsetup:828
 msgid "ENTER IPv6 GATEWAY ADDRESS"
-msgstr ""
+msgstr "INGRESAR LA DIRECCIÓN DE LA PUERTA DE ENLACE IPv6"
 
 #: netsetup:829
 msgid "Enter the address for the IPv6 gateway on your network, such as:"
-msgstr ""
+msgstr "Ingresar la dirección para la puerta de enlace IPv6 en su red, tal como:"
 
 #: netsetup:832
 msgid ""
 "If you don't have an IPv6 gateway on your network, leave it blank or select "
 "'Skip'."
-msgstr ""
+msgstr "Si no existe una puerta de enlace IPv6 en su red, deje el espacio en blanco o seleccione 'Saltar'."
 
 #: netsetup:834
 msgid "Enter IPv6 gateway address:"
-msgstr ""
+msgstr "Ingresar la dirección de la puerta de enlace IPv6:"
 
 #: netsetup:858
 msgid "NO IP ADDRESSES"
-msgstr ""
+msgstr "SIN DIRECCIONES IP"
 
 #: netsetup:859
 msgid ""
 "You have not configured any IP addresses for this host. Are you sure you "
 "want to proceed with no IPs?"
-msgstr ""
+msgstr "No ha configurado ninguna dirección IP para este equipo host. ¿Está seguro de continuar sin indicar IPs?"
 
 #: netsetup:872
 msgid "USE A NAMESERVER?"
@@ -417,19 +417,19 @@ msgstr "¿Va a tener acceso a un servidor de nombres?"
 
 #: netsetup:895
 msgid "ENTER NAMESERVER IP ADDRESS"
-msgstr ""
+msgstr "INGRESAR LA DIRECCIÓN IP DEL SERVIDOR DE NOMBRES"
 
 #: netsetup:897
 msgid "Please give the IP address of the name server to use, such as"
-msgstr ""
+msgstr "Por favor, ingrese la dirección IP del servidor de nombres a utilizar, tal como:"
 
 #: netsetup:899
 msgid "You can add more Domain Name Servers later by editing"
-msgstr ""
+msgstr "Podrá agregar más Servidores de Nombres de Dominios más adelante, mediante la edición"
 
 #: netsetup:902
 msgid "Primary name server to use:"
-msgstr ""
+msgstr "Servidor de nombres primario a utilizar:"
 
 #: netsetup:955
 msgid "PROBE FOR NETWORK CARD?"
@@ -444,11 +444,11 @@ msgid ""
 "configure your system manually, you can skip the probing process and edit "
 "/etc/rc.d/rc.modules or /etc/modules.conf later to have it load the right "
 "module."
-msgstr "Si lo desea, es posible examinar su equipo para detectar el tipo de tarjeta de red que posee y, si encontramos una, crear un script /etc/rc.d/rc.netdevice para cargar el módulo adecuado en el arranque. Aunque existe un pequeño riesgo de que la búsqueda cause problemas, casi siempre funciona. Si prefiere configurar su sistema manualmente, puede saltarse el proceso de búsqueda y editar /etc/rc.d/rc.modules o /etc/modules.conf más adelante para cargar el módulo correcto."
+msgstr "Si lo desea, es posible examinar su equipo para detectar el tipo de tarjeta de red que posee y, si encontramos una, crear un script /etc/rc.d/rc.netdevice que permita cargar el módulo adecuado durante el arranque. Aunque existe un pequeño riesgo de que la búsqueda cause problemas, casi siempre funciona. Si prefiere configurar su sistema manualmente, puede saltarse el proceso de búsqueda y editar /etc/rc.d/rc.modules o /etc/modules.conf más adelante para cargar el módulo correcto."
 
 #: netsetup:963
 msgid "probe"
-msgstr ""
+msgstr "explorar"
 
 #: netsetup:963
 msgid "look for network cards to set up"
@@ -456,7 +456,7 @@ msgstr "buscar tarjetas de red para configurar"
 
 #: netsetup:964 netsetup:971
 msgid "skip"
-msgstr ""
+msgstr "saltar"
 
 #: netsetup:964
 msgid "skip probe;  edit /etc/rc.d/rc.modules later"
@@ -481,7 +481,7 @@ msgid ""
 "(like non-PCI NE2000s) must be supplied with the I/O address to use and "
 "can't be probed for safely. You'll have to try to configure the card later "
 "by editing /etc/rc.d/rc.modules or recompiling your kernel."
-msgstr "Lo siento, pero no se detectó ninguna tarjeta de red en su sistema. Algunas tarjetas (como las NE2000 no PCI) necesitan la dirección E/S para ser utilizadas y no pueden ser detectadas de forma segura. Es necesario configurar la tarjeta más adelante editando /etc/rc.d/rc.modules o recompilando su kernel."
+msgstr "Lamentablemente no se pudo detectar ninguna tarjeta de red en su sistema. Algunas tarjetas (como las NE2000 no PCI) necesitan la dirección E/S para ser utilizadas y no pueden ser detectadas de forma segura. Deberá intentar configurar la tarjeta más adelante editando /etc/rc.d/rc.modules o recompilando su kernel."
 
 #: netsetup:1012 netsetup:1023 netsetup:1033
 msgid "NETWORK SETUP COMPLETE"
@@ -489,59 +489,59 @@ msgstr "CONFIGURACIÓN DE RED COMPLETA"
 
 #: netsetup:1012
 msgid "Your networking system is now configured to use loopback:"
-msgstr ""
+msgstr "Su sistema de red ahora está configurado para usar loopback:"
 
 #: netsetup:1015 netsetup:1038 netsetup:1106
 msgid "IP addresses"
-msgstr ""
+msgstr "direcciones IP"
 
 #: netsetup:1017
 msgid "Is this correct?  Press 'Yes' to continue, or 'No' to abandon."
-msgstr ""
+msgstr "¿Esto es correcto? Presione 'Sí' para continuar o 'No' para cancelar."
 
 #: netsetup:1024
 msgid ""
 "Your networking system is now configured to use NetworkManager for wired and"
 " wireless network management."
-msgstr ""
+msgstr "Su sistema de red está configurado para usar NetworkManager para la configuración de redes cableadas e inalámbricas."
 
 #: netsetup:1025
 msgid ""
 "To set up wireless networks and view status, add the Network Management "
 "control panel widget to your desktop."
-msgstr ""
+msgstr "Para activar las redes inalámbricas y ver su estado, agregar el complemento del panel de control de Administración de Redes a su escritorio."
 
 #: netsetup:1027
 msgid "Is this correct?  Press 'Yes' to confirm, or 'No' to abandon."
-msgstr ""
+msgstr "¿Esto es correcto? Presione 'Sí' para confirmar o 'No' para rechazar."
 
 #: netsetup:1034
 msgid "Your system is now set up to autoconfigure an IPv6 IP address:"
-msgstr ""
+msgstr "Su sistema está configurado para establecer automáticamente una dirección IP IPv6:"
 
 #: netsetup:1035 netsetup:1058 netsetup:1070 netsetup:1102
 msgid "Hostname"
-msgstr ""
+msgstr "Nombre del equipo"
 
 #: netsetup:1036
 msgid "Domain name"
-msgstr ""
+msgstr "Nombre de dominio"
 
 #: netsetup:1037 netsetup:1039 netsetup:1104 netsetup:1105
 msgid "none"
-msgstr ""
+msgstr "ninguno"
 
 #: netsetup:1038
 msgid "use IPv6 SLAAC"
-msgstr ""
+msgstr "usar IPv6 SLAAC"
 
 #: netsetup:1039 netsetup:1065 netsetup:1084 netsetup:1109
 msgid "Nameserver"
-msgstr ""
+msgstr "Servidor de nombres"
 
 #: netsetup:1041
 msgid "If this is correct, hit 'Yes' to confirm, or 'No' to abandon."
-msgstr ""
+msgstr "Si es correcto, presione 'Sí' para confirmar o 'No' para rechazar."
 
 #: netsetup:1048
 msgid "CONFIRM NETWORK SETUP"
@@ -549,78 +549,78 @@ msgstr "CONFIRMAR CONFIGURACIÓN DE RED"
 
 #: netsetup:1049
 msgid "Accept"
-msgstr ""
+msgstr "Aceptar"
 
 #: netsetup:1050
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: netsetup:1051
 msgid "Abandon"
-msgstr ""
+msgstr "Rechazar"
 
 #: netsetup:1053
 msgid "These are the settings you have entered."
-msgstr ""
+msgstr "Se ha ingresado la siguiente configuración:"
 
 #: netsetup:1054
 msgid "To accept them and complete the networking setup, press ENTER."
-msgstr ""
+msgstr "Para aceptar y finalizar la configuración de red, presione ENTRAR"
 
 #: netsetup:1055
 msgid ""
 "If you need to make any changes, you can do that now using 'Edit' (or "
 "reconfigure later using 'netsetup')."
-msgstr ""
+msgstr "Si necesita realizar cambios, los puede hacer ahora con la opción 'Editar' (o reconfigure más tarde mediante 'netsetup')."
 
 #: netsetup:1059 netsetup:1072 netsetup:1103
 msgid "Domain Name"
-msgstr ""
+msgstr "Nombre de Dominio"
 
 #: netsetup:1061 netsetup:1076
 msgid "IPv4 Addresses"
-msgstr ""
+msgstr "Direcciones IPv4"
 
 #: netsetup:1062 netsetup:1078
 msgid "IPv4 Gateway"
-msgstr ""
+msgstr "Puerta de enlace IPv4"
 
 #: netsetup:1063 netsetup:1080
 msgid "IPv6 Addresses"
-msgstr ""
+msgstr "Direcciones IPv6"
 
 #: netsetup:1064 netsetup:1082
 msgid "IPv6 Gateway"
-msgstr ""
+msgstr "Puerta de enlace IPv6"
 
 #: netsetup:1099
 msgid "CONFIRM SETUP COMPLETE"
-msgstr "CONFIRMAR CONFIGURACIÓN COMPLETA"
+msgstr "CONFIRMAR QUE SE HA COMPLETADO LA CONFIGURACIÓN"
 
 #: netsetup:1100
 #, sh-format
 msgid "Your networking system is now configured to use DHCP"
-msgstr ""
+msgstr "Su sistema de red está configurado para usar DHCP"
 
 #: netsetup:1105
 msgid "DHCP hostname"
-msgstr ""
+msgstr "Nombre del host DHCP"
 
 #: netsetup:1106 netsetup:1107 netsetup:1108 netsetup:1109
 msgid "use DHCP server"
-msgstr ""
+msgstr "usar servidor DHCP"
 
 #: netsetup:1107
 msgid "Netmask & Prefix"
-msgstr ""
+msgstr "Máscara de red y Prefijo"
 
 #: netsetup:1108
 msgid "Gateways"
-msgstr ""
+msgstr "Puertas de enlace"
 
 #: netsetup:1111
 msgid "Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
-msgstr ""
+msgstr "¿Es correcto? Pulse 'Sí' para continuar o 'No' para reconfigurar."
 
 #: netsetup:1128
 msgid "Settings accepted.  Basic network configuration is complete."
@@ -630,11 +630,11 @@ msgstr "Configuración aceptada. La configuración básica de red ha finalizado.
 msgid ""
 "Settings discarded.  Run the 'netsetup' command again if you need to "
 "reconfigure your network settings."
-msgstr "Configuración descartada. Ejecute el comando 'netsetup' de nuevo si necesita reconfigurar sus datos de red."
+msgstr "Configuración descartada. Ejecute el comando 'netsetup' de nuevo si necesita reconfigurar sus opciones de red."
 
 #: setup.netsetup:36
 msgid "CONFIGURE NETWORK?"
-msgstr "¿CONFIGURAR RED?"
+msgstr "¿CONFIGURAR LA RED?"
 
 #: setup.netsetup:36
 msgid "Would you like to configure your network?"

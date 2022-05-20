@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Panwar108 <caspian7pena@gmail.com>, 2020
+# Panwar108 <caspian7pena@gmail.com>, 2020,2022
 msgid ""
 msgstr ""
 "Project-Id-Version: salixtools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-29 11:13+0300\n"
 "PO-Revision-Date: 2016-06-09 10:48+0000\n"
-"Last-Translator: Panwar108 <caspian7pena@gmail.com>, 2020\n"
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>, 2020,2022\n"
 "Language-Team: Hindi (India) (http://www.transifex.com/gapan/salixtools/language/hi_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: netsetup:423 netsetup:448
 msgid "The IP address you have entered is not valid."
-msgstr ""
+msgstr "प्रविष्ट किया गया आईपी पता अमान्य है।"
 
 #: netsetup:425
 #, sh-format
