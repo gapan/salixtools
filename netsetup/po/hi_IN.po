@@ -26,99 +26,99 @@ msgstr "प्रविष्ट किया गया आईपी पता �
 #, sh-format
 msgid ""
 "There should be $ArG2 groups of numbers seperated by dots, for example:"
-msgstr ""
+msgstr "बिंदु द्वारा पृथक संख्याओं के $ArG2 समूह होना आवश्यक है, उदाहरण :"
 
 #: netsetup:428
 msgid "Please correct any mistakes in the IP."
-msgstr ""
+msgstr "कृपया आईपी पते की त्रुटियाँ सुधारें"
 
 #: netsetup:430 netsetup:447
 msgid "INVALID IP"
-msgstr ""
+msgstr "अमान्य आईपी"
 
 #: netsetup:430 netsetup:447 netsetup:551 netsetup:698 netsetup:794
 msgid "Back"
-msgstr ""
+msgstr "वापस"
 
 #: netsetup:450
 msgid "Please enter a valid IPv6 address."
-msgstr ""
+msgstr "कृपया एक मान्य आईपी6 पता प्रविष्ट करें।"
 
 #: netsetup:482
 msgid "First, we'll need the name you'd like to give your host."
-msgstr ""
+msgstr "सर्वप्रथम, होस्ट हेतु एक नाम की आवश्यकता है।"
 
 #: netsetup:484
 msgid "Only the base hostname is needed right now - not the domain."
-msgstr ""
+msgstr "अभी केवल बेस होस्ट नाम की आवश्यकता है, न कि डोमेन।"
 
 #: netsetup:486
 msgid "Enter hostname:"
-msgstr ""
+msgstr "होस्ट नाम प्रविष्ट करें :"
 
 #: netsetup:487
 msgid "ENTER HOSTNAME"
-msgstr "होस्ट नाम दर्ज करें"
+msgstr "होस्ट नाम प्रविष्ट करें"
 
 #: netsetup:487 netsetup:508 netsetup:587 netsetup:613
 msgid "Exit"
-msgstr ""
+msgstr "बंद करें"
 
 #: netsetup:502
 msgid "Now, we need the domain name for this machine, such as:"
-msgstr ""
+msgstr "अब, इस मशीन हेतु डोमेन नाम की आवश्यकता है, जैसे कि :"
 
 #: netsetup:504
 msgid "Do not supply a leading '.'"
-msgstr ""
+msgstr "नाम के आरंभ में \".\" प्रविष्ट न करें"
 
 #: netsetup:506
 msgid "Enter domain name for"
-msgstr ""
+msgstr "इस हेतु डोमेन नाम प्रविष्ट करें"
 
 #: netsetup:508
 msgid "ENTER DOMAINNAME"
-msgstr ""
+msgstr "डोमेन नाम प्रविष्ट करें"
 
 #: netsetup:521
 msgid ""
 "Some advanced networking set ups require a VLAN ID in order to connect to "
 "the network."
-msgstr ""
+msgstr "नेटवर्क से जुड़ने के लिए कुछ उन्नत नेटवर्क की स्थापना हेतु VLAN आईडी आवश्यक होती है।"
 
 #: netsetup:523
 msgid "Do you wish to configure a VLAN ID now?"
-msgstr ""
+msgstr "क्या आप अभी एक VLAN आईडी विन्यस्त करना चाहते हैं?"
 
 #: netsetup:525
 msgid "Unless you are sure you require a VLAN ID, select 'No'."
-msgstr ""
+msgstr "VLAN आईडी की आवश्यकता निश्चित न होने की स्थिति में 'नहीं' चुनें।"
 
 #: netsetup:526
 msgid "CONNECT VIA VLAN"
-msgstr ""
+msgstr "VLAN द्वारा जुड़ें"
 
 #: netsetup:537 netsetup:551 netsetup:1037 netsetup:1060 netsetup:1074
 #: netsetup:1104
 msgid "VLAN ID"
-msgstr ""
+msgstr "VLAN आईडी"
 
 #: netsetup:537 netsetup:635 netsetup:677 netsetup:732 netsetup:765
 #: netsetup:828 netsetup:895
 msgid "Skip"
-msgstr ""
+msgstr "छोड़ें"
 
 #: netsetup:538
 msgid "Enter the VLAN ID used on this network:"
-msgstr ""
+msgstr "इस नेटवर्क पर प्रयुक्त VLAN आईडी प्रविष्ट करें :"
 
 #: netsetup:552
 msgid "That doesn't appear to be a valid VLAN ID."
-msgstr ""
+msgstr "संभवतः यह एक मान्य VLAN आईडी नहीं है।"
 
 #: netsetup:566
 msgid "CONFIGURATION TYPE FOR"
-msgstr ""
+msgstr "इस हेतु विन्यास प्रकार"
 
 #: netsetup:569
 msgid "Now we need to know how your machine connects to the network."
