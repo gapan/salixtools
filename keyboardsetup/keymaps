@@ -37,7 +37,8 @@ dk|dk||
 dvorak-l|dvorak||
 dvorak-r|dvorak||
 dvorak|dvorak||
-dvp|us|dvp|compose:102,numpad:shift3,kpdl:semi,keypad:atm,caps:shift
+dvp|us|dvp|
+dvpx|us|dvp|caps:swapescape
 es-cp850|es||
 es-olpc|es||
 es|es||
