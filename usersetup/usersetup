@@ -429,10 +429,6 @@ minlength=6
 count=1 ; pw='_'
 while [ "${pw}" != "${password}" ]; do
 	RES=""; password="" ; pw='_'
-	if [ $count -gt $maxcount ]; then
-		echo -n ""
-		break
-	fi
 
 	message="`eval_gettext 'Enter password for account'` ${1}...  "
 	[ $count -ge 2 ] && message="`eval_gettext 'Passwords do not match, please try again...'`"
@@ -444,8 +440,6 @@ while [ "${pw}" != "${password}" ]; do
 	message="`eval_gettext 'Enter password again for account'` ${1}...  "
 	pw="$(passbox "${message}")"
 	
-	count=$((count+1))
-
 	if [ "${pw}" == "${password}" ]; then
 		[ "$user" ] && RES=`echo "${user}:${pw}" | chpasswd 2>&1`
 		RES_LEN=`echo $RES | wc -c`
