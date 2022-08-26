@@ -424,7 +424,7 @@ passbox(){
 changepw(){
 
 maxcount=3
-minlength=5
+minlength=6
 
 count=1 ; pw='_'
 while [ "${pw}" != "${password}" ]; do
