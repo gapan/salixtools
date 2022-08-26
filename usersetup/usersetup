@@ -420,15 +420,15 @@ passbox(){
 }
 
 
-# Password checking
-checkpw(){
+# Change password
+setpw() {
 
 maxcount=3
 minlength=6
 
 count=1 ; pw='_'
 while [ "${pw}" != "${password}" ]; do
-	password="" ; pw='_'
+	RES=""; password="" ; pw='_'
 	if [ $count -gt $maxcount ]; then
 		echo -n ""
 		break
@@ -446,23 +446,19 @@ while [ "${pw}" != "${password}" ]; do
 	
 	count=$((count+1))
 
+	if [ "${pw}" == "${password}" ]; then
+		[ "$user" ] && RES=`echo "${user}:${pw}" | chpasswd 2>&1`
+		RES_LEN=`echo $RES | wc -c`
+		if [ $RES_LEN -gt 1 ]; then
+			# failed for some reason, message should be in $RES, so display that
+			${dialog} --msgbox "`eval_gettext 'Failed to set password for account'` \"${user}\"\n\n$RES" 0 0
+			pw='_'  # and reset the pw variable so the loop starts again
+		fi
+	fi
 done
 
-echo -n $password
-}
+DIALOG="dialog"
 
-# Change password
-setpw() {
-  
-	DIALOG="dialog"
-	
-	[ "$user" ] && pass="$(checkpw ${user})"
-	if [ ! "$pass" ] ; then
-		${dialog} --msgbox "`eval_gettext 'Failed to set password for account'` \"${user}\"  " 0 0
-	else
-		# echo "${user}:${pass}"
-		[ "$user" ] && echo "${user}:${pass}" | chpasswd
-	fi
 }
 
 ###############################################
