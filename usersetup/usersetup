@@ -441,7 +441,7 @@ while [ "${pw}" != "${password}" ]; do
 	
 	if [ "${pw}" == "${password}" ]; then
 		[ "$user" ] && RES=`echo "${user}:${pw}" | chpasswd 2>&1`
-		if [ ${#RES} -gt 0 ]; then
+		if [ ${#RES} -gt 0 ]; then  # check the lenght of $RES
 			# failed for some reason, message should be in $RES, so display that
 			${dialog} --msgbox "`eval_gettext 'Failed to set password for account'` \"${user}\"\n\n$RES" 0 0
 			pw='_'  # and reset the pw variable so the loop starts again
