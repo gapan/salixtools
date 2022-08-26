@@ -456,9 +456,6 @@ while [ "${pw}" != "${password}" ]; do
 		fi
 	fi
 done
-
-DIALOG="dialog"
-
 }
 
 ###############################################
