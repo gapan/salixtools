@@ -423,7 +423,6 @@ passbox(){
 # Change password
 setpw() {
 
-maxcount=3
 minlength=6
 
 count=1 ; pw='_'
@@ -442,8 +441,7 @@ while [ "${pw}" != "${password}" ]; do
 	
 	if [ "${pw}" == "${password}" ]; then
 		[ "$user" ] && RES=`echo "${user}:${pw}" | chpasswd 2>&1`
-		RES_LEN=`echo $RES | wc -c`
-		if [ $RES_LEN -gt 1 ]; then
+		if [ ${#RES} -gt 0 ]; then
 			# failed for some reason, message should be in $RES, so display that
 			${dialog} --msgbox "`eval_gettext 'Failed to set password for account'` \"${user}\"\n\n$RES" 0 0
 			pw='_'  # and reset the pw variable so the loop starts again
