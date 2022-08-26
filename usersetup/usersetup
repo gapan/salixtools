@@ -421,7 +421,7 @@ passbox(){
 
 
 # Password checking
-changepw(){
+checkpw(){
 
 maxcount=3
 minlength=6
@@ -456,7 +456,7 @@ setpw() {
   
 	DIALOG="dialog"
 	
-	[ "$user" ] && pass="$(changepw ${user})"
+	[ "$user" ] && pass="$(checkpw ${user})"
 	if [ ! "$pass" ] ; then
 		${dialog} --msgbox "`eval_gettext 'Failed to set password for account'` \"${user}\"  " 0 0
 	else
