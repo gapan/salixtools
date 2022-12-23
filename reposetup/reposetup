@@ -48,6 +48,11 @@ init(){
 	# Set to update repos by default (or ask for update if in
 	# interactive mode)
 	UPDATE=1
+
+	# Check if we're already using the Xfce 4.18 repos
+	grep "^SOURCE=.*xfce4.18-15.0" /etc/slapt-get/slapt-getrc \
+		&& XFCE418=1 \
+		|| XFCE418=0
 }
 
 checkdefaults(){
@@ -168,6 +173,10 @@ configslaptget() {
 	echo ""
 	echo "# The Salix repository"
 	echo "SOURCE=$repo/$arch/$version/:PREFERRED"
+	if [ $XFCE418 -eq 1 ]; then
+		echo "# The Xfce 4.18 repo for Salix 15.0"
+		echo "SOURCE=$repo/$arch/xfce4.18-$version/:PREFERRED"
+	fi
 	echo "# And the Salix extra repository"
 	echo "SOURCE=$repo/$arch/extra-$version/:OFFICIAL"
 	echo ""
