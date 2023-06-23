@@ -2,11 +2,7 @@
 #The fields are: keymap|XkbLayout|XkbVariant|XkbOptions
 
 ANSI-dvorak|dvorak||
-al|al||
-am|am||
-ar|ar||
 azerty|fr||
-az|az||
 be-latin1|be||
 bg-cp1251|bg||
 bg-cp855|bg||
@@ -67,8 +63,6 @@ lt.baltic|lt|std|
 lt.l4|lt|std|
 lt|lt|std|
 lt|lt||
-lv|lv||
-lv-latin7|lv||
 mk-cp1251|mk||
 mk-utf|mk||
 mk0|mk||
@@ -109,8 +103,6 @@ sk-qwertz|sk||
 slovene|si||
 sr-cy|rs|yz|
 sv-latin1|se||
-syr|syr||
-tel|tel||
 tr_f-latin5|tr|f|
 tr_q-latin5|tr|crh|
 tralt|tr||
@@ -123,7 +115,5 @@ ua|us,ua||grp:switch,grp:alt_shift_toggle,grp_led:scroll
 uk|gb||
 us-acentos|us||
 us|us||
-uz|uz||
-vn|vn||
 wangbe2|fr||
 wangbe|fr||
