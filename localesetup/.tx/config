@@ -1,4 +1,4 @@
-[salixtools.localesetup]
+[o:gapan:p:salixtools:r:localesetup]
 file_filter = po/<lang>.po
 source_file = po/localesetup.pot
 source_lang = en

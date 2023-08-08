@@ -1,8 +1,7 @@
-[salixtools.clocksetup]
+[o:gapan:p:salixtools:r:clocksetup]
 file_filter = po/<lang>.po
 source_file = po/clocksetup.pot
 source_lang = en
 
 [main]
-host = https://www.transifex.com
-
+host = https://app.transifex.com

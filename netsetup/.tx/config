@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[salixtools.netsetup]
+[o:gapan:p:salixtools:r:netsetup]
 file_filter = po/<lang>.po
 source_file = po/netsetup.pot
 source_lang = en

@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[salixtools.keyboardsetup]
+[o:gapan:p:salixtools:r:keyboardsetup]
 file_filter = po/<lang>.po
 source_file = po/keyboardsetup.pot
 source_lang = en

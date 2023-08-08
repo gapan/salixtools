@@ -1,4 +1,4 @@
-[salixtools.usersetup]
+[o:gapan:p:salixtools:r:usersetup]
 file_filter = po/<lang>.po
 source_file = po/usersetup.pot
 source_lang = en
