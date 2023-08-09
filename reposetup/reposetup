@@ -71,10 +71,10 @@ checkdefaults(){
 	fi	
 
 	# read salix version
-	if [ -f $salixtoolsdir/salix-version ]; then
-		version=$( cat $salixtoolsdir/salix-version )
+	if [ -x /usr/bin/lsb_release ]; then
+		version=$( lsb_release -rs )
 	else
-		echo "ERROR: $salixtoolsdir/salix-version not found"
+		echo "ERROR: lsb_release not found"
 		exit 11
 	fi
 
