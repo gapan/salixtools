@@ -50,7 +50,7 @@ init(){
 	UPDATE=1
 
 	# Check if we're already using the Xfce 4.18 repos
-	grep "^SOURCE=.*xfce4.18-15.0" /etc/slapt-get/slapt-getrc \
+	grep -q "^SOURCE=.*xfce4.18-15.0" /etc/slapt-get/slapt-getrc \
 		&& XFCE418=1 \
 		|| XFCE418=0
 }
