@@ -53,6 +53,14 @@ init(){
 	grep -q "^SOURCE=.*xfce4.18-15.0" /etc/slapt-get/slapt-getrc \
 		&& XFCE418=1 \
 		|| XFCE418=0
+	# Check if we're already using the Xfce 4.20 repos
+	grep -q "^SOURCE=.*xfce4.20-15.0" /etc/slapt-get/slapt-getrc \
+		&& XFCE420=1 \
+		|| XFCE420=0
+	# Check if we're already using the Kernel 6.12 repos
+	grep -q "^SOURCE=.*kernel6.12-15.0" /etc/slapt-get/slapt-getrc \
+		&& KERNEL612=1 \
+		|| KERNEL612=0
 }
 
 checkdefaults(){
@@ -176,6 +184,14 @@ configslaptget() {
 	if [ $XFCE418 -eq 1 ]; then
 		echo "# The Xfce 4.18 repo for Salix 15.0"
 		echo "SOURCE=$repo/$arch/xfce4.18-$version/:PREFERRED"
+	fi
+	if [ $XFCE420 -eq 1 ]; then
+		echo "# The Xfce 4.20 repo for Salix 15.0"
+		echo "SOURCE=$repo/$arch/xfce4.20-$version/:PREFERRED"
+	fi
+	if [ $KERNEL612 -eq 1 ]; then
+		echo "# The Kernel 6.12 repo for Salix 15.0"
+		echo "SOURCE=$repo/$arch/kernel6.12-$version/:PREFERRED"
 	fi
 	echo "# And the Salix extra repository"
 	echo "SOURCE=$repo/$arch/extra-$version/:OFFICIAL"
