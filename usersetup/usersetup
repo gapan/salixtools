@@ -294,7 +294,11 @@ setusername() {
       else
         GROUPS="${useraddmembership}"
       fi
-      useradd -s $defaultshell -g $defaultgroup -m -k $skeleton -G $GROUPS "$user" 2>/dev/null
+      if [ -n "$GROUPS" ]; then
+        useradd -s $defaultshell -g $defaultgroup -m -k $skeleton -G "$GROUPS" "$user" 2>/dev/null
+      else
+        useradd -s $defaultshell -g $defaultgroup -m -k $skeleton "$user" 2>/dev/null
+      fi
     fi
   fi
   current=""
@@ -376,7 +380,7 @@ setmembership() {
   $usermodmembership)
   if [ "$membership" != "$current"  ]; then
     usermodmembership="$(echo $membership | tr " " "," )"
-    usermod -G $usermodmembership $user 2>/dev/null
+    usermod -G "$usermodmembership" $user 2>/dev/null
   fi
   current=""
 }
