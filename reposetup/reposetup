@@ -61,6 +61,10 @@ init(){
 	grep -q "^SOURCE=.*kernel6.12-15.0" /etc/slapt-get/slapt-getrc \
 		&& KERNEL612=1 \
 		|| KERNEL612=0
+	# Check if we're already using the Kernel 6.18 repos
+	grep -q "^SOURCE=.*kernel6.18-15.0" /etc/slapt-get/slapt-getrc \
+		&& KERNEL618=1 \
+		|| KERNEL618=0
 }
 
 checkdefaults(){
@@ -192,6 +196,10 @@ configslaptget() {
 	if [ $KERNEL612 -eq 1 ]; then
 		echo "# The Kernel 6.12 repo for Salix 15.0"
 		echo "SOURCE=$repo/$arch/kernel6.12-$version/:PREFERRED"
+	fi
+	if [ $KERNEL618 -eq 1 ]; then
+		echo "# The Kernel 6.18 repo for Salix 15.0"
+		echo "SOURCE=$repo/$arch/kernel6.18-$version/:PREFERRED"
 	fi
 	echo "# And the Salix extra repository"
 	echo "SOURCE=$repo/$arch/extra-$version/:OFFICIAL"
