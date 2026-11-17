@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Arif Budiman <arifpedia@gmail.com>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2010-11-30 12:19+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>, 2026\n"
+"Language-Team: Indonesian (http://app.transifex.com/gapan/salixtools/language/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: servicesetup:23
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Anda memerlukan hak akses root untuk menjalankan ini"
+
+#: servicesetup:59
+#, sh-format
+msgid "Startup services"
+msgstr "Layanan startup"
+
+#: servicesetup:60
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: servicesetup:61
+#, sh-format
+msgid "Exit"
+msgstr "Keluar"
+
+#: servicesetup:64
+#, sh-format
+msgid "The selected services will be started at boot time:"
+msgstr "Layanan yang dipilih akan dijalankan saat boot:"
+
+#: servicesetup:73
+#, sh-format
+msgid "The $service service"
+msgstr "Layanan $service"

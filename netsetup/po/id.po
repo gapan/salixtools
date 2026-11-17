@@ -1,0 +1,635 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Arif Budiman <arifpedia@gmail.com>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-29 11:13+0300\n"
+"PO-Revision-Date: 2016-06-09 10:48+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>, 2026\n"
+"Language-Team: Indonesian (http://app.transifex.com/gapan/salixtools/language/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: netsetup:423 netsetup:448
+msgid "The IP address you have entered is not valid."
+msgstr "Alamat IP yang Anda masukkan tidak valid."
+
+#: netsetup:425
+#, sh-format
+msgid ""
+"There should be $ArG2 groups of numbers seperated by dots, for example:"
+msgstr "Seharusnya ada $ArG2 kelompok angka yang dipisahkan oleh titik, misalnya:"
+
+#: netsetup:428
+msgid "Please correct any mistakes in the IP."
+msgstr "Silakan perbaiki kesalahan apa pun pada IP tersebut."
+
+#: netsetup:430 netsetup:447
+msgid "INVALID IP"
+msgstr "IP TIDAK VALID"
+
+#: netsetup:430 netsetup:447 netsetup:551 netsetup:698 netsetup:794
+msgid "Back"
+msgstr "Kembali"
+
+#: netsetup:450
+msgid "Please enter a valid IPv6 address."
+msgstr "Silakan masukkan alamat IPv6 yang valid."
+
+#: netsetup:482
+msgid "First, we'll need the name you'd like to give your host."
+msgstr "Pertama, kami memerlukan nama yang ingin Anda berikan untuk host Anda."
+
+#: netsetup:484
+msgid "Only the base hostname is needed right now - not the domain."
+msgstr "Saat ini hanya hostname dasar yang diperlukan - bukan domainnya."
+
+#: netsetup:486
+msgid "Enter hostname:"
+msgstr "Masukkan hostname:"
+
+#: netsetup:487
+msgid "ENTER HOSTNAME"
+msgstr "MASUKKAN HOSTNAME"
+
+#: netsetup:487 netsetup:508 netsetup:587 netsetup:613
+msgid "Exit"
+msgstr "Keluar"
+
+#: netsetup:502
+msgid "Now, we need the domain name for this machine, such as:"
+msgstr "Sekarang, kami memerlukan nama domain untuk mesin ini, seperti:"
+
+#: netsetup:504
+msgid "Do not supply a leading '.'"
+msgstr "Jangan sertakan '.' di awal"
+
+#: netsetup:506
+msgid "Enter domain name for"
+msgstr "Masukkan nama domain untuk"
+
+#: netsetup:508
+msgid "ENTER DOMAINNAME"
+msgstr "MASUKKAN NAMA DOMAIN"
+
+#: netsetup:521
+msgid ""
+"Some advanced networking set ups require a VLAN ID in order to connect to "
+"the network."
+msgstr "Beberapa pengaturan jaringan tingkat lanjut memerlukan ID VLAN agar dapat terhubung ke jaringan."
+
+#: netsetup:523
+msgid "Do you wish to configure a VLAN ID now?"
+msgstr "Apakah Anda ingin mengonfigurasi ID VLAN sekarang?"
+
+#: netsetup:525
+msgid "Unless you are sure you require a VLAN ID, select 'No'."
+msgstr "Kecuali Anda yakin memerlukan ID VLAN, pilih 'Tidak'."
+
+#: netsetup:526
+msgid "CONNECT VIA VLAN"
+msgstr "HUBUNGKAN VIA VLAN"
+
+#: netsetup:537 netsetup:551 netsetup:1037 netsetup:1060 netsetup:1074
+#: netsetup:1104
+msgid "VLAN ID"
+msgstr "ID VLAN"
+
+#: netsetup:537 netsetup:635 netsetup:677 netsetup:732 netsetup:765
+#: netsetup:828 netsetup:895
+msgid "Skip"
+msgstr "Lewati"
+
+#: netsetup:538
+msgid "Enter the VLAN ID used on this network:"
+msgstr "Masukkan ID VLAN yang digunakan pada jaringan ini:"
+
+#: netsetup:552
+msgid "That doesn't appear to be a valid VLAN ID."
+msgstr "Itu tampaknya bukan ID VLAN yang valid."
+
+#: netsetup:566
+msgid "CONFIGURATION TYPE FOR"
+msgstr "JENIS KONFIGURASI UNTUK"
+
+#: netsetup:569
+msgid "Now we need to know how your machine connects to the network."
+msgstr "Sekarang kami perlu mengetahui bagaimana mesin Anda terhubung ke jaringan."
+
+#: netsetup:571
+msgid ""
+"If you have an internal network card and an assigned IP address, gateway, "
+"and DNS, use the 'static IP' choice to enter these values."
+msgstr "Jika Anda memiliki kartu jaringan internal dan alamat IP, gateway, serta DNS yang ditetapkan, gunakan pilihan 'IP statis' untuk memasukkan nilai-nilai tersebut."
+
+#: netsetup:572
+msgid ""
+"If your IP address is assigned by a DHCP server (commonly used by cable "
+"modem and DSL services), select 'DHCP'."
+msgstr "Jika alamat IP Anda ditetapkan oleh server DHCP (umumnya digunakan oleh modem kabel dan layanan DSL), pilih 'DHCP'."
+
+#: netsetup:574
+msgid ""
+"Select 'NetworkManager' if you would like to have the NetworkManager daemon "
+"automatically handle your wired and wireless network interfaces (this is "
+"simple and usually works)."
+msgstr "Pilih 'NetworkManager' jika Anda ingin daemon NetworkManager secara otomatis menangani antarmuka jaringan kabel dan nirkabel Anda (ini sederhana dan biasanya berfungsi)."
+
+#: netsetup:575
+msgid ""
+"IPv6 networks may also use SLAAC (Stateless Address Autoconfiguration) to "
+"assign an address based on Router Advertisments."
+msgstr "Jaringan IPv6 juga dapat menggunakan SLAAC (Stateless Address Autoconfiguration) untuk menetapkan alamat berdasarkan Router Advertisments."
+
+#: netsetup:576
+msgid "If you do not have a network card, select the 'loopback' choice."
+msgstr "Jika Anda tidak memiliki kartu jaringan, pilih opsi 'loopback'."
+
+#: netsetup:578
+msgid "Which type of network setup would you like?"
+msgstr "Jenis pengaturan jaringan apa yang Anda inginkan?"
+
+#: netsetup:590
+msgid "Use a static IP address to configure ethernet"
+msgstr "Gunakan alamat IP statis untuk mengonfigurasi ethernet"
+
+#: netsetup:591
+msgid "Use a DHCP server to configure ethernet"
+msgstr "Gunakan server DHCP untuk mengonfigurasi ethernet"
+
+#: netsetup:592
+msgid "Autoconfigure network using NetworkManager"
+msgstr "Konfigurasikan jaringan secara otomatis menggunakan NetworkManager"
+
+#: netsetup:593
+msgid "Use SLAAC to configure ethernet (IPv6 only)"
+msgstr "Gunakan SLAAC untuk mengonfigurasi ethernet (khusus IPv6)"
+
+#: netsetup:594
+msgid "Set up a loopback connection (modem or no net)"
+msgstr "Siapkan koneksi loopback (modem atau tanpa jaringan)"
+
+#: netsetup:603
+msgid "Please select the type of DHCP to use to configure your networking."
+msgstr "Silakan pilih jenis DHCP yang akan digunakan untuk mengonfigurasi jaringan Anda."
+
+#: netsetup:605
+msgid ""
+"Select 'DHCPv4' to configure for an IPv4 network (this is the most common "
+"type of network, and the safe choice)."
+msgstr "Pilih 'DHCPv4' untuk mengonfigurasi jaringan IPv4 (ini adalah jenis jaringan yang paling umum, dan pilihan yang aman)."
+
+#: netsetup:607
+msgid ""
+"Select 'DHCPv6' for a pure IPv6 network, or 'Both' to try and set up both "
+"types of network."
+msgstr "Pilih 'DHCPv6' untuk jaringan IPv6 murni, atau 'Keduanya' untuk mencoba menyiapkan kedua jenis jaringan."
+
+#: netsetup:612
+msgid "SELECT DHCP TYPE"
+msgstr "PILIH JENIS DHCP"
+
+#: netsetup:614
+msgid "An IPv4 based network, with no IPv6 configuration"
+msgstr "Jaringan berbasis IPv4, tanpa konfigurasi IPv6"
+
+#: netsetup:615
+msgid "An IPv6 based network, with no IPv4 configuration"
+msgstr "Jaringan berbasis IPv6, tanpa konfigurasi IPv4"
+
+#: netsetup:616
+msgid "Both"
+msgstr "Keduanya"
+
+#: netsetup:616
+msgid "A combination of IPv4 and IPv6 networks"
+msgstr "Kombinasi jaringan IPv4 dan IPv6"
+
+#: netsetup:631
+msgid ""
+"Some network providers require that the DHCP hostname be set in order to "
+"connect."
+msgstr "Beberapa penyedia jaringan mengharuskan hostname DHCP diatur agar dapat terhubung."
+
+#: netsetup:632
+msgid ""
+"If so, they'll have assigned a hostname to your machine, which may look "
+"something like CC-NUMBER-A (this depends on your ISP)."
+msgstr "Jika demikian, mereka akan menetapkan sebuah hostname untuk mesin Anda, yang mungkin terlihat seperti CC-NUMBER-A (ini bergantung pada ISP Anda)."
+
+#: netsetup:633
+msgid "If you were assigned a DHCP hostname, please enter it below."
+msgstr "Jika Anda diberi hostname DHCP, silakan masukkan di bawah ini."
+
+#: netsetup:634
+msgid ""
+"If you do not have a DHCP hostname, just leave it blank or select 'Skip'."
+msgstr "Jika Anda tidak memiliki hostname DHCP, biarkan kosong atau pilih 'Lewati'."
+
+#: netsetup:635
+msgid "SET DHCP HOSTNAME"
+msgstr "ATUR HOSTNAME DHCP"
+
+#: netsetup:665
+msgid "Enter the IPv4 addresses for this host."
+msgstr "Masukkan alamat IPv4 untuk host ini."
+
+#: netsetup:666
+msgid ""
+"You may list one or more, space delimited, IPv4 addresses with netmasks in "
+"the format:"
+msgstr "Anda dapat mencantumkan satu atau lebih alamat IPv4 yang dipisahkan spasi dengan netmask dalam format:"
+
+#: netsetup:668 netsetup:769
+msgid "IP address"
+msgstr "Alamat IP"
+
+#: netsetup:668
+msgid "CIDR netmask"
+msgstr "Netmask CIDR"
+
+#: netsetup:669
+msgid "For example:"
+msgstr "Misalnya:"
+
+#: netsetup:671 netsetup:771
+msgid "or"
+msgstr "atau"
+
+#: netsetup:672
+msgid "Old style netmask 255.255.255.0 is equivalent of 24 in CIDR style."
+msgstr "Netmask gaya lama 255.255.255.0 setara dengan 24 dalam gaya CIDR."
+
+#: netsetup:673
+msgid "If a netmask is not specified a default of 24 will be used."
+msgstr "Jika netmask tidak ditentukan, nilai default 24 akan digunakan."
+
+#: netsetup:675
+msgid ""
+"The first address entered will become the primary IPv4 address of this host."
+msgstr "Alamat pertama yang dimasukkan akan menjadi alamat IPv4 utama host ini."
+
+#: netsetup:676
+msgid ""
+"If you do not want to configure a static IPv4 address, just leave it blank "
+"or select 'Skip'."
+msgstr "Jika Anda tidak ingin mengonfigurasi alamat IPv4 statis, biarkan kosong atau pilih 'Lewati'."
+
+#: netsetup:677
+msgid "ENTER IPv4 ADDRESSES"
+msgstr "MASUKKAN ALAMAT IPv4"
+
+#: netsetup:698
+msgid "NO IPv4 ADDRESSES"
+msgstr "TIDAK ADA ALAMAT IPv4"
+
+#: netsetup:699 netsetup:795
+msgid "No IP specified in entry:"
+msgstr "Tidak ada IP yang ditentukan pada entri:"
+
+#: netsetup:712
+msgid "INVALID NETMASK"
+msgstr "NETMASK TIDAK VALID"
+
+#: netsetup:713
+msgid "Invalid netmask specified for entry:"
+msgstr "Netmask yang ditentukan tidak valid untuk entri:"
+
+#: netsetup:714
+msgid "Valid netmasks will be in the range 1-32."
+msgstr "Netmask yang valid akan berada dalam rentang 1-32."
+
+#: netsetup:732
+msgid "ENTER IPv4 GATEWAY ADDRESS"
+msgstr "MASUKKAN ALAMAT GATEWAY IPv4"
+
+#: netsetup:733
+msgid "Enter the address for the IPv4 gateway on your network, such as:"
+msgstr "Masukkan alamat gateway IPv4 pada jaringan Anda, seperti:"
+
+#: netsetup:736
+msgid ""
+"If you don't have an IPv4 gateway on your network, leave it blank or select "
+"'Skip'."
+msgstr "Jika Anda tidak memiliki gateway IPv4 pada jaringan Anda, biarkan kosong atau pilih 'Lewati'."
+
+#: netsetup:738
+msgid "Enter IPv4 gateway address:"
+msgstr "Masukkan alamat gateway IPv4:"
+
+#: netsetup:765
+msgid "ENTER IPv6 ADDRESSES"
+msgstr "MASUKKAN ALAMAT IPv6"
+
+#: netsetup:767
+msgid "Enter the IPv6 addresses for this host."
+msgstr "Masukkan alamat IPv6 untuk host ini."
+
+#: netsetup:768
+msgid ""
+"You may list one or more, space delimited, IPv6 addresses with their "
+"prefixes in the format:"
+msgstr "Anda dapat mencantumkan satu atau lebih alamat IPv6 yang dipisahkan spasi beserta prefiksnya dalam format:"
+
+#: netsetup:769
+msgid "prefix"
+msgstr "prefiks"
+
+#: netsetup:770
+msgid "For example"
+msgstr "Misalnya"
+
+#: netsetup:772
+msgid "If a prefix is not specified a default of 64 will be used."
+msgstr "Jika prefiks tidak ditentukan, nilai default 64 akan digunakan."
+
+#: netsetup:774
+msgid ""
+"If you do not want to configure a static IPv6 address or don't know what to "
+"put, just leave it blank or select 'Skip'."
+msgstr "Jika Anda tidak ingin mengonfigurasi alamat IPv6 statis atau tidak tahu harus mengisi apa, biarkan kosong atau pilih 'Lewati'."
+
+#: netsetup:794
+msgid "NO IPv6 ADDRESSES"
+msgstr "TIDAK ADA ALAMAT IPv6"
+
+#: netsetup:808
+msgid "INVALID PREFIX"
+msgstr "PREFIKS TIDAK VALID"
+
+#: netsetup:809
+msgid "Invalid prefix specified for entry:"
+msgstr "Prefiks yang ditentukan tidak valid untuk entri:"
+
+#: netsetup:810
+msgid "Valid prefixes will be in the range 1-128."
+msgstr "Prefiks yang valid akan berada dalam rentang 1-128."
+
+#: netsetup:828
+msgid "ENTER IPv6 GATEWAY ADDRESS"
+msgstr "MASUKKAN ALAMAT GATEWAY IPv6"
+
+#: netsetup:829
+msgid "Enter the address for the IPv6 gateway on your network, such as:"
+msgstr "Masukkan alamat gateway IPv6 pada jaringan Anda, seperti:"
+
+#: netsetup:832
+msgid ""
+"If you don't have an IPv6 gateway on your network, leave it blank or select "
+"'Skip'."
+msgstr "Jika Anda tidak memiliki gateway IPv6 pada jaringan Anda, biarkan kosong atau pilih 'Lewati'."
+
+#: netsetup:834
+msgid "Enter IPv6 gateway address:"
+msgstr "Masukkan alamat gateway IPv6:"
+
+#: netsetup:858
+msgid "NO IP ADDRESSES"
+msgstr "TIDAK ADA ALAMAT IP"
+
+#: netsetup:859
+msgid ""
+"You have not configured any IP addresses for this host. Are you sure you "
+"want to proceed with no IPs?"
+msgstr "Anda belum mengonfigurasi alamat IP apa pun untuk host ini. Apakah Anda yakin ingin melanjutkan tanpa IP?"
+
+#: netsetup:872
+msgid "USE A NAMESERVER?"
+msgstr "GUNAKAN NAMESERVER?"
+
+#: netsetup:872
+msgid "Will you be accessing a nameserver?"
+msgstr "Apakah Anda akan mengakses nameserver?"
+
+#: netsetup:895
+msgid "ENTER NAMESERVER IP ADDRESS"
+msgstr "MASUKKAN ALAMAT IP NAMESERVER"
+
+#: netsetup:897
+msgid "Please give the IP address of the name server to use, such as"
+msgstr "Silakan berikan alamat IP name server yang akan digunakan, seperti"
+
+#: netsetup:899
+msgid "You can add more Domain Name Servers later by editing"
+msgstr "Anda dapat menambahkan lebih banyak Domain Name Server nanti dengan mengedit"
+
+#: netsetup:902
+msgid "Primary name server to use:"
+msgstr "Name server utama yang akan digunakan:"
+
+#: netsetup:955
+msgid "PROBE FOR NETWORK CARD?"
+msgstr "PROBE UNTUK KARTU JARINGAN?"
+
+#: netsetup:955
+msgid ""
+"If you like, we can look to see what kind of network card you have in your "
+"machine, and if we find one create an /etc/rc.d/rc.netdevice script to load "
+"the module for it at boot time.  There's a slight bit of danger that the "
+"probing can cause problems, but it almost always works.  If you'd rather "
+"configure your system manually, you can skip the probing process and edit "
+"/etc/rc.d/rc.modules or /etc/modules.conf later to have it load the right "
+"module."
+msgstr "Jika Anda mau, kami dapat memeriksa jenis kartu jaringan yang ada di mesin Anda, dan jika kami menemukan satu, membuat skrip /etc/rc.d/rc.netdevice untuk memuat modulnya saat boot. Ada sedikit risiko bahwa proses probing dapat menimbulkan masalah, tetapi hampir selalu berhasil. Jika Anda lebih suka mengonfigurasi sistem Anda secara manual, Anda dapat melewati proses probing dan mengedit /etc/rc.d/rc.modules atau /etc/modules.conf nanti agar memuat modul yang tepat."
+
+#: netsetup:963
+msgid "probe"
+msgstr "probe"
+
+#: netsetup:963
+msgid "look for network cards to set up"
+msgstr "cari kartu jaringan untuk disiapkan"
+
+#: netsetup:964 netsetup:971
+msgid "skip"
+msgstr "lewati"
+
+#: netsetup:964
+msgid "skip probe;  edit /etc/rc.d/rc.modules later"
+msgstr "lewati probe; edit /etc/rc.d/rc.modules nanti"
+
+#: netsetup:977 netsetup:994
+msgid "CARD DETECTED"
+msgstr "KARTU TERDETEKSI"
+
+#: netsetup:977 netsetup:994
+#, sh-format
+msgid "A networking card using the $card.o module has been detected."
+msgstr "Sebuah kartu jaringan yang menggunakan modul $card.o telah terdeteksi."
+
+#: netsetup:1002
+msgid "NO CARD DETECTED"
+msgstr "TIDAK ADA KARTU TERDETEKSI"
+
+#: netsetup:1002
+msgid ""
+"Sorry, but no network card could be probed for on your system.  Some cards "
+"(like non-PCI NE2000s) must be supplied with the I/O address to use and "
+"can't be probed for safely. You'll have to try to configure the card later "
+"by editing /etc/rc.d/rc.modules or recompiling your kernel."
+msgstr "Maaf, tetapi tidak ada kartu jaringan yang dapat diprobe pada sistem Anda. Beberapa kartu (seperti NE2000 non-PCI) harus diberi alamat I/O yang akan digunakan dan tidak dapat diprobe dengan aman. Anda harus mencoba mengonfigurasi kartu tersebut nanti dengan mengedit /etc/rc.d/rc.modules atau mengompilasi ulang kernel Anda."
+
+#: netsetup:1012 netsetup:1023 netsetup:1033
+msgid "NETWORK SETUP COMPLETE"
+msgstr "PENGATURAN JARINGAN SELESAI"
+
+#: netsetup:1012
+msgid "Your networking system is now configured to use loopback:"
+msgstr "Sistem jaringan Anda sekarang dikonfigurasi untuk menggunakan loopback:"
+
+#: netsetup:1015 netsetup:1038 netsetup:1106
+msgid "IP addresses"
+msgstr "Alamat IP"
+
+#: netsetup:1017
+msgid "Is this correct?  Press 'Yes' to continue, or 'No' to abandon."
+msgstr "Apakah ini benar? Tekan 'Ya' untuk melanjutkan, atau 'Tidak' untuk membatalkan."
+
+#: netsetup:1024
+msgid ""
+"Your networking system is now configured to use NetworkManager for wired and"
+" wireless network management."
+msgstr "Sistem jaringan Anda sekarang dikonfigurasi untuk menggunakan NetworkManager untuk pengelolaan jaringan kabel dan nirkabel."
+
+#: netsetup:1025
+msgid ""
+"To set up wireless networks and view status, add the Network Management "
+"control panel widget to your desktop."
+msgstr "Untuk menyiapkan jaringan nirkabel dan melihat status, tambahkan widget panel kontrol Manajemen Jaringan ke desktop Anda."
+
+#: netsetup:1027
+msgid "Is this correct?  Press 'Yes' to confirm, or 'No' to abandon."
+msgstr "Apakah ini benar? Tekan 'Ya' untuk mengonfirmasi, atau 'Tidak' untuk membatalkan."
+
+#: netsetup:1034
+msgid "Your system is now set up to autoconfigure an IPv6 IP address:"
+msgstr "Sistem Anda sekarang disiapkan untuk mengonfigurasi otomatis alamat IP IPv6:"
+
+#: netsetup:1035 netsetup:1058 netsetup:1070 netsetup:1102
+msgid "Hostname"
+msgstr "Hostname"
+
+#: netsetup:1036
+msgid "Domain name"
+msgstr "Nama domain"
+
+#: netsetup:1037 netsetup:1039 netsetup:1104 netsetup:1105
+msgid "none"
+msgstr "tidak ada"
+
+#: netsetup:1038
+msgid "use IPv6 SLAAC"
+msgstr "gunakan SLAAC IPv6"
+
+#: netsetup:1039 netsetup:1065 netsetup:1084 netsetup:1109
+msgid "Nameserver"
+msgstr "Nameserver"
+
+#: netsetup:1041
+msgid "If this is correct, hit 'Yes' to confirm, or 'No' to abandon."
+msgstr "Jika ini benar, tekan 'Ya' untuk mengonfirmasi, atau 'Tidak' untuk membatalkan."
+
+#: netsetup:1048
+msgid "CONFIRM NETWORK SETUP"
+msgstr "KONFIRMASI PENGATURAN JARINGAN"
+
+#: netsetup:1049
+msgid "Accept"
+msgstr "Terima"
+
+#: netsetup:1050
+msgid "Edit"
+msgstr "Edit"
+
+#: netsetup:1051
+msgid "Abandon"
+msgstr "Batalkan"
+
+#: netsetup:1053
+msgid "These are the settings you have entered."
+msgstr "Berikut adalah pengaturan yang telah Anda masukkan."
+
+#: netsetup:1054
+msgid "To accept them and complete the networking setup, press ENTER."
+msgstr "Untuk menerimanya dan menyelesaikan pengaturan jaringan, tekan ENTER."
+
+#: netsetup:1055
+msgid ""
+"If you need to make any changes, you can do that now using 'Edit' (or "
+"reconfigure later using 'netsetup')."
+msgstr "Jika Anda perlu melakukan perubahan, Anda dapat melakukannya sekarang menggunakan 'Edit' (atau mengonfigurasi ulang nanti menggunakan 'netsetup')."
+
+#: netsetup:1059 netsetup:1072 netsetup:1103
+msgid "Domain Name"
+msgstr "Nama Domain"
+
+#: netsetup:1061 netsetup:1076
+msgid "IPv4 Addresses"
+msgstr "Alamat IPv4"
+
+#: netsetup:1062 netsetup:1078
+msgid "IPv4 Gateway"
+msgstr "Gateway IPv4"
+
+#: netsetup:1063 netsetup:1080
+msgid "IPv6 Addresses"
+msgstr "Alamat IPv6"
+
+#: netsetup:1064 netsetup:1082
+msgid "IPv6 Gateway"
+msgstr "Gateway IPv6"
+
+#: netsetup:1099
+msgid "CONFIRM SETUP COMPLETE"
+msgstr "KONFIRMASI PENYIAPAN SELESAI"
+
+#: netsetup:1100
+#, sh-format
+msgid "Your networking system is now configured to use DHCP"
+msgstr "Sistem jaringan Anda sekarang dikonfigurasi untuk menggunakan DHCP"
+
+#: netsetup:1105
+msgid "DHCP hostname"
+msgstr "Hostname DHCP"
+
+#: netsetup:1106 netsetup:1107 netsetup:1108 netsetup:1109
+msgid "use DHCP server"
+msgstr "gunakan server DHCP"
+
+#: netsetup:1107
+msgid "Netmask & Prefix"
+msgstr "Netmask & Prefiks"
+
+#: netsetup:1108
+msgid "Gateways"
+msgstr "Gateway"
+
+#: netsetup:1111
+msgid "Is this correct?  Press 'Yes' to continue, or 'No' to reconfigure."
+msgstr "Apakah ini benar? Tekan 'Ya' untuk melanjutkan, atau 'Tidak' untuk mengonfigurasi ulang."
+
+#: netsetup:1128
+msgid "Settings accepted.  Basic network configuration is complete."
+msgstr "Pengaturan diterima. Konfigurasi jaringan dasar selesai."
+
+#: netsetup:1130
+msgid ""
+"Settings discarded.  Run the 'netsetup' command again if you need to "
+"reconfigure your network settings."
+msgstr "Pengaturan dibuang. Jalankan perintah 'netsetup' lagi jika Anda perlu mengonfigurasi ulang pengaturan jaringan Anda."
+
+#: setup.netsetup:36
+msgid "CONFIGURE NETWORK?"
+msgstr "KONFIGURASI JARINGAN?"
+
+#: setup.netsetup:36
+msgid "Would you like to configure your network?"
+msgstr "Apakah Anda ingin mengonfigurasi jaringan Anda?"

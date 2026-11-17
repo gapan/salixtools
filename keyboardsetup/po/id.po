@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Arif Budiman <arifpedia@gmail.com>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2010-11-30 12:19+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>, 2026\n"
+"Language-Team: Indonesian (http://app.transifex.com/gapan/salixtools/language/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: keyboardsetup:16
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Anda memerlukan hak akses root untuk menjalankan ini"
+
+#: keyboardsetup:65
+#, sh-format
+msgid "USAGE:"
+msgstr "PENGGUNAAN:"
+
+#: keyboardsetup:67
+#, sh-format
+msgid "OPTIONS:"
+msgstr "OPSI:"
+
+#: keyboardsetup:69
+#, sh-format
+msgid "a valid keyboard map"
+msgstr "peta keyboard yang valid"
+
+#: keyboardsetup:70
+#, sh-format
+msgid "the numlock state, on or off"
+msgstr "status numlock, aktif atau nonaktif"
+
+#: keyboardsetup:71
+#, sh-format
+msgid "the IBus state, on or off"
+msgstr "status IBus, aktif atau nonaktif"
+
+#: keyboardsetup:72
+#, sh-format
+msgid "the SCIM state, on or off"
+msgstr "status SCIM, aktif atau nonaktif"
+
+#: keyboardsetup:73
+#, sh-format
+msgid "do not apply changes on the fly, only edit settings files"
+msgstr "jangan terapkan perubahan secara langsung, hanya edit berkas pengaturan"
+
+#: keyboardsetup:134
+#, sh-format
+msgid ""
+"ERROR: $OPTARG is not a valid keymap. You can look in $salixtoolsdir/keymaps"
+" for a list of valid keymaps"
+msgstr "KESALAHAN: $OPTARG bukan peta keyboard yang valid. Anda dapat melihat di $salixtoolsdir/keymaps untuk daftar peta keyboard yang valid"
+
+#: keyboardsetup:148 keyboardsetup:157 keyboardsetup:166
+#, sh-format
+msgid "ERROR: $OPTARG is not a valid option."
+msgstr "KESALAHAN: $OPTARG bukan opsi yang valid."
+
+#: keyboardsetup:183
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "KESALAHAN: Terlalu banyak argumen"
+
+#: keyboardsetup:234
+#, sh-format
+msgid "Keyboard configuration"
+msgstr "Konfigurasi keyboard"
+
+#: keyboardsetup:236
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: keyboardsetup:237
+#, sh-format
+msgid "Exit"
+msgstr "Keluar"
+
+#: keyboardsetup:239
+#, sh-format
+msgid "Please select your preferred keyboard map:"
+msgstr "Silakan pilih peta keyboard pilihan Anda:"
+
+#: keyboardsetup:262
+#, sh-format
+msgid "Numlock configuration"
+msgstr "Konfigurasi numlock"
+
+#: keyboardsetup:263 keyboardsetup:288 keyboardsetup:314
+#, sh-format
+msgid "Enabled"
+msgstr "Diaktifkan"
+
+#: keyboardsetup:264 keyboardsetup:289 keyboardsetup:315
+#, sh-format
+msgid "Disabled"
+msgstr "Dinonaktifkan"
+
+#: keyboardsetup:267
+#, sh-format
+msgid "Do you want to have numlock enabled or disabled by default?"
+msgstr "Apakah Anda ingin numlock diaktifkan atau dinonaktifkan secara default?"
+
+#: keyboardsetup:287
+#, sh-format
+msgid "IBus configuration"
+msgstr "Konfigurasi IBus"
+
+#: keyboardsetup:292
+#, sh-format
+msgid ""
+"IBus is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
+msgstr "IBus adalah platform input untuk bahasa Tionghoa, Jepang, Korea, dan banyak bahasa lainnya saat menggunakan lingkungan grafis. Apakah Anda ingin mengaktifkan atau menonaktifkannya saat boot?\\\n\\\nAnda harus memulai ulang sistem Anda agar ini berlaku."
+
+#: keyboardsetup:313
+#, sh-format
+msgid "SCIM configuration"
+msgstr "Konfigurasi SCIM"
+
+#: keyboardsetup:318
+#, sh-format
+msgid ""
+"SCIM is an input platform for Chinese, Japanese, Korean and many other "
+"languages when using a graphical environment. Do you want to have it enabled"
+" or disabled on boot?\\n\\nYou will have to restart your system for this to "
+"take effect."
+msgstr "SCIM adalah platform input untuk bahasa Tionghoa, Jepang, Korea, dan banyak bahasa lainnya saat menggunakan lingkungan grafis. Apakah Anda ingin mengaktifkan atau menonaktifkannya saat boot?\\\n\\\nAnda harus memulai ulang sistem Anda agar ini berlaku."

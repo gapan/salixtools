@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Arif Budiman <arifpedia@gmail.com>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 22:56+0200\n"
+"PO-Revision-Date: 2010-11-30 12:19+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>, 2026\n"
+"Language-Team: Indonesian (http://app.transifex.com/gapan/salixtools/language/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: clocksetup:7
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Anda memerlukan hak akses root untuk menjalankan ini"
+
+#: clocksetup:43
+#, sh-format
+msgid "USAGE:"
+msgstr "PENGGUNAAN:"
+
+#: clocksetup:45
+#, sh-format
+msgid "OPTIONS:"
+msgstr "OPSI:"
+
+#: clocksetup:47
+#, sh-format
+msgid "only show the hardware clock configuration dialog"
+msgstr "hanya tampilkan dialog konfigurasi jam perangkat keras"
+
+#: clocksetup:48
+#, sh-format
+msgid "only show the date configuration dialog"
+msgstr "hanya tampilkan dialog konfigurasi tanggal"
+
+#: clocksetup:49
+#, sh-format
+msgid "only show the time configuration dialog"
+msgstr "hanya tampilkan dialog konfigurasi waktu"
+
+#: clocksetup:50
+#, sh-format
+msgid "only show the timezone configuration dialog"
+msgstr "hanya tampilkan dialog konfigurasi zona waktu"
+
+#: clocksetup:51
+#, sh-format
+msgid "this help message"
+msgstr "pesan bantuan ini"
+
+#: clocksetup:90
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "KESALAHAN: Terlalu banyak argumen"
+
+#: clocksetup:100 clocksetup:164 clocksetup:185 clocksetup:206 clocksetup:256
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: clocksetup:101
+#, sh-format
+msgid "Exit"
+msgstr "Keluar"
+
+#: clocksetup:102
+#, sh-format
+msgid "System clock configuration"
+msgstr "Konfigurasi jam sistem"
+
+#: clocksetup:104
+#, sh-format
+msgid "Currently the clock is set to:"
+msgstr "Saat ini jam diatur ke:"
+
+#: clocksetup:105
+#, sh-format
+msgid "Please choose an option:"
+msgstr "Silakan pilih sebuah opsi:"
+
+#: clocksetup:107
+#, sh-format
+msgid "Set the time manually"
+msgstr "Atur waktu secara manual"
+
+#: clocksetup:108
+#, sh-format
+msgid "Set the date manually"
+msgstr "Atur tanggal secara manual"
+
+#: clocksetup:109
+#, sh-format
+msgid "Set the time zone"
+msgstr "Atur zona waktu"
+
+#: clocksetup:110
+#, sh-format
+msgid "Configure the hardware clock"
+msgstr "Konfigurasikan jam perangkat keras"
+
+#: clocksetup:111
+#, sh-format
+msgid "Synchronize with Network Time Protocol (NTP)"
+msgstr "Sinkronkan dengan Network Time Protocol (NTP)"
+
+#: clocksetup:163
+#, sh-format
+msgid "Clock adjustment"
+msgstr "Penyesuaian jam"
+
+#: clocksetup:165 clocksetup:186 clocksetup:207 clocksetup:257
+#, sh-format
+msgid "Cancel"
+msgstr "Batal"
+
+#: clocksetup:167
+#, sh-format
+msgid "Please set the time..."
+msgstr "Silakan atur waktu..."
+
+#: clocksetup:184
+#, sh-format
+msgid "Date adjustment"
+msgstr "Penyesuaian tanggal"
+
+#: clocksetup:188
+#, sh-format
+msgid "Please set the date..."
+msgstr "Silakan atur tanggal..."
+
+#: clocksetup:208
+#, sh-format
+msgid "Time zone configuration"
+msgstr "Konfigurasi zona waktu"
+
+#: clocksetup:210
+#, sh-format
+msgid "Please select your time zone..."
+msgstr "Silakan pilih zona waktu Anda..."
+
+#: clocksetup:230
+#, sh-format
+msgid "Warning"
+msgstr "Peringatan"
+
+#: clocksetup:232
+#, sh-format
+msgid "You are already using the ntpd service and clock should be correct."
+msgstr "Anda sudah menggunakan layanan ntpd dan jam seharusnya sudah benar."
+
+#: clocksetup:236
+#, sh-format
+msgid "Error"
+msgstr "Kesalahan"
+
+#: clocksetup:238
+#, sh-format
+msgid "Something went wrong. Time was not adjusted."
+msgstr "Terjadi kesalahan. Waktu tidak disesuaikan."
+
+#: clocksetup:258
+#, sh-format
+msgid "Hardware clock set to UTC?"
+msgstr "Jam perangkat keras diatur ke UTC?"
+
+#: clocksetup:260
+#, sh-format
+msgid ""
+"Is the hardware clock set to Coordinated Universal Time (UTC/GMT)? If it is,"
+" select YES here.  If the hardware clock is set to the current local time "
+"(this is how most PCs are set up), then say NO here.  If you are not sure "
+"what this is, you should answer NO here."
+msgstr "Apakah jam perangkat keras diatur ke Coordinated Universal Time (UTC/GMT)? Jika ya, pilih YA di sini. Jika jam perangkat keras diatur ke waktu lokal saat ini (seperti pengaturan kebanyakan PC), maka pilih TIDAK di sini. Jika Anda tidak yakin apa maksudnya, sebaiknya Anda menjawab TIDAK di sini."
+
+#: clocksetup:261
+#, sh-format
+msgid "No"
+msgstr "Tidak"
+
+#: clocksetup:261
+#, sh-format
+msgid "Hardware clock is set to local time"
+msgstr "Jam perangkat keras diatur ke waktu lokal"
+
+#: clocksetup:262
+#, sh-format
+msgid "Yes"
+msgstr "Ya"
+
+#: clocksetup:262
+#, sh-format
+msgid "Hardware clock is set to UTC"
+msgstr "Jam perangkat keras diatur ke UTC"

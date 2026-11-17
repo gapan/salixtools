@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Arif Budiman <arifpedia@gmail.com>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-17 22:15+0300\n"
+"PO-Revision-Date: 2013-08-29 23:21+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>, 2026\n"
+"Language-Team: Indonesian (http://app.transifex.com/gapan/salixtools/language/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: reposetup:8
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Anda memerlukan hak akses root untuk menjalankan ini"
+
+#: reposetup:105
+#, sh-format
+msgid "Select repository mirror"
+msgstr "Pilih mirror repositori"
+
+#: reposetup:107
+#, sh-format
+msgid "Select"
+msgstr "Pilih"
+
+#: reposetup:108
+#, sh-format
+msgid "Cancel"
+msgstr "Batal"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"Please select your preferred repository mirror. The country code of where "
+"the mirror is located is shown on the right. Your selection will be applied "
+"to the /etc/slapt-get/slapt-getrc and /etc/slapt-get/slapt-srcrc files:"
+msgstr "Silakan pilih mirror repositori yang Anda inginkan. Kode negara tempat mirror tersebut berada ditampilkan di sebelah kanan. Pilihan Anda akan diterapkan pada berkas /etc/slapt-get/slapt-getrc dan /etc/slapt-get/slapt-srcrc:"
+
+#: reposetup:110
+#, sh-format
+msgid ""
+"WARNING: Any changes you have manually made in the SOURCE lines of those "
+"files will be lost!"
+msgstr "PERINGATAN: Setiap perubahan yang Anda buat secara manual pada baris SOURCE di berkas-berkas tersebut akan hilang!"
+
+#: reposetup:124
+#, sh-format
+msgid "Update package caches?"
+msgstr "Perbarui cache paket?"
+
+#: reposetup:125
+#, sh-format
+msgid "Update"
+msgstr "Perbarui"
+
+#: reposetup:126
+#, sh-format
+msgid "Do not update"
+msgstr "Jangan perbarui"
+
+#: reposetup:127
+#, sh-format
+msgid "Would you like to update the package and SlackBuild caches now?"
+msgstr "Apakah Anda ingin memperbarui cache paket dan SlackBuild sekarang?"
+
+#: reposetup:171
+#, sh-format
+msgid "USAGE:"
+msgstr "PENGGUNAAN:"
+
+#: reposetup:171
+#, sh-format
+msgid "mirror"
+msgstr "mirror"
+
+#: reposetup:173
+#, sh-format
+msgid "OPTIONS:"
+msgstr "OPSI:"
+
+#: reposetup:174
+#, sh-format
+msgid "Specify a repository mirror manually"
+msgstr "Tentukan mirror repositori secara manual"
+
+#: reposetup:175
+#, sh-format
+msgid "Use local mirror list and do not download a new one"
+msgstr "Gunakan daftar mirror lokal dan jangan unduh yang baru"
+
+#: reposetup:176
+#, sh-format
+msgid "Do not update/ask for updating the package caches"
+msgstr "Jangan memperbarui/menanyakan pembaruan cache paket"
+
+#: reposetup:177
+#, sh-format
+msgid "Print currently selected mirror"
+msgstr "Cetak mirror yang saat ini dipilih"
+
+#: reposetup:178
+#, sh-format
+msgid "This help message"
+msgstr "Pesan bantuan ini"
+
+#: reposetup:230
+#, sh-format
+msgid "ERROR: Too many arguments"
+msgstr "KESALAHAN: Terlalu banyak argumen"
+
+#: reposetup:245 reposetup:266
+#, sh-format
+msgid "Refreshing mirror list from"
+msgstr "Menyegarkan daftar mirror dari"
+
+#: reposetup:252 reposetup:273
+#, sh-format
+msgid "Getting mirror list failed"
+msgstr "Gagal mendapatkan daftar mirror"

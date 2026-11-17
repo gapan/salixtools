@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Arif Budiman <arifpedia@gmail.com>, 2026
+msgid ""
+msgstr ""
+"Project-Id-Version: salixtools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 22:41+0200\n"
+"PO-Revision-Date: 2010-11-30 12:18+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>, 2026\n"
+"Language-Team: Indonesian (http://app.transifex.com/gapan/salixtools/language/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: usersetup:18
+#, sh-format
+msgid "You need root privileges to run this"
+msgstr "Anda memerlukan hak akses root untuk menjalankan ini"
+
+#: usersetup:42
+#, sh-format
+msgid "Select"
+msgstr "Pilih"
+
+#: usersetup:43
+#, sh-format
+msgid "Exit user setup"
+msgstr "Keluar dari penyiapan pengguna"
+
+#: usersetup:44
+#, sh-format
+msgid "Users accounts management"
+msgstr "Pengelolaan akun pengguna"
+
+#: usersetup:46
+#, sh-format
+msgid "Please choose an option..."
+msgstr "Silakan pilih sebuah opsi..."
+
+#: usersetup:48
+#, sh-format
+msgid "Create a new account"
+msgstr "Buat akun baru"
+
+#: usersetup:49
+#, sh-format
+msgid "Create a new account (advanced mode)"
+msgstr "Buat akun baru (mode lanjutan)"
+
+#: usersetup:50
+#, sh-format
+msgid "Modify account properties"
+msgstr "Ubah properti akun"
+
+#: usersetup:51
+#, sh-format
+msgid "Change account password"
+msgstr "Ubah kata sandi akun"
+
+#: usersetup:52
+#, sh-format
+msgid "Delete accounts"
+msgstr "Hapus akun"
+
+#: usersetup:53
+#, sh-format
+msgid "List groups and memberships"
+msgstr "Daftar grup dan keanggotaan"
+
+#: usersetup:54
+#, sh-format
+msgid "Create a new group"
+msgstr "Buat grup baru"
+
+#: usersetup:55
+#, sh-format
+msgid "Change group name"
+msgstr "Ubah nama grup"
+
+#: usersetup:56
+#, sh-format
+msgid "Delete groups"
+msgstr "Hapus grup"
+
+#: usersetup:72 usersetup:195
+#, sh-format
+msgid "Account properties"
+msgstr "Properti akun"
+
+#: usersetup:73 usersetup:238
+#, sh-format
+msgid "Properties"
+msgstr "Properti"
+
+#: usersetup:74 usersetup:91 usersetup:108 usersetup:125 usersetup:142
+#: usersetup:160 usersetup:197 usersetup:239
+#, sh-format
+msgid "Back"
+msgstr "Kembali"
+
+#: usersetup:76
+#, sh-format
+msgid "Select an account to view its properties..."
+msgstr "Pilih akun untuk melihat propertinya..."
+
+#: usersetup:89
+#, sh-format
+msgid "Account deletion"
+msgstr "Penghapusan akun"
+
+#: usersetup:90 usersetup:159 usersetup:660 usersetup:724
+#, sh-format
+msgid "Delete"
+msgstr "Hapus"
+
+#: usersetup:93
+#, sh-format
+msgid "Select an account to delete..."
+msgstr "Pilih akun untuk dihapus..."
+
+#: usersetup:106
+#, sh-format
+msgid "Change password"
+msgstr "Ubah kata sandi"
+
+#: usersetup:107
+#, sh-format
+msgid "Change"
+msgstr "Ubah"
+
+#: usersetup:110
+#, sh-format
+msgid "Select an account to change password for..."
+msgstr "Pilih akun yang akan diubah kata sandinya..."
+
+#: usersetup:123
+#, sh-format
+msgid "Group memberships"
+msgstr "Keanggotaan grup"
+
+#: usersetup:124
+#, sh-format
+msgid "Memberships"
+msgstr "Keanggotaan"
+
+#: usersetup:127
+#, sh-format
+msgid "Select a group to view memberships for..."
+msgstr "Pilih grup untuk melihat keanggotaan..."
+
+#: usersetup:140 usersetup:529
+#, sh-format
+msgid "Group name"
+msgstr "Nama grup"
+
+#: usersetup:141 usersetup:196
+#, sh-format
+msgid "Modify"
+msgstr "Ubah"
+
+#: usersetup:144
+#, sh-format
+msgid "Select group name to modify..."
+msgstr "Pilih nama grup yang akan diubah..."
+
+#: usersetup:158
+#, sh-format
+msgid "Group deletion"
+msgstr "Penghapusan grup"
+
+#: usersetup:162
+#, sh-format
+msgid "Select a group to delete..."
+msgstr "Pilih grup untuk dihapus..."
+
+#: usersetup:199
+#, sh-format
+msgid "Detailed information for account"
+msgstr "Informasi terperinci untuk akun"
+
+#: usersetup:201 usersetup:471 usersetup:578
+#, sh-format
+msgid "Full name"
+msgstr "Nama lengkap"
+
+#: usersetup:202 usersetup:260 usersetup:554
+#, sh-format
+msgid "Account name"
+msgstr "Nama akun"
+
+#: usersetup:203 usersetup:558
+#, sh-format
+msgid "Main Group"
+msgstr "Grup utama"
+
+#: usersetup:204 usersetup:321 usersetup:562
+#, sh-format
+msgid "Home directory"
+msgstr "Direktori home"
+
+#: usersetup:205 usersetup:347 usersetup:570
+#, sh-format
+msgid "Shell"
+msgstr "Shell"
+
+#: usersetup:206 usersetup:566
+#, sh-format
+msgid "Other groups"
+msgstr "Grup lain"
+
+#: usersetup:207 usersetup:574
+#, sh-format
+msgid "Expiry"
+msgstr "Kedaluwarsa"
+
+#: usersetup:208 usersetup:582
+#, sh-format
+msgid "Office"
+msgstr "Kantor"
+
+#: usersetup:209 usersetup:499 usersetup:586
+#, sh-format
+msgid "Work phone"
+msgstr "Telepon kantor"
+
+#: usersetup:210 usersetup:513 usersetup:590
+#, sh-format
+msgid "Home phone"
+msgstr "Telepon rumah"
+
+#: usersetup:237 usersetup:247
+#, sh-format
+msgid "Group members"
+msgstr "Anggota grup"
+
+#: usersetup:241
+#, sh-format
+msgid "Members of group"
+msgstr "Anggota grup"
+
+#: usersetup:249
+#, sh-format
+msgid "There are no accounts in group"
+msgstr "Tidak ada akun dalam grup"
+
+#: usersetup:262
+#, sh-format
+msgid "Enter the new account name..."
+msgstr "Masukkan nama akun baru..."
+
+#: usersetup:271
+#, sh-format
+msgid "An account name cannot contain a space, please correct it..."
+msgstr "Nama akun tidak boleh mengandung spasi, silakan perbaiki..."
+
+#: usersetup:273
+#, sh-format
+msgid "The account name $user already exists, please choose another name..."
+msgstr "Nama akun $user sudah ada, silakan pilih nama lain..."
+
+#: usersetup:275
+#, sh-format
+msgid "The account name is empty, please correct it..."
+msgstr "Nama akun kosong, silakan perbaiki..."
+
+#: usersetup:277
+#, sh-format
+msgid "An account name cannot begin with a number, please correct it..."
+msgstr "Nama akun tidak boleh diawali angka, silakan perbaiki..."
+
+#: usersetup:279
+#, sh-format
+msgid ""
+"An account name cannot contain uppercase characters, please correct it..."
+msgstr "Nama akun tidak boleh mengandung huruf kapital, silakan perbaiki..."
+
+#: usersetup:281
+#, sh-format
+msgid "An account name cannot contain punctuation marks, please correct it..."
+msgstr "Nama akun tidak boleh mengandung tanda baca, silakan perbaiki..."
+
+#: usersetup:305
+#, sh-format
+msgid "Group membership"
+msgstr "Keanggotaan grup"
+
+#: usersetup:306 usersetup:322 usersetup:348 usersetup:368 usersetup:393
+#: usersetup:472 usersetup:486 usersetup:500 usersetup:514 usersetup:530
+#, sh-format
+msgid "OK"
+msgstr "OK"
+
+#: usersetup:309
+#, sh-format
+msgid "Enter the main group for account"
+msgstr "Masukkan grup utama untuk akun"
+
+#: usersetup:324
+#, sh-format
+msgid "Enter the home directory for account"
+msgstr "Masukkan direktori home untuk akun"
+
+#: usersetup:351
+#, sh-format
+msgid "Enter the shell interpreter for account"
+msgstr "Masukkan interpreter shell untuk akun"
+
+#: usersetup:367
+#, sh-format
+msgid "Additional group membership"
+msgstr "Keanggotaan grup tambahan"
+
+#: usersetup:370
+#, sh-format
+msgid "Add some additional group to the list..."
+msgstr "Tambahkan beberapa grup tambahan ke dalam daftar..."
+
+#: usersetup:392
+#, sh-format
+msgid "Expiry date"
+msgstr "Tanggal kedaluwarsa"
+
+#: usersetup:394
+#, sh-format
+msgid "Never"
+msgstr "Tidak pernah"
+
+#: usersetup:397
+#, sh-format
+msgid "Set the account expiry date..."
+msgstr "Atur tanggal kedaluwarsa akun..."
+
+#: usersetup:433
+#, sh-format
+msgid "Enter password for account"
+msgstr "Masukkan kata sandi untuk akun"
+
+#: usersetup:434
+#, sh-format
+msgid "Passwords do not match, please try again..."
+msgstr "Kata sandi tidak cocok, silakan coba lagi..."
+
+#: usersetup:437
+#, sh-format
+msgid ""
+"Password is too short (${minlength} chars minimum), please try another "
+"one..."
+msgstr "Kata sandi terlalu pendek (minimal ${minlength} karakter), silakan coba yang lain..."
+
+#: usersetup:440
+#, sh-format
+msgid "Enter password again for account"
+msgstr "Masukkan kata sandi lagi untuk akun"
+
+#: usersetup:457
+#, sh-format
+msgid "Failed to set password for account"
+msgstr "Gagal mengatur kata sandi untuk akun"
+
+#: usersetup:474
+#, sh-format
+msgid "Enter the full name of the user"
+msgstr "Masukkan nama lengkap pengguna"
+
+#: usersetup:485
+#, sh-format
+msgid "Office information"
+msgstr "Informasi kantor"
+
+#: usersetup:488
+#, sh-format
+msgid "Enter office information for the user"
+msgstr "Masukkan informasi kantor untuk pengguna"
+
+#: usersetup:502
+#, sh-format
+msgid "Enter the work phone number of the user"
+msgstr "Masukkan nomor telepon kantor pengguna"
+
+#: usersetup:516
+#, sh-format
+msgid "Enter the home phone number of the user"
+msgstr "Masukkan nomor telepon rumah pengguna"
+
+#: usersetup:532
+#, sh-format
+msgid "Enter the new group name"
+msgstr "Masukkan nama grup baru"
+
+#: usersetup:627 usersetup:648 usersetup:657 usersetup:721
+#, sh-format
+msgid "Warning"
+msgstr "Peringatan"
+
+#: usersetup:657
+#, sh-format
+msgid "You cannot delete the account"
+msgstr "Anda tidak dapat menghapus akun"
+
+#: usersetup:659
+#, sh-format
+msgid "Confirm user deletion"
+msgstr "Konfirmasi penghapusan pengguna"
+
+#: usersetup:661 usersetup:725
+#, sh-format
+msgid "Cancel"
+msgstr "Batal"
+
+#: usersetup:663
+#, sh-format
+msgid "Are you sure you want to delete user $user?"
+msgstr "Apakah Anda yakin ingin menghapus pengguna $user?"
+
+#: usersetup:721
+#, sh-format
+msgid "You cannot delete the group"
+msgstr "Anda tidak dapat menghapus grup"
+
+#: usersetup:723
+#, sh-format
+msgid "Confirm group deletion"
+msgstr "Konfirmasi penghapusan grup"
+
+#: usersetup:727
+#, sh-format
+msgid "Are you sure you want to delete the $group group?"
+msgstr "Apakah Anda yakin ingin menghapus grup $group?"
